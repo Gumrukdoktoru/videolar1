@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<title>Demiryolu Araçları Tip Onay — Değişiklik Carousel</title>
+<link rel="stylesheet" href="fonts/fonts.css" />
+<style>
+:root {
+  --paper:#F6F4EE; --paper2:#EFECE3; --ink:#0B1A44; --ink2:#3A4670; --muted:#6B7493;
+  --blue:#1F45D6; --blue2:#8EA4EA; --blueBg:#E4EAFD; --line:rgba(11,26,68,.14);
+  --red:#C8201B; --redBg:#FBE4E2; --green:#0B8A5F; --greenBg:#DDF3EA; --amber:#E08A00; --amberBg:#FFF1D6;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#c9c6bd; font-family:Montserrat, sans-serif; color:var(--ink); }
+.slide { position:relative; width:1080px; height:1350px; overflow:hidden; margin:0 auto 40px; background:var(--paper);
+  background-image:
+    linear-gradient(rgba(11,26,68,.075) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(11,26,68,.075) 1.5px, transparent 1.5px),
+    linear-gradient(rgba(11,26,68,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(11,26,68,.035) 1px, transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px; background-position:36px 36px; }
+.frame { position:absolute; inset:36px; border:2.5px solid var(--ink); pointer-events:none; }
+.frame:after { content:""; position:absolute; inset:8px; border:1px solid rgba(11,26,68,.35); }
+.hdr { position:absolute; left:72px; right:72px; top:66px; display:flex; justify-content:space-between; align-items:center;
+  font:700 20px 'JetBrains Mono', monospace; letter-spacing:.08em; color:var(--ink2); }
+.hdr .tag { display:flex; align-items:center; gap:12px; }
+.hdr .tag i { width:12px; height:12px; background:var(--blue); display:block; }
+.content { position:absolute; left:72px; right:72px; top:124px; height:960px; }
+.kick { display:inline-block; font:700 20px 'JetBrains Mono'; letter-spacing:.14em; color:#fff; background:var(--ink); padding:8px 14px; }
+.h { font-family:'Archivo Black', sans-serif; font-size:64px; line-height:1.04; letter-spacing:-.01em; margin-top:18px; }
+.h em { font-style:normal; color:var(--blue); }
+.lead { font:500 27px/1.4 Montserrat; color:var(--ink2); margin-top:16px; }
+.lead b { color:var(--ink); font-weight:800; }
+
+/* rail band + title block */
+.rail { position:absolute; left:36px; right:36px; top:1112px; height:56px; }
+.rail svg { display:block; }
+.tb { position:absolute; left:36px; right:36px; bottom:36px; height:146px; border-top:2.5px solid var(--ink); display:grid;
+  grid-template-columns: 330px 1fr 190px; }
+.tb > div { border-right:1.5px solid var(--ink); padding:18px 22px; display:flex; flex-direction:column; justify-content:center; }
+.tb > div:last-child { border-right:none; }
+.tb .lg img { width:282px; }
+.tb .ti small, .tb .pg small { font:700 15px 'JetBrains Mono'; letter-spacing:.12em; color:var(--muted); }
+.tb .ti b { font:800 22px/1.25 Montserrat; color:var(--ink); margin-top:4px; }
+.tb .pg { align-items:flex-start; }
+.tb .pg b { font-family:'Archivo Black'; font-size:44px; line-height:1; color:var(--ink); margin-top:4px; }
+.tb .pg span { font:700 17px Montserrat; color:var(--blue); margin-top:6px; }
+
+/* atoms */
+.badge { display:inline-flex; align-items:center; gap:10px; font:900 22px Montserrat; letter-spacing:.08em; padding:8px 16px 8px 12px; border-radius:8px; }
+.badge svg { width:26px; height:26px; }
+.b-onemli { background:#FFC53D; color:#2a1d00; }
+.b-dikkat { background:#FF9F43; color:#2b1300; }
+.b-uyari { background:#E5484D; color:#fff; }
+.b-bilgi { background:var(--blue); color:#fff; }
+.chipS { display:inline-block; font:800 17px 'JetBrains Mono'; letter-spacing:.08em; padding:5px 10px; border-radius:6px; }
+.c-deg { background:var(--blue); color:#fff; } .c-ayni { background:var(--paper2); color:var(--muted); border:1.5px solid var(--line); }
+.card { background:#fff; border:2px solid var(--ink); border-radius:14px; box-shadow:6px 6px 0 rgba(11,26,68,.14); }
+.old { color:var(--muted); text-decoration:line-through; text-decoration-color:var(--red); text-decoration-thickness:3px; }
+.mono { font-family:'JetBrains Mono', monospace; }
+.arrow { color:var(--blue); }
+
+/* ---------- S1 cover ---------- */
+.s1 .h { font-size:72px; max-width:936px; }
+.s1 .stat { position:absolute; left:0; top:672px; width:560px; padding:22px 24px; }
+.s1 .stat .lbl { font:700 18px 'JetBrains Mono'; letter-spacing:.12em; color:var(--muted); }
+.s1 .stat .row { display:flex; align-items:center; gap:16px; margin-top:10px; }
+.s1 .stat .o { font:800 30px Montserrat; white-space:nowrap; }
+.s1 .stat .n { font-family:'Archivo Black'; font-size:40px; color:var(--blue); white-space:nowrap; }
+.s1 .x18 { position:absolute; left:470px; top:590px; width:118px; height:118px; border-radius:50%; background:var(--red); color:#fff;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:44px; line-height:1; transform:rotate(-10deg);
+  box-shadow:0 0 0 6px var(--paper), 0 0 0 8.5px var(--red); }
+.s1 .x18 small { font:800 14px Montserrat; letter-spacing:.06em; margin-top:4px; }
+.s1 .avatar { position:absolute; left:560px; top:512px; width:600px; }
+.s1 .swipe { position:absolute; left:0; top:906px; display:flex; align-items:center; gap:12px; font:800 24px Montserrat; color:var(--blue); }
+.s1 .train { position:absolute; left:-36px; top:416px; }
+.s1 .rg { position:absolute; left:0; top:852px; width:560px; font-size:17px !important; font:700 20px 'JetBrains Mono'; color:var(--ink2); letter-spacing:.06em; }
+
+/* ---------- S2 mindmap ---------- */
+.s2 svg.mm { position:absolute; left:-72px; top:0; }
+.s2 .core { position:absolute; left:283px; top:530px; width:370px; height:190px; border-radius:24px; background:var(--ink); color:#fff;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; box-shadow:8px 8px 0 rgba(31,69,214,.35); }
+.s2 .core small { font:700 16px 'JetBrains Mono'; letter-spacing:.12em; color:#AFC0FF; }
+.s2 .core b { font-family:'Archivo Black'; font-size:38px; line-height:1.08; margin-top:6px; }
+.s2 .core span { font:600 18px Montserrat; color:#D7DEFA; margin-top:6px; }
+.s2 .node { position:absolute; width:430px; padding:18px 20px; }
+.s2 .node .t { display:flex; align-items:center; gap:10px; font:900 24px Montserrat; }
+.s2 .node .t .n { font-family:'Archivo Black'; font-size:18px; background:var(--blue); color:#fff; padding:4px 9px; border-radius:6px; }
+.s2 .node ul { list-style:none; margin-top:8px; }
+.s2 .node li { font:500 22px/1.35 Montserrat; color:var(--ink2); padding-left:22px; position:relative; margin-top:4px; }
+.s2 .node li:before { content:""; position:absolute; left:2px; top:10px; width:10px; height:10px; border-radius:50%; background:var(--blue2); }
+.s2 .node li b { color:var(--ink); font-weight:800; }
+.s2 .n1 { left:0; top:140px; } .s2 .n2 { left:506px; top:140px; }
+.s2 .n3 { left:0; top:790px; } .s2 .n4 { left:506px; top:790px; }
+
+/* ---------- S3 dayanak table ---------- */
+.s3 .tbl { margin-top:30px; border:2px solid var(--ink); border-radius:14px; overflow:hidden; background:#fff; }
+.s3 .tr { display:grid; grid-template-columns: 250px 1fr 54px 1fr; align-items:stretch; border-top:1.5px solid var(--line); }
+.s3 .tr:first-child { border-top:none; }
+.s3 .th { background:var(--ink); color:#fff; font:700 17px 'JetBrains Mono'; letter-spacing:.1em; }
+.s3 .tr > div { padding:16px 16px; display:flex; flex-direction:column; justify-content:center; }
+.s3 .src b { font:900 21px/1.2 Montserrat; } .s3 .src small { font:500 16px/1.3 Montserrat; color:var(--muted); margin-top:4px; }
+.s3 .ar { align-items:center; color:var(--blue); padding:0 !important; }
+.s3 .ov { font:600 19px/1.35 Montserrat; color:var(--muted); }
+.s3 .nv { font:800 20px/1.35 Montserrat; color:var(--ink); }
+.s3 .nv .chipS { margin-top:8px; align-self:flex-start; }
+.s3 .hl { background:var(--blueBg); }
+.s3 .note { margin-top:24px; display:flex; gap:14px; align-items:flex-start; padding:16px 18px; border:2px dashed var(--blue); border-radius:12px; background:rgba(228,234,253,.6); }
+.s3 .note p { font:500 20px/1.4 Montserrat; color:var(--ink2); } .s3 .note b { color:var(--ink); }
+
+/* ---------- S4 flow ---------- */
+.s4 .flow { position:absolute; left:0; top:250px; width:936px; height:700px; }
+.s4 .st { position:absolute; left:110px; width:520px; display:flex; flex-direction:column; }
+.s4 .st .k { font:700 16px 'JetBrains Mono'; letter-spacing:.12em; color:var(--muted); }
+.s4 .st .v { font:900 28px/1.2 Montserrat; color:var(--ink); margin-top:2px; }
+.s4 .st .d { font:500 19px/1.35 Montserrat; color:var(--ink2); margin-top:4px; }
+.s4 .s_1 { top:0; } .s4 .s_2 { top:132px; } .s4 .s_3 { top:264px; } .s4 .s_4 { top:410px; }
+.s4 .hot { position:absolute; left:640px; top:250px; width:296px; padding:16px 16px; border-color:#FF9F43; box-shadow:6px 6px 0 rgba(255,159,67,.35); }
+.s4 .hot p { font:600 19px/1.35 Montserrat; color:var(--ink2); margin-top:10px; } .s4 .hot p b { color:var(--ink); }
+.s4 .out { position:absolute; top:578px; width:430px; padding:16px 18px; }
+.s4 .o1 { left:40px; } .s4 .o2 { left:506px; }
+.s4 .out .w { font:700 16px 'JetBrains Mono'; letter-spacing:.1em; color:var(--muted); }
+.s4 .out .a { font-family:'Archivo Black'; font-size:40px; color:var(--blue); margin-top:4px; }
+.s4 .out .p { font:700 19px/1.3 Montserrat; color:var(--ink); margin-top:2px; }
+.s4 .who { position:absolute; left:640px; top:20px; width:296px; padding:14px 16px; background:var(--blueBg); border-color:var(--blue); }
+.s4 .who small { font:700 15px 'JetBrains Mono'; letter-spacing:.1em; color:var(--blue); }
+.s4 .who p { font:800 19px/1.3 Montserrat; margin-top:6px; } .s4 .who span { font:500 17px/1.3 Montserrat; color:var(--ink2); display:block; margin-top:4px; }
+
+/* ---------- S5 chart ---------- */
+.s5 .grp { margin-top:40px; }
+.s5 .gt { display:flex; justify-content:space-between; align-items:baseline; }
+.s5 .gt b { font:900 26px Montserrat; } .s5 .gt span { font:700 18px 'JetBrains Mono'; color:var(--muted); letter-spacing:.06em; }
+.s5 .bar { position:relative; height:66px; margin-top:12px; }
+.s5 .bar i { position:absolute; left:0; top:0; height:66px; border-radius:0 6px 6px 0; display:block; }
+.s5 .bar .lab { position:absolute; top:50%; transform:translateY(-50%); font:800 24px Montserrat; white-space:nowrap; }
+.s5 .bar .lab small { font:700 16px 'JetBrains Mono'; letter-spacing:.08em; color:var(--muted); margin-right:10px; }
+.s5 .axis { position:relative; height:30px; margin-top:16px; border-top:2px solid var(--ink); }
+.s5 .axis span { position:absolute; top:6px; font:700 15px 'JetBrains Mono'; color:var(--muted); transform:translateX(-50%); }
+.s5 .legend { display:flex; gap:26px; margin-top:26px; font:700 19px Montserrat; color:var(--ink2); }
+.s5 .legend span { display:flex; align-items:center; gap:10px; } .s5 .legend i { width:26px; height:16px; border-radius:3px; display:block; }
+.s5 .kpi { display:grid; grid-template-columns:1fr 1fr 1fr; gap:18px; margin-top:34px; }
+.s5 .kpi .card { padding:18px 18px; }
+.s5 .kpi small { font:700 15px 'JetBrains Mono'; letter-spacing:.1em; color:var(--muted); }
+.s5 .kpi b { display:block; font-family:'Archivo Black'; font-size:40px; color:var(--ink); margin-top:6px; line-height:1; }
+.s5 .kpi span { display:block; font:600 17px/1.3 Montserrat; color:var(--ink2); margin-top:6px; }
+.s5 .kpi .acc b { color:var(--red); }
+
+/* ---------- S6 full compare ---------- */
+.s6 .cols { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:30px; }
+.s6 .col { padding:0; overflow:hidden; }
+.s6 .col .ch { padding:14px 20px; font:700 20px 'JetBrains Mono'; letter-spacing:.14em; }
+.s6 .eski .ch { background:var(--paper2); color:var(--muted); border-bottom:2px solid var(--ink); }
+.s6 .yeni .ch { background:var(--blue); color:#fff; border-bottom:2px solid var(--ink); }
+.s6 .it { padding:16px 20px; border-top:1.5px solid var(--line); min-height:128px; }
+.s6 .it:first-of-type { border-top:none; }
+.s6 .it small { font:700 15px 'JetBrains Mono'; letter-spacing:.1em; color:var(--muted); }
+.s6 .it p { font:800 22px/1.3 Montserrat; margin-top:6px; }
+.s6 .eski .it p { color:var(--muted); }
+.s6 .yeni .it p { color:var(--ink); } .s6 .yeni .it p em { font-style:normal; color:var(--blue); }
+.s6 .quote { margin-top:24px; padding:18px 20px; border-left:6px solid var(--blue); background:#fff; font:500 19px/1.45 Montserrat; color:var(--ink2); border-radius:0 12px 12px 0; }
+.s6 .quote b { color:var(--ink); }
+
+/* ---------- S7 timeline ---------- */
+.s7 .tl { position:absolute; left:0; top:280px; width:936px; height:330px; }
+.s7 .ev { position:absolute; width:400px; }
+.s7 .ev .dt { font-family:'Archivo Black'; font-size:46px; line-height:1; }
+.s7 .ev .rg { font:700 18px 'JetBrains Mono'; letter-spacing:.06em; color:var(--muted); margin-top:8px; }
+.s7 .ev .tx { font:700 21px/1.35 Montserrat; color:var(--ink2); margin-top:8px; }
+.s7 .e1 { left:0; top:0; } .s7 .e2 { left:536px; top:0; }
+.s7 .e2 .dt { color:var(--blue); }
+.s7 .boxes { position:absolute; left:0; top:640px; width:936px; display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+.s7 .boxes .card { padding:20px 22px; }
+.s7 .boxes small { font:700 15px 'JetBrains Mono'; letter-spacing:.1em; color:var(--muted); }
+.s7 .boxes b { display:block; font:900 26px/1.25 Montserrat; margin-top:8px; }
+.s7 .boxes span { display:block; font:500 18px/1.35 Montserrat; color:var(--ink2); margin-top:6px; }
+
+/* ---------- S8 summary ---------- */
+.s8 .list { margin-top:30px; width:600px; }
+.s8 .li { display:flex; gap:16px; align-items:flex-start; padding:16px 0; border-top:1.5px dashed var(--line); }
+.s8 .li:first-child { border-top:none; }
+.s8 .li .ck { flex:none; width:42px; height:42px; border-radius:10px; background:var(--green); color:#fff; display:flex; align-items:center; justify-content:center; }
+.s8 .li b { display:block; font:900 24px/1.25 Montserrat; } .s8 .li span { display:block; font:500 19px/1.4 Montserrat; color:var(--ink2); margin-top:3px; }
+.s8 .avatar { position:absolute; left:560px; top:512px; width:600px; }
+.s8 .cta { position:absolute; left:0; top:820px; display:flex; gap:14px; }
+.s8 .cta div { display:flex; align-items:center; gap:10px; font:900 22px Montserrat; padding:14px 20px; border-radius:12px; border:2px solid var(--ink); background:#fff; box-shadow:4px 4px 0 rgba(11,26,68,.18); }
+.s8 .cta .p { background:var(--blue); color:#fff; border-color:var(--blue); }
+.s8 .src { position:absolute; left:0; top:900px; width:560px; font:500 15px/1.4 'JetBrains Mono'; color:var(--muted); }
+</style>
+</head>
+<body>
+
+<!-- ======================= SLIDE 1 — COVER ======================= -->
+<section class="slide s1" id="s1">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>RESMÎ GAZETE · 08.10.2026 · SAYI 33394</div><div>01 / 08</div></div>
+  <div class="content">
+    <span class="kick">YÖNETMELİK DEĞİŞİKLİĞİ</span>
+    <div class="h">Demiryolu Araçları Tip Onay Yönetmeliği <em>değişti.</em></div>
+    <div class="lead" style="max-width:860px">İdari para cezaları <b>yaklaşık 18 katına</b> çıktı; dayanak ve yetkili birim güncellendi.</div>
+    <svg class="train" width="590" height="134" viewBox="0 0 660 150" aria-hidden="true">
+      <g fill="none" stroke="#0B1A44" stroke-width="3.5" stroke-linejoin="round">
+        <path d="M40 40 H520 Q600 40 630 100 L636 112 H40 Z" fill="#E4EAFD"/>
+        <path d="M520 40 Q560 44 586 70 H520 Z" fill="#1F45D6"/>
+        <path d="M70 58 h70 v28 h-70z M160 58 h70 v28 h-70z M250 58 h70 v28 h-70z M340 58 h70 v28 h-70z M430 58 h60 v28 h-60z" fill="#fff"/>
+        <path d="M40 98 H630" stroke="#1F45D6" stroke-width="6"/>
+        <circle cx="110" cy="126" r="14" fill="#F6F4EE"/><circle cx="160" cy="126" r="14" fill="#F6F4EE"/>
+        <circle cx="490" cy="126" r="14" fill="#F6F4EE"/><circle cx="540" cy="126" r="14" fill="#F6F4EE"/>
+        <path d="M0 142 H660" stroke-width="4"/>
+      </g>
+    </svg>
+    <div class="stat card"><div class="lbl">TİP ONAY BELGESİ SAHİBİNE CEZA</div>
+      <div class="row"><span class="o old">100.000 TL</span><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="#1F45D6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="n">1.804.582 TL</span></div></div>
+    <div class="x18">×18<small>KAT</small></div>
+    <div class="rg">Değişen hükümler: m.2 (Dayanak) · m.12/5 (İdari para cezası)</div>
+    <div class="swipe">Kaydırarak inceleyin <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="#1F45D6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  </div>
+  <img class="avatar" src="img/koc-cutout.png" alt="Gümrük Koçu" />
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H40" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><g transform="translate(30 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>01/08</b><span>kaydır →</span></div></div>
+</section>
+
+<!-- ======================= SLIDE 2 — MINDMAP ======================= -->
+<section class="slide s2" id="s2">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>ZİHİN HARİTASI</div><div>02 / 08</div></div>
+  <div class="content">
+    <span class="kick">BİR BAKIŞTA</span>
+    <div class="h" style="font-size:54px">4 madde, <em>2 kritik değişiklik</em></div>
+    <svg class="mm" width="1080" height="960" viewBox="0 0 1080 960" aria-hidden="true"></svg>
+    <div class="core"><small>RG 33394 · 08.10.2026</small><b>Değişiklik Yönetmeliği</b><span>Ulaştırma ve Altyapı Bakanlığı</span></div>
+    <div class="node card n1"><div class="t"><span class="n">MD.1</span>Dayanak (Yön. m.2)</div>
+      <ul><li>CBK No.1: <b>m.478 → m.477</b> /1-(f)</li><li>655 sayılı KHK: <b>m.28 atfı kaldırıldı</b></li><li>6461 sK ve COTIF: aynen</li></ul></div>
+    <div class="node card n2"><div class="t"><span class="n">MD.2</span>Ceza (Yön. m.12/5)</div>
+      <ul><li>Belge sahibi: <b>1.804.582 TL</b></li><li>Onaylayan UDK: <b>902.283 TL</b></li><li>Yetkili: <b>Ulaştırma Hizmetleri Düzenleme GM</b></li><li>Dayanak: <b>655 KHK 28/A-1-(ğ)</b></li></ul></div>
+    <div class="node card n3"><div class="t"><span class="n">MD.3</span>Yürürlük</div>
+      <ul><li>Yayımı tarihinde: <b>08.10.2026</b></li><li>Metinde geçiş hükmü yok</li></ul></div>
+    <div class="node card n4"><div class="t"><span class="n">MD.4</span>Yürütme</div>
+      <ul><li><b>Ulaştırma ve Altyapı Bakanı</b></li></ul></div>
+  </div>
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H155" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><g transform="translate(145 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>02/08</b><span>kaydır →</span></div></div>
+</section>
+
+<!-- ======================= SLIDE 3 — DAYANAK ======================= -->
+<section class="slide s3" id="s3">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>MADDE 1 → YÖNETMELİK m.2</div><div>03 / 08</div></div>
+  <div class="content">
+    <span class="kick">DAYANAK</span>
+    <div class="h" style="font-size:56px">Yönetmeliğin <em>dayanağı</em> güncellendi</div>
+    <div class="tbl">
+      <div class="tr th"><div>DAYANAK</div><div>ESKİ</div><div></div><div>YENİ</div></div>
+      <div class="tr hl"><div class="src"><b>1 sayılı CBK</b><small>Cumhurbaşkanlığı Teşkilatı Hakkında</small></div>
+        <div class="ov"><span class="old">478. madde</span> 1. fıkra (f) bendi</div><div class="ar"><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="#1F45D6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="nv">477. madde 1. fıkra (f) bendi<span class="chipS c-deg">DEĞİŞTİ</span></div></div>
+      <div class="tr hl"><div class="src"><b>655 sayılı KHK</b><small>Ulaştırma ve Altyapı Alanına İlişkin</small></div>
+        <div class="ov"><span class="old">28. maddesi</span></div><div class="ar"><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="#1F45D6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="nv">KHK'ya genel atıf (madde belirtilmiyor)<span class="chipS c-deg">DEĞİŞTİ</span></div></div>
+      <div class="tr"><div class="src"><b>6461 sayılı Kanun</b><small>Demiryolu Ulaştırmasının Serbestleştirilmesi</small></div>
+        <div class="ov">6461 sayılı Kanun</div><div class="ar"><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="#1F45D6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="nv">Aynen korundu<span class="chipS c-ayni">AYNI</span></div></div>
+      <div class="tr"><div class="src"><b>COTIF</b><small>9/5/1980 · 5408 sayılı Kanunla onaylı</small></div>
+        <div class="ov">Uluslararası Demiryolu Taşımalarına İlişkin Sözleşme</div><div class="ar"><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="#1F45D6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="nv">Aynen korundu<span class="chipS c-ayni">AYNI</span></div></div>
+    </div>
+    <div class="note"><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" style="flex:none"><circle cx="12" cy="12" r="10" fill="#1F45D6"/><path d="M12 10.5v6" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><circle cx="12" cy="7.2" r="1.5" fill="#fff"/></svg><p><b>Ayrıca:</b> Eski metindeki CBK'ya ait yayım bilgisi (10/7/2018 tarihli, 30474 sayılı RG) yeni metinde yer almıyor.</p></div>
+  </div>
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H271" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><g transform="translate(261 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>03/08</b><span>kaydır →</span></div></div>
+</section>
+
+<!-- ======================= SLIDE 4 — FLOW ======================= -->
+<section class="slide s4" id="s4">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>MADDE 2 → YÖNETMELİK m.12/5</div><div>04 / 08</div></div>
+  <div class="content">
+    <span class="kick">CEZA NE ZAMAN DÜZENLENİR?</span>
+    <div class="h" style="font-size:52px">Tetikleyici: askıya almanın <em>kesinleşmesi</em></div>
+    <div class="flow">
+      <svg width="936" height="700" viewBox="0 0 936 700" aria-hidden="true" style="position:absolute;left:0;top:0">
+        <path d="M50 20 V 470" stroke="#0B1A44" stroke-width="12" stroke-linecap="round"/>
+        <path d="M50 20 V 470" stroke="#F6F4EE" stroke-width="4" stroke-dasharray="12 12"/>
+        <path d="M50 470 C 50 530, 255 520, 255 572 M50 470 C 50 530, 721 520, 721 572" fill="none" stroke="#1F45D6" stroke-width="8" stroke-linecap="round"/>
+        <g stroke="#0B1A44" stroke-width="5" fill="#F6F4EE"><circle cx="50" cy="20" r="20"/><circle cx="50" cy="152" r="20"/></g>
+        <circle cx="50" cy="284" r="26" fill="#FF9F43" stroke="#0B1A44" stroke-width="5"/>
+        <circle cx="50" cy="430" r="22" fill="#1F45D6" stroke="#0B1A44" stroke-width="5"/>
+      </svg>
+      <div class="st s_1"><span class="k">ADIM 1</span><span class="v">Tip onay belgesi</span><span class="d">Demiryolu aracına verilmiş tip onayı</span></div>
+      <div class="st s_2"><span class="k">ADIM 2</span><span class="v">Belgenin askıya alınması</span></div>
+      <div class="st s_3"><span class="k">ADIM 3 · TETİKLEYİCİ</span><span class="v">Askıya almanın kesinleşmesi</span><span class="d">Ceza bu anla birlikte gündeme gelir</span></div>
+      <div class="st s_4"><span class="k">ADIM 4</span><span class="v">İdari para cezası karar tutanağı</span></div>
+      <div class="hot card"><span class="badge b-dikkat"><svg viewBox="0 0 24 24"><path d="M1.5 12S5.5 4.8 12 4.8 22.5 12 22.5 12 18.5 19.2 12 19.2 1.5 12 1.5 12z" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12" cy="12" r="3.6" fill="currentColor"/></svg>DİKKAT</span><p>Ceza, askıya alma işleminin <b>kesinleşmesiyle birlikte</b> düzenlenir.</p></div>
+      <div class="who card"><small>TUTANAĞI DÜZENLEYEN</small><p>Ulaştırma Hizmetleri Düzenleme Genel Müdürü</p><span>veya yetkilendirdiği personel</span></div>
+      <div class="out card o1"><div class="w">TİP ONAY BELGESİ SAHİBİNE</div><div class="a">1.804.582 TL</div><div class="p">idari para cezası</div></div>
+      <div class="out card o2"><div class="w">ONAYLAYAN UDK'YA</div><div class="a">902.283 TL</div><div class="p">uygunluk değerlendirme kuruluşu</div></div>
+    </div>
+  </div>
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H386" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><g transform="translate(376 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>04/08</b><span>kaydır →</span></div></div>
+</section>
+
+<!-- ======================= SLIDE 5 — CHART ======================= -->
+<section class="slide s5" id="s5">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>TUTARLAR · ESKİ ↔ YENİ</div><div>05 / 08</div></div>
+  <div class="content">
+    <span class="kick">İDARİ PARA CEZASI</span>
+    <div class="h" style="font-size:58px">Cezalar <em>yaklaşık 18 katına</em> çıktı</div>
+    <div style="margin-top:22px"><span class="badge b-onemli"><svg viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></svg>ÖNEMLİ</span></div>
+    <div class="grp"><div class="gt"><b>Tip onay belgesi sahibi</b><span>×18,05</span></div>
+      <div class="bar"><i style="width:52px;background:var(--blue2)"></i><span class="lab" style="left:66px"><small>ESKİ</small>100.000 TL</span></div>
+      <div class="bar"><i style="width:936px;background:var(--blue)"></i><span class="lab" style="right:12px;color:#fff"><small style="color:#C9D4FF">YENİ</small>1.804.582 TL</span></div></div>
+    <div class="grp"><div class="gt"><b>Onaylayan uygunluk değerlendirme kuruluşu</b><span>×18,05</span></div>
+      <div class="bar"><i style="width:26px;background:var(--blue2)"></i><span class="lab" style="left:40px"><small>ESKİ</small>50.000 TL</span></div>
+      <div class="bar"><i style="width:468px;background:var(--blue)"></i><span class="lab" style="left:482px"><small>YENİ</small>902.283 TL</span></div></div>
+    <div class="axis"><span style="left:24px">0</span><span style="left:259px">500 bin</span><span style="left:519px">1 milyon</span><span style="left:778px">1,5 milyon</span></div>
+    <div class="legend"><span><i style="background:var(--blue2)"></i>Eski tutar</span><span><i style="background:var(--blue)"></i>Yeni tutar (08.10.2026)</span></div>
+    <div class="kpi">
+      <div class="card acc"><small>ARTIŞ · BELGE SAHİBİ</small><b>+1.704.582</b><span>TL fark</span></div>
+      <div class="card acc"><small>ARTIŞ · UDK</small><b>+852.283</b><span>TL fark</span></div>
+      <div class="card"><small>ORAN</small><b>≈ 2 : 1</b><span>Belge sahibi cezası, UDK cezasının yaklaşık iki katı</span></div>
+    </div>
+  </div>
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H502" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><g transform="translate(492 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>05/08</b><span>kaydır →</span></div></div>
+</section>
+
+<!-- ======================= SLIDE 6 — FULL COMPARE ======================= -->
+<section class="slide s6" id="s6">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>YÖNETMELİK m.12/5 · METİN KARŞILAŞTIRMASI</div><div>06 / 08</div></div>
+  <div class="content">
+    <span class="kick">ESKİ ↔ YENİ</span>
+    <div class="h" style="font-size:54px">Kim, neye dayanarak, <em>ne kadar?</em></div>
+    <div class="cols">
+      <div class="card col eski"><div class="ch">ESKİ HÜKÜM</div>
+        <div class="it"><small>DAYANAK</small><p>655 sayılı KHK 28. madde</p></div>
+        <div class="it"><small>TUTANAĞI DÜZENLEYEN</small><p>Demiryolu Düzenleme Genel Müdürü veya yetkilendirdiği personel</p></div>
+        <div class="it"><small>BELGE SAHİBİNE</small><p>100.000 TL</p></div>
+        <div class="it"><small>ONAYLAYAN UDK'YA</small><p>50.000 TL</p></div>
+      </div>
+      <div class="card col yeni"><div class="ch">YENİ HÜKÜM · 08.10.2026</div>
+        <div class="it"><small>DAYANAK</small><p>655 sayılı KHK <em>28/A maddesi, 1. fıkra (ğ) bendi</em></p></div>
+        <div class="it"><small>TUTANAĞI DÜZENLEYEN</small><p><em>Ulaştırma Hizmetleri Düzenleme</em> Genel Müdürü veya yetkilendirdiği personel</p></div>
+        <div class="it"><small>BELGE SAHİBİNE</small><p><em>1.804.582 TL</em></p></div>
+        <div class="it"><small>ONAYLAYAN UDK'YA</small><p><em>902.283 TL</em></p></div>
+      </div>
+    </div>
+    <div class="quote">Değişmeyen: Ceza <b>tip onay belgesinin askıya alınmasının kesinleşmesi</b> ile birlikte, <b>idari para cezası karar tutanağı</b> ile düzenlenir.</div>
+  </div>
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H617" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><g transform="translate(607 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>06/08</b><span>kaydır →</span></div></div>
+</section>
+
+<!-- ======================= SLIDE 7 — TIMELINE ======================= -->
+<section class="slide s7" id="s7">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>MADDE 3 · MADDE 4</div><div>07 / 08</div></div>
+  <div class="content">
+    <span class="kick">YÜRÜRLÜK & YÜRÜTME</span>
+    <div class="h" style="font-size:58px">Yayımlandığı gün <em>yürürlükte</em></div>
+    <div class="tl">
+      <svg width="936" height="330" viewBox="0 0 936 330" aria-hidden="true" style="position:absolute;left:0;top:0">
+        <g stroke="#0B1A44" stroke-width="4"><path d="M0 250 H936"/><path d="M0 274 H936"/></g>
+        <g stroke="#0B1A44" stroke-width="5"><path d="M12 244 V 280"/><path d="M42 244 V 280"/><path d="M72 244 V 280"/><path d="M102 244 V 280"/><path d="M132 244 V 280"/><path d="M162 244 V 280"/><path d="M192 244 V 280"/><path d="M222 244 V 280"/><path d="M252 244 V 280"/><path d="M282 244 V 280"/><path d="M312 244 V 280"/><path d="M342 244 V 280"/><path d="M372 244 V 280"/><path d="M402 244 V 280"/><path d="M432 244 V 280"/><path d="M462 244 V 280"/><path d="M492 244 V 280"/><path d="M522 244 V 280"/><path d="M552 244 V 280"/><path d="M582 244 V 280"/><path d="M612 244 V 280"/><path d="M642 244 V 280"/><path d="M672 244 V 280"/><path d="M702 244 V 280"/><path d="M732 244 V 280"/><path d="M762 244 V 280"/><path d="M792 244 V 280"/><path d="M822 244 V 280"/><path d="M852 244 V 280"/><path d="M882 244 V 280"/><path d="M912 244 V 280"/></g>
+        <path d="M20 262 H 560" stroke="#1F45D6" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+        <g stroke="#0B1A44" stroke-width="5"><circle cx="20" cy="262" r="22" fill="#F6F4EE"/><circle cx="560" cy="262" r="26" fill="#1F45D6"/></g>
+        <path d="M20 200 V 238" stroke="#0B1A44" stroke-width="3" stroke-dasharray="6 6"/>
+        <path d="M560 200 V 234" stroke="#1F45D6" stroke-width="3" stroke-dasharray="6 6"/>
+        <text x="290" y="320" text-anchor="middle" font-family="JetBrains Mono" font-weight="700" font-size="17" fill="#6B7493" letter-spacing="1">≈ 11 YIL</text>
+      </svg>
+      <div class="ev e1"><div class="dt">18.11.2015</div><div class="rg">RG 29536</div><div class="tx">Demiryolu Araçları Tip Onay Yönetmeliği yayımlandı</div></div>
+      <div class="ev e2"><div class="dt">08.10.2026</div><div class="rg">RG 33394</div><div class="tx">Değişiklik Yönetmeliği yayımlandı ve aynı gün yürürlüğe girdi</div></div>
+    </div>
+    <div class="boxes">
+      <div class="card"><small>MADDE 3 · YÜRÜRLÜK</small><b>Yayımı tarihinde</b><span>Değişiklik metninde ayrı bir geçiş hükmü bulunmuyor.</span></div>
+      <div class="card"><small>MADDE 4 · YÜRÜTME</small><b>Ulaştırma ve Altyapı Bakanı</b><span>Yönetmeliği hazırlayan: Ulaştırma ve Altyapı Bakanlığı</span></div>
+    </div>
+  </div>
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H733" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#F6F4EE" stroke="#0B1A44" stroke-width="2"/><g transform="translate(723 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>07/08</b><span>kaydır →</span></div></div>
+</section>
+
+<!-- ======================= SLIDE 8 — SUMMARY ======================= -->
+<section class="slide s8" id="s8">
+  <div class="frame"></div>
+  <div class="hdr"><div class="tag"><i></i>ÖZET</div><div>08 / 08</div></div>
+  <div class="content">
+    <span class="kick">AKILDA KALSIN</span>
+    <div class="h" style="font-size:58px">4 maddede <em>özet</em></div>
+    <div class="list">
+      <div class="li"><div class="ck"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Dayanak güncellendi</b><span>CBK m.477/1-(f) ve 655 sayılı KHK'ya genel atıf</span></div></div>
+      <div class="li"><div class="ck"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Yetkili birim değişti</b><span>Ulaştırma Hizmetleri Düzenleme Genel Müdürü</span></div></div>
+      <div class="li"><div class="ck"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Cezalar ≈ 18 kat arttı</b><span>Belge sahibi 1.804.582 TL · UDK 902.283 TL</span></div></div>
+      <div class="li"><div class="ck"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Yürürlük 08.10.2026</b><span>Yürütme: Ulaştırma ve Altyapı Bakanı</span></div></div>
+    </div>
+    <div class="cta"><div class="p"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z" fill="currentColor"/></svg> Kaydet</div><div><svg width="26" height="26" viewBox="0 0 24 24"><path d="M3 11l18-8-8 18-2-8z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg> Paylaş</div><div><svg width="26" height="26" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" fill="currentColor"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="2.2"/></svg> Takip et</div></div>
+    <div class="src">Kaynak: 08.10.2026 tarihli, 33394 sayılı Resmî Gazete — Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik. Bilgilendirme amaçlıdır.</div>
+  </div>
+  <img class="avatar" src="img/koc-cutout.png" alt="Gümrük Koçu" />
+  <div class="rail"><svg width="1008" height="56" viewBox="0 0 1008 56" aria-hidden="true"><rect x="8" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="42" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="76" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="110" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="144" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="178" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="212" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="246" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="280" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="314" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="348" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="382" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="416" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="450" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="484" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="518" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="552" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="586" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="620" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="654" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="688" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="722" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="756" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="790" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="824" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="858" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="892" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="926" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="960" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><rect x="994" y="42" width="16" height="12" rx="2" fill="#0B1A44" opacity=".75"/><path d="M0 46 H1008" stroke="#0B1A44" stroke-width="3"/><path d="M0 52 H1008" stroke="#0B1A44" stroke-width="2"/><path d="M0 49 H848" stroke="#1F45D6" stroke-width="5" opacity=".55"/><circle cx="96" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="211" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="327" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="442" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="558" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="673" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="789" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><circle cx="904" cy="49" r="5" fill="#1F45D6" stroke="#0B1A44" stroke-width="2"/><g transform="translate(838 2)"><path d="M2 8 H92 Q118 8 128 30 L130 36 H2 Z" fill="#1F45D6" stroke="#0B1A44" stroke-width="2.5" stroke-linejoin="round"/><path d="M12 14 h18 v9 h-18z M38 14 h18 v9 h-18z M64 14 h18 v9 h-18z" fill="#fff"/><path d="M96 12 Q112 14 118 24 H96z" fill="#E4EAFD"/><circle cx="22" cy="40" r="6" fill="#0B1A44"/><circle cx="40" cy="40" r="6" fill="#0B1A44"/><circle cx="96" cy="40" r="6" fill="#0B1A44"/><circle cx="114" cy="40" r="6" fill="#0B1A44"/></g></svg></div>
+  <div class="tb"><div class="lg"><img src="img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><div class="ti"><small>KONU · RG 33394</small><b>Demiryolu Araçları Tip Onay Yönetmeliğinde Değişiklik</b></div><div class="pg"><small>SAYFA</small><b>08/08</b><span>kaydet ✓</span></div></div>
+</section>
+
+<script>
+// draw mind-map branches from the core to each node using laid-out boxes
+(() => {
+  const S = document.getElementById("s2"), svg = S.querySelector("svg.mm"), base = svg.getBoundingClientRect();
+  const r = (el) => { const b = el.getBoundingClientRect(); return { l: b.left - base.left, t: b.top - base.top, r: b.right - base.left, b: b.bottom - base.top, cx: (b.left + b.right) / 2 - base.left }; };
+  const c = r(S.querySelector(".core"));
+  let d = "", dots = "";
+  S.querySelectorAll(".node").forEach((n) => {
+    const nb = r(n), top = nb.b < c.t;
+    const sx = nb.cx < c.cx ? c.l + 40 : c.r - 40, sy = top ? c.t : c.b;
+    const ex = nb.cx, ey = top ? nb.b : nb.t;
+    const my = (sy + ey) / 2;
+    d += `M${sx} ${sy} C ${sx} ${my}, ${ex} ${my}, ${ex} ${ey} `;
+    dots += `<circle cx="${ex}" cy="${ey}" r="9" fill="#1F45D6"/><circle cx="${sx}" cy="${sy}" r="7" fill="#F6F4EE" stroke="#1F45D6" stroke-width="4"/>`;
+  });
+  svg.innerHTML = `<path d="${d}" fill="none" stroke="#1F45D6" stroke-width="5" stroke-linecap="round"/>` + dots;
+})();
+</script>
+</body>
+</html>
