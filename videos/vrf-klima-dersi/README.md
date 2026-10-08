@@ -15,7 +15,7 @@ Gümrükler Genel Müdürlüğünün 01.10.2026 tarihli, E-17474625-162.01-00126
 
 | Dosya | Ne işe yarar |
 | --- | --- |
-| `renders/vrf-klima-dersi.mp4` | Bitmiş video |
+| `renders/vrf-klima-dersi-web.mp4` | Bitmiş video (42 MB, repoda). Ana render (130 MB, CRF 16) GitHub sınırını aştığı için repoya eklenmedi; `npx hyperframes render` ile yeniden üretilebilir |
 | `youtube-bolumler.txt` | YouTube açıklamasına yapıştırılacak bölüm zaman damgaları |
 | `altyazi.srt` | YouTube'a ayrı yüklenebilecek Türkçe altyazı |
 | `narration/script.json` | Seslendirme metni (sahne sahne) |
