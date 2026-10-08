@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s10 { position: absolute; inset: 0; overflow: hidden; }
+        #s10 .stage { position: absolute; inset: 0; }
+
+#s10 .rail { position:absolute; left:600px; top:300px; width:96px; height:520px; }
+#s10 .rail .ln { position:absolute; left:46px; top:40px; width:4px; height:420px; background:rgba(143,178,255,.3); }
+#s10 .st { position:absolute; left:-14px; width:124px; display:flex; flex-direction:column; align-items:center; gap:6px; }
+#s10 .st1 { top:0; } #s10 .st2 { top:140px; } #s10 .st3 { top:280px; } #s10 .st4 { top:420px; }
+#s10 .st .c { width:84px; height:84px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:40px;
+  background:var(--bg2); border:4px solid rgba(143,178,255,.45); color:var(--muted); }
+#s10 .st .lb { font:700 18px 'JetBrains Mono'; color:var(--muted); letter-spacing:.04em; white-space:nowrap; }
+#s10 .st.done .c { background:var(--ok); border-color:var(--ok); color:#06221a; }
+#s10 .st.cur .c { background:var(--vrf); border-color:#BFF5E6; color:#062a22; box-shadow:0 0 40px rgba(51,217,178,.6); }
+#s10 .st.cur .lb { color:var(--fg); }
+#s10 .hdr { position:absolute; left:740px; top:132px; width:1080px; }
+#s10 .sub { font:400 30px/1.3 Montserrat; color:var(--muted); margin-top:10px; white-space:nowrap; }
+#s10 .hdr .h1 { font-size:62px; white-space:nowrap; }
+#s10 .dg { position:absolute; left:740px; top:330px; width:1080px; height:440px; }
+#s10 .qq { position:absolute; left:740px; top:792px; width:1080px; display:flex; align-items:center; gap:18px; padding:16px 24px; }
+#s10 .qq .t { font:700 30px/1.2 Montserrat; color:var(--fg); flex:1; }
+#s10 .qq .ok { display:flex; align-items:center; gap:10px; font:900 24px Montserrat; color:#06221a; background:var(--ok); padding:10px 18px; border-radius:12px; white-space:nowrap; }
+
+#s10 .ch { position:absolute; top:0; height:430px; padding:22px 26px; }
+#s10 .ca { left:0; width:500px; }
+#s10 .cb { left:530px; width:550px; border-color:var(--vrf) !important; }
+#s10 .ch .hd { display:flex; align-items:center; justify-content:space-between; }
+#s10 .ch .tt { font-family:'Archivo Black'; font-size:36px; color:var(--fg); }
+#s10 .ca .no { display:flex; align-items:center; gap:8px; font:900 22px Montserrat; color:#2a0a0e; background:var(--uyari); padding:8px 14px; border-radius:10px; }
+#s10 .ch svg { position:absolute; left:26px; top:96px; }
+#s10 .lg { position:absolute; left:26px; bottom:18px; display:flex; gap:18px; font:700 22px Montserrat; }
+#s10 .lg span { display:flex; align-items:center; gap:8px; }
+#s10 .lg i { display:block; width:28px; height:6px; border-radius:3px; }
+#s10 .ud { position:absolute; right:26px; top:22px; display:flex; gap:10px; }
+#s10 .ud span { font:900 22px Montserrat; padding:8px 14px; border-radius:10px; color:#062a22; background:var(--vrf); }
+
+
+      </style>
+      <div id="s10" data-composition-id="s10" data-width="1920" data-height="1080" data-duration="11.998">
+        <div class="stage">
+
+<div class="rail"><div class="ln"></div><div class="st st1"><div class="c"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="lb">EEV</div></div><div class="st st2"><div class="c"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="lb">Ortak hat</div></div><div class="st st3"><div class="c">3</div><div class="lb">Kapasite</div></div><div class="st st4"><div class="c">4</div><div class="lb">Haberleşme</div></div></div>
+<div class="hdr"><div class="kicker">KRİTER 3 / 4</div><div class="h1">Değişken kapasite kontrolü</div><div class="sub">Kompresör yalnızca aç / kapa mantığıyla değil, ihtiyaca göre çalışmalı</div></div>
+<div class="dg">
+<div class="ch card ca"><div class="hd"><div class="tt">AÇ / KAPA</div><div class="no"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg> YETERSİZ</div></div>
+  <svg width="450" height="250" viewBox="0 0 450 250">
+    <path d="M30 10 V 220 H 440" fill="none" stroke="#5B6FA8" stroke-width="3"/>
+    <text x="0" y="30" class="svgl">%100</text><text x="10" y="224" class="svgl">%0</text>
+    <path class="sq" d="M30 210 H 80 V 30 H 170 V 210 H 230 V 30 H 320 V 210 H 370 V 30 H 440" fill="none" stroke="#FF4D5E" stroke-width="6" stroke-linejoin="round"/>
+  </svg>
+  <div class="lg"><span><i style="background:#FF4D5E"></i>Sadece %0 ↔ %100</span></div>
+</div>
+<div class="ch card cb"><div class="hd"><div class="tt">DEĞİŞKEN</div></div>
+  <div class="ud"><span class="up">▲ ARTIR</span><span class="dn">▼ AZALT</span></div>
+  <svg width="500" height="250" viewBox="0 0 500 250">
+    <path d="M30 10 V 220 H 490" fill="none" stroke="#5B6FA8" stroke-width="3"/>
+    <text x="0" y="30" class="svgl">%100</text><text x="10" y="224" class="svgl">%0</text>
+    <path class="stp" d="M30 160 H 130 V 100 H 230 V 40 H 320 V 100 H 400 V 160 H 490" fill="none" stroke="#FFC53D" stroke-width="5" stroke-dasharray="12 8"/>
+    <path class="inv" d="" fill="none" stroke="#33D9B2" stroke-width="7" stroke-linecap="round"/>
+    <circle class="dot" cx="30" cy="150" r="13" fill="#FFFFFF" stroke="#33D9B2" stroke-width="5"/>
+  </svg>
+  <div class="lg"><span><i style="background:#33D9B2"></i>İnverter</span><span><i style="background:#FFC53D"></i>En az 3 kademe</span></div>
+</div>
+</div>
+<div class="qq card"><div class="badge b-soru "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M9 9.2a3 3 0 1 1 4.2 2.8c-.9.4-1.2 1-1.2 2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.4" fill="currentColor"/></svg></span><span class="bt">SORU</span></div><div class="t">Kapasite ihtiyaca göre artırılıp azaltılabiliyor mu?</div><div class="ok"><svg class="ico " viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg> VRF GÖSTERGESİ</div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s10";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 11.998;
+const K = {"komp": 1.69, "ac": 2.9, "yoksa": 4.6, "inverter": 4.99, "kademeli": 6.71, "kapasiteyi": 8.59, "artirip": 9.85, "azalt": 10.42};
+
+q('.st').forEach((e, i) => { if (i < 2) e.classList.add('done'); if (i === 2) e.classList.add('cur'); });
+rise('.rail .st', 0.05, 0.06, 20);
+tl.fromTo(q('.st.cur .c'), { scale: 0.6 }, { scale: 1.12, duration: 0.45, ease: 'back.out(3)' }, 0.4);
+tl.to(q('.st.cur .c'), { scale: 1, duration: 0.3 }, 0.85);
+rise('.hdr .kicker', 0.1, 0, 16);
+tl.fromTo(q('.hdr .h1'), { y: 46, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: 'expo.out' }, 0.25);
+rise('.hdr .sub', 0.6, 0, 20);
+
+const f = (x) => 125 - 70 * Math.sin((x - 30) / 460 * Math.PI * 1.6) - 18 * Math.sin((x - 30) / 460 * Math.PI * 5.2);
+let dd = "M30 " + f(30).toFixed(1);
+for (let x = 34; x <= 490; x += 4) dd += " L" + x + " " + f(x).toFixed(1);
+q(".inv")[0].setAttribute("d", dd);
+tl.fromTo(q(".ca"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.komp);
+draw(".ca .sq", K.ac, 1.0, "none");
+pop(".ca .no", K.yoksa - 0.3);
+tl.fromTo(q(".cb"), { x: 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.yoksa);
+tl.to(q(".ca"), { opacity: 0.6, scale: 0.97, duration: 0.4 }, K.inverter);
+draw(".cb .inv", K.inverter, 1.2, "power1.inOut");
+draw(".cb .stp", K.kademeli - 0.3, 0.9, "none");
+const dotSt = { x: 30 };
+const dot = q(".dot")[0];
+tl.fromTo(dotSt, { x: 30 }, { x: 490, duration: D - 0.6 - K.kapasiteyi, ease: "none",
+  onUpdate: () => { dot.setAttribute("cx", dotSt.x.toFixed(1)); dot.setAttribute("cy", f(dotSt.x).toFixed(1)); } }, K.kapasiteyi);
+tl.fromTo(q(".dot"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, K.kapasiteyi);
+pop(".ud .up", K.artirip);
+pop(".ud .dn", K.azalt);
+
+rise('.qq', 8.19, 0, 30);
+pop('.qq .ok', 11.02);
+
+exitAll(11.58);
+window.__timelines["s10"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

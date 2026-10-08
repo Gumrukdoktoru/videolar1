@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s14 { position: absolute; inset: 0; overflow: hidden; }
+        #s14 .stage { position: absolute; inset: 0; }
+
+#s14 .hd { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:20px; }
+#s14 .hd .tt { font-family:'Archivo Black'; font-size:70px; color:var(--fg); }
+#s14 .qc { position:absolute; left:600px; top:262px; width:1220px; height:250px; padding:28px 34px; display:flex; gap:30px; align-items:center; }
+#s14 .qc .tx { flex:1; }
+#s14 .qc .l1 { font:700 34px/1.25 Montserrat; color:var(--fg); }
+#s14 .qc .l1 b { color:var(--onemli); }
+#s14 .qc .l2 { font-family:'Archivo Black'; font-size:44px; line-height:1.15; color:var(--fg); margin-top:16px; }
+#s14 .qc .l2 span { color:var(--vrf); }
+#s14 .opt { position:absolute; top:552px; width:420px; height:130px; border-radius:24px; display:flex; align-items:center; justify-content:center; gap:16px;
+  font-family:'Archivo Black'; font-size:64px; border:5px solid rgba(143,178,255,.6); background:var(--panel); color:var(--fg); }
+#s14 .yes { left:640px; } #s14 .no { left:1120px; }
+#s14 .opt .mk { position:absolute; right:-22px; top:-22px; width:64px; height:64px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+#s14 .yes .mk { background:var(--uyari); color:#2a0a0e; } #s14 .no .mk { background:var(--ok); color:#06221a; }
+#s14 .ring { position:absolute; left:1620px; top:552px; width:130px; height:130px; }
+#s14 .ring .n { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:62px; color:var(--onemli); }
+#s14 .exp { position:absolute; left:600px; top:722px; width:1220px; display:flex; align-items:center; gap:22px; padding:18px 26px; border-color:var(--ok) !important; }
+#s14 .exp .t { font:700 30px/1.25 Montserrat; color:var(--fg); flex:1; }
+#s14 .exp .ics { display:flex; gap:10px; color:var(--vrf); }
+#s14 .burst i { position:absolute; width:14px; height:14px; border-radius:3px; opacity:0; }
+
+      </style>
+      <div id="s14" data-composition-id="s14" data-width="1920" data-height="1080" data-duration="19.808">
+        <div class="stage">
+
+<div class="hd"><div class="badge b-soru badge-big"><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M9 9.2a3 3 0 1 1 4.2 2.8c-.9.4-1.2 1-1.2 2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.4" fill="currentColor"/></svg></span><span class="bt">SORU</span></div><div class="tt">MİNİ QUIZ</div></div>
+<div class="qc card"><svg width="230" height="150" viewBox="0 0 700 420"><g transform="translate(265 0)"><g class="odu"><rect width="170" height="120" rx="14" fill="#17295E" stroke="#8FB2FF" stroke-width="4"/><circle cx="62" cy="60.0" r="40" fill="#0E1C46" stroke="#8FB2FF" stroke-width="3"/><g class="fan" data-cx="62" data-cy="60.0"><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(0 62 60.0)" fill="#9CC0FF"/><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(120 62 60.0)" fill="#9CC0FF"/><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(240 62 60.0)" fill="#9CC0FF"/></g><circle cx="62" cy="60.0" r="6" fill="#DCE7FF"/><line x1="118" y1="20" x2="118" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="129" y1="20" x2="129" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="140" y1="20" x2="140" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="151" y1="20" x2="151" y2="100" stroke="#5B7FD6" stroke-width="3"/></g></g><g transform="translate(0 340)"><g class="idu"><rect width="120" height="46" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 32 H 106" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><g transform="translate(145 340)"><g class="idu"><rect width="120" height="46" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 32 H 106" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><g transform="translate(290 340)"><g class="idu"><rect width="120" height="46" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 32 H 106" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><g transform="translate(435 340)"><g class="idu"><rect width="120" height="46" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 32 H 106" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><g transform="translate(580 340)"><g class="idu"><rect width="120" height="46" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 32 H 106" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><path d="M350 122 V 240 M60 240 H 640 M60 240 V 335 M205 240 V 335 M350 240 V 335 M495 240 V 335 M640 240 V 335" fill="none" stroke="#8FB2FF" stroke-width="12" stroke-linecap="round"/></svg><div class="tx"><div class="l1">Bir dış üniteye <b>5 iç ünite</b> bağlanabiliyor.</div><div class="l2">Bu, tek başına <span>VRF</span> demek için yeterli mi?</div></div></div>
+<div class="opt yes">EVET<span class="mk"><svg class="ico " viewBox="0 0 24 24" width="38" height="38" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span></div>
+<div class="opt no">HAYIR<span class="mk"><svg class="ico " viewBox="0 0 24 24" width="38" height="38" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+<svg class="ring" viewBox="0 0 130 130"><circle cx="65" cy="65" r="56" fill="none" stroke="rgba(255,197,61,.25)" stroke-width="10"/>
+  <circle class="rg" cx="65" cy="65" r="56" fill="none" stroke="#FFC53D" stroke-width="10" stroke-linecap="round" transform="rotate(-90 65 65)"/></svg>
+<div class="ring"><div class="n n3">3</div><div class="n n2">2</div><div class="n n1">1</div></div>
+<div class="burst" style="position:absolute;left:1330px;top:617px;width:0;height:0;"><i style="background:#33D9B2"></i><i style="background:#FFC53D"></i><i style="background:#8FB2FF"></i><i style="background:#2ED47A"></i><i style="background:#FF9F43"></i><i style="background:#33D9B2"></i><i style="background:#FFC53D"></i><i style="background:#8FB2FF"></i><i style="background:#2ED47A"></i><i style="background:#FF9F43"></i><i style="background:#33D9B2"></i><i style="background:#FFC53D"></i><i style="background:#8FB2FF"></i><i style="background:#2ED47A"></i><i style="background:#FF9F43"></i><i style="background:#33D9B2"></i><i style="background:#FFC53D"></i><i style="background:#8FB2FF"></i><i style="background:#2ED47A"></i><i style="background:#FF9F43"></i><i style="background:#33D9B2"></i><i style="background:#FFC53D"></i><i style="background:#8FB2FF"></i><i style="background:#2ED47A"></i></div>
+<div class="exp card"><div class="t">İç ünite sayısı tek başına belirleyici değil → <b>4 kritere</b> tek tek bakılmalı.</div><div class="ics"><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M3 6l9 6-9 6zM21 6l-9 6 9 6z" fill="currentColor"/><path d="M12 12V3M8.5 3h7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M12 3v7M12 10L5 16M12 10l7 6M12 10v8M5 16v4M19 16v4M12 18v3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="1" width="8" height="4" rx="1" fill="currentColor"/></svg><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M3.5 17a9 9 0 1 1 17 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M12 15l5-6" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="12" cy="15.5" r="2" fill="currentColor"/></svg><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><circle cx="12" cy="4.5" r="2.5" fill="currentColor"/><circle cx="4.5" cy="19" r="2.5" fill="currentColor"/><circle cx="12" cy="19" r="2.5" fill="currentColor"/><circle cx="19.5" cy="19" r="2.5" fill="currentColor"/><path d="M12 7v9.5M12 10.5L4.5 16.5M12 10.5l7.5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.5 2"/></svg></div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s14";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 19.808;
+const K = {"simdi": 0.53, "soru": 1.59, "bir": 2.29, "bes": 3.15, "bu": 5.49, "yeterli": 7.63, "mi": 8.31, "cevap": 11.92, "hayir": 12.65, "baglan": 13.49, "dort": 16.89};
+
+
+tl.fromTo(q(".hd .badge"), { scale: 0, rotation: -20 }, { scale: 1, rotation: 0, duration: 0.5, ease: "back.out(2.5)" }, K.simdi);
+slideX(".hd .tt", K.soru - 0.4, -60);
+tl.fromTo(q(".qc"), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.bir - 0.2);
+rise(".qc .l1", K.bir, 0, 20);
+tl.fromTo(q(".qc .l1 b"), { scale: 1 }, { scale: 1.15, duration: 0.2, yoyo: true, repeat: 1, transformOrigin: "50% 50%" }, K.bes);
+rise(".qc .l2", K.bu, 0, 20);
+tl.fromTo(q(".opt"), { y: 60, opacity: 0, scale: 0.9 }, { y: 0, opacity: 1, scale: 1, duration: 0.5, ease: "back.out(2)", stagger: 0.15 }, K.yeterli - 0.2);
+// countdown 3-2-1 during the thinking pause
+const c0 = K.mi + 0.5, c1 = K.cevap - 0.1;
+q(".rg").forEach((r) => { r.setAttribute("pathLength", "1"); r.style.strokeDasharray = "1 1"; });
+tl.fromTo(q(".rg"), { strokeDashoffset: 0 }, { strokeDashoffset: 1, duration: c1 - c0, ease: "none" }, c0);
+tl.fromTo(q("svg.ring"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, c0 - 0.1);
+const step = (c1 - c0) / 3;
+["n3", "n2", "n1"].forEach((n, i) => {
+  tl.fromTo(q(`.ring .${n}`), { opacity: 0, scale: 1.8 }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)" }, c0 + i * step);
+  tl.to(q(`.ring .${n}`), { opacity: 0, duration: 0.15 }, c0 + (i + 1) * step - 0.12);
+});
+tl.to(q("svg.ring"), { opacity: 0, duration: 0.2 }, c1);
+tl.fromTo(q(".opt"), { rotation: 0 }, { rotation: 1.5, duration: 0.12, yoyo: true, repeat: 7, ease: "sine.inOut", stagger: 0.06 }, c0 + 0.4);
+// answer
+tl.to(q(".no"), { scale: 0.9, duration: 0.1, ease: "power2.in" }, K.hayir - 0.15);
+tl.to(q(".no"), { scale: 1.08, backgroundColor: "#2ED47A", borderColor: "#2ED47A", color: "#06221a", duration: 0.4, ease: "back.out(3)" }, K.hayir - 0.05);
+tl.to(q(".yes"), { opacity: 0.4, scale: 0.94, duration: 0.4 }, K.hayir);
+pop(".no .mk", K.hayir + 0.1);
+pop(".yes .mk", K.hayir + 0.3);
+q(".burst i").forEach((p, i) => {
+  const a = (i / 24) * Math.PI * 2 + (i % 3) * 0.2, sp = 260 + (i * 37) % 140;
+  const st = { k: 0 };
+  tl.fromTo(st, { k: 0 }, { k: 1, duration: 1.2, ease: "none", onUpdate: () => {
+    const k = st.k;
+    p.style.transform = `translate(${(Math.cos(a) * sp * k).toFixed(1)}px, ${(Math.sin(a) * sp * k + 420 * k * k).toFixed(1)}px) rotate(${(k * 540 + i * 30).toFixed(0)}deg)`;
+    p.style.opacity = (k < 0.02 || k > 0.98) ? "0" : String((1 - k).toFixed(2));
+  } }, K.hayir);
+});
+rise(".exp", K.baglan, 0, 30);
+pop(".exp .ics .ico", K.dort, 0.1);
+
+exitAll(19.39);
+window.__timelines["s14"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

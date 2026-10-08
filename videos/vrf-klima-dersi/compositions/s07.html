@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s07 { position: absolute; inset: 0; overflow: hidden; }
+        #s07 .stage { position: absolute; inset: 0; }
+
+#s07 .q { position:absolute; left:600px; top:160px; width:1220px; text-align:center; font-family:'Archivo Black'; font-size:50px; line-height:1.1; color:var(--fg); }
+#s07 .q span { color:var(--vrf); }
+#s07 .four { position:absolute; left:600px; top:290px; width:1220px; display:flex; align-items:center; justify-content:center; gap:34px; }
+#s07 .four .n { font-family:'Archivo Black'; font-size:300px; line-height:.9; color:var(--vrf); text-shadow:0 0 60px rgba(51,217,178,.45); }
+#s07 .four .t { font-family:'Archivo Black'; font-size:92px; line-height:1; color:var(--fg); }
+#s07 .four .t small { display:block; font:700 30px Montserrat; color:var(--muted); margin-top:12px; }
+#s07 .tiles { position:absolute; left:600px; top:640px; width:1220px; display:flex; gap:22px; }
+#s07 .tile { flex:1; height:220px; padding:24px; display:flex; flex-direction:column; gap:10px; }
+#s07 .tile .ico { color:var(--vrf); }
+#s07 .tile .k { font:700 22px 'JetBrains Mono'; color:var(--accent2); letter-spacing:.12em; }
+#s07 .tile .l { font:900 34px Montserrat; color:var(--fg); }
+#s07 .tile .s { font:400 22px Montserrat; color:var(--muted); }
+
+      </style>
+      <div id="s07" data-composition-id="s07" data-width="1920" data-height="1080" data-duration="6.878">
+        <div class="stage">
+
+<div class="q">VRF'yi diğer klimalardan <span>nasıl ayırırız?</span></div>
+<div class="four"><div class="n">4</div><div class="t">TEKNİK<br/>KRİTER<small>yazıda sayılan ayırt edici özellikler</small></div></div>
+<div class="tiles"><div class="tile card"><svg class="ico " viewBox="0 0 24 24" width="64" height="64" aria-hidden="true"><path d="M3 6l9 6-9 6zM21 6l-9 6 9 6z" fill="currentColor"/><path d="M12 12V3M8.5 3h7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><div class="k">KRİTER 1</div><div class="l">EEV</div><div class="s">Ayrı genleşme vanası</div></div><div class="tile card"><svg class="ico " viewBox="0 0 24 24" width="64" height="64" aria-hidden="true"><path d="M12 3v7M12 10L5 16M12 10l7 6M12 10v8M5 16v4M19 16v4M12 18v3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="1" width="8" height="4" rx="1" fill="currentColor"/></svg><div class="k">KRİTER 2</div><div class="l">Ortak hat</div><div class="s">Ortak borulama ağı</div></div><div class="tile card"><svg class="ico " viewBox="0 0 24 24" width="64" height="64" aria-hidden="true"><path d="M3.5 17a9 9 0 1 1 17 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M12 15l5-6" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="12" cy="15.5" r="2" fill="currentColor"/></svg><div class="k">KRİTER 3</div><div class="l">Kapasite</div><div class="s">Değişken kontrol</div></div><div class="tile card"><svg class="ico " viewBox="0 0 24 24" width="64" height="64" aria-hidden="true"><circle cx="12" cy="4.5" r="2.5" fill="currentColor"/><circle cx="4.5" cy="19" r="2.5" fill="currentColor"/><circle cx="12" cy="19" r="2.5" fill="currentColor"/><circle cx="19.5" cy="19" r="2.5" fill="currentColor"/><path d="M12 7v9.5M12 10.5L4.5 16.5M12 10.5l7.5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.5 2"/></svg><div class="k">KRİTER 4</div><div class="l">Haberleşme</div><div class="s">Adresleme yapısı</div></div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s07";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 6.878;
+const K = {"peki": 0.55, "yazida": 3.89, "dort": 4.39, "kriter": 5.02};
+
+
+tl.fromTo(q(".q"), { y: 50, opacity: 0, scale: 0.96 }, { y: 0, opacity: 1, scale: 1, duration: 0.7, ease: "expo.out" }, K.peki - 0.2);
+tl.fromTo(q(".four .n"), { scale: 0.2, opacity: 0, rotation: -20, transformOrigin: "50% 60%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.6, ease: "back.out(2)" }, K.dort - 0.15);
+slideX(".four .t", K.dort + 0.15, 60);
+tl.fromTo(q(".tile"), { y: 120, opacity: 0, rotationX: -40, transformPerspective: 900 }, { y: 0, opacity: 1, rotationX: 0, duration: 0.6, ease: "back.out(1.6)", stagger: 0.12 }, K.kriter);
+tl.fromTo(q(".tile .ico"), { rotation: -12 }, { rotation: 0, duration: 0.6, ease: "elastic.out(1,0.4)", stagger: 0.12 }, K.kriter + 0.3);
+
+exitAll(6.46);
+window.__timelines["s07"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

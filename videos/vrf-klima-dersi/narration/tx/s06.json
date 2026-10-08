@@ -1,0 +1,242 @@
+[
+  {
+    "text": "Buradan",
+    "start": 0.11,
+    "end": 0.53,
+    "id": "w0"
+  },
+  {
+    "text": "çıkan",
+    "start": 0.6,
+    "end": 0.94,
+    "id": "w1"
+  },
+  {
+    "text": "önemli",
+    "start": 0.94,
+    "end": 1.38,
+    "id": "w2"
+  },
+  {
+    "text": "sonuç",
+    "start": 1.46,
+    "end": 1.74,
+    "id": "w3"
+  },
+  {
+    "text": "şu.",
+    "start": 1.74,
+    "end": 2.06,
+    "id": "w4"
+  },
+  {
+    "text": "Eşya'nın",
+    "start": 2.14,
+    "end": 2.72,
+    "id": "w5"
+  },
+  {
+    "text": "multisplit",
+    "start": 2.72,
+    "end": 3.6,
+    "id": "w6"
+  },
+  {
+    "text": "ya",
+    "start": 3.6,
+    "end": 3.68,
+    "id": "w7"
+  },
+  {
+    "text": "da",
+    "start": 3.68,
+    "end": 3.75,
+    "id": "w8"
+  },
+  {
+    "text": "benzeri",
+    "start": 3.75,
+    "end": 4.27,
+    "id": "w9"
+  },
+  {
+    "text": "bir",
+    "start": 4.32,
+    "end": 4.49,
+    "id": "w10"
+  },
+  {
+    "text": "ticari",
+    "start": 4.49,
+    "end": 4.93,
+    "id": "w11"
+  },
+  {
+    "text": "adla",
+    "start": 4.93,
+    "end": 5.22,
+    "id": "w12"
+  },
+  {
+    "text": "anılması",
+    "start": 5.22,
+    "end": 5.83,
+    "id": "w13"
+  },
+  {
+    "text": "da",
+    "start": 5.83,
+    "end": 6.02,
+    "id": "w14"
+  },
+  {
+    "text": "bir",
+    "start": 6.13,
+    "end": 6.25,
+    "id": "w15"
+  },
+  {
+    "text": "dış",
+    "start": 6.25,
+    "end": 6.46,
+    "id": "w16"
+  },
+  {
+    "text": "üniteye",
+    "start": 6.5,
+    "end": 7,
+    "id": "w17"
+  },
+  {
+    "text": "birden",
+    "start": 7,
+    "end": 7.41,
+    "id": "w18"
+  },
+  {
+    "text": "fazla",
+    "start": 7.47,
+    "end": 7.76,
+    "id": "w19"
+  },
+  {
+    "text": "iç",
+    "start": 7.76,
+    "end": 7.92,
+    "id": "w20"
+  },
+  {
+    "text": "ünite",
+    "start": 8.08,
+    "end": 8.33,
+    "id": "w21"
+  },
+  {
+    "text": "bağlanabilmesi",
+    "start": 8.33,
+    "end": 9.23,
+    "id": "w22"
+  },
+  {
+    "text": "de",
+    "start": 9.23,
+    "end": 9.47,
+    "id": "w23"
+  },
+  {
+    "text": "tarife",
+    "start": 9.59,
+    "end": 9.86,
+    "id": "w24"
+  },
+  {
+    "text": "sınıflandırmasında",
+    "start": 9.86,
+    "end": 10.98,
+    "id": "w25"
+  },
+  {
+    "text": "tek",
+    "start": 10.98,
+    "end": 11.16,
+    "id": "w26"
+  },
+  {
+    "text": "başına",
+    "start": 11.16,
+    "end": 11.38,
+    "id": "w27"
+  },
+  {
+    "text": "belirleyici",
+    "start": 11.73,
+    "end": 12.24,
+    "id": "w28"
+  },
+  {
+    "text": "değil.",
+    "start": 12.24,
+    "end": 12.64,
+    "id": "w29"
+  },
+  {
+    "text": "Esas",
+    "start": 12.75,
+    "end": 12.96,
+    "id": "w30"
+  },
+  {
+    "text": "alınacak",
+    "start": 12.96,
+    "end": 13.6,
+    "id": "w31"
+  },
+  {
+    "text": "olan",
+    "start": 13.6,
+    "end": 13.94,
+    "id": "w32"
+  },
+  {
+    "text": "Eşya'nın",
+    "start": 13.94,
+    "end": 14.42,
+    "id": "w33"
+  },
+  {
+    "text": "fiili",
+    "start": 14.42,
+    "end": 14.89,
+    "id": "w34"
+  },
+  {
+    "text": "teknik",
+    "start": 14.9,
+    "end": 15.34,
+    "id": "w35"
+  },
+  {
+    "text": "yapısı",
+    "start": 15.34,
+    "end": 15.8,
+    "id": "w36"
+  },
+  {
+    "text": "ve",
+    "start": 15.8,
+    "end": 15.99,
+    "id": "w37"
+  },
+  {
+    "text": "çalışma",
+    "start": 16,
+    "end": 16.58,
+    "id": "w38"
+  },
+  {
+    "text": "prensibi.",
+    "start": 16.58,
+    "end": 17.34,
+    "id": "w39"
+  }
+]

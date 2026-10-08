@@ -1,0 +1,427 @@
+1
+00:00:01,680 --> 00:00:04,500
+Merhaba arkadaşlar, Gümrük Koçu'yla yeni bir derse
+
+2
+00:00:04,500 --> 00:00:05,500
+hoş geldiniz.
+
+3
+00:00:05,500 --> 00:00:08,230
+Bugün sahada en çok tartışılan sorulardan birini
+
+4
+00:00:08,230 --> 00:00:09,140
+konuşacağız:
+
+5
+00:00:09,140 --> 00:00:11,070
+Bu klima multi split mi,
+
+6
+00:00:11,070 --> 00:00:12,570
+yoksa VRF mi?
+
+7
+00:00:12,570 --> 00:00:14,190
+Gümrükler Genel Müdürlüğü,
+
+8
+00:00:14,190 --> 00:00:17,700
+1 Ekim 2026 tarihli yazısıyla bu sorunun cevabını
+
+9
+00:00:17,700 --> 00:00:20,040
+dört net teknik kritere bağladı.
+
+10
+00:00:20,040 --> 00:00:21,886
+Hadi, adım adım inceleyelim.
+
+11
+00:00:22,686 --> 00:00:24,206
+Önce sorunu görelim.
+
+12
+00:00:24,206 --> 00:00:26,806
+Bölge müdürlüklerinden gelen yazılarda şu tespit
+
+13
+00:00:26,806 --> 00:00:27,666
+yapılmış:
+
+14
+00:00:27,666 --> 00:00:30,376
+Farklı üniversiteler, multi split klimalar için
+
+15
+00:00:30,376 --> 00:00:33,606
+farklı kriterlere dayanan teknik raporlar düzenlemiş.
+
+16
+00:00:33,606 --> 00:00:34,436
+Sonuç:
+
+17
+00:00:34,436 --> 00:00:37,016
+Hangi kriterin esas alınacağı konusunda uygulama
+
+18
+00:00:37,016 --> 00:00:39,826
+farklılıkları, ve eşyanın tarife pozisyonunda
+
+19
+00:00:39,826 --> 00:00:40,926
+tereddüt.
+
+20
+00:00:41,737 --> 00:00:44,117
+Bunun üzerine Gümrükler Genel Müdürlüğü,
+
+21
+00:00:44,117 --> 00:00:46,557
+konuyu İthalat Genel Müdürlüğüne iletti.
+
+22
+00:00:46,557 --> 00:00:49,247
+İthalat Genel Müdürlüğü de klimaların iç ve dış
+
+23
+00:00:49,247 --> 00:00:52,257
+ünitelerine ilişkin teknik bilgilerini paylaştı.
+
+24
+00:00:52,257 --> 00:00:55,187
+Bu bilgiler ve mevcut teknik raporlar birlikte
+
+25
+00:00:55,187 --> 00:00:56,043
+incelendi.
+
+26
+00:00:56,843 --> 00:00:58,443
+İnceleme şunu gösterdi:
+
+27
+00:00:58,443 --> 00:01:01,993
+Multi split ve VRF sistemlerin bazı ortak özellikleri
+
+28
+00:01:01,993 --> 00:01:02,443
+var;
+
+29
+00:01:02,443 --> 00:01:05,333
+ama teknik mimari ve çalışma prensibi bakımından
+
+30
+00:01:05,333 --> 00:01:07,003
+birbirinden ayrılıyorlar.
+
+31
+00:01:07,003 --> 00:01:09,003
+Ve işte ilk tuzak:
+
+32
+00:01:09,003 --> 00:01:11,853
+Her iki sistemde de bir dış üniteye birden fazla
+
+33
+00:01:11,853 --> 00:01:13,403
+iç ünite bağlanabilir.
+
+34
+00:01:13,403 --> 00:01:16,922
+Ama bu, tek başına bir sistemi VRF yapmaz!
+
+35
+00:01:17,722 --> 00:01:20,362
+Multi split sistemde temel mantık basit:
+
+36
+00:01:20,362 --> 00:01:23,802
+Bir dış ünite, birden fazla iç üniteyi çalıştırır.
+
+37
+00:01:23,802 --> 00:01:27,162
+VRF'yi karakterize eden özellikler ise şunlar:
+
+38
+00:01:27,162 --> 00:01:29,192
+Soğutucu akışkan debisi,
+
+39
+00:01:29,192 --> 00:01:31,682
+sistemdeki anlık yüklere göre değişken olarak
+
+40
+00:01:31,682 --> 00:01:32,682
+kontrol edilir.
+
+41
+00:01:32,682 --> 00:01:35,842
+Akışkan, ortak ana hatlar ve branşmanlar üzerinden
+
+42
+00:01:35,842 --> 00:01:37,962
+çok sayıda iç üniteye dağıtılır.
+
+43
+00:01:37,962 --> 00:01:39,862
+Her iç ünitenin akışkan miktarı,
+
+44
+00:01:39,862 --> 00:01:42,282
+ihtiyacına göre bağımsız ayarlanır.
+
+45
+00:01:42,282 --> 00:01:45,432
+Ve sistemde gelişmiş adresleme ile merkezi kontrol
+
+46
+00:01:45,432 --> 00:01:47,002
+altyapısı bulunur.
+
+47
+00:01:47,002 --> 00:01:50,712
+Isı geri kazanımlı VRF'lerde ise aynı sistemde,
+
+48
+00:01:50,712 --> 00:01:54,312
+bir mahal ısıtılırken diğeri eş zamanlı soğutulabilir.
+
+49
+00:01:55,301 --> 00:01:57,331
+Buradan çıkan önemli sonuç şu:
+
+50
+00:01:57,331 --> 00:02:00,411
+Eşyanın multi split ya da benzeri bir ticari adla
+
+51
+00:02:00,411 --> 00:02:03,521
+anılması da, bir dış üniteye birden fazla iç ünite
+
+52
+00:02:03,521 --> 00:02:06,351
+bağlanabilmesi de, tarife sınıflandırmasında tek
+
+53
+00:02:06,351 --> 00:02:07,941
+başına belirleyici değil.
+
+54
+00:02:07,941 --> 00:02:10,991
+Esas alınacak olan, eşyanın fiili teknik yapısı
+
+55
+00:02:10,991 --> 00:02:12,682
+ve çalışma prensibi.
+
+56
+00:02:13,532 --> 00:02:16,872
+Peki VRF'yi diğer klimalardan nasıl ayıracağız?
+
+57
+00:02:16,872 --> 00:02:19,542
+Yazıda dört teknik kriter sayılıyor.
+
+58
+00:02:20,380 --> 00:02:21,310
+Bir:
+
+59
+00:02:21,310 --> 00:02:24,120
+Her iç ünite ya da bölge için ayrı bir soğutucu
+
+60
+00:02:24,120 --> 00:02:26,240
+akışkan ölçme ve kısma elemanı,
+
+61
+00:02:26,240 --> 00:02:28,860
+yani Elektronik Genleşme Vanası var mı?
+
+62
+00:02:29,729 --> 00:02:30,669
+İki:
+
+63
+00:02:30,669 --> 00:02:33,059
+Dış ünite ya da dış ünite grubu,
+
+64
+00:02:33,059 --> 00:02:35,869
+aynı ana hat üzerinden birden fazla iç üniteyi
+
+65
+00:02:35,869 --> 00:02:37,089
+besleyebiliyor mu?
+
+66
+00:02:37,089 --> 00:02:39,639
+Yani ortak bir borulama ağı var mı?
+
+67
+00:02:40,485 --> 00:02:41,705
+Üç:
+
+68
+00:02:41,705 --> 00:02:44,615
+Kompresör yalnızca aç kapa mantığıyla mı çalışıyor,
+
+69
+00:02:44,615 --> 00:02:47,725
+yoksa inverter ya da en az üç kademeli kapasite
+
+70
+00:02:47,725 --> 00:02:50,435
+kontrolüyle, kapasiteyi ihtiyaca göre artırıp
+
+71
+00:02:50,435 --> 00:02:51,665
+azaltabiliyor mu?
+
+72
+00:02:52,503 --> 00:02:53,683
+Dört:
+
+73
+00:02:53,683 --> 00:02:56,383
+Dış ünite, iç üniteler ve varsa dağıtım ya da
+
+74
+00:02:56,383 --> 00:02:59,203
+mod seçim kutuları arasında veri iletişimi var
+
+75
+00:02:59,203 --> 00:02:59,483
+mı;
+
+76
+00:02:59,483 --> 00:03:02,463
+iç üniteler sistem tarafından ayrı ayrı tanınabiliyor
+
+77
+00:03:02,463 --> 00:03:02,923
+mu?
+
+78
+00:03:02,923 --> 00:03:06,427
+Yani, ortak bir haberleşme ve adresleme yapısı.
+
+79
+00:03:07,327 --> 00:03:09,617
+Şimdi en kritik kısma geldik.
+
+80
+00:03:09,627 --> 00:03:12,697
+Yazıya göre, geçmiş yıllarda düzenlenmiş Bağlayıcı
+
+81
+00:03:12,697 --> 00:03:15,327
+Tarife Bilgileri de bu kriterler çerçevesinde
+
+82
+00:03:15,327 --> 00:03:17,077
+yeniden değerlendirilecek.
+
+83
+00:03:17,077 --> 00:03:20,017
+Gerekli şartları taşımadığı tespit edilen BTB'ler,
+
+84
+00:03:20,017 --> 00:03:23,309
+mevzuat hükümleri çerçevesinde iptal edilecek.
+
+85
+00:03:24,189 --> 00:03:25,589
+Koçun tavsiyesi:
+
+86
+00:03:25,589 --> 00:03:29,399
+Elinizde VRF olarak alınmış bir BTB varsa ya da
+
+87
+00:03:29,399 --> 00:03:31,669
+yeni bir ithalat planlıyorsanız,
+
+88
+00:03:31,669 --> 00:03:33,139
+ürünün teknik kataloğunu,
+
+89
+00:03:33,139 --> 00:03:36,009
+borulama şemasını ve kontrol sistemi dokümanlarını
+
+90
+00:03:36,009 --> 00:03:37,449
+şimdiden hazırlayın.
+
+91
+00:03:37,449 --> 00:03:40,079
+Dört kriterin her birini belgeyle gösterebilmek,
+
+92
+00:03:40,079 --> 00:03:42,908
+olası bir incelemede elinizi güçlendirir.
+
+93
+00:03:43,738 --> 00:03:45,498
+Şimdi küçük bir soru:
+
+94
+00:03:45,498 --> 00:03:48,598
+Bir dış üniteye beş iç ünite bağlanabiliyor.
+
+95
+00:03:48,698 --> 00:03:52,348
+Bu, tek başına VRF demek için yeterli mi?
+
+96
+00:03:54,778 --> 00:03:55,858
+Cevap:
+
+97
+00:03:55,858 --> 00:03:56,698
+Hayır!
+
+98
+00:03:56,698 --> 00:03:59,588
+Bağlanabilen iç ünite sayısı tek başına belirleyici
+
+99
+00:03:59,588 --> 00:04:00,098
+değil.
+
+100
+00:04:00,098 --> 00:04:02,716
+Dört kritere tek tek bakmak gerekiyor.
+
+101
+00:04:03,526 --> 00:04:04,466
+Özetle:
+
+102
+00:04:04,466 --> 00:04:06,236
+İsme değil, tekniğe bakın.
+
+103
+00:04:06,236 --> 00:04:08,166
+Dört kriter, tek karar.
+
+104
+00:04:08,166 --> 00:04:10,806
+Bu ders işinize yaradıysa kanala abone olmayı
+
+105
+00:04:10,806 --> 00:04:12,686
+ve videoyu paylaşmayı unutmayın.
+
+106
+00:04:12,686 --> 00:04:14,596
+Bir sonraki derste görüşmek üzere,
+
+107
+00:04:14,596 --> 00:04:15,602
+hoşça kalın!

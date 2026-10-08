@@ -1,0 +1,452 @@
+[
+  {
+    "text": "Multi-split",
+    "start": 0.05,
+    "end": 0.81,
+    "id": "w0"
+  },
+  {
+    "text": "sistemde",
+    "start": 0.81,
+    "end": 1.3,
+    "id": "w1"
+  },
+  {
+    "text": "temel",
+    "start": 1.43,
+    "end": 1.78,
+    "id": "w2"
+  },
+  {
+    "text": "mantık",
+    "start": 1.78,
+    "end": 2.23,
+    "id": "w3"
+  },
+  {
+    "text": "basit.",
+    "start": 2.23,
+    "end": 2.64,
+    "id": "w4"
+  },
+  {
+    "text": "Bir",
+    "start": 2.69,
+    "end": 2.86,
+    "id": "w5"
+  },
+  {
+    "text": "dış",
+    "start": 2.93,
+    "end": 3.1,
+    "id": "w6"
+  },
+  {
+    "text": "ünite",
+    "start": 3.2,
+    "end": 3.55,
+    "id": "w7"
+  },
+  {
+    "text": "birden",
+    "start": 3.62,
+    "end": 3.94,
+    "id": "w8"
+  },
+  {
+    "text": "fazla",
+    "start": 4.07,
+    "end": 4.45,
+    "id": "w9"
+  },
+  {
+    "text": "iç",
+    "start": 4.45,
+    "end": 4.61,
+    "id": "w10"
+  },
+  {
+    "text": "üniteyi",
+    "start": 4.61,
+    "end": 5.16,
+    "id": "w11"
+  },
+  {
+    "text": "çalıştırır.",
+    "start": 5.46,
+    "end": 6.08,
+    "id": "w12"
+  },
+  {
+    "text": "WRF'yi",
+    "start": 6.13,
+    "end": 6.51,
+    "id": "w13"
+  },
+  {
+    "text": "karakterize",
+    "start": 6.51,
+    "end": 7.36,
+    "id": "w14"
+  },
+  {
+    "text": "eden",
+    "start": 7.36,
+    "end": 7.67,
+    "id": "w15"
+  },
+  {
+    "text": "özellikler",
+    "start": 7.67,
+    "end": 8.42,
+    "id": "w16"
+  },
+  {
+    "text": "ise",
+    "start": 8.51,
+    "end": 8.6,
+    "id": "w17"
+  },
+  {
+    "text": "şun",
+    "start": 8.73,
+    "end": 8.88,
+    "id": "w18"
+  },
+  {
+    "text": "var.",
+    "start": 8.92,
+    "end": 9.44,
+    "id": "w19"
+  },
+  {
+    "text": "Soğutucu",
+    "start": 9.49,
+    "end": 10.18,
+    "id": "w20"
+  },
+  {
+    "text": "akışkan",
+    "start": 10.19,
+    "end": 10.74,
+    "id": "w21"
+  },
+  {
+    "text": "debisi",
+    "start": 10.87,
+    "end": 11.42,
+    "id": "w22"
+  },
+  {
+    "text": "sistemdeki",
+    "start": 11.52,
+    "end": 11.98,
+    "id": "w23"
+  },
+  {
+    "text": "anlık",
+    "start": 12.23,
+    "end": 12.43,
+    "id": "w24"
+  },
+  {
+    "text": "yüklere",
+    "start": 12.43,
+    "end": 12.9,
+    "id": "w25"
+  },
+  {
+    "text": "göre",
+    "start": 12.9,
+    "end": 13.2,
+    "id": "w26"
+  },
+  {
+    "text": "değişken",
+    "start": 13.2,
+    "end": 13.66,
+    "id": "w27"
+  },
+  {
+    "text": "olarak",
+    "start": 13.66,
+    "end": 13.96,
+    "id": "w28"
+  },
+  {
+    "text": "kontrol",
+    "start": 14.01,
+    "end": 14.41,
+    "id": "w29"
+  },
+  {
+    "text": "edilir.",
+    "start": 14.41,
+    "end": 14.96,
+    "id": "w30"
+  },
+  {
+    "text": "Akışkan,",
+    "start": 15.01,
+    "end": 15.59,
+    "id": "w31"
+  },
+  {
+    "text": "ortak",
+    "start": 15.59,
+    "end": 15.95,
+    "id": "w32"
+  },
+  {
+    "text": "ana",
+    "start": 15.95,
+    "end": 16.17,
+    "id": "w33"
+  },
+  {
+    "text": "hatlar",
+    "start": 16.17,
+    "end": 16.6,
+    "id": "w34"
+  },
+  {
+    "text": "ve",
+    "start": 16.6,
+    "end": 16.74,
+    "id": "w35"
+  },
+  {
+    "text": "branşmanlar",
+    "start": 16.74,
+    "end": 17.47,
+    "id": "w36"
+  },
+  {
+    "text": "üzerinden",
+    "start": 17.78,
+    "end": 18.17,
+    "id": "w37"
+  },
+  {
+    "text": "çok",
+    "start": 18.17,
+    "end": 18.39,
+    "id": "w38"
+  },
+  {
+    "text": "sayıda",
+    "start": 18.39,
+    "end": 18.74,
+    "id": "w39"
+  },
+  {
+    "text": "iç",
+    "start": 18.85,
+    "end": 18.96,
+    "id": "w40"
+  },
+  {
+    "text": "üniteye",
+    "start": 18.96,
+    "end": 19.46,
+    "id": "w41"
+  },
+  {
+    "text": "dağıtılır.",
+    "start": 19.46,
+    "end": 20.24,
+    "id": "w42"
+  },
+  {
+    "text": "Her",
+    "start": 20.29,
+    "end": 20.46,
+    "id": "w43"
+  },
+  {
+    "text": "iç",
+    "start": 20.46,
+    "end": 20.59,
+    "id": "w44"
+  },
+  {
+    "text": "ünitenin",
+    "start": 20.59,
+    "end": 21.16,
+    "id": "w45"
+  },
+  {
+    "text": "akışkan",
+    "start": 21.22,
+    "end": 21.67,
+    "id": "w46"
+  },
+  {
+    "text": "miktarı",
+    "start": 21.67,
+    "end": 22.11,
+    "id": "w47"
+  },
+  {
+    "text": "ihtiyacına",
+    "start": 22.19,
+    "end": 22.78,
+    "id": "w48"
+  },
+  {
+    "text": "göre",
+    "start": 23.07,
+    "end": 23.19,
+    "id": "w49"
+  },
+  {
+    "text": "bağımsız",
+    "start": 23.19,
+    "end": 23.73,
+    "id": "w50"
+  },
+  {
+    "text": "ayarlanır.",
+    "start": 23.84,
+    "end": 24.56,
+    "id": "w51"
+  },
+  {
+    "text": "Ve",
+    "start": 24.61,
+    "end": 24.71,
+    "id": "w52"
+  },
+  {
+    "text": "sistemde",
+    "start": 24.71,
+    "end": 25.29,
+    "id": "w53"
+  },
+  {
+    "text": "gelişmiş",
+    "start": 25.29,
+    "end": 25.86,
+    "id": "w54"
+  },
+  {
+    "text": "adresleme",
+    "start": 25.99,
+    "end": 26.53,
+    "id": "w55"
+  },
+  {
+    "text": "ile",
+    "start": 26.53,
+    "end": 26.75,
+    "id": "w56"
+  },
+  {
+    "text": "merkezi",
+    "start": 26.75,
+    "end": 27.25,
+    "id": "w57"
+  },
+  {
+    "text": "kontrol",
+    "start": 27.39,
+    "end": 27.76,
+    "id": "w58"
+  },
+  {
+    "text": "alt",
+    "start": 27.76,
+    "end": 27.98,
+    "id": "w59"
+  },
+  {
+    "text": "yapısı",
+    "start": 27.98,
+    "end": 28.34,
+    "id": "w60"
+  },
+  {
+    "text": "bulunur.",
+    "start": 28.47,
+    "end": 29.25,
+    "id": "w61"
+  },
+  {
+    "text": "Isı",
+    "start": 29.33,
+    "end": 29.5,
+    "id": "w62"
+  },
+  {
+    "text": "geri",
+    "start": 29.55,
+    "end": 29.92,
+    "id": "w63"
+  },
+  {
+    "text": "kazanımlı",
+    "start": 29.92,
+    "end": 30.74,
+    "id": "w64"
+  },
+  {
+    "text": "WRF'lerde",
+    "start": 30.74,
+    "end": 31.56,
+    "id": "w65"
+  },
+  {
+    "text": "ise",
+    "start": 31.56,
+    "end": 31.78,
+    "id": "w66"
+  },
+  {
+    "text": "aynı",
+    "start": 32.11,
+    "end": 32.29,
+    "id": "w67"
+  },
+  {
+    "text": "sistemde",
+    "start": 32.29,
+    "end": 33.04,
+    "id": "w68"
+  },
+  {
+    "text": "bir",
+    "start": 33.04,
+    "end": 33.25,
+    "id": "w69"
+  },
+  {
+    "text": "mahalısıtılırken",
+    "start": 33.25,
+    "end": 34.33,
+    "id": "w70"
+  },
+  {
+    "text": "diğeri",
+    "start": 34.4,
+    "end": 34.79,
+    "id": "w71"
+  },
+  {
+    "text": "eş",
+    "start": 34.79,
+    "end": 34.92,
+    "id": "w72"
+  },
+  {
+    "text": "zamanlı",
+    "start": 34.92,
+    "end": 35.38,
+    "id": "w73"
+  },
+  {
+    "text": "soğutulabilir.",
+    "start": 35.38,
+    "end": 36.39,
+    "id": "w74"
+  }
+]

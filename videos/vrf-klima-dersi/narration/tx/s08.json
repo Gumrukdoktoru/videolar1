@@ -1,0 +1,134 @@
+[
+  {
+    "text": "1.",
+    "start": 0.07,
+    "end": 1,
+    "id": "w0"
+  },
+  {
+    "text": "Her",
+    "start": 1,
+    "end": 1.22,
+    "id": "w1"
+  },
+  {
+    "text": "iç",
+    "start": 1.22,
+    "end": 1.36,
+    "id": "w2"
+  },
+  {
+    "text": "ünite",
+    "start": 1.37,
+    "end": 1.74,
+    "id": "w3"
+  },
+  {
+    "text": "ya",
+    "start": 1.74,
+    "end": 1.88,
+    "id": "w4"
+  },
+  {
+    "text": "da",
+    "start": 1.89,
+    "end": 2.04,
+    "id": "w5"
+  },
+  {
+    "text": "bölge",
+    "start": 2.04,
+    "end": 2.41,
+    "id": "w6"
+  },
+  {
+    "text": "için",
+    "start": 2.41,
+    "end": 2.72,
+    "id": "w7"
+  },
+  {
+    "text": "ayrı",
+    "start": 2.83,
+    "end": 3.03,
+    "id": "w8"
+  },
+  {
+    "text": "bir",
+    "start": 3.03,
+    "end": 3.24,
+    "id": "w9"
+  },
+  {
+    "text": "soğutucu",
+    "start": 3.24,
+    "end": 3.81,
+    "id": "w10"
+  },
+  {
+    "text": "akışkan",
+    "start": 3.81,
+    "end": 4.27,
+    "id": "w11"
+  },
+  {
+    "text": "ölçme",
+    "start": 4.34,
+    "end": 4.66,
+    "id": "w12"
+  },
+  {
+    "text": "ve",
+    "start": 4.66,
+    "end": 4.79,
+    "id": "w13"
+  },
+  {
+    "text": "kısma",
+    "start": 4.79,
+    "end": 5.15,
+    "id": "w14"
+  },
+  {
+    "text": "elemanı.",
+    "start": 5.16,
+    "end": 5.77,
+    "id": "w15"
+  },
+  {
+    "text": "Yani",
+    "start": 5.93,
+    "end": 6.11,
+    "id": "w16"
+  },
+  {
+    "text": "elektronik",
+    "start": 6.13,
+    "end": 6.79,
+    "id": "w17"
+  },
+  {
+    "text": "yerleşme",
+    "start": 6.79,
+    "end": 7.32,
+    "id": "w18"
+  },
+  {
+    "text": "vanısı",
+    "start": 7.32,
+    "end": 7.72,
+    "id": "w19"
+  },
+  {
+    "text": "var",
+    "start": 7.72,
+    "end": 7.91,
+    "id": "w20"
+  },
+  {
+    "text": "mı?",
+    "start": 7.92,
+    "end": 8.3,
+    "id": "w21"
+  }
+]

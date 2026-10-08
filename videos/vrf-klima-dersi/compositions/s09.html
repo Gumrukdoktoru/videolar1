@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s09 { position: absolute; inset: 0; overflow: hidden; }
+        #s09 .stage { position: absolute; inset: 0; }
+
+#s09 .rail { position:absolute; left:600px; top:300px; width:96px; height:520px; }
+#s09 .rail .ln { position:absolute; left:46px; top:40px; width:4px; height:420px; background:rgba(143,178,255,.3); }
+#s09 .st { position:absolute; left:-14px; width:124px; display:flex; flex-direction:column; align-items:center; gap:6px; }
+#s09 .st1 { top:0; } #s09 .st2 { top:140px; } #s09 .st3 { top:280px; } #s09 .st4 { top:420px; }
+#s09 .st .c { width:84px; height:84px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:40px;
+  background:var(--bg2); border:4px solid rgba(143,178,255,.45); color:var(--muted); }
+#s09 .st .lb { font:700 18px 'JetBrains Mono'; color:var(--muted); letter-spacing:.04em; white-space:nowrap; }
+#s09 .st.done .c { background:var(--ok); border-color:var(--ok); color:#06221a; }
+#s09 .st.cur .c { background:var(--vrf); border-color:#BFF5E6; color:#062a22; box-shadow:0 0 40px rgba(51,217,178,.6); }
+#s09 .st.cur .lb { color:var(--fg); }
+#s09 .hdr { position:absolute; left:740px; top:132px; width:1080px; }
+#s09 .sub { font:400 30px/1.3 Montserrat; color:var(--muted); margin-top:10px; white-space:nowrap; }
+#s09 .hdr .h1 { font-size:62px; white-space:nowrap; }
+#s09 .dg { position:absolute; left:740px; top:330px; width:1080px; height:440px; }
+#s09 .qq { position:absolute; left:740px; top:792px; width:1080px; display:flex; align-items:center; gap:18px; padding:16px 24px; }
+#s09 .qq .t { font:700 30px/1.2 Montserrat; color:var(--fg); flex:1; }
+#s09 .qq .ok { display:flex; align-items:center; gap:10px; font:900 24px Montserrat; color:#06221a; background:var(--ok); padding:10px 18px; border-radius:12px; white-space:nowrap; }
+
+
+      </style>
+      <div id="s09" data-composition-id="s09" data-width="1920" data-height="1080" data-duration="10.796">
+        <div class="stage">
+
+<div class="rail"><div class="ln"></div><div class="st st1"><div class="c"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="lb">EEV</div></div><div class="st st2"><div class="c">2</div><div class="lb">Ortak hat</div></div><div class="st st3"><div class="c">3</div><div class="lb">Kapasite</div></div><div class="st st4"><div class="c">4</div><div class="lb">Haberleşme</div></div></div>
+<div class="hdr"><div class="kicker">KRİTER 2 / 4</div><div class="h1">Ortak soğutucu akışkan hattı</div><div class="sub">Aynı ana hat üzerinden birden fazla iç ünite / bölge beslenir</div></div>
+<div class="dg"><svg viewBox="0 0 1080 440" width="1080" height="440"><g class="grp"><rect x="-10" y="0" width="400" height="190" rx="22" fill="rgba(143,178,255,.06)" stroke="#8FB2FF" stroke-width="3" stroke-dasharray="10 8"/><text x="10" y="-12" class="svgt" style="fill:#8FB2FF">DIŞ ÜNİTE GRUBU</text></g><g transform="translate(10 20)"><g class="odu"><rect width="170" height="120" rx="14" fill="#17295E" stroke="#8FB2FF" stroke-width="4"/><circle cx="62" cy="60.0" r="40" fill="#0E1C46" stroke="#8FB2FF" stroke-width="3"/><g class="fan" data-cx="62" data-cy="60.0"><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(0 62 60.0)" fill="#9CC0FF"/><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(120 62 60.0)" fill="#9CC0FF"/><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(240 62 60.0)" fill="#9CC0FF"/></g><circle cx="62" cy="60.0" r="6" fill="#DCE7FF"/><line x1="118" y1="20" x2="118" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="129" y1="20" x2="129" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="140" y1="20" x2="140" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="151" y1="20" x2="151" y2="100" stroke="#5B7FD6" stroke-width="3"/></g></g><g transform="translate(200 20)"><g class="odu"><rect width="170" height="120" rx="14" fill="#17295E" stroke="#8FB2FF" stroke-width="4"/><circle cx="62" cy="60.0" r="40" fill="#0E1C46" stroke="#8FB2FF" stroke-width="3"/><g class="fan" data-cx="62" data-cy="60.0"><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(0 62 60.0)" fill="#9CC0FF"/><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(120 62 60.0)" fill="#9CC0FF"/><path d="M62 60.0 Q 92 46.0 96 58.0 Q 80 66.0 62 60.0z" transform="rotate(240 62 60.0)" fill="#9CC0FF"/></g><circle cx="62" cy="60.0" r="6" fill="#DCE7FF"/><line x1="118" y1="20" x2="118" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="129" y1="20" x2="129" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="140" y1="20" x2="140" y2="100" stroke="#5B7FD6" stroke-width="3"/><line x1="151" y1="20" x2="151" y2="100" stroke="#5B7FD6" stroke-width="3"/></g></g><path class="pm" d="M95 140 V 230 M285 140 V 230 M95 230 H 1030" fill="none" stroke="#7FA6FF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><path class="pmf" d="M95 140 V 230 H 1030 M285 140 V 230" fill="none" stroke="#E0ECFF" stroke-width="4" stroke-dasharray="8 16" stroke-linecap="round"/><path class="pb" d="M430 230 V 336" fill="none" stroke="#7FA6FF" stroke-width="9" stroke-linecap="round"/><path class="pb" d="M630 230 V 336" fill="none" stroke="#7FA6FF" stroke-width="9" stroke-linecap="round"/><path class="pb" d="M830 230 V 336" fill="none" stroke="#7FA6FF" stroke-width="9" stroke-linecap="round"/><path class="pb" d="M1030 230 V 336" fill="none" stroke="#7FA6FF" stroke-width="9" stroke-linecap="round"/><path class="pbf" d="M430 230 V 336" fill="none" stroke="#E0ECFF" stroke-width="3" stroke-dasharray="6 12"/><path class="pbf" d="M630 230 V 336" fill="none" stroke="#E0ECFF" stroke-width="3" stroke-dasharray="6 12"/><path class="pbf" d="M830 230 V 336" fill="none" stroke="#E0ECFF" stroke-width="3" stroke-dasharray="6 12"/><path class="pbf" d="M1030 230 V 336" fill="none" stroke="#E0ECFF" stroke-width="3" stroke-dasharray="6 12"/><rect class="joint" x="421" y="221" width="18" height="18" rx="3" transform="rotate(45 430 230)" fill="#FFC53D"/><rect class="joint" x="621" y="221" width="18" height="18" rx="3" transform="rotate(45 630 230)" fill="#FFC53D"/><rect class="joint" x="821" y="221" width="18" height="18" rx="3" transform="rotate(45 830 230)" fill="#FFC53D"/><rect class="joint" x="1021" y="221" width="18" height="18" rx="3" transform="rotate(45 1030 230)" fill="#FFC53D"/><g class="mlab"><rect x="520" y="166" width="300" height="40" rx="12" fill="#FFC53D"/><text x="670" y="194" text-anchor="middle" class="svga" style="fill:#2a1d00;font-size:20px">ORTAK ANA HAT</text></g><g transform="translate(345 340)"><g class="idu"><rect width="170" height="54" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 40 H 156" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><g transform="translate(545 340)"><g class="idu"><rect width="170" height="54" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 40 H 156" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><g transform="translate(745 340)"><g class="idu"><rect width="170" height="54" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 40 H 156" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="16" r="5" class="led" fill="#2ED47A"/></g></g><g transform="translate(945 340)"><g class="idu"><rect width="170" height="54" rx="16" fill="#EAF0FF" stroke="#8FB2FF" stroke-width="3"/><path d="M14 40 H 156" stroke="#93A6D6" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="16" r="5" class="led" fill="#2ED47A"/></g></g></svg></div>
+<div class="qq card"><div class="badge b-soru "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M9 9.2a3 3 0 1 1 4.2 2.8c-.9.4-1.2 1-1.2 2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.4" fill="currentColor"/></svg></span><span class="bt">SORU</span></div><div class="t">Ortak bir soğutucu akışkan hattı / borulama ağı var mı?</div><div class="ok"><svg class="ico " viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg> VRF GÖSTERGESİ</div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s09";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 10.796;
+const K = {"dis": 1.45, "grubu": 3.14, "ayni": 3.84, "ana": 3.98, "birden": 5.13, "besle": 6.65};
+
+q('.st').forEach((e, i) => { if (i < 1) e.classList.add('done'); if (i === 1) e.classList.add('cur'); });
+rise('.rail .st', 0.05, 0.06, 20);
+tl.fromTo(q('.st.cur .c'), { scale: 0.6 }, { scale: 1.12, duration: 0.45, ease: 'back.out(3)' }, 0.4);
+tl.to(q('.st.cur .c'), { scale: 1, duration: 0.3 }, 0.85);
+rise('.hdr .kicker', 0.1, 0, 16);
+tl.fromTo(q('.hdr .h1'), { y: 46, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: 'expo.out' }, 0.25);
+rise('.hdr .sub', 0.6, 0, 20);
+
+tl.fromTo(q(".dg .odu"), { y: -30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out", stagger: 0.15 }, K.dis);
+tl.fromTo(q(".dg .grp"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, K.grubu - 0.3);
+draw(".dg .pm", K.ayni, 0.9);
+tl.fromTo(q(".dg .pm"), { filter: "drop-shadow(0 0 0px #FFC53D)" }, { filter: "drop-shadow(0 0 14px #FFC53D)", duration: 0.4, yoyo: true, repeat: 3 }, K.ana + 0.4);
+pop(".dg .mlab", K.ana + 0.2);
+draw(".dg .pb", K.birden, 0.5);
+pop(".dg .joint", K.birden, 0.08);
+pop(".dg .idu", K.birden + 0.3, 0.1);
+fadeIn(".dg .pmf, .dg .pbf", K.besle, 0.3);
+flow(".dg .pmf", K.besle, D, 80);
+flow(".dg .pbf", K.besle, D, [30, 55, 20, 45]);
+spinFans(0, D, 1.1);
+
+rise('.qq', 7.57, 0, 30);
+pop('.qq .ok', 8.7);
+
+exitAll(10.38);
+window.__timelines["s09"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

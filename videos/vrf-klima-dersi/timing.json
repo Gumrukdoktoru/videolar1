@@ -1,0 +1,2786 @@
+{
+ "total": 258.352,
+ "scenes": [
+  {
+   "id": "s01",
+   "title": "Giriş",
+   "start": 0.0,
+   "dur": 22.186,
+   "audio": "narration/s01.mp3",
+   "audio_at": 1.6,
+   "audio_local": 1.6,
+   "audio_dur": 20.036,
+   "words": [
+    {
+     "w": "Merhaba",
+     "t": 1.68
+    },
+    {
+     "w": "arkadaşlar,",
+     "t": 2.0
+    },
+    {
+     "w": "Gümrük",
+     "t": 2.69
+    },
+    {
+     "w": "Koçu'yla",
+     "t": 3.16
+    },
+    {
+     "w": "yeni",
+     "t": 3.65
+    },
+    {
+     "w": "bir",
+     "t": 3.94
+    },
+    {
+     "w": "derse",
+     "t": 4.15
+    },
+    {
+     "w": "hoş",
+     "t": 4.5
+    },
+    {
+     "w": "geldiniz.",
+     "t": 4.71
+    },
+    {
+     "w": "Bugün",
+     "t": 5.5
+    },
+    {
+     "w": "sahada",
+     "t": 5.76
+    },
+    {
+     "w": "en",
+     "t": 6.16
+    },
+    {
+     "w": "çok",
+     "t": 6.28
+    },
+    {
+     "w": "tartışılan",
+     "t": 6.76
+    },
+    {
+     "w": "sorulardan",
+     "t": 7.16
+    },
+    {
+     "w": "birini",
+     "t": 7.83
+    },
+    {
+     "w": "konuşacağız:",
+     "t": 8.23
+    },
+    {
+     "w": "Bu",
+     "t": 9.14
+    },
+    {
+     "w": "klima",
+     "t": 9.27
+    },
+    {
+     "w": "multi",
+     "t": 9.8
+    },
+    {
+     "w": "split",
+     "t": 10.32
+    },
+    {
+     "w": "mi,",
+     "t": 10.94
+    },
+    {
+     "w": "yoksa",
+     "t": 11.07
+    },
+    {
+     "w": "VRF",
+     "t": 11.6
+    },
+    {
+     "w": "mi?",
+     "t": 11.9
+    },
+    {
+     "w": "Gümrükler",
+     "t": 12.57
+    },
+    {
+     "w": "Genel",
+     "t": 13.12
+    },
+    {
+     "w": "Müdürlüğü,",
+     "t": 13.47
+    },
+    {
+     "w": "1",
+     "t": 14.19
+    },
+    {
+     "w": "Ekim",
+     "t": 14.38
+    },
+    {
+     "w": "2026",
+     "t": 14.6
+    },
+    {
+     "w": "tarihli",
+     "t": 15.44
+    },
+    {
+     "w": "yazısıyla",
+     "t": 15.93
+    },
+    {
+     "w": "bu",
+     "t": 16.6
+    },
+    {
+     "w": "sorunun",
+     "t": 16.72
+    },
+    {
+     "w": "cevabını",
+     "t": 17.13
+    },
+    {
+     "w": "dört",
+     "t": 17.7
+    },
+    {
+     "w": "net",
+     "t": 17.9
+    },
+    {
+     "w": "teknik",
+     "t": 18.14
+    },
+    {
+     "w": "kritere",
+     "t": 18.66
+    },
+    {
+     "w": "bağladı.",
+     "t": 19.26
+    },
+    {
+     "w": "Hadi,",
+     "t": 20.04
+    },
+    {
+     "w": "adım",
+     "t": 20.25
+    },
+    {
+     "w": "adım",
+     "t": 20.53
+    },
+    {
+     "w": "inceleyelim.",
+     "t": 20.83
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": "Sorun",
+   "start": 22.186,
+   "dur": 19.051,
+   "audio": "narration/s02.mp3",
+   "audio_at": 22.636,
+   "audio_local": 0.45,
+   "audio_dur": 18.051,
+   "words": [
+    {
+     "w": "Önce",
+     "t": 0.5
+    },
+    {
+     "w": "sorunu",
+     "t": 0.88
+    },
+    {
+     "w": "görelim.",
+     "t": 1.25
+    },
+    {
+     "w": "Bölge",
+     "t": 2.02
+    },
+    {
+     "w": "müdürlüklerinden",
+     "t": 2.27
+    },
+    {
+     "w": "gelen",
+     "t": 3.5
+    },
+    {
+     "w": "yazılarda",
+     "t": 3.57
+    },
+    {
+     "w": "şu",
+     "t": 4.12
+    },
+    {
+     "w": "tespit",
+     "t": 4.25
+    },
+    {
+     "w": "yapılmış:",
+     "t": 4.62
+    },
+    {
+     "w": "Farklı",
+     "t": 5.48
+    },
+    {
+     "w": "üniversiteler,",
+     "t": 5.86
+    },
+    {
+     "w": "multi",
+     "t": 6.98
+    },
+    {
+     "w": "split",
+     "t": 7.235
+    },
+    {
+     "w": "klimalar",
+     "t": 7.49
+    },
+    {
+     "w": "için",
+     "t": 7.93
+    },
+    {
+     "w": "farklı",
+     "t": 8.19
+    },
+    {
+     "w": "kriterlere",
+     "t": 8.58
+    },
+    {
+     "w": "dayanan",
+     "t": 9.24
+    },
+    {
+     "w": "teknik",
+     "t": 9.72
+    },
+    {
+     "w": "raporlar",
+     "t": 10.09
+    },
+    {
+     "w": "düzenlemiş.",
+     "t": 10.73
+    },
+    {
+     "w": "Sonuç:",
+     "t": 11.42
+    },
+    {
+     "w": "Hangi",
+     "t": 12.25
+    },
+    {
+     "w": "kriterin",
+     "t": 12.67
+    },
+    {
+     "w": "esas",
+     "t": 13.03
+    },
+    {
+     "w": "alınacağı",
+     "t": 13.27
+    },
+    {
+     "w": "konusunda",
+     "t": 13.81
+    },
+    {
+     "w": "uygulama",
+     "t": 14.35
+    },
+    {
+     "w": "farklılıkları,",
+     "t": 14.83
+    },
+    {
+     "w": "ve",
+     "t": 15.75
+    },
+    {
+     "w": "eşyanın",
+     "t": 15.89
+    },
+    {
+     "w": "tarife",
+     "t": 16.43
+    },
+    {
+     "w": "pozisyonunda",
+     "t": 16.8
+    },
+    {
+     "w": "tereddüt.",
+     "t": 17.64
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": "Süreç",
+   "start": 41.237,
+   "dur": 15.106,
+   "audio": "narration/s03.mp3",
+   "audio_at": 41.687,
+   "audio_local": 0.45,
+   "audio_dur": 14.106,
+   "words": [
+    {
+     "w": "Bunun",
+     "t": 0.5
+    },
+    {
+     "w": "üzerine",
+     "t": 0.78
+    },
+    {
+     "w": "Gümrükler",
+     "t": 1.24
+    },
+    {
+     "w": "Genel",
+     "t": 1.85
+    },
+    {
+     "w": "Müdürlüğü,",
+     "t": 2.15
+    },
+    {
+     "w": "konuyu",
+     "t": 2.88
+    },
+    {
+     "w": "İthalat",
+     "t": 3.19
+    },
+    {
+     "w": "Genel",
+     "t": 3.58
+    },
+    {
+     "w": "Müdürlüğüne",
+     "t": 3.91
+    },
+    {
+     "w": "iletti.",
+     "t": 4.62
+    },
+    {
+     "w": "İthalat",
+     "t": 5.32
+    },
+    {
+     "w": "Genel",
+     "t": 5.7
+    },
+    {
+     "w": "Müdürlüğü",
+     "t": 6.06
+    },
+    {
+     "w": "de",
+     "t": 6.69
+    },
+    {
+     "w": "klimaların",
+     "t": 6.91
+    },
+    {
+     "w": "iç",
+     "t": 7.54
+    },
+    {
+     "w": "ve",
+     "t": 7.7
+    },
+    {
+     "w": "dış",
+     "t": 7.81
+    },
+    {
+     "w": "ünitelerine",
+     "t": 8.01
+    },
+    {
+     "w": "ilişkin",
+     "t": 8.73
+    },
+    {
+     "w": "teknik",
+     "t": 9.19
+    },
+    {
+     "w": "bilgilerini",
+     "t": 9.69
+    },
+    {
+     "w": "paylaştı.",
+     "t": 10.37
+    },
+    {
+     "w": "Bu",
+     "t": 11.02
+    },
+    {
+     "w": "bilgiler",
+     "t": 11.12
+    },
+    {
+     "w": "ve",
+     "t": 11.71
+    },
+    {
+     "w": "mevcut",
+     "t": 11.85
+    },
+    {
+     "w": "teknik",
+     "t": 12.3
+    },
+    {
+     "w": "raporlar",
+     "t": 12.74
+    },
+    {
+     "w": "birlikte",
+     "t": 13.4
+    },
+    {
+     "w": "incelendi.",
+     "t": 13.95
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": "Tuzak",
+   "start": 56.343,
+   "dur": 20.879,
+   "audio": "narration/s04.mp3",
+   "audio_at": 56.793,
+   "audio_local": 0.45,
+   "audio_dur": 19.879,
+   "words": [
+    {
+     "w": "İnceleme",
+     "t": 0.5
+    },
+    {
+     "w": "şunu",
+     "t": 1.06
+    },
+    {
+     "w": "gösterdi:",
+     "t": 1.33
+    },
+    {
+     "w": "Multi",
+     "t": 2.1
+    },
+    {
+     "w": "split",
+     "t": 2.51
+    },
+    {
+     "w": "ve",
+     "t": 3.0
+    },
+    {
+     "w": "VRF",
+     "t": 3.17
+    },
+    {
+     "w": "sistemlerin",
+     "t": 3.81
+    },
+    {
+     "w": "bazı",
+     "t": 4.45
+    },
+    {
+     "w": "ortak",
+     "t": 4.69
+    },
+    {
+     "w": "özellikleri",
+     "t": 4.99
+    },
+    {
+     "w": "var;",
+     "t": 5.65
+    },
+    {
+     "w": "ama",
+     "t": 6.1
+    },
+    {
+     "w": "teknik",
+     "t": 6.26
+    },
+    {
+     "w": "mimari",
+     "t": 6.68
+    },
+    {
+     "w": "ve",
+     "t": 7.1
+    },
+    {
+     "w": "çalışma",
+     "t": 7.24
+    },
+    {
+     "w": "prensibi",
+     "t": 7.82
+    },
+    {
+     "w": "bakımından",
+     "t": 8.36
+    },
+    {
+     "w": "birbirinden",
+     "t": 8.99
+    },
+    {
+     "w": "ayrılıyorlar.",
+     "t": 9.76
+    },
+    {
+     "w": "Ve",
+     "t": 10.66
+    },
+    {
+     "w": "işte",
+     "t": 10.89
+    },
+    {
+     "w": "ilk",
+     "t": 11.46
+    },
+    {
+     "w": "tuzak:",
+     "t": 11.88
+    },
+    {
+     "w": "Her",
+     "t": 12.66
+    },
+    {
+     "w": "iki",
+     "t": 12.83
+    },
+    {
+     "w": "sistemde",
+     "t": 13.05
+    },
+    {
+     "w": "de",
+     "t": 13.63
+    },
+    {
+     "w": "bir",
+     "t": 13.77
+    },
+    {
+     "w": "dış",
+     "t": 13.92
+    },
+    {
+     "w": "üniteye",
+     "t": 14.28
+    },
+    {
+     "w": "birden",
+     "t": 14.71
+    },
+    {
+     "w": "fazla",
+     "t": 15.18
+    },
+    {
+     "w": "iç",
+     "t": 15.51
+    },
+    {
+     "w": "ünite",
+     "t": 15.65
+    },
+    {
+     "w": "bağlanabilir.",
+     "t": 16.01
+    },
+    {
+     "w": "Ama",
+     "t": 17.06
+    },
+    {
+     "w": "bu,",
+     "t": 17.29
+    },
+    {
+     "w": "tek",
+     "t": 17.47
+    },
+    {
+     "w": "başına",
+     "t": 17.75
+    },
+    {
+     "w": "bir",
+     "t": 18.3
+    },
+    {
+     "w": "sistemi",
+     "t": 18.77
+    },
+    {
+     "w": "VRF",
+     "t": 19.21
+    },
+    {
+     "w": "yapmaz!",
+     "t": 19.58
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": "Karşılaştırma",
+   "start": 77.222,
+   "dur": 37.519,
+   "audio": "narration/s05.mp3",
+   "audio_at": 77.672,
+   "audio_local": 0.45,
+   "audio_dur": 36.519,
+   "words": [
+    {
+     "w": "Multi",
+     "t": 0.5
+    },
+    {
+     "w": "split",
+     "t": 0.88
+    },
+    {
+     "w": "sistemde",
+     "t": 1.26
+    },
+    {
+     "w": "temel",
+     "t": 1.88
+    },
+    {
+     "w": "mantık",
+     "t": 2.23
+    },
+    {
+     "w": "basit:",
+     "t": 2.68
+    },
+    {
+     "w": "Bir",
+     "t": 3.14
+    },
+    {
+     "w": "dış",
+     "t": 3.38
+    },
+    {
+     "w": "ünite,",
+     "t": 3.65
+    },
+    {
+     "w": "birden",
+     "t": 4.07
+    },
+    {
+     "w": "fazla",
+     "t": 4.52
+    },
+    {
+     "w": "iç",
+     "t": 4.9
+    },
+    {
+     "w": "üniteyi",
+     "t": 5.06
+    },
+    {
+     "w": "çalıştırır.",
+     "t": 5.91
+    },
+    {
+     "w": "VRF'yi",
+     "t": 6.58
+    },
+    {
+     "w": "karakterize",
+     "t": 6.96
+    },
+    {
+     "w": "eden",
+     "t": 7.81
+    },
+    {
+     "w": "özellikler",
+     "t": 8.12
+    },
+    {
+     "w": "ise",
+     "t": 8.96
+    },
+    {
+     "w": "şunlar:",
+     "t": 9.18
+    },
+    {
+     "w": "Soğutucu",
+     "t": 9.94
+    },
+    {
+     "w": "akışkan",
+     "t": 10.64
+    },
+    {
+     "w": "debisi,",
+     "t": 11.32
+    },
+    {
+     "w": "sistemdeki",
+     "t": 11.97
+    },
+    {
+     "w": "anlık",
+     "t": 12.68
+    },
+    {
+     "w": "yüklere",
+     "t": 12.88
+    },
+    {
+     "w": "göre",
+     "t": 13.35
+    },
+    {
+     "w": "değişken",
+     "t": 13.65
+    },
+    {
+     "w": "olarak",
+     "t": 14.11
+    },
+    {
+     "w": "kontrol",
+     "t": 14.46
+    },
+    {
+     "w": "edilir.",
+     "t": 14.86
+    },
+    {
+     "w": "Akışkan,",
+     "t": 15.46
+    },
+    {
+     "w": "ortak",
+     "t": 16.04
+    },
+    {
+     "w": "ana",
+     "t": 16.4
+    },
+    {
+     "w": "hatlar",
+     "t": 16.62
+    },
+    {
+     "w": "ve",
+     "t": 17.05
+    },
+    {
+     "w": "branşmanlar",
+     "t": 17.19
+    },
+    {
+     "w": "üzerinden",
+     "t": 18.23
+    },
+    {
+     "w": "çok",
+     "t": 18.62
+    },
+    {
+     "w": "sayıda",
+     "t": 18.84
+    },
+    {
+     "w": "iç",
+     "t": 19.3
+    },
+    {
+     "w": "üniteye",
+     "t": 19.41
+    },
+    {
+     "w": "dağıtılır.",
+     "t": 19.91
+    },
+    {
+     "w": "Her",
+     "t": 20.74
+    },
+    {
+     "w": "iç",
+     "t": 20.91
+    },
+    {
+     "w": "ünitenin",
+     "t": 21.04
+    },
+    {
+     "w": "akışkan",
+     "t": 21.67
+    },
+    {
+     "w": "miktarı,",
+     "t": 22.12
+    },
+    {
+     "w": "ihtiyacına",
+     "t": 22.64
+    },
+    {
+     "w": "göre",
+     "t": 23.52
+    },
+    {
+     "w": "bağımsız",
+     "t": 23.64
+    },
+    {
+     "w": "ayarlanır.",
+     "t": 24.29
+    },
+    {
+     "w": "Ve",
+     "t": 25.06
+    },
+    {
+     "w": "sistemde",
+     "t": 25.16
+    },
+    {
+     "w": "gelişmiş",
+     "t": 25.74
+    },
+    {
+     "w": "adresleme",
+     "t": 26.44
+    },
+    {
+     "w": "ile",
+     "t": 26.98
+    },
+    {
+     "w": "merkezi",
+     "t": 27.2
+    },
+    {
+     "w": "kontrol",
+     "t": 27.84
+    },
+    {
+     "w": "altyapısı",
+     "t": 28.21
+    },
+    {
+     "w": "bulunur.",
+     "t": 28.92
+    },
+    {
+     "w": "Isı",
+     "t": 29.78
+    },
+    {
+     "w": "geri",
+     "t": 30.0
+    },
+    {
+     "w": "kazanımlı",
+     "t": 30.37
+    },
+    {
+     "w": "VRF'lerde",
+     "t": 31.19
+    },
+    {
+     "w": "ise",
+     "t": 32.01
+    },
+    {
+     "w": "aynı",
+     "t": 32.56
+    },
+    {
+     "w": "sistemde,",
+     "t": 32.74
+    },
+    {
+     "w": "bir",
+     "t": 33.49
+    },
+    {
+     "w": "mahal",
+     "t": 33.7
+    },
+    {
+     "w": "ısıtılırken",
+     "t": 34.24
+    },
+    {
+     "w": "diğeri",
+     "t": 34.85
+    },
+    {
+     "w": "eş",
+     "t": 35.24
+    },
+    {
+     "w": "zamanlı",
+     "t": 35.37
+    },
+    {
+     "w": "soğutulabilir.",
+     "t": 35.83
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": "Önemli",
+   "start": 114.741,
+   "dur": 18.241,
+   "audio": "narration/s06.mp3",
+   "audio_at": 115.191,
+   "audio_local": 0.45,
+   "audio_dur": 17.241,
+   "words": [
+    {
+     "w": "Buradan",
+     "t": 0.56
+    },
+    {
+     "w": "çıkan",
+     "t": 1.05
+    },
+    {
+     "w": "önemli",
+     "t": 1.39
+    },
+    {
+     "w": "sonuç",
+     "t": 1.91
+    },
+    {
+     "w": "şu:",
+     "t": 2.19
+    },
+    {
+     "w": "Eşyanın",
+     "t": 2.59
+    },
+    {
+     "w": "multi",
+     "t": 3.077
+    },
+    {
+     "w": "split",
+     "t": 3.563
+    },
+    {
+     "w": "ya",
+     "t": 4.05
+    },
+    {
+     "w": "da",
+     "t": 4.13
+    },
+    {
+     "w": "benzeri",
+     "t": 4.2
+    },
+    {
+     "w": "bir",
+     "t": 4.77
+    },
+    {
+     "w": "ticari",
+     "t": 4.94
+    },
+    {
+     "w": "adla",
+     "t": 5.38
+    },
+    {
+     "w": "anılması",
+     "t": 5.67
+    },
+    {
+     "w": "da,",
+     "t": 6.28
+    },
+    {
+     "w": "bir",
+     "t": 6.58
+    },
+    {
+     "w": "dış",
+     "t": 6.7
+    },
+    {
+     "w": "üniteye",
+     "t": 6.95
+    },
+    {
+     "w": "birden",
+     "t": 7.45
+    },
+    {
+     "w": "fazla",
+     "t": 7.92
+    },
+    {
+     "w": "iç",
+     "t": 8.21
+    },
+    {
+     "w": "ünite",
+     "t": 8.53
+    },
+    {
+     "w": "bağlanabilmesi",
+     "t": 8.78
+    },
+    {
+     "w": "de,",
+     "t": 9.68
+    },
+    {
+     "w": "tarife",
+     "t": 10.04
+    },
+    {
+     "w": "sınıflandırmasında",
+     "t": 10.31
+    },
+    {
+     "w": "tek",
+     "t": 11.43
+    },
+    {
+     "w": "başına",
+     "t": 11.61
+    },
+    {
+     "w": "belirleyici",
+     "t": 12.18
+    },
+    {
+     "w": "değil.",
+     "t": 12.69
+    },
+    {
+     "w": "Esas",
+     "t": 13.2
+    },
+    {
+     "w": "alınacak",
+     "t": 13.41
+    },
+    {
+     "w": "olan,",
+     "t": 14.05
+    },
+    {
+     "w": "eşyanın",
+     "t": 14.39
+    },
+    {
+     "w": "fiili",
+     "t": 14.87
+    },
+    {
+     "w": "teknik",
+     "t": 15.35
+    },
+    {
+     "w": "yapısı",
+     "t": 15.79
+    },
+    {
+     "w": "ve",
+     "t": 16.25
+    },
+    {
+     "w": "çalışma",
+     "t": 16.45
+    },
+    {
+     "w": "prensibi.",
+     "t": 17.03
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": "Kriterler",
+   "start": 132.982,
+   "dur": 6.878,
+   "audio": "narration/s07.mp3",
+   "audio_at": 133.432,
+   "audio_local": 0.45,
+   "audio_dur": 5.878,
+   "words": [
+    {
+     "w": "Peki",
+     "t": 0.55
+    },
+    {
+     "w": "VRF'yi",
+     "t": 0.88
+    },
+    {
+     "w": "diğer",
+     "t": 1.3
+    },
+    {
+     "w": "klimalardan",
+     "t": 1.66
+    },
+    {
+     "w": "nasıl",
+     "t": 2.45
+    },
+    {
+     "w": "ayıracağız?",
+     "t": 2.81
+    },
+    {
+     "w": "Yazıda",
+     "t": 3.89
+    },
+    {
+     "w": "dört",
+     "t": 4.39
+    },
+    {
+     "w": "teknik",
+     "t": 4.53
+    },
+    {
+     "w": "kriter",
+     "t": 5.02
+    },
+    {
+     "w": "sayılıyor.",
+     "t": 5.6
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": "Kriter 1",
+   "start": 139.86,
+   "dur": 9.359,
+   "audio": "narration/s08.mp3",
+   "audio_at": 140.31,
+   "audio_local": 0.45,
+   "audio_dur": 8.359,
+   "words": [
+    {
+     "w": "Bir:",
+     "t": 0.52
+    },
+    {
+     "w": "Her",
+     "t": 1.45
+    },
+    {
+     "w": "iç",
+     "t": 1.67
+    },
+    {
+     "w": "ünite",
+     "t": 1.82
+    },
+    {
+     "w": "ya",
+     "t": 2.19
+    },
+    {
+     "w": "da",
+     "t": 2.34
+    },
+    {
+     "w": "bölge",
+     "t": 2.49
+    },
+    {
+     "w": "için",
+     "t": 2.86
+    },
+    {
+     "w": "ayrı",
+     "t": 3.28
+    },
+    {
+     "w": "bir",
+     "t": 3.48
+    },
+    {
+     "w": "soğutucu",
+     "t": 3.69
+    },
+    {
+     "w": "akışkan",
+     "t": 4.26
+    },
+    {
+     "w": "ölçme",
+     "t": 4.79
+    },
+    {
+     "w": "ve",
+     "t": 5.11
+    },
+    {
+     "w": "kısma",
+     "t": 5.24
+    },
+    {
+     "w": "elemanı,",
+     "t": 5.61
+    },
+    {
+     "w": "yani",
+     "t": 6.38
+    },
+    {
+     "w": "Elektronik",
+     "t": 6.58
+    },
+    {
+     "w": "Genleşme",
+     "t": 7.24
+    },
+    {
+     "w": "Vanası",
+     "t": 7.705
+    },
+    {
+     "w": "var",
+     "t": 8.17
+    },
+    {
+     "w": "mı?",
+     "t": 8.37
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": "Kriter 2",
+   "start": 149.219,
+   "dur": 10.796,
+   "audio": "narration/s09.mp3",
+   "audio_at": 149.669,
+   "audio_local": 0.45,
+   "audio_dur": 9.796,
+   "words": [
+    {
+     "w": "İki:",
+     "t": 0.51
+    },
+    {
+     "w": "Dış",
+     "t": 1.45
+    },
+    {
+     "w": "ünite",
+     "t": 1.7
+    },
+    {
+     "w": "ya",
+     "t": 2.12
+    },
+    {
+     "w": "da",
+     "t": 2.29
+    },
+    {
+     "w": "dış",
+     "t": 2.45
+    },
+    {
+     "w": "ünite",
+     "t": 2.72
+    },
+    {
+     "w": "grubu,",
+     "t": 3.14
+    },
+    {
+     "w": "aynı",
+     "t": 3.84
+    },
+    {
+     "w": "ana",
+     "t": 3.98
+    },
+    {
+     "w": "hat",
+     "t": 4.21
+    },
+    {
+     "w": "üzerinden",
+     "t": 4.44
+    },
+    {
+     "w": "birden",
+     "t": 5.13
+    },
+    {
+     "w": "fazla",
+     "t": 5.59
+    },
+    {
+     "w": "iç",
+     "t": 6.01
+    },
+    {
+     "w": "üniteyi",
+     "t": 6.15
+    },
+    {
+     "w": "besleyebiliyor",
+     "t": 6.65
+    },
+    {
+     "w": "mu?",
+     "t": 7.56
+    },
+    {
+     "w": "Yani",
+     "t": 7.87
+    },
+    {
+     "w": "ortak",
+     "t": 8.11
+    },
+    {
+     "w": "bir",
+     "t": 8.63
+    },
+    {
+     "w": "borulama",
+     "t": 8.7
+    },
+    {
+     "w": "ağı",
+     "t": 9.29
+    },
+    {
+     "w": "var",
+     "t": 9.51
+    },
+    {
+     "w": "mı?",
+     "t": 9.73
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "Kriter 3",
+   "start": 160.015,
+   "dur": 11.998,
+   "audio": "narration/s10.mp3",
+   "audio_at": 160.465,
+   "audio_local": 0.45,
+   "audio_dur": 10.998,
+   "words": [
+    {
+     "w": "Üç:",
+     "t": 0.47
+    },
+    {
+     "w": "Kompresör",
+     "t": 1.69
+    },
+    {
+     "w": "yalnızca",
+     "t": 2.45
+    },
+    {
+     "w": "aç",
+     "t": 2.9
+    },
+    {
+     "w": "kapa",
+     "t": 3.04
+    },
+    {
+     "w": "mantığıyla",
+     "t": 3.22
+    },
+    {
+     "w": "mı",
+     "t": 3.77
+    },
+    {
+     "w": "çalışıyor,",
+     "t": 3.88
+    },
+    {
+     "w": "yoksa",
+     "t": 4.6
+    },
+    {
+     "w": "inverter",
+     "t": 4.99
+    },
+    {
+     "w": "ya",
+     "t": 5.59
+    },
+    {
+     "w": "da",
+     "t": 5.77
+    },
+    {
+     "w": "en",
+     "t": 6.08
+    },
+    {
+     "w": "az",
+     "t": 6.2
+    },
+    {
+     "w": "üç",
+     "t": 6.48
+    },
+    {
+     "w": "kademeli",
+     "t": 6.71
+    },
+    {
+     "w": "kapasite",
+     "t": 7.11
+    },
+    {
+     "w": "kontrolüyle,",
+     "t": 7.71
+    },
+    {
+     "w": "kapasiteyi",
+     "t": 8.59
+    },
+    {
+     "w": "ihtiyaca",
+     "t": 9.05
+    },
+    {
+     "w": "göre",
+     "t": 9.58
+    },
+    {
+     "w": "artırıp",
+     "t": 9.85
+    },
+    {
+     "w": "azaltabiliyor",
+     "t": 10.42
+    },
+    {
+     "w": "mu?",
+     "t": 11.23
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "Kriter 4",
+   "start": 172.013,
+   "dur": 14.714,
+   "audio": "narration/s11.mp3",
+   "audio_at": 172.463,
+   "audio_local": 0.45,
+   "audio_dur": 13.714,
+   "words": [
+    {
+     "w": "Dört:",
+     "t": 0.49
+    },
+    {
+     "w": "Dış",
+     "t": 1.67
+    },
+    {
+     "w": "ünite,",
+     "t": 1.88
+    },
+    {
+     "w": "iç",
+     "t": 2.38
+    },
+    {
+     "w": "üniteler",
+     "t": 2.52
+    },
+    {
+     "w": "ve",
+     "t": 3.09
+    },
+    {
+     "w": "varsa",
+     "t": 3.26
+    },
+    {
+     "w": "dağıtım",
+     "t": 3.69
+    },
+    {
+     "w": "ya",
+     "t": 4.07
+    },
+    {
+     "w": "da",
+     "t": 4.22
+    },
+    {
+     "w": "mod",
+     "t": 4.37
+    },
+    {
+     "w": "seçim",
+     "t": 4.59
+    },
+    {
+     "w": "kutuları",
+     "t": 4.96
+    },
+    {
+     "w": "arasında",
+     "t": 5.55
+    },
+    {
+     "w": "veri",
+     "t": 6.21
+    },
+    {
+     "w": "iletişimi",
+     "t": 6.52
+    },
+    {
+     "w": "var",
+     "t": 7.0
+    },
+    {
+     "w": "mı;",
+     "t": 7.19
+    },
+    {
+     "w": "iç",
+     "t": 7.47
+    },
+    {
+     "w": "üniteler",
+     "t": 7.53
+    },
+    {
+     "w": "sistem",
+     "t": 8.25
+    },
+    {
+     "w": "tarafından",
+     "t": 8.43
+    },
+    {
+     "w": "ayrı",
+     "t": 9.17
+    },
+    {
+     "w": "ayrı",
+     "t": 9.34
+    },
+    {
+     "w": "tanınabiliyor",
+     "t": 9.59
+    },
+    {
+     "w": "mu?",
+     "t": 10.45
+    },
+    {
+     "w": "Yani,",
+     "t": 10.91
+    },
+    {
+     "w": "ortak",
+     "t": 11.68
+    },
+    {
+     "w": "bir",
+     "t": 11.83
+    },
+    {
+     "w": "haberleşme",
+     "t": 12.06
+    },
+    {
+     "w": "ve",
+     "t": 12.82
+    },
+    {
+     "w": "adresleme",
+     "t": 13.02
+    },
+    {
+     "w": "yapısı.",
+     "t": 13.68
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "BTB",
+   "start": 186.727,
+   "dur": 16.882,
+   "audio": "narration/s12.mp3",
+   "audio_at": 187.177,
+   "audio_local": 0.45,
+   "audio_dur": 15.882,
+   "words": [
+    {
+     "w": "Şimdi",
+     "t": 0.6
+    },
+    {
+     "w": "en",
+     "t": 0.86
+    },
+    {
+     "w": "kritik",
+     "t": 1.11
+    },
+    {
+     "w": "kısma",
+     "t": 1.54
+    },
+    {
+     "w": "geldik.",
+     "t": 1.91
+    },
+    {
+     "w": "Yazıya",
+     "t": 2.9
+    },
+    {
+     "w": "göre,",
+     "t": 3.41
+    },
+    {
+     "w": "geçmiş",
+     "t": 3.73
+    },
+    {
+     "w": "yıllarda",
+     "t": 4.13
+    },
+    {
+     "w": "düzenlenmiş",
+     "t": 4.67
+    },
+    {
+     "w": "Bağlayıcı",
+     "t": 5.47
+    },
+    {
+     "w": "Tarife",
+     "t": 5.97
+    },
+    {
+     "w": "Bilgileri",
+     "t": 6.31
+    },
+    {
+     "w": "de",
+     "t": 6.89
+    },
+    {
+     "w": "bu",
+     "t": 7.09
+    },
+    {
+     "w": "kriterler",
+     "t": 7.22
+    },
+    {
+     "w": "çerçevesinde",
+     "t": 7.81
+    },
+    {
+     "w": "yeniden",
+     "t": 8.6
+    },
+    {
+     "w": "değerlendirilecek.",
+     "t": 9.07
+    },
+    {
+     "w": "Gerekli",
+     "t": 10.35
+    },
+    {
+     "w": "şartları",
+     "t": 10.75
+    },
+    {
+     "w": "taşımadığı",
+     "t": 11.28
+    },
+    {
+     "w": "tespit",
+     "t": 11.93
+    },
+    {
+     "w": "edilen",
+     "t": 12.33
+    },
+    {
+     "w": "BTB'ler,",
+     "t": 12.77
+    },
+    {
+     "w": "mevzuat",
+     "t": 13.29
+    },
+    {
+     "w": "hükümleri",
+     "t": 13.84
+    },
+    {
+     "w": "çerçevesinde",
+     "t": 14.48
+    },
+    {
+     "w": "iptal",
+     "t": 15.11
+    },
+    {
+     "w": "edilecek.",
+     "t": 15.83
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "Tavsiye",
+   "start": 203.609,
+   "dur": 19.599,
+   "audio": "narration/s13.mp3",
+   "audio_at": 204.059,
+   "audio_local": 0.45,
+   "audio_dur": 18.599,
+   "words": [
+    {
+     "w": "Koçun",
+     "t": 0.58
+    },
+    {
+     "w": "tavsiyesi:",
+     "t": 0.92
+    },
+    {
+     "w": "Elinizde",
+     "t": 1.98
+    },
+    {
+     "w": "VRF",
+     "t": 2.69
+    },
+    {
+     "w": "olarak",
+     "t": 2.95
+    },
+    {
+     "w": "alınmış",
+     "t": 3.57
+    },
+    {
+     "w": "bir",
+     "t": 4.31
+    },
+    {
+     "w": "BTB",
+     "t": 4.67
+    },
+    {
+     "w": "varsa",
+     "t": 4.93
+    },
+    {
+     "w": "ya",
+     "t": 5.51
+    },
+    {
+     "w": "da",
+     "t": 5.65
+    },
+    {
+     "w": "yeni",
+     "t": 5.79
+    },
+    {
+     "w": "bir",
+     "t": 6.07
+    },
+    {
+     "w": "ithalat",
+     "t": 6.28
+    },
+    {
+     "w": "planlıyorsanız,",
+     "t": 6.94
+    },
+    {
+     "w": "ürünün",
+     "t": 8.06
+    },
+    {
+     "w": "teknik",
+     "t": 8.38
+    },
+    {
+     "w": "kataloğunu,",
+     "t": 8.78
+    },
+    {
+     "w": "borulama",
+     "t": 9.53
+    },
+    {
+     "w": "şemasını",
+     "t": 10.04
+    },
+    {
+     "w": "ve",
+     "t": 10.75
+    },
+    {
+     "w": "kontrol",
+     "t": 10.83
+    },
+    {
+     "w": "sistemi",
+     "t": 11.29
+    },
+    {
+     "w": "dokümanlarını",
+     "t": 11.65
+    },
+    {
+     "w": "şimdiden",
+     "t": 12.4
+    },
+    {
+     "w": "hazırlayın.",
+     "t": 12.85
+    },
+    {
+     "w": "Dört",
+     "t": 13.84
+    },
+    {
+     "w": "kriterin",
+     "t": 13.9
+    },
+    {
+     "w": "her",
+     "t": 14.38
+    },
+    {
+     "w": "birini",
+     "t": 14.58
+    },
+    {
+     "w": "belgeyle",
+     "t": 15.15
+    },
+    {
+     "w": "gösterebilmek,",
+     "t": 15.46
+    },
+    {
+     "w": "olası",
+     "t": 16.47
+    },
+    {
+     "w": "bir",
+     "t": 16.8
+    },
+    {
+     "w": "incelemede",
+     "t": 17.01
+    },
+    {
+     "w": "elinizi",
+     "t": 17.65
+    },
+    {
+     "w": "güçlendirir.",
+     "t": 18.11
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "Quiz",
+   "start": 223.208,
+   "dur": 19.808,
+   "audio": "narration/s14.mp3",
+   "audio_at": 223.658,
+   "audio_local": 0.45,
+   "audio_dur": 18.808,
+   "words": [
+    {
+     "w": "Şimdi",
+     "t": 0.53
+    },
+    {
+     "w": "küçük",
+     "t": 0.89
+    },
+    {
+     "w": "bir",
+     "t": 1.37
+    },
+    {
+     "w": "soru:",
+     "t": 1.59
+    },
+    {
+     "w": "Bir",
+     "t": 2.29
+    },
+    {
+     "w": "dış",
+     "t": 2.35
+    },
+    {
+     "w": "üniteye",
+     "t": 2.59
+    },
+    {
+     "w": "beş",
+     "t": 3.15
+    },
+    {
+     "w": "iç",
+     "t": 3.39
+    },
+    {
+     "w": "ünite",
+     "t": 3.55
+    },
+    {
+     "w": "bağlanabiliyor.",
+     "t": 3.95
+    },
+    {
+     "w": "Bu,",
+     "t": 5.49
+    },
+    {
+     "w": "tek",
+     "t": 5.6
+    },
+    {
+     "w": "başına",
+     "t": 6.05
+    },
+    {
+     "w": "VRF",
+     "t": 6.48
+    },
+    {
+     "w": "demek",
+     "t": 7.22
+    },
+    {
+     "w": "için",
+     "t": 7.27
+    },
+    {
+     "w": "yeterli",
+     "t": 7.63
+    },
+    {
+     "w": "mi?",
+     "t": 8.31
+    },
+    {
+     "w": "Cevap:",
+     "t": 11.57
+    },
+    {
+     "w": "Hayır!",
+     "t": 12.65
+    },
+    {
+     "w": "Bağlanabilen",
+     "t": 13.49
+    },
+    {
+     "w": "iç",
+     "t": 14.2
+    },
+    {
+     "w": "ünite",
+     "t": 14.33
+    },
+    {
+     "w": "sayısı",
+     "t": 14.65
+    },
+    {
+     "w": "tek",
+     "t": 15.23
+    },
+    {
+     "w": "başına",
+     "t": 15.26
+    },
+    {
+     "w": "belirleyici",
+     "t": 15.65
+    },
+    {
+     "w": "değil.",
+     "t": 16.38
+    },
+    {
+     "w": "Dört",
+     "t": 16.89
+    },
+    {
+     "w": "kritere",
+     "t": 17.05
+    },
+    {
+     "w": "tek",
+     "t": 17.61
+    },
+    {
+     "w": "tek",
+     "t": 17.85
+    },
+    {
+     "w": "bakmak",
+     "t": 18.08
+    },
+    {
+     "w": "gerekiyor.",
+     "t": 18.66
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "Kapanış",
+   "start": 243.016,
+   "dur": 15.336,
+   "audio": "narration/s15.mp3",
+   "audio_at": 243.466,
+   "audio_local": 0.45,
+   "audio_dur": 11.886,
+   "words": [
+    {
+     "w": "Özetle:",
+     "t": 0.51
+    },
+    {
+     "w": "İsme",
+     "t": 1.45
+    },
+    {
+     "w": "değil,",
+     "t": 1.77
+    },
+    {
+     "w": "tekniğe",
+     "t": 2.25
+    },
+    {
+     "w": "bakın.",
+     "t": 2.73
+    },
+    {
+     "w": "Dört",
+     "t": 3.22
+    },
+    {
+     "w": "kriter,",
+     "t": 3.56
+    },
+    {
+     "w": "tek",
+     "t": 4.17
+    },
+    {
+     "w": "karar.",
+     "t": 4.47
+    },
+    {
+     "w": "Bu",
+     "t": 5.15
+    },
+    {
+     "w": "ders",
+     "t": 5.23
+    },
+    {
+     "w": "işinize",
+     "t": 5.51
+    },
+    {
+     "w": "yaradıysa",
+     "t": 6.06
+    },
+    {
+     "w": "kanala",
+     "t": 6.65
+    },
+    {
+     "w": "abone",
+     "t": 7.09
+    },
+    {
+     "w": "olmayı",
+     "t": 7.37
+    },
+    {
+     "w": "ve",
+     "t": 7.79
+    },
+    {
+     "w": "videoyu",
+     "t": 7.93
+    },
+    {
+     "w": "paylaşmayı",
+     "t": 8.34
+    },
+    {
+     "w": "unutmayın.",
+     "t": 9.11
+    },
+    {
+     "w": "Bir",
+     "t": 9.67
+    },
+    {
+     "w": "sonraki",
+     "t": 9.79
+    },
+    {
+     "w": "derste",
+     "t": 10.26
+    },
+    {
+     "w": "görüşmek",
+     "t": 10.64
+    },
+    {
+     "w": "üzere,",
+     "t": 11.16
+    },
+    {
+     "w": "hoşça",
+     "t": 11.58
+    },
+    {
+     "w": "kalın!",
+     "t": 11.995
+    }
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "text": "Merhaba arkadaşlar, Gümrük Koçu'yla yeni bir derse",
+   "s": 1.68,
+   "e": 4.5
+  },
+  {
+   "text": "hoş geldiniz.",
+   "s": 4.5,
+   "e": 5.5
+  },
+  {
+   "text": "Bugün sahada en çok tartışılan sorulardan birini",
+   "s": 5.5,
+   "e": 8.23
+  },
+  {
+   "text": "konuşacağız:",
+   "s": 8.23,
+   "e": 9.14
+  },
+  {
+   "text": "Bu klima multi split mi,",
+   "s": 9.14,
+   "e": 11.07
+  },
+  {
+   "text": "yoksa VRF mi?",
+   "s": 11.07,
+   "e": 12.57
+  },
+  {
+   "text": "Gümrükler Genel Müdürlüğü,",
+   "s": 12.57,
+   "e": 14.19
+  },
+  {
+   "text": "1 Ekim 2026 tarihli yazısıyla bu sorunun cevabını",
+   "s": 14.19,
+   "e": 17.7
+  },
+  {
+   "text": "dört net teknik kritere bağladı.",
+   "s": 17.7,
+   "e": 20.04
+  },
+  {
+   "text": "Hadi, adım adım inceleyelim.",
+   "s": 20.04,
+   "e": 21.886
+  },
+  {
+   "text": "Önce sorunu görelim.",
+   "s": 22.686,
+   "e": 24.206
+  },
+  {
+   "text": "Bölge müdürlüklerinden gelen yazılarda şu tespit",
+   "s": 24.206,
+   "e": 26.806
+  },
+  {
+   "text": "yapılmış:",
+   "s": 26.806,
+   "e": 27.666
+  },
+  {
+   "text": "Farklı üniversiteler, multi split klimalar için",
+   "s": 27.666,
+   "e": 30.376
+  },
+  {
+   "text": "farklı kriterlere dayanan teknik raporlar düzenlemiş.",
+   "s": 30.376,
+   "e": 33.606
+  },
+  {
+   "text": "Sonuç:",
+   "s": 33.606,
+   "e": 34.436
+  },
+  {
+   "text": "Hangi kriterin esas alınacağı konusunda uygulama",
+   "s": 34.436,
+   "e": 37.016
+  },
+  {
+   "text": "farklılıkları, ve eşyanın tarife pozisyonunda",
+   "s": 37.016,
+   "e": 39.826
+  },
+  {
+   "text": "tereddüt.",
+   "s": 39.826,
+   "e": 40.926
+  },
+  {
+   "text": "Bunun üzerine Gümrükler Genel Müdürlüğü,",
+   "s": 41.737,
+   "e": 44.117
+  },
+  {
+   "text": "konuyu İthalat Genel Müdürlüğüne iletti.",
+   "s": 44.117,
+   "e": 46.557
+  },
+  {
+   "text": "İthalat Genel Müdürlüğü de klimaların iç ve dış",
+   "s": 46.557,
+   "e": 49.247
+  },
+  {
+   "text": "ünitelerine ilişkin teknik bilgilerini paylaştı.",
+   "s": 49.247,
+   "e": 52.257
+  },
+  {
+   "text": "Bu bilgiler ve mevcut teknik raporlar birlikte",
+   "s": 52.257,
+   "e": 55.187
+  },
+  {
+   "text": "incelendi.",
+   "s": 55.187,
+   "e": 56.043
+  },
+  {
+   "text": "İnceleme şunu gösterdi:",
+   "s": 56.843,
+   "e": 58.443
+  },
+  {
+   "text": "Multi split ve VRF sistemlerin bazı ortak özellikleri",
+   "s": 58.443,
+   "e": 61.993
+  },
+  {
+   "text": "var;",
+   "s": 61.993,
+   "e": 62.443
+  },
+  {
+   "text": "ama teknik mimari ve çalışma prensibi bakımından",
+   "s": 62.443,
+   "e": 65.333
+  },
+  {
+   "text": "birbirinden ayrılıyorlar.",
+   "s": 65.333,
+   "e": 67.003
+  },
+  {
+   "text": "Ve işte ilk tuzak:",
+   "s": 67.003,
+   "e": 69.003
+  },
+  {
+   "text": "Her iki sistemde de bir dış üniteye birden fazla",
+   "s": 69.003,
+   "e": 71.853
+  },
+  {
+   "text": "iç ünite bağlanabilir.",
+   "s": 71.853,
+   "e": 73.403
+  },
+  {
+   "text": "Ama bu, tek başına bir sistemi VRF yapmaz!",
+   "s": 73.403,
+   "e": 76.922
+  },
+  {
+   "text": "Multi split sistemde temel mantık basit:",
+   "s": 77.722,
+   "e": 80.362
+  },
+  {
+   "text": "Bir dış ünite, birden fazla iç üniteyi çalıştırır.",
+   "s": 80.362,
+   "e": 83.802
+  },
+  {
+   "text": "VRF'yi karakterize eden özellikler ise şunlar:",
+   "s": 83.802,
+   "e": 87.162
+  },
+  {
+   "text": "Soğutucu akışkan debisi,",
+   "s": 87.162,
+   "e": 89.192
+  },
+  {
+   "text": "sistemdeki anlık yüklere göre değişken olarak",
+   "s": 89.192,
+   "e": 91.682
+  },
+  {
+   "text": "kontrol edilir.",
+   "s": 91.682,
+   "e": 92.682
+  },
+  {
+   "text": "Akışkan, ortak ana hatlar ve branşmanlar üzerinden",
+   "s": 92.682,
+   "e": 95.842
+  },
+  {
+   "text": "çok sayıda iç üniteye dağıtılır.",
+   "s": 95.842,
+   "e": 97.962
+  },
+  {
+   "text": "Her iç ünitenin akışkan miktarı,",
+   "s": 97.962,
+   "e": 99.862
+  },
+  {
+   "text": "ihtiyacına göre bağımsız ayarlanır.",
+   "s": 99.862,
+   "e": 102.282
+  },
+  {
+   "text": "Ve sistemde gelişmiş adresleme ile merkezi kontrol",
+   "s": 102.282,
+   "e": 105.432
+  },
+  {
+   "text": "altyapısı bulunur.",
+   "s": 105.432,
+   "e": 107.002
+  },
+  {
+   "text": "Isı geri kazanımlı VRF'lerde ise aynı sistemde,",
+   "s": 107.002,
+   "e": 110.712
+  },
+  {
+   "text": "bir mahal ısıtılırken diğeri eş zamanlı soğutulabilir.",
+   "s": 110.712,
+   "e": 114.312
+  },
+  {
+   "text": "Buradan çıkan önemli sonuç şu:",
+   "s": 115.301,
+   "e": 117.331
+  },
+  {
+   "text": "Eşyanın multi split ya da benzeri bir ticari adla",
+   "s": 117.331,
+   "e": 120.411
+  },
+  {
+   "text": "anılması da, bir dış üniteye birden fazla iç ünite",
+   "s": 120.411,
+   "e": 123.521
+  },
+  {
+   "text": "bağlanabilmesi de, tarife sınıflandırmasında tek",
+   "s": 123.521,
+   "e": 126.351
+  },
+  {
+   "text": "başına belirleyici değil.",
+   "s": 126.351,
+   "e": 127.941
+  },
+  {
+   "text": "Esas alınacak olan, eşyanın fiili teknik yapısı",
+   "s": 127.941,
+   "e": 130.991
+  },
+  {
+   "text": "ve çalışma prensibi.",
+   "s": 130.991,
+   "e": 132.682
+  },
+  {
+   "text": "Peki VRF'yi diğer klimalardan nasıl ayıracağız?",
+   "s": 133.532,
+   "e": 136.872
+  },
+  {
+   "text": "Yazıda dört teknik kriter sayılıyor.",
+   "s": 136.872,
+   "e": 139.542
+  },
+  {
+   "text": "Bir:",
+   "s": 140.38,
+   "e": 141.31
+  },
+  {
+   "text": "Her iç ünite ya da bölge için ayrı bir soğutucu",
+   "s": 141.31,
+   "e": 144.12
+  },
+  {
+   "text": "akışkan ölçme ve kısma elemanı,",
+   "s": 144.12,
+   "e": 146.24
+  },
+  {
+   "text": "yani Elektronik Genleşme Vanası var mı?",
+   "s": 146.24,
+   "e": 148.86
+  },
+  {
+   "text": "İki:",
+   "s": 149.729,
+   "e": 150.669
+  },
+  {
+   "text": "Dış ünite ya da dış ünite grubu,",
+   "s": 150.669,
+   "e": 153.059
+  },
+  {
+   "text": "aynı ana hat üzerinden birden fazla iç üniteyi",
+   "s": 153.059,
+   "e": 155.869
+  },
+  {
+   "text": "besleyebiliyor mu?",
+   "s": 155.869,
+   "e": 157.089
+  },
+  {
+   "text": "Yani ortak bir borulama ağı var mı?",
+   "s": 157.089,
+   "e": 159.639
+  },
+  {
+   "text": "Üç:",
+   "s": 160.485,
+   "e": 161.705
+  },
+  {
+   "text": "Kompresör yalnızca aç kapa mantığıyla mı çalışıyor,",
+   "s": 161.705,
+   "e": 164.615
+  },
+  {
+   "text": "yoksa inverter ya da en az üç kademeli kapasite",
+   "s": 164.615,
+   "e": 167.725
+  },
+  {
+   "text": "kontrolüyle, kapasiteyi ihtiyaca göre artırıp",
+   "s": 167.725,
+   "e": 170.435
+  },
+  {
+   "text": "azaltabiliyor mu?",
+   "s": 170.435,
+   "e": 171.665
+  },
+  {
+   "text": "Dört:",
+   "s": 172.503,
+   "e": 173.683
+  },
+  {
+   "text": "Dış ünite, iç üniteler ve varsa dağıtım ya da",
+   "s": 173.683,
+   "e": 176.383
+  },
+  {
+   "text": "mod seçim kutuları arasında veri iletişimi var",
+   "s": 176.383,
+   "e": 179.203
+  },
+  {
+   "text": "mı;",
+   "s": 179.203,
+   "e": 179.483
+  },
+  {
+   "text": "iç üniteler sistem tarafından ayrı ayrı tanınabiliyor",
+   "s": 179.483,
+   "e": 182.463
+  },
+  {
+   "text": "mu?",
+   "s": 182.463,
+   "e": 182.923
+  },
+  {
+   "text": "Yani, ortak bir haberleşme ve adresleme yapısı.",
+   "s": 182.923,
+   "e": 186.427
+  },
+  {
+   "text": "Şimdi en kritik kısma geldik.",
+   "s": 187.327,
+   "e": 189.617
+  },
+  {
+   "text": "Yazıya göre, geçmiş yıllarda düzenlenmiş Bağlayıcı",
+   "s": 189.627,
+   "e": 192.697
+  },
+  {
+   "text": "Tarife Bilgileri de bu kriterler çerçevesinde",
+   "s": 192.697,
+   "e": 195.327
+  },
+  {
+   "text": "yeniden değerlendirilecek.",
+   "s": 195.327,
+   "e": 197.077
+  },
+  {
+   "text": "Gerekli şartları taşımadığı tespit edilen BTB'ler,",
+   "s": 197.077,
+   "e": 200.017
+  },
+  {
+   "text": "mevzuat hükümleri çerçevesinde iptal edilecek.",
+   "s": 200.017,
+   "e": 203.309
+  },
+  {
+   "text": "Koçun tavsiyesi:",
+   "s": 204.189,
+   "e": 205.589
+  },
+  {
+   "text": "Elinizde VRF olarak alınmış bir BTB varsa ya da",
+   "s": 205.589,
+   "e": 209.399
+  },
+  {
+   "text": "yeni bir ithalat planlıyorsanız,",
+   "s": 209.399,
+   "e": 211.669
+  },
+  {
+   "text": "ürünün teknik kataloğunu,",
+   "s": 211.669,
+   "e": 213.139
+  },
+  {
+   "text": "borulama şemasını ve kontrol sistemi dokümanlarını",
+   "s": 213.139,
+   "e": 216.009
+  },
+  {
+   "text": "şimdiden hazırlayın.",
+   "s": 216.009,
+   "e": 217.449
+  },
+  {
+   "text": "Dört kriterin her birini belgeyle gösterebilmek,",
+   "s": 217.449,
+   "e": 220.079
+  },
+  {
+   "text": "olası bir incelemede elinizi güçlendirir.",
+   "s": 220.079,
+   "e": 222.908
+  },
+  {
+   "text": "Şimdi küçük bir soru:",
+   "s": 223.738,
+   "e": 225.498
+  },
+  {
+   "text": "Bir dış üniteye beş iç ünite bağlanabiliyor.",
+   "s": 225.498,
+   "e": 228.598
+  },
+  {
+   "text": "Bu, tek başına VRF demek için yeterli mi?",
+   "s": 228.698,
+   "e": 232.348
+  },
+  {
+   "text": "Cevap:",
+   "s": 234.778,
+   "e": 235.858
+  },
+  {
+   "text": "Hayır!",
+   "s": 235.858,
+   "e": 236.698
+  },
+  {
+   "text": "Bağlanabilen iç ünite sayısı tek başına belirleyici",
+   "s": 236.698,
+   "e": 239.588
+  },
+  {
+   "text": "değil.",
+   "s": 239.588,
+   "e": 240.098
+  },
+  {
+   "text": "Dört kritere tek tek bakmak gerekiyor.",
+   "s": 240.098,
+   "e": 242.716
+  },
+  {
+   "text": "Özetle:",
+   "s": 243.526,
+   "e": 244.466
+  },
+  {
+   "text": "İsme değil, tekniğe bakın.",
+   "s": 244.466,
+   "e": 246.236
+  },
+  {
+   "text": "Dört kriter, tek karar.",
+   "s": 246.236,
+   "e": 248.166
+  },
+  {
+   "text": "Bu ders işinize yaradıysa kanala abone olmayı",
+   "s": 248.166,
+   "e": 250.806
+  },
+  {
+   "text": "ve videoyu paylaşmayı unutmayın.",
+   "s": 250.806,
+   "e": 252.686
+  },
+  {
+   "text": "Bir sonraki derste görüşmek üzere,",
+   "s": 252.686,
+   "e": 254.596
+  },
+  {
+   "text": "hoşça kalın!",
+   "s": 254.596,
+   "e": 255.602
+  }
+ ]
+}

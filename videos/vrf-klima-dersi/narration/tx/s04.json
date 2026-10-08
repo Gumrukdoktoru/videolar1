@@ -1,0 +1,266 @@
+[
+  {
+    "text": "İnceleme",
+    "start": 0.05,
+    "end": 0.54,
+    "id": "w0"
+  },
+  {
+    "text": "şunu",
+    "start": 0.61,
+    "end": 0.87,
+    "id": "w1"
+  },
+  {
+    "text": "gösterdi.",
+    "start": 0.88,
+    "end": 1.6,
+    "id": "w2"
+  },
+  {
+    "text": "Multi-split",
+    "start": 1.65,
+    "end": 2.47,
+    "id": "w3"
+  },
+  {
+    "text": "ve",
+    "start": 2.55,
+    "end": 2.72,
+    "id": "w4"
+  },
+  {
+    "text": "VRF",
+    "start": 2.72,
+    "end": 2.94,
+    "id": "w5"
+  },
+  {
+    "text": "sistemlerin",
+    "start": 3.36,
+    "end": 4,
+    "id": "w6"
+  },
+  {
+    "text": "bazı",
+    "start": 4,
+    "end": 4.24,
+    "id": "w7"
+  },
+  {
+    "text": "ortak",
+    "start": 4.24,
+    "end": 4.54,
+    "id": "w8"
+  },
+  {
+    "text": "özellikleri",
+    "start": 4.54,
+    "end": 5.2,
+    "id": "w9"
+  },
+  {
+    "text": "var.",
+    "start": 5.2,
+    "end": 5.59,
+    "id": "w10"
+  },
+  {
+    "text": "Ama",
+    "start": 5.65,
+    "end": 5.81,
+    "id": "w11"
+  },
+  {
+    "text": "teknik",
+    "start": 5.81,
+    "end": 6.23,
+    "id": "w12"
+  },
+  {
+    "text": "mimari",
+    "start": 6.23,
+    "end": 6.65,
+    "id": "w13"
+  },
+  {
+    "text": "ve",
+    "start": 6.65,
+    "end": 6.79,
+    "id": "w14"
+  },
+  {
+    "text": "çalışma",
+    "start": 6.79,
+    "end": 7.28,
+    "id": "w15"
+  },
+  {
+    "text": "prensibi",
+    "start": 7.37,
+    "end": 7.82,
+    "id": "w16"
+  },
+  {
+    "text": "bakımından",
+    "start": 7.91,
+    "end": 8.54,
+    "id": "w17"
+  },
+  {
+    "text": "birbirinden",
+    "start": 8.54,
+    "end": 9.31,
+    "id": "w18"
+  },
+  {
+    "text": "ayrılıyorlar.",
+    "start": 9.31,
+    "end": 10.16,
+    "id": "w19"
+  },
+  {
+    "text": "Ve",
+    "start": 10.21,
+    "end": 10.44,
+    "id": "w20"
+  },
+  {
+    "text": "işte",
+    "start": 10.44,
+    "end": 11.01,
+    "id": "w21"
+  },
+  {
+    "text": "ilk",
+    "start": 11.01,
+    "end": 11.43,
+    "id": "w22"
+  },
+  {
+    "text": "tuzak.",
+    "start": 11.43,
+    "end": 12.16,
+    "id": "w23"
+  },
+  {
+    "text": "Her",
+    "start": 12.21,
+    "end": 12.38,
+    "id": "w24"
+  },
+  {
+    "text": "iki",
+    "start": 12.38,
+    "end": 12.6,
+    "id": "w25"
+  },
+  {
+    "text": "sistemde",
+    "start": 12.6,
+    "end": 13.09,
+    "id": "w26"
+  },
+  {
+    "text": "de",
+    "start": 13.18,
+    "end": 13.32,
+    "id": "w27"
+  },
+  {
+    "text": "bir",
+    "start": 13.32,
+    "end": 13.47,
+    "id": "w28"
+  },
+  {
+    "text": "dış",
+    "start": 13.47,
+    "end": 13.83,
+    "id": "w29"
+  },
+  {
+    "text": "üniteye",
+    "start": 13.83,
+    "end": 14.26,
+    "id": "w30"
+  },
+  {
+    "text": "birden",
+    "start": 14.26,
+    "end": 14.59,
+    "id": "w31"
+  },
+  {
+    "text": "fazla",
+    "start": 14.73,
+    "end": 15.06,
+    "id": "w32"
+  },
+  {
+    "text": "iç",
+    "start": 15.06,
+    "end": 15.2,
+    "id": "w33"
+  },
+  {
+    "text": "ünite",
+    "start": 15.2,
+    "end": 15.56,
+    "id": "w34"
+  },
+  {
+    "text": "bağlanabilir.",
+    "start": 15.56,
+    "end": 16.56,
+    "id": "w35"
+  },
+  {
+    "text": "Ama",
+    "start": 16.61,
+    "end": 16.84,
+    "id": "w36"
+  },
+  {
+    "text": "bu",
+    "start": 16.84,
+    "end": 17.02,
+    "id": "w37"
+  },
+  {
+    "text": "tek",
+    "start": 17.02,
+    "end": 17.3,
+    "id": "w38"
+  },
+  {
+    "text": "başına",
+    "start": 17.3,
+    "end": 17.85,
+    "id": "w39"
+  },
+  {
+    "text": "bir",
+    "start": 17.85,
+    "end": 17.91,
+    "id": "w40"
+  },
+  {
+    "text": "sistemi",
+    "start": 18.32,
+    "end": 18.76,
+    "id": "w41"
+  },
+  {
+    "text": "VRF",
+    "start": 18.76,
+    "end": 19,
+    "id": "w42"
+  },
+  {
+    "text": "yapmaz.",
+    "start": 19.13,
+    "end": 19.91,
+    "id": "w43"
+  }
+]

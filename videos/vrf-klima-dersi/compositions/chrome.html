@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #chrome { position:absolute; inset:0; pointer-events:none; }
+
+      </style>
+      <div id="chrome" data-composition-id="chrome" data-width="1920" data-height="1080" data-duration="258.35">
+
+<div id="sweep"></div>
+<div id="topbar"><div class="logo"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
+  <div class="meta">DERS · <b>VRF KLİMALAR</b> · GGM 01.10.2026</div></div>
+<div id="chap-01" class="chap clip" data-start="0.0" data-duration="22.186" data-track-index="1"><div class="cp"><b>01/10</b>GİRİŞ</div></div>
+<div id="chap-02" class="chap clip" data-start="22.186" data-duration="34.157" data-track-index="1"><div class="cp"><b>02/10</b>SORUN & SÜREÇ</div></div>
+<div id="chap-03" class="chap clip" data-start="56.343" data-duration="20.879" data-track-index="1"><div class="cp"><b>03/10</b>ORTAK NOKTA & TUZAK</div></div>
+<div id="chap-04" class="chap clip" data-start="77.222" data-duration="37.519" data-track-index="1"><div class="cp"><b>04/10</b>KARŞILAŞTIRMA</div></div>
+<div id="chap-05" class="chap clip" data-start="114.741" data-duration="18.241" data-track-index="1"><div class="cp"><b>05/10</b>ÖNEMLİ SONUÇ</div></div>
+<div id="chap-06" class="chap clip" data-start="132.982" data-duration="53.745" data-track-index="1"><div class="cp"><b>06/10</b>4 TEKNİK KRİTER</div></div>
+<div id="chap-07" class="chap clip" data-start="186.727" data-duration="16.882" data-track-index="1"><div class="cp"><b>07/10</b>ESKİ BTB'LER</div></div>
+<div id="chap-08" class="chap clip" data-start="203.609" data-duration="19.599" data-track-index="1"><div class="cp"><b>08/10</b>KOÇUN TAVSİYESİ</div></div>
+<div id="chap-09" class="chap clip" data-start="223.208" data-duration="19.808" data-track-index="1"><div class="cp"><b>09/10</b>MİNİ QUIZ</div></div>
+<div id="chap-10" class="chap clip" data-start="243.016" data-duration="15.336" data-track-index="1"><div class="cp"><b>10/10</b>ÖZET</div></div>
+<div id="progress"><div class="fill"></div><i class="tick" style="left:164.9px"></i><i class="tick" style="left:418.7px"></i><i class="tick" style="left:573.9px"></i><i class="tick" style="left:852.7px"></i><i class="tick" style="left:988.3px"></i><i class="tick" style="left:1387.7px"></i><i class="tick" style="left:1513.2px"></i><i class="tick" style="left:1658.8px"></i><i class="tick" style="left:1806.0px"></i></div>
+
+      </div>
+      <script>
+(() => {
+  const tl = gsap.timeline({ paused: true });
+
+  const TOTAL = 258.35;
+  tl.fromTo("#topbar .logo", { y: -90 }, { y: 0, duration: 0.6, ease: "back.out(1.5)" }, 0.4);
+  tl.fromTo("#topbar .meta", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.7);
+  tl.fromTo("#progress .fill", { scaleX: 0 }, { scaleX: 1, duration: TOTAL, ease: "none" }, 0);
+  const CH = [0.0, 22.186, 56.343, 77.222, 114.741, 132.982, 186.727, 203.609, 223.208, 243.016];
+  document.querySelectorAll("#chrome .chap .cp").forEach((c, i) => {
+    tl.fromTo(c, { y: -70, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.7)" }, CH[i] + 0.15);
+  });
+  [22.186, 41.237, 56.343, 77.222, 114.741, 132.982, 139.86, 149.219, 160.015, 172.013, 186.727, 203.609, 223.208, 243.016].forEach((t) => {
+    tl.fromTo("#sweep", { x: 420 }, { x: 1760, duration: 0.55, ease: "power2.inOut", immediateRender: false }, t - 0.3);
+    tl.fromTo("#sweep", { opacity: 0 }, { keyframes: [{ opacity: 1, duration: 0.22 }, { opacity: 0, duration: 0.33 }], immediateRender: false }, t - 0.3);
+  });
+
+  window.__timelines["chrome"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>
