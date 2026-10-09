@@ -1,0 +1,536 @@
+[
+  {
+    "text": "Önce",
+    "start": 0.04,
+    "end": 0.32,
+    "id": "w0"
+  },
+  {
+    "text": "soruyu",
+    "start": 0.32,
+    "end": 0.78,
+    "id": "w1"
+  },
+  {
+    "text": "okuyalım.",
+    "start": 0.86,
+    "end": 1.54,
+    "id": "w2"
+  },
+  {
+    "text": "2024",
+    "start": 1.57,
+    "end": 2.32,
+    "id": "w3"
+  },
+  {
+    "text": "yılının",
+    "start": 2.4,
+    "end": 2.68,
+    "id": "w4"
+  },
+  {
+    "text": "Haziran",
+    "start": 3.03,
+    "end": 3.3,
+    "id": "w5"
+  },
+  {
+    "text": "ayında",
+    "start": 3.3,
+    "end": 3.7,
+    "id": "w6"
+  },
+  {
+    "text": "yapılan",
+    "start": 3.7,
+    "end": 4.17,
+    "id": "w7"
+  },
+  {
+    "text": "sonradan",
+    "start": 4.17,
+    "end": 4.7,
+    "id": "w8"
+  },
+  {
+    "text": "kontrolde,",
+    "start": 4.7,
+    "end": 5.44,
+    "id": "w9"
+  },
+  {
+    "text": "En",
+    "start": 5.48,
+    "end": 5.56,
+    "id": "w10"
+  },
+  {
+    "text": "firmasının",
+    "start": 5.56,
+    "end": 6.18,
+    "id": "w11"
+  },
+  {
+    "text": "yurt",
+    "start": 6.18,
+    "end": 6.43,
+    "id": "w12"
+  },
+  {
+    "text": "dışındaki",
+    "start": 6.43,
+    "end": 7,
+    "id": "w13"
+  },
+  {
+    "text": "satıcıya",
+    "start": 7.06,
+    "end": 7.49,
+    "id": "w14"
+  },
+  {
+    "text": "ödediği",
+    "start": 7.49,
+    "end": 8,
+    "id": "w15"
+  },
+  {
+    "text": "lisans",
+    "start": 8,
+    "end": 8.32,
+    "id": "w16"
+  },
+  {
+    "text": "ücretlerini",
+    "start": 8.34,
+    "end": 9.02,
+    "id": "w17"
+  },
+  {
+    "text": "beyan",
+    "start": 9.02,
+    "end": 9.32,
+    "id": "w18"
+  },
+  {
+    "text": "etmediği",
+    "start": 9.32,
+    "end": 9.79,
+    "id": "w19"
+  },
+  {
+    "text": "anlaşılıyor.",
+    "start": 9.79,
+    "end": 10.68,
+    "id": "w20"
+  },
+  {
+    "text": "Bu",
+    "start": 10.72,
+    "end": 10.83,
+    "id": "w21"
+  },
+  {
+    "text": "ücretler",
+    "start": 10.83,
+    "end": 11.43,
+    "id": "w22"
+  },
+  {
+    "text": "İtal",
+    "start": 11.43,
+    "end": 11.72,
+    "id": "w23"
+  },
+  {
+    "text": "eşyası",
+    "start": 11.72,
+    "end": 12.18,
+    "id": "w24"
+  },
+  {
+    "text": "ile",
+    "start": 12.3,
+    "end": 12.41,
+    "id": "w25"
+  },
+  {
+    "text": "ilgili",
+    "start": 12.43,
+    "end": 12.96,
+    "id": "w26"
+  },
+  {
+    "text": "ve",
+    "start": 12.96,
+    "end": 13.04,
+    "id": "w27"
+  },
+  {
+    "text": "satış",
+    "start": 13.16,
+    "end": 13.41,
+    "id": "w28"
+  },
+  {
+    "text": "koşulu",
+    "start": 13.41,
+    "end": 13.79,
+    "id": "w29"
+  },
+  {
+    "text": "olarak",
+    "start": 13.79,
+    "end": 14.17,
+    "id": "w30"
+  },
+  {
+    "text": "ödeniyor.",
+    "start": 14.18,
+    "end": 14.92,
+    "id": "w31"
+  },
+  {
+    "text": "Ödemeler",
+    "start": 14.96,
+    "end": 15.45,
+    "id": "w32"
+  },
+  {
+    "text": "ve",
+    "start": 15.45,
+    "end": 15.58,
+    "id": "w33"
+  },
+  {
+    "text": "ithalatlar",
+    "start": 15.58,
+    "end": 16.08,
+    "id": "w34"
+  },
+  {
+    "text": "her",
+    "start": 16.08,
+    "end": 16.54,
+    "id": "w35"
+  },
+  {
+    "text": "yıl",
+    "start": 16.54,
+    "end": 16.64,
+    "id": "w36"
+  },
+  {
+    "text": "Mart",
+    "start": 16.67,
+    "end": 16.91,
+    "id": "w37"
+  },
+  {
+    "text": "ayında",
+    "start": 16.91,
+    "end": 17.28,
+    "id": "w38"
+  },
+  {
+    "text": "yapılmış.",
+    "start": 17.41,
+    "end": 18.12,
+    "id": "w39"
+  },
+  {
+    "text": "2021",
+    "start": 18.15,
+    "end": 18.9,
+    "id": "w40"
+  },
+  {
+    "text": "yılında",
+    "start": 19.03,
+    "end": 19.27,
+    "id": "w41"
+  },
+  {
+    "text": "8",
+    "start": 19.27,
+    "end": 19.75,
+    "id": "w42"
+  },
+  {
+    "text": "bin",
+    "start": 19.75,
+    "end": 19.91,
+    "id": "w43"
+  },
+  {
+    "text": "dolar.",
+    "start": 19.91,
+    "end": 20.48,
+    "id": "w44"
+  },
+  {
+    "text": "Kur",
+    "start": 20.55,
+    "end": 20.84,
+    "id": "w45"
+  },
+  {
+    "text": "8",
+    "start": 20.97,
+    "end": 21.28,
+    "id": "w46"
+  },
+  {
+    "text": "lira.",
+    "start": 21.28,
+    "end": 21.8,
+    "id": "w47"
+  },
+  {
+    "text": "2022",
+    "start": 21.83,
+    "end": 22.58,
+    "id": "w48"
+  },
+  {
+    "text": "yılında",
+    "start": 22.66,
+    "end": 22.95,
+    "id": "w49"
+  },
+  {
+    "text": "15",
+    "start": 23.42,
+    "end": 23.58,
+    "id": "w50"
+  },
+  {
+    "text": "bin",
+    "start": 23.58,
+    "end": 23.79,
+    "id": "w51"
+  },
+  {
+    "text": "dolar.",
+    "start": 23.79,
+    "end": 24.4,
+    "id": "w52"
+  },
+  {
+    "text": "Kur",
+    "start": 24.44,
+    "end": 24.65,
+    "id": "w53"
+  },
+  {
+    "text": "15",
+    "start": 24.65,
+    "end": 25.15,
+    "id": "w54"
+  },
+  {
+    "text": "lira.",
+    "start": 25.15,
+    "end": 25.55,
+    "id": "w55"
+  },
+  {
+    "text": "2023",
+    "start": 25.79,
+    "end": 26.54,
+    "id": "w56"
+  },
+  {
+    "text": "yılında",
+    "start": 26.62,
+    "end": 26.9,
+    "id": "w57"
+  },
+  {
+    "text": "20",
+    "start": 27.38,
+    "end": 27.43,
+    "id": "w58"
+  },
+  {
+    "text": "bin",
+    "start": 27.49,
+    "end": 27.64,
+    "id": "w59"
+  },
+  {
+    "text": "dolar.",
+    "start": 27.64,
+    "end": 28.12,
+    "id": "w60"
+  },
+  {
+    "text": "Kur",
+    "start": 28.23,
+    "end": 28.47,
+    "id": "w61"
+  },
+  {
+    "text": "20",
+    "start": 28.47,
+    "end": 28.98,
+    "id": "w62"
+  },
+  {
+    "text": "lira.",
+    "start": 29.06,
+    "end": 29.4,
+    "id": "w63"
+  },
+  {
+    "text": "Gümrük",
+    "start": 29.44,
+    "end": 30.02,
+    "id": "w64"
+  },
+  {
+    "text": "vergisi",
+    "start": 30.02,
+    "end": 30.55,
+    "id": "w65"
+  },
+  {
+    "text": "%8,",
+    "start": 30.55,
+    "end": 31.53,
+    "id": "w66"
+  },
+  {
+    "text": "KDV",
+    "start": 31.53,
+    "end": 31.95,
+    "id": "w67"
+  },
+  {
+    "text": "%20.",
+    "start": 31.95,
+    "end": 33,
+    "id": "w68"
+  },
+  {
+    "text": "Firma,",
+    "start": 33.03,
+    "end": 33.56,
+    "id": "w69"
+  },
+  {
+    "text": "ceza",
+    "start": 33.56,
+    "end": 33.78,
+    "id": "w70"
+  },
+  {
+    "text": "kararının",
+    "start": 33.86,
+    "end": 34.17,
+    "id": "w71"
+  },
+  {
+    "text": "tebliğinden",
+    "start": 34.58,
+    "end": 35.18,
+    "id": "w72"
+  },
+  {
+    "text": "itibaren",
+    "start": 35.18,
+    "end": 35.8,
+    "id": "w73"
+  },
+  {
+    "text": "15",
+    "start": 35.8,
+    "end": 36.16,
+    "id": "w74"
+  },
+  {
+    "text": "gün",
+    "start": 36.18,
+    "end": 36.37,
+    "id": "w75"
+  },
+  {
+    "text": "içinde",
+    "start": 36.37,
+    "end": 36.7,
+    "id": "w76"
+  },
+  {
+    "text": "vergi",
+    "start": 36.8,
+    "end": 37.02,
+    "id": "w77"
+  },
+  {
+    "text": "ve",
+    "start": 37.1,
+    "end": 37.22,
+    "id": "w78"
+  },
+  {
+    "text": "cezaları",
+    "start": 37.22,
+    "end": 37.74,
+    "id": "w79"
+  },
+  {
+    "text": "peşin",
+    "start": 37.74,
+    "end": 38.07,
+    "id": "w80"
+  },
+  {
+    "text": "ödemek",
+    "start": 38.07,
+    "end": 38.45,
+    "id": "w81"
+  },
+  {
+    "text": "istiyor.",
+    "start": 38.46,
+    "end": 39.24,
+    "id": "w82"
+  },
+  {
+    "text": "Soru",
+    "start": 39.28,
+    "end": 39.96,
+    "id": "w83"
+  },
+  {
+    "text": "Ödenecek",
+    "start": 40,
+    "end": 40.56,
+    "id": "w84"
+  },
+  {
+    "text": "toplan",
+    "start": 40.56,
+    "end": 41,
+    "id": "w85"
+  },
+  {
+    "text": "tutar",
+    "start": 41,
+    "end": 41.39,
+    "id": "w86"
+  },
+  {
+    "text": "kaç",
+    "start": 41.58,
+    "end": 41.62,
+    "id": "w87"
+  },
+  {
+    "text": "lira?",
+    "start": 41.71,
+    "end": 41.96,
+    "id": "w88"
+  }
+]

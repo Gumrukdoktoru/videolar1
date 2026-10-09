@@ -1,0 +1,308 @@
+[
+  {
+    "text": "Hazırsanız",
+    "start": 0.12,
+    "end": 0.83,
+    "id": "w0"
+  },
+  {
+    "text": "başlayalım.",
+    "start": 0.96,
+    "end": 1.84,
+    "id": "w1"
+  },
+  {
+    "text": "Bu",
+    "start": 1.96,
+    "end": 2.01,
+    "id": "w2"
+  },
+  {
+    "text": "sorunun",
+    "start": 2.01,
+    "end": 2.6,
+    "id": "w3"
+  },
+  {
+    "text": "3",
+    "start": 2.6,
+    "end": 2.87,
+    "id": "w4"
+  },
+  {
+    "text": "anahtarı",
+    "start": 2.87,
+    "end": 3.52,
+    "id": "w5"
+  },
+  {
+    "text": "var.",
+    "start": 3.83,
+    "end": 3.84,
+    "id": "w6"
+  },
+  {
+    "text": "1.",
+    "start": 3.96,
+    "end": 4.47,
+    "id": "w7"
+  },
+  {
+    "text": "Eşya",
+    "start": 4.49,
+    "end": 4.87,
+    "id": "w8"
+  },
+  {
+    "text": "ile",
+    "start": 4.87,
+    "end": 5.15,
+    "id": "w9"
+  },
+  {
+    "text": "ilgili",
+    "start": 5.15,
+    "end": 5.41,
+    "id": "w10"
+  },
+  {
+    "text": "ve",
+    "start": 5.84,
+    "end": 5.88,
+    "id": "w11"
+  },
+  {
+    "text": "satış",
+    "start": 5.88,
+    "end": 6.18,
+    "id": "w12"
+  },
+  {
+    "text": "koşulu",
+    "start": 6.18,
+    "end": 6.54,
+    "id": "w13"
+  },
+  {
+    "text": "olarak",
+    "start": 6.54,
+    "end": 6.88,
+    "id": "w14"
+  },
+  {
+    "text": "ödenen",
+    "start": 6.97,
+    "end": 7.27,
+    "id": "w15"
+  },
+  {
+    "text": "lisans",
+    "start": 7.27,
+    "end": 7.47,
+    "id": "w16"
+  },
+  {
+    "text": "ücreti",
+    "start": 7.69,
+    "end": 8.03,
+    "id": "w17"
+  },
+  {
+    "text": "gümrük",
+    "start": 8.03,
+    "end": 8.58,
+    "id": "w18"
+  },
+  {
+    "text": "kıymetine",
+    "start": 8.58,
+    "end": 9.35,
+    "id": "w19"
+  },
+  {
+    "text": "eklenir.",
+    "start": 9.35,
+    "end": 10.04,
+    "id": "w20"
+  },
+  {
+    "text": "2.",
+    "start": 10.16,
+    "end": 10.67,
+    "id": "w21"
+  },
+  {
+    "text": "Zaman",
+    "start": 10.67,
+    "end": 11.21,
+    "id": "w22"
+  },
+  {
+    "text": "aşımı",
+    "start": 11.21,
+    "end": 11.65,
+    "id": "w23"
+  },
+  {
+    "text": "Eksik",
+    "start": 11.78,
+    "end": 12.04,
+    "id": "w24"
+  },
+  {
+    "text": "alınan",
+    "start": 12.04,
+    "end": 12.43,
+    "id": "w25"
+  },
+  {
+    "text": "vergiler",
+    "start": 12.43,
+    "end": 12.97,
+    "id": "w26"
+  },
+  {
+    "text": "yükümlülüğün",
+    "start": 12.97,
+    "end": 13.75,
+    "id": "w27"
+  },
+  {
+    "text": "doğduğu",
+    "start": 13.75,
+    "end": 14.21,
+    "id": "w28"
+  },
+  {
+    "text": "tarihten",
+    "start": 14.21,
+    "end": 14.73,
+    "id": "w29"
+  },
+  {
+    "text": "itibaren",
+    "start": 14.73,
+    "end": 15.22,
+    "id": "w30"
+  },
+  {
+    "text": "3",
+    "start": 15.22,
+    "end": 15.34,
+    "id": "w31"
+  },
+  {
+    "text": "yıl",
+    "start": 15.34,
+    "end": 15.67,
+    "id": "w32"
+  },
+  {
+    "text": "içinde",
+    "start": 15.67,
+    "end": 15.95,
+    "id": "w33"
+  },
+  {
+    "text": "tebliğ",
+    "start": 16.2,
+    "end": 16.46,
+    "id": "w34"
+  },
+  {
+    "text": "edilmelidir.",
+    "start": 16.46,
+    "end": 17.48,
+    "id": "w35"
+  },
+  {
+    "text": "3.",
+    "start": 17.6,
+    "end": 17.92,
+    "id": "w36"
+  },
+  {
+    "text": "Ceza",
+    "start": 17.93,
+    "end": 18.22,
+    "id": "w37"
+  },
+  {
+    "text": "kararı",
+    "start": 18.22,
+    "end": 18.66,
+    "id": "w38"
+  },
+  {
+    "text": "tebliğden",
+    "start": 18.69,
+    "end": 19.2,
+    "id": "w39"
+  },
+  {
+    "text": "itibaren",
+    "start": 19.48,
+    "end": 19.94,
+    "id": "w40"
+  },
+  {
+    "text": "15",
+    "start": 19.94,
+    "end": 20.4,
+    "id": "w41"
+  },
+  {
+    "text": "gün",
+    "start": 20.4,
+    "end": 20.52,
+    "id": "w42"
+  },
+  {
+    "text": "içinde",
+    "start": 20.64,
+    "end": 21.06,
+    "id": "w43"
+  },
+  {
+    "text": "peşin",
+    "start": 21.06,
+    "end": 21.46,
+    "id": "w44"
+  },
+  {
+    "text": "ödenirse",
+    "start": 21.46,
+    "end": 22.16,
+    "id": "w45"
+  },
+  {
+    "text": "cezanın",
+    "start": 22.16,
+    "end": 22.69,
+    "id": "w46"
+  },
+  {
+    "text": "dörtte",
+    "start": 22.69,
+    "end": 23.14,
+    "id": "w47"
+  },
+  {
+    "text": "üçü",
+    "start": 23.14,
+    "end": 23.31,
+    "id": "w48"
+  },
+  {
+    "text": "tahsil",
+    "start": 23.41,
+    "end": 23.82,
+    "id": "w49"
+  },
+  {
+    "text": "edilir.",
+    "start": 23.82,
+    "end": 24.55,
+    "id": "w50"
+  }
+]

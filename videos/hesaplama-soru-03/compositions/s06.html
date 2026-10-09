@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s06 { position: absolute; inset: 0; overflow: hidden; }
+        #s06 .stage { position: absolute; inset: 0; }
+
+.steps { position:absolute; left:600px; top:128px; width:1220px; display:flex; align-items:center; gap:0; }
+.steps .stp { display:flex; align-items:center; gap:12px; font:900 22px Montserrat; letter-spacing:.06em; color:#7E8DBA; white-space:nowrap; }
+.steps .stp .dot { width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:3px solid #3A5296; font:700 22px 'JetBrains Mono'; color:#7E8DBA; }
+.steps .stp.done { color:#AEBBE3; } .steps .stp.done .dot { background:var(--teal); border-color:var(--teal); color:#03221a; }
+.steps .stp.on { color:var(--fg); } .steps .stp.on .dot { background:var(--gold); border-color:var(--gold); color:#2a1d00; box-shadow:0 0 0 8px rgba(255,197,61,.18); }
+.steps .bar { flex:1; height:4px; margin:0 16px; background:#2B4C9E; border-radius:2px; }
+
+.ledger { position:absolute; left:1330px; top:250px; width:490px; height:560px; background:#FBF8EE; border-radius:16px; padding:22px 26px 0 64px;
+  box-shadow:0 26px 60px rgba(0,0,0,.4); color:#1B2A57; overflow:hidden;
+  background-image:linear-gradient(90deg, transparent 46px, #F2A0A0 46px, #F2A0A0 49px, transparent 49px), repeating-linear-gradient(#FBF8EE 0 89px, #C9D6EE 89px 91px); }
+.ledger .lh { display:flex; align-items:center; gap:12px; font:900 22px Montserrat; letter-spacing:.1em; color:#2B47A8; height:70px; margin-top:-6px; }
+.ledger .lh small { margin-left:auto; font:700 18px 'JetBrains Mono'; color:#5A6AA0; }
+.ledger .ln { position:relative; display:flex; align-items:baseline; gap:10px; height:91px; padding-top:36px; font:700 26px 'JetBrains Mono'; }
+.ledger .ln .lb { font:800 25px Montserrat; white-space:nowrap; }
+.ledger .ln .dots { flex:1; border-bottom:3px dotted #8C9BC4; transform:translateY(-6px); }
+.ledger .ln .vl { font:700 27px 'JetBrains Mono'; color:#0B6B4F; white-space:nowrap; }
+.ledger .ln.pen .vl { color:#B4231B; }
+.ledger .ln.out .lb, .ledger .ln.out .vl { color:#7D88A8; }
+.ledger .ln.out .sk { position:absolute; right:-6px; top:52px; width:118px; height:4px; background:#B4231B; border-radius:2px; transform-origin:left center; }
+.ledger .ln.out .tg { position:absolute; right:0; top:8px; font:900 15px Montserrat; font-style:normal; letter-spacing:.08em; color:#B4231B;
+  border:2px solid #B4231B; border-radius:6px; padding:1px 8px; }
+
+#s06 .main { position:absolute; left:600px; top:236px; width:700px; height:640px; padding:22px 30px; }
+#s06 .main .kicker { color:var(--teal); }
+#s06 .dk { position:absolute; left:1080px; top:212px; }
+#s06 .rw { display:flex; align-items:baseline; gap:12px; margin-top:12px; font:700 31px 'JetBrains Mono'; color:var(--fg); white-space:nowrap; }
+#s06 .rw small { font:800 15px Montserrat; letter-spacing:.04em; color:var(--muted); width:112px; flex:none; }
+#s06 .rw .op { color:var(--muted); }
+#s06 .rw .v { display:inline-block; }
+#s06 .rw.k .v { color:var(--usd); } #s06 .rw.g .v { color:var(--gold); } #s06 .rw.m .v { color:var(--accent2); } #s06 .rw.d .v { color:var(--teal); }
+#s06 .rw.tot { margin-top:14px; padding-top:10px; border-top:3px solid rgba(255,255,255,.25); }
+#s06 .rw.tot .v { color:#DFFFEF; font-size:36px; }
+#s06 .sum { display:flex; align-items:baseline; gap:16px; margin-top:16px; padding-top:12px; border-top:5px solid var(--fg); white-space:nowrap; }
+#s06 .sum small { font:900 24px Montserrat; letter-spacing:.06em; color:var(--teal); }
+#s06 .sum b { font-family:'Archivo Black'; font-size:58px; line-height:1; color:#DFFFF6; display:inline-block; }
+#s06 .sum em { font-style:normal; font:800 28px Montserrat; color:var(--teal); }
+#s06 .ledger { top:236px; }
+
+      </style>
+      <div id="s06" data-composition-id="s06" data-width="1920" data-height="1080" data-duration="27.828">
+        <div class="stage">
+
+<div class="steps"><div class="stp done"><span class="dot"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>ZAMANAŞIMI</div><i class="bar"></i><div class="stp on"><span class="dot"><b>2</b></span>KIYMET & VERGİ</div><i class="bar"></i><div class="stp "><span class="dot"><b>3</b></span>CEZA & İNDİRİM</div><i class="bar"></i><div class="stp "><span class="dot"><b>4</b></span>SONUÇ</div></div>
+<div class="main card"><div class="kicker">ADIM 2 · KIYMET VE VERGİLER</div>
+  <div class="rw k r1"><small>2022</small><span>15.000 $ × 15</span><span class="op">=</span><span class="v c1">0</span></div>
+  <div class="rw k r2"><small>2023</small><span>20.000 $ × 20</span><span class="op">=</span><span class="v c2">0</span></div>
+  <div class="rw tot r3"><small>KIYMET</small><span class="op">Σ =</span><span class="v c3">0</span><span class="op">TL</span></div>
+  <div class="rw g r4"><small>GV</small><span>625.000 × %8</span><span class="op">=</span><span class="v c4">0</span></div>
+  <div class="rw m r5"><small>KDV MATR.</small><span>625.000 + 50.000</span><span class="op">=</span><span class="v c5">0</span></div>
+  <div class="rw d r6"><small>KDV</small><span>675.000 × %20</span><span class="op">=</span><span class="v c6">0</span></div>
+  <div class="sum"><small>EKSİK VERGİ</small><b class="c7">0</b><em>TL</em></div>
+</div>
+<div class="dk"><div class="badge b-dikkat "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M1.5 12S5.5 4.8 12 4.8 22.5 12 22.5 12 18.5 19.2 12 19.2 1.5 12 1.5 12z" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12" cy="12" r="3.6" fill="currentColor"/></svg></span><span class="bt">DİKKAT</span></div></div>
+<div class="ledger"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg>ÇÖZÜM DEFTERİ<small>TL</small></div><div class="ln r0 out"><span class="lb">2021</span><span class="dots"></span><span class="vl">—</span><i class="sk"></i><em class="tg">ZAMANAŞIMI</em></div><div class="ln r1 "><span class="lb">Eksik GV</span><span class="dots"></span><span class="vl">50.000</span></div><div class="ln r2 "><span class="lb">Eksik KDV</span><span class="dots"></span><span class="vl">135.000</span></div><div class="ln blank"></div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s06";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 27.828;
+const K = {"ik": 0.53, "on": 4.0, "iki": 5.88, "y2": 7.74, "dort": 9.39, "top": 10.9, "gv": 13.29, "elli": 15.3, "dik": 16.81, "kdv": 17.56, "yet": 20.59, "bunun": 21.82, "otuz": 23.0, "eks": 24.49, "sek": 26.01};
+
+
+rise(".steps", 0.15, 0, -30);
+tl.fromTo(q(".main"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.ik);
+tl.fromTo(q(".ledger"), { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.ik + 0.2);
+rise(".r1", K.on, 0, 20);
+count(".r1 .c1", K.iki - 0.2, 0, 225000, 0.7, 0);
+rise(".r2", K.y2, 0, 20);
+count(".r2 .c2", K.dort - 0.2, 0, 400000, 0.7, 0);
+rise(".r3", K.top, 0, 20);
+count(".r3 .c3", K.top + 0.3, 0, 625000, 0.8, 0);
+pulse(".r3 .v", K.top + 1.2, 1.15);
+rise(".r4", K.gv, 0, 20);
+count(".r4 .c4", K.elli - 0.2, 0, 50000, 0.6, 0);
+write(".ledger .r1", K.elli + 0.4, 0.6);
+slam(".dk", K.dik);
+rise(".r5", K.kdv, 0, 20);
+count(".r5 .c5", K.yet - 0.4, 0, 675000, 0.7, 0);
+pulse(".r5 .v", K.yet + 0.5, 1.15);
+rise(".r6", K.bunun, 0, 20);
+count(".r6 .c6", K.otuz - 0.4, 0, 135000, 0.7, 0);
+write(".ledger .r2", K.otuz + 0.5, 0.6);
+rise(".sum", K.eks, 0, 20);
+count(".sum .c7", K.sek - 0.4, 0, 185000, 0.8, 0);
+pulse(".sum b", K.sek + 0.6, 1.12);
+
+exitAll(27.41);
+window.__timelines["s06"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+[
+  {
+    "text": "Ve",
+    "start": 0.08,
+    "end": 0.27,
+    "id": "w0"
+  },
+  {
+    "text": "sonuç",
+    "start": 0.27,
+    "end": 0.68,
+    "id": "w1"
+  },
+  {
+    "text": "185.000",
+    "start": 1.04,
+    "end": 2.29,
+    "id": "w2"
+  },
+  {
+    "text": "lira",
+    "start": 2.29,
+    "end": 2.54,
+    "id": "w3"
+  },
+  {
+    "text": "vergi",
+    "start": 2.54,
+    "end": 2.88,
+    "id": "w4"
+  },
+  {
+    "text": "artı",
+    "start": 2.88,
+    "end": 3,
+    "id": "w5"
+  },
+  {
+    "text": "416.250",
+    "start": 3,
+    "end": 5.05,
+    "id": "w6"
+  },
+  {
+    "text": "lira",
+    "start": 5.15,
+    "end": 5.49,
+    "id": "w7"
+  },
+  {
+    "text": "ceza",
+    "start": 5.62,
+    "end": 5.98,
+    "id": "w8"
+  },
+  {
+    "text": "ödenecek",
+    "start": 6.05,
+    "end": 6.58,
+    "id": "w9"
+  },
+  {
+    "text": "toplam",
+    "start": 6.58,
+    "end": 7.04,
+    "id": "w10"
+  },
+  {
+    "text": "tutar",
+    "start": 7.05,
+    "end": 7.45,
+    "id": "w11"
+  },
+  {
+    "text": "601.250",
+    "start": 7.47,
+    "end": 9.35,
+    "id": "w12"
+  },
+  {
+    "text": "lira",
+    "start": 9.35,
+    "end": 9.72,
+    "id": "w13"
+  },
+  {
+    "text": "Doğru",
+    "start": 9.79,
+    "end": 10.18,
+    "id": "w14"
+  },
+  {
+    "text": "cevap",
+    "start": 10.27,
+    "end": 10.72,
+    "id": "w15"
+  },
+  {
+    "text": "C",
+    "start": 10.78,
+    "end": 10.88,
+    "id": "w16"
+  },
+  {
+    "text": "şıkkı",
+    "start": 10.88,
+    "end": 11.72,
+    "id": "w17"
+  }
+]

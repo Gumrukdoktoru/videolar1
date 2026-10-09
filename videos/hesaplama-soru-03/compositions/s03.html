@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s03 { position: absolute; inset: 0; overflow: hidden; }
+        #s03 .stage { position: absolute; inset: 0; }
+
+#s03 .hdr { position:absolute; left:600px; top:132px; }
+#s03 .opts { position:absolute; left:600px; top:290px; width:760px; }
+#s03 .opt { display:flex; align-items:center; gap:26px; height:104px; margin-bottom:16px; padding:0 30px 0 18px; }
+#s03 .opt .L { width:72px; height:72px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black';
+  font-size:38px; color:#071A45; background:var(--accent2); flex:none; }
+#s03 .opt .v { font:700 56px 'JetBrains Mono'; color:var(--fg); }
+#s03 .opt .u { font:800 28px Montserrat; color:var(--muted); margin-left:auto; }
+#s03 .stop { position:absolute; left:1420px; top:270px; width:400px; height:620px; display:flex; flex-direction:column; align-items:center; padding-top:34px; }
+#s03 .stop .pz { width:150px; height:150px; border-radius:50%; background:var(--uyari); color:#fff; display:flex; align-items:center; justify-content:center;
+  box-shadow:0 0 0 14px rgba(255,77,94,.18), 0 20px 50px rgba(0,0,0,.4); }
+#s03 .stop .pt { font:900 34px/1.15 Montserrat; text-align:center; margin-top:28px; color:var(--fg); }
+#s03 .stop .ps { font:700 22px 'JetBrains Mono'; color:var(--muted); margin-top:10px; letter-spacing:.08em; }
+#s03 .ring { position:relative; width:200px; height:200px; margin-top:26px; }
+#s03 .ring svg { position:absolute; inset:0; transform:rotate(-90deg); }
+#s03 .ring .n { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:96px; color:var(--gold); opacity:0; }
+
+      </style>
+      <div id="s03" data-composition-id="s03" data-width="1920" data-height="1080" data-duration="25.922">
+        <div class="stage">
+
+<div class="hdr"><div class="badge b-soru "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M9 9.2a3 3 0 1 1 4.2 2.8c-.9.4-1.2 1-1.2 2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.4" fill="currentColor"/></svg></span><span class="bt">SORU</span></div><div class="h1">Hangisi doğru?</div></div>
+<div class="opts"><div class="opt card oA"><span class="L">A</span><span class="v">185.000</span><span class="u">TL</span></div><div class="opt card oB"><span class="L">B</span><span class="v">568.750</span><span class="u">TL</span></div><div class="opt card oC"><span class="L">C</span><span class="v">601.250</span><span class="u">TL</span></div><div class="opt card oD"><span class="L">D</span><span class="v">662.818</span><span class="u">TL</span></div><div class="opt card oE"><span class="L">E</span><span class="v">740.000</span><span class="u">TL</span></div></div>
+<div class="stop card"><div class="pz"><svg class="ico " viewBox="0 0 24 24" width="84" height="84" aria-hidden="true"><rect x="5.5" y="4" width="4.5" height="16" rx="1.2" fill="currentColor"/><rect x="14" y="4" width="4.5" height="16" rx="1.2" fill="currentColor"/></svg></div><div class="pt">Videoyu durdur,<br/>önce sen çöz!</div><div class="ps">SÜRE BAŞLIYOR</div>
+  <div class="ring"><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="86" fill="none" stroke="#2B4C9E" stroke-width="14"/>
+    <circle class="arc" cx="100" cy="100" r="86" fill="none" stroke="#FFC53D" stroke-width="14" stroke-linecap="round"/></svg>
+    <div class="n n5">5</div><div class="n n4">4</div><div class="n n3">3</div><div class="n n2">2</div><div class="n n1">1</div></div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s03";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 25.922;
+const K = {"sik": 0.52, "A": 1.7, "B": 4.12, "C": 7.56, "Dk": 10.7, "E": 14.03, "vid": 16.65, "end": 20.17};
+
+
+rise(".hdr", K.sik, 0, 30);
+["A", "B", "C", "Dk", "E"].forEach((k, i) => slideX(".o" + "ABCDE"[i], K[k], -90));
+["A", "B", "C", "Dk", "E"].forEach((k, i) => pulse(".o" + "ABCDE"[i] + " .L", K[k] + 0.45, 1.18));
+tl.fromTo(q(".stop"), { x: 120, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out" }, K.vid);
+tl.fromTo(q(".stop .pz"), { scale: 0.4 }, { scale: 1, duration: 0.6, ease: "back.out(2.4)" }, K.vid + 0.15);
+breathe(".stop .pz", K.vid + 0.8, D - 0.5, 0.06, 1.0);
+q(".ring .arc").forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; });
+tl.fromTo(q(".ring .arc"), { strokeDashoffset: 0 }, { strokeDashoffset: 1, duration: 5.0, ease: "none" }, K.end + 0.15);
+[5, 4, 3, 2, 1].forEach((k, i) => {
+  const at = K.end + 0.15 + i;
+  tl.fromTo(q(".ring .n" + k), { opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)" }, at);
+  tl.to(q(".ring .n" + k), { opacity: 0, duration: 0.15 }, at + 0.85);
+});
+
+exitAll(25.5);
+window.__timelines["s03"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

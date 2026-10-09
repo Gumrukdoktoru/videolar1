@@ -1,0 +1,254 @@
+[
+  {
+    "text": "Koçun",
+    "start": 0.13,
+    "end": 0.53,
+    "id": "w0"
+  },
+  {
+    "text": "Notu",
+    "start": 0.6,
+    "end": 1.12,
+    "id": "w1"
+  },
+  {
+    "text": "Zaman",
+    "start": 1.2,
+    "end": 1.55,
+    "id": "w2"
+  },
+  {
+    "text": "aşımı",
+    "start": 1.55,
+    "end": 1.84,
+    "id": "w3"
+  },
+  {
+    "text": "gümrük",
+    "start": 2.06,
+    "end": 2.38,
+    "id": "w4"
+  },
+  {
+    "text": "hükümlülüğünün",
+    "start": 2.38,
+    "end": 3.28,
+    "id": "w5"
+  },
+  {
+    "text": "doğduğu",
+    "start": 3.28,
+    "end": 3.72,
+    "id": "w6"
+  },
+  {
+    "text": "tarihten",
+    "start": 3.8,
+    "end": 4.26,
+    "id": "w7"
+  },
+  {
+    "text": "başlar.",
+    "start": 4.26,
+    "end": 4.82,
+    "id": "w8"
+  },
+  {
+    "text": "Yani",
+    "start": 4.95,
+    "end": 5.12,
+    "id": "w9"
+  },
+  {
+    "text": "beyannamenin",
+    "start": 5.12,
+    "end": 6,
+    "id": "w10"
+  },
+  {
+    "text": "tescil",
+    "start": 6.05,
+    "end": 6.41,
+    "id": "w11"
+  },
+  {
+    "text": "tarihinden,",
+    "start": 6.43,
+    "end": 7.25,
+    "id": "w12"
+  },
+  {
+    "text": "ödeme",
+    "start": 7.25,
+    "end": 7.62,
+    "id": "w13"
+  },
+  {
+    "text": "ya",
+    "start": 7.62,
+    "end": 7.77,
+    "id": "w14"
+  },
+  {
+    "text": "da",
+    "start": 7.77,
+    "end": 7.92,
+    "id": "w15"
+  },
+  {
+    "text": "kontrol",
+    "start": 7.92,
+    "end": 8.44,
+    "id": "w16"
+  },
+  {
+    "text": "tarihinden",
+    "start": 8.44,
+    "end": 9.17,
+    "id": "w17"
+  },
+  {
+    "text": "değil.",
+    "start": 9.17,
+    "end": 9.6,
+    "id": "w18"
+  },
+  {
+    "text": "Bir",
+    "start": 9.73,
+    "end": 9.81,
+    "id": "w19"
+  },
+  {
+    "text": "de",
+    "start": 9.86,
+    "end": 9.96,
+    "id": "w20"
+  },
+  {
+    "text": "peşin",
+    "start": 9.96,
+    "end": 10.31,
+    "id": "w21"
+  },
+  {
+    "text": "ödeme",
+    "start": 10.31,
+    "end": 10.67,
+    "id": "w22"
+  },
+  {
+    "text": "itiraz",
+    "start": 10.79,
+    "end": 11.09,
+    "id": "w23"
+  },
+  {
+    "text": "hakkını",
+    "start": 11.09,
+    "end": 11.6,
+    "id": "w24"
+  },
+  {
+    "text": "ortadan",
+    "start": 11.6,
+    "end": 12.04,
+    "id": "w25"
+  },
+  {
+    "text": "kaldırmaz.",
+    "start": 12.12,
+    "end": 12.9,
+    "id": "w26"
+  },
+  {
+    "text": "Formülü",
+    "start": 13.03,
+    "end": 13.39,
+    "id": "w27"
+  },
+  {
+    "text": "aklınızda",
+    "start": 13.39,
+    "end": 14.02,
+    "id": "w28"
+  },
+  {
+    "text": "tutun.",
+    "start": 14.11,
+    "end": 14.4,
+    "id": "w29"
+  },
+  {
+    "text": "Süreyi",
+    "start": 14.5,
+    "end": 14.84,
+    "id": "w30"
+  },
+  {
+    "text": "kontrol",
+    "start": 14.84,
+    "end": 15.15,
+    "id": "w31"
+  },
+  {
+    "text": "et,",
+    "start": 15.51,
+    "end": 15.68,
+    "id": "w32"
+  },
+  {
+    "text": "kıymete",
+    "start": 15.68,
+    "end": 16.35,
+    "id": "w33"
+  },
+  {
+    "text": "ekle,",
+    "start": 16.35,
+    "end": 16.84,
+    "id": "w34"
+  },
+  {
+    "text": "vergiye",
+    "start": 16.92,
+    "end": 17.44,
+    "id": "w35"
+  },
+  {
+    "text": "hesapla,",
+    "start": 17.44,
+    "end": 18.2,
+    "id": "w36"
+  },
+  {
+    "text": "cezayı",
+    "start": 18.2,
+    "end": 18.72,
+    "id": "w37"
+  },
+  {
+    "text": "üçle,",
+    "start": 18.73,
+    "end": 19.3,
+    "id": "w38"
+  },
+  {
+    "text": "dörtte",
+    "start": 19.31,
+    "end": 19.73,
+    "id": "w39"
+  },
+  {
+    "text": "üçünü",
+    "start": 19.73,
+    "end": 20.09,
+    "id": "w40"
+  },
+  {
+    "text": "öde.",
+    "start": 20.09,
+    "end": 20.56,
+    "id": "w41"
+  }
+]

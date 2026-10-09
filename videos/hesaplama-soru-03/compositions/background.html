@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #background { position:absolute; inset:0; pointer-events:none; }
+
+      </style>
+      <div id="background" data-composition-id="background" data-width="1920" data-height="1080" data-duration="286.49">
+<div id="bg"><div class="grid"></div><div class="glow g1"></div><div class="glow g2"></div><svg class="ghost" viewBox="0 0 820 560" aria-hidden="true"><g fill="none" stroke="#8FB2FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M120 40h220M120 520h220M150 40c0 150 80 170 80 240s-80 90-80 240M310 40c0 150-80 170-80 240s80 90 80 240"/><rect x="470" y="150" width="300" height="300" rx="26"/><path d="M470 230h300M540 110v80M700 110v80M530 300h40M610 300h40M690 300h40M530 370h40M610 370h40"/><path d="M680 360l30 30 50-60"/></g></svg><div class="vign"></div></div>
+      </div>
+      <script>
+(() => {
+  const tl = gsap.timeline({ paused: true });
+
+  const TOTAL = 286.49;
+  tl.fromTo("#bg .grid", { x: 0, y: 0 }, { x: -200, y: -120, duration: TOTAL, ease: "none" }, 0);
+  tl.fromTo("#bg .g1", { scale: 1, opacity: 0.8 }, { scale: 1.18, opacity: 1, duration: 4.2, ease: "sine.inOut", yoyo: true, repeat: Math.max(0, Math.floor(TOTAL / 4.2) - 1) }, 0);
+  tl.fromTo("#bg .g2", { scale: 1.1, x: 0 }, { scale: 0.9, x: 120, duration: 6.4, ease: "sine.inOut", yoyo: true, repeat: Math.max(0, Math.floor(TOTAL / 6.4) - 1) }, 0);
+  tl.fromTo("#bg .ghost", { x: 0 }, { x: -160, duration: TOTAL, ease: "none" }, 0);
+
+  window.__timelines["background"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

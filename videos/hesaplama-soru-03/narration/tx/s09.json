@@ -1,0 +1,296 @@
+[
+  {
+    "text": "Şimdi",
+    "start": 0.18,
+    "end": 0.47,
+    "id": "w0"
+  },
+  {
+    "text": "tuzaklara",
+    "start": 0.47,
+    "end": 1.32,
+    "id": "w1"
+  },
+  {
+    "text": "bakalım.",
+    "start": 1.32,
+    "end": 2.26,
+    "id": "w2"
+  },
+  {
+    "text": "Her",
+    "start": 2.3,
+    "end": 2.52,
+    "id": "w3"
+  },
+  {
+    "text": "yanlışlık",
+    "start": 2.52,
+    "end": 3.29,
+    "id": "w4"
+  },
+  {
+    "text": "bir",
+    "start": 3.47,
+    "end": 3.56,
+    "id": "w5"
+  },
+  {
+    "text": "hatanın",
+    "start": 3.56,
+    "end": 4.16,
+    "id": "w6"
+  },
+  {
+    "text": "sonucu.",
+    "start": 4.16,
+    "end": 4.8,
+    "id": "w7"
+  },
+  {
+    "text": "Cezayı",
+    "start": 4.93,
+    "end": 5.34,
+    "id": "w8"
+  },
+  {
+    "text": "unutup",
+    "start": 5.34,
+    "end": 5.85,
+    "id": "w9"
+  },
+  {
+    "text": "sadece",
+    "start": 5.96,
+    "end": 6.41,
+    "id": "w10"
+  },
+  {
+    "text": "vergiyi",
+    "start": 6.41,
+    "end": 7.05,
+    "id": "w11"
+  },
+  {
+    "text": "yazan",
+    "start": 7.1,
+    "end": 7.54,
+    "id": "w12"
+  },
+  {
+    "text": "A",
+    "start": 7.54,
+    "end": 7.63,
+    "id": "w13"
+  },
+  {
+    "text": "şıkkına",
+    "start": 7.63,
+    "end": 8.28,
+    "id": "w14"
+  },
+  {
+    "text": "185",
+    "start": 8.28,
+    "end": 9.11,
+    "id": "w15"
+  },
+  {
+    "text": "bine",
+    "start": 9.16,
+    "end": 9.31,
+    "id": "w16"
+  },
+  {
+    "text": "düşer.",
+    "start": 9.78,
+    "end": 10.04,
+    "id": "w17"
+  },
+  {
+    "text": "KDV",
+    "start": 10.12,
+    "end": 10.28,
+    "id": "w18"
+  },
+  {
+    "text": "matrahına",
+    "start": 10.28,
+    "end": 11.05,
+    "id": "w19"
+  },
+  {
+    "text": "gümrük",
+    "start": 11.05,
+    "end": 11.54,
+    "id": "w20"
+  },
+  {
+    "text": "vergisini",
+    "start": 11.54,
+    "end": 12.33,
+    "id": "w21"
+  },
+  {
+    "text": "eklemeyen",
+    "start": 12.34,
+    "end": 13.13,
+    "id": "w22"
+  },
+  {
+    "text": "B",
+    "start": 13.21,
+    "end": 13.29,
+    "id": "w23"
+  },
+  {
+    "text": "şıkkına",
+    "start": 13.29,
+    "end": 14,
+    "id": "w24"
+  },
+  {
+    "text": "568",
+    "start": 14,
+    "end": 14.9,
+    "id": "w25"
+  },
+  {
+    "text": "750'ye",
+    "start": 15.08,
+    "end": 16.1,
+    "id": "w26"
+  },
+  {
+    "text": "ulaşır.",
+    "start": 16.1,
+    "end": 16.72,
+    "id": "w27"
+  },
+  {
+    "text": "Zaman",
+    "start": 16.79,
+    "end": 17.08,
+    "id": "w28"
+  },
+  {
+    "text": "aşımını",
+    "start": 17.08,
+    "end": 17.58,
+    "id": "w29"
+  },
+  {
+    "text": "unutup",
+    "start": 17.58,
+    "end": 18.01,
+    "id": "w30"
+  },
+  {
+    "text": "2021'i",
+    "start": 18.01,
+    "end": 19.03,
+    "id": "w31"
+  },
+  {
+    "text": "de",
+    "start": 19.04,
+    "end": 19.17,
+    "id": "w32"
+  },
+  {
+    "text": "katan",
+    "start": 19.17,
+    "end": 19.6,
+    "id": "w33"
+  },
+  {
+    "text": "D",
+    "start": 19.6,
+    "end": 19.71,
+    "id": "w34"
+  },
+  {
+    "text": "şıkkına",
+    "start": 19.71,
+    "end": 20.49,
+    "id": "w35"
+  },
+  {
+    "text": "662",
+    "start": 20.49,
+    "end": 21.24,
+    "id": "w36"
+  },
+  {
+    "text": "818'e",
+    "start": 21.76,
+    "end": 22.74,
+    "id": "w37"
+  },
+  {
+    "text": "gider.",
+    "start": 22.77,
+    "end": 23.4,
+    "id": "w38"
+  },
+  {
+    "text": "Peşin",
+    "start": 23.52,
+    "end": 23.8,
+    "id": "w39"
+  },
+  {
+    "text": "ödeme",
+    "start": 23.8,
+    "end": 24.14,
+    "id": "w40"
+  },
+  {
+    "text": "indirimini",
+    "start": 24.23,
+    "end": 25,
+    "id": "w41"
+  },
+  {
+    "text": "unutan",
+    "start": 25,
+    "end": 25.45,
+    "id": "w42"
+  },
+  {
+    "text": "ise",
+    "start": 25.67,
+    "end": 25.74,
+    "id": "w43"
+  },
+  {
+    "text": "E",
+    "start": 25.74,
+    "end": 25.82,
+    "id": "w44"
+  },
+  {
+    "text": "şıkkına",
+    "start": 25.82,
+    "end": 26.37,
+    "id": "w45"
+  },
+  {
+    "text": "740",
+    "start": 26.37,
+    "end": 27.08,
+    "id": "w46"
+  },
+  {
+    "text": "bine",
+    "start": 27.14,
+    "end": 27.42,
+    "id": "w47"
+  },
+  {
+    "text": "düşer.",
+    "start": 27.43,
+    "end": 27.96,
+    "id": "w48"
+  }
+]

@@ -1,0 +1,10 @@
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":19.6824375}
+{"type":"words","model":"small","words":[{"text":"Şıklarımız","start":0,"end":0.737},{"text":"şöyle.","start":0.737,"end":1.18}],"through":1.18}
+{"type":"words","model":"small","words":[{"text":"A","start":1.18,"end":1.341},{"text":"şıkkı,","start":1.341,"end":2.309},{"text":"185.000.","start":2.309,"end":3.6}],"through":3.6}
+{"type":"words","model":"small","words":[{"text":"B","start":3.6,"end":3.829},{"text":"şıkkı,","start":3.829,"end":5.205},{"text":"568.750.","start":5.205,"end":7.04}],"through":7.04}
+{"type":"words","model":"small","words":[{"text":"C","start":7.04,"end":7.249},{"text":"şıkkı,","start":7.249,"end":8.505},{"text":"601.250.","start":8.505,"end":10.18}],"through":10.18}
+{"type":"words","model":"small","words":[{"text":"D","start":10.18,"end":10.423},{"text":"şıkkı,","start":10.423,"end":11.879},{"text":"662.818.","start":11.879,"end":13.82}],"through":13.82}
+{"type":"words","model":"small","words":[{"text":"E","start":13.82,"end":13.979},{"text":"şıkkı,","start":13.979,"end":14.931},{"text":"740.000.","start":14.931,"end":16.2}],"through":16.2}
+{"type":"words","model":"small","words":[{"text":"Videoyu","start":16.92,"end":17.48},{"text":"durdurun","start":17.48,"end":18.12},{"text":"ve","start":18.12,"end":18.28},{"text":"önce","start":18.28,"end":18.6},{"text":"kendiniz","start":18.6,"end":19.24},{"text":"çözün.","start":19.24,"end":19.72}],"through":19.72}
+{"type":"progress","phase":"transcription","model":"small","status":"completed"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":23,"durationSeconds":19.72,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/hesaplama-soru-03/narration/transcript.json"}

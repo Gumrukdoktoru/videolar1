@@ -1,0 +1,463 @@
+1
+00:00:01,680 --> 00:00:04,540
+Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama
+
+2
+00:00:04,540 --> 00:00:07,000
+derslerinin üçüncüsüne hoş geldiniz.
+
+3
+00:00:07,000 --> 00:00:10,000
+Bugün sonradan kontrolün en sevilen konusu:
+
+4
+00:00:10,000 --> 00:00:12,200
+beyan edilmemiş lisans ücretleri.
+
+5
+00:00:12,200 --> 00:00:15,480
+Zamanaşımı, 3 kat ceza ve peşin ödeme indirimi
+
+6
+00:00:15,480 --> 00:00:16,200
+bir arada.
+
+7
+00:00:16,200 --> 00:00:18,370
+Kâğıt kalem hazırsa, başlayalım.
+
+8
+00:00:19,228 --> 00:00:20,758
+Önce soruyu okuyalım.
+
+9
+00:00:20,758 --> 00:00:24,668
+2024 yılının haziran ayında yapılan sonradan kontrolde,
+
+10
+00:00:24,668 --> 00:00:27,528
+M firmasının yurt dışındaki satıcıya ödediği lisans
+
+11
+00:00:27,528 --> 00:00:29,908
+ücretlerini beyan etmediği anlaşılıyor.
+
+12
+00:00:29,908 --> 00:00:32,978
+Bu ücretler ithal eşyasıyla ilgili ve satış koşulu
+
+13
+00:00:32,978 --> 00:00:34,148
+olarak ödeniyor.
+
+14
+00:00:34,148 --> 00:00:37,338
+Ödemeler ve ithalatlar her yıl mart ayında yapılmış.
+
+15
+00:00:37,338 --> 00:00:39,738
+2021 yılında 8.000 dolar,
+
+16
+00:00:39,738 --> 00:00:41,018
+kur 8 lira.
+
+17
+00:00:41,018 --> 00:00:43,628
+2022 yılında 15.000 dolar,
+
+18
+00:00:43,628 --> 00:00:44,978
+kur 15 lira.
+
+19
+00:00:44,978 --> 00:00:47,418
+2023 yılında 20.000 dolar,
+
+20
+00:00:47,418 --> 00:00:48,628
+kur 20 lira.
+
+21
+00:00:48,628 --> 00:00:52,218
+Gümrük vergisi %8, KDV %20.
+
+22
+00:00:52,218 --> 00:00:55,558
+Firma, ceza kararının tebliğinden itibaren 15 gün
+
+23
+00:00:55,558 --> 00:00:58,468
+içinde vergi ve cezaları peşin ödemek istiyor.
+
+24
+00:00:58,468 --> 00:00:59,188
+Soru:
+
+25
+00:00:59,188 --> 00:01:01,398
+Ödenecek toplam tutar kaç lira?
+
+26
+00:01:02,367 --> 00:01:03,547
+Şıklarımız şöyle.
+
+27
+00:01:03,547 --> 00:01:05,967
+A şıkkı, 185.000.
+
+28
+00:01:05,967 --> 00:01:09,407
+B şıkkı, 568.750.
+
+29
+00:01:09,407 --> 00:01:12,547
+C şıkkı, 601.250.
+
+30
+00:01:12,547 --> 00:01:15,877
+D şıkkı, 662.818.
+
+31
+00:01:15,877 --> 00:01:18,497
+E şıkkı, 740.000.
+
+32
+00:01:18,497 --> 00:01:22,257
+Videoyu durdurun ve önce kendiniz çözün.
+
+33
+00:01:28,339 --> 00:01:30,179
+Hazırsanız başlayalım.
+
+34
+00:01:30,179 --> 00:01:32,179
+Bu sorunun üç anahtarı var.
+
+35
+00:01:32,179 --> 00:01:32,709
+Bir:
+
+36
+00:01:32,709 --> 00:01:35,909
+Eşyayla ilgili ve satış koşulu olarak ödenen lisans
+
+37
+00:01:35,909 --> 00:01:38,379
+ücreti, gümrük kıymetine eklenir.
+
+38
+00:01:38,379 --> 00:01:38,889
+İki:
+
+39
+00:01:38,889 --> 00:01:39,999
+Zamanaşımı.
+
+40
+00:01:39,999 --> 00:01:42,949
+Eksik alınan vergiler, yükümlülüğün doğduğu tarihten
+
+41
+00:01:42,949 --> 00:01:45,819
+itibaren 3 yıl içinde tebliğ edilmelidir.
+
+42
+00:01:45,819 --> 00:01:46,149
+Üç:
+
+43
+00:01:46,149 --> 00:01:49,679
+Ceza kararı tebliğden itibaren 15 gün içinde peşin
+
+44
+00:01:49,679 --> 00:01:52,920
+ödenirse, cezanın dörtte üçü tahsil edilir.
+
+45
+00:01:53,770 --> 00:01:54,860
+Birinci adım:
+
+46
+00:01:54,860 --> 00:01:55,890
+zamanaşımı.
+
+47
+00:01:55,890 --> 00:01:58,950
+Kontrol, 2024 haziranında yapılıyor.
+
+48
+00:01:58,950 --> 00:02:02,470
+2021 mart ayındaki ithalatın 3 yıllık süresi,
+
+49
+00:02:02,470 --> 00:02:04,570
+2024 martında doldu.
+
+50
+00:02:04,570 --> 00:02:07,650
+Bu yılın vergisi ve cezası artık istenemez.
+
+51
+00:02:07,650 --> 00:02:11,239
+2022 ve 2023 ise süre içinde.
+
+52
+00:02:13,869 --> 00:02:14,879
+İkinci adım:
+
+53
+00:02:14,879 --> 00:02:17,339
+beyan edilmeyen kıymet ve vergiler.
+
+54
+00:02:17,339 --> 00:02:21,079
+15.000 dolar × 15, 225.000 lira.
+
+55
+00:02:21,079 --> 00:02:24,239
+20.000 dolar × 20, 400.000 lira.
+
+56
+00:02:24,239 --> 00:02:26,629
+Toplam, 625.000 lira.
+
+57
+00:02:26,629 --> 00:02:28,642
+Gümrük vergisi %8:
+
+58
+00:02:28,642 --> 00:02:29,559
+50.000 lira.
+
+59
+00:02:29,559 --> 00:02:30,899
+Burada dikkat!
+
+60
+00:02:30,899 --> 00:02:33,639
+KDV matrahına gümrük vergisi de eklenir:
+
+61
+00:02:33,639 --> 00:02:35,159
+675.000.
+
+62
+00:02:35,159 --> 00:02:37,829
+Bunun %20'si, 135.000 lira.
+
+63
+00:02:37,829 --> 00:02:39,109
+Eksik vergi toplamı:
+
+64
+00:02:39,109 --> 00:02:40,867
+185.000 lira.
+
+65
+00:02:41,677 --> 00:02:42,947
+Üçüncü adım:
+
+66
+00:02:42,947 --> 00:02:43,677
+ceza.
+
+67
+00:02:43,677 --> 00:02:46,857
+Gümrük Kanunu'nun 234'üncü maddesine göre,
+
+68
+00:02:46,857 --> 00:02:49,767
+kıymet noksanlığında vergi farkının 3 katı ceza
+
+69
+00:02:49,767 --> 00:02:50,687
+uygulanır.
+
+70
+00:02:50,687 --> 00:02:52,717
+185.000 × 3:
+
+71
+00:02:52,717 --> 00:02:54,347
+555.000 lira.
+
+72
+00:02:54,347 --> 00:02:56,377
+Firma 15 gün içinde peşin öderse,
+
+73
+00:02:56,377 --> 00:02:58,607
+cezanın dörtte üçü tahsil edilir:
+
+74
+00:02:58,607 --> 00:03:00,577
+416.250 lira.
+
+75
+00:03:01,688 --> 00:03:02,538
+Ve sonuç:
+
+76
+00:03:02,648 --> 00:03:07,658
+185.000 lira vergi, artı 416.250 lira ceza.
+
+77
+00:03:07,658 --> 00:03:11,398
+Ödenecek toplam tutar, 601.250 lira.
+
+78
+00:03:11,398 --> 00:03:12,388
+Doğru cevap:
+
+79
+00:03:12,388 --> 00:03:13,509
+C şıkkı!
+
+80
+00:03:14,439 --> 00:03:16,559
+Şimdi tuzaklara bakalım;
+
+81
+00:03:16,559 --> 00:03:19,189
+her yanlış şık, bir hatanın sonucu.
+
+82
+00:03:19,189 --> 00:03:21,799
+Cezayı unutup sadece vergiyi yazan,
+
+83
+00:03:21,799 --> 00:03:24,379
+A şıkkına, 185.000'e düşer.
+
+84
+00:03:24,379 --> 00:03:27,469
+KDV matrahına gümrük vergisini eklemeyen,
+
+85
+00:03:27,469 --> 00:03:31,049
+B şıkkına, 568.750'ye ulaşır.
+
+86
+00:03:31,049 --> 00:03:33,859
+Zamanaşımını unutup 2021'i de katan,
+
+87
+00:03:33,859 --> 00:03:37,779
+D şıkkına, 662.818'e gider.
+
+88
+00:03:37,779 --> 00:03:40,629
+Peşin ödeme indirimini unutan ise E şıkkına,
+
+89
+00:03:40,629 --> 00:03:42,382
+740.000'e düşer.
+
+90
+00:03:43,212 --> 00:03:44,452
+Bir uyarı daha:
+
+91
+00:03:44,612 --> 00:03:46,872
+Her lisans ücreti kıymete girmez.
+
+92
+00:03:47,002 --> 00:03:49,272
+Gümrük Kanunu'na göre lisans ücreti,
+
+93
+00:03:49,272 --> 00:03:52,262
+ancak ithal eşyasıyla ilgiliyse ve satış koşulu
+
+94
+00:03:52,262 --> 00:03:55,112
+olarak ödeniyorsa gümrük kıymetine eklenir.
+
+95
+00:03:55,112 --> 00:03:55,432
+Bir de:
+
+96
+00:03:55,432 --> 00:03:58,792
+peşin ödeme indirimi yalnızca cezaya uygulanır;
+
+97
+00:03:58,972 --> 00:04:00,544
+vergiye indirim yoktur.
+
+98
+00:04:01,424 --> 00:04:02,494
+Koçun notu:
+
+99
+00:04:02,494 --> 00:04:05,554
+Zamanaşımı, gümrük yükümlülüğünün doğduğu tarihten
+
+100
+00:04:05,554 --> 00:04:06,244
+başlar;
+
+101
+00:04:06,244 --> 00:04:08,544
+yani beyannamenin tescil tarihinden.
+
+102
+00:04:08,544 --> 00:04:11,024
+Ödeme ya da kontrol tarihinden değil.
+
+103
+00:04:11,024 --> 00:04:14,324
+Bir de, peşin ödeme itiraz hakkını ortadan kaldırmaz.
+
+104
+00:04:14,324 --> 00:04:15,794
+Formülü aklınızda tutun:
+
+105
+00:04:15,794 --> 00:04:18,214
+Süreyi kontrol et, kıymete ekle,
+
+106
+00:04:18,214 --> 00:04:20,604
+vergiyi hesapla, cezayı üçle,
+
+107
+00:04:20,604 --> 00:04:22,050
+dörtte üçünü öde.
+
+108
+00:04:22,840 --> 00:04:23,930
+Özetle:
+
+109
+00:04:23,930 --> 00:04:27,000
+Zamanaşımı yüzünden yalnızca 2 yıl hesaba girer;
+
+110
+00:04:27,000 --> 00:04:32,340
+eksik vergi 185.000, indirimli ceza 416.250.
+
+111
+00:04:32,340 --> 00:04:33,550
+Toplam, C şıkkı:
+
+112
+00:04:33,550 --> 00:04:36,480
+601.250 lira.
+
+113
+00:04:36,480 --> 00:04:39,420
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+114
+00:04:39,420 --> 00:04:40,240
+unutmayın.
+
+115
+00:04:40,240 --> 00:04:42,680
+Bir sonraki hesaplama dersinde görüşmek üzere,
+
+116
+00:04:42,680 --> 00:04:43,690
+hoşça kalın!
