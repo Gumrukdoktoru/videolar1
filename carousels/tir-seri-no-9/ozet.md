@@ -1,0 +1,18 @@
+# TIR İşlemleri Seri No: 9 — carousel özeti
+
+**Künye:** Gümrük Genel Tebliği (TIR İşlemleri) (Seri No: 1)'nde Değişiklik Yapılmasına Dair Tebliğ (TIR İşlemleri) (Seri No: 9)
+· Ticaret Bakanlığı · Resmî Gazete **4 Temmuz 2026, Sayı 33300** · değiştirilen tebliğ: 31/12/2010 tarihli, 27802 (5. mükerrer) sayılı RG.
+
+1. **Kapak** — Seri No: 1'de altı başlıkta değişiklik. Akılda kalan sayılar: taşıt onay belgesi **2 → 3 yıl** · hareket + varış idaresi **toplam ≤ 8** · art arda iki karneyle **15 idare** · süre aşımında fiziki kontrol **risk bazlı**.
+2. **Değişiklik haritası** — Md. 1 ve 3: taşıt onay belgesi süresi · Md. 2: süre aşımı ve fiziki kontrol · Md. 4: idare sayısı ve 8'den fazla idare için iki yöntem · Md. 5: kurum adları · Md. 6: EK-3, EK-4, EK-10 · Md. 7–8: yürürlük ve yürütme.
+3. **Taşıt onay belgesi (md. 3/1-u, 15/3)** — Geçerlilik süresi **iki yıldan üç yıla** çıktı. Belge; Gümrük ve Dış Ticaret Bölge Müdürlüklerince yetkilendirilen gümrük idarelerinde, ETOBS üzerinden kurulan 3 kişilik komisyonca, taşıtın TIR Sözleşmesi ek-2 teknik şartlarını taşıdığı tespit edilince, ek-4 örneğine uygun düzenlenir (Tebliğ EK-3). Değişmeyen: belge en fazla 3 defa yenilenebilir (md. 16/4).
+4. **Süre aşımı ve fiziki kontrol (md. 8/4)** — Transit (güzergâh kat etme) süresi Nisan–Eylül azami 120, Ekim–Mart azami 168 saat. Süreyi aşan taşıta GK md. 241 uyarınca para cezası uygulanmaya devam eder. **Yeni:** fiziki kontrol artık otomatik değil; "diğer risk unsurları da dikkate alınarak gerekli görülmesi halinde" yapılır.
+5. **İdare sayısı (md. 20/1)** — Bir TIR taşımasında hareket ve varış gümrük idarelerinin **toplamı 8'i geçemez**. Gümrük idareleri hareket (veya varış) idarelerinin azami sayısını **üçten az olmamak üzere yediden az** sınırlandırabilir. Karne, varış idaresine ancak hareket idaresi/idareleri kabul ettiyse sunulur.
+6. **8'den fazla idare — Yöntem A: art arda iki karne (md. 20/3-a)** — 1. karne en çok 8 idarede işlem görür; 8. idarede sonlandırılır, kalan taşıma için yeni karne açılır. 1. karnenin tüm yapraklarında 2 no.lu kutunun altındaki "resmi kullanım için" bölümüne yeni karnenin numarası, TIR/Transit Takip Programı Volet-1 ekranındaki "referans karne no" alanına 1. karnenin numarası yazılır. 1. karnenin son varış idaresi = 2. karnenin hareket idaresi; 2. karne en fazla 7 varış idaresinde işlem görür → **toplam 15 idare**. Her iki taşıma da TIR Sözleşmesi md. 2 gereği **en az bir sınır** geçmelidir.
+7. **Yöntem B: aynı anda birden fazla TIR taşıması (md. 20/3-b)** — Taşıt dizisi veya birden fazla konteynerde, TIR Sözleşmesi md. 17/1 uyarınca her taşıt/konteyner için **ayrı karne** düzenlenebilir; her karnede (2 no.lu kutu altı + Volet-1 "referans karne no") diğer karnelerin numaraları yazılır. Değişmeyen: eşya, boşaltma-yeniden yükleme gerektirmeyecek şekilde ayrılabilir yüklenir; bir karne için yapılan işlemler diğerleri için de yapılır (md. 20/4-5).
+8. **Kurum adları (md. 5)** — "Gümrük ve Ticaret Bölge Müdürlükleri" → **"Gümrük ve Dış Ticaret Bölge Müdürlükleri"** (md. 3/1-u, 15/1, 18/6-b, 45/1) · "Ulaştırma, Denizcilik ve Haberleşme Bakanlığı" → **"Ulaştırma ve Altyapı Bakanlığı"** (md. 3/1-r ve hh, 4/2, 8/2, 10/1, 63/1, 65/2).
+9. **Ekler, yürürlük, yürütme (md. 6–8)** — EK-3 (taşıt onay belgesi), EK-4 (TIR karnesi) ve EK-10 (normal karneyle taşınamayan içki-sigara listesi) yenilendi. Yürürlük: **yayımı tarihinde (4 Temmuz 2026)**. Yürütme: **Ticaret Bakanı**.
+10. **Tek sayfa özet (clean sheet)** — Madde / yer / ne değişti tablosu.
+11. **Kendini test et + kaydet/paylaş** — 5 doğru-yanlış sorusu ve cevapları.
+
+Kaynak: Resmî Gazete 4.7.2026 / 33300 ve Seri No: 1'in güncel metni.
