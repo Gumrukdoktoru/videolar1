@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s09 { position: absolute; inset: 0; overflow: hidden; }
+        #s09 .stage { position: absolute; inset: 0; }
+
+#s09 .top { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:24px; }
+#s09 .top .kicker { font-size:26px; color:#FFD400; }
+#s09 .tc { position:absolute; top:270px; width:490px; height:610px; padding:24px 26px; }
+#s09 .t1 { left:600px; } #s09 .t2 { left:1110px; }
+#s09 .tc .th { display:flex; align-items:center; gap:16px; }
+#s09 .tc .th .L { width:64px; height:64px; border-radius:50%; background:var(--uyari); color:#fff; display:flex; align-items:center; justify-content:center;
+  font-family:'Archivo Black'; font-size:34px; flex:none; }
+#s09 .tc .th b { font:700 46px 'JetBrains Mono'; color:#FFB3BB; }
+#s09 .tc .why { margin-top:14px; font:800 26px/1.25 Montserrat; color:var(--fg); padding:12px 16px; background:rgba(255,77,94,.12); border-left:6px solid var(--uyari); border-radius:8px; }
+#s09 .tc .ln { display:flex; justify-content:space-between; align-items:baseline; margin-top:16px; font:700 25px Montserrat; color:var(--muted); }
+#s09 .tc .ln b { font:700 30px 'JetBrains Mono'; color:var(--fg); }
+#s09 .tc .ln.bad b { color:#FF8A96; }
+#s09 .tc .ln.miss b { color:var(--gold); }
+#s09 .tc .ln s { text-decoration-thickness:4px; text-decoration-color:var(--uyari); }
+#s09 .tc .sum { margin-top:18px; padding-top:14px; border-top:3px solid #3B5296; display:flex; justify-content:space-between; align-items:center; font:900 28px Montserrat; color:#FF8A96; }
+#s09 .tc .sum b { font:700 40px 'JetBrains Mono'; }
+#s09 .tc .fix { margin-top:16px; display:flex; align-items:center; gap:10px; font:800 23px/1.25 Montserrat; color:#BFF5D8; padding:10px 14px; border-radius:12px; background:rgba(46,212,122,.12); border:2px solid rgba(46,212,122,.55); }
+#s09 .tc .fix .ico { color:var(--ok); }
+#s09 .tc .x { position:absolute; right:-18px; top:-18px; width:66px; height:66px; border-radius:50%; background:var(--uyari); color:#2a0a0e;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 8px 20px rgba(0,0,0,.4); }
+#s09 .baba { position:absolute; left:1612px; top:368px; height:520px; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s09 .bub { position:absolute; left:1614px; top:196px; width:256px; padding:16px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 25px/1.2 Montserrat; }
+#s09 .bub:after { content:""; position:absolute; right:96px; bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s09 .bub em { font-style:normal; color:#B4231B; }
+
+      </style>
+      <div id="s09" data-composition-id="s09" data-width="1920" data-height="1080" data-duration="22.891">
+        <div class="stage">
+
+<div class="top"><div class="badge b-tuzak badge-big"><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><path d="M3 17h18M5 17l2-8 3 5 2-7 2 7 3-5 2 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="12" cy="20.5" r="1.6" fill="currentColor"/></svg></span><span class="bt">TUZAK</span></div><div class="kicker">ÇELDİRİCİLER NASIL KURULMUŞ?</div></div>
+<div class="tc t1 card"><div class="x"><svg class="ico " viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></div>
+  <div class="th"><span class="L">B</span><b>181,98</b></div>
+  <div class="why">Gümrük vergisini unuttu, sadece KDV'yi yazdı</div>
+  <div class="ln miss"><span>Gümrük vergisi</span><b><s>1,00</s> → ?</b></div>
+  <div class="ln"><span>KDV</span><b>181,98</b></div>
+  <div class="sum"><span>Toplam</span><b>181,98</b></div>
+  <div class="fix"><svg class="ico " viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Doğrusu: 1,00 + 181,98 = 182,98</span></div>
+</div>
+<div class="tc t2 card"><div class="x"><svg class="ico " viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></div>
+  <div class="th"><span class="L">E</span><b>282,80</b></div>
+  <div class="why w1">Yazılımı gümrük kıymetine kattı</div>
+  <div class="ln bad l1"><span>GV: 1.010 × %10</span><b>101,00</b></div>
+  <div class="why w2">GV'yi KDV matrahına eklemedi</div>
+  <div class="ln bad l2"><span>KDV: 1.010 × %18</span><b>181,80</b></div>
+  <div class="sum"><span>Toplam</span><b>282,80</b></div>
+  <div class="fix"><svg class="ico " viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Doğrusu: GV 10'dan, KDV 1.011'den</span></div>
+</div>
+<img class="baba" src="assets/img/baba-crop.png" alt="Gümrükçü Baba" />
+<div class="bub">Matrahı karıştıran <em>şıkka düşer!</em></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s09";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 22.891;
+const K = {"tz": 0.92, "gv": 2.9, "kdvy": 5.04, "B": 6.29, "yaz": 9.87, "binon": 12.8, "yuzbir": 14.33, "birde": 7.61, "ekle": 17.55, "E": 18.91};
+
+
+tl.fromTo(q(".top .badge"), { scale: 2.6, opacity: 0, rotation: -10 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, K.tz);
+tl.fromTo(q(".top .badge"), { x: -8 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, K.tz + 0.42);
+rise(".top .kicker", K.tz + 0.5, 0, 20);
+tl.fromTo(q(".t1"), { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.gv);
+fadeTo(".t1 .why, .t1 .ln, .t1 .sum, .t1 .x, .t1 .fix", 0.01, 0, 0.01);
+fadeIn(".t1 .why", K.gv + 0.4, 0.3);
+fadeIn(".t1 .ln.miss", K.gv + 0.9, 0.3);
+fadeIn(".t1 .ln:not(.miss)", K.kdvy, 0.3);
+fadeIn(".t1 .sum", K.B, 0.3);
+pop(".t1 .x", K.B, 0, "back.out(3)");
+rise(".t1 .fix", K.B + 1.2, 0, 20);
+tl.fromTo(q(".t2"), { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.yaz);
+fadeTo(".t2 .why, .t2 .ln, .t2 .sum, .t2 .x, .t2 .fix", 0.01, 0, 0.01);
+fadeIn(".t2 .w1", K.yaz + 0.4, 0.3);
+fadeIn(".t2 .l1", K.binon, 0.3);
+pulse(".t2 .l1 b", K.yuzbir, 1.15);
+fadeIn(".t2 .w2", K.birde, 0.3);
+fadeIn(".t2 .l2", K.ekle, 0.3);
+fadeIn(".t2 .sum", K.E, 0.3);
+pop(".t2 .x", K.E, 0, "back.out(3)");
+rise(".t2 .fix", K.E + 1.4, 0, 20);
+tl.fromTo(q(".baba"), { x: 260, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7, ease: "back.out(1.4)" }, K.tz + 0.8);
+tl.fromTo(q(".baba"), { rotation: 0, transformOrigin: "50% 100%" }, { rotation: -2.5, duration: 0.25, yoyo: true, repeat: 3, ease: "sine.inOut", immediateRender: false }, K.E + 0.6);
+tl.fromTo(q(".bub"), { scale: 0.3, opacity: 0, transformOrigin: "60% 100%" }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(2.2)" }, K.E + 0.6);
+
+exitAll(22.47);
+window.__timelines["s09"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

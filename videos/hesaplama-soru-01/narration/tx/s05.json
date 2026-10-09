@@ -1,0 +1,116 @@
+[
+  {
+    "text": "Birinci",
+    "start": 0.11,
+    "end": 0.61,
+    "id": "w0"
+  },
+  {
+    "text": "adım.",
+    "start": 0.61,
+    "end": 1.18,
+    "id": "w1"
+  },
+  {
+    "text": "Gümrük",
+    "start": 1.18,
+    "end": 1.54,
+    "id": "w2"
+  },
+  {
+    "text": "vergisi.",
+    "start": 1.54,
+    "end": 2.36,
+    "id": "w3"
+  },
+  {
+    "text": "Gümrük",
+    "start": 2.43,
+    "end": 2.78,
+    "id": "w4"
+  },
+  {
+    "text": "vergisi",
+    "start": 2.78,
+    "end": 3.28,
+    "id": "w5"
+  },
+  {
+    "text": "matrı",
+    "start": 3.45,
+    "end": 3.63,
+    "id": "w6"
+  },
+  {
+    "text": "sadece",
+    "start": 3.63,
+    "end": 4,
+    "id": "w7"
+  },
+  {
+    "text": "10",
+    "start": 4,
+    "end": 4.29,
+    "id": "w8"
+  },
+  {
+    "text": "dolar.",
+    "start": 4.29,
+    "end": 5.1,
+    "id": "w9"
+  },
+  {
+    "text": "10",
+    "start": 5.23,
+    "end": 5.56,
+    "id": "w10"
+  },
+  {
+    "text": "doların",
+    "start": 5.56,
+    "end": 5.81,
+    "id": "w11"
+  },
+  {
+    "text": "%10'u",
+    "start": 6.13,
+    "end": 6.71,
+    "id": "w12"
+  },
+  {
+    "text": "1",
+    "start": 6.71,
+    "end": 6.85,
+    "id": "w13"
+  },
+  {
+    "text": "dolar.",
+    "start": 6.85,
+    "end": 7.56,
+    "id": "w14"
+  },
+  {
+    "text": "Gümrük",
+    "start": 7.65,
+    "end": 8.09,
+    "id": "w15"
+  },
+  {
+    "text": "vergimiz",
+    "start": 8.15,
+    "end": 8.88,
+    "id": "w16"
+  },
+  {
+    "text": "1",
+    "start": 8.88,
+    "end": 9.15,
+    "id": "w17"
+  },
+  {
+    "text": "dolar.",
+    "start": 9.15,
+    "end": 9.76,
+    "id": "w18"
+  }
+]

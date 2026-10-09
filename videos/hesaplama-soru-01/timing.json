@@ -1,0 +1,2443 @@
+{
+ "total": 235.526,
+ "scenes": [
+  {
+   "id": "s01",
+   "title": "Giriş",
+   "start": 0.0,
+   "dur": 16.909,
+   "audio": "narration/s01.mp3",
+   "audio_at": 1.6,
+   "audio_local": 1.6,
+   "audio_dur": 14.759,
+   "words": [
+    {
+     "w": "Merhaba",
+     "t": 1.63
+    },
+    {
+     "w": "arkadaşlar,",
+     "t": 2.0
+    },
+    {
+     "w": "Gümrük",
+     "t": 2.85
+    },
+    {
+     "w": "Koçu'yla",
+     "t": 3.15
+    },
+    {
+     "w": "çıkmış",
+     "t": 3.7
+    },
+    {
+     "w": "sorular",
+     "t": 4.08
+    },
+    {
+     "w": "serisine",
+     "t": 4.52
+    },
+    {
+     "w": "hoş",
+     "t": 5.03
+    },
+    {
+     "w": "geldiniz.",
+     "t": 5.22
+    },
+    {
+     "w": "Bugün",
+     "t": 5.99
+    },
+    {
+     "w": "geçmiş",
+     "t": 6.29
+    },
+    {
+     "w": "yılların",
+     "t": 6.68
+    },
+    {
+     "w": "vergi",
+     "t": 7.28
+    },
+    {
+     "w": "hesaplama",
+     "t": 7.52
+    },
+    {
+     "w": "sorularından",
+     "t": 8.1
+    },
+    {
+     "w": "ilkini",
+     "t": 8.96
+    },
+    {
+     "w": "çözüyoruz.",
+     "t": 9.35
+    },
+    {
+     "w": "Konumuz:",
+     "t": 10.23
+    },
+    {
+     "w": "CD",
+     "t": 10.99
+    },
+    {
+     "w": "içinde",
+     "t": 11.52
+    },
+    {
+     "w": "gelen",
+     "t": 11.75
+    },
+    {
+     "w": "bir",
+     "t": 12.22
+    },
+    {
+     "w": "yazılım.",
+     "t": 12.5
+    },
+    {
+     "w": "Kâğıdınızı,",
+     "t": 13.23
+    },
+    {
+     "w": "kaleminizi",
+     "t": 13.76
+    },
+    {
+     "w": "hazırlayın;",
+     "t": 14.52
+    },
+    {
+     "w": "birlikte",
+     "t": 15.12
+    },
+    {
+     "w": "hesaplayalım.",
+     "t": 15.68
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": "Soru",
+   "start": 16.909,
+   "dur": 29.604,
+   "audio": "narration/s02.mp3",
+   "audio_at": 17.359,
+   "audio_local": 0.45,
+   "audio_dur": 28.604,
+   "words": [
+    {
+     "w": "Önce",
+     "t": 0.5
+    },
+    {
+     "w": "soruyu",
+     "t": 0.74
+    },
+    {
+     "w": "okuyalım.",
+     "t": 1.2
+    },
+    {
+     "w": "İthalatçı",
+     "t": 2.06
+    },
+    {
+     "w": "A",
+     "t": 2.91
+    },
+    {
+     "w": "firması,",
+     "t": 2.92
+    },
+    {
+     "w": "yurt",
+     "t": 3.67
+    },
+    {
+     "w": "dışından,",
+     "t": 3.97
+    },
+    {
+     "w": "CD",
+     "t": 4.61
+    },
+    {
+     "w": "üzerine",
+     "t": 4.8
+    },
+    {
+     "w": "kaydedilmiş",
+     "t": 5.56
+    },
+    {
+     "w": "ve",
+     "t": 6.57
+    },
+    {
+     "w": "bilgisayarlarda",
+     "t": 6.76
+    },
+    {
+     "w": "kullanılacak",
+     "t": 7.61
+    },
+    {
+     "w": "bir",
+     "t": 8.29
+    },
+    {
+     "w": "yazılım",
+     "t": 8.51
+    },
+    {
+     "w": "ithal",
+     "t": 9.01
+    },
+    {
+     "w": "ediyor.",
+     "t": 9.37
+    },
+    {
+     "w": "Faturada",
+     "t": 9.92
+    },
+    {
+     "w": "iki",
+     "t": 10.55
+    },
+    {
+     "w": "kalem",
+     "t": 10.78
+    },
+    {
+     "w": "var:",
+     "t": 11.41
+    },
+    {
+     "w": "Taşıyıcı",
+     "t": 11.48
+    },
+    {
+     "w": "ortamın,",
+     "t": 12.2
+    },
+    {
+     "w": "yani",
+     "t": 13.06
+    },
+    {
+     "w": "CD'nin",
+     "t": 13.28
+    },
+    {
+     "w": "kıymeti",
+     "t": 13.86
+    },
+    {
+     "w": "on",
+     "t": 14.54
+    },
+    {
+     "w": "ABD",
+     "t": 15.13
+    },
+    {
+     "w": "Doları;",
+     "t": 15.42
+    },
+    {
+     "w": "yazılımın",
+     "t": 16.26
+    },
+    {
+     "w": "kıymeti",
+     "t": 16.91
+    },
+    {
+     "w": "ise",
+     "t": 17.29
+    },
+    {
+     "w": "bin",
+     "t": 17.48
+    },
+    {
+     "w": "ABD",
+     "t": 18.27
+    },
+    {
+     "w": "Doları.",
+     "t": 18.46
+    },
+    {
+     "w": "Gümrük",
+     "t": 19.16
+    },
+    {
+     "w": "vergisi",
+     "t": 19.59
+    },
+    {
+     "w": "oranı",
+     "t": 20.15
+    },
+    {
+     "w": "yüzde",
+     "t": 20.63
+    },
+    {
+     "w": "on,",
+     "t": 21.04
+    },
+    {
+     "w": "KDV",
+     "t": 21.45
+    },
+    {
+     "w": "oranı",
+     "t": 21.87
+    },
+    {
+     "w": "yüzde",
+     "t": 22.66
+    },
+    {
+     "w": "on",
+     "t": 22.977
+    },
+    {
+     "w": "sekiz.",
+     "t": 23.293
+    },
+    {
+     "w": "Bizden",
+     "t": 23.66
+    },
+    {
+     "w": "istenen:",
+     "t": 24.11
+    },
+    {
+     "w": "Ödenmesi",
+     "t": 24.72
+    },
+    {
+     "w": "gereken",
+     "t": 25.41
+    },
+    {
+     "w": "gümrük",
+     "t": 26.01
+    },
+    {
+     "w": "vergisi",
+     "t": 26.53
+    },
+    {
+     "w": "ve",
+     "t": 27.16
+    },
+    {
+     "w": "KDV",
+     "t": 27.28
+    },
+    {
+     "w": "toplamı,",
+     "t": 27.52
+    },
+    {
+     "w": "dolar",
+     "t": 28.12
+    },
+    {
+     "w": "olarak.",
+     "t": 28.55
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": "Şıklar",
+   "start": 46.513,
+   "dur": 28.326,
+   "audio": "narration/s03.mp3",
+   "audio_at": 46.963,
+   "audio_local": 0.45,
+   "audio_dur": 22.126,
+   "words": [
+    {
+     "w": "Şıklarımız",
+     "t": 0.51
+    },
+    {
+     "w": "şöyle.",
+     "t": 1.091
+    },
+    {
+     "w": "A",
+     "t": 1.98
+    },
+    {
+     "w": "şıkkı,",
+     "t": 2.061
+    },
+    {
+     "w": "yüz",
+     "t": 2.89
+    },
+    {
+     "w": "seksen",
+     "t": 3.085
+    },
+    {
+     "w": "iki",
+     "t": 3.475
+    },
+    {
+     "w": "virgül",
+     "t": 3.67
+    },
+    {
+     "w": "doksan",
+     "t": 4.06
+    },
+    {
+     "w": "sekiz.",
+     "t": 4.45
+    },
+    {
+     "w": "B",
+     "t": 5.25
+    },
+    {
+     "w": "şıkkı,",
+     "t": 5.349
+    },
+    {
+     "w": "yüz",
+     "t": 6.17
+    },
+    {
+     "w": "seksen",
+     "t": 6.369
+    },
+    {
+     "w": "bir",
+     "t": 6.767
+    },
+    {
+     "w": "virgül",
+     "t": 6.966
+    },
+    {
+     "w": "doksan",
+     "t": 7.364
+    },
+    {
+     "w": "sekiz.",
+     "t": 7.762
+    },
+    {
+     "w": "C",
+     "t": 8.62
+    },
+    {
+     "w": "şıkkı,",
+     "t": 8.724
+    },
+    {
+     "w": "yüz",
+     "t": 9.62
+    },
+    {
+     "w": "doksan",
+     "t": 9.823
+    },
+    {
+     "w": "sekiz",
+     "t": 10.23
+    },
+    {
+     "w": "virgül",
+     "t": 10.569
+    },
+    {
+     "w": "doksan",
+     "t": 10.976
+    },
+    {
+     "w": "sekiz.",
+     "t": 11.383
+    },
+    {
+     "w": "D",
+     "t": 12.25
+    },
+    {
+     "w": "şıkkı,",
+     "t": 12.35
+    },
+    {
+     "w": "iki",
+     "t": 13.26
+    },
+    {
+     "w": "yüz",
+     "t": 13.459
+    },
+    {
+     "w": "doksan",
+     "t": 13.658
+    },
+    {
+     "w": "dokuz",
+     "t": 14.055
+    },
+    {
+     "w": "virgül",
+     "t": 14.387
+    },
+    {
+     "w": "doksan",
+     "t": 14.785
+    },
+    {
+     "w": "sekiz.",
+     "t": 15.182
+    },
+    {
+     "w": "E",
+     "t": 16.07
+    },
+    {
+     "w": "şıkkı,",
+     "t": 16.161
+    },
+    {
+     "w": "iki",
+     "t": 16.99
+    },
+    {
+     "w": "yüz",
+     "t": 17.179
+    },
+    {
+     "w": "seksen",
+     "t": 17.367
+    },
+    {
+     "w": "iki",
+     "t": 17.744
+    },
+    {
+     "w": "virgül",
+     "t": 17.933
+    },
+    {
+     "w": "seksen.",
+     "t": 18.31
+    },
+    {
+     "w": "Videoyu",
+     "t": 19.96
+    },
+    {
+     "w": "durdurun",
+     "t": 20.424
+    },
+    {
+     "w": "ve",
+     "t": 20.954
+    },
+    {
+     "w": "önce",
+     "t": 21.087
+    },
+    {
+     "w": "kendiniz",
+     "t": 21.352
+    },
+    {
+     "w": "çözün.",
+     "t": 21.882
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": "Anahtar kural",
+   "start": 74.839,
+   "dur": 25.686,
+   "audio": "narration/s04.mp3",
+   "audio_at": 75.289,
+   "audio_local": 0.45,
+   "audio_dur": 24.686,
+   "words": [
+    {
+     "w": "Hazırsanız",
+     "t": 0.57
+    },
+    {
+     "w": "başlayalım.",
+     "t": 1.25
+    },
+    {
+     "w": "Bu",
+     "t": 2.47
+    },
+    {
+     "w": "sorunun",
+     "t": 2.53
+    },
+    {
+     "w": "anahtarı,",
+     "t": 3.15
+    },
+    {
+     "w": "Gümrük",
+     "t": 3.89
+    },
+    {
+     "w": "Yönetmeliğinin",
+     "t": 4.42
+    },
+    {
+     "w": "elli",
+     "t": 5.16
+    },
+    {
+     "w": "dördüncü",
+     "t": 5.385
+    },
+    {
+     "w": "maddesi.",
+     "t": 5.8
+    },
+    {
+     "w": "Bilgisayarda",
+     "t": 6.59
+    },
+    {
+     "w": "kullanılacak,",
+     "t": 7.32
+    },
+    {
+     "w": "veri",
+     "t": 8.12
+    },
+    {
+     "w": "ya",
+     "t": 8.54
+    },
+    {
+     "w": "da",
+     "t": 8.6
+    },
+    {
+     "w": "komut",
+     "t": 8.76
+    },
+    {
+     "w": "yüklü",
+     "t": 9.09
+    },
+    {
+     "w": "taşıyıcılarda,",
+     "t": 9.45
+    },
+    {
+     "w": "gümrük",
+     "t": 10.53
+    },
+    {
+     "w": "kıymeti",
+     "t": 10.85
+    },
+    {
+     "w": "olarak",
+     "t": 11.3
+    },
+    {
+     "w": "sadece",
+     "t": 11.71
+    },
+    {
+     "w": "taşıyıcı",
+     "t": 12.03
+    },
+    {
+     "w": "ortamın,",
+     "t": 12.64
+    },
+    {
+     "w": "yani",
+     "t": 13.29
+    },
+    {
+     "w": "CD'nin",
+     "t": 13.51
+    },
+    {
+     "w": "kıymeti",
+     "t": 14.02
+    },
+    {
+     "w": "esas",
+     "t": 14.62
+    },
+    {
+     "w": "alınır.",
+     "t": 15.04
+    },
+    {
+     "w": "Yazılımın",
+     "t": 15.71
+    },
+    {
+     "w": "bedeli,",
+     "t": 16.23
+    },
+    {
+     "w": "CD'nin",
+     "t": 16.85
+    },
+    {
+     "w": "bedelinden",
+     "t": 17.25
+    },
+    {
+     "w": "ayrı",
+     "t": 17.97
+    },
+    {
+     "w": "gösterilmişse",
+     "t": 18.25
+    },
+    {
+     "w": "gümrük",
+     "t": 19.19
+    },
+    {
+     "w": "kıymetine",
+     "t": 19.64
+    },
+    {
+     "w": "girmez.",
+     "t": 20.16
+    },
+    {
+     "w": "Soruda",
+     "t": 20.89
+    },
+    {
+     "w": "faturanın",
+     "t": 21.18
+    },
+    {
+     "w": "iki",
+     "t": 21.77
+    },
+    {
+     "w": "ayrı",
+     "t": 21.96
+    },
+    {
+     "w": "kalem",
+     "t": 22.23
+    },
+    {
+     "w": "olarak",
+     "t": 22.84
+    },
+    {
+     "w": "verilmesinin",
+     "t": 22.96
+    },
+    {
+     "w": "sebebi",
+     "t": 23.76
+    },
+    {
+     "w": "tam",
+     "t": 24.22
+    },
+    {
+     "w": "olarak",
+     "t": 24.35
+    },
+    {
+     "w": "bu.",
+     "t": 24.82
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": "Adım 1",
+   "start": 100.525,
+   "dur": 10.639,
+   "audio": "narration/s05.mp3",
+   "audio_at": 100.975,
+   "audio_local": 0.45,
+   "audio_dur": 9.639,
+   "words": [
+    {
+     "w": "Birinci",
+     "t": 0.56
+    },
+    {
+     "w": "adım:",
+     "t": 1.06
+    },
+    {
+     "w": "gümrük",
+     "t": 1.63
+    },
+    {
+     "w": "vergisi.",
+     "t": 1.99
+    },
+    {
+     "w": "Gümrük",
+     "t": 2.88
+    },
+    {
+     "w": "vergisi",
+     "t": 3.23
+    },
+    {
+     "w": "matrahı",
+     "t": 3.9
+    },
+    {
+     "w": "sadece",
+     "t": 4.08
+    },
+    {
+     "w": "on",
+     "t": 4.45
+    },
+    {
+     "w": "dolar.",
+     "t": 4.74
+    },
+    {
+     "w": "On",
+     "t": 5.68
+    },
+    {
+     "w": "doların",
+     "t": 6.01
+    },
+    {
+     "w": "yüzde",
+     "t": 6.58
+    },
+    {
+     "w": "onu,",
+     "t": 6.87
+    },
+    {
+     "w": "bir",
+     "t": 7.16
+    },
+    {
+     "w": "dolar.",
+     "t": 7.3
+    },
+    {
+     "w": "Gümrük",
+     "t": 8.1
+    },
+    {
+     "w": "vergimiz:",
+     "t": 8.6
+    },
+    {
+     "w": "bir",
+     "t": 9.33
+    },
+    {
+     "w": "dolar.",
+     "t": 9.6
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": "Adım 2",
+   "start": 111.164,
+   "dur": 18.162,
+   "audio": "narration/s06.mp3",
+   "audio_at": 111.614,
+   "audio_local": 0.45,
+   "audio_dur": 17.162,
+   "words": [
+    {
+     "w": "İkinci",
+     "t": 0.55
+    },
+    {
+     "w": "adım:",
+     "t": 1.03
+    },
+    {
+     "w": "KDV",
+     "t": 1.33
+    },
+    {
+     "w": "matrahı.",
+     "t": 1.9
+    },
+    {
+     "w": "Burada",
+     "t": 3.36
+    },
+    {
+     "w": "dikkat!",
+     "t": 3.7
+    },
+    {
+     "w": "Yazılım",
+     "t": 4.12
+    },
+    {
+     "w": "gümrük",
+     "t": 4.67
+    },
+    {
+     "w": "kıymetine",
+     "t": 5.11
+    },
+    {
+     "w": "girmedi;",
+     "t": 5.73
+    },
+    {
+     "w": "ama",
+     "t": 6.37
+    },
+    {
+     "w": "KDV",
+     "t": 6.78
+    },
+    {
+     "w": "matrahında",
+     "t": 7.14
+    },
+    {
+     "w": "hesaba",
+     "t": 7.8
+    },
+    {
+     "w": "katılıyor.",
+     "t": 8.34
+    },
+    {
+     "w": "KDV",
+     "t": 9.33
+    },
+    {
+     "w": "matrahı:",
+     "t": 9.62
+    },
+    {
+     "w": "on",
+     "t": 10.61
+    },
+    {
+     "w": "dolar",
+     "t": 11.09
+    },
+    {
+     "w": "CD,",
+     "t": 11.54
+    },
+    {
+     "w": "artı",
+     "t": 12.1
+    },
+    {
+     "w": "bir",
+     "t": 12.24
+    },
+    {
+     "w": "dolar",
+     "t": 12.59
+    },
+    {
+     "w": "gümrük",
+     "t": 12.99
+    },
+    {
+     "w": "vergisi,",
+     "t": 13.41
+    },
+    {
+     "w": "artı",
+     "t": 14.07
+    },
+    {
+     "w": "bin",
+     "t": 14.32
+    },
+    {
+     "w": "dolar",
+     "t": 15.18
+    },
+    {
+     "w": "yazılım.",
+     "t": 15.36
+    },
+    {
+     "w": "Toplam:",
+     "t": 15.96
+    },
+    {
+     "w": "bin",
+     "t": 16.47
+    },
+    {
+     "w": "on",
+     "t": 16.54
+    },
+    {
+     "w": "bir",
+     "t": 16.61
+    },
+    {
+     "w": "dolar.",
+     "t": 17.2
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": "Adım 3",
+   "start": 129.326,
+   "dur": 8.393,
+   "audio": "narration/s07.mp3",
+   "audio_at": 129.776,
+   "audio_local": 0.45,
+   "audio_dur": 7.393,
+   "words": [
+    {
+     "w": "Üçüncü",
+     "t": 0.51
+    },
+    {
+     "w": "adım:",
+     "t": 1.03
+    },
+    {
+     "w": "KDV.",
+     "t": 1.82
+    },
+    {
+     "w": "Bin",
+     "t": 3.03
+    },
+    {
+     "w": "on",
+     "t": 3.23
+    },
+    {
+     "w": "bir",
+     "t": 3.43
+    },
+    {
+     "w": "doların",
+     "t": 3.84
+    },
+    {
+     "w": "yüzde",
+     "t": 4.39
+    },
+    {
+     "w": "on",
+     "t": 4.76
+    },
+    {
+     "w": "sekizi,",
+     "t": 5.069
+    },
+    {
+     "w": "yüz",
+     "t": 5.378
+    },
+    {
+     "w": "seksen",
+     "t": 5.686
+    },
+    {
+     "w": "bir",
+     "t": 5.995
+    },
+    {
+     "w": "virgül",
+     "t": 6.304
+    },
+    {
+     "w": "doksan",
+     "t": 6.612
+    },
+    {
+     "w": "sekiz",
+     "t": 6.921
+    },
+    {
+     "w": "dolar.",
+     "t": 7.23
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": "Sonuç",
+   "start": 137.719,
+   "dur": 14.009,
+   "audio": "narration/s08.mp3",
+   "audio_at": 138.169,
+   "audio_local": 0.45,
+   "audio_dur": 13.009,
+   "words": [
+    {
+     "w": "Ve",
+     "t": 0.54
+    },
+    {
+     "w": "sonuç:",
+     "t": 0.73
+    },
+    {
+     "w": "Bir",
+     "t": 1.51
+    },
+    {
+     "w": "dolar",
+     "t": 1.69
+    },
+    {
+     "w": "gümrük",
+     "t": 2.11
+    },
+    {
+     "w": "vergisi,",
+     "t": 2.57
+    },
+    {
+     "w": "artı",
+     "t": 3.21
+    },
+    {
+     "w": "yüz",
+     "t": 3.57
+    },
+    {
+     "w": "seksen",
+     "t": 3.942
+    },
+    {
+     "w": "bir",
+     "t": 4.313
+    },
+    {
+     "w": "virgül",
+     "t": 4.685
+    },
+    {
+     "w": "doksan",
+     "t": 5.057
+    },
+    {
+     "w": "sekiz",
+     "t": 5.428
+    },
+    {
+     "w": "dolar",
+     "t": 5.8
+    },
+    {
+     "w": "KDV.",
+     "t": 6.45
+    },
+    {
+     "w": "Ödenmesi",
+     "t": 7.13
+    },
+    {
+     "w": "gereken",
+     "t": 8.08
+    },
+    {
+     "w": "toplam",
+     "t": 8.36
+    },
+    {
+     "w": "vergi,",
+     "t": 8.87
+    },
+    {
+     "w": "yüz",
+     "t": 9.3
+    },
+    {
+     "w": "seksen",
+     "t": 9.548
+    },
+    {
+     "w": "iki",
+     "t": 9.797
+    },
+    {
+     "w": "virgül",
+     "t": 10.045
+    },
+    {
+     "w": "doksan",
+     "t": 10.293
+    },
+    {
+     "w": "sekiz",
+     "t": 10.542
+    },
+    {
+     "w": "dolar.",
+     "t": 10.81
+    },
+    {
+     "w": "Doğru",
+     "t": 11.64
+    },
+    {
+     "w": "cevap:",
+     "t": 11.99
+    },
+    {
+     "w": "A",
+     "t": 12.61
+    },
+    {
+     "w": "şıkkı!",
+     "t": 13.035
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": "Tuzaklar",
+   "start": 151.728,
+   "dur": 22.891,
+   "audio": "narration/s09.mp3",
+   "audio_at": 152.178,
+   "audio_local": 0.45,
+   "audio_dur": 21.891,
+   "words": [
+    {
+     "w": "Şimdi",
+     "t": 0.63
+    },
+    {
+     "w": "tuzaklara",
+     "t": 0.92
+    },
+    {
+     "w": "bakalım.",
+     "t": 1.85
+    },
+    {
+     "w": "Gümrük",
+     "t": 2.9
+    },
+    {
+     "w": "vergisini",
+     "t": 3.25
+    },
+    {
+     "w": "unutup",
+     "t": 3.9
+    },
+    {
+     "w": "sadece",
+     "t": 4.37
+    },
+    {
+     "w": "KDV'yi",
+     "t": 5.04
+    },
+    {
+     "w": "yazan,",
+     "t": 5.78
+    },
+    {
+     "w": "B",
+     "t": 6.29
+    },
+    {
+     "w": "şıkkına,",
+     "t": 6.41
+    },
+    {
+     "w": "yüz",
+     "t": 6.809
+    },
+    {
+     "w": "seksen",
+     "t": 7.207
+    },
+    {
+     "w": "bir",
+     "t": 7.606
+    },
+    {
+     "w": "virgül",
+     "t": 8.004
+    },
+    {
+     "w": "doksan",
+     "t": 8.403
+    },
+    {
+     "w": "sekize",
+     "t": 8.801
+    },
+    {
+     "w": "düşer.",
+     "t": 9.22
+    },
+    {
+     "w": "Yazılımı",
+     "t": 9.87
+    },
+    {
+     "w": "gümrük",
+     "t": 10.32
+    },
+    {
+     "w": "kıymetine",
+     "t": 10.8
+    },
+    {
+     "w": "katan",
+     "t": 11.36
+    },
+    {
+     "w": "ise",
+     "t": 11.71
+    },
+    {
+     "w": "gümrük",
+     "t": 12.02
+    },
+    {
+     "w": "vergisini",
+     "t": 12.31
+    },
+    {
+     "w": "bin",
+     "t": 12.8
+    },
+    {
+     "w": "on",
+     "t": 13.14
+    },
+    {
+     "w": "dolar",
+     "t": 13.48
+    },
+    {
+     "w": "üzerinden,",
+     "t": 13.78
+    },
+    {
+     "w": "yüz",
+     "t": 14.33
+    },
+    {
+     "w": "bir",
+     "t": 14.56
+    },
+    {
+     "w": "dolar",
+     "t": 14.79
+    },
+    {
+     "w": "bulur.",
+     "t": 15.07
+    },
+    {
+     "w": "Bir",
+     "t": 15.59
+    },
+    {
+     "w": "de",
+     "t": 15.71
+    },
+    {
+     "w": "bu",
+     "t": 15.87
+    },
+    {
+     "w": "vergiyi",
+     "t": 16.03
+    },
+    {
+     "w": "KDV",
+     "t": 16.59
+    },
+    {
+     "w": "matrahına",
+     "t": 16.87
+    },
+    {
+     "w": "eklemeyi",
+     "t": 17.55
+    },
+    {
+     "w": "unutursa,",
+     "t": 18.19
+    },
+    {
+     "w": "E",
+     "t": 18.91
+    },
+    {
+     "w": "şıkkına,",
+     "t": 19.03
+    },
+    {
+     "w": "iki",
+     "t": 19.419
+    },
+    {
+     "w": "yüz",
+     "t": 19.807
+    },
+    {
+     "w": "seksen",
+     "t": 20.196
+    },
+    {
+     "w": "iki",
+     "t": 20.584
+    },
+    {
+     "w": "virgül",
+     "t": 20.973
+    },
+    {
+     "w": "seksene",
+     "t": 21.361
+    },
+    {
+     "w": "gider.",
+     "t": 21.75
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "Uyarı",
+   "start": 174.619,
+   "dur": 24.066,
+   "audio": "narration/s10.mp3",
+   "audio_at": 175.069,
+   "audio_local": 0.45,
+   "audio_dur": 23.066,
+   "words": [
+    {
+     "w": "Bir",
+     "t": 0.53
+    },
+    {
+     "w": "uyarı",
+     "t": 0.76
+    },
+    {
+     "w": "daha:",
+     "t": 1.25
+    },
+    {
+     "w": "Bu",
+     "t": 1.84
+    },
+    {
+     "w": "kural",
+     "t": 1.95
+    },
+    {
+     "w": "her",
+     "t": 2.28
+    },
+    {
+     "w": "taşıyıcı",
+     "t": 2.48
+    },
+    {
+     "w": "için",
+     "t": 3.01
+    },
+    {
+     "w": "geçerli",
+     "t": 3.28
+    },
+    {
+     "w": "değil.",
+     "t": 3.73
+    },
+    {
+     "w": "Yönetmeliğe",
+     "t": 4.41
+    },
+    {
+     "w": "göre",
+     "t": 5.13
+    },
+    {
+     "w": "taşıyıcı",
+     "t": 5.33
+    },
+    {
+     "w": "ortam",
+     "t": 6.0
+    },
+    {
+     "w": "deyimi;",
+     "t": 6.485
+    },
+    {
+     "w": "entegre",
+     "t": 7.04
+    },
+    {
+     "w": "devreleri,",
+     "t": 7.46
+    },
+    {
+     "w": "yarı",
+     "t": 8.31
+    },
+    {
+     "w": "iletkenleri",
+     "t": 8.55
+    },
+    {
+     "w": "ve",
+     "t": 9.29
+    },
+    {
+     "w": "bunlarla",
+     "t": 9.41
+    },
+    {
+     "w": "bütünlük",
+     "t": 9.9
+    },
+    {
+     "w": "oluşturan",
+     "t": 10.39
+    },
+    {
+     "w": "benzeri",
+     "t": 11.05
+    },
+    {
+     "w": "araç",
+     "t": 11.35
+    },
+    {
+     "w": "ve",
+     "t": 11.64
+    },
+    {
+     "w": "aletleri",
+     "t": 11.78
+    },
+    {
+     "w": "kapsamaz.",
+     "t": 12.41
+    },
+    {
+     "w": "Veri",
+     "t": 13.32
+    },
+    {
+     "w": "veya",
+     "t": 13.58
+    },
+    {
+     "w": "komutlar",
+     "t": 13.91
+    },
+    {
+     "w": "deyimi",
+     "t": 14.485
+    },
+    {
+     "w": "de",
+     "t": 15.06
+    },
+    {
+     "w": "ses,",
+     "t": 15.21
+    },
+    {
+     "w": "sinematografik",
+     "t": 15.69
+    },
+    {
+     "w": "ya",
+     "t": 16.53
+    },
+    {
+     "w": "da",
+     "t": 16.65
+    },
+    {
+     "w": "video",
+     "t": 16.74
+    },
+    {
+     "w": "kayıtlarını",
+     "t": 17.25
+    },
+    {
+     "w": "kapsamaz.",
+     "t": 17.73
+    },
+    {
+     "w": "Yani",
+     "t": 18.54
+    },
+    {
+     "w": "CD",
+     "t": 18.81
+    },
+    {
+     "w": "içinde",
+     "t": 18.99
+    },
+    {
+     "w": "bir",
+     "t": 19.34
+    },
+    {
+     "w": "film",
+     "t": 19.85
+    },
+    {
+     "w": "geliyorsa,",
+     "t": 20.16
+    },
+    {
+     "w": "filmin",
+     "t": 21.01
+    },
+    {
+     "w": "bedeli",
+     "t": 21.37
+    },
+    {
+     "w": "de",
+     "t": 21.73
+    },
+    {
+     "w": "gümrük",
+     "t": 21.85
+    },
+    {
+     "w": "kıymetine",
+     "t": 22.21
+    },
+    {
+     "w": "dahil",
+     "t": 22.83
+    },
+    {
+     "w": "edilir.",
+     "t": 23.05
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "Koçun notu",
+   "start": 198.685,
+   "dur": 16.882,
+   "audio": "narration/s11.mp3",
+   "audio_at": 199.135,
+   "audio_local": 0.45,
+   "audio_dur": 15.882,
+   "words": [
+    {
+     "w": "Koçun",
+     "t": 0.58
+    },
+    {
+     "w": "notu:",
+     "t": 0.99
+    },
+    {
+     "w": "Aynı",
+     "t": 1.65
+    },
+    {
+     "w": "kurgu",
+     "t": 1.91
+    },
+    {
+     "w": "ihracat",
+     "t": 2.24
+    },
+    {
+     "w": "yönüyle",
+     "t": 2.7
+    },
+    {
+     "w": "de",
+     "t": 3.16
+    },
+    {
+     "w": "sorulmuş.",
+     "t": 3.28
+    },
+    {
+     "w": "Yazılım",
+     "t": 4.24
+    },
+    {
+     "w": "ihracatında",
+     "t": 4.59
+    },
+    {
+     "w": "da",
+     "t": 5.37
+    },
+    {
+     "w": "beyannamede",
+     "t": 5.51
+    },
+    {
+     "w": "sadece",
+     "t": 6.3
+    },
+    {
+     "w": "taşıyıcı",
+     "t": 6.7
+    },
+    {
+     "w": "ortamın",
+     "t": 7.26
+    },
+    {
+     "w": "kıymeti,",
+     "t": 7.86
+    },
+    {
+     "w": "yani",
+     "t": 8.44
+    },
+    {
+     "w": "on",
+     "t": 8.68
+    },
+    {
+     "w": "dolar",
+     "t": 9.06
+    },
+    {
+     "w": "yer",
+     "t": 9.33
+    },
+    {
+     "w": "alır.",
+     "t": 9.61
+    },
+    {
+     "w": "Formülü",
+     "t": 10.02
+    },
+    {
+     "w": "aklınızda",
+     "t": 10.32
+    },
+    {
+     "w": "tutun:",
+     "t": 11.07
+    },
+    {
+     "w": "Gümrük",
+     "t": 11.51
+    },
+    {
+     "w": "vergisi",
+     "t": 12.03
+    },
+    {
+     "w": "CD'den;",
+     "t": 12.76
+    },
+    {
+     "w": "KDV,",
+     "t": 13.85
+    },
+    {
+     "w": "yazılım",
+     "t": 14.75
+    },
+    {
+     "w": "dahil",
+     "t": 15.25
+    },
+    {
+     "w": "hepsinden.",
+     "t": 15.61
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "Kapanış",
+   "start": 215.567,
+   "dur": 19.959,
+   "audio": "narration/s12.mp3",
+   "audio_at": 216.017,
+   "audio_local": 0.45,
+   "audio_dur": 16.509,
+   "words": [
+    {
+     "w": "Özetle:",
+     "t": 0.5
+    },
+    {
+     "w": "Taşıyıcı",
+     "t": 1.58
+    },
+    {
+     "w": "ortam",
+     "t": 2.12
+    },
+    {
+     "w": "gümrük",
+     "t": 2.44
+    },
+    {
+     "w": "vergisine,",
+     "t": 2.82
+    },
+    {
+     "w": "yazılım",
+     "t": 3.54
+    },
+    {
+     "w": "dahil",
+     "t": 4.2
+    },
+    {
+     "w": "toplam",
+     "t": 4.78
+    },
+    {
+     "w": "KDV'ye.",
+     "t": 5.35
+    },
+    {
+     "w": "Cevap",
+     "t": 6.29
+    },
+    {
+     "w": "A:",
+     "t": 6.86
+    },
+    {
+     "w": "yüz",
+     "t": 7.76
+    },
+    {
+     "w": "seksen",
+     "t": 8.047
+    },
+    {
+     "w": "iki",
+     "t": 8.333
+    },
+    {
+     "w": "virgül",
+     "t": 8.62
+    },
+    {
+     "w": "doksan",
+     "t": 8.907
+    },
+    {
+     "w": "sekiz",
+     "t": 9.193
+    },
+    {
+     "w": "dolar.",
+     "t": 9.75
+    },
+    {
+     "w": "Bu",
+     "t": 9.98
+    },
+    {
+     "w": "çözüm",
+     "t": 10.07
+    },
+    {
+     "w": "işinize",
+     "t": 10.42
+    },
+    {
+     "w": "yaradıysa",
+     "t": 10.94
+    },
+    {
+     "w": "abone",
+     "t": 11.6
+    },
+    {
+     "w": "olmayı",
+     "t": 11.89
+    },
+    {
+     "w": "ve",
+     "t": 12.32
+    },
+    {
+     "w": "paylaşmayı",
+     "t": 12.46
+    },
+    {
+     "w": "unutmayın.",
+     "t": 13.16
+    },
+    {
+     "w": "Bir",
+     "t": 13.96
+    },
+    {
+     "w": "sonraki",
+     "t": 14.09
+    },
+    {
+     "w": "çıkmış",
+     "t": 14.73
+    },
+    {
+     "w": "soruda",
+     "t": 14.92
+    },
+    {
+     "w": "görüşmek",
+     "t": 15.29
+    },
+    {
+     "w": "üzere,",
+     "t": 15.8
+    },
+    {
+     "w": "hoşça",
+     "t": 16.36
+    },
+    {
+     "w": "kalın!",
+     "t": 16.695
+    }
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "text": "Merhaba arkadaşlar, Gümrük Koçu'yla çıkmış sorular",
+   "s": 1.63,
+   "e": 4.52
+  },
+  {
+   "text": "serisine hoş geldiniz.",
+   "s": 4.52,
+   "e": 5.99
+  },
+  {
+   "text": "Bugün geçmiş yılların vergi hesaplama sorularından",
+   "s": 5.99,
+   "e": 8.96
+  },
+  {
+   "text": "ilkini çözüyoruz.",
+   "s": 8.96,
+   "e": 10.23
+  },
+  {
+   "text": "Konumuz:",
+   "s": 10.23,
+   "e": 10.99
+  },
+  {
+   "text": "CD içinde gelen bir yazılım.",
+   "s": 10.99,
+   "e": 13.23
+  },
+  {
+   "text": "Kâğıdınızı, kaleminizi hazırlayın;",
+   "s": 13.23,
+   "e": 15.12
+  },
+  {
+   "text": "birlikte hesaplayalım.",
+   "s": 15.12,
+   "e": 16.609
+  },
+  {
+   "text": "Önce soruyu okuyalım.",
+   "s": 17.409,
+   "e": 18.969
+  },
+  {
+   "text": "İthalatçı A firması, yurt dışından,",
+   "s": 18.969,
+   "e": 21.519
+  },
+  {
+   "text": "CD üzerine kaydedilmiş ve bilgisayarlarda kullanılacak",
+   "s": 21.519,
+   "e": 25.199
+  },
+  {
+   "text": "bir yazılım ithal ediyor.",
+   "s": 25.199,
+   "e": 26.829
+  },
+  {
+   "text": "Faturada iki kalem var:",
+   "s": 26.829,
+   "e": 28.389
+  },
+  {
+   "text": "Taşıyıcı ortamın, yani CD'nin kıymeti 10 ABD Doları;",
+   "s": 28.389,
+   "e": 33.169
+  },
+  {
+   "text": "yazılımın kıymeti ise 1.000 ABD Doları.",
+   "s": 33.169,
+   "e": 36.069
+  },
+  {
+   "text": "Gümrük vergisi oranı %10,",
+   "s": 36.069,
+   "e": 38.359
+  },
+  {
+   "text": "KDV oranı %18.",
+   "s": 38.359,
+   "e": 40.569
+  },
+  {
+   "text": "Bizden istenen:",
+   "s": 40.569,
+   "e": 41.629
+  },
+  {
+   "text": "Ödenmesi gereken gümrük vergisi ve KDV toplamı,",
+   "s": 41.629,
+   "e": 45.029
+  },
+  {
+   "text": "dolar olarak.",
+   "s": 45.029,
+   "e": 46.213
+  },
+  {
+   "text": "Şıklarımız şöyle.",
+   "s": 47.023,
+   "e": 48.203
+  },
+  {
+   "text": "A şıkkı, 182,98.",
+   "s": 48.493,
+   "e": 51.603
+  },
+  {
+   "text": "B şıkkı, 181,98.",
+   "s": 51.763,
+   "e": 54.923
+  },
+  {
+   "text": "C şıkkı, 198,98.",
+   "s": 55.133,
+   "e": 58.553
+  },
+  {
+   "text": "D şıkkı, 299,98.",
+   "s": 58.763,
+   "e": 62.343
+  },
+  {
+   "text": "E şıkkı, 282,80.",
+   "s": 62.583,
+   "e": 65.513
+  },
+  {
+   "text": "Videoyu durdurun ve önce kendiniz çözün.",
+   "s": 66.473,
+   "e": 69.043
+  },
+  {
+   "text": "Hazırsanız başlayalım.",
+   "s": 75.409,
+   "e": 77.229
+  },
+  {
+   "text": "Bu sorunun anahtarı, Gümrük Yönetmeliğinin 54'üncü",
+   "s": 77.309,
+   "e": 80.639
+  },
+  {
+   "text": "maddesi.",
+   "s": 80.639,
+   "e": 81.429
+  },
+  {
+   "text": "Bilgisayarda kullanılacak,",
+   "s": 81.429,
+   "e": 82.959
+  },
+  {
+   "text": "veri ya da komut yüklü taşıyıcılarda,",
+   "s": 82.959,
+   "e": 85.369
+  },
+  {
+   "text": "gümrük kıymeti olarak sadece taşıyıcı ortamın,",
+   "s": 85.369,
+   "e": 88.129
+  },
+  {
+   "text": "yani CD'nin kıymeti esas alınır.",
+   "s": 88.129,
+   "e": 90.549
+  },
+  {
+   "text": "Yazılımın bedeli, CD'nin bedelinden ayrı gösterilmişse",
+   "s": 90.549,
+   "e": 94.029
+  },
+  {
+   "text": "gümrük kıymetine girmez.",
+   "s": 94.029,
+   "e": 95.729
+  },
+  {
+   "text": "Soruda faturanın iki ayrı kalem olarak verilmesinin",
+   "s": 95.729,
+   "e": 98.599
+  },
+  {
+   "text": "sebebi tam olarak bu.",
+   "s": 98.599,
+   "e": 100.225
+  },
+  {
+   "text": "Birinci adım:",
+   "s": 101.085,
+   "e": 102.155
+  },
+  {
+   "text": "gümrük vergisi.",
+   "s": 102.155,
+   "e": 103.405
+  },
+  {
+   "text": "Gümrük vergisi matrahı sadece 10 dolar.",
+   "s": 103.405,
+   "e": 106.205
+  },
+  {
+   "text": "10 doların %10'u, 1 dolar.",
+   "s": 106.205,
+   "e": 108.625
+  },
+  {
+   "text": "Gümrük vergimiz:",
+   "s": 108.625,
+   "e": 109.855
+  },
+  {
+   "text": "1 dolar.",
+   "s": 109.855,
+   "e": 110.864
+  },
+  {
+   "text": "İkinci adım:",
+   "s": 111.714,
+   "e": 112.494
+  },
+  {
+   "text": "KDV matrahı.",
+   "s": 112.494,
+   "e": 114.524
+  },
+  {
+   "text": "Burada dikkat!",
+   "s": 114.524,
+   "e": 115.284
+  },
+  {
+   "text": "Yazılım gümrük kıymetine girmedi;",
+   "s": 115.284,
+   "e": 117.534
+  },
+  {
+   "text": "ama KDV matrahında hesaba katılıyor.",
+   "s": 117.534,
+   "e": 120.404
+  },
+  {
+   "text": "KDV matrahı:",
+   "s": 120.494,
+   "e": 121.774
+  },
+  {
+   "text": "10 dolar CD, artı 1 dolar gümrük vergisi,",
+   "s": 121.774,
+   "e": 125.234
+  },
+  {
+   "text": "artı 1.000 dolar yazılım.",
+   "s": 125.234,
+   "e": 127.124
+  },
+  {
+   "text": "Toplam:",
+   "s": 127.124,
+   "e": 127.634
+  },
+  {
+   "text": "1.011 dolar.",
+   "s": 127.634,
+   "e": 129.026
+  },
+  {
+   "text": "Üçüncü adım:",
+   "s": 129.836,
+   "e": 131.146
+  },
+  {
+   "text": "KDV.",
+   "s": 131.146,
+   "e": 132.106
+  },
+  {
+   "text": "1.011 doların %18'i, 181,98 dolar.",
+   "s": 132.356,
+   "e": 137.386
+  },
+  {
+   "text": "Ve sonuç:",
+   "s": 138.259,
+   "e": 139.229
+  },
+  {
+   "text": "1 dolar gümrük vergisi,",
+   "s": 139.229,
+   "e": 140.929
+  },
+  {
+   "text": "artı 181,98 dolar KDV.",
+   "s": 140.929,
+   "e": 144.849
+  },
+  {
+   "text": "Ödenmesi gereken toplam vergi,",
+   "s": 144.849,
+   "e": 147.019
+  },
+  {
+   "text": "182,98 dolar.",
+   "s": 147.019,
+   "e": 149.359
+  },
+  {
+   "text": "Doğru cevap:",
+   "s": 149.359,
+   "e": 150.239
+  },
+  {
+   "text": "A şıkkı!",
+   "s": 150.329,
+   "e": 151.428
+  },
+  {
+   "text": "Şimdi tuzaklara bakalım.",
+   "s": 152.358,
+   "e": 154.608
+  },
+  {
+   "text": "Gümrük vergisini unutup sadece KDV'yi yazan,",
+   "s": 154.628,
+   "e": 158.018
+  },
+  {
+   "text": "B şıkkına, 181,98'e düşer.",
+   "s": 158.018,
+   "e": 161.598
+  },
+  {
+   "text": "Yazılımı gümrük kıymetine katan ise gümrük vergisini",
+   "s": 161.598,
+   "e": 164.528
+  },
+  {
+   "text": "1.010 dolar üzerinden, 101 dolar bulur.",
+   "s": 164.528,
+   "e": 167.318
+  },
+  {
+   "text": "Bir de bu vergiyi KDV matrahına eklemeyi unutursa,",
+   "s": 167.318,
+   "e": 170.638
+  },
+  {
+   "text": "E şıkkına, 282,80'e gider.",
+   "s": 170.638,
+   "e": 174.319
+  },
+  {
+   "text": "Bir uyarı daha:",
+   "s": 175.149,
+   "e": 176.459
+  },
+  {
+   "text": "Bu kural her taşıyıcı için geçerli değil.",
+   "s": 176.459,
+   "e": 178.959
+  },
+  {
+   "text": "Yönetmeliğe göre taşıyıcı ortam deyimi;",
+   "s": 179.029,
+   "e": 181.659
+  },
+  {
+   "text": "entegre devreleri, yarı iletkenleri ve bunlarla",
+   "s": 181.659,
+   "e": 184.519
+  },
+  {
+   "text": "bütünlük oluşturan benzeri araç ve aletleri kapsamaz.",
+   "s": 184.519,
+   "e": 187.939
+  },
+  {
+   "text": "Veri veya komutlar deyimi de ses,",
+   "s": 187.939,
+   "e": 190.309
+  },
+  {
+   "text": "sinematografik ya da video kayıtlarını kapsamaz.",
+   "s": 190.309,
+   "e": 193.159
+  },
+  {
+   "text": "Yani CD içinde bir film geliyorsa,",
+   "s": 193.159,
+   "e": 195.629
+  },
+  {
+   "text": "filmin bedeli de gümrük kıymetine dahil edilir.",
+   "s": 195.629,
+   "e": 198.385
+  },
+  {
+   "text": "Koçun notu:",
+   "s": 199.265,
+   "e": 200.335
+  },
+  {
+   "text": "Aynı kurgu ihracat yönüyle de sorulmuş.",
+   "s": 200.335,
+   "e": 202.835
+  },
+  {
+   "text": "Yazılım ihracatında da beyannamede sadece taşıyıcı",
+   "s": 202.925,
+   "e": 205.945
+  },
+  {
+   "text": "ortamın kıymeti, yani 10 dolar yer alır.",
+   "s": 205.945,
+   "e": 208.705
+  },
+  {
+   "text": "Formülü aklınızda tutun:",
+   "s": 208.705,
+   "e": 210.195
+  },
+  {
+   "text": "Gümrük vergisi CD'den;",
+   "s": 210.195,
+   "e": 212.535
+  },
+  {
+   "text": "KDV, yazılım dahil hepsinden.",
+   "s": 212.535,
+   "e": 215.265
+  },
+  {
+   "text": "Özetle:",
+   "s": 216.067,
+   "e": 217.147
+  },
+  {
+   "text": "Taşıyıcı ortam gümrük vergisine,",
+   "s": 217.147,
+   "e": 219.107
+  },
+  {
+   "text": "yazılım dahil toplam KDV'ye.",
+   "s": 219.107,
+   "e": 221.617
+  },
+  {
+   "text": "Cevap A:",
+   "s": 221.857,
+   "e": 223.327
+  },
+  {
+   "text": "182,98 dolar.",
+   "s": 223.327,
+   "e": 225.547
+  },
+  {
+   "text": "Bu çözüm işinize yaradıysa abone olmayı ve paylaşmayı",
+   "s": 225.547,
+   "e": 228.727
+  },
+  {
+   "text": "unutmayın.",
+   "s": 228.727,
+   "e": 229.527
+  },
+  {
+   "text": "Bir sonraki çıkmış soruda görüşmek üzere,",
+   "s": 229.527,
+   "e": 231.927
+  },
+  {
+   "text": "hoşça kalın!",
+   "s": 231.927,
+   "e": 232.776
+  }
+ ]
+}

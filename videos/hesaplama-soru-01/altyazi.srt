@@ -1,0 +1,383 @@
+1
+00:00:01,630 --> 00:00:04,520
+Merhaba arkadaşlar, Gümrük Koçu'yla çıkmış sorular
+
+2
+00:00:04,520 --> 00:00:05,990
+serisine hoş geldiniz.
+
+3
+00:00:05,990 --> 00:00:08,960
+Bugün geçmiş yılların vergi hesaplama sorularından
+
+4
+00:00:08,960 --> 00:00:10,230
+ilkini çözüyoruz.
+
+5
+00:00:10,230 --> 00:00:10,990
+Konumuz:
+
+6
+00:00:10,990 --> 00:00:13,230
+CD içinde gelen bir yazılım.
+
+7
+00:00:13,230 --> 00:00:15,120
+Kâğıdınızı, kaleminizi hazırlayın;
+
+8
+00:00:15,120 --> 00:00:16,609
+birlikte hesaplayalım.
+
+9
+00:00:17,409 --> 00:00:18,969
+Önce soruyu okuyalım.
+
+10
+00:00:18,969 --> 00:00:21,519
+İthalatçı A firması, yurt dışından,
+
+11
+00:00:21,519 --> 00:00:25,199
+CD üzerine kaydedilmiş ve bilgisayarlarda kullanılacak
+
+12
+00:00:25,199 --> 00:00:26,829
+bir yazılım ithal ediyor.
+
+13
+00:00:26,829 --> 00:00:28,389
+Faturada iki kalem var:
+
+14
+00:00:28,389 --> 00:00:33,169
+Taşıyıcı ortamın, yani CD'nin kıymeti 10 ABD Doları;
+
+15
+00:00:33,169 --> 00:00:36,069
+yazılımın kıymeti ise 1.000 ABD Doları.
+
+16
+00:00:36,069 --> 00:00:38,359
+Gümrük vergisi oranı %10,
+
+17
+00:00:38,359 --> 00:00:40,569
+KDV oranı %18.
+
+18
+00:00:40,569 --> 00:00:41,629
+Bizden istenen:
+
+19
+00:00:41,629 --> 00:00:45,029
+Ödenmesi gereken gümrük vergisi ve KDV toplamı,
+
+20
+00:00:45,029 --> 00:00:46,213
+dolar olarak.
+
+21
+00:00:47,023 --> 00:00:48,203
+Şıklarımız şöyle.
+
+22
+00:00:48,493 --> 00:00:51,603
+A şıkkı, 182,98.
+
+23
+00:00:51,763 --> 00:00:54,923
+B şıkkı, 181,98.
+
+24
+00:00:55,133 --> 00:00:58,553
+C şıkkı, 198,98.
+
+25
+00:00:58,763 --> 00:01:02,343
+D şıkkı, 299,98.
+
+26
+00:01:02,583 --> 00:01:05,513
+E şıkkı, 282,80.
+
+27
+00:01:06,473 --> 00:01:09,043
+Videoyu durdurun ve önce kendiniz çözün.
+
+28
+00:01:15,409 --> 00:01:17,229
+Hazırsanız başlayalım.
+
+29
+00:01:17,309 --> 00:01:20,639
+Bu sorunun anahtarı, Gümrük Yönetmeliğinin 54'üncü
+
+30
+00:01:20,639 --> 00:01:21,429
+maddesi.
+
+31
+00:01:21,429 --> 00:01:22,959
+Bilgisayarda kullanılacak,
+
+32
+00:01:22,959 --> 00:01:25,369
+veri ya da komut yüklü taşıyıcılarda,
+
+33
+00:01:25,369 --> 00:01:28,129
+gümrük kıymeti olarak sadece taşıyıcı ortamın,
+
+34
+00:01:28,129 --> 00:01:30,549
+yani CD'nin kıymeti esas alınır.
+
+35
+00:01:30,549 --> 00:01:34,029
+Yazılımın bedeli, CD'nin bedelinden ayrı gösterilmişse
+
+36
+00:01:34,029 --> 00:01:35,729
+gümrük kıymetine girmez.
+
+37
+00:01:35,729 --> 00:01:38,599
+Soruda faturanın iki ayrı kalem olarak verilmesinin
+
+38
+00:01:38,599 --> 00:01:40,225
+sebebi tam olarak bu.
+
+39
+00:01:41,085 --> 00:01:42,155
+Birinci adım:
+
+40
+00:01:42,155 --> 00:01:43,405
+gümrük vergisi.
+
+41
+00:01:43,405 --> 00:01:46,205
+Gümrük vergisi matrahı sadece 10 dolar.
+
+42
+00:01:46,205 --> 00:01:48,625
+10 doların %10'u, 1 dolar.
+
+43
+00:01:48,625 --> 00:01:49,855
+Gümrük vergimiz:
+
+44
+00:01:49,855 --> 00:01:50,864
+1 dolar.
+
+45
+00:01:51,714 --> 00:01:52,494
+İkinci adım:
+
+46
+00:01:52,494 --> 00:01:54,524
+KDV matrahı.
+
+47
+00:01:54,524 --> 00:01:55,284
+Burada dikkat!
+
+48
+00:01:55,284 --> 00:01:57,534
+Yazılım gümrük kıymetine girmedi;
+
+49
+00:01:57,534 --> 00:02:00,404
+ama KDV matrahında hesaba katılıyor.
+
+50
+00:02:00,494 --> 00:02:01,774
+KDV matrahı:
+
+51
+00:02:01,774 --> 00:02:05,234
+10 dolar CD, artı 1 dolar gümrük vergisi,
+
+52
+00:02:05,234 --> 00:02:07,124
+artı 1.000 dolar yazılım.
+
+53
+00:02:07,124 --> 00:02:07,634
+Toplam:
+
+54
+00:02:07,634 --> 00:02:09,026
+1.011 dolar.
+
+55
+00:02:09,836 --> 00:02:11,146
+Üçüncü adım:
+
+56
+00:02:11,146 --> 00:02:12,106
+KDV.
+
+57
+00:02:12,356 --> 00:02:17,386
+1.011 doların %18'i, 181,98 dolar.
+
+58
+00:02:18,259 --> 00:02:19,229
+Ve sonuç:
+
+59
+00:02:19,229 --> 00:02:20,929
+1 dolar gümrük vergisi,
+
+60
+00:02:20,929 --> 00:02:24,849
+artı 181,98 dolar KDV.
+
+61
+00:02:24,849 --> 00:02:27,019
+Ödenmesi gereken toplam vergi,
+
+62
+00:02:27,019 --> 00:02:29,359
+182,98 dolar.
+
+63
+00:02:29,359 --> 00:02:30,239
+Doğru cevap:
+
+64
+00:02:30,329 --> 00:02:31,428
+A şıkkı!
+
+65
+00:02:32,358 --> 00:02:34,608
+Şimdi tuzaklara bakalım.
+
+66
+00:02:34,628 --> 00:02:38,018
+Gümrük vergisini unutup sadece KDV'yi yazan,
+
+67
+00:02:38,018 --> 00:02:41,598
+B şıkkına, 181,98'e düşer.
+
+68
+00:02:41,598 --> 00:02:44,528
+Yazılımı gümrük kıymetine katan ise gümrük vergisini
+
+69
+00:02:44,528 --> 00:02:47,318
+1.010 dolar üzerinden, 101 dolar bulur.
+
+70
+00:02:47,318 --> 00:02:50,638
+Bir de bu vergiyi KDV matrahına eklemeyi unutursa,
+
+71
+00:02:50,638 --> 00:02:54,319
+E şıkkına, 282,80'e gider.
+
+72
+00:02:55,149 --> 00:02:56,459
+Bir uyarı daha:
+
+73
+00:02:56,459 --> 00:02:58,959
+Bu kural her taşıyıcı için geçerli değil.
+
+74
+00:02:59,029 --> 00:03:01,659
+Yönetmeliğe göre taşıyıcı ortam deyimi;
+
+75
+00:03:01,659 --> 00:03:04,519
+entegre devreleri, yarı iletkenleri ve bunlarla
+
+76
+00:03:04,519 --> 00:03:07,939
+bütünlük oluşturan benzeri araç ve aletleri kapsamaz.
+
+77
+00:03:07,939 --> 00:03:10,309
+Veri veya komutlar deyimi de ses,
+
+78
+00:03:10,309 --> 00:03:13,159
+sinematografik ya da video kayıtlarını kapsamaz.
+
+79
+00:03:13,159 --> 00:03:15,629
+Yani CD içinde bir film geliyorsa,
+
+80
+00:03:15,629 --> 00:03:18,385
+filmin bedeli de gümrük kıymetine dahil edilir.
+
+81
+00:03:19,265 --> 00:03:20,335
+Koçun notu:
+
+82
+00:03:20,335 --> 00:03:22,835
+Aynı kurgu ihracat yönüyle de sorulmuş.
+
+83
+00:03:22,925 --> 00:03:25,945
+Yazılım ihracatında da beyannamede sadece taşıyıcı
+
+84
+00:03:25,945 --> 00:03:28,705
+ortamın kıymeti, yani 10 dolar yer alır.
+
+85
+00:03:28,705 --> 00:03:30,195
+Formülü aklınızda tutun:
+
+86
+00:03:30,195 --> 00:03:32,535
+Gümrük vergisi CD'den;
+
+87
+00:03:32,535 --> 00:03:35,265
+KDV, yazılım dahil hepsinden.
+
+88
+00:03:36,067 --> 00:03:37,147
+Özetle:
+
+89
+00:03:37,147 --> 00:03:39,107
+Taşıyıcı ortam gümrük vergisine,
+
+90
+00:03:39,107 --> 00:03:41,617
+yazılım dahil toplam KDV'ye.
+
+91
+00:03:41,857 --> 00:03:43,327
+Cevap A:
+
+92
+00:03:43,327 --> 00:03:45,547
+182,98 dolar.
+
+93
+00:03:45,547 --> 00:03:48,727
+Bu çözüm işinize yaradıysa abone olmayı ve paylaşmayı
+
+94
+00:03:48,727 --> 00:03:49,527
+unutmayın.
+
+95
+00:03:49,527 --> 00:03:51,927
+Bir sonraki çıkmış soruda görüşmek üzere,
+
+96
+00:03:51,927 --> 00:03:52,776
+hoşça kalın!

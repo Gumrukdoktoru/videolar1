@@ -1,0 +1,6 @@
+tools/__pycache__/
+snapshots/
+.hyperframes/
+renders/work-*/
+renders/.*
+renders/hesaplama-soru-01.mp4

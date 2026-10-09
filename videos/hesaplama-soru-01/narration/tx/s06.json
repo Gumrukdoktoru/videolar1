@@ -1,0 +1,194 @@
+[
+  {
+    "text": "İkinci",
+    "start": 0.1,
+    "end": 0.58,
+    "id": "w0"
+  },
+  {
+    "text": "adım",
+    "start": 0.58,
+    "end": 0.88,
+    "id": "w1"
+  },
+  {
+    "text": "KDV",
+    "start": 0.88,
+    "end": 1.45,
+    "id": "w2"
+  },
+  {
+    "text": "Matrahı.",
+    "start": 1.45,
+    "end": 2.8,
+    "id": "w3"
+  },
+  {
+    "text": "Burada",
+    "start": 2.91,
+    "end": 3.25,
+    "id": "w4"
+  },
+  {
+    "text": "dikkat",
+    "start": 3.25,
+    "end": 3.67,
+    "id": "w5"
+  },
+  {
+    "text": "yazılım",
+    "start": 3.67,
+    "end": 4.22,
+    "id": "w6"
+  },
+  {
+    "text": "gümrük",
+    "start": 4.22,
+    "end": 4.66,
+    "id": "w7"
+  },
+  {
+    "text": "kıymetine",
+    "start": 4.66,
+    "end": 5.28,
+    "id": "w8"
+  },
+  {
+    "text": "girmedi",
+    "start": 5.28,
+    "end": 5.92,
+    "id": "w9"
+  },
+  {
+    "text": "ama",
+    "start": 5.92,
+    "end": 6.23,
+    "id": "w10"
+  },
+  {
+    "text": "KDV",
+    "start": 6.33,
+    "end": 6.53,
+    "id": "w11"
+  },
+  {
+    "text": "Matrahı'nda",
+    "start": 6.69,
+    "end": 7.35,
+    "id": "w12"
+  },
+  {
+    "text": "hesaba",
+    "start": 7.35,
+    "end": 7.81,
+    "id": "w13"
+  },
+  {
+    "text": "katılıyor.",
+    "start": 7.89,
+    "end": 8.54,
+    "id": "w14"
+  },
+  {
+    "text": "KDV",
+    "start": 8.88,
+    "end": 9.17,
+    "id": "w15"
+  },
+  {
+    "text": "Matrahı",
+    "start": 9.17,
+    "end": 10.1,
+    "id": "w16"
+  },
+  {
+    "text": "10",
+    "start": 10.16,
+    "end": 10.64,
+    "id": "w17"
+  },
+  {
+    "text": "dolar",
+    "start": 10.64,
+    "end": 11.05,
+    "id": "w18"
+  },
+  {
+    "text": "C'de",
+    "start": 11.09,
+    "end": 11.46,
+    "id": "w19"
+  },
+  {
+    "text": "artı",
+    "start": 11.65,
+    "end": 11.79,
+    "id": "w20"
+  },
+  {
+    "text": "1",
+    "start": 11.79,
+    "end": 12.01,
+    "id": "w21"
+  },
+  {
+    "text": "dolar",
+    "start": 12.14,
+    "end": 12.4,
+    "id": "w22"
+  },
+  {
+    "text": "gümrük",
+    "start": 12.54,
+    "end": 12.96,
+    "id": "w23"
+  },
+  {
+    "text": "vergisi",
+    "start": 12.96,
+    "end": 13.62,
+    "id": "w24"
+  },
+  {
+    "text": "artı",
+    "start": 13.62,
+    "end": 13.86,
+    "id": "w25"
+  },
+  {
+    "text": "1000",
+    "start": 13.87,
+    "end": 14.5,
+    "id": "w26"
+  },
+  {
+    "text": "dolar",
+    "start": 14.73,
+    "end": 14.91,
+    "id": "w27"
+  },
+  {
+    "text": "yazılım.",
+    "start": 14.91,
+    "end": 15.39,
+    "id": "w28"
+  },
+  {
+    "text": "Toplam",
+    "start": 15.51,
+    "end": 16.02,
+    "id": "w29"
+  },
+  {
+    "text": "11",
+    "start": 16.02,
+    "end": 16.23,
+    "id": "w30"
+  },
+  {
+    "text": "dolar.",
+    "start": 16.75,
+    "end": 17.4,
+    "id": "w31"
+  }
+]

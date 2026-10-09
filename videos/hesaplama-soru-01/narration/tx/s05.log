@@ -1,0 +1,7 @@
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":9.6024375}
+{"type":"words","model":"small","words":[{"text":"Birinci","start":0,"end":0.635},{"text":"adım.","start":0.635,"end":1.089},{"text":"Gümrük","start":1.089,"end":1.634},{"text":"vergisi.","start":1.634,"end":2.36}],"through":2.36}
+{"type":"words","model":"small","words":[{"text":"Gümrük","start":2.36,"end":2.878},{"text":"vergisi","start":2.878,"end":3.481},{"text":"matrı","start":3.481,"end":3.913},{"text":"sadece","start":3.913,"end":4.43},{"text":"10","start":4.43,"end":4.603},{"text":"dolar.","start":4.603,"end":5.12}],"through":5.12}
+{"type":"words","model":"small","words":[{"text":"10","start":5.12,"end":5.352},{"text":"doların","start":5.352,"end":6.166},{"text":"%10'u","start":6.166,"end":6.747},{"text":"1","start":6.747,"end":6.863},{"text":"dolar.","start":6.863,"end":7.56}],"through":7.56}
+{"type":"words","model":"small","words":[{"text":"Gümrük","start":7.56,"end":8.189},{"text":"vergimiz","start":8.189,"end":9.027},{"text":"1","start":9.027,"end":9.131},{"text":"dolar.","start":9.131,"end":9.76}],"through":9.76}
+{"type":"progress","phase":"transcription","model":"small","status":"completed"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":19,"durationSeconds":9.76,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/hesaplama-soru-01/narration/transcript.json"}

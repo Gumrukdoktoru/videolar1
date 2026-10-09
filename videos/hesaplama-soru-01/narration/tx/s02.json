@@ -1,0 +1,326 @@
+[
+  {
+    "text": "Önce",
+    "start": 0.05,
+    "end": 0.29,
+    "id": "w0"
+  },
+  {
+    "text": "soruyu",
+    "start": 0.29,
+    "end": 0.75,
+    "id": "w1"
+  },
+  {
+    "text": "okuyalım.",
+    "start": 0.75,
+    "end": 1.56,
+    "id": "w2"
+  },
+  {
+    "text": "İtalatçı",
+    "start": 1.61,
+    "end": 2.33,
+    "id": "w3"
+  },
+  {
+    "text": "A",
+    "start": 2.46,
+    "end": 2.47,
+    "id": "w4"
+  },
+  {
+    "text": "firması",
+    "start": 2.47,
+    "end": 3.22,
+    "id": "w5"
+  },
+  {
+    "text": "yurt",
+    "start": 3.22,
+    "end": 3.52,
+    "id": "w6"
+  },
+  {
+    "text": "dışından",
+    "start": 3.52,
+    "end": 4.16,
+    "id": "w7"
+  },
+  {
+    "text": "CD",
+    "start": 4.16,
+    "end": 4.35,
+    "id": "w8"
+  },
+  {
+    "text": "üzerine",
+    "start": 4.35,
+    "end": 4.98,
+    "id": "w9"
+  },
+  {
+    "text": "kaydedilmiş",
+    "start": 5.11,
+    "end": 6.12,
+    "id": "w10"
+  },
+  {
+    "text": "ve",
+    "start": 6.12,
+    "end": 6.25,
+    "id": "w11"
+  },
+  {
+    "text": "bilgisayarlarda",
+    "start": 6.31,
+    "end": 7.16,
+    "id": "w12"
+  },
+  {
+    "text": "kullanılacak",
+    "start": 7.16,
+    "end": 7.84,
+    "id": "w13"
+  },
+  {
+    "text": "bir",
+    "start": 7.84,
+    "end": 8.06,
+    "id": "w14"
+  },
+  {
+    "text": "yazılım",
+    "start": 8.06,
+    "end": 8.56,
+    "id": "w15"
+  },
+  {
+    "text": "ithal",
+    "start": 8.56,
+    "end": 8.92,
+    "id": "w16"
+  },
+  {
+    "text": "ediyor.",
+    "start": 8.92,
+    "end": 9.42,
+    "id": "w17"
+  },
+  {
+    "text": "Fatura'da",
+    "start": 9.47,
+    "end": 10.1,
+    "id": "w18"
+  },
+  {
+    "text": "iki",
+    "start": 10.1,
+    "end": 10.33,
+    "id": "w19"
+  },
+  {
+    "text": "kalem",
+    "start": 10.33,
+    "end": 10.71,
+    "id": "w20"
+  },
+  {
+    "text": "var.",
+    "start": 10.96,
+    "end": 10.98,
+    "id": "w21"
+  },
+  {
+    "text": "Taşıyıcı",
+    "start": 11.03,
+    "end": 11.75,
+    "id": "w22"
+  },
+  {
+    "text": "ortamın",
+    "start": 11.75,
+    "end": 12.28,
+    "id": "w23"
+  },
+  {
+    "text": "yani",
+    "start": 12.61,
+    "end": 12.83,
+    "id": "w24"
+  },
+  {
+    "text": "CD'nin",
+    "start": 12.83,
+    "end": 13.41,
+    "id": "w25"
+  },
+  {
+    "text": "kıymeti",
+    "start": 13.41,
+    "end": 14.09,
+    "id": "w26"
+  },
+  {
+    "text": "10",
+    "start": 14.09,
+    "end": 14.68,
+    "id": "w27"
+  },
+  {
+    "text": "ABD",
+    "start": 14.68,
+    "end": 14.97,
+    "id": "w28"
+  },
+  {
+    "text": "doları,",
+    "start": 14.97,
+    "end": 15.81,
+    "id": "w29"
+  },
+  {
+    "text": "yazılımın",
+    "start": 15.81,
+    "end": 16.34,
+    "id": "w30"
+  },
+  {
+    "text": "kıymeti",
+    "start": 16.46,
+    "end": 16.84,
+    "id": "w31"
+  },
+  {
+    "text": "ise",
+    "start": 16.84,
+    "end": 17.03,
+    "id": "w32"
+  },
+  {
+    "text": "1000",
+    "start": 17.03,
+    "end": 17.82,
+    "id": "w33"
+  },
+  {
+    "text": "ABD",
+    "start": 17.82,
+    "end": 18.01,
+    "id": "w34"
+  },
+  {
+    "text": "doları.",
+    "start": 18.01,
+    "end": 18.66,
+    "id": "w35"
+  },
+  {
+    "text": "Gümrük",
+    "start": 18.71,
+    "end": 19.14,
+    "id": "w36"
+  },
+  {
+    "text": "vergisi",
+    "start": 19.14,
+    "end": 19.7,
+    "id": "w37"
+  },
+  {
+    "text": "oranı",
+    "start": 19.7,
+    "end": 20.1,
+    "id": "w38"
+  },
+  {
+    "text": "%10,",
+    "start": 20.18,
+    "end": 21,
+    "id": "w39"
+  },
+  {
+    "text": "KDV",
+    "start": 21,
+    "end": 21.42,
+    "id": "w40"
+  },
+  {
+    "text": "oranı",
+    "start": 21.42,
+    "end": 22.08,
+    "id": "w41"
+  },
+  {
+    "text": "%18.",
+    "start": 22.21,
+    "end": 23.16,
+    "id": "w42"
+  },
+  {
+    "text": "Bizden",
+    "start": 23.21,
+    "end": 23.66,
+    "id": "w43"
+  },
+  {
+    "text": "istenen",
+    "start": 23.66,
+    "end": 24.26,
+    "id": "w44"
+  },
+  {
+    "text": "ödenmesi",
+    "start": 24.27,
+    "end": 24.96,
+    "id": "w45"
+  },
+  {
+    "text": "gereken",
+    "start": 24.96,
+    "end": 25.56,
+    "id": "w46"
+  },
+  {
+    "text": "gümrük",
+    "start": 25.56,
+    "end": 25.97,
+    "id": "w47"
+  },
+  {
+    "text": "vergisi",
+    "start": 26.08,
+    "end": 26.58,
+    "id": "w48"
+  },
+  {
+    "text": "ve",
+    "start": 26.71,
+    "end": 26.83,
+    "id": "w49"
+  },
+  {
+    "text": "KDV",
+    "start": 26.83,
+    "end": 27.07,
+    "id": "w50"
+  },
+  {
+    "text": "toplamı",
+    "start": 27.07,
+    "end": 27.67,
+    "id": "w51"
+  },
+  {
+    "text": "dolar",
+    "start": 27.67,
+    "end": 28.1,
+    "id": "w52"
+  },
+  {
+    "text": "olarak.",
+    "start": 28.1,
+    "end": 28.74,
+    "id": "w53"
+  }
+]

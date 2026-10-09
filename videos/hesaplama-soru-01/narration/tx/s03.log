@@ -1,0 +1,6 @@
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":22.0824375}
+{"type":"words","model":"small","words":[{"text":"Şıklarımız","start":0,"end":0.688},{"text":"şöyle.","start":0.688,"end":1.1}],"through":1.1}
+{"type":"words","model":"small","words":[{"text":"Videoyu","start":19.42,"end":19.92},{"text":"durdurun","start":19.92,"end":20.491},{"text":"ve","start":20.491,"end":20.634},{"text":"önce","start":20.634,"end":20.92},{"text":"kendiniz","start":20.92,"end":21.491},{"text":"çözün.","start":21.491,"end":21.92}],"through":21.92}
+{"type":"words","model":"small","words":[],"through":22.0824375}
+{"type":"progress","phase":"transcription","model":"small","status":"completed"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":8,"durationSeconds":21.92,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/hesaplama-soru-01/narration/transcript.json"}
