@@ -1,0 +1,6 @@
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":12.0824375}
+{"type":"words","model":"small","words":[{"text":"11.520","start":0,"end":0.984},{"text":"lira","start":0.984,"end":1.64},{"text":"eksik","start":1.64,"end":2.46},{"text":"vergi,","start":2.46,"end":3.444},{"text":"artı","start":3.444,"end":4.1},{"text":"34.560","start":4.1,"end":5.084},{"text":"lira","start":5.084,"end":5.74},{"text":"ceza.","start":5.74,"end":6.56}],"through":6.56}
+{"type":"words","model":"small","words":[{"text":"Uzlaşmaya","start":6.56,"end":7.47},{"text":"konu","start":7.47,"end":7.875},{"text":"toplam","start":7.875,"end":8.482},{"text":"tutar","start":8.482,"end":8.987},{"text":"46.080","start":8.987,"end":9.594},{"text":"lira.","start":9.594,"end":10.1}],"through":10.1}
+{"type":"words","model":"small","words":[{"text":"Doğru","start":10.1,"end":10.688},{"text":"cevap","start":10.688,"end":11.276},{"text":"D","start":11.276,"end":11.394},{"text":"şıkkı.","start":11.394,"end":12.1}],"through":12.1}
+{"type":"progress","phase":"transcription","model":"small","status":"completed"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":18,"durationSeconds":12.1,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/hesaplama-soru-02/narration/transcript.json"}

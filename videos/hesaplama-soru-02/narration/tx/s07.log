@@ -1,0 +1,8 @@
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":12.5624375}
+{"type":"words","model":"small","words":[{"text":"3.","start":0,"end":0.333},{"text":"Adım","start":0.333,"end":1}],"through":1}
+{"type":"words","model":"small","words":[{"text":"Ceza","start":1,"end":2}],"through":2}
+{"type":"words","model":"small","words":[{"text":"Gümrük","start":2,"end":2.51},{"text":"Kanunu'nun","start":2.51,"end":3.359},{"text":"234.","start":3.359,"end":3.699},{"text":"Maddesine","start":3.699,"end":4.463},{"text":"göre","start":4.463,"end":4.803},{"text":"eksik","start":4.803,"end":5.227},{"text":"vergilerin","start":5.227,"end":6.077},{"text":"3","start":6.077,"end":6.162},{"text":"katı","start":6.162,"end":6.501},{"text":"para","start":6.501,"end":6.841},{"text":"cezası","start":6.841,"end":7.351},{"text":"uygulanır.","start":7.351,"end":8.2}],"through":8.2}
+{"type":"words","model":"small","words":[{"text":"11.520","start":8.2,"end":10.06},{"text":"x","start":10.06,"end":10.37},{"text":"3","start":10.37,"end":10.68}],"through":10.68}
+{"type":"words","model":"small","words":[{"text":"34.560","start":10.68,"end":11.88},{"text":"lira","start":11.88,"end":12.68}],"through":12.68}
+{"type":"progress","phase":"transcription","model":"small","status":"completed"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":20,"durationSeconds":12.68,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/hesaplama-soru-02/narration/transcript.json"}

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s11 { position: absolute; inset: 0; overflow: hidden; }
+        #s11 .stage { position: absolute; inset: 0; }
+
+#s11 .top { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:24px; }
+#s11 .top .kicker { font-size:26px; color:#FFE27A; }
+#s11 .cmp { position:absolute; left:600px; top:250px; width:1220px; height:214px; display:flex; align-items:stretch; gap:22px; }
+#s11 .cmp .side { flex:1; padding:18px 26px; position:relative; }
+#s11 .cmp .side small { display:block; font:700 20px 'JetBrains Mono'; letter-spacing:.1em; }
+#s11 .cmp .side b { display:block; font:900 28px/1.2 Montserrat; color:var(--fg); margin-top:6px; }
+#s11 .cmp .side .v { display:flex; align-items:baseline; gap:12px; margin-top:12px; white-space:nowrap; }
+#s11 .cmp .side .v span { font:700 30px 'JetBrains Mono'; color:var(--muted); }
+#s11 .cmp .side .v strong { font-family:'Archivo Black'; font-size:62px; line-height:1; display:inline-block; }
+#s11 .cmp .s1 small { color:#FF8A96; } #s11 .cmp .s1 .v strong { color:#FFB3BB; }
+#s11 .cmp .s1 .sk { position:absolute; left:20px; bottom:58px; width:330px; height:6px; background:var(--uyari); border-radius:3px; transform-origin:left center; transform:rotate(-4deg); }
+#s11 .cmp .s2 { border-color:var(--ok); background:rgba(46,212,122,.10); }
+#s11 .cmp .s2 small { color:var(--ok); } #s11 .cmp .s2 .v strong { color:#DFFFEF; }
+#s11 .cmp .arr { align-self:center; color:var(--fg); flex:none; }
+#s11 .fm { position:absolute; left:600px; top:500px; width:1220px; height:350px; padding:26px 34px; border-radius:24px;
+  background:linear-gradient(180deg, rgba(255,197,61,.14), rgba(255,197,61,.04)); border:4px solid var(--gold); }
+#s11 .fm .kicker { color:var(--gold); }
+#s11 .fm .row { display:flex; align-items:center; gap:18px; margin-top:22px; }
+#s11 .fm .kf { width:220px; height:220px; border-radius:50%; flex:none; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  background:radial-gradient(circle at 35% 30%, #5B3FA8, #2A1A5E); box-shadow:inset 0 0 0 4px rgba(205,180,255,.6); color:#E2D3FF; }
+#s11 .fm .kf b { font:900 26px/1.05 Montserrat; color:#fff; text-align:center; margin-top:4px; }
+#s11 .fm .tiles { display:grid; grid-template-columns:repeat(2, 1fr); gap:16px; flex:1; }
+#s11 .fm .tl { display:flex; align-items:center; gap:16px; height:102px; padding:0 22px; border-radius:18px; font:900 30px Montserrat; white-space:nowrap; }
+#s11 .fm .tl .m { width:58px; height:58px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex:none; }
+#s11 .fm .tl small { font:700 20px 'JetBrains Mono'; margin-left:auto; letter-spacing:.06em; }
+#s11 .fm .no { background:rgba(255,77,94,.13); border:3px solid var(--uyari); color:#FFE3E6; }
+#s11 .fm .no .m { background:var(--uyari); color:#2a0a0e; } #s11 .fm .no small { color:#FF8A96; }
+#s11 .fm .ok { background:rgba(46,212,122,.14); border:3px solid var(--ok); color:#DFFFEF; }
+#s11 .fm .ok .m { background:var(--ok); color:#03221a; } #s11 .fm .ok small { color:var(--ok); }
+
+      </style>
+      <div id="s11" data-composition-id="s11" data-width="1920" data-height="1080" data-duration="21.271">
+        <div class="stage">
+
+<div class="top"><div class="badge b-ipucu badge-big"><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-4 12.7V18h8v-2.8A7 7 0 0 0 12 2.5z" fill="currentColor"/><path d="M9 20.5h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></span><span class="bt">İPUCU</span></div><div class="kicker">KOÇUN NOTU · ÖNCE SEN BİLDİR</div></div>
+<div class="cmp">
+  <div class="side s1 card"><small>İDARE TESPİT EDERSE</small><b>Ceza: eksik vergi × 3</b><div class="v"><strong>34.560</strong><span>TL</span></div><i class="sk"></i></div>
+  <div class="arr"><svg class="ico " viewBox="0 0 24 24" width="70" height="70" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="side s2 card"><small>FİRMA ÖNCE BİLDİRİRSE · GK 234/3</small><b>Ceza %10 nispetinde</b><div class="v"><strong class="cnt">0</strong><span>TL</span></div></div>
+</div>
+<div class="fm"><div class="kicker">AKILDA TUT · KÜLTÜR FONU FORMÜLÜ</div>
+  <div class="row"><div class="kf"><svg class="ico " viewBox="0 0 24 24" width="70" height="70" aria-hidden="true"><path d="M2.5 3.5h11v6.5a5.5 5.5 0 0 1-11 0z" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/><path d="M5.6 7.6h.01M10.4 7.6h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M5.6 11a3 3 0 0 0 4.8 0" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><path d="M15.5 8.5h6v5.5a5.5 5.5 0 0 1-9.4 3.9" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/><path d="M16.6 15.6a3 3 0 0 1 3.8 0" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg><b>KÜLTÜR<br/>FONU</b></div>
+    <div class="tiles">
+      <div class="tl no t1"><span class="m"><svg class="ico " viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span>Kıymete<small>GİRMEZ</small></div>
+      <div class="tl ok t2"><span class="m"><svg class="ico " viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Vergiye<small>ÖTV · KDV</small></div>
+      <div class="tl no t3"><span class="m"><svg class="ico " viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span>Cezaya<small>GİRMEZ</small></div>
+      <div class="tl no t4"><span class="m"><svg class="ico " viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span>Uzlaşmaya<small>GİRMEZ</small></div>
+    </div></div>
+</div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s11";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 21.271;
+const K = {"koc": 0.6, "ayni": 1.58, "once": 3.94, "yuzde": 7.56, "yani": 9.93, "yerine": 11.93, "uc": 12.45, "form": 14.37, "kiy": 16.38, "verg": 17.57, "cez": 18.64, "uzl": 19.21};
+
+
+tl.fromTo(q(".top .badge"), { scale: 0.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2.4)" }, K.koc);
+rise(".top .kicker", K.koc + 0.3, 0, 20);
+slideX(".cmp .s1", K.ayni, -60);
+tl.fromTo(q(".cmp .arr"), { x: -30, opacity: 0 }, { x: 0, opacity: 1, duration: 0.4, ease: "power2.out" }, K.once);
+slideX(".cmp .s2", K.once + 0.2, 60);
+fadeTo(".cmp .s2 .v", 0.01, 0, 0.01);
+pulse(".cmp .s2 b", K.yuzde, 1.08);
+strike(".cmp .s1 .sk", K.yerine, 0.4);
+fadeTo(".cmp .s1", K.yerine + 0.3, 0.55, 0.4);
+fadeIn(".cmp .s2 .v", K.uc - 0.3, 0.2);
+count(".cmp .s2 .cnt", K.uc - 0.3, 0, 3456, 0.9, 0);
+pulse(".cmp .s2 .v strong", K.uc + 0.8, 1.15);
+tl.fromTo(q(".fm"), { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.5)" }, K.form);
+tl.fromTo(q(".fm .kf"), { rotation: -40, scale: 0.6 }, { rotation: 0, scale: 1, duration: 0.7, ease: "back.out(1.8)" }, K.form + 0.1);
+pop(".fm .t1", K.kiy - 0.1);
+pop(".fm .t2", K.verg - 0.1);
+pop(".fm .t3", K.cez - 0.1);
+pop(".fm .t4", K.uzl - 0.1);
+
+exitAll(20.85);
+window.__timelines["s11"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

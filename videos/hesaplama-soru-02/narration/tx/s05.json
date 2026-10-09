@@ -1,0 +1,218 @@
+[
+  {
+    "text": "1.",
+    "start": 0.1,
+    "end": 0.59,
+    "id": "w0"
+  },
+  {
+    "text": "Adım.",
+    "start": 0.59,
+    "end": 1.19,
+    "id": "w1"
+  },
+  {
+    "text": "Kıymeti",
+    "start": 1.19,
+    "end": 1.62,
+    "id": "w2"
+  },
+  {
+    "text": "liraya",
+    "start": 1.62,
+    "end": 1.99,
+    "id": "w3"
+  },
+  {
+    "text": "çevirelim.",
+    "start": 1.99,
+    "end": 2.8,
+    "id": "w4"
+  },
+  {
+    "text": "$40.000",
+    "start": 2.86,
+    "end": 4.01,
+    "id": "w5"
+  },
+  {
+    "text": "çarpı",
+    "start": 4.01,
+    "end": 4.32,
+    "id": "w6"
+  },
+  {
+    "text": "30,",
+    "start": 4.32,
+    "end": 4.8,
+    "id": "w7"
+  },
+  {
+    "text": "$1.200.000",
+    "start": 4.8,
+    "end": 6.29,
+    "id": "w8"
+  },
+  {
+    "text": "lira.",
+    "start": 6.29,
+    "end": 6.54,
+    "id": "w9"
+  },
+  {
+    "text": "Gümrük",
+    "start": 6.6,
+    "end": 6.98,
+    "id": "w10"
+  },
+  {
+    "text": "vergisi",
+    "start": 6.98,
+    "end": 7.5,
+    "id": "w11"
+  },
+  {
+    "text": "oranı",
+    "start": 7.63,
+    "end": 7.87,
+    "id": "w12"
+  },
+  {
+    "text": "%0",
+    "start": 7.87,
+    "end": 8.16,
+    "id": "w13"
+  },
+  {
+    "text": "olduğu",
+    "start": 8.16,
+    "end": 8.61,
+    "id": "w14"
+  },
+  {
+    "text": "için",
+    "start": 8.61,
+    "end": 8.88,
+    "id": "w15"
+  },
+  {
+    "text": "ek",
+    "start": 8.9,
+    "end": 8.94,
+    "id": "w16"
+  },
+  {
+    "text": "gümrük",
+    "start": 9.13,
+    "end": 9.5,
+    "id": "w17"
+  },
+  {
+    "text": "vergisi",
+    "start": 9.5,
+    "end": 10.02,
+    "id": "w18"
+  },
+  {
+    "text": "yok.",
+    "start": 10.02,
+    "end": 10.58,
+    "id": "w19"
+  },
+  {
+    "text": "Eksik",
+    "start": 10.64,
+    "end": 10.98,
+    "id": "w20"
+  },
+  {
+    "text": "ödenen",
+    "start": 10.98,
+    "end": 11.47,
+    "id": "w21"
+  },
+  {
+    "text": "kültür",
+    "start": 11.63,
+    "end": 11.93,
+    "id": "w22"
+  },
+  {
+    "text": "fonu,",
+    "start": 12.04,
+    "end": 12.45,
+    "id": "w23"
+  },
+  {
+    "text": "$1.200.000",
+    "start": 12.45,
+    "end": 14.08,
+    "id": "w24"
+  },
+  {
+    "text": "liranın",
+    "start": 14.08,
+    "end": 14.4,
+    "id": "w25"
+  },
+  {
+    "text": "%3'ü,",
+    "start": 14.48,
+    "end": 15,
+    "id": "w26"
+  },
+  {
+    "text": "$36.000",
+    "start": 15,
+    "end": 15.9,
+    "id": "w27"
+  },
+  {
+    "text": "lira.",
+    "start": 15.9,
+    "end": 16.13,
+    "id": "w28"
+  },
+  {
+    "text": "Bu",
+    "start": 16.24,
+    "end": 16.25,
+    "id": "w29"
+  },
+  {
+    "text": "tutar,",
+    "start": 16.25,
+    "end": 16.64,
+    "id": "w30"
+  },
+  {
+    "text": "ilgili",
+    "start": 16.64,
+    "end": 16.81,
+    "id": "w31"
+  },
+  {
+    "text": "kuruma",
+    "start": 17.15,
+    "end": 17.32,
+    "id": "w32"
+  },
+  {
+    "text": "bildirilir.",
+    "start": 17.32,
+    "end": 18.04,
+    "id": "w33"
+  },
+  {
+    "text": "Uzlaşmaya",
+    "start": 18.1,
+    "end": 18.54,
+    "id": "w34"
+  },
+  {
+    "text": "girmez.",
+    "start": 18.96,
+    "end": 19.44,
+    "id": "w35"
+  }
+]

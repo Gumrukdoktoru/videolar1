@@ -1,0 +1,31 @@
+BAŞLIK
+Kültür Fonu Uzlaşmaya Girer mi? | Eksik Vergi, 3 Kat Ceza ve Uzlaşma | Vergi Hesaplama Dersi #2 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin ikincisinde çok sevilen bir tuzağı çözüyoruz: kültür fonu. Sonradan kontrolde, 40.000 ABD Doları kıymetli bir ithalatta kültür fonunun hiç ödenmediği ortaya çıkıyor. Gümrük vergisi %0, ÖTV %10, KDV %20, kültür fonu %3, kur 30 TL. Firma uzlaşabileceği her tutar için başvuruyor. Uzlaşmaya konu tutar ne kadar?
+
+Bu derste:
+• Kültür fonunun iki özelliğini: gümrük kıymetine girmez ama ÖTV ve KDV matrahına girer; aslı gümrük idaresince tahsil edilmediği için uzlaşmaya konu edilemez,
+• Kültür fonu (36.000 TL), eksik ÖTV (3.600 TL), eksik KDV (7.920 TL) ve toplam eksik vergiyi (11.520 TL) adım adım,
+• Gümrük Kanunu md. 234'e göre 3 kat para cezasını (34.560 TL),
+• Doğru cevabı (D · 46.080 TL) ve diğer dört şıkkın hangi hatadan geldiğini,
+• Gümrük Uzlaşma Yönetmeliği md. 6: uzlaşmaya konu olamayan alacakları,
+• Fark idare tespit etmeden önce bildirilirse cezanın %10 nispetinde uygulanmasını (3.456 TL)
+şemalar ve örneklerle anlatıyoruz.
+
+BÖLÜMLER
+0:00 Giriş
+0:18 Soru ve şıklar
+1:20 Anahtar kural: kültür fonunun iki özelliği
+1:44 Adım adım çözüm
+2:59 Tuzak şıklar
+3:26 Uyarı: uzlaşmaya konu olamayan alacaklar
+3:48 Koçun notu: önce sen bildir
+4:09 Özet
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir; somut işlemlerde güncel mevzuat ve idarenin görüşleri esas alınmalıdır.
+
+ETİKETLER
+kültür fonu, gümrük uzlaşma, uzlaşma yönetmeliği, eksik vergi, para cezası, Gümrük Kanunu 234. madde, ÖTV matrahı, KDV matrahı, gümrük müşavirliği sınavı, gümrük müşavir yardımcılığı, vergi hesaplama, Gümrük Koçu
+
+#gümrük #uzlaşma #kültürfonu #GümrükKoçu

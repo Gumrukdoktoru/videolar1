@@ -1,0 +1,302 @@
+[
+  {
+    "text": "Hazırsanız",
+    "start": 0.11,
+    "end": 0.84,
+    "id": "w0"
+  },
+  {
+    "text": "başlayalım.",
+    "start": 0.84,
+    "end": 1.73,
+    "id": "w1"
+  },
+  {
+    "text": "Bu",
+    "start": 2.07,
+    "end": 2.13,
+    "id": "w2"
+  },
+  {
+    "text": "sorunun",
+    "start": 2.13,
+    "end": 2.7,
+    "id": "w3"
+  },
+  {
+    "text": "anahtarı",
+    "start": 2.7,
+    "end": 3.42,
+    "id": "w4"
+  },
+  {
+    "text": "kültür",
+    "start": 3.42,
+    "end": 3.89,
+    "id": "w5"
+  },
+  {
+    "text": "fonunun",
+    "start": 4.03,
+    "end": 4.43,
+    "id": "w6"
+  },
+  {
+    "text": "iki",
+    "start": 4.43,
+    "end": 4.62,
+    "id": "w7"
+  },
+  {
+    "text": "özelliği.",
+    "start": 4.66,
+    "end": 5.4,
+    "id": "w8"
+  },
+  {
+    "text": "Bir,",
+    "start": 5.51,
+    "end": 6.3,
+    "id": "w9"
+  },
+  {
+    "text": "kültür",
+    "start": 6.39,
+    "end": 6.71,
+    "id": "w10"
+  },
+  {
+    "text": "fonu",
+    "start": 6.71,
+    "end": 6.97,
+    "id": "w11"
+  },
+  {
+    "text": "yurt",
+    "start": 6.97,
+    "end": 7.13,
+    "id": "w12"
+  },
+  {
+    "text": "içinde",
+    "start": 7.47,
+    "end": 7.61,
+    "id": "w13"
+  },
+  {
+    "text": "doğan",
+    "start": 7.61,
+    "end": 7.93,
+    "id": "w14"
+  },
+  {
+    "text": "bir",
+    "start": 7.93,
+    "end": 8.12,
+    "id": "w15"
+  },
+  {
+    "text": "yük",
+    "start": 8.12,
+    "end": 8.29,
+    "id": "w16"
+  },
+  {
+    "text": "olduğu",
+    "start": 8.31,
+    "end": 8.7,
+    "id": "w17"
+  },
+  {
+    "text": "için",
+    "start": 8.7,
+    "end": 9.04,
+    "id": "w18"
+  },
+  {
+    "text": "gümrük",
+    "start": 9.04,
+    "end": 9.36,
+    "id": "w19"
+  },
+  {
+    "text": "kıymetine",
+    "start": 9.36,
+    "end": 9.81,
+    "id": "w20"
+  },
+  {
+    "text": "girmez.",
+    "start": 9.9,
+    "end": 10.39,
+    "id": "w21"
+  },
+  {
+    "text": "Ama",
+    "start": 10.51,
+    "end": 10.78,
+    "id": "w22"
+  },
+  {
+    "text": "ÖTV",
+    "start": 10.78,
+    "end": 11.15,
+    "id": "w23"
+  },
+  {
+    "text": "ve",
+    "start": 11.15,
+    "end": 11.4,
+    "id": "w24"
+  },
+  {
+    "text": "KDV",
+    "start": 11.4,
+    "end": 11.76,
+    "id": "w25"
+  },
+  {
+    "text": "matrahına",
+    "start": 11.76,
+    "end": 12.89,
+    "id": "w26"
+  },
+  {
+    "text": "girer.",
+    "start": 12.89,
+    "end": 13.6,
+    "id": "w27"
+  },
+  {
+    "text": "İki,",
+    "start": 13.68,
+    "end": 14,
+    "id": "w28"
+  },
+  {
+    "text": "kültür",
+    "start": 14,
+    "end": 14.46,
+    "id": "w29"
+  },
+  {
+    "text": "fonunun",
+    "start": 14.48,
+    "end": 14.98,
+    "id": "w30"
+  },
+  {
+    "text": "aslı",
+    "start": 15.03,
+    "end": 15.33,
+    "id": "w31"
+  },
+  {
+    "text": "gümrük",
+    "start": 15.35,
+    "end": 15.84,
+    "id": "w32"
+  },
+  {
+    "text": "idaresince",
+    "start": 15.84,
+    "end": 16.64,
+    "id": "w33"
+  },
+  {
+    "text": "tahsil",
+    "start": 16.64,
+    "end": 16.9,
+    "id": "w34"
+  },
+  {
+    "text": "edilmez.",
+    "start": 17.13,
+    "end": 17.76,
+    "id": "w35"
+  },
+  {
+    "text": "Bu",
+    "start": 17.87,
+    "end": 17.89,
+    "id": "w36"
+  },
+  {
+    "text": "yüzden",
+    "start": 17.89,
+    "end": 18.29,
+    "id": "w37"
+  },
+  {
+    "text": "uzlaşmaya",
+    "start": 18.29,
+    "end": 18.88,
+    "id": "w38"
+  },
+  {
+    "text": "konu",
+    "start": 18.88,
+    "end": 19.14,
+    "id": "w39"
+  },
+  {
+    "text": "edilemez.",
+    "start": 19.14,
+    "end": 19.92,
+    "id": "w40"
+  },
+  {
+    "text": "Gümrük",
+    "start": 19.99,
+    "end": 20.33,
+    "id": "w41"
+  },
+  {
+    "text": "vergisi",
+    "start": 20.33,
+    "end": 20.76,
+    "id": "w42"
+  },
+  {
+    "text": "sayılmadığı",
+    "start": 20.91,
+    "end": 21.6,
+    "id": "w43"
+  },
+  {
+    "text": "için",
+    "start": 21.6,
+    "end": 21.65,
+    "id": "w44"
+  },
+  {
+    "text": "ona",
+    "start": 21.99,
+    "end": 22.09,
+    "id": "w45"
+  },
+  {
+    "text": "üç",
+    "start": 22.09,
+    "end": 22.23,
+    "id": "w46"
+  },
+  {
+    "text": "kat",
+    "start": 22.23,
+    "end": 22.44,
+    "id": "w47"
+  },
+  {
+    "text": "cezada",
+    "start": 22.44,
+    "end": 22.84,
+    "id": "w48"
+  },
+  {
+    "text": "uygulanmaz.",
+    "start": 22.93,
+    "end": 23.88,
+    "id": "w49"
+  }
+]

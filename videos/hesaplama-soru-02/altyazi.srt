@@ -1,0 +1,467 @@
+1
+00:00:01,680 --> 00:00:04,560
+Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama
+
+2
+00:00:04,560 --> 00:00:07,020
+derslerinin ikincisine hoş geldiniz.
+
+3
+00:00:07,020 --> 00:00:09,300
+Bugünkü konu çok sevilen bir tuzak:
+
+4
+00:00:09,300 --> 00:00:11,420
+kültür fonu, eksik vergi,
+
+5
+00:00:11,420 --> 00:00:12,860
+ceza ve uzlaşma.
+
+6
+00:00:12,860 --> 00:00:14,700
+Hangi tutar uzlaşmaya girer,
+
+7
+00:00:14,700 --> 00:00:15,860
+hangisi girmez?
+
+8
+00:00:15,860 --> 00:00:18,030
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:18,836 --> 00:00:20,176
+Önce soruyu okuyalım.
+
+10
+00:00:20,466 --> 00:00:23,946
+Gümrük idaresi, sonradan kontrolde K firmasının
+
+11
+00:00:23,946 --> 00:00:27,306
+40.000 ABD Doları kıymetli bir ithalatında,
+
+12
+00:00:27,306 --> 00:00:29,926
+kültür fonu kesintisinin hiç ödenmediğini tespit
+
+13
+00:00:29,926 --> 00:00:30,626
+ediyor.
+
+14
+00:00:30,626 --> 00:00:31,926
+İdare, kültür fonu için
+
+15
+00:00:32,276 --> 00:00:34,206
+ilgili kuruma bildirimde bulunuyor;
+
+16
+00:00:34,206 --> 00:00:37,036
+gümrük vergileri için ise ek tahakkuk ve ceza
+
+17
+00:00:37,036 --> 00:00:37,786
+uyguluyor.
+
+18
+00:00:37,786 --> 00:00:39,066
+Oranlar şöyle:
+
+19
+00:00:39,066 --> 00:00:42,666
+gümrük vergisi %0, ÖTV %10,
+
+20
+00:00:42,666 --> 00:00:46,236
+KDV %20, kültür fonu %3.
+
+21
+00:00:46,236 --> 00:00:46,996
+Kur:
+
+22
+00:00:46,996 --> 00:00:49,816
+1 ABD Doları, 30 Türk lirası.
+
+23
+00:00:49,816 --> 00:00:52,696
+Firma, uzlaşma isteyebileceği bütün tutarlar için
+
+24
+00:00:52,696 --> 00:00:53,666
+başvuracak.
+
+25
+00:00:53,666 --> 00:00:54,416
+Soru:
+
+26
+00:00:54,416 --> 00:00:56,426
+Uzlaşmaya konu tutar kaç lira?
+
+27
+00:00:57,420 --> 00:00:58,630
+Şıklarımız şöyle.
+
+28
+00:00:58,630 --> 00:01:01,530
+A şıkkı, 11.520.
+
+29
+00:01:01,530 --> 00:01:03,590
+B şıkkı, 36.000.
+
+30
+00:01:03,590 --> 00:01:06,030
+C şıkkı, 43.200.
+
+31
+00:01:06,030 --> 00:01:08,490
+D şıkkı, 46.080.
+
+32
+00:01:08,490 --> 00:01:11,170
+E şıkkı, 82.080.
+
+33
+00:01:11,640 --> 00:01:14,690
+Videoyu durdurun ve önce kendiniz çözün.
+
+34
+00:01:20,754 --> 00:01:22,624
+Hazırsanız başlayalım.
+
+35
+00:01:22,714 --> 00:01:26,154
+Bu sorunun anahtarı, kültür fonunun iki özelliği.
+
+36
+00:01:26,154 --> 00:01:27,034
+Bir:
+
+37
+00:01:27,034 --> 00:01:29,684
+Kültür fonu yurt içinde doğan bir yük olduğu için
+
+38
+00:01:29,684 --> 00:01:31,154
+gümrük kıymetine girmez;
+
+39
+00:01:31,154 --> 00:01:34,324
+ama ÖTV ve KDV matrahına girer.
+
+40
+00:01:34,324 --> 00:01:34,644
+İki:
+
+41
+00:01:34,644 --> 00:01:38,514
+Kültür fonunun aslı gümrük idaresince tahsil edilmez;
+
+42
+00:01:38,514 --> 00:01:40,634
+bu yüzden uzlaşmaya konu edilemez.
+
+43
+00:01:40,634 --> 00:01:43,284
+Gümrük vergisi sayılmadığı için ona 3 kat ceza
+
+44
+00:01:43,284 --> 00:01:44,692
+da uygulanmaz.
+
+45
+00:01:45,542 --> 00:01:46,632
+Birinci adım:
+
+46
+00:01:46,632 --> 00:01:48,302
+kıymeti liraya çevirelim.
+
+47
+00:01:48,302 --> 00:01:50,090
+40.000 dolar × 30:
+
+48
+00:01:50,090 --> 00:01:52,042
+1.200.000 lira.
+
+49
+00:01:52,042 --> 00:01:54,942
+Gümrük vergisi oranı %0 olduğu için ek gümrük
+
+50
+00:01:54,942 --> 00:01:56,082
+vergisi yok.
+
+51
+00:01:56,082 --> 00:01:57,892
+Eksik ödenen kültür fonu:
+
+52
+00:01:57,892 --> 00:02:00,490
+1.200.000 liranın %3'ü,
+
+53
+00:02:00,490 --> 00:02:01,682
+36.000 lira.
+
+54
+00:02:01,682 --> 00:02:03,542
+Bu tutar ilgili kuruma bildirilir;
+
+55
+00:02:03,542 --> 00:02:05,101
+uzlaşmaya girmez.
+
+56
+00:02:05,941 --> 00:02:06,891
+İkinci adım:
+
+57
+00:02:06,891 --> 00:02:08,511
+eksik vergiler.
+
+58
+00:02:08,511 --> 00:02:09,741
+Burada dikkat!
+
+59
+00:02:09,741 --> 00:02:13,631
+Kültür fonu ÖTV ve KDV matrahına girdiği için,
+
+60
+00:02:13,631 --> 00:02:16,291
+ödenmemesi bu vergileri de eksik bıraktı.
+
+61
+00:02:16,291 --> 00:02:17,721
+Eksik ÖTV:
+
+62
+00:02:17,721 --> 00:02:20,741
+36.000'in %10'u, 3.600 lira.
+
+63
+00:02:20,741 --> 00:02:22,091
+Eksik KDV'nin matrahı:
+
+64
+00:02:22,091 --> 00:02:26,431
+36.000 artı 3.600, 39.600.
+
+65
+00:02:26,431 --> 00:02:29,451
+Bunun %20'si, 7.920 lira.
+
+66
+00:02:29,451 --> 00:02:30,681
+Toplam eksik vergi:
+
+67
+00:02:30,681 --> 00:02:32,811
+11.520 lira.
+
+68
+00:02:33,749 --> 00:02:34,749
+Üçüncü adım:
+
+69
+00:02:34,749 --> 00:02:35,609
+ceza.
+
+70
+00:02:35,739 --> 00:02:38,749
+Gümrük Kanunu'nun 234'üncü maddesine göre,
+
+71
+00:02:38,749 --> 00:02:41,949
+eksik vergilerin 3 katı para cezası uygulanır.
+
+72
+00:02:41,949 --> 00:02:44,429
+11.520 × 3:
+
+73
+00:02:44,429 --> 00:02:46,379
+34.560 lira.
+
+74
+00:02:47,330 --> 00:02:47,828
+Ve sonuç:
+
+75
+00:02:47,828 --> 00:02:51,140
+11.520 lira eksik vergi,
+
+76
+00:02:51,140 --> 00:02:53,900
+artı 34.560 lira ceza.
+
+77
+00:02:53,900 --> 00:02:55,510
+Uzlaşmaya konu toplam tutar,
+
+78
+00:02:55,510 --> 00:02:57,440
+46.080 lira.
+
+79
+00:02:57,440 --> 00:02:58,470
+Doğru cevap:
+
+80
+00:02:58,470 --> 00:02:59,620
+D şıkkı!
+
+81
+00:03:00,571 --> 00:03:02,661
+Şimdi tuzaklara bakalım;
+
+82
+00:03:02,661 --> 00:03:05,231
+her yanlış şık, bir hatanın sonucu.
+
+83
+00:03:05,231 --> 00:03:08,071
+Cezayı unutup sadece eksik vergiyi yazan,
+
+84
+00:03:08,071 --> 00:03:11,141
+A şıkkına, 11.520'ye düşer.
+
+85
+00:03:11,141 --> 00:03:12,681
+Sadece kültür fonuna bakan,
+
+86
+00:03:12,681 --> 00:03:15,421
+B şıkkına, 36.000'e gider.
+
+87
+00:03:15,421 --> 00:03:18,411
+ÖTV'yi KDV matrahına eklemeyen,
+
+88
+00:03:18,411 --> 00:03:21,231
+C şıkkına, 43.200'e ulaşır.
+
+89
+00:03:21,231 --> 00:03:23,991
+Kültür fonunu da uzlaşmaya katan ise E şıkkına,
+
+90
+00:03:23,991 --> 00:03:26,267
+82.080'e düşer.
+
+91
+00:03:27,117 --> 00:03:28,407
+Bir uyarı daha:
+
+92
+00:03:28,427 --> 00:03:30,907
+Her alacak uzlaşmaya konu olmaz.
+
+93
+00:03:30,907 --> 00:03:32,937
+Gümrük Uzlaşma Yönetmeliğine göre,
+
+94
+00:03:32,937 --> 00:03:35,777
+gümrük vergilerinin matrahına giren ama aslı gümrük
+
+95
+00:03:35,777 --> 00:03:38,727
+idaresince takip ve tahsil edilmeyen vergi ve
+
+96
+00:03:38,727 --> 00:03:41,617
+benzeri mali yükler uzlaşmaya konu edilemez.
+
+97
+00:03:41,617 --> 00:03:44,437
+Tahsilat aşamasına gelmiş alacaklar ve kaçakçılık
+
+98
+00:03:44,437 --> 00:03:47,107
+suçlarına ilişkin alacaklar için de uzlaşma talep
+
+99
+00:03:47,107 --> 00:03:48,167
+edilemez.
+
+100
+00:03:49,091 --> 00:03:50,071
+Koçun notu:
+
+101
+00:03:50,071 --> 00:03:53,281
+Aynı farkı firma, idare tespit etmeden önce kendisi
+
+102
+00:03:53,281 --> 00:03:57,311
+bildirseydi, Gümrük Kanunu'na göre ceza %10 nispetinde
+
+103
+00:03:57,311 --> 00:03:58,421
+uygulanırdı.
+
+104
+00:03:58,421 --> 00:04:00,941
+Yani 34.560 lira yerine,
+
+105
+00:04:00,941 --> 00:04:02,861
+3.456 lira.
+
+106
+00:04:02,861 --> 00:04:04,281
+Formülü aklınızda tutun:
+
+107
+00:04:04,281 --> 00:04:06,061
+Kültür fonu kıymete girmez,
+
+108
+00:04:06,061 --> 00:04:07,131
+vergiye girer;
+
+109
+00:04:07,131 --> 00:04:09,462
+cezaya ve uzlaşmaya girmez.
+
+110
+00:04:10,262 --> 00:04:11,402
+Özetle:
+
+111
+00:04:11,402 --> 00:04:16,292
+Eksik vergi 11.520, ceza 34.560;
+
+112
+00:04:16,292 --> 00:04:18,612
+uzlaşmaya konu tutar, D şıkkı:
+
+113
+00:04:18,702 --> 00:04:20,472
+46.080 lira.
+
+114
+00:04:20,472 --> 00:04:23,472
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+115
+00:04:23,472 --> 00:04:24,252
+unutmayın.
+
+116
+00:04:24,252 --> 00:04:26,702
+Bir sonraki hesaplama dersinde görüşmek üzere,
+
+117
+00:04:26,702 --> 00:04:27,624
+hoşça kalın!
