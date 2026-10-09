@@ -155,7 +155,7 @@ S[1] = page(1, f'''
     <div><span class="n">5</span>Hazırlama &amp; vazgeçme</div>
     <div><span class="n">6</span>Değişiklik ne zaman kapanır?</div>
   </div>
-  <div class="tags"><span>GK 35/A</span><span>35/B</span><span>35/C</span><span>36</span><span>47</span><span>152</span><span>165/D</span><span>GY 67</span><span>GY 74</span></div>
+  <div class="tags"><span>GK 35/A</span><span>35/B</span><span>35/C</span><span>36</span><span>47</span><span>159</span><span>165/D</span><span>GY 67</span><span>GY 74</span></div>
 ''', cls="cov", hud_r="HEDEF <b>06</b> · TARAMA", bg=dict(cx=300, cy=900, R=330, sweep=-30, blips=cov_blips))
 
 # ---------------------------------------------------------------- questions

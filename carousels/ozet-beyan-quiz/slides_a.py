@@ -217,7 +217,7 @@ def build(page, ic, stamp):
         return f'<div class="trap {kind}">{stamp(kind, sub, rot=-5, scale=.64, label=label)}<p>{text}</p></div>'
 
     # ------------------------------------------------------------ A1
-    rows = [("A", "gate", "Serbest bölgeye doğrudan, TGB dışından", "GK 152 · açıkça sayılmış", "yes", "tr"),
+    rows = [("A", "gate", "Serbest bölgeye doğrudan, TGB dışından", "GK 159/3 · açıkça sayılmış", "yes", "tr"),
             ("B", "bulk", "Dökme hâlde denizyoluyla limana", "taşıma şekli = süre farkı", "yes", ""),
             ("C", "train", "Demiryoluyla TGB'ye", "taşıma şekli = süre farkı", "yes", ""),
             ("D", "plane", "Uzun mesafeli uçuşla havalimanına", "taşıma şekli = süre farkı", "yes", ""),
@@ -255,7 +255,7 @@ def build(page, ic, stamp):
   <div class="a1"><div class="paper mx"><div class="mxh"><span>ŞIK · GELİŞ ŞEKLİ</span><span>ÖZET BEYAN</span></div>{mrows}</div>
     <div class="brk sch">{sch}</div></div>
   <div class="note"><span class="tag">ÖNEMLİ</span><p>Taşıma şekli özet beyanı kaldırmaz; yalnızca <b>verilme süresini</b> değiştirir.</p></div>
-  {trap("<b>A · Serbest bölge:</b> Kanunun serbest bölgelere ilişkin hükmü (md. 152), serbest bölgeye <b>doğrudan TGB dışından</b> gelen eşya için de özet beyan verileceğini açıkça belirtir.")}
+  {trap("<b>A · Serbest bölge:</b> Kanunun serbest bölgelere ilişkin hükmü (md.&nbsp;159/3), serbest bölgeye <b>doğrudan TGB dışından</b> gelen eşya için de özet beyan verileceğini açıkça belirtir.")}
 ''', cls="a", hud_r="ÇÖZÜM <b>01</b>/06", active=1, bg=dict(cx=980, cy=1060, R=520, sweep=-130))
 
     # ------------------------------------------------------------ A2
@@ -401,7 +401,7 @@ def build(page, ic, stamp):
 ''', cls="a", hud_r="ÇÖZÜM <b>06</b>/06", active=6, bg=dict(cx=80, cy=420, R=560, sweep=10))
 
     # ------------------------------------------------------------ 14 mind map
-    nodes = [("l t1", "ship", "KAPSAM", "GK 35/A · 152",
+    nodes = [("l t1", "ship", "KAPSAM", "GK 35/A · 159",
               ["TGB'ye getirilen eşya → <b>özet beyan</b>", "İstisna: kara suları / hava sahasından <b>durmaksızın geçen</b> taşıt", "Serbest bölgeye doğrudan gelen eşya <b>dahil</b>"]),
              ("l t2", "clock", "YER &amp; ZAMAN", "GK 35/A · GY 67",
               ["<b>Giriş</b> gümrük idaresine, getirilmeden <b>önce</b>", "Demiryolu: varıştan <b>≥ 2 saat</b> önce", "Bildirim kabulü: <b>Müsteşarlık</b>"]),

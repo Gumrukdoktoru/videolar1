@@ -97,7 +97,7 @@ def skyline(y0=1150, uid="s"):
 def radar_bg(uid, cx=820, cy=300, R=560, sweep=-40, blips=(), port=True, tint="#0E2B4A"):
     gx = cx / W * 100
     gy = cy / H * 100
-    micro = ("ÖZET BEYAN · GÜMRÜK GÖZETİMİ · GK 35/A · 35/B · 35/C · 36 · 47 · 152 · GY 67 · 74 · ") * 6
+    micro = ("ÖZET BEYAN · GÜMRÜK GÖZETİMİ · GK 35/A · 35/B · 35/C · 36 · 47 · 159 · GY 67 · 74 · ") * 6
     return f'''<svg class="bgsvg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" aria-hidden="true">
   <defs>
     <radialGradient id="bg{uid}" cx="{gx:.1f}%" cy="{gy:.1f}%" r="95%"><stop offset="0" stop-color="{tint}"/><stop offset=".55" stop-color="#081528"/><stop offset="1" stop-color="#040A16"/></radialGradient>
