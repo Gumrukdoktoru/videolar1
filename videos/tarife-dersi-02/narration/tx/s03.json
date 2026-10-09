@@ -1,0 +1,308 @@
+[
+  {
+    "text": "Cevap",
+    "start": 0.11,
+    "end": 0.36,
+    "id": "w0"
+  },
+  {
+    "text": "B",
+    "start": 0.46,
+    "end": 0.54,
+    "id": "w1"
+  },
+  {
+    "text": "şıkkı",
+    "start": 0.82,
+    "end": 1.43,
+    "id": "w2"
+  },
+  {
+    "text": "Birinci",
+    "start": 1.85,
+    "end": 2.2,
+    "id": "w3"
+  },
+  {
+    "text": "kurala",
+    "start": 2.2,
+    "end": 2.69,
+    "id": "w4"
+  },
+  {
+    "text": "göre",
+    "start": 2.69,
+    "end": 3.06,
+    "id": "w5"
+  },
+  {
+    "text": "bölüm,",
+    "start": 3.06,
+    "end": 3.56,
+    "id": "w6"
+  },
+  {
+    "text": "fasıl",
+    "start": 3.77,
+    "end": 4.01,
+    "id": "w7"
+  },
+  {
+    "text": "ve",
+    "start": 4.01,
+    "end": 4.15,
+    "id": "w8"
+  },
+  {
+    "text": "talif",
+    "start": 4.15,
+    "end": 4.5,
+    "id": "w9"
+  },
+  {
+    "text": "fasıl",
+    "start": 4.5,
+    "end": 4.83,
+    "id": "w10"
+  },
+  {
+    "text": "başlıkları",
+    "start": 4.89,
+    "end": 5.56,
+    "id": "w11"
+  },
+  {
+    "text": "sadece",
+    "start": 5.56,
+    "end": 6,
+    "id": "w12"
+  },
+  {
+    "text": "gösterici",
+    "start": 6,
+    "end": 6.65,
+    "id": "w13"
+  },
+  {
+    "text": "niteliktedir.",
+    "start": 6.65,
+    "end": 7.62,
+    "id": "w14"
+  },
+  {
+    "text": "Yasal",
+    "start": 7.73,
+    "end": 7.97,
+    "id": "w15"
+  },
+  {
+    "text": "dayanak",
+    "start": 7.97,
+    "end": 8.51,
+    "id": "w16"
+  },
+  {
+    "text": "oluşturmaz.",
+    "start": 8.51,
+    "end": 9.34,
+    "id": "w17"
+  },
+  {
+    "text": "Sınıflandırma,",
+    "start": 9.41,
+    "end": 10.37,
+    "id": "w18"
+  },
+  {
+    "text": "pozisyon",
+    "start": 10.37,
+    "end": 10.95,
+    "id": "w19"
+  },
+  {
+    "text": "metinlerine",
+    "start": 11.16,
+    "end": 11.72,
+    "id": "w20"
+  },
+  {
+    "text": "ve",
+    "start": 11.72,
+    "end": 11.86,
+    "id": "w21"
+  },
+  {
+    "text": "bölüm",
+    "start": 11.86,
+    "end": 12.21,
+    "id": "w22"
+  },
+  {
+    "text": "ya",
+    "start": 12.21,
+    "end": 12.29,
+    "id": "w23"
+  },
+  {
+    "text": "da",
+    "start": 12.37,
+    "end": 12.48,
+    "id": "w24"
+  },
+  {
+    "text": "fasıl",
+    "start": 12.53,
+    "end": 12.84,
+    "id": "w25"
+  },
+  {
+    "text": "notlarına",
+    "start": 12.84,
+    "end": 13.47,
+    "id": "w26"
+  },
+  {
+    "text": "göre",
+    "start": 13.47,
+    "end": 13.63,
+    "id": "w27"
+  },
+  {
+    "text": "yapılır.",
+    "start": 13.77,
+    "end": 14.42,
+    "id": "w28"
+  },
+  {
+    "text": "Diğer",
+    "start": 14.52,
+    "end": 14.78,
+    "id": "w29"
+  },
+  {
+    "text": "ifadeler",
+    "start": 15.05,
+    "end": 15.58,
+    "id": "w30"
+  },
+  {
+    "text": "doğru.",
+    "start": 15.58,
+    "end": 16.08,
+    "id": "w31"
+  },
+  {
+    "text": "A",
+    "start": 16.08,
+    "end": 16.18,
+    "id": "w32"
+  },
+  {
+    "text": "şıkkı",
+    "start": 16.18,
+    "end": 16.62,
+    "id": "w33"
+  },
+  {
+    "text": "ikinci",
+    "start": 16.62,
+    "end": 17.16,
+    "id": "w34"
+  },
+  {
+    "text": "kuralın",
+    "start": 17.16,
+    "end": 17.79,
+    "id": "w35"
+  },
+  {
+    "text": "A",
+    "start": 17.79,
+    "end": 17.94,
+    "id": "w36"
+  },
+  {
+    "text": "bendi.",
+    "start": 17.94,
+    "end": 18.36,
+    "id": "w37"
+  },
+  {
+    "text": "C",
+    "start": 18.36,
+    "end": 18.46,
+    "id": "w38"
+  },
+  {
+    "text": "şıkkı",
+    "start": 18.46,
+    "end": 18.72,
+    "id": "w39"
+  },
+  {
+    "text": "beşinci",
+    "start": 19.02,
+    "end": 19.33,
+    "id": "w40"
+  },
+  {
+    "text": "kural.",
+    "start": 19.33,
+    "end": 19.79,
+    "id": "w41"
+  },
+  {
+    "text": "D",
+    "start": 19.79,
+    "end": 20.12,
+    "id": "w42"
+  },
+  {
+    "text": "şıkkı",
+    "start": 20.12,
+    "end": 20.56,
+    "id": "w43"
+  },
+  {
+    "text": "dördüncü",
+    "start": 20.56,
+    "end": 21.18,
+    "id": "w44"
+  },
+  {
+    "text": "kural.",
+    "start": 21.35,
+    "end": 21.78,
+    "id": "w45"
+  },
+  {
+    "text": "E",
+    "start": 21.78,
+    "end": 21.88,
+    "id": "w46"
+  },
+  {
+    "text": "şıkkı",
+    "start": 21.88,
+    "end": 22.29,
+    "id": "w47"
+  },
+  {
+    "text": "ise",
+    "start": 22.29,
+    "end": 22.62,
+    "id": "w48"
+  },
+  {
+    "text": "altıncı",
+    "start": 22.62,
+    "end": 23.15,
+    "id": "w49"
+  },
+  {
+    "text": "kural.",
+    "start": 23.15,
+    "end": 23.78,
+    "id": "w50"
+  }
+]

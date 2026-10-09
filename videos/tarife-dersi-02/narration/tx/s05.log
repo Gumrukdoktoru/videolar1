@@ -1,0 +1,11 @@
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":23.9224375}
+{"type":"words","model":"small","words":[{"text":"İkinci","start":0,"end":0.545},{"text":"soru.","start":0.545,"end":1}],"through":1}
+{"type":"words","model":"small","words":[{"text":"Haslanmaz","start":1,"end":1.692},{"text":"çelikten","start":1.692,"end":2.308},{"text":"mamul,","start":2.308,"end":2.769},{"text":"iç","start":2.769,"end":2.923},{"text":"kovası","start":2.923,"end":3.385},{"text":"plastik","start":3.385,"end":3.923},{"text":"olan,","start":3.923,"end":4.308},{"text":"pedalli","start":4.308,"end":4.846},{"text":"mutfak","start":4.846,"end":5.308},{"text":"çöp","start":5.308,"end":5.538},{"text":"kovası","start":5.538,"end":6},{"text":"hangi","start":6,"end":6.385},{"text":"tarife","start":6.385,"end":6.846},{"text":"pozisyonunda","start":6.846,"end":7.769},{"text":"sınıflandırılır?","start":7.769,"end":9}],"through":9}
+{"type":"words","model":"small","words":[{"text":"A","start":9,"end":9.208},{"text":"şıkkı","start":9.208,"end":10.25},{"text":"39-24.","start":10.25,"end":11.5}],"through":11.5}
+{"type":"words","model":"small","words":[{"text":"B","start":11.5,"end":11.708},{"text":"şıkkı","start":11.708,"end":12.75},{"text":"73-10.","start":12.75,"end":14}],"through":14}
+{"type":"words","model":"small","words":[{"text":"C","start":14,"end":14.208},{"text":"şıkkı","start":14.208,"end":15.25},{"text":"73-26.","start":15.25,"end":16.5}],"through":16.5}
+{"type":"words","model":"small","words":[{"text":"D","start":16.5,"end":16.708},{"text":"şıkkı","start":16.708,"end":17.75},{"text":"73-23.","start":17.75,"end":19}],"through":19}
+{"type":"words","model":"small","words":[{"text":"E","start":19,"end":19.25},{"text":"şıkkı","start":19.25,"end":20.5},{"text":"94-03.","start":20.5,"end":22}],"through":22}
+{"type":"words","model":"small","words":[{"text":"Üç","start":22,"end":22.235},{"text":"saniye.","start":22.235,"end":23.059},{"text":"Düşünün.","start":23.059,"end":24}],"through":24}
+{"type":"progress","phase":"transcription","model":"small","status":"completed"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":35,"durationSeconds":24,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/tarife-dersi-02/narration/transcript.json"}

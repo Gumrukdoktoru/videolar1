@@ -1,0 +1,338 @@
+[
+  {
+    "text": "Cevap.",
+    "start": 0.07,
+    "end": 1.12,
+    "id": "w0"
+  },
+  {
+    "text": "E",
+    "start": 1.12,
+    "end": 1.27,
+    "id": "w1"
+  },
+  {
+    "text": "şıkkı.",
+    "start": 1.27,
+    "end": 1.76,
+    "id": "w2"
+  },
+  {
+    "text": "8470",
+    "start": 1.82,
+    "end": 2.74,
+    "id": "w3"
+  },
+  {
+    "text": "pozisyonunun",
+    "start": 2.74,
+    "end": 3.71,
+    "id": "w4"
+  },
+  {
+    "text": "metni",
+    "start": 3.74,
+    "end": 4.16,
+    "id": "w5"
+  },
+  {
+    "text": "bu",
+    "start": 4.16,
+    "end": 4.22,
+    "id": "w6"
+  },
+  {
+    "text": "makineleri",
+    "start": 4.32,
+    "end": 5,
+    "id": "w7"
+  },
+  {
+    "text": "adıyla",
+    "start": 5.02,
+    "end": 5.44,
+    "id": "w8"
+  },
+  {
+    "text": "sayar.",
+    "start": 5.44,
+    "end": 5.84,
+    "id": "w9"
+  },
+  {
+    "text": "Hesaplama",
+    "start": 5.91,
+    "end": 6.77,
+    "id": "w10"
+  },
+  {
+    "text": "tertibatlı",
+    "start": 6.77,
+    "end": 7.82,
+    "id": "w11"
+  },
+  {
+    "text": "muhasebe",
+    "start": 7.82,
+    "end": 8.65,
+    "id": "w12"
+  },
+  {
+    "text": "makineleri,",
+    "start": 8.65,
+    "end": 9.76,
+    "id": "w13"
+  },
+  {
+    "text": "posta",
+    "start": 9.86,
+    "end": 10.1,
+    "id": "w14"
+  },
+  {
+    "text": "pulu",
+    "start": 10.1,
+    "end": 10.39,
+    "id": "w15"
+  },
+  {
+    "text": "yerine",
+    "start": 10.59,
+    "end": 10.81,
+    "id": "w16"
+  },
+  {
+    "text": "damga",
+    "start": 10.81,
+    "end": 11.14,
+    "id": "w17"
+  },
+  {
+    "text": "basan",
+    "start": 11.16,
+    "end": 11.51,
+    "id": "w18"
+  },
+  {
+    "text": "makineler,",
+    "start": 11.69,
+    "end": 12.16,
+    "id": "w19"
+  },
+  {
+    "text": "bilet",
+    "start": 12.26,
+    "end": 12.5,
+    "id": "w20"
+  },
+  {
+    "text": "basma",
+    "start": 12.79,
+    "end": 12.94,
+    "id": "w21"
+  },
+  {
+    "text": "ve",
+    "start": 13,
+    "end": 13.1,
+    "id": "w22"
+  },
+  {
+    "text": "verme",
+    "start": 13.1,
+    "end": 13.5,
+    "id": "w23"
+  },
+  {
+    "text": "makineleri",
+    "start": 13.5,
+    "end": 14.32,
+    "id": "w24"
+  },
+  {
+    "text": "ve",
+    "start": 14.35,
+    "end": 14.52,
+    "id": "w25"
+  },
+  {
+    "text": "yazar",
+    "start": 14.52,
+    "end": 15.01,
+    "id": "w26"
+  },
+  {
+    "text": "kasalar.",
+    "start": 15.01,
+    "end": 15.72,
+    "id": "w27"
+  },
+  {
+    "text": "Pozisyon",
+    "start": 15.82,
+    "end": 16.23,
+    "id": "w28"
+  },
+  {
+    "text": "metni",
+    "start": 16.56,
+    "end": 16.76,
+    "id": "w29"
+  },
+  {
+    "text": "eşyayı",
+    "start": 16.76,
+    "end": 17.12,
+    "id": "w30"
+  },
+  {
+    "text": "açıkça",
+    "start": 17.56,
+    "end": 17.72,
+    "id": "w31"
+  },
+  {
+    "text": "kapsıyorsa",
+    "start": 17.72,
+    "end": 18.59,
+    "id": "w32"
+  },
+  {
+    "text": "birinci",
+    "start": 18.69,
+    "end": 19.05,
+    "id": "w33"
+  },
+  {
+    "text": "kural",
+    "start": 19.05,
+    "end": 19.37,
+    "id": "w34"
+  },
+  {
+    "text": "yeter.",
+    "start": 19.37,
+    "end": 19.92,
+    "id": "w35"
+  },
+  {
+    "text": "Bu",
+    "start": 19.98,
+    "end": 20.04,
+    "id": "w36"
+  },
+  {
+    "text": "gruptaki",
+    "start": 20.04,
+    "end": 20.53,
+    "id": "w37"
+  },
+  {
+    "text": "makinelerin",
+    "start": 20.72,
+    "end": 21.21,
+    "id": "w38"
+  },
+  {
+    "text": "ortak",
+    "start": 21.21,
+    "end": 21.52,
+    "id": "w39"
+  },
+  {
+    "text": "özelliği",
+    "start": 21.52,
+    "end": 21.98,
+    "id": "w40"
+  },
+  {
+    "text": "toplama",
+    "start": 22.11,
+    "end": 22.38,
+    "id": "w41"
+  },
+  {
+    "text": "tertibatıdır.",
+    "start": 22.48,
+    "end": 23.52,
+    "id": "w42"
+  },
+  {
+    "text": "Yani",
+    "start": 23.62,
+    "end": 23.8,
+    "id": "w43"
+  },
+  {
+    "text": "en",
+    "start": 23.8,
+    "end": 23.87,
+    "id": "w44"
+  },
+  {
+    "text": "az",
+    "start": 23.87,
+    "end": 24.115,
+    "id": "w45"
+  },
+  {
+    "text": "iki",
+    "start": 24.115,
+    "end": 24.36,
+    "id": "w46"
+  },
+  {
+    "text": "rakamı",
+    "start": 24.36,
+    "end": 24.64,
+    "id": "w47"
+  },
+  {
+    "text": "toplayabilen",
+    "start": 24.81,
+    "end": 25.55,
+    "id": "w48"
+  },
+  {
+    "text": "bir",
+    "start": 25.55,
+    "end": 25.76,
+    "id": "w49"
+  },
+  {
+    "text": "düzenek.",
+    "start": 25.76,
+    "end": 26.52,
+    "id": "w50"
+  },
+  {
+    "text": "Yazar",
+    "start": 26.62,
+    "end": 26.86,
+    "id": "w51"
+  },
+  {
+    "text": "kasalar",
+    "start": 26.88,
+    "end": 27.39,
+    "id": "w52"
+  },
+  {
+    "text": "bu",
+    "start": 27.39,
+    "end": 27.54,
+    "id": "w53"
+  },
+  {
+    "text": "şarttan",
+    "start": 27.54,
+    "end": 27.92,
+    "id": "w54"
+  },
+  {
+    "text": "muhaftır.",
+    "start": 28,
+    "end": 28.92,
+    "id": "w55"
+  }
+]

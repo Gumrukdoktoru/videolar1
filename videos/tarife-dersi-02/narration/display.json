@@ -1,0 +1,8 @@
+[
+ ["sıfır beş sıfır dört", "05.04"], ["otuz dokuz yirmi dört", "39.24"], ["otuz dokuz yirmi dördü", "39.24'ü"],
+ ["yetmiş üç on", "73.10"], ["yetmiş üç yirmi altı", "73.26"], ["yetmiş üç yirmi altıda", "73.26'da"],
+ ["yetmiş üç yirmi üç", "73.23"], ["yetmiş üç yirmi üçe", "73.23'e"], ["yetmiş üç yirmi beş", "73.25"],
+ ["doksan dört sıfır üç", "94.03"], ["seksen dört kırk üç", "84.43"], ["seksen dört kırk üçü", "84.43'ü"],
+ ["seksen dört yetmiş bir", "84.71"], ["seksen dört yetmiş iki", "84.72"], ["seksen dört yetmiş", "84.70"],
+ ["doksan yirmi dokuz", "90.29"], ["doksan yirmi dokuzda", "90.29'da"], ["ilk üç", "ilk 3"], ["en az iki", "en az 2"]
+]

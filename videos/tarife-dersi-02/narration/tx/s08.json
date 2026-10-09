@@ -1,0 +1,266 @@
+[
+  {
+    "text": "Üçüncü",
+    "start": 0.05,
+    "end": 0.59,
+    "id": "w0"
+  },
+  {
+    "text": "soru",
+    "start": 0.59,
+    "end": 1.02,
+    "id": "w1"
+  },
+  {
+    "text": "Mektup",
+    "start": 1.28,
+    "end": 1.58,
+    "id": "w2"
+  },
+  {
+    "text": "ve",
+    "start": 1.58,
+    "end": 1.7,
+    "id": "w3"
+  },
+  {
+    "text": "kolilere",
+    "start": 1.7,
+    "end": 2.56,
+    "id": "w4"
+  },
+  {
+    "text": "hos",
+    "start": 2.57,
+    "end": 2.71,
+    "id": "w5"
+  },
+  {
+    "text": "da",
+    "start": 2.86,
+    "end": 2.91,
+    "id": "w6"
+  },
+  {
+    "text": "pulu",
+    "start": 2.91,
+    "end": 3.13,
+    "id": "w7"
+  },
+  {
+    "text": "yerine",
+    "start": 3.25,
+    "end": 3.61,
+    "id": "w8"
+  },
+  {
+    "text": "geçen",
+    "start": 3.61,
+    "end": 3.96,
+    "id": "w9"
+  },
+  {
+    "text": "ücret",
+    "start": 4.03,
+    "end": 4.31,
+    "id": "w10"
+  },
+  {
+    "text": "damgasını",
+    "start": 4.31,
+    "end": 4.93,
+    "id": "w11"
+  },
+  {
+    "text": "basan",
+    "start": 4.94,
+    "end": 5.37,
+    "id": "w12"
+  },
+  {
+    "text": "hesaplama",
+    "start": 5.38,
+    "end": 5.93,
+    "id": "w13"
+  },
+  {
+    "text": "tertibatı",
+    "start": 5.93,
+    "end": 6.48,
+    "id": "w14"
+  },
+  {
+    "text": "bulunan",
+    "start": 6.48,
+    "end": 6.96,
+    "id": "w15"
+  },
+  {
+    "text": "makineler",
+    "start": 6.96,
+    "end": 7.68,
+    "id": "w16"
+  },
+  {
+    "text": "hangi",
+    "start": 7.68,
+    "end": 8.01,
+    "id": "w17"
+  },
+  {
+    "text": "tarife",
+    "start": 8.01,
+    "end": 8.43,
+    "id": "w18"
+  },
+  {
+    "text": "pozisyonunda",
+    "start": 8.53,
+    "end": 9.11,
+    "id": "w19"
+  },
+  {
+    "text": "sınıflandırılır?",
+    "start": 9.11,
+    "end": 9.98,
+    "id": "w20"
+  },
+  {
+    "text": "A",
+    "start": 9.98,
+    "end": 10.5,
+    "id": "w21"
+  },
+  {
+    "text": "şıkkı",
+    "start": 10.5,
+    "end": 11.18,
+    "id": "w22"
+  },
+  {
+    "text": "84",
+    "start": 11.78,
+    "end": 11.99,
+    "id": "w23"
+  },
+  {
+    "text": "43",
+    "start": 12.08,
+    "end": 12.8,
+    "id": "w24"
+  },
+  {
+    "text": "B",
+    "start": 12.8,
+    "end": 13.1,
+    "id": "w25"
+  },
+  {
+    "text": "şıkkı",
+    "start": 13.1,
+    "end": 13.72,
+    "id": "w26"
+  },
+  {
+    "text": "84",
+    "start": 13.72,
+    "end": 14.5,
+    "id": "w27"
+  },
+  {
+    "text": "71",
+    "start": 14.64,
+    "end": 15.36,
+    "id": "w28"
+  },
+  {
+    "text": "C",
+    "start": 15.36,
+    "end": 15.67,
+    "id": "w29"
+  },
+  {
+    "text": "şıkkı",
+    "start": 15.67,
+    "end": 16.32,
+    "id": "w30"
+  },
+  {
+    "text": "84",
+    "start": 16.9,
+    "end": 17.22,
+    "id": "w31"
+  },
+  {
+    "text": "72",
+    "start": 17.22,
+    "end": 17.92,
+    "id": "w32"
+  },
+  {
+    "text": "D",
+    "start": 17.92,
+    "end": 18.23,
+    "id": "w33"
+  },
+  {
+    "text": "şıkkı",
+    "start": 18.23,
+    "end": 19.12,
+    "id": "w34"
+  },
+  {
+    "text": "90",
+    "start": 19.46,
+    "end": 19.8,
+    "id": "w35"
+  },
+  {
+    "text": "29",
+    "start": 19.8,
+    "end": 20.48,
+    "id": "w36"
+  },
+  {
+    "text": "E",
+    "start": 20.48,
+    "end": 20.74,
+    "id": "w37"
+  },
+  {
+    "text": "şıkkı",
+    "start": 20.74,
+    "end": 21.16,
+    "id": "w38"
+  },
+  {
+    "text": "84",
+    "start": 21.16,
+    "end": 21.42,
+    "id": "w39"
+  },
+  {
+    "text": "70",
+    "start": 22.03,
+    "end": 22.78,
+    "id": "w40"
+  },
+  {
+    "text": "Üç",
+    "start": 22.78,
+    "end": 23.35,
+    "id": "w41"
+  },
+  {
+    "text": "saniye",
+    "start": 23.35,
+    "end": 23.99,
+    "id": "w42"
+  },
+  {
+    "text": "Düşünün",
+    "start": 24.58,
+    "end": 25,
+    "id": "w43"
+  }
+]

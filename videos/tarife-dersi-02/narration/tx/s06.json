@@ -1,0 +1,314 @@
+[
+  {
+    "text": "cevap,",
+    "start": 0.07,
+    "end": 0.77,
+    "id": "w0"
+  },
+  {
+    "text": "D",
+    "start": 0.8,
+    "end": 0.9,
+    "id": "w1"
+  },
+  {
+    "text": "şıkkı.",
+    "start": 0.9,
+    "end": 1.72,
+    "id": "w2"
+  },
+  {
+    "text": "Önce",
+    "start": 1.78,
+    "end": 1.96,
+    "id": "w3"
+  },
+  {
+    "text": "eşyağının",
+    "start": 1.97,
+    "end": 2.55,
+    "id": "w4"
+  },
+  {
+    "text": "asıl",
+    "start": 2.55,
+    "end": 2.81,
+    "id": "w5"
+  },
+  {
+    "text": "maddesine",
+    "start": 2.81,
+    "end": 3.38,
+    "id": "w6"
+  },
+  {
+    "text": "bakıyoruz.",
+    "start": 3.57,
+    "end": 4.2,
+    "id": "w7"
+  },
+  {
+    "text": "Paslanmaz",
+    "start": 4.3,
+    "end": 5.01,
+    "id": "w8"
+  },
+  {
+    "text": "çelik.",
+    "start": 5.01,
+    "end": 5.48,
+    "id": "w9"
+  },
+  {
+    "text": "Plastik",
+    "start": 5.56,
+    "end": 6.06,
+    "id": "w10"
+  },
+  {
+    "text": "iç",
+    "start": 6.06,
+    "end": 6.28,
+    "id": "w11"
+  },
+  {
+    "text": "kova",
+    "start": 6.28,
+    "end": 6.56,
+    "id": "w12"
+  },
+  {
+    "text": "yalnızca",
+    "start": 6.56,
+    "end": 7.22,
+    "id": "w13"
+  },
+  {
+    "text": "bir",
+    "start": 7.34,
+    "end": 7.47,
+    "id": "w14"
+  },
+  {
+    "text": "aksesuar.",
+    "start": 7.47,
+    "end": 8.24,
+    "id": "w15"
+  },
+  {
+    "text": "Eşya,",
+    "start": 8.3,
+    "end": 8.58,
+    "id": "w16"
+  },
+  {
+    "text": "demir",
+    "start": 8.87,
+    "end": 9.01,
+    "id": "w17"
+  },
+  {
+    "text": "veya",
+    "start": 9.03,
+    "end": 9.29,
+    "id": "w18"
+  },
+  {
+    "text": "çelik",
+    "start": 9.29,
+    "end": 9.63,
+    "id": "w19"
+  },
+  {
+    "text": "karakterini",
+    "start": 9.63,
+    "end": 10.41,
+    "id": "w20"
+  },
+  {
+    "text": "koruyor.",
+    "start": 10.41,
+    "end": 11.16,
+    "id": "w21"
+  },
+  {
+    "text": "Sonra",
+    "start": 11.22,
+    "end": 11.5,
+    "id": "w22"
+  },
+  {
+    "text": "kullanım",
+    "start": 11.95,
+    "end": 12.19,
+    "id": "w23"
+  },
+  {
+    "text": "yerine.",
+    "start": 12.19,
+    "end": 12.72,
+    "id": "w24"
+  },
+  {
+    "text": "Ev",
+    "start": 12.82,
+    "end": 12.96,
+    "id": "w25"
+  },
+  {
+    "text": "ve",
+    "start": 12.97,
+    "end": 13.06,
+    "id": "w26"
+  },
+  {
+    "text": "mutfak.",
+    "start": 13.5,
+    "end": 14,
+    "id": "w27"
+  },
+  {
+    "text": "73-23",
+    "start": 14.05,
+    "end": 15.06,
+    "id": "w28"
+  },
+  {
+    "text": "pozisyonu,",
+    "start": 15.06,
+    "end": 15.93,
+    "id": "w29"
+  },
+  {
+    "text": "demir",
+    "start": 15.93,
+    "end": 16.26,
+    "id": "w30"
+  },
+  {
+    "text": "veya",
+    "start": 16.27,
+    "end": 16.53,
+    "id": "w31"
+  },
+  {
+    "text": "çelikten",
+    "start": 16.53,
+    "end": 17.12,
+    "id": "w32"
+  },
+  {
+    "text": "sofra,",
+    "start": 17.12,
+    "end": 17.72,
+    "id": "w33"
+  },
+  {
+    "text": "mutfak",
+    "start": 17.72,
+    "end": 18.06,
+    "id": "w34"
+  },
+  {
+    "text": "ve",
+    "start": 18.32,
+    "end": 18.38,
+    "id": "w35"
+  },
+  {
+    "text": "diğer",
+    "start": 18.38,
+    "end": 18.73,
+    "id": "w36"
+  },
+  {
+    "text": "ev",
+    "start": 18.73,
+    "end": 18.78,
+    "id": "w37"
+  },
+  {
+    "text": "işlerinde",
+    "start": 18.88,
+    "end": 19.22,
+    "id": "w38"
+  },
+  {
+    "text": "kullanılan",
+    "start": 19.59,
+    "end": 20.2,
+    "id": "w39"
+  },
+  {
+    "text": "eşyağı",
+    "start": 20.2,
+    "end": 20.62,
+    "id": "w40"
+  },
+  {
+    "text": "yıkapsar.",
+    "start": 20.62,
+    "end": 21.2,
+    "id": "w41"
+  },
+  {
+    "text": "İzahname,",
+    "start": 21.26,
+    "end": 21.9,
+    "id": "w42"
+  },
+  {
+    "text": "çöp",
+    "start": 21.97,
+    "end": 22.11,
+    "id": "w43"
+  },
+  {
+    "text": "kutularını",
+    "start": 22.11,
+    "end": 22.63,
+    "id": "w44"
+  },
+  {
+    "text": "açıkça",
+    "start": 23.05,
+    "end": 23.24,
+    "id": "w45"
+  },
+  {
+    "text": "sayar.",
+    "start": 23.24,
+    "end": 23.88,
+    "id": "w46"
+  },
+  {
+    "text": "Pedal",
+    "start": 23.98,
+    "end": 24.18,
+    "id": "w47"
+  },
+  {
+    "text": "mekanizması",
+    "start": 24.18,
+    "end": 24.84,
+    "id": "w48"
+  },
+  {
+    "text": "da",
+    "start": 24.84,
+    "end": 24.96,
+    "id": "w49"
+  },
+  {
+    "text": "sonucu",
+    "start": 24.96,
+    "end": 25.3,
+    "id": "w50"
+  },
+  {
+    "text": "değiştirmez.",
+    "start": 25.63,
+    "end": 26.23,
+    "id": "w51"
+  }
+]

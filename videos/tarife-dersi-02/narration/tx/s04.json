@@ -1,0 +1,296 @@
+[
+  {
+    "text": "Tuzak",
+    "start": 0.09,
+    "end": 0.38,
+    "id": "w0"
+  },
+  {
+    "text": "nerede?",
+    "start": 0.45,
+    "end": 1.08,
+    "id": "w1"
+  },
+  {
+    "text": "Stajerimiz",
+    "start": 1.54,
+    "end": 2.55,
+    "id": "w2"
+  },
+  {
+    "text": "ikinci",
+    "start": 2.55,
+    "end": 2.73,
+    "id": "w3"
+  },
+  {
+    "text": "faslın",
+    "start": 3.15,
+    "end": 3.4,
+    "id": "w4"
+  },
+  {
+    "text": "başlığı",
+    "start": 3.4,
+    "end": 3.81,
+    "id": "w5"
+  },
+  {
+    "text": "etler",
+    "start": 3.81,
+    "end": 4.48,
+    "id": "w6"
+  },
+  {
+    "text": "ve",
+    "start": 4.48,
+    "end": 4.62,
+    "id": "w7"
+  },
+  {
+    "text": "yenilen",
+    "start": 4.62,
+    "end": 5.1,
+    "id": "w8"
+  },
+  {
+    "text": "sakatat",
+    "start": 5.11,
+    "end": 5.6,
+    "id": "w9"
+  },
+  {
+    "text": "diye",
+    "start": 5.6,
+    "end": 5.92,
+    "id": "w10"
+  },
+  {
+    "text": "hayvan",
+    "start": 5.92,
+    "end": 6.31,
+    "id": "w11"
+  },
+  {
+    "text": "bağırsana",
+    "start": 6.31,
+    "end": 6.89,
+    "id": "w12"
+  },
+  {
+    "text": "ikinci",
+    "start": 6.95,
+    "end": 7.29,
+    "id": "w13"
+  },
+  {
+    "text": "fasla",
+    "start": 7.29,
+    "end": 7.6,
+    "id": "w14"
+  },
+  {
+    "text": "koydu.",
+    "start": 7.6,
+    "end": 7.94,
+    "id": "w15"
+  },
+  {
+    "text": "Hayır!",
+    "start": 8.33,
+    "end": 8.96,
+    "id": "w16"
+  },
+  {
+    "text": "İkinci",
+    "start": 9.22,
+    "end": 9.36,
+    "id": "w17"
+  },
+  {
+    "text": "faslın",
+    "start": 9.36,
+    "end": 9.76,
+    "id": "w18"
+  },
+  {
+    "text": "notu",
+    "start": 9.76,
+    "end": 10,
+    "id": "w19"
+  },
+  {
+    "text": "bağırsakları",
+    "start": 10.05,
+    "end": 10.83,
+    "id": "w20"
+  },
+  {
+    "text": "açıkça",
+    "start": 10.87,
+    "end": 11.24,
+    "id": "w21"
+  },
+  {
+    "text": "hariç",
+    "start": 11.24,
+    "end": 11.58,
+    "id": "w22"
+  },
+  {
+    "text": "tutar,",
+    "start": 11.58,
+    "end": 12.2,
+    "id": "w23"
+  },
+  {
+    "text": "doğru",
+    "start": 12.2,
+    "end": 12.6,
+    "id": "w24"
+  },
+  {
+    "text": "yer",
+    "start": 12.6,
+    "end": 12.84,
+    "id": "w25"
+  },
+  {
+    "text": "0-5-0-4.",
+    "start": 12.84,
+    "end": 14.08,
+    "id": "w26"
+  },
+  {
+    "text": "Başlık",
+    "start": 14.34,
+    "end": 14.56,
+    "id": "w27"
+  },
+  {
+    "text": "yol",
+    "start": 14.56,
+    "end": 14.8,
+    "id": "w28"
+  },
+  {
+    "text": "gösterir,",
+    "start": 14.8,
+    "end": 15.51,
+    "id": "w29"
+  },
+  {
+    "text": "karar",
+    "start": 15.84,
+    "end": 15.99,
+    "id": "w30"
+  },
+  {
+    "text": "notla",
+    "start": 15.99,
+    "end": 16.36,
+    "id": "w31"
+  },
+  {
+    "text": "verilir.",
+    "start": 16.36,
+    "end": 16.9,
+    "id": "w32"
+  },
+  {
+    "text": "Bir",
+    "start": 16.9,
+    "end": 17.08,
+    "id": "w33"
+  },
+  {
+    "text": "de",
+    "start": 17.08,
+    "end": 17.26,
+    "id": "w34"
+  },
+  {
+    "text": "dördüncü",
+    "start": 17.26,
+    "end": 17.81,
+    "id": "w35"
+  },
+  {
+    "text": "kurala",
+    "start": 17.81,
+    "end": 18.21,
+    "id": "w36"
+  },
+  {
+    "text": "dikkat.",
+    "start": 18.21,
+    "end": 18.68,
+    "id": "w37"
+  },
+  {
+    "text": "Kıymete",
+    "start": 18.94,
+    "end": 19.17,
+    "id": "w38"
+  },
+  {
+    "text": "ya",
+    "start": 19.17,
+    "end": 19.31,
+    "id": "w39"
+  },
+  {
+    "text": "da",
+    "start": 19.31,
+    "end": 19.42,
+    "id": "w40"
+  },
+  {
+    "text": "ticari",
+    "start": 19.47,
+    "end": 19.87,
+    "id": "w41"
+  },
+  {
+    "text": "miktara",
+    "start": 19.87,
+    "end": 20.15,
+    "id": "w42"
+  },
+  {
+    "text": "bakılmaz.",
+    "start": 20.54,
+    "end": 21.2,
+    "id": "w43"
+  },
+  {
+    "text": "En",
+    "start": 21.2,
+    "end": 21.35,
+    "id": "w44"
+  },
+  {
+    "text": "çok",
+    "start": 21.35,
+    "end": 21.38,
+    "id": "w45"
+  },
+  {
+    "text": "benzeyen",
+    "start": 21.59,
+    "end": 21.91,
+    "id": "w46"
+  },
+  {
+    "text": "eşyağya",
+    "start": 22,
+    "end": 22.39,
+    "id": "w47"
+  },
+  {
+    "text": "bakılır.",
+    "start": 22.39,
+    "end": 23.04,
+    "id": "w48"
+  }
+]
