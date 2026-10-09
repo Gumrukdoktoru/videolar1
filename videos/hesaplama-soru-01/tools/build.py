@@ -247,7 +247,6 @@ PRES_JS = f"""
   const W = {json.dumps(flat)};
   const SEG = {json.dumps(seg)};
   const P = document.getElementById("presenter-fig");
-  const PW = P.querySelector(".pwrap");
   const BARS = document.querySelectorAll("#nameplate .bars i");
   const HERO = {{ x: 135, y: 0, scale: 1.15 }};
   const CORNER = {{ x: 0, y: 0, scale: 1 }};
@@ -267,11 +266,6 @@ PRES_JS = f"""
     while (lo <= hi) {{ const m = (lo + hi) >> 1; if (W[m][0] <= t) {{ last = m; lo = m + 1; }} else hi = m - 1; }}
     const speaking = last >= 0 && t < W[last][1] + 0.08;
     const since = last >= 0 ? t - W[last][0] : 9;
-    const bob = speaking ? -6 * Math.max(0, 1 - since / 0.24) : 0;
-    const env = speaking ? 1 : 0;
-    const rot = 0.5 * Math.sin(t * 1.7) * (0.4 + 0.6 * env);
-    const sy = 1 + 0.006 * Math.sin(t * 2 * Math.PI / 3.4) + 0.004 * env * Math.max(0, 1 - since / 0.3);
-    PW.style.transform = `translateY(${{bob.toFixed(2)}}px) rotate(${{rot.toFixed(3)}}deg) scaleY(${{sy.toFixed(4)}})`;
     BARS.forEach((b, i) => {{
       const v = speaking ? 0.3 + 0.7 * Math.abs(Math.sin(t * (9 + i * 2.3) + i * 1.3)) * Math.max(0.35, 1 - since / 0.5) : 0.15;
       b.style.transform = `scaleY(${{v.toFixed(3)}})`;
