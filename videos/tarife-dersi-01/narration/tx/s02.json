@@ -1,0 +1,374 @@
+[
+  {
+    "text": "1.",
+    "start": 0.12,
+    "end": 0.62,
+    "id": "w0"
+  },
+  {
+    "text": "Soru",
+    "start": 0.64,
+    "end": 1.1,
+    "id": "w1"
+  },
+  {
+    "text": "Adi",
+    "start": 1.21,
+    "end": 1.38,
+    "id": "w2"
+  },
+  {
+    "text": "metaller",
+    "start": 1.38,
+    "end": 1.82,
+    "id": "w3"
+  },
+  {
+    "text": "ve",
+    "start": 1.82,
+    "end": 2.37,
+    "id": "w4"
+  },
+  {
+    "text": "adi",
+    "start": 2.37,
+    "end": 2.62,
+    "id": "w5"
+  },
+  {
+    "text": "metallerden",
+    "start": 2.62,
+    "end": 3.68,
+    "id": "w6"
+  },
+  {
+    "text": "eşya,",
+    "start": 3.68,
+    "end": 4.25,
+    "id": "w7"
+  },
+  {
+    "text": "Türk",
+    "start": 4.25,
+    "end": 4.51,
+    "id": "w8"
+  },
+  {
+    "text": "Gümrük",
+    "start": 4.51,
+    "end": 4.88,
+    "id": "w9"
+  },
+  {
+    "text": "Tarife",
+    "start": 4.9,
+    "end": 5.09,
+    "id": "w10"
+  },
+  {
+    "text": "Cetvelinin",
+    "start": 5.33,
+    "end": 5.78,
+    "id": "w11"
+  },
+  {
+    "text": "hangi",
+    "start": 5.91,
+    "end": 6.23,
+    "id": "w12"
+  },
+  {
+    "text": "bölüm",
+    "start": 6.23,
+    "end": 6.55,
+    "id": "w13"
+  },
+  {
+    "text": "ve",
+    "start": 6.55,
+    "end": 6.68,
+    "id": "w14"
+  },
+  {
+    "text": "fasıllarında",
+    "start": 6.68,
+    "end": 7.45,
+    "id": "w15"
+  },
+  {
+    "text": "yer",
+    "start": 7.45,
+    "end": 7.63,
+    "id": "w16"
+  },
+  {
+    "text": "almaktadır?",
+    "start": 7.64,
+    "end": 8.5,
+    "id": "w17"
+  },
+  {
+    "text": "A.",
+    "start": 8.59,
+    "end": 8.94,
+    "id": "w18"
+  },
+  {
+    "text": "Şıkkı",
+    "start": 8.94,
+    "end": 9.5,
+    "id": "w19"
+  },
+  {
+    "text": "14.",
+    "start": 9.61,
+    "end": 10.22,
+    "id": "w20"
+  },
+  {
+    "text": "Bölüm",
+    "start": 10.26,
+    "end": 10.7,
+    "id": "w21"
+  },
+  {
+    "text": "71.",
+    "start": 10.77,
+    "end": 12.1,
+    "id": "w22"
+  },
+  {
+    "text": "Fasıl",
+    "start": 12.1,
+    "end": 12.19,
+    "id": "w23"
+  },
+  {
+    "text": "B.",
+    "start": 12.19,
+    "end": 12.54,
+    "id": "w24"
+  },
+  {
+    "text": "Şıkkı",
+    "start": 12.54,
+    "end": 13.1,
+    "id": "w25"
+  },
+  {
+    "text": "16.",
+    "start": 13.21,
+    "end": 13.78,
+    "id": "w26"
+  },
+  {
+    "text": "Bölüm",
+    "start": 13.78,
+    "end": 14.18,
+    "id": "w27"
+  },
+  {
+    "text": "84",
+    "start": 14.36,
+    "end": 14.78,
+    "id": "w28"
+  },
+  {
+    "text": "ve",
+    "start": 14.78,
+    "end": 14.98,
+    "id": "w29"
+  },
+  {
+    "text": "85.",
+    "start": 14.98,
+    "end": 15.88,
+    "id": "w30"
+  },
+  {
+    "text": "Fasıllar",
+    "start": 15.88,
+    "end": 16.7,
+    "id": "w31"
+  },
+  {
+    "text": "C.",
+    "start": 16.79,
+    "end": 17.14,
+    "id": "w32"
+  },
+  {
+    "text": "Şıkkı",
+    "start": 17.14,
+    "end": 17.7,
+    "id": "w33"
+  },
+  {
+    "text": "15.",
+    "start": 17.81,
+    "end": 18.42,
+    "id": "w34"
+  },
+  {
+    "text": "Bölüm",
+    "start": 18.46,
+    "end": 18.9,
+    "id": "w35"
+  },
+  {
+    "text": "72",
+    "start": 18.97,
+    "end": 19.42,
+    "id": "w36"
+  },
+  {
+    "text": "ile",
+    "start": 19.5,
+    "end": 19.68,
+    "id": "w37"
+  },
+  {
+    "text": "83",
+    "start": 19.69,
+    "end": 20.22,
+    "id": "w38"
+  },
+  {
+    "text": "arası",
+    "start": 20.22,
+    "end": 20.63,
+    "id": "w39"
+  },
+  {
+    "text": "fasıllar",
+    "start": 20.71,
+    "end": 21.4,
+    "id": "w40"
+  },
+  {
+    "text": "D.",
+    "start": 21.49,
+    "end": 21.84,
+    "id": "w41"
+  },
+  {
+    "text": "Şıkkı",
+    "start": 21.84,
+    "end": 22.4,
+    "id": "w42"
+  },
+  {
+    "text": "13.",
+    "start": 22.51,
+    "end": 23.09,
+    "id": "w43"
+  },
+  {
+    "text": "Bölüm",
+    "start": 23.09,
+    "end": 23.5,
+    "id": "w44"
+  },
+  {
+    "text": "68",
+    "start": 23.67,
+    "end": 24.03,
+    "id": "w45"
+  },
+  {
+    "text": "ile",
+    "start": 24.03,
+    "end": 24.29,
+    "id": "w46"
+  },
+  {
+    "text": "70",
+    "start": 24.29,
+    "end": 24.77,
+    "id": "w47"
+  },
+  {
+    "text": "arası",
+    "start": 24.88,
+    "end": 25.25,
+    "id": "w48"
+  },
+  {
+    "text": "fasıllar",
+    "start": 25.25,
+    "end": 26,
+    "id": "w49"
+  },
+  {
+    "text": "E.",
+    "start": 26.09,
+    "end": 26.44,
+    "id": "w50"
+  },
+  {
+    "text": "Şıkkı",
+    "start": 26.44,
+    "end": 27,
+    "id": "w51"
+  },
+  {
+    "text": "17.",
+    "start": 27.1,
+    "end": 27.72,
+    "id": "w52"
+  },
+  {
+    "text": "Bölüm",
+    "start": 27.72,
+    "end": 28.43,
+    "id": "w53"
+  },
+  {
+    "text": "86",
+    "start": 28.43,
+    "end": 29.05,
+    "id": "w54"
+  },
+  {
+    "text": "ile",
+    "start": 29.05,
+    "end": 29.36,
+    "id": "w55"
+  },
+  {
+    "text": "89",
+    "start": 29.36,
+    "end": 29.93,
+    "id": "w56"
+  },
+  {
+    "text": "arası",
+    "start": 30.01,
+    "end": 30.5,
+    "id": "w57"
+  },
+  {
+    "text": "fasıllar",
+    "start": 30.5,
+    "end": 31.36,
+    "id": "w58"
+  },
+  {
+    "text": "3",
+    "start": 31.52,
+    "end": 31.73,
+    "id": "w59"
+  },
+  {
+    "text": "saniye",
+    "start": 31.73,
+    "end": 32.4,
+    "id": "w60"
+  },
+  {
+    "text": "düşünün",
+    "start": 32.66,
+    "end": 33.39,
+    "id": "w61"
+  }
+]

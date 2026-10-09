@@ -1,0 +1,12 @@
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":16.7224375}
+{"type":"words","model":"small","words":[{"text":"Bugünün","start":0,"end":0.507},{"text":"cevapan","start":0.507,"end":1.013},{"text":"ahtarı.","start":1.013,"end":1.52}],"through":1.52}
+{"type":"words","model":"small","words":[{"text":"Birinci","start":1.52,"end":2.383},{"text":"soru","start":2.383,"end":2.877},{"text":"C","start":2.877,"end":3}],"through":3}
+{"type":"words","model":"small","words":[{"text":"İkinci","start":3,"end":3.851},{"text":"soru","start":3.851,"end":4.418},{"text":"E","start":4.418,"end":4.56}],"through":4.56}
+{"type":"words","model":"small","words":[{"text":"Üçüncü","start":4.56,"end":5.324},{"text":"soru","start":5.324,"end":5.833},{"text":"A","start":5.833,"end":5.96}],"through":5.96}
+{"type":"words","model":"small","words":[{"text":"Kaç","start":5.96,"end":6.176},{"text":"tanesini","start":6.176,"end":6.752},{"text":"bildiniz?","start":6.752,"end":7.4}],"through":7.4}
+{"type":"words","model":"small","words":[{"text":"Yorumlara","start":7.4,"end":8},{"text":"yazın.","start":8,"end":8.4}],"through":8.4}
+{"type":"words","model":"small","words":[{"text":"Bu","start":8.4,"end":8.537},{"text":"ders","start":8.537,"end":8.81},{"text":"işinize","start":8.81,"end":9.289},{"text":"yaradıysa","start":9.289,"end":9.904},{"text":"abone","start":9.904,"end":10.246},{"text":"olmayı","start":10.246,"end":10.656},{"text":"ve","start":10.656,"end":10.793},{"text":"paylaşmayı","start":10.793,"end":11.476},{"text":"unutmayın.","start":11.476,"end":12.16}],"through":12.16}
+{"type":"words","model":"small","words":[{"text":"Bir","start":12.16,"end":12.376},{"text":"sonraki","start":12.376,"end":12.882},{"text":"tarife","start":12.882,"end":13.315},{"text":"dersinde","start":13.315,"end":13.892},{"text":"yeni","start":13.892,"end":14.18},{"text":"üç","start":14.18,"end":14.325},{"text":"soruyla","start":14.325,"end":14.83},{"text":"görüşmek","start":14.83,"end":15.407},{"text":"üzere.","start":15.407,"end":15.84}],"through":15.84}
+{"type":"words","model":"small","words":[{"text":"Hoşçakalın.","start":15.84,"end":16.84}],"through":16.84}
+{"type":"progress","phase":"transcription","model":"small","status":"completed"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":36,"durationSeconds":16.84,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/tarife-dersi-01/narration/transcript.json"}

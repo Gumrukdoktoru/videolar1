@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s03 { position: absolute; inset: 0; overflow: hidden; }
+        #s03 .stage { position: absolute; inset: 0; }
+
+#s03 .ans { position:absolute; left:600px; top:128px; width:1220px; height:96px; display:flex; align-items:center; gap:20px; padding:0 26px;
+  background:rgba(46,212,122,.12); border:3px solid var(--ok); border-radius:20px; }
+#s03 .ans .lab { font:900 24px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s03 .ans .L { flex:none; width:66px; height:66px; border-radius:50%; background:var(--ok); color:#03221a; font:900 38px Montserrat;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 8px rgba(46,212,122,.18); }
+#s03 .ans .tx { font:800 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s03 .ans .tx em { font-style:normal; color:var(--ok); }
+#s03 .ans .ck { margin-left:auto; color:var(--ok); }
+#s03 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s03 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; }
+#s03 .bub { position:absolute; padding:14px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 25px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s03 .bub:after { content:""; position:absolute; left:var(--tail, 60px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s03 .bub em { font-style:normal; color:#B4231B; }
+#s03 .bub i { font-style:normal; color:#0B8A47; }
+#s03 .stamp { position:absolute; display:flex; align-items:center; gap:8px; padding:6px 16px 6px 10px; border:6px solid var(--uyari); border-radius:12px;
+  color:#FF8A96; background:rgba(42,10,14,.88); font:900 30px Montserrat; letter-spacing:.06em; transform:rotate(-8deg); white-space:nowrap; }
+#s03 .stamp .ico { color:var(--uyari); }
+#s03 .stamp.ok { border-color:var(--ok); color:#BFFFE0; background:rgba(3,34,26,.88); }
+#s03 .stamp.ok .ico { color:var(--ok); }
+
+#s03 .strip { position:absolute; left:600px; top:268px; width:1220px; height:64px; }
+#s03 .sec { position:absolute; top:0; width:54px; height:64px; border-radius:10px; display:flex; align-items:center; justify-content:center;
+  background:rgba(13,36,92,.9); border:2px solid #2B4C9E; font:700 15px 'JetBrains Mono'; color:#AEBBE3; }
+#s03 .sec.xv { background:var(--gold); border-color:var(--gold); color:#2a1d00; font-size:17px; }
+#s03 .near { position:absolute; top:72px; width:96px; margin-left:-21px; text-align:center; font:700 16px 'JetBrains Mono'; color:#7E8DBA; white-space:nowrap; }
+#s03 .near.xv { color:var(--gold); font-size:18px; }
+#s03 .slab { position:absolute; left:600px; top:238px; font:700 18px 'JetBrains Mono'; letter-spacing:.14em; color:var(--accent2); white-space:nowrap; }
+#s03 svg.ov { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:visible; }
+#s03 .grid { position:absolute; left:600px; top:420px; width:1220px; display:grid; grid-template-columns:repeat(6, 1fr); gap:12px; }
+#s03 .ft { position:relative; height:132px; border-radius:16px; background:rgba(13,36,92,.92); border:2px solid #2B4C9E; padding:14px 16px; overflow:hidden; }
+#s03 .ft .hl { position:absolute; inset:0; background:linear-gradient(160deg, rgba(51,217,178,.38), rgba(51,217,178,.08)); opacity:0; }
+#s03 .ft .no { position:relative; font-family:'Archivo Black'; font-size:44px; line-height:1; color:var(--fg); }
+#s03 .ft .nm { position:relative; font:800 18px/1.2 Montserrat; color:var(--muted); margin-top:10px; }
+#s03 .ft.f77 { background:repeating-linear-gradient(-45deg, rgba(255,159,67,.10) 0 12px, rgba(13,36,92,.92) 12px 24px); border:2px dashed var(--dikkat); }
+#s03 .ft.f77 .nm { color:var(--dikkat); letter-spacing:.12em; }
+#s03 .gl { position:absolute; left:600px; top:378px; font:900 22px Montserrat; letter-spacing:.1em; color:var(--teal); white-space:nowrap; }
+#s03 .note { position:absolute; left:600px; top:722px; width:1220px; height:150px; display:flex; align-items:center; gap:26px; padding:0 28px;
+  border-color:var(--dikkat); background:rgba(255,159,67,.10); }
+#s03 .note .tx { font:800 28px/1.3 Montserrat; color:var(--fg); }
+#s03 .note .tx b { color:var(--dikkat); }
+#s03 .note .tx small { display:block; font:400 20px 'JetBrains Mono'; color:var(--muted); margin-top:6px; }
+#s03 .note .lock { margin-left:auto; color:var(--dikkat); }
+#s03 .sk { position:absolute; left:1660px; top:470px; }
+
+      </style>
+      <div id="s03" data-composition-id="s03" data-width="1920" data-height="1080" data-duration="26.626">
+        <div class="stage">
+
+<div class="ans"><span class="lab">CEVAP</span><span class="L">C</span><span class="tx">On beşinci bölüm · <em>72–83.</em> fasıllar</span><span class="ck"><svg class="ico " viewBox="0 0 24 24" width="54" height="54" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+<div class="slab">21 BÖLÜM · TARİFE CETVELİ</div>
+<div class="strip"><div class="sec r0" style="left:0px">I</div><div class="sec r1" style="left:58px">II</div><div class="sec r2" style="left:116px">III</div><div class="sec r3" style="left:174px">IV</div><div class="sec r4" style="left:232px">V</div><div class="sec r5" style="left:290px">VI</div><div class="sec r6" style="left:348px">VII</div><div class="sec r7" style="left:406px">VIII</div><div class="sec r8" style="left:464px">IX</div><div class="sec r9" style="left:522px">X</div><div class="sec r10" style="left:580px">XI</div><div class="sec r11" style="left:638px">XII</div><div class="sec r12" style="left:696px">XIII</div><div class="sec r13" style="left:754px">XIV</div><div class="sec xv r14" style="left:812px">XV</div><div class="sec r15" style="left:870px">XVI</div><div class="sec r16" style="left:928px">XVII</div><div class="sec r17" style="left:986px">XVIII</div><div class="sec r18" style="left:1044px">XIX</div><div class="sec r19" style="left:1102px">XX</div><div class="sec r20" style="left:1160px">XXI</div>
+  <div class="near nr12" style="left:696px">68–70</div><div class="near nr13" style="left:754px">71</div><div class="near xv nr14" style="left:812px">72–83</div><div class="near nr15" style="left:870px">84–85</div><div class="near nr16" style="left:928px">86–89</div></div>
+<svg class="ov" aria-hidden="true"><g fill="none" stroke="#FFC53D" stroke-width="3" stroke-dasharray="8 8" stroke-linecap="round" opacity=".8">
+  <path class="cn" d="M1412 362 L1000 412"/><path class="cn" d="M1466 362 L1818 412"/></g></svg>
+<div class="gl">BÖLÜM XV · ADİ METALLER</div>
+<div class="grid"><div class="ft f72 t0"><span class="hl"></span><div class="no">72</div><div class="nm">Demir ve çelik</div></div><div class="ft f73 t1"><span class="hl"></span><div class="no">73</div><div class="nm">Demir/çelikten eşya</div></div><div class="ft f74 t2"><span class="hl"></span><div class="no">74</div><div class="nm">Bakır</div></div><div class="ft f75 t3"><span class="hl"></span><div class="no">75</div><div class="nm">Nikel</div></div><div class="ft f76 t4"><span class="hl"></span><div class="no">76</div><div class="nm">Alüminyum</div></div><div class="ft f77 t5"><span class="hl"></span><div class="no">77</div><div class="nm">SAKLI</div></div><div class="ft f78 t6"><span class="hl"></span><div class="no">78</div><div class="nm">Kurşun</div></div><div class="ft f79 t7"><span class="hl"></span><div class="no">79</div><div class="nm">Çinko</div></div><div class="ft f80 t8"><span class="hl"></span><div class="no">80</div><div class="nm">Kalay</div></div><div class="ft f81 t9"><span class="hl"></span><div class="no">81</div><div class="nm">Diğer adi metaller</div></div><div class="ft f82 t10"><span class="hl"></span><div class="no">82</div><div class="nm">Aletler, bıçakçı eşyası</div></div><div class="ft f83 t11"><span class="hl"></span><div class="no">83</div><div class="nm">Çeşitli eşya</div></div></div>
+<div class="note card"><div class="badge b-dikkat "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M1.5 12S5.5 4.8 12 4.8 22.5 12 22.5 12 18.5 19.2 12 19.2 1.5 12 1.5 12z" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12" cy="12" r="3.6" fill="currentColor"/></svg></span><span class="bt">DİKKAT</span></div><div class="tx"><b>Fasıl 77 boş!</b> Armonize Sistemde ileride kullanılmak üzere saklı tutulur.<small>72 … 76 · [77] · 78 … 83</small></div><span class="lock"><svg class="ico " viewBox="0 0 24 24" width="64" height="64" aria-hidden="true"><path d="M12 2.5l8 3v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10v-6z" fill="currentColor"/><path d="M8 12l3 3 5-6" fill="none" stroke="#06221a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s03";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 26.626;
+const K = {"cevap": 0.53, "C": 0.77, "adi": 2.33, "xv": 3.6, "yet": 4.65, "bolum": 7.73, "hl": [8.08, 8.65, 10.03, 10.57, 11.14, null, 12.06, 12.76, 13.35, 13.81, 17.35, 18.0], "dikkat": 19.77, "y77": 20.57, "bos": 21.67, "sakli": 24.92};
+
+
+tl.fromTo(q(".ans"), { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, K.cevap - 0.15);
+slam(".ans .L", K.C);
+pop(".ans .ck", K.C + 0.35, 0, "back.out(3)");
+rise(".slab", K.adi - 0.2, 0, 14);
+tl.fromTo(q(".sec"), { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "power2.out", stagger: 0.03 }, K.adi - 0.1);
+tl.fromTo(q(".sec:not(.xv)"), { opacity: 1 }, { opacity: 0.35, duration: 0.4, immediateRender: false }, K.xv);
+tl.fromTo(q(".sec.xv"), { scale: 1 }, { scale: 1.35, duration: 0.3, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, K.xv);
+rise(".near", K.xv + 0.15, 0.06, 12);
+fadeIn(".ov .cn", K.yet - 0.1, 0.5);
+rise(".gl", K.yet, 0, 16);
+tl.fromTo(q(".ft"), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out", stagger: 0.05 }, K.yet + 0.1);
+K.hl.forEach((t, i) => {
+  if (t == null) return;
+  fadeIn(".ft.t" + i + " .hl", t, 0.3);
+  pulse(".ft.t" + i + " .no", t, 1.18);
+});
+tl.fromTo(q(".ft.f77"), { scale: 1 }, { scale: 1.08, duration: 0.25, yoyo: true, repeat: 3, ease: "sine.inOut", transformOrigin: "50% 50%" }, K.dikkat);
+tl.fromTo(q(".note"), { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.55, ease: "back.out(1.6)" }, K.dikkat - 0.1);
+slam(".note .badge", K.dikkat);
+pop(".note .lock", K.sakli, 0, "back.out(2.6)");
+
+exitAll(26.21);
+window.__timelines["s03"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

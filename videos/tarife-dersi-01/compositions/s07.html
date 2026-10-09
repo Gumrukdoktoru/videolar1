@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s07 { position: absolute; inset: 0; overflow: hidden; }
+        #s07 .stage { position: absolute; inset: 0; }
+
+#s07 .ans { position:absolute; left:600px; top:128px; width:1220px; height:96px; display:flex; align-items:center; gap:20px; padding:0 26px;
+  background:rgba(46,212,122,.12); border:3px solid var(--ok); border-radius:20px; }
+#s07 .ans .lab { font:900 24px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s07 .ans .L { flex:none; width:66px; height:66px; border-radius:50%; background:var(--ok); color:#03221a; font:900 38px Montserrat;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 8px rgba(46,212,122,.18); }
+#s07 .ans .tx { font:800 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s07 .ans .tx em { font-style:normal; color:var(--ok); }
+#s07 .ans .ck { margin-left:auto; color:var(--ok); }
+#s07 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s07 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; }
+#s07 .bub { position:absolute; padding:14px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 25px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s07 .bub:after { content:""; position:absolute; left:var(--tail, 60px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s07 .bub em { font-style:normal; color:#B4231B; }
+#s07 .bub i { font-style:normal; color:#0B8A47; }
+#s07 .stamp { position:absolute; display:flex; align-items:center; gap:8px; padding:6px 16px 6px 10px; border:6px solid var(--uyari); border-radius:12px;
+  color:#FF8A96; background:rgba(42,10,14,.88); font:900 30px Montserrat; letter-spacing:.06em; transform:rotate(-8deg); white-space:nowrap; }
+#s07 .stamp .ico { color:var(--uyari); }
+#s07 .stamp.ok { border-color:var(--ok); color:#BFFFE0; background:rgba(3,34,26,.88); }
+#s07 .stamp.ok .ico { color:var(--ok); }
+
+#s07 .p1 { position:absolute; inset:0; }
+#s07 .hdr { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:22px; }
+#s07 .hdr .h1 { font-size:46px; margin:0; white-space:nowrap; }
+#s07 .org { position:absolute; left:600px; width:580px; height:170px; padding:20px 24px; border-radius:22px; display:flex; align-items:center; gap:20px; }
+#s07 .org.dto { top:250px; background:rgba(255,77,94,.08); border:3px solid rgba(255,77,94,.7); }
+#s07 .org.dgo { top:446px; background:rgba(46,212,122,.10); border:3px solid var(--ok); }
+#s07 .org .ab { flex:none; width:100px; height:100px; border-radius:20px; display:flex; align-items:center; justify-content:center;
+  font-family:'Archivo Black'; font-size:34px; line-height:1; }
+#s07 .org.dto .ab { background:rgba(255,77,94,.2); color:#FF8A96; } #s07 .org.dgo .ab { background:rgba(46,212,122,.2); color:var(--ok); }
+#s07 .org b { display:block; font:900 24px Montserrat; color:var(--fg); white-space:nowrap; }
+#s07 .org small { display:block; font:400 20px 'JetBrains Mono'; color:var(--muted); margin-top:6px; white-space:nowrap; }
+#s07 .org .mk { margin-left:auto; }
+#s07 .org.dto .mk { color:var(--uyari); } #s07 .org.dgo .mk { color:var(--ok); }
+#s07 .formula { position:absolute; left:600px; top:650px; width:580px; height:150px; padding:18px 24px; border-radius:22px; background:#F4F7FF; color:#0B1A44; }
+#s07 .formula .tt { font:900 19px Montserrat; letter-spacing:.12em; color:#5A6AA0; }
+#s07 .formula .ln { display:flex; align-items:baseline; gap:12px; margin-top:8px; font:900 30px Montserrat; white-space:nowrap; }
+#s07 .formula .ln b { font-family:'Archivo Black'; font-weight:400; }
+#s07 .formula .ln u { text-decoration:none; color:#0B8A47; border-bottom:4px solid #0B8A47; }
+#s07 .formula .ln.l2 u { color:#B4231B; border-color:#B4231B; }
+#s07 .cano { left:1214px; top:420px; }
+#s07 .canotag { left:1262px; top:850px; }
+#s07 .bub.bc { left:1206px; top:252px; width:270px; --tail:80px; }
+#s07 .stamp.sc { left:1224px; top:600px; }
+#s07 .baba { left:1560px; top:380px; }
+#s07 .babatag { left:1556px; top:850px; }
+#s07 .bub.bb { left:1496px; top:188px; width:324px; --tail:150px; }
+#s07 .p2 { position:absolute; inset:0; opacity:0; }
+#s07 .p2 .tt { position:absolute; left:600px; top:250px; font:900 24px Montserrat; letter-spacing:.12em; color:var(--accent2); white-space:nowrap; }
+#s07 .p2 .ex { position:absolute; left:600px; top:290px; font:400 21px 'JetBrains Mono'; color:var(--muted); white-space:nowrap; }
+#s07 .p2 .ex b { color:var(--fg); }
+#s07 .code { position:absolute; left:600px; top:360px; width:1220px; display:flex; gap:40px; }
+#s07 .grp { flex:none; width:150px; display:flex; flex-direction:column; align-items:stretch; }
+#s07 .grp.g0 { width:490px; }
+#s07 .grp .dg { display:flex; gap:6px; justify-content:center; }
+#s07 .grp .dg span { width:72px; height:104px; border-radius:12px; display:flex; align-items:center; justify-content:center; font:700 54px 'JetBrains Mono';
+  background:rgba(13,36,92,.94); border:3px solid currentColor; color:var(--fg); }
+#s07 .grp .dg span.dot { width:32px; border:none; background:none; color:var(--muted); }
+#s07 .grp .br { height:20px; margin:12px 6px 0; border:4px solid currentColor; border-top:none; border-radius:0 0 12px 12px; }
+#s07 .grp .lb { margin-top:12px; text-align:center; }
+#s07 .grp .lb .hn { font:700 22px 'JetBrains Mono'; }
+#s07 .grp .lb b { display:block; font:900 18px/1.2 Montserrat; color:var(--fg); margin-top:4px; }
+#s07 .grp .lb small { display:block; font:700 17px Montserrat; color:var(--muted); margin-top:2px; white-space:nowrap; }
+#s07 .g0 { color:var(--ok); } #s07 .g1 { color:var(--accent2); } #s07 .g2 { color:var(--gold); } #s07 .g3 { color:var(--dikkat); }
+#s07 .p2 .on { position:absolute; left:600px; top:690px; width:1220px; height:100px; display:flex; align-items:center; gap:22px; padding:0 26px; }
+#s07 .p2 .on .tx { font:800 27px Montserrat; color:var(--fg); white-space:nowrap; }
+#s07 .p2 .on .tx em { font-style:normal; color:var(--ok); }
+
+      </style>
+      <div id="s07" data-composition-id="s07" data-width="1920" data-height="1080" data-duration="31.929">
+        <div class="stage">
+
+<div class="p1">
+  <div class="hdr"><div class="badge b-tuzak "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M3 17h18M5 17l2-8 3 5 2-7 2 7 3-5 2 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><circle cx="12" cy="20.5" r="1.6" fill="currentColor"/></svg></span><span class="bt">TUZAK</span></div><div class="h1">AS'yi kim hazırladı?</div></div>
+  <div class="org dto"><span class="ab">DTÖ</span><div><b>Dünya Ticaret Örgütü</b><small>Cenevre · ticaret kuralları</small></div><span class="mk"><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span></div>
+  <div class="org dgo"><span class="ab">DGÖ</span><div><b>Dünya Gümrük Örgütü</b><small>Brüksel · Armonize Sistem</small></div><span class="mk"><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+  <div class="formula"><div class="tt">GÜMRÜKÇÜ BABA'NIN FORMÜLÜ</div>
+    <div class="ln l1"><b>D<u>G</u>Ö</b><span>→ <u>G</u>ümrük · AS burada</span></div><div class="ln l2"><b>D<u>T</u>Ö</b><span>→ <u>T</u>icaret</span></div></div>
+  <div class="bub bc">Dünya <em>Ticaret</em> Örgütü!</div>
+  <img class="chr cano" src="assets/img/cano-cut.png" alt="CANO" style="height:430px" />
+  <span class="ctag canotag">CANO</span>
+  <div class="stamp sc"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg>HAYIR</div>
+  <div class="bub bb"><i>DGÖ</i> gümrük,<br/><em>DTÖ</em> ticaret!</div>
+  <img class="chr baba" src="assets/img/baba-crop.png" alt="GÜMRÜKÇÜ BABA" style="height:470px" />
+  <span class="ctag babatag">GÜMRÜKÇÜ BABA</span>
+</div>
+<div class="p2">
+  <div class="tt">12 HANELİ TARİFE KODU (GTİP) · NASIL OKUNUR?</div>
+  <div class="ex">Örnek: <b>8501.10.10.00.00</b> · çıkış gücü 18 W'ı geçmeyen senkron motorlar</div>
+  <div class="code"><div class="grp g0"><div class="dg"><span>8</span><span>5</span><span>0</span><span>1</span><span class="dot">.</span><span>1</span><span>0</span></div><div class="br"></div><div class="lb"><span class="hn">1–6. hane</span><b>ARMONİZE SİSTEM</b><small>DGÖ · uluslararası ortak</small></div></div><div class="grp g1"><div class="dg"><span>1</span><span>0</span></div><div class="br"></div><div class="lb"><span class="hn">7–8. hane</span><b>KOMBİNE NOMANKLATÜR</b><small>Avrupa Birliği</small></div></div><div class="grp g2"><div class="dg"><span>0</span><span>0</span></div><div class="br"></div><div class="lb"><span class="hn">9–10. hane</span><b>MİLLİ ALT AÇILIM</b><small>ulusal</small></div></div><div class="grp g3"><div class="dg"><span>0</span><span>0</span></div><div class="br"></div><div class="lb"><span class="hn">11–12. hane</span><b>İSTATİSTİK</b><small>ulusal</small></div></div></div>
+  <div class="on card"><svg class="ico " viewBox="0 0 24 24" width="54" height="54" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M2.5 12h19M12 2.5c3.4 3 3.4 16 0 19M12 2.5c-3.4 3-3.4 16 0 19" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><div class="tx">İlk <em>6 hane</em> = Armonize Sistem → AS’ye taraf her ülkede aynı</div></div>
+</div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s07";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 31.929;
+const K = {"tuzak": 1.79, "cano": 3.24, "dto": 6.5, "dedi": 7.67, "hayir": 8.34, "dgo": 9.91, "eser": 11.32, "baba": 12.26, "form": 13.29, "g": 10.26, "t": 6.76, "kod": 17.32, "on2": 18.6, "grp": [20.05, 22.22, 26.06, 28.9]};
+
+
+slam(".hdr .badge", K.tuzak - 0.1);
+rise(".hdr .h1", K.tuzak + 0.3, 0, 30);
+tl.fromTo(q(".cano"), { x: 200, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.cano - 0.2);
+pop(".canotag", K.cano + 0.2, 0, "back.out(2.4)");
+tl.fromTo(q(".bub.bc"), { scale: 0.3, opacity: 0, transformOrigin: "30% 100%" }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(2.2)" }, K.dto);
+slideX(".org.dto", K.dto, -60);
+slam(".stamp.sc", K.hayir);
+pop(".org.dto .mk", K.hayir + 0.1, 0, "back.out(3)");
+slideX(".org.dgo", K.dgo - 0.1, -60);
+pop(".org.dgo .mk", K.eser, 0, "back.out(3)");
+tl.fromTo(q(".baba"), { x: 220, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.baba - 0.3);
+pop(".babatag", K.baba + 0.1, 0, "back.out(2.4)");
+tl.fromTo(q(".bub.bb"), { scale: 0.3, opacity: 0, transformOrigin: "50% 100%" }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(2.2)" }, K.form);
+tl.fromTo(q(".formula"), { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.6)" }, K.form - 0.1);
+pulse(".formula .l1", K.g, 1.06);
+pulse(".formula .l2", K.t, 1.06);
+tl.to(q(".p1"), { opacity: 0, y: -30, duration: 0.45, ease: "power2.in" }, K.kod - 0.5);
+tl.fromTo(q(".p2"), { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power1.out" }, K.kod - 0.05);
+rise(".p2 .tt", K.kod, 0, 16);
+rise(".p2 .ex", K.on2, 0, 12);
+tl.fromTo(q(".grp .dg span"), { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "back.out(2)", stagger: 0.04 }, K.on2 - 0.2);
+K.grp.forEach((t, i) => {
+  tl.fromTo(q(".grp.g" + i + " .br"), { scaleX: 0, opacity: 0 }, { scaleX: 1, opacity: 1, duration: 0.4, ease: "power2.out" }, t);
+  rise(".grp.g" + i + " .lb", t + 0.1, 0, 16);
+  tl.fromTo(q(".grp.g" + i + " .dg span:not(.dot)"), { backgroundColor: "rgba(13,36,92,.94)" }, { backgroundColor: "rgba(255,255,255,.14)", duration: 0.3, immediateRender: false }, t);
+});
+tl.fromTo(q(".p2 .on"), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, K.grp[1] - 0.4);
+
+exitAll(31.51);
+window.__timelines["s07"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

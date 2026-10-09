@@ -1,0 +1,296 @@
+[
+  {
+    "text": "Üçüncü",
+    "start": 0.07,
+    "end": 0.57,
+    "id": "w0"
+  },
+  {
+    "text": "soru.",
+    "start": 0.57,
+    "end": 1.16,
+    "id": "w1"
+  },
+  {
+    "text": "Türk",
+    "start": 1.24,
+    "end": 1.41,
+    "id": "w2"
+  },
+  {
+    "text": "yumruk",
+    "start": 1.41,
+    "end": 1.77,
+    "id": "w3"
+  },
+  {
+    "text": "tarife",
+    "start": 1.78,
+    "end": 2.17,
+    "id": "w4"
+  },
+  {
+    "text": "cetvelinde",
+    "start": 2.36,
+    "end": 2.8,
+    "id": "w5"
+  },
+  {
+    "text": "kullanılan",
+    "start": 2.8,
+    "end": 3.43,
+    "id": "w6"
+  },
+  {
+    "text": "ölçü",
+    "start": 3.43,
+    "end": 3.68,
+    "id": "w7"
+  },
+  {
+    "text": "birimi",
+    "start": 3.73,
+    "end": 4.04,
+    "id": "w8"
+  },
+  {
+    "text": "kısaltmalarıyla",
+    "start": 4.15,
+    "end": 5.16,
+    "id": "w9"
+  },
+  {
+    "text": "anlamlarına",
+    "start": 5.16,
+    "end": 5.82,
+    "id": "w10"
+  },
+  {
+    "text": "ilişkin",
+    "start": 5.82,
+    "end": 6.29,
+    "id": "w11"
+  },
+  {
+    "text": "aşağıdaki",
+    "start": 6.37,
+    "end": 6.95,
+    "id": "w12"
+  },
+  {
+    "text": "eşleştirmelerden",
+    "start": 6.95,
+    "end": 8.07,
+    "id": "w13"
+  },
+  {
+    "text": "hangisi",
+    "start": 8.07,
+    "end": 8.56,
+    "id": "w14"
+  },
+  {
+    "text": "yanlıştır?",
+    "start": 8.56,
+    "end": 9.46,
+    "id": "w15"
+  },
+  {
+    "text": "A",
+    "start": 9.58,
+    "end": 9.63,
+    "id": "w16"
+  },
+  {
+    "text": "şıkkı",
+    "start": 9.68,
+    "end": 10.5,
+    "id": "w17"
+  },
+  {
+    "text": "C,",
+    "start": 10.58,
+    "end": 11.21,
+    "id": "w18"
+  },
+  {
+    "text": "T,",
+    "start": 11.21,
+    "end": 11.96,
+    "id": "w19"
+  },
+  {
+    "text": "L,",
+    "start": 12.09,
+    "end": 12.51,
+    "id": "w20"
+  },
+  {
+    "text": "K,",
+    "start": 12.51,
+    "end": 12.95,
+    "id": "w21"
+  },
+  {
+    "text": "B",
+    "start": 13.07,
+    "end": 13.17,
+    "id": "w22"
+  },
+  {
+    "text": "şıkkı",
+    "start": 13.17,
+    "end": 13.97,
+    "id": "w23"
+  },
+  {
+    "text": "Pbölü,",
+    "start": 14.14,
+    "end": 14.8,
+    "id": "w24"
+  },
+  {
+    "text": "C,",
+    "start": 14.8,
+    "end": 15.37,
+    "id": "w25"
+  },
+  {
+    "text": "T,",
+    "start": 15.39,
+    "end": 15.66,
+    "id": "w26"
+  },
+  {
+    "text": "adet",
+    "start": 15.66,
+    "end": 16.32,
+    "id": "w27"
+  },
+  {
+    "text": "C",
+    "start": 16.4,
+    "end": 16.45,
+    "id": "w28"
+  },
+  {
+    "text": "şıkkı",
+    "start": 16.5,
+    "end": 17.36,
+    "id": "w29"
+  },
+  {
+    "text": "C,",
+    "start": 17.44,
+    "end": 17.75,
+    "id": "w30"
+  },
+  {
+    "text": "Ebölü,",
+    "start": 17.75,
+    "end": 18.66,
+    "id": "w31"
+  },
+  {
+    "text": "E,",
+    "start": 18.69,
+    "end": 19.05,
+    "id": "w32"
+  },
+  {
+    "text": "L,",
+    "start": 19.05,
+    "end": 19.39,
+    "id": "w33"
+  },
+  {
+    "text": "hücre",
+    "start": 19.39,
+    "end": 19.81,
+    "id": "w34"
+  },
+  {
+    "text": "adeti",
+    "start": 19.93,
+    "end": 20.36,
+    "id": "w35"
+  },
+  {
+    "text": "D",
+    "start": 20.44,
+    "end": 20.49,
+    "id": "w36"
+  },
+  {
+    "text": "şıkkı",
+    "start": 20.54,
+    "end": 21.36,
+    "id": "w37"
+  },
+  {
+    "text": "Pbölü,",
+    "start": 21.44,
+    "end": 22.07,
+    "id": "w38"
+  },
+  {
+    "text": "A,",
+    "start": 22.07,
+    "end": 22.76,
+    "id": "w39"
+  },
+  {
+    "text": "çift",
+    "start": 22.76,
+    "end": 23.36,
+    "id": "w40"
+  },
+  {
+    "text": "E",
+    "start": 23.44,
+    "end": 23.49,
+    "id": "w41"
+  },
+  {
+    "text": "şıkkı",
+    "start": 23.54,
+    "end": 24.4,
+    "id": "w42"
+  },
+  {
+    "text": "T,",
+    "start": 24.48,
+    "end": 24.84,
+    "id": "w43"
+  },
+  {
+    "text": "G,",
+    "start": 24.84,
+    "end": 25.11,
+    "id": "w44"
+  },
+  {
+    "text": "terajül",
+    "start": 25.71,
+    "end": 26.4,
+    "id": "w45"
+  },
+  {
+    "text": "Üç",
+    "start": 26.48,
+    "end": 26.64,
+    "id": "w46"
+  },
+  {
+    "text": "saniye,",
+    "start": 26.64,
+    "end": 27.62,
+    "id": "w47"
+  },
+  {
+    "text": "düşünün.",
+    "start": 27.74,
+    "end": 28.4,
+    "id": "w48"
+  }
+]

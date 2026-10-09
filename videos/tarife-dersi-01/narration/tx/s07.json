@@ -1,0 +1,392 @@
+[
+  {
+    "text": "Bu",
+    "start": 0.09,
+    "end": 0.17,
+    "id": "w0"
+  },
+  {
+    "text": "soru",
+    "start": 0.17,
+    "end": 0.5,
+    "id": "w1"
+  },
+  {
+    "text": "da",
+    "start": 0.5,
+    "end": 0.67,
+    "id": "w2"
+  },
+  {
+    "text": "gizli",
+    "start": 0.67,
+    "end": 1.09,
+    "id": "w3"
+  },
+  {
+    "text": "bir",
+    "start": 1.09,
+    "end": 1.34,
+    "id": "w4"
+  },
+  {
+    "text": "tuzak",
+    "start": 1.34,
+    "end": 1.76,
+    "id": "w5"
+  },
+  {
+    "text": "daha",
+    "start": 1.76,
+    "end": 2.1,
+    "id": "w6"
+  },
+  {
+    "text": "var.",
+    "start": 2.1,
+    "end": 2.51,
+    "id": "w7"
+  },
+  {
+    "text": "Canoya",
+    "start": 2.79,
+    "end": 3.5,
+    "id": "w8"
+  },
+  {
+    "text": "Armonai",
+    "start": 3.5,
+    "end": 3.93,
+    "id": "w9"
+  },
+  {
+    "text": "sistemi",
+    "start": 3.93,
+    "end": 4.37,
+    "id": "w10"
+  },
+  {
+    "text": "kimin",
+    "start": 4.37,
+    "end": 4.68,
+    "id": "w11"
+  },
+  {
+    "text": "hazırladığını",
+    "start": 4.68,
+    "end": 5.51,
+    "id": "w12"
+  },
+  {
+    "text": "sorduk.",
+    "start": 5.53,
+    "end": 5.96,
+    "id": "w13"
+  },
+  {
+    "text": "Dünya",
+    "start": 6.05,
+    "end": 6.31,
+    "id": "w14"
+  },
+  {
+    "text": "Ticaret",
+    "start": 6.31,
+    "end": 6.8,
+    "id": "w15"
+  },
+  {
+    "text": "örgütü",
+    "start": 6.8,
+    "end": 7.22,
+    "id": "w16"
+  },
+  {
+    "text": "dedi.",
+    "start": 7.22,
+    "end": 7.74,
+    "id": "w17"
+  },
+  {
+    "text": "Hayır!",
+    "start": 7.89,
+    "end": 8.54,
+    "id": "w18"
+  },
+  {
+    "text": "Armonai",
+    "start": 8.63,
+    "end": 9.03,
+    "id": "w19"
+  },
+  {
+    "text": "sistem",
+    "start": 9.03,
+    "end": 9.39,
+    "id": "w20"
+  },
+  {
+    "text": "dünya",
+    "start": 9.46,
+    "end": 9.81,
+    "id": "w21"
+  },
+  {
+    "text": "Gümrük",
+    "start": 9.81,
+    "end": 10.23,
+    "id": "w22"
+  },
+  {
+    "text": "örgütünün",
+    "start": 10.23,
+    "end": 10.87,
+    "id": "w23"
+  },
+  {
+    "text": "eseridir.",
+    "start": 10.87,
+    "end": 11.74,
+    "id": "w24"
+  },
+  {
+    "text": "Gümrükçü",
+    "start": 11.81,
+    "end": 12.32,
+    "id": "w25"
+  },
+  {
+    "text": "babanın",
+    "start": 12.32,
+    "end": 12.84,
+    "id": "w26"
+  },
+  {
+    "text": "formülü",
+    "start": 12.84,
+    "end": 13.42,
+    "id": "w27"
+  },
+  {
+    "text": "DGÖ",
+    "start": 13.51,
+    "end": 13.9,
+    "id": "w28"
+  },
+  {
+    "text": "Gümrük",
+    "start": 13.9,
+    "end": 14.88,
+    "id": "w29"
+  },
+  {
+    "text": "DTE",
+    "start": 14.97,
+    "end": 15.64,
+    "id": "w30"
+  },
+  {
+    "text": "Ticaret",
+    "start": 15.64,
+    "end": 16.36,
+    "id": "w31"
+  },
+  {
+    "text": "Bir",
+    "start": 16.53,
+    "end": 16.7,
+    "id": "w32"
+  },
+  {
+    "text": "de",
+    "start": 16.7,
+    "end": 16.87,
+    "id": "w33"
+  },
+  {
+    "text": "kod",
+    "start": 16.87,
+    "end": 17.12,
+    "id": "w34"
+  },
+  {
+    "text": "yapısı.",
+    "start": 17.12,
+    "end": 17.68,
+    "id": "w35"
+  },
+  {
+    "text": "12",
+    "start": 17.81,
+    "end": 18.15,
+    "id": "w36"
+  },
+  {
+    "text": "Haneli",
+    "start": 18.15,
+    "end": 18.53,
+    "id": "w37"
+  },
+  {
+    "text": "tarife",
+    "start": 18.6,
+    "end": 19.07,
+    "id": "w38"
+  },
+  {
+    "text": "kodunun",
+    "start": 19.07,
+    "end": 19.6,
+    "id": "w39"
+  },
+  {
+    "text": "ilk",
+    "start": 19.6,
+    "end": 19.82,
+    "id": "w40"
+  },
+  {
+    "text": "6",
+    "start": 19.82,
+    "end": 20.06,
+    "id": "w41"
+  },
+  {
+    "text": "hanesi",
+    "start": 20.06,
+    "end": 20.6,
+    "id": "w42"
+  },
+  {
+    "text": "Armonai",
+    "start": 20.6,
+    "end": 21.1,
+    "id": "w43"
+  },
+  {
+    "text": "sistem.",
+    "start": 21.22,
+    "end": 21.68,
+    "id": "w44"
+  },
+  {
+    "text": "7",
+    "start": 21.77,
+    "end": 21.96,
+    "id": "w45"
+  },
+  {
+    "text": "ve",
+    "start": 21.96,
+    "end": 22.14,
+    "id": "w46"
+  },
+  {
+    "text": "8.",
+    "start": 22.14,
+    "end": 22.7,
+    "id": "w47"
+  },
+  {
+    "text": "Haneler",
+    "start": 22.7,
+    "end": 23.38,
+    "id": "w48"
+  },
+  {
+    "text": "Avrupa",
+    "start": 23.38,
+    "end": 23.77,
+    "id": "w49"
+  },
+  {
+    "text": "Birliği",
+    "start": 23.77,
+    "end": 24.18,
+    "id": "w50"
+  },
+  {
+    "text": "kombine",
+    "start": 24.49,
+    "end": 24.69,
+    "id": "w51"
+  },
+  {
+    "text": "nomanklatürü.",
+    "start": 24.69,
+    "end": 25.52,
+    "id": "w52"
+  },
+  {
+    "text": "9",
+    "start": 25.61,
+    "end": 25.76,
+    "id": "w53"
+  },
+  {
+    "text": "ve",
+    "start": 25.76,
+    "end": 25.92,
+    "id": "w54"
+  },
+  {
+    "text": "10.",
+    "start": 25.93,
+    "end": 26.64,
+    "id": "w55"
+  },
+  {
+    "text": "Haneler",
+    "start": 26.64,
+    "end": 27.2,
+    "id": "w56"
+  },
+  {
+    "text": "milli",
+    "start": 27.2,
+    "end": 27.6,
+    "id": "w57"
+  },
+  {
+    "text": "alt",
+    "start": 27.6,
+    "end": 27.84,
+    "id": "w58"
+  },
+  {
+    "text": "açılım.",
+    "start": 27.84,
+    "end": 28.36,
+    "id": "w59"
+  },
+  {
+    "text": "Son",
+    "start": 28.45,
+    "end": 28.61,
+    "id": "w60"
+  },
+  {
+    "text": "ikihane",
+    "start": 28.61,
+    "end": 29.19,
+    "id": "w61"
+  },
+  {
+    "text": "ise",
+    "start": 29.19,
+    "end": 29.41,
+    "id": "w62"
+  },
+  {
+    "text": "istatistik",
+    "start": 29.44,
+    "end": 30.28,
+    "id": "w63"
+  },
+  {
+    "text": "kodudur.",
+    "start": 30.28,
+    "end": 30.96,
+    "id": "w64"
+  }
+]

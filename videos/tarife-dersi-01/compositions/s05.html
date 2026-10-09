@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s05 { position: absolute; inset: 0; overflow: hidden; }
+        #s05 .stage { position: absolute; inset: 0; }
+
+#s05 .ans { position:absolute; left:600px; top:128px; width:1220px; height:96px; display:flex; align-items:center; gap:20px; padding:0 26px;
+  background:rgba(46,212,122,.12); border:3px solid var(--ok); border-radius:20px; }
+#s05 .ans .lab { font:900 24px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s05 .ans .L { flex:none; width:66px; height:66px; border-radius:50%; background:var(--ok); color:#03221a; font:900 38px Montserrat;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 8px rgba(46,212,122,.18); }
+#s05 .ans .tx { font:800 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s05 .ans .tx em { font-style:normal; color:var(--ok); }
+#s05 .ans .ck { margin-left:auto; color:var(--ok); }
+#s05 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s05 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; }
+#s05 .bub { position:absolute; padding:14px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 25px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s05 .bub:after { content:""; position:absolute; left:var(--tail, 60px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s05 .bub em { font-style:normal; color:#B4231B; }
+#s05 .bub i { font-style:normal; color:#0B8A47; }
+#s05 .stamp { position:absolute; display:flex; align-items:center; gap:8px; padding:6px 16px 6px 10px; border:6px solid var(--uyari); border-radius:12px;
+  color:#FF8A96; background:rgba(42,10,14,.88); font:900 30px Montserrat; letter-spacing:.06em; transform:rotate(-8deg); white-space:nowrap; }
+#s05 .stamp .ico { color:var(--uyari); }
+#s05 .stamp.ok { border-color:var(--ok); color:#BFFFE0; background:rgba(3,34,26,.88); }
+#s05 .stamp.ok .ico { color:var(--ok); }
+
+#s05 .qh { position:absolute; left:600px; top:124px; display:flex; align-items:center; gap:22px; }
+#s05 .qh .qn { font-family:'Archivo Black'; font-size:56px; line-height:1; color:var(--fg); white-space:nowrap; }
+#s05 .qh .qn small { font:700 26px 'JetBrains Mono'; color:var(--accent2); margin-left:8px; }
+#s05 .qh .tp { display:inline-flex; align-items:center; gap:10px; font:800 22px Montserrat; color:var(--accent2); border:2px solid rgba(143,178,255,.55);
+  border-radius:999px; padding:6px 16px; white-space:nowrap; }
+#s05 .qcol { position:absolute; left:600px; top:216px; width:1220px; display:flex; flex-direction:column; gap:18px; }
+#s05 .stem { position:relative; padding:20px 30px; font:800 32px/1.32 Montserrat; color:var(--fg); }
+#s05 .stem mark { background:none; color:var(--gold); }
+#s05 .stem .neg { position:relative; display:inline-block; color:#FF8A96; }
+#s05 .stem .neg i { position:absolute; left:0; right:0; bottom:-2px; height:5px; border-radius:3px; background:var(--uyari); transform-origin:left center; }
+#s05 .wb { position:absolute; left:1124px; top:124px; display:flex; align-items:center; gap:12px; }
+#s05 .wb > span { font:900 22px Montserrat; color:#FF8A96; white-space:nowrap; }
+#s05 .ops { display:flex; flex-direction:column; gap:11px; }
+#s05 .op { display:flex; align-items:center; gap:22px; padding:10px 24px 10px 12px; background:rgba(13,36,92,.86); border:2px solid #2B4C9E; border-radius:16px; }
+#s05 .op .lt { flex:none; width:52px; height:52px; border-radius:50%; background:var(--accent); color:#fff; display:flex; align-items:center;
+  justify-content:center; font:900 28px Montserrat; }
+#s05 .op .ot { font:700 24px/1.28 Montserrat; color:var(--fg); }
+#s05 .op .ot b { font:700 26px 'JetBrains Mono'; color:var(--gold); }
+#s05 .ring { position:absolute; left:1712px; top:110px; width:108px; height:108px; }
+#s05 .ring svg { position:absolute; inset:0; }
+#s05 .ring .n { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:52px; color:var(--gold); opacity:0; }
+#s05 .think { position:absolute; left:1582px; top:146px; font:900 22px Montserrat; letter-spacing:.12em; color:var(--gold); white-space:nowrap; }
+
+      </style>
+      <div id="s05" data-composition-id="s05" data-width="1920" data-height="1080" data-duration="49.113">
+        <div class="stage">
+
+<div class="qh"><div class="qn">SORU 2<small>/ 3</small></div><div class="badge b-soru "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M9 9.2a3 3 0 1 1 4.2 2.8c-.9.4-1.2 1-1.2 2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.4" fill="currentColor"/></svg></span><span class="bt">SORU</span></div><span class="tp"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M12 3l9.5 5-9.5 5-9.5-5z" fill="currentColor"/><path d="M2.5 12.5l9.5 5 9.5-5M2.5 16.5l9.5 5 9.5-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>Tarife cetvelinin sistematiği</span></div>
+<div class="qcol">
+  <div class="stem card"><mark>Armonize Sistem</mark> ve tarife cetvelinin sınıflandırma mantığı ile ilgili aşağıdaki ifadelerden hangisi <span class="neg">yanlıştır<i></i></span>?</div>
+  <div class="ops"><div class="op o0"><span class="lt">A</span><span class="ot">Armonize Sistem, merkezi Brüksel’de bulunan Dünya Gümrük Örgütü bünyesinde hazırlanmıştır.</span></div><div class="op o1"><span class="lt">B</span><span class="ot">Kodun ilk altı hanesi, sisteme taraf tüm ülkelerde aynı şekilde uygulanır.</span></div><div class="op o2"><span class="lt">C</span><span class="ot">Sınıflandırma genel olarak canlıdan cansıza, ham maddeden mamul eşyaya doğru bir sıra izler.</span></div><div class="op o3"><span class="lt">D</span><span class="ot">84-96. fasıllardaki eşya, genel olarak işlevine göre sınıflandırılır.</span></div><div class="op o4"><span class="lt">E</span><span class="ot">İlk bakışta iki pozisyona girebilen eşya, vergi oranı yüksek olan pozisyonda sınıflandırılır.</span></div></div>
+</div>
+<div class="wb"><div class="badge b-dikkat "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M1.5 12S5.5 4.8 12 4.8 22.5 12 22.5 12 18.5 19.2 12 19.2 1.5 12 1.5 12z" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12" cy="12" r="3.6" fill="currentColor"/></svg></span><span class="bt">DİKKAT</span></div><span>yanlışı bul!</span></div>
+<div class="think">DÜŞÜN!</div>
+<div class="ring"><svg viewBox="0 0 108 108"><circle cx="54" cy="54" r="46" fill="rgba(4,14,40,.85)" stroke="#2B4C9E" stroke-width="8"/>
+  <circle class="arc" cx="54" cy="54" r="46" fill="none" stroke="#FFC53D" stroke-width="8" stroke-linecap="round" transform="rotate(-90 54 54)"/></svg>
+  <span class="n n3">3</span><span class="n n2">2</span><span class="n n1">1</span></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s05";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 49.113;
+const K = {"soru": 1.1, "stem": 1.68, "ops": [9.03, 15.74, 21.97, 28.43, 35.93], "san": 43.43, "end": 44.96, "neg": 7.74};
+
+
+tl.fromTo(q(".qh .qn"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.55, ease: "expo.out" }, Math.max(0.05, K.soru - 0.35));
+pop(".qh .badge", K.soru + 0.15, 0, "back.out(2.6)");
+rise(".qh .tp", K.soru + 0.35, 0, 18);
+tl.fromTo(q(".stem"), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, K.stem - 0.25);
+tl.fromTo(q(".stem mark"), { color: "#EEF2FF" }, { color: "#FFC53D", duration: 0.4, ease: "power1.out" }, K.stem + 0.2);
+K.ops.forEach((t, i) => {
+  tl.fromTo(q(".op.o" + i), { x: 70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: "expo.out" }, t);
+  tl.fromTo(q(".op.o" + i + " .lt"), { scale: 0.3 }, { scale: 1, duration: 0.45, ease: "back.out(3)" }, t + 0.05);
+  tl.fromTo(q(".op.o" + i), { borderColor: "#8FB2FF" }, { borderColor: "#2B4C9E", duration: 0.9, ease: "power1.out", immediateRender: false }, t + 0.4);
+});
+if (K.neg != null) {
+  tl.fromTo(q(".stem .neg i"), { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power2.out" }, K.neg);
+  tl.to(q(".qh .tp"), { opacity: 0, y: -20, duration: 0.25, ease: "power2.in" }, K.neg - 0.2);
+  slam(".wb .badge", K.neg + 0.05);
+  rise(".wb > span", K.neg + 0.4, 0, 12);
+}
+rise(".think", K.san - 0.2, 0, 14);
+pop(".ring", K.san - 0.1, 0, "back.out(2.2)");
+draw(".ring .arc", K.end, 3.0, "none");
+["n3", "n2", "n1"].forEach((n, i) => {
+  tl.fromTo(q(".ring ." + n), { opacity: 0, scale: 1.7 }, { opacity: 1, scale: 1, duration: 0.25, ease: "back.out(2)" }, K.end + i);
+  tl.to(q(".ring ." + n), { opacity: 0, duration: 0.15 }, K.end + i + 0.85);
+});
+tl.fromTo(q(".ops"), { opacity: 1 }, { opacity: 0.9, duration: 0.5, yoyo: true, repeat: 3, ease: "sine.inOut" }, K.end);
+
+exitAll(48.69);
+window.__timelines["s05"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

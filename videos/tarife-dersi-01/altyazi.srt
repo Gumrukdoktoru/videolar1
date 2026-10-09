@@ -1,0 +1,599 @@
+1
+00:00:01,690 --> 00:00:04,920
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,920 --> 00:00:06,300
+ilkine hoş geldiniz.
+
+3
+00:00:06,300 --> 00:00:09,040
+Bugün tarife cetvelinin sistematiğinden 3 soru
+
+4
+00:00:09,040 --> 00:00:09,980
+çözeceğiz:
+
+5
+00:00:09,980 --> 00:00:13,730
+bölüm ve fasıllar, Armonize Sistem ve ölçü birimleri.
+
+6
+00:00:13,730 --> 00:00:14,890
+Ekip de hazır:
+
+7
+00:00:14,890 --> 00:00:18,170
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+8
+00:00:18,170 --> 00:00:20,330
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:21,241 --> 00:00:22,331
+Birinci soru.
+
+10
+00:00:22,331 --> 00:00:25,371
+Adi metaller ve adi metallerden eşya,
+
+11
+00:00:25,371 --> 00:00:28,571
+Türk Gümrük Tarife Cetvelinin hangi bölüm ve fasıllarında
+
+12
+00:00:28,571 --> 00:00:29,711
+yer almaktadır?
+
+13
+00:00:29,711 --> 00:00:30,731
+A şıkkı:
+
+14
+00:00:30,731 --> 00:00:33,311
+14. bölüm, 71. fasıl.
+
+15
+00:00:33,311 --> 00:00:34,331
+B şıkkı:
+
+16
+00:00:34,331 --> 00:00:37,911
+16. bölüm, 84 ve 85. fasıllar.
+
+17
+00:00:37,911 --> 00:00:38,931
+C şıkkı:
+
+18
+00:00:38,931 --> 00:00:42,611
+15. bölüm, 72 ile 83 arası fasıllar.
+
+19
+00:00:42,611 --> 00:00:43,631
+D şıkkı:
+
+20
+00:00:43,631 --> 00:00:47,211
+13. bölüm, 68 ile 70 arası fasıllar.
+
+21
+00:00:47,211 --> 00:00:48,221
+E şıkkı:
+
+22
+00:00:48,221 --> 00:00:52,641
+17. bölüm, 86 ile 89 arası fasıllar.
+
+23
+00:00:52,641 --> 00:00:54,520
+3 saniye, düşünün!
+
+24
+00:00:58,950 --> 00:00:59,190
+Cevap:
+
+25
+00:00:59,190 --> 00:01:00,750
+C şıkkı.
+
+26
+00:01:00,750 --> 00:01:03,070
+Adi metaller, 15. bölümde,
+
+27
+00:01:03,070 --> 00:01:06,150
+72 ile 83 arası fasıllarda yer alır.
+
+28
+00:01:06,150 --> 00:01:08,450
+Bölüm demir ve çelikle başlar;
+
+29
+00:01:08,450 --> 00:01:10,480
+bakır, nikel, alüminyum,
+
+30
+00:01:10,480 --> 00:01:14,100
+kurşun, çinko, kalay ve diğer adi metallerle devam
+
+31
+00:01:14,100 --> 00:01:14,550
+eder;
+
+32
+00:01:14,550 --> 00:01:18,190
+adi metallerden aletler ve çeşitli eşyayla biter.
+
+33
+00:01:18,190 --> 00:01:18,990
+Dikkat!
+
+34
+00:01:18,990 --> 00:01:20,910
+77. fasıl boştur;
+
+35
+00:01:20,910 --> 00:01:23,720
+Armonize Sistemde ileride kullanılmak üzere saklı
+
+36
+00:01:23,720 --> 00:01:24,746
+tutulmuştur.
+
+37
+00:01:25,586 --> 00:01:27,476
+Peki tuzak nerede?
+
+38
+00:01:27,566 --> 00:01:30,366
+Yardımcımız, metalden yapılmış diye makineleri
+
+39
+00:01:30,366 --> 00:01:30,886
+seçti:
+
+40
+00:01:30,886 --> 00:01:31,786
+B şıkkı.
+
+41
+00:01:31,786 --> 00:01:35,586
+Ama 84 ve 85. fasıllar makinelerin yeridir.
+
+42
+00:01:35,586 --> 00:01:39,376
+1 ile 83 arası fasıllarda eşya genel olarak yapıldığı
+
+43
+00:01:39,376 --> 00:01:42,576
+maddeye göre, 84 ile 96 arasında ise işlevine
+
+44
+00:01:42,576 --> 00:01:44,156
+göre sınıflandırılır.
+
+45
+00:01:44,156 --> 00:01:47,186
+A şıkkındaki 71. fasıl da kıymetli metallerin
+
+46
+00:01:47,186 --> 00:01:47,986
+yeridir:
+
+47
+00:01:47,986 --> 00:01:49,786
+altın, gümüş, platin.
+
+48
+00:01:49,786 --> 00:01:52,835
+Kıymetli metal ayrı, adi metal ayrı!
+
+49
+00:01:53,615 --> 00:01:54,815
+İkinci soru.
+
+50
+00:01:54,815 --> 00:01:57,775
+Armonize Sistem ve tarife cetvelinin sınıflandırma
+
+51
+00:01:57,775 --> 00:02:00,875
+mantığı ile ilgili aşağıdaki ifadelerden hangisi
+
+52
+00:02:00,875 --> 00:02:01,915
+yanlıştır?
+
+53
+00:02:01,915 --> 00:02:03,145
+A şıkkı:
+
+54
+00:02:03,145 --> 00:02:05,845
+Armonize Sistem, merkezi Brüksel'de bulunan Dünya
+
+55
+00:02:05,845 --> 00:02:08,615
+Gümrük Örgütü bünyesinde hazırlanmıştır.
+
+56
+00:02:08,615 --> 00:02:09,805
+B şıkkı:
+
+57
+00:02:09,805 --> 00:02:12,865
+Kodun ilk 6 hanesi, sisteme taraf tüm ülkelerde
+
+58
+00:02:12,865 --> 00:02:14,835
+aynı şekilde uygulanır.
+
+59
+00:02:14,835 --> 00:02:16,035
+C şıkkı:
+
+60
+00:02:16,035 --> 00:02:18,775
+Sınıflandırma genel olarak canlıdan cansıza,
+
+61
+00:02:18,775 --> 00:02:21,558
+ham maddeden mamul eşyaya doğru bir sıra izler.
+
+62
+00:02:21,558 --> 00:02:22,162
+D şıkkı:
+
+63
+00:02:22,162 --> 00:02:25,615
+84 ile 96 arası fasıllardaki eşya,
+
+64
+00:02:25,615 --> 00:02:29,095
+genel olarak işlevine göre sınıflandırılır.
+
+65
+00:02:29,095 --> 00:02:29,655
+E şıkkı:
+
+66
+00:02:29,655 --> 00:02:32,655
+İlk bakışta iki pozisyona girebilen eşya,
+
+67
+00:02:32,655 --> 00:02:36,415
+vergi oranı yüksek olan pozisyonda sınıflandırılır.
+
+68
+00:02:36,415 --> 00:02:38,348
+3 saniye, düşünün!
+
+69
+00:02:42,738 --> 00:02:43,698
+Cevap:
+
+70
+00:02:43,698 --> 00:02:44,698
+E şıkkı.
+
+71
+00:02:44,698 --> 00:02:47,828
+Tarifede vergi oranına göre sınıflandırma yoktur!
+
+72
+00:02:47,828 --> 00:02:50,798
+Eşya ilk bakışta iki pozisyona girebiliyorsa,
+
+73
+00:02:50,798 --> 00:02:53,478
+3. genel kural sırayla uygulanır.
+
+74
+00:02:53,478 --> 00:02:57,048
+Önce, eşyayı en özel şekilde tanımlayan pozisyon.
+
+75
+00:02:57,048 --> 00:03:00,158
+Bu yetmezse, eşyaya esas niteliğini veren madde
+
+76
+00:03:00,158 --> 00:03:01,198
+veya parça.
+
+77
+00:03:01,198 --> 00:03:04,078
+O da sonuç vermezse, numara sırasına göre en son
+
+78
+00:03:04,078 --> 00:03:05,468
+gelen pozisyon.
+
+79
+00:03:05,468 --> 00:03:07,477
+Diğer 4 ifade doğrudur.
+
+80
+00:03:08,317 --> 00:03:10,987
+Bu soruda gizli bir tuzak daha var.
+
+81
+00:03:11,017 --> 00:03:14,277
+Cano'ya Armonize Sistemi kimin hazırladığını sorduk;
+
+82
+00:03:14,277 --> 00:03:16,117
+Dünya Ticaret Örgütü dedi.
+
+83
+00:03:16,117 --> 00:03:16,857
+Hayır!
+
+84
+00:03:16,857 --> 00:03:20,037
+Armonize Sistem, Dünya Gümrük Örgütü'nün eseridir.
+
+85
+00:03:20,037 --> 00:03:21,737
+Gümrükçü Baba'nın formülü:
+
+86
+00:03:21,737 --> 00:03:24,757
+DGÖ gümrük, DTÖ ticaret.
+
+87
+00:03:24,757 --> 00:03:26,037
+Bir de kod yapısı:
+
+88
+00:03:26,037 --> 00:03:29,447
+12 haneli tarife kodunun ilk 6 hanesi Armonize
+
+89
+00:03:29,447 --> 00:03:29,997
+Sistem;
+
+90
+00:03:29,997 --> 00:03:33,837
+7 ve 8. haneler Avrupa Birliği Kombine Nomanklatürü;
+
+91
+00:03:33,837 --> 00:03:36,677
+9 ve 10. haneler milli alt açılım;
+
+92
+00:03:36,677 --> 00:03:39,406
+son 2 hane ise istatistik kodudur.
+
+93
+00:03:40,156 --> 00:03:41,406
+Üçüncü soru.
+
+94
+00:03:41,436 --> 00:03:44,076
+Türk Gümrük Tarife Cetvelinde kullanılan ölçü
+
+95
+00:03:44,076 --> 00:03:47,036
+birimi kısaltmaları ile anlamlarına ilişkin aşağıdaki
+
+96
+00:03:47,036 --> 00:03:49,806
+eşleştirmelerden hangisi yanlıştır?
+
+97
+00:03:49,836 --> 00:03:50,876
+A şıkkı:
+
+98
+00:03:50,876 --> 00:03:53,356
+ct/l, karat.
+
+99
+00:03:53,356 --> 00:03:54,316
+B şıkkı:
+
+100
+00:03:54,316 --> 00:03:56,636
+p/st, adet.
+
+101
+00:03:56,636 --> 00:03:57,526
+C şıkkı:
+
+102
+00:03:57,676 --> 00:04:00,716
+ce/el, hücre adedi.
+
+103
+00:04:00,716 --> 00:04:01,526
+D şıkkı:
+
+104
+00:04:01,596 --> 00:04:03,676
+p/a, çift.
+
+105
+00:04:03,676 --> 00:04:04,566
+E şıkkı:
+
+106
+00:04:04,716 --> 00:04:06,266
+TJ, terajul.
+
+107
+00:04:06,756 --> 00:04:08,514
+3 saniye, düşünün!
+
+108
+00:04:12,934 --> 00:04:13,624
+Cevap:
+
+109
+00:04:13,684 --> 00:04:14,654
+A şıkkı.
+
+110
+00:04:14,654 --> 00:04:17,031
+Karatın kısaltması c/k.
+
+111
+00:04:17,031 --> 00:04:21,434
+ct/l ise, ton başına taşıma kapasitesini gösterir.
+
+112
+00:04:21,434 --> 00:04:23,234
+Diğer eşleştirmeler doğru:
+
+113
+00:04:23,234 --> 00:04:27,134
+p/st adet, ce/el hücre adedi,
+
+114
+00:04:27,134 --> 00:04:29,114
+p/a çift;
+
+115
+00:04:29,134 --> 00:04:32,434
+TJ ise brüt kalori değeri olarak terajul.
+
+116
+00:04:32,434 --> 00:04:33,434
+Bir de not:
+
+117
+00:04:33,434 --> 00:04:36,274
+Bir karat, 0,2 gramdır.
+
+118
+00:04:37,115 --> 00:04:40,375
+Tuzak, birbirine benzeyen kısaltmalarda.
+
+119
+00:04:40,375 --> 00:04:43,565
+Stajyerimiz p/a'yı görünce adet sandı.
+
+120
+00:04:43,735 --> 00:04:44,595
+Hayır!
+
+121
+00:04:44,595 --> 00:04:46,355
+p/a, çift demektir;
+
+122
+00:04:46,355 --> 00:04:48,085
+ayakkabı ya da eldiven gibi.
+
+123
+00:04:48,085 --> 00:04:50,265
+Adet ise p/st.
+
+124
+00:04:50,265 --> 00:04:52,395
+Aynı şekilde c/k karat,
+
+125
+00:04:52,395 --> 00:04:55,015
+ct/l taşıma kapasitesi.
+
+126
+00:04:55,015 --> 00:04:57,556
+Harfler benzer, anlamlar farklı!
+
+127
+00:04:58,396 --> 00:04:59,436
+Koçun notu:
+
+128
+00:04:59,436 --> 00:05:01,366
+Tarife sorularını ezberle değil,
+
+129
+00:05:01,366 --> 00:05:02,756
+mantıkla çözün.
+
+130
+00:05:02,756 --> 00:05:03,636
+Bir:
+
+131
+00:05:03,636 --> 00:05:06,376
+Bölümler ham maddeden mamule doğru sıralanır;
+
+132
+00:05:06,376 --> 00:05:08,636
+metaller önce madde olarak gelir,
+
+133
+00:05:08,636 --> 00:05:10,536
+makineler ise işlevine göre.
+
+134
+00:05:10,536 --> 00:05:10,906
+İki:
+
+135
+00:05:10,906 --> 00:05:14,476
+Sınıflandırmada vergi oranı asla ölçüt değildir;
+
+136
+00:05:14,476 --> 00:05:16,806
+genel kurallar sırayla uygulanır.
+
+137
+00:05:16,806 --> 00:05:17,176
+Üç:
+
+138
+00:05:17,176 --> 00:05:19,526
+Kısaltmaları çift çift öğrenin:
+
+139
+00:05:19,526 --> 00:05:21,576
+karat ile taşıma kapasitesi,
+
+140
+00:05:21,576 --> 00:05:22,902
+çift ile adet.
+
+141
+00:05:23,732 --> 00:05:25,252
+Bugünün cevap anahtarı:
+
+142
+00:05:25,252 --> 00:05:28,272
+Birinci soru C, ikinci soru E,
+
+143
+00:05:28,272 --> 00:05:29,682
+üçüncü soru A.
+
+144
+00:05:29,682 --> 00:05:31,102
+Kaç tanesini bildiniz?
+
+145
+00:05:31,102 --> 00:05:32,122
+Yorumlara yazın.
+
+146
+00:05:32,122 --> 00:05:35,262
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+147
+00:05:35,262 --> 00:05:35,892
+unutmayın.
+
+148
+00:05:35,892 --> 00:05:37,582
+Bir sonraki tarife dersinde,
+
+149
+00:05:37,582 --> 00:05:39,572
+yeni 3 soruyla görüşmek üzere.
+
+150
+00:05:39,572 --> 00:05:40,673
+Hoşça kalın!
