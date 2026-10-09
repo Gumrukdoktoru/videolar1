@@ -24,11 +24,11 @@
 #s03 .ring .n { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:96px; color:var(--gold); opacity:0; }
 
       </style>
-      <div id="s03" data-composition-id="s03" data-width="1920" data-height="1080" data-duration="28.326">
+      <div id="s03" data-composition-id="s03" data-width="1920" data-height="1080" data-duration="22.161">
         <div class="stage">
 
 <div class="hdr"><div class="badge b-soru "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M9 9.2a3 3 0 1 1 4.2 2.8c-.9.4-1.2 1-1.2 2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.4" fill="currentColor"/></svg></span><span class="bt">SORU</span></div><div class="h1">Hangisi doğru?</div></div>
-<div class="opts"><div class="opt card oA"><span class="L">A</span><span class="v">182,98</span><span class="u">USD</span></div><div class="opt card oB"><span class="L">B</span><span class="v">181,98</span><span class="u">USD</span></div><div class="opt card oC"><span class="L">C</span><span class="v">198,98</span><span class="u">USD</span></div><div class="opt card oD"><span class="L">D</span><span class="v">299,98</span><span class="u">USD</span></div><div class="opt card oE"><span class="L">E</span><span class="v">282,80</span><span class="u">USD</span></div></div>
+<div class="opts"><div class="opt card oA"><span class="L">A</span><span class="v">16</span><span class="u">USD</span></div><div class="opt card oB"><span class="L">B</span><span class="v">511</span><span class="u">USD</span></div><div class="opt card oC"><span class="L">C</span><span class="v">516</span><span class="u">USD</span></div><div class="opt card oD"><span class="L">D</span><span class="v">765</span><span class="u">USD</span></div><div class="opt card oE"><span class="L">E</span><span class="v">816</span><span class="u">USD</span></div></div>
 <div class="stop card"><div class="pz"><svg class="ico " viewBox="0 0 24 24" width="84" height="84" aria-hidden="true"><rect x="5.5" y="4" width="4.5" height="16" rx="1.2" fill="currentColor"/><rect x="14" y="4" width="4.5" height="16" rx="1.2" fill="currentColor"/></svg></div><div class="pt">Videoyu durdur,<br/>önce sen çöz!</div><div class="ps">SÜRE BAŞLIYOR</div>
   <div class="ring"><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="86" fill="none" stroke="#2B4C9E" stroke-width="14"/>
     <circle class="arc" cx="100" cy="100" r="86" fill="none" stroke="#FFC53D" stroke-width="14" stroke-linecap="round"/></svg>
@@ -88,8 +88,8 @@ function count(sel, at, from, to, dur, dec) {
 function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
 function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
 
-const D = 28.326;
-const K = {"sik": 0.51, "A": 1.98, "B": 5.25, "C": 8.62, "Dk": 12.25, "E": 16.07, "vid": 19.96, "end": 22.58};
+const D = 22.161;
+const K = {"sik": 0.52, "A": 2.45, "B": 3.51, "C": 5.83, "Dk": 8.12, "E": 10.08, "vid": 12.35, "end": 16.41};
 
 
 rise(".hdr", K.sik, 0, 30);
@@ -106,7 +106,7 @@ tl.fromTo(q(".ring .arc"), { strokeDashoffset: 0 }, { strokeDashoffset: 1, durat
   tl.to(q(".ring .n" + k), { opacity: 0, duration: 0.15 }, at + 0.85);
 });
 
-exitAll(27.91);
+exitAll(21.74);
 window.__timelines["s03"] = tl;
 })();
       </script>

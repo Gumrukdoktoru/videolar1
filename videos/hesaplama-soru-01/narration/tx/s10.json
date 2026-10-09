@@ -2,307 +2,319 @@
   {
     "text": "Bir",
     "start": 0.08,
-    "end": 0.31,
+    "end": 0.25,
     "id": "w0"
   },
   {
     "text": "uyarı",
-    "start": 0.31,
-    "end": 0.8,
+    "start": 0.28,
+    "end": 0.72,
     "id": "w1"
   },
   {
-    "text": "daha,",
-    "start": 0.8,
-    "end": 1.37,
+    "text": "daha.",
+    "start": 0.72,
+    "end": 1.24,
     "id": "w2"
   },
   {
-    "text": "bu",
-    "start": 1.39,
-    "end": 1.5,
+    "text": "Bu",
+    "start": 1.35,
+    "end": 1.39,
     "id": "w3"
   },
   {
     "text": "kural",
-    "start": 1.5,
-    "end": 1.83,
+    "start": 1.39,
+    "end": 1.76,
     "id": "w4"
   },
   {
     "text": "her",
-    "start": 1.83,
-    "end": 2.03,
+    "start": 1.76,
+    "end": 1.99,
     "id": "w5"
   },
   {
     "text": "taşıyıcı",
-    "start": 2.03,
-    "end": 2.56,
+    "start": 1.99,
+    "end": 2.6,
     "id": "w6"
   },
   {
     "text": "için",
-    "start": 2.56,
-    "end": 2.83,
+    "start": 2.6,
+    "end": 2.91,
     "id": "w7"
   },
   {
     "text": "geçerli",
-    "start": 2.83,
-    "end": 3.28,
+    "start": 2.91,
+    "end": 3.44,
     "id": "w8"
   },
   {
     "text": "değil.",
-    "start": 3.28,
-    "end": 3.64,
+    "start": 3.44,
+    "end": 3.88,
     "id": "w9"
   },
   {
     "text": "Yönetmeliğe",
-    "start": 3.96,
-    "end": 4.68,
+    "start": 3.95,
+    "end": 4.64,
     "id": "w10"
   },
   {
     "text": "göre",
-    "start": 4.68,
-    "end": 4.88,
+    "start": 4.64,
+    "end": 4.84,
     "id": "w11"
   },
   {
     "text": "taşıyıcı",
-    "start": 4.88,
-    "end": 5.55,
+    "start": 5.16,
+    "end": 5.51,
     "id": "w12"
   },
   {
-    "text": "ortamdeyimi,",
-    "start": 5.55,
-    "end": 6.52,
+    "text": "ortam",
+    "start": 5.51,
+    "end": 5.87,
     "id": "w13"
   },
   {
-    "text": "entegre",
-    "start": 6.59,
-    "end": 7.01,
+    "text": "deyimi,",
+    "start": 5.87,
+    "end": 6.49,
     "id": "w14"
   },
   {
-    "text": "devreleri,",
-    "start": 7.01,
-    "end": 7.68,
+    "text": "entegre",
+    "start": 6.6,
+    "end": 7.02,
     "id": "w15"
   },
   {
-    "text": "yarı",
-    "start": 7.86,
-    "end": 8.03,
+    "text": "devreleri,",
+    "start": 7.02,
+    "end": 7.86,
     "id": "w16"
   },
   {
-    "text": "iletkenleri",
-    "start": 8.1,
-    "end": 8.84,
+    "text": "yarı",
+    "start": 7.88,
+    "end": 8.15,
     "id": "w17"
   },
   {
-    "text": "ve",
-    "start": 8.84,
-    "end": 8.96,
+    "text": "iletkenleri",
+    "start": 8.15,
+    "end": 8.99,
     "id": "w18"
   },
   {
-    "text": "bunlarla",
-    "start": 8.96,
-    "end": 9.45,
+    "text": "ve",
+    "start": 8.99,
+    "end": 9.12,
     "id": "w19"
   },
   {
-    "text": "bütünlük",
-    "start": 9.45,
-    "end": 9.94,
+    "text": "bunlarla",
+    "start": 9.12,
+    "end": 9.61,
     "id": "w20"
   },
   {
-    "text": "oluşturan",
-    "start": 9.94,
-    "end": 10.54,
+    "text": "bütünlük",
+    "start": 9.61,
+    "end": 10,
     "id": "w21"
   },
   {
-    "text": "benzeri",
-    "start": 10.6,
-    "end": 10.9,
+    "text": "oluşturan",
+    "start": 10,
+    "end": 10.7,
     "id": "w22"
   },
   {
-    "text": "araç",
-    "start": 10.9,
-    "end": 11.19,
+    "text": "benzeri",
+    "start": 10.7,
+    "end": 11.2,
     "id": "w23"
   },
   {
-    "text": "ve",
-    "start": 11.19,
-    "end": 11.33,
+    "text": "araç",
+    "start": 11.2,
+    "end": 11.49,
     "id": "w24"
   },
   {
-    "text": "aletleri",
-    "start": 11.33,
-    "end": 11.93,
+    "text": "ve",
+    "start": 11.49,
+    "end": 11.64,
     "id": "w25"
   },
   {
-    "text": "kapsamaz.",
-    "start": 11.96,
-    "end": 12.8,
+    "text": "aletleri",
+    "start": 11.64,
+    "end": 12.2,
     "id": "w26"
   },
   {
-    "text": "Veri",
-    "start": 12.87,
-    "end": 13.13,
+    "text": "kapsamaz.",
+    "start": 12.2,
+    "end": 12.9,
     "id": "w27"
   },
   {
-    "text": "veya",
-    "start": 13.13,
-    "end": 13.46,
+    "text": "Veri",
+    "start": 13.12,
+    "end": 13.37,
     "id": "w28"
   },
   {
-    "text": "komutlardeyimi",
-    "start": 13.46,
-    "end": 14.61,
+    "text": "veya",
+    "start": 13.37,
+    "end": 13.7,
     "id": "w29"
   },
   {
-    "text": "de",
-    "start": 14.61,
-    "end": 14.76,
+    "text": "komutlar",
+    "start": 13.7,
+    "end": 14.36,
     "id": "w30"
   },
   {
-    "text": "ses,",
-    "start": 14.76,
-    "end": 15.24,
+    "text": "deyimi",
+    "start": 14.4,
+    "end": 14.85,
     "id": "w31"
   },
   {
-    "text": "sinemotografik",
-    "start": 15.24,
-    "end": 16.08,
+    "text": "de",
+    "start": 14.88,
+    "end": 15.03,
     "id": "w32"
   },
   {
-    "text": "ya",
-    "start": 16.08,
-    "end": 16.2,
+    "text": "ses,",
+    "start": 15.03,
+    "end": 15.5,
     "id": "w33"
   },
   {
-    "text": "da",
-    "start": 16.2,
-    "end": 16.29,
+    "text": "sinemotografik",
+    "start": 15.5,
+    "end": 16.31,
     "id": "w34"
   },
   {
-    "text": "video",
-    "start": 16.29,
-    "end": 16.41,
+    "text": "ya",
+    "start": 16.35,
+    "end": 16.48,
     "id": "w35"
   },
   {
-    "text": "kayıtlarını",
-    "start": 16.8,
-    "end": 17.28,
+    "text": "da",
+    "start": 16.48,
+    "end": 16.52,
     "id": "w36"
   },
   {
-    "text": "kapsamaz.",
-    "start": 17.28,
-    "end": 18,
+    "text": "video",
+    "start": 16.52,
+    "end": 16.68,
     "id": "w37"
   },
   {
-    "text": "Yani",
-    "start": 18.09,
-    "end": 18.36,
+    "text": "kayıtlarını",
+    "start": 17.1,
+    "end": 17.6,
     "id": "w38"
   },
   {
-    "text": "CD",
-    "start": 18.36,
-    "end": 18.54,
+    "text": "kapsamaz.",
+    "start": 17.6,
+    "end": 18.36,
     "id": "w39"
   },
   {
-    "text": "içinde",
-    "start": 18.54,
-    "end": 18.89,
+    "text": "Yani",
+    "start": 18.45,
+    "end": 18.72,
     "id": "w40"
   },
   {
-    "text": "bir",
-    "start": 18.89,
-    "end": 19.4,
+    "text": "DWD",
+    "start": 18.72,
+    "end": 18.97,
     "id": "w41"
   },
   {
-    "text": "film",
-    "start": 19.4,
-    "end": 19.71,
+    "text": "içinde",
+    "start": 18.98,
+    "end": 19.3,
     "id": "w42"
   },
   {
-    "text": "geliyorsa",
+    "text": "bir",
     "start": 19.71,
-    "end": 20.56,
+    "end": 19.8,
     "id": "w43"
   },
   {
-    "text": "filmin",
-    "start": 20.56,
-    "end": 20.92,
+    "text": "film",
+    "start": 19.8,
+    "end": 20.16,
     "id": "w44"
   },
   {
-    "text": "bedeli",
-    "start": 20.92,
-    "end": 21.28,
+    "text": "geliyorsa",
+    "start": 20.16,
+    "end": 20.97,
     "id": "w45"
   },
   {
-    "text": "de",
-    "start": 21.28,
-    "end": 21.4,
+    "text": "filmin",
+    "start": 21.02,
+    "end": 21.37,
     "id": "w46"
   },
   {
-    "text": "gümrük",
-    "start": 21.4,
-    "end": 21.76,
+    "text": "bedeli",
+    "start": 21.38,
+    "end": 21.77,
     "id": "w47"
   },
   {
-    "text": "kıymetine",
-    "start": 21.76,
-    "end": 22.28,
+    "text": "de",
+    "start": 21.77,
+    "end": 21.84,
     "id": "w48"
   },
   {
-    "text": "dahil",
-    "start": 22.38,
-    "end": 22.6,
+    "text": "gümrük",
+    "start": 21.9,
+    "end": 22.28,
     "id": "w49"
   },
   {
-    "text": "edilir.",
-    "start": 22.6,
-    "end": 23.16,
+    "text": "kıymetine",
+    "start": 22.41,
+    "end": 22.86,
     "id": "w50"
+  },
+  {
+    "text": "dahil",
+    "start": 22.86,
+    "end": 23.17,
+    "id": "w51"
+  },
+  {
+    "text": "edilir.",
+    "start": 23.18,
+    "end": 23.84,
+    "id": "w52"
   }
 ]

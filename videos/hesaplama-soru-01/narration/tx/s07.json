@@ -1,56 +1,50 @@
 [
   {
-    "text": "Üçüncü",
-    "start": 0.06,
-    "end": 0.52,
+    "text": "3.",
+    "start": 0.07,
+    "end": 0.54,
     "id": "w0"
   },
   {
-    "text": "adım,",
-    "start": 0.58,
-    "end": 1.37,
+    "text": "adım",
+    "start": 0.59,
+    "end": 1,
     "id": "w1"
   },
   {
-    "text": "KDV.",
-    "start": 1.37,
-    "end": 2.08,
+    "text": "KDV",
+    "start": 1.2,
+    "end": 2.07,
     "id": "w2"
   },
   {
-    "text": "1111",
+    "text": "2555",
     "start": 2.58,
-    "end": 3.18,
+    "end": 3.7,
     "id": "w3"
   },
   {
     "text": "doların",
-    "start": 3.39,
-    "end": 3.94,
+    "start": 3.78,
+    "end": 4.51,
     "id": "w4"
   },
   {
-    "text": "yüzde",
-    "start": 3.94,
-    "end": 4.31,
+    "text": "%20'si",
+    "start": 4.51,
+    "end": 5.48,
     "id": "w5"
   },
   {
-    "text": "18'i.",
-    "start": 4.31,
-    "end": 4.86,
+    "text": "511",
+    "start": 5.48,
+    "end": 6.18,
     "id": "w6"
   },
   {
-    "text": "181,98",
-    "start": 4.92,
-    "end": 6.78,
+    "text": "dolar",
+    "start": 6.18,
+    "end": 6.48,
     "id": "w7"
-  },
-  {
-    "text": "dolar.",
-    "start": 6.78,
-    "end": 7.36,
-    "id": "w8"
   }
 ]

@@ -1,30 +1,30 @@
 BAŞLIK
-CD'deki Yazılımın Vergisi Nasıl Hesaplanır? | Çıkmış Soru #1 · Gümrük Yönetmeliği md. 54 | Gümrük Koçu
+DVD'deki Yazılımın Vergisi Nasıl Hesaplanır? | Gümrük Yönetmeliği md. 54 | Vergi Hesaplama Dersi #1 | Gümrük Koçu
 
 AÇIKLAMA
-Geçmiş yılların gümrük sınavlarında çıkmış vergi hesaplama sorularını adım adım çözüyoruz. İlk soru: CD üzerine kaydedilmiş, bilgisayarlarda kullanılacak yazılım ithalatı. Faturada taşıyıcı ortam (CD) 10 ABD Doları, yazılım 1.000 ABD Doları; gümrük vergisi %10, KDV %18. Ödenecek gümrük vergisi ve KDV toplamı ne kadar?
+Vergi hesaplama derslerinin ilkinde örnek bir soruyu adım adım çözüyoruz: DVD üzerine kaydedilmiş, bilgisayarlarda kullanılacak muhasebe yazılımı ithalatı. Faturada taşıyıcı ortam (DVD) 50 ABD Doları, yazılım 2.500 ABD Doları; gümrük vergisi %10, KDV %20. Ödenecek gümrük vergisi ve KDV toplamı ne kadar?
 
 Bu derste:
-• Gümrük Yönetmeliği md. 54: veri/komut yüklü taşıyıcılarda gümrük kıymetinin neden sadece taşıyıcı ortamdan hesaplandığını,
-• Gümrük vergisi (10 × %10 = 1 $), KDV matrahı (10 + 1 + 1.000 = 1.011 $) ve KDV'yi (181,98 $) adım adım,
-• Doğru cevabı (A · 182,98 $) ve B ile E şıklarındaki TUZAKLARI,
+• Gümrük Yönetmeliği md. 54: veri/komut yüklü taşıyıcılarda gümrük kıymetinin neden yalnızca taşıyıcı ortamdan hesaplandığını,
+• Gümrük vergisi (50 × %10 = 5 $), KDV matrahı (50 + 5 + 2.500 = 2.555 $) ve KDV'yi (511 $) adım adım,
+• Doğru cevabı (C · 516 $) ve diğer dört şıkkın hangi hatadan geldiğini,
 • Kuralın kapsamadıkları: entegre devreler, yarı iletkenler; ses, sinematografik ve video kayıtları,
-• Aynı kurgunun ihracat yönüyle sorulduğu benzer soruyu
+• Aynı mantığın ihracattaki karşılığını
 şemalar ve örneklerle anlatıyoruz.
 
 BÖLÜMLER
 0:00 Giriş
-0:16 Soru ve şıklar
-1:14 Anahtar kural: Gümrük Yönetmeliği md. 54
-1:40 Adım adım çözüm
-2:31 Tuzak şıklar
-2:54 Uyarı: kural kimi kapsamaz?
-3:18 Koçun notu
-3:35 Özet
+0:17 Soru ve şıklar
+1:10 Anahtar kural: Gümrük Yönetmeliği md. 54
+1:36 Adım adım çözüm
+2:26 Tuzak şıklar
+2:55 Uyarı: kural kimi kapsamaz?
+3:20 Koçun notu
+3:37 Özet
 
-Bu video eğitim amaçlıdır; somut işlemlerde güncel mevzuat ve idarenin görüşleri esas alınmalıdır.
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir; somut işlemlerde güncel mevzuat ve idarenin görüşleri esas alınmalıdır.
 
 ETİKETLER
-gümrük vergisi hesaplama, KDV matrahı, gümrük kıymeti, yazılım ithalatı, taşıyıcı ortam, Gümrük Yönetmeliği 54. madde, çıkmış sorular, gümrük müşavirliği sınavı, gümrük müşavir yardımcılığı, Gümrük Koçu
+gümrük vergisi hesaplama, KDV matrahı, gümrük kıymeti, yazılım ithalatı, taşıyıcı ortam, Gümrük Yönetmeliği 54. madde, gümrük müşavirliği sınavı, gümrük müşavir yardımcılığı, vergi hesaplama, Gümrük Koçu
 
-#gümrük #çıkmışsorular #GümrükKoçu #KDV
+#gümrük #KDV #gümrükvergisi #GümrükKoçu

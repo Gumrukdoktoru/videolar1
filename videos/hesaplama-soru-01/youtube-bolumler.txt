@@ -1,8 +1,8 @@
 0:00 Giriş
-0:16 Soru ve şıklar
-1:14 Anahtar kural: Gümrük Yönetmeliği md. 54
-1:40 Adım adım çözüm
-2:31 Tuzak şıklar
-2:54 Uyarı: kural kimi kapsamaz?
-3:18 Koçun notu
-3:35 Özet
+0:17 Soru ve şıklar
+1:10 Anahtar kural: Gümrük Yönetmeliği md. 54
+1:36 Adım adım çözüm
+2:26 Tuzak şıklar
+2:55 Uyarı: kural kimi kapsamaz?
+3:20 Koçun notu
+3:37 Özet

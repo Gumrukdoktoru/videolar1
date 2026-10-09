@@ -1,290 +1,290 @@
 [
   {
     "text": "Hazırsanız",
-    "start": 0.12,
-    "end": 0.76,
+    "start": 0.11,
+    "end": 0.77,
     "id": "w0"
   },
   {
     "text": "başlayalım.",
     "start": 0.8,
-    "end": 1.69,
+    "end": 1.72,
     "id": "w1"
   },
   {
     "text": "Bu",
-    "start": 2.02,
+    "start": 2.01,
     "end": 2.08,
     "id": "w2"
   },
   {
     "text": "sorunun",
     "start": 2.08,
-    "end": 2.65,
+    "end": 2.66,
     "id": "w3"
   },
   {
     "text": "anahtarı",
     "start": 2.7,
-    "end": 3.44,
+    "end": 3.36,
     "id": "w4"
   },
   {
     "text": "gümrük",
-    "start": 3.44,
-    "end": 3.82,
+    "start": 3.36,
+    "end": 3.86,
     "id": "w5"
   },
   {
     "text": "yönetmeliğinin",
-    "start": 3.97,
-    "end": 4.71,
+    "start": 3.95,
+    "end": 4.77,
     "id": "w6"
   },
   {
     "text": "54.",
-    "start": 4.71,
-    "end": 5.16,
+    "start": 4.89,
+    "end": 5.54,
     "id": "w7"
   },
   {
     "text": "maddesi.",
-    "start": 5.35,
-    "end": 6.02,
+    "start": 5.54,
+    "end": 6.14,
     "id": "w8"
   },
   {
     "text": "Bilgisayarda",
-    "start": 6.14,
-    "end": 6.85,
+    "start": 6.25,
+    "end": 6.91,
     "id": "w9"
   },
   {
     "text": "kullanılacak",
-    "start": 6.87,
-    "end": 7.67,
+    "start": 6.98,
+    "end": 7.73,
     "id": "w10"
   },
   {
     "text": "veri",
-    "start": 7.67,
-    "end": 8.01,
+    "start": 7.73,
+    "end": 8.13,
     "id": "w11"
   },
   {
     "text": "ya",
-    "start": 8.09,
-    "end": 8.15,
+    "start": 8.19,
+    "end": 8.27,
     "id": "w12"
   },
   {
     "text": "da",
-    "start": 8.15,
-    "end": 8.28,
+    "start": 8.27,
+    "end": 8.39,
     "id": "w13"
   },
   {
     "text": "komut",
-    "start": 8.31,
-    "end": 8.63,
+    "start": 8.41,
+    "end": 8.76,
     "id": "w14"
   },
   {
     "text": "yüklü",
-    "start": 8.64,
-    "end": 8.88,
+    "start": 8.76,
+    "end": 9.01,
     "id": "w15"
   },
   {
     "text": "taşıyıcılarda",
-    "start": 9,
-    "end": 9.99,
+    "start": 9.13,
+    "end": 10.13,
     "id": "w16"
   },
   {
     "text": "gümrük",
-    "start": 10.08,
-    "end": 10.4,
+    "start": 10.19,
+    "end": 10.46,
     "id": "w17"
   },
   {
     "text": "kıymeti",
-    "start": 10.4,
-    "end": 10.85,
+    "start": 10.46,
+    "end": 10.88,
     "id": "w18"
   },
   {
     "text": "olarak",
-    "start": 10.85,
+    "start": 10.88,
     "end": 11.26,
     "id": "w19"
   },
   {
     "text": "sadece",
     "start": 11.26,
-    "end": 11.58,
+    "end": 11.7,
     "id": "w20"
   },
   {
     "text": "taşıyıcı",
-    "start": 11.58,
-    "end": 12.19,
+    "start": 11.7,
+    "end": 12.3,
     "id": "w21"
   },
   {
-    "text": "ortamın,",
-    "start": 12.19,
-    "end": 12.84,
+    "text": "ortamın",
+    "start": 12.38,
+    "end": 12.86,
     "id": "w22"
   },
   {
     "text": "yani",
-    "start": 12.84,
-    "end": 13.06,
+    "start": 12.86,
+    "end": 13.2,
     "id": "w23"
   },
   {
-    "text": "CD'nin",
-    "start": 13.06,
-    "end": 13.57,
+    "text": "DWD'nin",
+    "start": 13.2,
+    "end": 13.75,
     "id": "w24"
   },
   {
     "text": "kıymeti",
-    "start": 13.57,
-    "end": 14.17,
+    "start": 13.86,
+    "end": 14.34,
     "id": "w25"
   },
   {
     "text": "esas",
-    "start": 14.17,
+    "start": 14.34,
     "end": 14.51,
     "id": "w26"
   },
   {
     "text": "alınır.",
-    "start": 14.59,
-    "end": 15.14,
+    "start": 14.67,
+    "end": 15.46,
     "id": "w27"
   },
   {
     "text": "Yazılımın",
-    "start": 15.26,
-    "end": 15.78,
+    "start": 15.57,
+    "end": 16.05,
     "id": "w28"
   },
   {
-    "text": "bedeli,",
-    "start": 15.78,
-    "end": 16.4,
+    "text": "bedeli",
+    "start": 16.05,
+    "end": 16.45,
     "id": "w29"
   },
   {
-    "text": "CD'nin",
-    "start": 16.4,
-    "end": 16.8,
+    "text": "taşıyıcının",
+    "start": 16.45,
+    "end": 17.07,
     "id": "w30"
   },
   {
     "text": "bedelinden",
-    "start": 16.8,
-    "end": 17.52,
+    "start": 17.07,
+    "end": 17.85,
     "id": "w31"
   },
   {
     "text": "ayrı",
-    "start": 17.52,
-    "end": 17.8,
+    "start": 17.85,
+    "end": 18.1,
     "id": "w32"
   },
   {
     "text": "gösterilmişse",
-    "start": 17.8,
-    "end": 18.74,
+    "start": 18.11,
+    "end": 18.98,
     "id": "w33"
   },
   {
     "text": "gümrük",
-    "start": 18.74,
-    "end": 19.11,
+    "start": 18.98,
+    "end": 19.36,
     "id": "w34"
   },
   {
     "text": "kıymetine",
-    "start": 19.19,
-    "end": 19.63,
+    "start": 19.36,
+    "end": 19.95,
     "id": "w35"
   },
   {
     "text": "girmez.",
-    "start": 19.71,
-    "end": 20.29,
+    "start": 19.95,
+    "end": 20.74,
     "id": "w36"
   },
   {
     "text": "Soruda",
-    "start": 20.44,
-    "end": 20.71,
+    "start": 20.85,
+    "end": 21.16,
     "id": "w37"
   },
   {
     "text": "faturanın",
-    "start": 20.73,
-    "end": 21.32,
+    "start": 21.16,
+    "end": 21.8,
     "id": "w38"
   },
   {
     "text": "iki",
-    "start": 21.32,
-    "end": 21.51,
+    "start": 21.8,
+    "end": 22.01,
     "id": "w39"
   },
   {
     "text": "ayrı",
-    "start": 21.51,
-    "end": 21.78,
+    "start": 22.01,
+    "end": 22.29,
     "id": "w40"
   },
   {
     "text": "kalem",
-    "start": 21.78,
-    "end": 22.01,
+    "start": 22.29,
+    "end": 22.53,
     "id": "w41"
   },
   {
     "text": "olarak",
-    "start": 22.39,
-    "end": 22.51,
+    "start": 22.8,
+    "end": 23.07,
     "id": "w42"
   },
   {
     "text": "verilmesinin",
-    "start": 22.51,
-    "end": 23.31,
+    "start": 23.07,
+    "end": 23.92,
     "id": "w43"
   },
   {
     "text": "sebebi",
-    "start": 23.31,
-    "end": 23.59,
+    "start": 23.92,
+    "end": 24.34,
     "id": "w44"
   },
   {
     "text": "tam",
-    "start": 23.77,
-    "end": 23.9,
+    "start": 24.34,
+    "end": 24.46,
     "id": "w45"
   },
   {
     "text": "olarak",
-    "start": 23.9,
-    "end": 24.29,
+    "start": 24.55,
+    "end": 24.98,
     "id": "w46"
   },
   {
     "text": "bu.",
-    "start": 24.37,
-    "end": 24.72,
+    "start": 24.98,
+    "end": 25.26,
     "id": "w47"
   }
 ]

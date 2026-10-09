@@ -40,16 +40,16 @@
 #s05 .fx .u { font:800 40px Montserrat; color:var(--gold); }
 
       </style>
-      <div id="s05" data-composition-id="s05" data-width="1920" data-height="1080" data-duration="10.639">
+      <div id="s05" data-composition-id="s05" data-width="1920" data-height="1080" data-duration="10.874">
         <div class="stage">
 
 <div class="steps"><div class="stp on"><span class="dot"><b>1</b></span>GÜMRÜK VERGİSİ</div><i class="bar"></i><div class="stp "><span class="dot"><b>2</b></span>KDV MATRAHI</div><i class="bar"></i><div class="stp "><span class="dot"><b>3</b></span>KDV</div><i class="bar"></i><div class="stp "><span class="dot"><b>4</b></span>SONUÇ</div></div>
 <div class="main card"><div class="kicker">ADIM 1 · GÜMRÜK VERGİSİ MATRAHI</div>
-  <div class="base"><svg class="ico " viewBox="0 0 24 24" width="110" height="110" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor" opacity=".25"/><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6.5 9.5a6 6 0 0 1 3-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><div class="v">10 <small>$</small></div></div>
-  <div class="soft"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4.5l-3 15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Yazılım 1.000 $ <em>GV matrahına girmez</em><i class="st"></i></div>
-  <div class="fx"><span class="a">10</span><span class="op">×</span><span class="b">%10</span><span class="op">=</span><span class="r">0</span><span class="u">$</span></div>
+  <div class="base"><svg class="ico " viewBox="0 0 24 24" width="110" height="110" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor" opacity=".25"/><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6.5 9.5a6 6 0 0 1 3-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><div class="v">50 <small>$</small></div></div>
+  <div class="soft"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4.5l-3 15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Yazılım 2.500 $ <em>GV matrahına girmez</em><i class="st"></i></div>
+  <div class="fx"><span class="a">50</span><span class="op">×</span><span class="b">%10</span><span class="op">=</span><span class="r">0</span><span class="u">$</span></div>
 </div>
-<div class="ledger"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg>ÇÖZÜM DEFTERİ</div><div class="ln  new"><span class="lb">Gümrük vergisi</span><span class="dots"></span><span class="vl">1,00 $</span></div><div class="ln blank"></div><div class="ln blank"></div><div class="ln blank"></div></div>
+<div class="ledger"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg>ÇÖZÜM DEFTERİ</div><div class="ln  new"><span class="lb">Gümrük vergisi</span><span class="dots"></span><span class="vl">5,00 $</span></div><div class="ln blank"></div><div class="ln blank"></div><div class="ln blank"></div></div>
 
         </div>
       </div>
@@ -105,8 +105,8 @@ function count(sel, at, from, to, dur, dec) {
 function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
 function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
 
-const D = 10.639;
-const K = {"bir": 0.56, "mat": 3.9, "sadece": 4.08, "on2": 5.68, "yuz": 6.58, "res": 7.16, "gvz": 8.6};
+const D = 10.874;
+const K = {"bir": 0.55, "mat": 3.87, "sadece": 4.28, "on2": 5.77, "yuz": 6.77, "res": 7.52, "gvz": 8.63};
 
 
 rise(".steps", 0.15, 0, -30);
@@ -121,11 +121,11 @@ fadeTo(".soft", K.sadece + 0.9, 0.45, 0.4);
 rise(".fx .a, .fx .op, .fx .b", K.on2, 0.12, 30);
 fadeTo(".fx .r, .fx .u", 0.01, 0, 0.01);
 fadeIn(".fx .r, .fx .u", K.res - 0.4, 0.2);
-count(".fx .r", K.res - 0.4, 0, 1, 0.5, 0);
+count(".fx .r", K.res - 0.4, 0, 5, 0.5, 0);
 pulse(".fx .r", K.res + 0.2, 1.3);
 tl.fromTo(q(".ledger .ln.new"), { opacity: 1, clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.8, ease: "power1.inOut" }, K.gvz);
 
-exitAll(10.22);
+exitAll(10.45);
 window.__timelines["s05"] = tl;
 })();
       </script>

@@ -1,7 +1,5 @@
-{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":7.3624375}
-{"type":"words","model":"small","words":[{"text":"Üçüncü","start":0,"end":1.008},{"text":"adım,","start":1.008,"end":1.848},{"text":"KDV.","start":1.848,"end":2.52}],"through":2.52}
-{"type":"words","model":"small","words":[{"text":"1111","start":2.52,"end":2.966},{"text":"doların","start":2.966,"end":3.746},{"text":"yüzde","start":3.746,"end":4.303},{"text":"18'i.","start":4.303,"end":4.86}],"through":4.86}
-{"type":"words","model":"small","words":[{"text":"181,98","start":4.86,"end":6.11},{"text":"dolar.","start":6.11,"end":7.36}],"through":7.36}
-{"type":"words","model":"small","words":[],"through":7.3624375}
+{"type":"progress","phase":"transcription","model":"small","status":"started","durationSeconds":6.6424375}
+{"type":"words","model":"small","words":[{"text":"3.","start":0,"end":0.388},{"text":"adım","start":0.388,"end":1.165},{"text":"KDV","start":1.165,"end":1.747},{"text":"2555","start":1.747,"end":2.524},{"text":"doların","start":2.524,"end":3.882},{"text":"%20'si","start":3.882,"end":5.047},{"text":"511","start":5.047,"end":5.629},{"text":"dolar","start":5.629,"end":6.6}],"through":6.6}
+{"type":"words","model":"small","words":[],"through":6.6424375}
 {"type":"progress","phase":"transcription","model":"small","status":"completed"}
-{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":9,"durationSeconds":7.36,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/hesaplama-soru-01/narration/transcript.json"}
+{"ok":true,"engine":"whisper","model":"small","detectedLanguage":null,"wordCount":8,"durationSeconds":6.6,"speechOnsetSeconds":null,"transcriptPath":"/home/user/videolar1/videos/hesaplama-soru-01/narration/transcript.json"}

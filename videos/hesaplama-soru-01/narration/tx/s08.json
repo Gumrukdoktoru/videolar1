@@ -8,109 +8,115 @@
   {
     "text": "sonuç",
     "start": 0.28,
-    "end": 1,
+    "end": 0.7,
     "id": "w1"
   },
   {
-    "text": "1",
-    "start": 1.06,
+    "text": "5",
+    "start": 1.09,
     "end": 1.24,
     "id": "w2"
   },
   {
-    "text": "dolar",
+    "text": "Dolar",
     "start": 1.24,
-    "end": 1.63,
+    "end": 1.64,
     "id": "w3"
   },
   {
-    "text": "gümrük",
-    "start": 1.66,
+    "text": "Gümrük",
+    "start": 1.64,
     "end": 2.12,
     "id": "w4"
   },
   {
     "text": "vergisi",
     "start": 2.12,
-    "end": 2.62,
+    "end": 2.6,
     "id": "w5"
   },
   {
-    "text": "artı",
-    "start": 2.76,
-    "end": 3.12,
+    "text": "Artı",
+    "start": 2.79,
+    "end": 3.16,
     "id": "w6"
   },
   {
-    "text": "181,98",
-    "start": 3.12,
-    "end": 5.35,
+    "text": "511",
+    "start": 3.25,
+    "end": 4.27,
     "id": "w7"
   },
   {
-    "text": "dolar",
-    "start": 5.35,
-    "end": 6,
+    "text": "Dolar",
+    "start": 4.27,
+    "end": 4.87,
     "id": "w8"
   },
   {
-    "text": "KDV.",
-    "start": 6,
-    "end": 6.6,
+    "text": "KDV",
+    "start": 4.87,
+    "end": 5.26,
     "id": "w9"
   },
   {
     "text": "Ödenmesi",
-    "start": 6.68,
-    "end": 7.24,
+    "start": 5.34,
+    "end": 5.87,
     "id": "w10"
   },
   {
     "text": "gereken",
-    "start": 7.63,
-    "end": 7.9,
+    "start": 5.87,
+    "end": 6.43,
     "id": "w11"
   },
   {
     "text": "toplam",
-    "start": 7.91,
-    "end": 8.42,
+    "start": 6.43,
+    "end": 6.9,
     "id": "w12"
   },
   {
     "text": "vergi",
-    "start": 8.42,
-    "end": 8.85,
+    "start": 6.9,
+    "end": 7.21,
     "id": "w13"
   },
   {
-    "text": "182,98",
-    "start": 8.85,
-    "end": 10.34,
+    "text": "516",
+    "start": 7.34,
+    "end": 8.22,
     "id": "w14"
   },
   {
-    "text": "dolar.",
-    "start": 10.36,
-    "end": 11.12,
+    "text": "Dolar",
+    "start": 8.22,
+    "end": 8.72,
     "id": "w15"
   },
   {
     "text": "Doğru",
-    "start": 11.19,
-    "end": 11.54,
+    "start": 8.8,
+    "end": 9.17,
     "id": "w16"
   },
   {
     "text": "cevap",
-    "start": 11.54,
-    "end": 11.82,
+    "start": 9.27,
+    "end": 9.68,
     "id": "w17"
   },
   {
-    "text": "Aşıkkı",
-    "start": 12.16,
-    "end": 13.01,
+    "text": "C",
+    "start": 9.76,
+    "end": 9.84,
     "id": "w18"
+  },
+  {
+    "text": "şıkkı",
+    "start": 9.84,
+    "end": 10.68,
+    "id": "w19"
   }
 ]

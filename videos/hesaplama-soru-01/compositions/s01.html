@@ -27,14 +27,14 @@
 #s01 .ready { position:absolute; left:1250px; top:876px; }
 
       </style>
-      <div id="s01" data-composition-id="s01" data-width="1920" data-height="1080" data-duration="16.909">
+      <div id="s01" data-composition-id="s01" data-width="1920" data-height="1080" data-duration="17.641">
         <div class="stage">
 
 <div class="sting"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
 <div class="right">
-  <div class="kicker k1">GÜMRÜK KOÇU · ÇIKMIŞ SORULAR</div>
+  <div class="kicker k1">GÜMRÜK KOÇU · HESAPLAMA DERSLERİ</div>
   <div class="t1">VERGİ HESAPLAMA</div>
-  <div class="t2"><span class="w">SORU #1</span><span class="s">adım adım çözüm</span></div>
+  <div class="t2"><span class="w">DERS #1</span><span class="s">örnek soru · adım adım</span></div>
 </div>
 <div class="topic card">
   <div class="dwrap"><svg class="disc" viewBox="0 0 300 300" width="230" height="230" aria-hidden="true">
@@ -47,7 +47,7 @@
   <circle cx="150" cy="150" r="100" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".5"/>
   <circle cx="150" cy="150" r="46" fill="#0B2257" stroke="#8FB2FF" stroke-width="5"/><circle cx="150" cy="150" r="16" fill="#071A45"/>
 </svg><div class="code"><svg class="ico " viewBox="0 0 24 24" width="58" height="58" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4.5l-3 15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>
-  <div class="tx"><small>KONU</small><b>CD içinde gelen <em>yazılım</em></b>
+  <div class="tx"><small>KONU</small><b>DVD içinde gelen <em>yazılım</em></b>
     <div class="qs"><span class="q1">Gümrük vergisi = ?</span><span class="q2">KDV = ?</span></div></div>
 </div>
 <div class="ready chip"><svg class="ico " viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg> Kâğıt + kalem hazır mı? <svg class="ico " viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><rect x="4" y="2.5" width="16" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="7" y="5.5" width="10" height="4" rx="1" fill="currentColor"/><path d="M8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01M16 17h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></div>
@@ -106,8 +106,8 @@ function count(sel, at, from, to, dur, dec) {
 function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
 function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
 
-const D = 16.909;
-const K = {"hello": 1.63, "bugun": 5.99, "konu": 10.23, "cd": 10.99, "yaz": 12.5, "kagit": 13.23, "birlikte": 15.12};
+const D = 17.641;
+const K = {"hello": 1.66, "bugun": 6.06, "konu": 11.299999999999999, "cd": 11.6, "yaz": 13.15, "kagit": 13.88, "birlikte": 15.84};
 
 
 tl.fromTo(q(".sting"), { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.6, ease: "back.out(1.8)" }, 0.15);
@@ -124,7 +124,7 @@ pop(".qs span", K.yaz + 0.5, 0.25);
 tl.fromTo(q(".ready"), { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.55, ease: "back.out(2)" }, K.kagit);
 tl.fromTo(q(".ready .ico"), { rotation: 0 }, { rotation: 14, duration: 0.2, yoyo: true, repeat: 5, ease: "sine.inOut", transformOrigin: "50% 50%" }, K.kagit + 0.5);
 
-exitAll(16.49);
+exitAll(17.22);
 window.__timelines["s01"] = tl;
 })();
       </script>

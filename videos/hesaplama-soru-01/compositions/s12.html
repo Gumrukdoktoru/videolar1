@@ -29,19 +29,19 @@
 #s12 .bye span { font:800 28px/1.25 Montserrat; color:var(--fg); max-width:520px; }
 
       </style>
-      <div id="s12" data-composition-id="s12" data-width="1920" data-height="1080" data-duration="19.959">
+      <div id="s12" data-composition-id="s12" data-width="1920" data-height="1080" data-duration="19.019">
         <div class="stage">
 
 <div class="right">
   <div class="kicker">ÖZET · SORU 1</div>
   <div class="sum">
-    <div class="row card r1"><span class="n n1">1</span><div><b>Gümrük vergisi: sadece taşıyıcı ortam</b><span>10 × %10 = 1,00 $</span></div></div>
-    <div class="row card r2"><span class="n n2">2</span><div><b>KDV: yazılım dahil toplam matrah</b><span>(10 + 1 + 1.000) × %18 = 181,98 $</span></div></div>
+    <div class="row card r1"><span class="n n1">1</span><div><b>Gümrük vergisi: sadece taşıyıcı ortam</b><span>50 × %10 = 5,00 $</span></div></div>
+    <div class="row card r2"><span class="n n2">2</span><div><b>KDV: yazılım dahil toplam matrah</b><span>(50 + 5 + 2.500) × %20 = 511,00 $</span></div></div>
   </div>
-  <div class="ans"><span class="L">A</span><b>182,98</b><small>USD</small></div>
+  <div class="ans"><span class="L">C</span><b>516</b><small>USD</small></div>
   <div class="cta"><div class="btn sub"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" fill="currentColor"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="2.2"/></svg> ABONE OL</div><div class="btn shr"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><circle cx="18" cy="5" r="2.8" fill="currentColor"/><circle cx="6" cy="12" r="2.8" fill="currentColor"/><circle cx="18" cy="19" r="2.8" fill="currentColor"/><path d="M8.5 10.7l7-4.2M8.5 13.3l7 4.2" stroke="currentColor" stroke-width="2.2"/></svg> PAYLAŞ</div></div>
 </div>
-<div class="bye"><div class="lg"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><span>Bir sonraki çıkmış soruda görüşmek üzere!</span></div>
+<div class="bye"><div class="lg"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div><span>Bir sonraki hesaplama dersinde görüşmek üzere!</span></div>
 
         </div>
       </div>
@@ -97,8 +97,8 @@ function count(sel, at, from, to, dur, dec) {
 function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
 function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
 
-const D = 19.959;
-const K = {"oz": 0.5, "tas": 1.58, "yaz": 3.54, "cev": 6.29, "bu": 9.98, "abone": 11.6, "pay": 12.46, "bir": 13.96};
+const D = 19.019;
+const K = {"oz": 0.5, "tas": 1.46, "yaz": 3.54, "cev": 6.29, "bu": 9.05, "abone": 10.53, "pay": 11.44, "bir": 12.85};
 
 
 rise(".right .kicker", K.oz, 0, 20);

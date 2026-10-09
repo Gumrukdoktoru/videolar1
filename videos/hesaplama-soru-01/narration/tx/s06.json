@@ -6,189 +6,189 @@
     "id": "w0"
   },
   {
-    "text": "adım",
+    "text": "adım,",
     "start": 0.58,
-    "end": 0.88,
+    "end": 1.12,
     "id": "w1"
   },
   {
     "text": "KDV",
-    "start": 0.88,
-    "end": 1.45,
+    "start": 1.26,
+    "end": 1.53,
     "id": "w2"
   },
   {
-    "text": "Matrahı.",
-    "start": 1.45,
+    "text": "Matrağı.",
+    "start": 1.54,
     "end": 2.8,
     "id": "w3"
   },
   {
     "text": "Burada",
-    "start": 2.91,
-    "end": 3.25,
+    "start": 2.93,
+    "end": 3.28,
     "id": "w4"
   },
   {
-    "text": "dikkat",
-    "start": 3.25,
-    "end": 3.67,
+    "text": "dikkat,",
+    "start": 3.28,
+    "end": 3.89,
     "id": "w5"
   },
   {
     "text": "yazılım",
-    "start": 3.67,
-    "end": 4.22,
+    "start": 4.09,
+    "end": 4.35,
     "id": "w6"
   },
   {
     "text": "gümrük",
-    "start": 4.22,
-    "end": 4.66,
+    "start": 4.35,
+    "end": 4.73,
     "id": "w7"
   },
   {
     "text": "kıymetine",
-    "start": 4.66,
-    "end": 5.28,
+    "start": 4.73,
+    "end": 5.27,
     "id": "w8"
   },
   {
     "text": "girmedi",
-    "start": 5.28,
-    "end": 5.92,
+    "start": 5.27,
+    "end": 5.84,
     "id": "w9"
   },
   {
     "text": "ama",
-    "start": 5.92,
-    "end": 6.23,
+    "start": 5.84,
+    "end": 6.03,
     "id": "w10"
   },
   {
     "text": "KDV",
-    "start": 6.33,
-    "end": 6.53,
+    "start": 6.15,
+    "end": 6.24,
     "id": "w11"
   },
   {
-    "text": "Matrahı'nda",
-    "start": 6.69,
-    "end": 7.35,
+    "text": "Matrağı'nda",
+    "start": 6.33,
+    "end": 7.13,
     "id": "w12"
   },
   {
     "text": "hesaba",
-    "start": 7.35,
-    "end": 7.81,
+    "start": 7.13,
+    "end": 7.6,
     "id": "w13"
   },
   {
     "text": "katılıyor.",
-    "start": 7.89,
-    "end": 8.54,
+    "start": 7.6,
+    "end": 8.47,
     "id": "w14"
   },
   {
     "text": "KDV",
-    "start": 8.88,
-    "end": 9.17,
+    "start": 8.76,
+    "end": 9,
     "id": "w15"
   },
   {
-    "text": "Matrahı",
-    "start": 9.17,
+    "text": "Matrağı,",
+    "start": 9,
     "end": 10.1,
     "id": "w16"
   },
   {
-    "text": "10",
-    "start": 10.16,
-    "end": 10.64,
+    "text": "50",
+    "start": 10.1,
+    "end": 10.63,
     "id": "w17"
   },
   {
-    "text": "dolar",
+    "text": "Dolar",
     "start": 10.64,
-    "end": 11.05,
+    "end": 11.03,
     "id": "w18"
   },
   {
-    "text": "C'de",
-    "start": 11.09,
-    "end": 11.46,
+    "text": "DW'de",
+    "start": 11.03,
+    "end": 11.56,
     "id": "w19"
   },
   {
     "text": "artı",
-    "start": 11.65,
-    "end": 11.79,
+    "start": 11.56,
+    "end": 11.87,
     "id": "w20"
   },
   {
-    "text": "1",
-    "start": 11.79,
-    "end": 12.01,
+    "text": "5",
+    "start": 11.99,
+    "end": 12.08,
     "id": "w21"
   },
   {
-    "text": "dolar",
-    "start": 12.14,
-    "end": 12.4,
+    "text": "Dolar",
+    "start": 12.17,
+    "end": 12.6,
     "id": "w22"
   },
   {
     "text": "gümrük",
-    "start": 12.54,
-    "end": 12.96,
+    "start": 12.6,
+    "end": 13.11,
     "id": "w23"
   },
   {
     "text": "vergisi",
-    "start": 12.96,
-    "end": 13.62,
+    "start": 13.11,
+    "end": 13.8,
     "id": "w24"
   },
   {
     "text": "artı",
-    "start": 13.62,
-    "end": 13.86,
+    "start": 13.8,
+    "end": 14.06,
     "id": "w25"
   },
   {
-    "text": "1000",
-    "start": 13.87,
-    "end": 14.5,
+    "text": "2500",
+    "start": 14.06,
+    "end": 14.85,
     "id": "w26"
   },
   {
-    "text": "dolar",
-    "start": 14.73,
-    "end": 14.91,
+    "text": "Dolar",
+    "start": 14.96,
+    "end": 15.23,
     "id": "w27"
   },
   {
     "text": "yazılım.",
-    "start": 14.91,
-    "end": 15.39,
+    "start": 15.23,
+    "end": 15.96,
     "id": "w28"
   },
   {
     "text": "Toplam",
-    "start": 15.51,
-    "end": 16.02,
+    "start": 16.09,
+    "end": 16.52,
     "id": "w29"
   },
   {
-    "text": "11",
-    "start": 16.02,
-    "end": 16.23,
+    "text": "2555",
+    "start": 16.52,
+    "end": 17.64,
     "id": "w30"
   },
   {
-    "text": "dolar.",
-    "start": 16.75,
-    "end": 17.4,
+    "text": "Dolar.",
+    "start": 17.64,
+    "end": 18.39,
     "id": "w31"
   }
 ]

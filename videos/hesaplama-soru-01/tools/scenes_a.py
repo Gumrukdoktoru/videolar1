@@ -65,8 +65,8 @@ LEDGER_CSS = r"""
 
 # ---------------------------------------------------------------- s01 Giriş
 S["s01"] = dict(
-    sfx=[("pop", 0.15, 0.35), ("whoosh-short", T("s01", "Konumuz") - 0.2, 0.3), ("pop", T("s01", "Kâğıdınızı"), 0.3)],
-    keys=dict(hello=T("s01", "Merhaba"), bugun=T("s01", "Bugün"), konu=T("s01", "Konumuz"), cd=T("s01", "CD"),
+    sfx=[("pop", 0.15, 0.35), ("whoosh-short", T("s01", "DVD") - 0.2, 0.3), ("pop", T("s01", "Kâğıdınızı"), 0.3)],
+    keys=dict(hello=T("s01", "Merhaba"), bugun=T("s01", "Bugün"), konu=T("s01", "DVD") - 0.3, cd=T("s01", "DVD"),
               yaz=T("s01", "yazılım"), kagit=T("s01", "Kâğıdınızı"), birlikte=T("s01", "birlikte")),
     css=r"""
 #s01 .sting { position:absolute; left:1060px; top:420px; width:640px; height:150px; display:flex; align-items:center; justify-content:center;
@@ -91,13 +91,13 @@ S["s01"] = dict(
     body=f'''
 <div class="sting"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
 <div class="right">
-  <div class="kicker k1">GÜMRÜK KOÇU · ÇIKMIŞ SORULAR</div>
+  <div class="kicker k1">GÜMRÜK KOÇU · HESAPLAMA DERSLERİ</div>
   <div class="t1">VERGİ HESAPLAMA</div>
-  <div class="t2"><span class="w">SORU #1</span><span class="s">adım adım çözüm</span></div>
+  <div class="t2"><span class="w">DERS #1</span><span class="s">örnek soru · adım adım</span></div>
 </div>
 <div class="topic card">
   <div class="dwrap">{disc("s01d", 230)}<div class="code">{icon("code", 58)}</div></div>
-  <div class="tx"><small>KONU</small><b>CD içinde gelen <em>yazılım</em></b>
+  <div class="tx"><small>KONU</small><b>DVD içinde gelen <em>yazılım</em></b>
     <div class="qs"><span class="q1">Gümrük vergisi = ?</span><span class="q2">KDV = ?</span></div></div>
 </div>
 <div class="ready chip">{icon("pen", 32)} Kâğıt + kalem hazır mı? {icon("calc", 32)}</div>
@@ -123,8 +123,8 @@ tl.fromTo(q(".ready .ico"), { rotation: 0 }, { rotation: 14, duration: 0.2, yoyo
 S["s02"] = dict(
     sfx=[("click-soft", T("s02", "Taşıyıcı"), 0.4), ("click-soft", T("s02", "yazılımın"), 0.4), ("pop", T("s02", "Gümrük"), 0.3),
          ("pop", T("s02", "KDV"), 0.3), ("ping", T("s02", "Bizden"), 0.35)],
-    keys=dict(once=T("s02", "Önce"), ith=T("s02", "İthalatçı"), cd=T("s02", "CD"), bilg=T("s02", "bilgisayarlarda"),
-              fat=T("s02", "Faturada"), tas=T("s02", "Taşıyıcı"), on=T("s02", "on"), yaz=T("s02", "yazılımın"), bin=T("s02", "bin"),
+    keys=dict(once=T("s02", "Önce"), ith=T("s02", "Türkiye'de"), cd=T("s02", "DVD"), bilg=T("s02", "bilgisayarlarda"),
+              fat=T("s02", "Faturada"), tas=T("s02", "Taşıyıcı"), on=T("s02", "elli"), yaz=T("s02", "yazılımın"), bin=T("s02", "iki", 2),
               gv=T("s02", "Gümrük"), kdv=T("s02", "KDV"), biz=T("s02", "Bizden")),
     css=r"""
 #s02 .hdr { position:absolute; left:600px; top:132px; }
@@ -163,16 +163,16 @@ S["s02"] = dict(
 #s02 .ask .t em { font-style:normal; color:var(--teal); }
 """,
     body=f'''
-<div class="hdr"><div class="kicker">SORU 1 · VERİLER</div><div class="h1">Faturada iki kalem var</div></div>
-<div class="who card">{icon("building", 56)}<div><b>İthalatçı (A) firması</b><span>yurt dışından ithalat</span></div></div>
-<div class="what card">{icon("cd", 56)}<div><b>CD'ye kayıtlı yazılım</b><span>bilgisayarlarda kullanılacak</span></div></div>
-<div class="rates"><div class="rate r-gv"><small>GÜMRÜK VERGİSİ</small><b>%10</b></div><div class="rate r-kdv"><small>KDV</small><b>%18</b></div></div>
+<div class="hdr"><div class="kicker">ÖRNEK SORU · VERİLER</div><div class="h1">Faturada iki ayrı kalem</div></div>
+<div class="who card">{icon("building", 56)}<div><b>(B) şirketi · Türkiye</b><span>yurt dışından ithalat</span></div></div>
+<div class="what card">{icon("cd", 56)}<div><b>DVD'de muhasebe yazılımı</b><span>bilgisayarlarda kullanılacak</span></div></div>
+<div class="rates"><div class="rate r-gv"><small>GÜMRÜK VERGİSİ</small><b>%10</b></div><div class="rate r-kdv"><small>KDV</small><b>%20</b></div></div>
 <div class="inv">
   <div class="ih"><b>FATURA</b><span>INVOICE · USD</span></div>
   <div class="cols"><span>KALEM</span><span>TUTAR</span></div>
-  <div class="row r1"><i class="mk"></i><div class="l">{icon("cd", 46)}<div>Taşıyıcı ortam (CD)<small>boş disk değeri</small></div></div><div class="v">10 $</div></div>
-  <div class="row r2"><i class="mk"></i><div class="l">{icon("code", 46)}<div>Yazılım<small>veri / komut</small></div></div><div class="v">1.000 $</div></div>
-  <div class="tot"><span>Fatura toplamı</span><b>1.010 $</b></div>
+  <div class="row r1"><i class="mk"></i><div class="l">{icon("cd", 46)}<div>Taşıyıcı ortam (DVD)<small>boş disk değeri</small></div></div><div class="v">50 $</div></div>
+  <div class="row r2"><i class="mk"></i><div class="l">{icon("code", 46)}<div>Yazılım<small>veri / komut</small></div></div><div class="v">2.500 $</div></div>
+  <div class="tot"><span>Fatura toplamı</span><b>2.550 $</b></div>
 </div>
 <div class="two">2 AYRI KALEM</div>
 <div class="ask">{badge("soru")}<div class="t">İstenen: <b>Gümrük vergisi</b> + <em>KDV</em> toplamı = ? <b>USD</b></div></div>
@@ -201,7 +201,7 @@ tl.fromTo(q(".ask"), { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.55, 
 # ---------------------------------------------------------------- s03 Şıklar + geri sayım
 _s03 = SCENES["s03"]
 _end = round(_s03["audio_local"] + _s03["audio_dur"], 2)
-OPTS = [("A", "182,98"), ("B", "181,98"), ("C", "198,98"), ("D", "299,98"), ("E", "282,80")]
+OPTS = [("A", "16"), ("B", "511"), ("C", "516"), ("D", "765"), ("E", "816")]
 S["s03"] = dict(
     sfx=[("pop", T("s03", L), 0.28) for L, _ in OPTS] + [("notification", T("s03", "Videoyu"), 0.35)]
         + [("click-soft", _end + 0.2 + i, 0.4) for i in range(5)] + [("chime", _end + 5.15, 0.35)],
@@ -254,7 +254,7 @@ S["s04"] = dict(
     sfx=[("impact-bass-1", T("s04", "anahtarı"), 0.35), ("ping", T("s04", "sadece"), 0.35), ("error", T("s04", "girmez"), 0.25),
          ("notification", T("s04", "ayrı"), 0.3), ("chime", T("s04", "Soruda") + 0.6, 0.3)],
     keys=dict(haz=T("s04", "Hazırsanız"), anah=T("s04", "anahtarı"), gy=T("s04", "Gümrük"), elli=T("s04", "elli"), bilg=T("s04", "Bilgisayarda"),
-              sadece=T("s04", "sadece"), cd=T("s04", "CD'nin"), yaz=T("s04", "Yazılımın"), ayri=T("s04", "ayrı"), girmez=T("s04", "girmez"),
+              sadece=T("s04", "sadece"), cd=T("s04", "DVD'nin"), yaz=T("s04", "Yazılımın"), ayri=T("s04", "ayrı"), girmez=T("s04", "girmez"),
               soruda=T("s04", "Soruda")),
     css=r"""
 #s04 .top { position:absolute; left:600px; top:132px; display:flex; align-items:center; gap:26px; }
@@ -289,8 +289,8 @@ S["s04"] = dict(
 <div class="law"><div class="lh">{icon("doc", 34)} GÜMRÜK YÖNETMELİĞİ <span class="no">MADDE 54</span> · özet</div>
   <div class="lt">Bilgisayarda kullanılacak veri / komut yüklü taşıyıcıda gümrük kıymeti:
     <span class="hl"><i class="mk"></i><b>sadece taşıyıcı ortamın kıymeti</b></span></div></div>
-<div class="blk card b1">{icon("cd", 64)}<div><b>Taşıyıcı ortam (CD)</b><span>10 $</span></div></div>
-<div class="blk card b2">{icon("code", 64)}<div><b>Yazılım</b><span>1.000 $</span></div></div>
+<div class="blk card b1">{icon("cd", 64)}<div><b>Taşıyıcı ortam (DVD)</b><span>50 $</span></div></div>
+<div class="blk card b2">{icon("code", 64)}<div><b>Yazılım</b><span>2.500 $</span></div></div>
 <svg class="ov" viewBox="0 0 1920 1080">
   <g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
     <path class="a1" d="M1000 535 H1240" stroke="#2ED47A"/><path class="a1" d="M1222 517 L1246 535 L1222 553" stroke="#2ED47A"/>
@@ -298,9 +298,9 @@ S["s04"] = dict(
   </g>
   <g class="xx"><circle cx="1120" cy="705" r="26" fill="#FF4D5E"/><path d="M1109 694 l22 22 M1131 694 l-22 22" stroke="#2a0a0e" stroke-width="6" stroke-linecap="round"/></g>
 </svg>
-<div class="res ok">{icon("check", 54)}<div>GÜMRÜK KIYMETİ<br/>= 10 $</div></div>
+<div class="res ok">{icon("check", 54)}<div>GÜMRÜK KIYMETİ<br/>= 50 $</div></div>
 <div class="res no">{icon("x", 54)}<div>Gümrük kıymetine<br/>GİRMEZ</div></div>
-<div class="cond card">{badge("dikkat")}<div class="t">Şart: yazılım bedeli CD bedelinden <b>ayrı gösterilmiş</b> olmalı</div>
+<div class="cond card">{badge("dikkat")}<div class="t">Şart: yazılım bedeli taşıyıcının bedelinden <b>ayrı gösterilmiş</b> olmalı</div>
   <div class="yes">{icon("check", 30)} Soruda 2 ayrı kalem</div></div>
 ''',
     js=r"""
@@ -324,9 +324,9 @@ pop(".cond .yes", K.soruda + 0.5, 0, "back.out(3)");
 
 # ---------------------------------------------------------------- s05 Adım 1: gümrük vergisi
 S["s05"] = dict(
-    sfx=[("whoosh-short", 0.3, 0.25), ("error", T("s05", "sadece"), 0.2), ("ping", T("s05", "bir"), 0.35), ("chime", T("s05", "vergimiz"), 0.3)],
-    keys=dict(bir=T("s05", "Birinci"), mat=T("s05", "matrahı"), sadece=T("s05", "sadece"), on2=T("s05", "on", 2), yuz=T("s05", "yüzde"),
-              res=T("s05", "bir"), gvz=T("s05", "vergimiz")),
+    sfx=[("whoosh-short", 0.3, 0.25), ("error", T("s05", "sadece"), 0.2), ("ping", T("s05", "beş"), 0.35), ("chime", T("s05", "vergimiz"), 0.3)],
+    keys=dict(bir=T("s05", "Birinci"), mat=T("s05", "matrahı"), sadece=T("s05", "sadece"), on2=T("s05", "elli", 2), yuz=T("s05", "yüzde"),
+              res=T("s05", "beş"), gvz=T("s05", "vergimiz")),
     css=STEPS_CSS + LEDGER_CSS + r"""
 #s05 .main { position:absolute; left:600px; top:250px; width:690px; height:560px; padding:30px 34px; }
 #s05 .main .kicker { color:var(--gold); }
@@ -345,11 +345,11 @@ S["s05"] = dict(
     body=f'''
 {steps(1)}
 <div class="main card"><div class="kicker">ADIM 1 · GÜMRÜK VERGİSİ MATRAHI</div>
-  <div class="base">{icon("cd", 110)}<div class="v">10 <small>$</small></div></div>
-  <div class="soft">{icon("code", 34)}Yazılım 1.000 $ <em>GV matrahına girmez</em><i class="st"></i></div>
-  <div class="fx"><span class="a">10</span><span class="op">×</span><span class="b">%10</span><span class="op">=</span><span class="r">0</span><span class="u">$</span></div>
+  <div class="base">{icon("cd", 110)}<div class="v">50 <small>$</small></div></div>
+  <div class="soft">{icon("code", 34)}Yazılım 2.500 $ <em>GV matrahına girmez</em><i class="st"></i></div>
+  <div class="fx"><span class="a">50</span><span class="op">×</span><span class="b">%10</span><span class="op">=</span><span class="r">0</span><span class="u">$</span></div>
 </div>
-{ledger([("Gümrük vergisi", "1,00 $", "")])}
+{ledger([("Gümrük vergisi", "5,00 $", "")])}
 ''',
     js=r"""
 rise(".steps", 0.15, 0, -30);
@@ -364,7 +364,7 @@ fadeTo(".soft", K.sadece + 0.9, 0.45, 0.4);
 rise(".fx .a, .fx .op, .fx .b", K.on2, 0.12, 30);
 fadeTo(".fx .r, .fx .u", 0.01, 0, 0.01);
 fadeIn(".fx .r, .fx .u", K.res - 0.4, 0.2);
-count(".fx .r", K.res - 0.4, 0, 1, 0.5, 0);
+count(".fx .r", K.res - 0.4, 0, 5, 0.5, 0);
 pulse(".fx .r", K.res + 0.2, 1.3);
 tl.fromTo(q(".ledger .ln.new"), { opacity: 1, clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.8, ease: "power1.inOut" }, K.gvz);
 """
@@ -373,10 +373,10 @@ tl.fromTo(q(".ledger .ln.new"), { opacity: 1, clipPath: "inset(0 100% 0 0)" }, {
 # ---------------------------------------------------------------- s06 Adım 2: KDV matrahı
 S["s06"] = dict(
     sfx=[("whoosh-short", 0.3, 0.25), ("notification", T("s06", "dikkat"), 0.3), ("error", T("s06", "girmedi"), 0.2), ("ping", T("s06", "ama"), 0.3),
-         ("click-soft", T("s06", "CD"), 0.4), ("click-soft", T("s06", "artı"), 0.4), ("click-soft", T("s06", "artı", 2), 0.4),
+         ("click-soft", T("s06", "DVD"), 0.4), ("click-soft", T("s06", "artı"), 0.4), ("click-soft", T("s06", "artı", 2), 0.4),
          ("chime", T("s06", "Toplam"), 0.35)],
     keys=dict(ik=T("s06", "İkinci"), dik=T("s06", "dikkat"), yaz=T("s06", "Yazılım"), girmedi=T("s06", "girmedi"), ama=T("s06", "ama"),
-              mat=T("s06", "KDV", 3), cd=T("s06", "on"), a1=T("s06", "artı"), a2=T("s06", "artı", 2), top=T("s06", "Toplam"), sum=T("s06", "bin", 2)),
+              mat=T("s06", "KDV", 3), cd=T("s06", "elli"), a1=T("s06", "artı"), a2=T("s06", "artı", 2), top=T("s06", "Toplam"), sum=T("s06", "iki", 2)),
     css=STEPS_CSS + LEDGER_CSS + r"""
 #s06 .main { position:absolute; left:600px; top:250px; width:690px; height:560px; padding:28px 34px; }
 #s06 .main .kicker { color:var(--teal); }
@@ -402,15 +402,15 @@ S["s06"] = dict(
 <div class="main card"><div class="kicker">ADIM 2 · KDV MATRAHI</div>
   <div class="two"><div class="c c1">{icon("x", 34)}<span>Yazılım → gümrük kıymeti</span></div><div class="c c2">{icon("check", 34)}<span>Yazılım → KDV matrahı</span></div></div>
   <div class="add">
-    <div class="r r1"><span class="op"></span><span class="n">10 $</span><span class="lb">CD (taşıyıcı ortam)</span></div>
-    <div class="r r2"><span class="op">+</span><span class="n g">1 $</span><span class="lb">gümrük vergisi</span></div>
-    <div class="r r3"><span class="op">+</span><span class="n t">1.000 $</span><span class="lb">yazılım</span></div>
+    <div class="r r1"><span class="op"></span><span class="n">50 $</span><span class="lb">DVD (taşıyıcı ortam)</span></div>
+    <div class="r r2"><span class="op">+</span><span class="n g">5 $</span><span class="lb">gümrük vergisi</span></div>
+    <div class="r r3"><span class="op">+</span><span class="n t">2.500 $</span><span class="lb">yazılım</span></div>
     <div class="ln"></div>
     <div class="r sum"><span class="op">=</span><span class="n"><span class="cnt">0</span> $</span><span class="lb">KDV MATRAHI</span></div>
   </div>
 </div>
 <div class="dk">{badge("dikkat")}</div>
-{ledger([("Gümrük vergisi", "1,00 $", ""), ("KDV matrahı", "1.011,00 $", "")])}
+{ledger([("Gümrük vergisi", "5,00 $", ""), ("KDV matrahı", "2.555,00 $", "")])}
 ''',
     js=r"""
 rise(".steps", 0.15, 0, -30);
@@ -427,7 +427,7 @@ rise(".add .r2", K.a1, 0, 30);
 rise(".add .r3", K.a2, 0, 30);
 strike(".add .ln", K.top - 0.3, 0.4);
 rise(".add .sum", K.top, 0, 20);
-count(".add .sum .cnt", K.top + 0.1, 0, 1011, 0.9, 0);
+count(".add .sum .cnt", K.top + 0.1, 0, 2555, 0.9, 0);
 pulse(".add .sum .n", K.sum + 0.6, 1.12);
 tl.fromTo(q(".ledger .ln.new"), { opacity: 1, clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.8, ease: "power1.inOut" }, K.sum + 0.3);
 """

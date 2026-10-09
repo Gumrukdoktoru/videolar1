@@ -8,181 +8,181 @@
   {
     "text": "notu.",
     "start": 0.54,
-    "end": 1.2,
+    "end": 1,
     "id": "w1"
   },
   {
     "text": "Aynı",
-    "start": 1.2,
-    "end": 1.46,
+    "start": 1.07,
+    "end": 1.29,
     "id": "w2"
   },
   {
-    "text": "kurgu",
-    "start": 1.46,
-    "end": 1.79,
+    "text": "mantık",
+    "start": 1.29,
+    "end": 1.73,
     "id": "w3"
   },
   {
-    "text": "ihracat",
-    "start": 1.79,
-    "end": 2.25,
+    "text": "ihracatla",
+    "start": 1.73,
+    "end": 2.42,
     "id": "w4"
   },
   {
-    "text": "yönüyle",
-    "start": 2.25,
-    "end": 2.71,
+    "text": "da",
+    "start": 2.42,
+    "end": 2.57,
     "id": "w5"
   },
   {
-    "text": "de",
-    "start": 2.71,
-    "end": 2.83,
+    "text": "geçerli.",
+    "start": 2.57,
+    "end": 3.38,
     "id": "w6"
   },
   {
-    "text": "sorulmuş.",
-    "start": 2.83,
-    "end": 3.45,
+    "text": "Yazılım",
+    "start": 3.51,
+    "end": 3.91,
     "id": "w7"
   },
   {
-    "text": "Yazılım",
-    "start": 3.79,
-    "end": 4.14,
+    "text": "ihracatında",
+    "start": 3.91,
+    "end": 4.74,
     "id": "w8"
   },
   {
-    "text": "ihracatında",
-    "start": 4.14,
+    "text": "da",
+    "start": 4.74,
     "end": 4.92,
     "id": "w9"
   },
   {
-    "text": "da",
+    "text": "beyan",
     "start": 4.92,
-    "end": 5.06,
+    "end": 5.2,
     "id": "w10"
   },
   {
-    "text": "beyan",
-    "start": 5.06,
-    "end": 5.41,
+    "text": "namede",
+    "start": 5.29,
+    "end": 5.68,
     "id": "w11"
   },
   {
-    "text": "namede",
-    "start": 5.41,
-    "end": 5.81,
+    "text": "gümrük",
+    "start": 5.68,
+    "end": 6.04,
     "id": "w12"
   },
   {
-    "text": "sadece",
-    "start": 5.85,
-    "end": 6.25,
+    "text": "kıymeti",
+    "start": 6.04,
+    "end": 6.46,
     "id": "w13"
   },
   {
-    "text": "taşıyıcı",
-    "start": 6.25,
-    "end": 6.81,
+    "text": "olarak",
+    "start": 6.46,
+    "end": 6.56,
     "id": "w14"
   },
   {
-    "text": "ortamın",
-    "start": 6.81,
-    "end": 7.3,
+    "text": "yalnızca",
+    "start": 6.91,
+    "end": 7.38,
     "id": "w15"
   },
   {
-    "text": "kıymeti.",
-    "start": 7.41,
-    "end": 7.99,
+    "text": "taşıyıcı",
+    "start": 7.49,
+    "end": 7.96,
     "id": "w16"
   },
   {
-    "text": "Yani",
-    "start": 7.99,
-    "end": 8.23,
+    "text": "ortamın",
+    "start": 8.07,
+    "end": 8.45,
     "id": "w17"
   },
   {
-    "text": "10",
-    "start": 8.23,
-    "end": 8.56,
+    "text": "kıymeti",
+    "start": 8.45,
+    "end": 8.94,
     "id": "w18"
   },
   {
-    "text": "dolar",
-    "start": 8.61,
-    "end": 8.88,
+    "text": "yer",
+    "start": 8.94,
+    "end": 9.14,
     "id": "w19"
   },
   {
-    "text": "yaralır.",
-    "start": 8.88,
-    "end": 9.44,
+    "text": "alır.",
+    "start": 9.15,
+    "end": 9.52,
     "id": "w20"
   },
   {
     "text": "Formülü",
-    "start": 9.57,
-    "end": 9.87,
+    "start": 9.65,
+    "end": 10.02,
     "id": "w21"
   },
   {
     "text": "aklınızda",
-    "start": 9.87,
-    "end": 10.43,
+    "start": 10.02,
+    "end": 10.67,
     "id": "w22"
   },
   {
     "text": "tutun.",
-    "start": 10.62,
-    "end": 10.9,
+    "start": 10.75,
+    "end": 11.08,
     "id": "w23"
   },
   {
     "text": "Gümrük",
-    "start": 11.06,
-    "end": 11.51,
+    "start": 11.16,
+    "end": 11.53,
     "id": "w24"
   },
   {
     "text": "vergisi",
-    "start": 11.58,
-    "end": 12.31,
+    "start": 11.53,
+    "end": 11.86,
     "id": "w25"
   },
   {
-    "text": "CD'den,",
-    "start": 12.31,
-    "end": 13.4,
+    "text": "taşıyıcıdan,",
+    "start": 12.3,
+    "end": 13,
     "id": "w26"
   },
   {
-    "text": "KDV.",
-    "start": 13.4,
-    "end": 14.3,
+    "text": "KDV,",
+    "start": 13.13,
+    "end": 13.73,
     "id": "w27"
   },
   {
-    "text": "Yazılım",
-    "start": 14.3,
-    "end": 14.8,
+    "text": "yazılım",
+    "start": 14.13,
+    "end": 14.54,
     "id": "w28"
   },
   {
     "text": "dahil",
-    "start": 14.8,
-    "end": 15.16,
+    "start": 14.62,
+    "end": 15.08,
     "id": "w29"
   },
   {
     "text": "hepsinden.",
-    "start": 15.16,
-    "end": 15.88,
+    "start": 15.23,
+    "end": 16,
     "id": "w30"
   }
 ]

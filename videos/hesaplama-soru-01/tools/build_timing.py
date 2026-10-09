@@ -63,13 +63,11 @@ for i, s in enumerate(script):
 
 # spoken number phrases -> digits for on-screen captions (longest match first)
 DISPLAY = [
-    ("iki yüz seksen iki virgül seksene", "282,80'e"), ("iki yüz seksen iki virgül seksen", "282,80"),
-    ("iki yüz doksan dokuz virgül doksan sekiz", "299,98"), ("yüz doksan sekiz virgül doksan sekiz", "198,98"),
-    ("yüz seksen iki virgül doksan sekiz", "182,98"), ("yüz seksen bir virgül doksan sekize", "181,98'e"),
-    ("yüz seksen bir virgül doksan sekiz", "181,98"), ("bin on bir doların", "1.011 doların"), ("bin on bir", "1.011"),
-    ("bin on", "1.010"), ("yüz bir", "101"), ("yüzde on sekizi", "%18'i"), ("yüzde on sekiz", "%18"), ("yüzde onu", "%10'u"),
-    ("yüzde on", "%10"), ("on doların", "10 doların"), ("on dolar", "10 dolar"), ("on abd", "10 ABD"), ("bin", "1.000"),
-    ("bir dolar", "1 dolar"), ("elli dördüncü", "54'üncü"),
+    ("iki bin beş yüz elli beş", "2.555"), ("iki bin beş yüz", "2.500"), ("iki yüz elli beş", "255"),
+    ("sekiz yüz on altıya", "816'ya"), ("sekiz yüz on altı", "816"), ("yedi yüz altmış beşe", "765'e"), ("yedi yüz altmış beş", "765"),
+    ("beş yüz on altı", "516"), ("beş yüz on bire", "511'e"), ("beş yüz on bir", "511"),
+    ("yüzde yirmisi", "%20'si"), ("yüzde yirmi", "%20"), ("yüzde onu", "%10'u"), ("yüzde on", "%10"),
+    ("on altıya", "16'ya"), ("on altı", "16"), ("elli dördüncü", "54'üncü"), ("elli", "50"), ("beş dolar", "5 dolar"),
 ]
 DISPLAY = [(k.split(), v) for k, v in DISPLAY]
 def bare(w):

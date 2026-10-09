@@ -7,35 +7,35 @@
         #chrome { position:absolute; inset:0; pointer-events:none; }
 
       </style>
-      <div id="chrome" data-composition-id="chrome" data-width="1920" data-height="1080" data-duration="235.53">
+      <div id="chrome" data-composition-id="chrome" data-width="1920" data-height="1080" data-duration="236.68">
 
 <div id="sweep"></div>
 <div id="topbar"><div class="logo"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
-  <div class="meta">ÇIKMIŞ SORU · <b>VERGİ HESAPLAMA #1</b> · GY md. 54</div></div>
-<div id="chap-01" class="chap clip" data-start="0.0" data-duration="16.909" data-track-index="1"><div class="cp"><b>01/8</b>GİRİŞ</div></div>
-<div id="chap-02" class="chap clip" data-start="16.909" data-duration="57.93" data-track-index="1"><div class="cp"><b>02/8</b>SORU & ŞIKLAR</div></div>
-<div id="chap-03" class="chap clip" data-start="74.839" data-duration="25.686" data-track-index="1"><div class="cp"><b>03/8</b>ANAHTAR KURAL</div></div>
-<div id="chap-04" class="chap clip" data-start="100.525" data-duration="51.203" data-track-index="1"><div class="cp"><b>04/8</b>ADIM ADIM ÇÖZÜM</div></div>
-<div id="chap-05" class="chap clip" data-start="151.728" data-duration="22.891" data-track-index="1"><div class="cp"><b>05/8</b>TUZAKLAR</div></div>
-<div id="chap-06" class="chap clip" data-start="174.619" data-duration="24.066" data-track-index="1"><div class="cp"><b>06/8</b>UYARI</div></div>
-<div id="chap-07" class="chap clip" data-start="198.685" data-duration="16.882" data-track-index="1"><div class="cp"><b>07/8</b>KOÇUN NOTU</div></div>
-<div id="chap-08" class="chap clip" data-start="215.567" data-duration="19.959" data-track-index="1"><div class="cp"><b>08/8</b>ÖZET</div></div>
-<div id="progress"><div class="fill"></div><i class="tick" style="left:137.8px"></i><i class="tick" style="left:610.1px"></i><i class="tick" style="left:819.5px"></i><i class="tick" style="left:1236.9px"></i><i class="tick" style="left:1423.5px"></i><i class="tick" style="left:1619.6px"></i><i class="tick" style="left:1757.3px"></i></div>
+  <div class="meta">DERS · <b>VERGİ HESAPLAMA #1</b> · GY md. 54</div></div>
+<div id="chap-01" class="chap clip" data-start="0.0" data-duration="17.641" data-track-index="1"><div class="cp"><b>01/8</b>GİRİŞ</div></div>
+<div id="chap-02" class="chap clip" data-start="17.641" data-duration="53.045" data-track-index="1"><div class="cp"><b>02/8</b>SORU & ŞIKLAR</div></div>
+<div id="chap-03" class="chap clip" data-start="70.686" data-duration="26.234" data-track-index="1"><div class="cp"><b>03/8</b>ANAHTAR KURAL</div></div>
+<div id="chap-04" class="chap clip" data-start="96.92" data-duration="49.609" data-track-index="1"><div class="cp"><b>04/8</b>ADIM ADIM ÇÖZÜM</div></div>
+<div id="chap-05" class="chap clip" data-start="146.529" data-duration="29.369" data-track-index="1"><div class="cp"><b>05/8</b>TUZAKLAR</div></div>
+<div id="chap-06" class="chap clip" data-start="175.898" data-duration="24.798" data-track-index="1"><div class="cp"><b>06/8</b>UYARI</div></div>
+<div id="chap-07" class="chap clip" data-start="200.696" data-duration="16.961" data-track-index="1"><div class="cp"><b>07/8</b>KOÇUN NOTU</div></div>
+<div id="chap-08" class="chap clip" data-start="217.657" data-duration="19.019" data-track-index="1"><div class="cp"><b>08/8</b>ÖZET</div></div>
+<div id="progress"><div class="fill"></div><i class="tick" style="left:143.1px"></i><i class="tick" style="left:573.4px"></i><i class="tick" style="left:786.2px"></i><i class="tick" style="left:1188.7px"></i><i class="tick" style="left:1426.9px"></i><i class="tick" style="left:1628.1px"></i><i class="tick" style="left:1765.7px"></i></div>
 
       </div>
       <script>
 (() => {
   const tl = gsap.timeline({ paused: true });
 
-  const TOTAL = 235.53;
+  const TOTAL = 236.68;
   tl.fromTo("#topbar .logo", { y: -90 }, { y: 0, duration: 0.6, ease: "back.out(1.5)" }, 0.4);
   tl.fromTo("#topbar .meta", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.7);
   tl.fromTo("#progress .fill", { scaleX: 0 }, { scaleX: 1, duration: TOTAL, ease: "none" }, 0);
-  const CH = [0.0, 16.909, 74.839, 100.525, 151.728, 174.619, 198.685, 215.567];
+  const CH = [0.0, 17.641, 70.686, 96.92, 146.529, 175.898, 200.696, 217.657];
   document.querySelectorAll("#chrome .chap .cp").forEach((c, i) => {
     tl.fromTo(c, { y: -70, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.7)" }, CH[i] + 0.15);
   });
-  [16.909, 46.513, 74.839, 100.525, 111.164, 129.326, 137.719, 151.728, 174.619, 198.685, 215.567].forEach((t) => {
+  [17.641, 48.525, 70.686, 96.92, 107.794, 127.236, 134.923, 146.529, 175.898, 200.696, 217.657].forEach((t) => {
     tl.fromTo("#sweep", { x: 420 }, { x: 1760, duration: 0.55, ease: "power2.inOut", immediateRender: false }, t - 0.3);
     tl.fromTo("#sweep", { opacity: 0 }, { keyframes: [{ opacity: 1, duration: 0.22 }, { opacity: 0, duration: 0.33 }], immediateRender: false }, t - 0.3);
   });

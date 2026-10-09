@@ -7,14 +7,14 @@
         #background { position:absolute; inset:0; pointer-events:none; }
 
       </style>
-      <div id="background" data-composition-id="background" data-width="1920" data-height="1080" data-duration="235.53">
+      <div id="background" data-composition-id="background" data-width="1920" data-height="1080" data-duration="236.68">
 <div id="bg"><div class="grid"></div><div class="glow g1"></div><div class="glow g2"></div><svg class="ghost" viewBox="0 0 820 560" aria-hidden="true"><g fill="none" stroke="#8FB2FF" stroke-width="10"><circle cx="270" cy="280" r="250"/><circle cx="270" cy="280" r="70"/><circle cx="270" cy="280" r="22"/><path d="M120 170 A 180 180 0 0 1 200 110 M100 260 A 180 180 0 0 1 150 160"/><rect x="580" y="60" width="220" height="440" rx="30"/><rect x="615" y="100" width="150" height="80" rx="10"/><path d="M630 240h20M690 240h20M750 240h0M630 310h20M690 310h20M630 380h20M690 380h20M630 450h20M690 450h20"/><path d="M740 230v40M720 250h40M725 375h30M725 445h30"/></g></svg><div class="vign"></div></div>
       </div>
       <script>
 (() => {
   const tl = gsap.timeline({ paused: true });
 
-  const TOTAL = 235.53;
+  const TOTAL = 236.68;
   tl.fromTo("#bg .grid", { x: 0, y: 0 }, { x: -200, y: -120, duration: TOTAL, ease: "none" }, 0);
   tl.fromTo("#bg .g1", { scale: 1, opacity: 0.8 }, { scale: 1.18, opacity: 1, duration: 4.2, ease: "sine.inOut", yoyo: true, repeat: Math.max(0, Math.floor(TOTAL / 4.2) - 1) }, 0);
   tl.fromTo("#bg .g2", { scale: 1.1, x: 0 }, { scale: 0.9, x: 120, duration: 6.4, ease: "sine.inOut", yoyo: true, repeat: Math.max(0, Math.floor(TOTAL / 6.4) - 1) }, 0);

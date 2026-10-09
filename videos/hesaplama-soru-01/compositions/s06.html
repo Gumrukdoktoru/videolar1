@@ -45,22 +45,22 @@
 #s06 .add .sum .lb { color:var(--teal); font-size:24px; }
 
       </style>
-      <div id="s06" data-composition-id="s06" data-width="1920" data-height="1080" data-duration="18.162">
+      <div id="s06" data-composition-id="s06" data-width="1920" data-height="1080" data-duration="19.442">
         <div class="stage">
 
 <div class="steps"><div class="stp done"><span class="dot"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>GÜMRÜK VERGİSİ</div><i class="bar"></i><div class="stp on"><span class="dot"><b>2</b></span>KDV MATRAHI</div><i class="bar"></i><div class="stp "><span class="dot"><b>3</b></span>KDV</div><i class="bar"></i><div class="stp "><span class="dot"><b>4</b></span>SONUÇ</div></div>
 <div class="main card"><div class="kicker">ADIM 2 · KDV MATRAHI</div>
   <div class="two"><div class="c c1"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg><span>Yazılım → gümrük kıymeti</span></div><div class="c c2"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Yazılım → KDV matrahı</span></div></div>
   <div class="add">
-    <div class="r r1"><span class="op"></span><span class="n">10 $</span><span class="lb">CD (taşıyıcı ortam)</span></div>
-    <div class="r r2"><span class="op">+</span><span class="n g">1 $</span><span class="lb">gümrük vergisi</span></div>
-    <div class="r r3"><span class="op">+</span><span class="n t">1.000 $</span><span class="lb">yazılım</span></div>
+    <div class="r r1"><span class="op"></span><span class="n">50 $</span><span class="lb">DVD (taşıyıcı ortam)</span></div>
+    <div class="r r2"><span class="op">+</span><span class="n g">5 $</span><span class="lb">gümrük vergisi</span></div>
+    <div class="r r3"><span class="op">+</span><span class="n t">2.500 $</span><span class="lb">yazılım</span></div>
     <div class="ln"></div>
     <div class="r sum"><span class="op">=</span><span class="n"><span class="cnt">0</span> $</span><span class="lb">KDV MATRAHI</span></div>
   </div>
 </div>
 <div class="dk"><div class="badge b-dikkat "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M1.5 12S5.5 4.8 12 4.8 22.5 12 22.5 12 18.5 19.2 12 19.2 1.5 12 1.5 12z" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12" cy="12" r="3.6" fill="currentColor"/></svg></span><span class="bt">DİKKAT</span></div></div>
-<div class="ledger"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg>ÇÖZÜM DEFTERİ</div><div class="ln "><span class="lb">Gümrük vergisi</span><span class="dots"></span><span class="vl">1,00 $</span></div><div class="ln  new"><span class="lb">KDV matrahı</span><span class="dots"></span><span class="vl">1.011,00 $</span></div><div class="ln blank"></div><div class="ln blank"></div></div>
+<div class="ledger"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg>ÇÖZÜM DEFTERİ</div><div class="ln "><span class="lb">Gümrük vergisi</span><span class="dots"></span><span class="vl">5,00 $</span></div><div class="ln  new"><span class="lb">KDV matrahı</span><span class="dots"></span><span class="vl">2.555,00 $</span></div><div class="ln blank"></div><div class="ln blank"></div></div>
 
         </div>
       </div>
@@ -116,8 +116,8 @@ function count(sel, at, from, to, dur, dec) {
 function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
 function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
 
-const D = 18.162;
-const K = {"ik": 0.55, "dik": 3.7, "yaz": 4.12, "girmedi": 5.73, "ama": 6.37, "mat": 9.33, "cd": 10.61, "a1": 12.1, "a2": 14.07, "top": 15.96, "sum": 16.47};
+const D = 19.442;
+const K = {"ik": 0.55, "dik": 3.73, "yaz": 4.54, "girmedi": 5.72, "ama": 6.29, "mat": 9.21, "cd": 10.27, "a1": 12.01, "a2": 14.25, "top": 16.54, "sum": 16.97};
 
 
 rise(".steps", 0.15, 0, -30);
@@ -134,11 +134,11 @@ rise(".add .r2", K.a1, 0, 30);
 rise(".add .r3", K.a2, 0, 30);
 strike(".add .ln", K.top - 0.3, 0.4);
 rise(".add .sum", K.top, 0, 20);
-count(".add .sum .cnt", K.top + 0.1, 0, 1011, 0.9, 0);
+count(".add .sum .cnt", K.top + 0.1, 0, 2555, 0.9, 0);
 pulse(".add .sum .n", K.sum + 0.6, 1.12);
 tl.fromTo(q(".ledger .ln.new"), { opacity: 1, clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.8, ease: "power1.inOut" }, K.sum + 0.3);
 
-exitAll(17.74);
+exitAll(19.02);
 window.__timelines["s06"] = tl;
 })();
       </script>

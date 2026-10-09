@@ -1,6 +1,6 @@
 """Generate compositions/sNN.html and index.html from timing.json + scene definitions."""
 import json, re, sys, html
-from lib import ROOT, TIMING, SCENES, scene, icon
+from lib import ROOT, TIMING, SCENES, scene, icon, T
 
 sys.path.insert(0, str(ROOT / "tools"))
 ALL = {}
@@ -15,7 +15,6 @@ for sid, d in ALL.items():
     (ROOT / "compositions" / f"{sid}.html").write_text(scene(sid, d["body"], d["css"], d["js"], d["keys"], d.get("exit", True)))
 
 TOTAL = round(TIMING["total"], 2)
-HERO = {"s01", "s12"}
 
 CHAPTERS = [
     ("GİRİŞ", ["s01"]), ("SORU & ŞIKLAR", ["s02", "s03"]), ("ANAHTAR KURAL", ["s04"]),
@@ -105,7 +104,15 @@ svg text.svga { font:700 18px 'JetBrains Mono'; fill:#021410; }
 
 #presenter-fig { position:absolute; left:-330px; top:300px; width:1100px; height:1100px; }
 #presenter-fig .pwrap { position:absolute; inset:0; transform-origin:50% 100%; }
-#presenter-fig img { position:absolute; inset:0; width:100%; height:100%; }
+#presenter-fig img { position:absolute; inset:0; width:100%; height:100%; opacity:0; }
+#presenter-fig .rb { position:absolute; left:640px; top:20px; width:120px; height:120px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+  font-family:'Archivo Black'; font-size:72px; line-height:1; opacity:0; box-shadow:0 12px 30px rgba(0,0,0,.4); border:5px solid #fff; }
+#presenter-fig .rb .ico { display:block; }
+#presenter-fig .rb-soru { background:var(--accent); color:#fff; }
+#presenter-fig .rb-dikkat { background:var(--dikkat); color:#2b1300; }
+#presenter-fig .rb-cevap { background:var(--ok); color:#03221a; }
+#presenter-fig .rb-uyari { background:var(--uyari); color:#2a0a0e; }
+#presenter-fig .rb-tuzak { background:#14141A; color:#FFD400; font-size:58px; }
 #presenter-fig .halo { position:absolute; left:250px; top:120px; width:660px; height:660px; border-radius:50%;
   background:radial-gradient(closest-side, rgba(63,107,255,.35), rgba(63,107,255,0)); }
 #nameplate { position:absolute; left:96px; top:944px; display:flex; align-items:center; gap:16px; padding:12px 22px 12px 16px;
@@ -137,7 +144,7 @@ svg text.svga { font:700 18px 'JetBrains Mono'; fill:#021410; }
 """
 
 KW = [r"KDV matrahı", r"KDV'yi", r"KDV'ye", r"KDV", r"gümrük vergisi", r"Gümrük vergisi", r"gümrük kıymetine", r"taşıyıcı ortamın", r"taşıyıcı ortam",
-      r"A şıkkı", r"B şıkkına", r"E şıkkına", r"tuzaklara", r"dikkat!", r"film", r"elli dördüncü"]
+      r"C şıkkı", r"A şıkkına", r"B şıkkına", r"D şıkkına", r"E şıkkına", r"tuzaklara", r"dikkat!", r"film", r"elli dördüncü"]
 
 
 def cap_html(text):
@@ -209,7 +216,7 @@ seg_times = [s["start"] for s in TIMING["scenes"]][1:]
 CHROME_HTML = f"""
 <div id="sweep"></div>
 <div id="topbar"><div class="logo"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
-  <div class="meta">ÇIKMIŞ SORU · <b>VERGİ HESAPLAMA #1</b> · GY md. 54</div></div>
+  <div class="meta">DERS · <b>VERGİ HESAPLAMA #1</b> · GY md. 54</div></div>
 {chr(10).join(chap_html)}
 <div id="progress"><div class="fill"></div>{''.join(ticks)}</div>
 """
@@ -237,28 +244,39 @@ for s in TIMING["scenes"]:
         st = s["start"] + w["t"]
         en = s["start"] + (ws[i + 1]["t"] if i + 1 < len(ws) else s["audio_local"] + s["audio_dur"])
         flat.append([round(st, 3), round(min(en, st + 0.9), 3)])
-seg = [[s["start"], "hero" if s["id"] in HERO else "corner"] for s in TIMING["scenes"]]
-PRES_HTML = """
-<div id="presenter-fig"><div class="halo"></div><div class="pwrap"><img src="assets/img/koc-cutout.png" alt="Gümrük Koçu" /></div></div>
+# Mascot reaction images: the figure never moves; it cross-fades between still poses.
+POSES = ["neutral", "soru", "dikkat", "cevap", "uyari", "tuzak"]
+POSE_SRC = {"neutral": "koc-cutout", "soru": "koc-soru", "dikkat": "koc-dikkat", "cevap": "koc-cevap", "uyari": "koc-uyari", "tuzak": "koc-tuzak"}
+CUES = [("s01", 0.2, "neutral"), ("s02", 0.0, "soru"), ("s04", T("s04", "anahtarı"), "dikkat"), ("s05", 0.0, "neutral"),
+        ("s06", T("s06", "dikkat"), "dikkat"), ("s07", 0.0, "neutral"), ("s08", T("s08", "Doğru"), "cevap"), ("s09", 0.0, "tuzak"),
+        ("s10", T("s10", "uyarı"), "uyari"), ("s11", 0.0, "neutral"), ("s11", T("s11", "Formülü"), "dikkat"), ("s12", 0.0, "neutral"),
+        ("s12", T("s12", "Cevap"), "cevap")]
+cues = [[round(SCENES[sid]["start"] + t, 3), pose] for sid, t, pose in CUES]
+BUBBLE = {"soru": "?", "dikkat": "!", "cevap": icon("check", 70), "uyari": icon("warn", 66), "tuzak": "?!"}
+PRES_HTML = f"""
+<div id="presenter-fig"><div class="halo"></div>
+  <div class="pwrap">{"".join(f'<img class="pose p-{p}" src="assets/img/{POSE_SRC[p]}.png" alt="Gümrük Koçu" />' for p in POSES)}</div>
+  {"".join(f'<div class="rb rb-{p}">{BUBBLE[p]}</div>' for p in POSES if p in BUBBLE)}
+</div>
 <div id="nameplate"><div class="bars"><i></i><i></i><i></i><i></i><i></i></div><div><div class="nm">GÜMRÜK KOÇU</div><div class="rl">ANLATICI · DERS</div></div></div>
 """
 PRES_JS = f"""
   const TOTAL = {TOTAL};
   const W = {json.dumps(flat)};
-  const SEG = {json.dumps(seg)};
-  const P = document.getElementById("presenter-fig");
+  const CUES = {json.dumps(cues)};
   const BARS = document.querySelectorAll("#nameplate .bars i");
-  const HERO = {{ x: 135, y: 0, scale: 1.15 }};
-  const CORNER = {{ x: 0, y: 0, scale: 1 }};
-  tl.fromTo(P, {{ x: -700, y: 0, scale: 1.15, transformOrigin: "50% 100%" }}, {{ x: HERO.x, scale: HERO.scale, duration: 1.0, ease: "expo.out" }}, 0.2);
-  for (let i = 1; i < SEG.length; i++) {{
-    if (SEG[i][1] !== SEG[i - 1][1]) {{
-      const tgt = SEG[i][1] === "hero" ? HERO : CORNER;
-      tl.to(P, {{ x: tgt.x, y: tgt.y, scale: tgt.scale, duration: 0.9, ease: "power3.inOut" }}, SEG[i][0] - 0.35);
-    }}
+  const img = (p) => "#presenter-fig .p-" + p, bub = (p) => "#presenter-fig .rb-" + p;
+  tl.fromTo("#presenter-fig .halo", {{ opacity: 0 }}, {{ opacity: 1, duration: 0.6, ease: "power1.out" }}, CUES[0][0]);
+  tl.fromTo(img(CUES[0][1]), {{ opacity: 0 }}, {{ opacity: 1, duration: 0.6, ease: "power1.out" }}, CUES[0][0]);
+  for (let i = 1; i < CUES.length; i++) {{
+    const [t, p] = CUES[i], prev = CUES[i - 1][1];
+    if (p === prev) continue;
+    tl.fromTo(img(prev), {{ opacity: 1 }}, {{ opacity: 0, duration: 0.3, ease: "power1.inOut", immediateRender: false }}, t);
+    tl.fromTo(img(p), {{ opacity: 0 }}, {{ opacity: 1, duration: 0.3, ease: "power1.inOut", immediateRender: false }}, t);
+    if (document.querySelector(bub(prev))) tl.fromTo(bub(prev), {{ opacity: 1 }}, {{ opacity: 0, duration: 0.2, immediateRender: false }}, t);
+    if (document.querySelector(bub(p))) tl.fromTo(bub(p), {{ opacity: 0, scale: 0.6 }}, {{ opacity: 1, scale: 1, duration: 0.35, ease: "back.out(2)", immediateRender: false }}, t + 0.1);
   }}
   tl.fromTo("#nameplate", {{ y: 120, opacity: 0 }}, {{ y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.6)" }}, 0.9);
-  tl.fromTo("#presenter-fig .halo", {{ scale: 0.9, opacity: 0.6 }}, {{ scale: 1.08, opacity: 1, duration: 2.6, ease: "sine.inOut", yoyo: true, repeat: {rep('TOTAL', 2.6)} }}, 0);
   const st = {{ t: 0 }};
   tl.fromTo(st, {{ t: 0 }}, {{ t: TOTAL, duration: TOTAL, ease: "none", onUpdate: () => {{
     const t = st.t;
@@ -333,7 +351,7 @@ INDEX = f"""<!doctype html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
-    <title>Çıkmış Hesaplama Sorusu 1 — Gümrük Koçu Ders</title>
+    <title>Vergi Hesaplama Dersi 1 — Gümrük Koçu</title>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
     <style>{SHARED_CSS}</style>
   </head>
