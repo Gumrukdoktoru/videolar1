@@ -1,0 +1,463 @@
+1
+00:00:01,744 --> 00:00:04,720
+Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama
+
+2
+00:00:04,720 --> 00:00:07,120
+derslerinin altıncısına hoş geldiniz.
+
+3
+00:00:07,120 --> 00:00:10,120
+Bugünün konusu demuraj ve liman giderleri.
+
+4
+00:00:10,120 --> 00:00:12,600
+Gemi yükleme limanında beklerse ne olur,
+
+5
+00:00:12,600 --> 00:00:14,640
+Türkiye'deki limanda beklerse ne olur?
+
+6
+00:00:14,640 --> 00:00:17,160
+Bir de KDV matrahını unutmayacağız.
+
+7
+00:00:17,160 --> 00:00:19,404
+Kâğıt kalem hazırsa, başlayalım.
+
+8
+00:00:20,154 --> 00:00:21,754
+Önce soruyu okuyalım.
+
+9
+00:00:21,754 --> 00:00:25,114
+Y firması, Güney Kore'den 100 ton soğuk haddelenmiş
+
+10
+00:00:25,114 --> 00:00:26,644
+çelik sac ithal ediyor.
+
+11
+00:00:26,794 --> 00:00:29,594
+Fiyat, tonu 600 dolardan CFR;
+
+12
+00:00:29,594 --> 00:00:31,114
+yani navlun dahil.
+
+13
+00:00:31,114 --> 00:00:32,834
+Sigorta 400 dolar.
+
+14
+00:00:32,834 --> 00:00:35,914
+Gemi, yükleme limanında beklediği için 1.600 dolar
+
+15
+00:00:35,914 --> 00:00:37,194
+demuraj ödeniyor.
+
+16
+00:00:37,194 --> 00:00:39,834
+Mersin Limanı'nda ise boşaltma sırasında 2.000
+
+17
+00:00:39,834 --> 00:00:42,714
+dolar demuraj ve 1.000 dolar tahmil tahliye ücreti
+
+18
+00:00:42,714 --> 00:00:43,444
+ödeniyor.
+
+19
+00:00:43,514 --> 00:00:47,034
+Gümrük vergisi %10, KDV %20.
+
+20
+00:00:47,034 --> 00:00:47,914
+Soru şu:
+
+21
+00:00:47,914 --> 00:00:51,803
+Ödenecek gümrük vergisi ve KDV toplamı kaç dolardır?
+
+22
+00:00:52,553 --> 00:00:54,073
+Şıklarımız şöyle.
+
+23
+00:00:54,073 --> 00:00:56,883
+A şıkkı, 19.200 dolar.
+
+24
+00:00:57,033 --> 00:01:00,473
+B şıkkı, 19.840 dolar.
+
+25
+00:01:00,473 --> 00:01:04,153
+C şıkkı, 19.928 dolar.
+
+26
+00:01:04,153 --> 00:01:07,273
+D şıkkı, 20.440 dolar.
+
+27
+00:01:07,273 --> 00:01:10,023
+E şıkkı, 20.800 dolar.
+
+28
+00:01:10,953 --> 00:01:13,805
+Videoyu durdurun ve önce kendiniz çözün.
+
+29
+00:01:19,835 --> 00:01:21,565
+Hazırsanız başlayalım.
+
+30
+00:01:21,595 --> 00:01:23,445
+Bu sorunun üç anahtarı var.
+
+31
+00:01:23,595 --> 00:01:24,235
+Bir:
+
+32
+00:01:24,235 --> 00:01:27,195
+Eşya Türkiye'deki giriş yerine varana kadar yapılan
+
+33
+00:01:27,195 --> 00:01:30,435
+nakliye, sigorta, yükleme ve elleçleme giderleri
+
+34
+00:01:30,435 --> 00:01:31,555
+kıymete eklenir;
+
+35
+00:01:31,555 --> 00:01:34,315
+yükleme limanındaki demuraj da buna dahildir.
+
+36
+00:01:34,315 --> 00:01:34,955
+İki:
+
+37
+00:01:34,955 --> 00:01:37,915
+Varıştan sonraki demuraj ve tahmil tahliye giderleri
+
+38
+00:01:37,915 --> 00:01:39,675
+gümrük kıymetine girmez.
+
+39
+00:01:39,675 --> 00:01:40,275
+Üç:
+
+40
+00:01:40,275 --> 00:01:41,915
+Ama bu yurt içi giderler,
+
+41
+00:01:41,915 --> 00:01:44,612
+KDV matrahına mutlaka eklenir.
+
+42
+00:01:45,362 --> 00:01:46,402
+Birinci adım:
+
+43
+00:01:46,402 --> 00:01:47,682
+gümrük kıymeti.
+
+44
+00:01:47,682 --> 00:01:49,962
+100 ton × 600 dolar:
+
+45
+00:01:49,962 --> 00:01:51,042
+60.000 dolar;
+
+46
+00:01:51,042 --> 00:01:52,682
+navlun bunun içinde.
+
+47
+00:01:52,682 --> 00:01:54,482
+Sigorta 400 dolar.
+
+48
+00:01:54,482 --> 00:01:56,242
+Yükleme limanındaki demuraj,
+
+49
+00:01:56,242 --> 00:01:58,562
+varıştan önce olduğu için kıymete girer:
+
+50
+00:01:58,562 --> 00:01:59,882
+1.600 dolar.
+
+51
+00:01:59,882 --> 00:02:02,383
+Gümrük kıymeti, 62.000 dolar.
+
+52
+00:02:03,133 --> 00:02:04,253
+İkinci adım:
+
+53
+00:02:04,253 --> 00:02:05,933
+hangi gider nereye?
+
+54
+00:02:05,933 --> 00:02:08,173
+Fiyat ve navlun zaten kıymette.
+
+55
+00:02:08,173 --> 00:02:10,813
+Sigorta ve yükleme limanındaki demuraj kıymete
+
+56
+00:02:10,813 --> 00:02:11,693
+eklendi.
+
+57
+00:02:11,693 --> 00:02:14,573
+Mersin'deki demuraj ile tahmil tahliye ise varıştan
+
+58
+00:02:14,573 --> 00:02:15,573
+sonra yapıldı;
+
+59
+00:02:15,573 --> 00:02:19,063
+kıymete değil, yalnızca KDV matrahına girer.
+
+60
+00:02:19,133 --> 00:02:20,453
+Gümrük vergisi:
+
+61
+00:02:20,453 --> 00:02:24,023
+62.000 × %10, 6.200 dolar.
+
+62
+00:02:24,822 --> 00:02:26,062
+Üçüncü adım:
+
+63
+00:02:26,062 --> 00:02:27,072
+KDV.
+
+64
+00:02:27,302 --> 00:02:28,822
+KDV matrahı;
+
+65
+00:02:28,822 --> 00:02:32,982
+62.000 kıymet, + 6.200 gümrük vergisi,
+
+66
+00:02:32,982 --> 00:02:36,702
++ 2.000 demuraj, + 1.000 tahmil tahliye:
+
+67
+00:02:36,702 --> 00:02:38,555
+71.200 dolar.
+
+68
+00:02:38,555 --> 00:02:41,999
+Bunun %20'si, 14.240 dolar.
+
+69
+00:02:42,749 --> 00:02:43,909
+Ve sonuç:
+
+70
+00:02:43,909 --> 00:02:46,189
+6.200 dolar gümrük vergisi,
+
+71
+00:02:46,189 --> 00:02:49,349
++ 14.240 dolar KDV.
+
+72
+00:02:49,349 --> 00:02:52,549
+Ödenecek toplam, 20.440 dolar.
+
+73
+00:02:52,549 --> 00:02:53,629
+Doğru cevap:
+
+74
+00:02:53,629 --> 00:02:54,650
+D şıkkı!
+
+75
+00:02:55,560 --> 00:02:57,800
+Şimdi tuzaklara bakalım;
+
+76
+00:02:57,800 --> 00:03:00,520
+her yanlış şık, bir hatanın sonucu.
+
+77
+00:03:00,520 --> 00:03:03,640
+Gümrük vergisini KDV matrahına eklemeyen,
+
+78
+00:03:03,640 --> 00:03:06,600
+A şıkkına, 19.200'e düşer.
+
+79
+00:03:06,600 --> 00:03:09,960
+Yurt içi giderleri KDV matrahına hiç katmayan,
+
+80
+00:03:09,960 --> 00:03:13,240
+B şıkkına, 19.840'a iner.
+
+81
+00:03:13,240 --> 00:03:15,480
+Yükleme limanındaki demurajı unutan,
+
+82
+00:03:15,480 --> 00:03:19,000
+C şıkkına, 19.928'e gider.
+
+83
+00:03:19,000 --> 00:03:21,720
+Türkiye'deki demuraj ve tahmil tahliyeyi kıymete
+
+84
+00:03:21,720 --> 00:03:25,377
+ekleyen ise E şıkkına, 20.800'e çıkar.
+
+85
+00:03:26,287 --> 00:03:27,647
+Bir uyarı daha:
+
+86
+00:03:27,647 --> 00:03:29,287
+Demurajda belirleyici olan,
+
+87
+00:03:29,287 --> 00:03:32,047
+ödemenin adı değil, yapıldığı yerdir.
+
+88
+00:03:32,047 --> 00:03:34,820
+Eşya giriş yerine varmadan önceki demuraj kıymete
+
+89
+00:03:34,820 --> 00:03:35,407
+girer;
+
+90
+00:03:35,407 --> 00:03:38,007
+varıştan sonraki demuraj kıymete girmez.
+
+91
+00:03:38,007 --> 00:03:40,007
+Ama kıymete girmeyen bu giderler,
+
+92
+00:03:40,007 --> 00:03:42,567
+KDV matrahında mutlaka yer alır.
+
+93
+00:03:42,567 --> 00:03:43,247
+Bir de:
+
+94
+00:03:43,247 --> 00:03:46,687
+antrepodaki ardiye ücreti de fiyattan ayrı gösterildiyse
+
+95
+00:03:46,687 --> 00:03:49,443
+kıymete değil, KDV matrahına girer.
+
+96
+00:03:50,326 --> 00:03:51,353
+Koçun notu:
+
+97
+00:03:51,353 --> 00:03:54,193
+Gider sorularında çizgiyi Türkiye'deki giriş yeri
+
+98
+00:03:54,193 --> 00:03:55,233
+olarak çizin.
+
+99
+00:03:55,233 --> 00:03:57,433
+Çizginin öncesi gümrük kıymetine,
+
+100
+00:03:57,433 --> 00:04:00,033
+sonrası KDV matrahına yazılır.
+
+101
+00:04:00,033 --> 00:04:02,953
+Gümrük vergisi yalnızca kıymetten hesaplanır.
+
+102
+00:04:02,953 --> 00:04:04,513
+Formülü aklınızda tutun:
+
+103
+00:04:04,513 --> 00:04:07,433
+Çizgiyi çiz, öncesini kıymete ekle,
+
+104
+00:04:07,433 --> 00:04:11,353
+vergiyi hesapla, sonrasını KDV matrahına ekle,
+
+105
+00:04:11,353 --> 00:04:12,882
+KDV'yi hesapla.
+
+106
+00:04:13,632 --> 00:04:14,592
+Özetle:
+
+107
+00:04:14,592 --> 00:04:17,232
+Yükleme limanındaki demuraj kıymete girdi;
+
+108
+00:04:17,232 --> 00:04:21,632
+gümrük kıymeti 62.000, gümrük vergisi 6.200 dolar.
+
+109
+00:04:21,632 --> 00:04:25,312
+Mersin'deki giderler yalnızca KDV matrahına eklendi;
+
+110
+00:04:25,312 --> 00:04:28,112
+KDV 14.240 dolar.
+
+111
+00:04:28,112 --> 00:04:29,642
+Toplam, D şıkkı:
+
+112
+00:04:29,712 --> 00:04:31,562
+20.440 dolar.
+
+113
+00:04:31,792 --> 00:04:34,752
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+114
+00:04:34,752 --> 00:04:35,499
+unutmayın.
+
+115
+00:04:35,499 --> 00:04:37,752
+Bir sonraki hesaplama dersinde görüşmek üzere,
+
+116
+00:04:37,752 --> 00:04:38,803
+hoşça kalın!

@@ -1,0 +1,28 @@
+BAŞLIK
+Demuraj Kıymete mi Girer? Yükleme Limanı vs Türkiye Limanı ve KDV Matrahı | Vergi Hesaplama Dersi #6 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin altıncısında demuraj ve liman giderlerinin yerini buluyoruz: varıştan önceki demuraj gümrük kıymetine, varıştan sonraki demuraj ve tahmil–tahliye ise yalnızca KDV matrahına.
+
+Soru: Y firması Güney Kore'den 100 ton çelik sac ithal ediyor; fiyat tonu 600 $ CFR (navlun dahil), sigorta 400 $. Yükleme limanında bekleme nedeniyle 1.600 $ demuraj; Mersin Limanı'nda boşaltmada 2.000 $ demuraj ve 1.000 $ tahmil–tahliye ödeniyor. GV %10, KDV %20. Ödenecek GV + KDV toplamı kaç $?
+
+Şıklar: A) 19.200 $ · B) 19.840 $ · C) 19.928 $ · D) 20.440 $ · E) 20.800 $
+
+BÖLÜMLER
+0:00 Giriş
+0:19 Soru ve şıklar
+1:19 Üç anahtar: varıştan önce, varıştan sonra, KDV matrahı
+1:44 Adım adım çözüm
+2:54 Tuzak şıklar
+3:25 Uyarı: demurajda yer önemli
+3:49 Koçun notu: çizgiyi giriş yerine çiz
+4:13 Özet
+
+Cevap: D — 20.440 $. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+demuraj, gümrük kıymeti, KDV matrahı, tahmil tahliye, yurt içi giderler, ardiye, CFR, gümrük vergisi hesaplama, Genelge 2009/32, gümrük müşavirliği sınavı, Gümrük Koçu
+
+#gümrük #demuraj #vergihesaplama #GümrükKoçu

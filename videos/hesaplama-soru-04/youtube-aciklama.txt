@@ -1,0 +1,28 @@
+BAŞLIK
+İlave Gümrük Vergisi Min–Max Hesabı: Nispi mi, En Az Tutar mı? | Vergi Hesaplama Dersi #4 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin dördüncüsünde ilave gümrük vergisinin nispi tutarını kilogram başına en az ve en çok tutarla karşılaştırıyoruz. Soruyu okuyoruz, 5 saniye düşünme süresi veriyoruz, sonra adım adım çözüp tuzak şıkları tek tek açıklıyoruz.
+
+Soru: K firması, Çin menşeli 4.000 kg plastik mutfak eşyası ithal ediyor. CIF kıymet 16.000 $. GV %10; İGV %30, ancak kg başına en az 1,5 $, en çok 2,5 $; KDV %20. Ödenecek GV + İGV + KDV toplamı kaç $?
+
+Şıklar: A) 10.880 $ · B) 11.120 $ · C) 12.320 $ · D) 17.120 $ · E) 18.080 $
+
+BÖLÜMLER
+0:00 Giriş
+0:18 Soru ve şıklar
+1:13 Üç anahtar: matrah, min–max, KDV
+1:38 Adım adım çözüm
+2:47 Tuzak şıklar
+3:16 Uyarı: sınırlar toplanmaz, karşılaştırılır
+3:36 Koçun notu: koridor kuralı
+3:58 Özet
+
+Cevap: C — 12.320 $. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+gümrük vergisi hesaplama, ilave gümrük vergisi, İGV, min max, nispi vergi, maktu vergi, KDV matrahı, gümrük kıymeti, gümrük müşavirliği sınavı, gümrük müşavir yardımcılığı, Gümrük Koçu
+
+#gümrük #vergihesaplama #İGV #GümrükKoçu

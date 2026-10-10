@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin altıncısına hoş geldiniz. Bugünün konusu demuraj ve liman giderleri. Gemi yükleme limanında beklerse ne olur, Türkiye'deki limanda beklerse ne olur? Bir de KDV matrahını unutmayacağız. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. Y firması, Güney Kore'den yüz ton soğuk haddelenmiş çelik sac ithal ediyor. Fiyat, tonu altı yüz dolardan CFR; yani navlun dahil. Sigorta dört yüz dolar. Gemi, yükleme limanında beklediği için bin altı yüz dolar demuraj ödeniyor. Mersin Limanı'nda ise boşaltma sırasında iki bin dolar demuraj ve bin dolar tahmil tahliye ücreti ödeniyor. Gümrük vergisi yüzde on, KDV yüzde yirmi. Soru şu: Ödenecek gümrük vergisi ve KDV toplamı kaç dolardır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, on dokuz bin iki yüz dolar. B şıkkı, on dokuz bin sekiz yüz kırk dolar. C şıkkı, on dokuz bin dokuz yüz yirmi sekiz dolar. D şıkkı, yirmi bin dört yüz kırk dolar. E şıkkı, yirmi bin sekiz yüz dolar. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Eşya Türkiye'deki giriş yerine varana kadar yapılan nakliye, sigorta, yükleme ve elleçleme giderleri kıymete eklenir; yükleme limanındaki demuraj da buna dahildir. İki: Varıştan sonraki demuraj ve tahmil tahliye giderleri gümrük kıymetine girmez. Üç: Ama bu yurt içi giderler, KDV matrahına mutlaka eklenir."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: gümrük kıymeti. Yüz ton çarpı altı yüz dolar: altmış bin dolar; navlun bunun içinde. Sigorta dört yüz dolar. Yükleme limanındaki demuraj, varıştan önce olduğu için kıymete girer: bin altı yüz dolar. Gümrük kıymeti, altmış iki bin dolar."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: hangi gider nereye? Fiyat ve navlun zaten kıymette. Sigorta ve yükleme limanındaki demuraj kıymete eklendi. Mersin'deki demuraj ile tahmil tahliye ise varıştan sonra yapıldı; kıymete değil, yalnızca KDV matrahına girer. Gümrük vergisi: altmış iki bin çarpı yüzde on, altı bin iki yüz dolar."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: KDV. KDV matrahı; altmış iki bin kıymet, artı altı bin iki yüz gümrük vergisi, artı iki bin demuraj, artı bin tahmil tahliye: yetmiş bir bin iki yüz dolar. Bunun yüzde yirmisi, on dört bin iki yüz kırk dolar."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: altı bin iki yüz dolar gümrük vergisi, artı on dört bin iki yüz kırk dolar KDV. Ödenecek toplam, yirmi bin dört yüz kırk dolar. Doğru cevap: D şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. Gümrük vergisini KDV matrahına eklemeyen, A şıkkına, on dokuz bin iki yüze düşer. Yurt içi giderleri KDV matrahına hiç katmayan, B şıkkına, on dokuz bin sekiz yüz kırka iner. Yükleme limanındaki demurajı unutan, C şıkkına, on dokuz bin dokuz yüz yirmi sekize gider. Türkiye'deki demuraj ve tahmil tahliyeyi kıymete ekleyen ise E şıkkına, yirmi bin sekiz yüze çıkar."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: Demurajda belirleyici olan, ödemenin adı değil, yapıldığı yerdir. Eşya giriş yerine varmadan önceki demuraj kıymete girer; varıştan sonraki demuraj kıymete girmez. Ama kıymete girmeyen bu giderler, KDV matrahında mutlaka yer alır. Bir de: antrepodaki ardiye ücreti de fiyattan ayrı gösterildiyse kıymete değil, KDV matrahına girer."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Gider sorularında çizgiyi Türkiye'deki giriş yeri olarak çizin. Çizginin öncesi gümrük kıymetine, sonrası KDV matrahına yazılır. Gümrük vergisi yalnızca kıymetten hesaplanır. Formülü aklınızda tutun: Çizgiyi çiz, öncesini kıymete ekle, vergiyi hesapla, sonrasını KDV matrahına ekle, KDV'yi hesapla."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Yükleme limanındaki demuraj kıymete girdi; gümrük kıymeti altmış iki bin, gümrük vergisi altı bin iki yüz dolar. Mersin'deki giderler yalnızca KDV matrahına eklendi; KDV on dört bin iki yüz kırk dolar. Toplam, D şıkkı: yirmi bin dört yüz kırk dolar. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

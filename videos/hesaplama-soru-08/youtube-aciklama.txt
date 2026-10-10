@@ -1,0 +1,28 @@
+BAŞLIK
+Vergi Zinciri: GV → TRT Bandrol → ÖTV → KDV Hesabı (Cep Telefonu) | Vergi Hesaplama Dersi #8 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin sekizincisinde dört vergiyi sırasıyla hesaplıyoruz: gümrük vergisi, TRT bandrol ücreti, ÖTV ve KDV. Her vergi bir sonrakinin matrahına girer; sırayı karıştıran yanlış şıkka düşer.
+
+Soru: M firması Çin'den 100 adet cep telefonu ithal ediyor; CIF kıymet 20.000 $, 1 $ = 40 TL. GV %5, TRT bandrol ücreti %10, ÖTV %20, KDV %20. Ödenecek GV + bandrol + ÖTV + KDV toplamı kaç TL?
+
+Şıklar: A) 467.200 TL · B) 493.600 TL · C) 510.400 TL · D) 524.800 TL · E) 530.560 TL
+
+BÖLÜMLER
+0:00 Giriş
+0:22 Soru ve şıklar
+1:15 Üç anahtar: sıra, bandrol matrahı, zincir
+1:42 Adım adım çözüm
+2:47 Tuzak şıklar
+3:17 Uyarı: kim kimin matrahına girer?
+3:40 Koçun notu: vergi merdiveni
+4:00 Özet
+
+Cevap: E — 530.560 TL. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+TRT bandrol, ÖTV, KDV matrahı, vergi sırası, bandrol matrahı, ÖTV matrahı, cep telefonu ithalatı, gümrük vergisi hesaplama, gümrük müşavirliği sınavı, Gümrük Koçu
+
+#gümrük #ÖTV #vergihesaplama #GümrükKoçu

@@ -1,0 +1,28 @@
+BAŞLIK
+KKDF Hesabı: Fatura Bedeli, Alış Kuru ve KDV Matrahı | Vergi Hesaplama Dersi #7 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin yedincisinde KKDF'yi çözüyoruz: aynı soruda iki kur (kıymet için satış, KKDF için alış), KKDF'nin matrahı ve KDV matrahına girişi.
+
+Soru: Z firması ABD'den kabul kredili ödemeyle ambalaj makinesi ithal ediyor. Fatura FOB 30.000 $; navlun 1.500 $, sigorta 500 $. GV %5, KKDF %6, KDV %20. TCMB döviz satış kuru 40 TL, döviz alış kuru 39,50 TL. İthalatta ödenecek KDV kaç TL?
+
+Şıklar: A) 268.800 TL · B) 283.020 TL · C) 283.200 TL · D) 283.731 TL · E) 283.968 TL
+
+BÖLÜMLER
+0:00 Giriş
+0:21 Soru ve şıklar
+1:18 Üç anahtar: satış kuru, KKDF alış kuru, KDV matrahı
+1:42 Adım adım çözüm
+2:47 Tuzak şıklar
+3:20 Uyarı: KKDF her ithalatta yok
+3:40 Koçun notu: iki kur, iki iş
+4:09 Özet
+
+Cevap: B — 283.020 TL. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+KKDF, kaynak kullanımını destekleme fonu, kabul kredili, vadeli ithalat, döviz alış kuru, döviz satış kuru, KDV matrahı, gümrük vergisi hesaplama, gümrük müşavirliği sınavı, Gümrük Koçu
+
+#gümrük #KKDF #vergihesaplama #GümrükKoçu

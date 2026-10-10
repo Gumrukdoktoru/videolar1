@@ -1,0 +1,28 @@
+BAŞLIK
+Gümrük Kıymeti Hesabı: Komisyon, Tasarım, Çoğaltma Hakkı ve Montaj | Vergi Hesaplama Dersi #5 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin beşincisinde faturadaki fiyata hangi ödemelerin eklendiğini, hangilerinin eklenmediğini adım adım ayırıyoruz: satış ve satın alma komisyonu, yurt dışı tasarım, Türkiye'de çoğaltma hakkı ve montaj.
+
+Soru: T firması Almanya'dan 50 dikiş makinesi ithal ediyor (tanesi FOB 1.200 €). TR'ye kadar navlun 2.500 €, sigorta 500 €. Satıcının acentesine 3.000 € satış komisyonu, kendi satın alma temsilcisine 1.500 € komisyon; İtalya'da hazırlanıp üreticiye bedelsiz verilen tasarım 4.000 €; TR'de çoğaltma hakkı 6.000 €; ithalattan sonra yapılacak, faturada ayrı gösterilen montaj 2.000 €. 1 € = 40 TL. Gümrük kıymeti kaç TL?
+
+Şıklar: A) 2.800.000 TL · B) 2.860.000 TL · C) 2.880.000 TL · D) 3.040.000 TL · E) 3.180.000 TL
+
+BÖLÜMLER
+0:00 Giriş
+0:19 Soru ve şıklar
+1:27 Üç anahtar: komisyon, tasarım, çoğaltma ve montaj
+1:51 Adım adım çözüm
+3:06 Tuzak şıklar
+3:33 Uyarı: satın alma komisyonu ≠ satış komisyonu
+3:55 Koçun notu: her ödemeye 3 soru
+4:17 Özet
+
+Cevap: A — 2.800.000 TL. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+gümrük kıymeti, gümrük kıymeti hesaplama, satın alma komisyonu, satış komisyonu, tellaliye, tasarım, çoğaltma hakkı, montaj, GK 27, GK 28, gümrük müşavirliği sınavı, gümrük müşavir yardımcılığı, Gümrük Koçu
+
+#gümrük #gümrükkıymeti #vergihesaplama #GümrükKoçu

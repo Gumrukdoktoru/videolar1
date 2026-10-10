@@ -1,0 +1,511 @@
+1
+00:00:01,680 --> 00:00:04,640
+Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama
+
+2
+00:00:04,640 --> 00:00:07,040
+derslerinin beşincisine hoş geldiniz.
+
+3
+00:00:07,040 --> 00:00:09,200
+Bugünün konusu gümrük kıymeti:
+
+4
+00:00:09,200 --> 00:00:11,640
+Faturadaki fiyata hangi ödemeler eklenir,
+
+5
+00:00:11,640 --> 00:00:13,040
+hangileri eklenmez?
+
+6
+00:00:13,040 --> 00:00:16,480
+Komisyon, tasarım, çoğaltma hakkı ve montaj ücreti
+
+7
+00:00:16,480 --> 00:00:17,493
+aynı soruda.
+
+8
+00:00:17,493 --> 00:00:19,639
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:20,389 --> 00:00:21,909
+Önce soruyu okuyalım.
+
+10
+00:00:21,909 --> 00:00:25,269
+T firması, Almanya'dan 50 adet endüstriyel dikiş
+
+11
+00:00:25,269 --> 00:00:26,709
+makinesi ithal ediyor.
+
+12
+00:00:26,709 --> 00:00:29,949
+Makinenin tanesi FOB 1.200 avro.
+
+13
+00:00:29,949 --> 00:00:32,269
+Türkiye'ye kadar navlun 2.500,
+
+14
+00:00:32,269 --> 00:00:33,749
+sigorta 500 avro.
+
+15
+00:00:33,749 --> 00:00:36,949
+Firma ayrıca satıcının acentesine 3.000 avro satış
+
+16
+00:00:36,949 --> 00:00:40,069
+komisyonu, kendi satın alma temsilcisine 1.500
+
+17
+00:00:40,069 --> 00:00:41,469
+avro komisyon ödüyor.
+
+18
+00:00:41,469 --> 00:00:44,189
+İtalya'da hazırlanıp üreticiye bedelsiz verilen
+
+19
+00:00:44,189 --> 00:00:46,389
+tasarım için 4.000 avro harcamış.
+
+20
+00:00:46,389 --> 00:00:48,789
+Makinelerin Türkiye'de çoğaltılması hakkı için
+
+21
+00:00:48,789 --> 00:00:51,669
+6.000 avro, ithalattan sonra yapılacak montaj
+
+22
+00:00:51,669 --> 00:00:54,896
+için faturada ayrıca gösterilen 2.000 avro ödeyecek.
+
+23
+00:00:54,896 --> 00:00:56,309
+Bir avro 40 lira.
+
+24
+00:00:56,309 --> 00:00:57,189
+Soru şu:
+
+25
+00:00:57,189 --> 00:01:00,110
+Eşyanın gümrük kıymeti kaç Türk lirasıdır?
+
+26
+00:01:00,860 --> 00:01:02,300
+Şıklarımız şöyle.
+
+27
+00:01:02,300 --> 00:01:05,420
+A şıkkı, 2.800.000 lira.
+
+28
+00:01:05,420 --> 00:01:08,780
+B şıkkı, 2.860.000 lira.
+
+29
+00:01:08,780 --> 00:01:12,220
+C şıkkı, 2.880.000 lira.
+
+30
+00:01:12,220 --> 00:01:14,940
+D şıkkı, 3.040.000 lira.
+
+31
+00:01:14,940 --> 00:01:17,870
+E şıkkı, 3.180.000 lira.
+
+32
+00:01:18,860 --> 00:01:21,616
+Videoyu durdurun ve önce kendiniz çözün.
+
+33
+00:01:27,646 --> 00:01:29,566
+Hazırsanız başlayalım.
+
+34
+00:01:29,566 --> 00:01:31,486
+Bu sorunun üç anahtarı var.
+
+35
+00:01:31,486 --> 00:01:32,126
+Bir:
+
+36
+00:01:32,126 --> 00:01:34,526
+Komisyon ve tellaliye kıymete eklenir;
+
+37
+00:01:34,526 --> 00:01:36,766
+ama satın alma komisyonu hariç.
+
+38
+00:01:36,766 --> 00:01:37,336
+İki:
+
+39
+00:01:37,406 --> 00:01:40,046
+Türkiye dışında yapılan ve alıcının üreticiye
+
+40
+00:01:40,046 --> 00:01:42,366
+bedelsiz verdiği tasarım çalışması da kıymete
+
+41
+00:01:42,366 --> 00:01:43,246
+eklenir.
+
+42
+00:01:43,246 --> 00:01:43,966
+Üç:
+
+43
+00:01:43,966 --> 00:01:46,686
+Türkiye'de çoğaltma hakkı ödemeleri ile ithalattan
+
+44
+00:01:46,686 --> 00:01:48,246
+sonraki montaj giderleri,
+
+45
+00:01:48,246 --> 00:01:51,378
+fiyattan ayrı gösterilmişse kıymete girmez.
+
+46
+00:01:52,128 --> 00:01:53,248
+Birinci adım:
+
+47
+00:01:53,248 --> 00:01:54,688
+fiyat ve nakliye.
+
+48
+00:01:54,688 --> 00:01:57,128
+50 makine × 1.200 avro:
+
+49
+00:01:57,128 --> 00:01:58,408
+60.000 avro.
+
+50
+00:01:58,408 --> 00:02:01,048
+Teslim şekli FOB olduğu için,
+
+51
+00:02:01,048 --> 00:02:03,888
+Türkiye'ye kadarki navlun ve sigortayı ekliyoruz:
+
+52
+00:02:03,888 --> 00:02:06,088
+2.500 + 500.
+
+53
+00:02:06,088 --> 00:02:08,339
+Ara toplam, 63.000 avro.
+
+54
+00:02:09,089 --> 00:02:10,249
+İkinci adım:
+
+55
+00:02:10,249 --> 00:02:12,049
+ekle ya da ekleme.
+
+56
+00:02:12,049 --> 00:02:14,809
+Satıcının acentesine ödenen satış komisyonu,
+
+57
+00:02:14,809 --> 00:02:15,809
+3.000 avro:
+
+58
+00:02:15,809 --> 00:02:16,459
+ekle.
+
+59
+00:02:16,609 --> 00:02:19,409
+Kendi temsilcimize ödenen satın alma komisyonu,
+
+60
+00:02:19,409 --> 00:02:20,729
+1.500 avro:
+
+61
+00:02:20,729 --> 00:02:21,569
+ekleme.
+
+62
+00:02:21,569 --> 00:02:24,369
+İtalya'da hazırlanıp bedelsiz verilen tasarım,
+
+63
+00:02:24,369 --> 00:02:25,449
+4.000 avro:
+
+64
+00:02:25,449 --> 00:02:26,209
+ekle.
+
+65
+00:02:26,209 --> 00:02:27,889
+Türkiye'de çoğaltma hakkı,
+
+66
+00:02:27,889 --> 00:02:29,009
+6.000 avro:
+
+67
+00:02:29,009 --> 00:02:29,889
+ekleme.
+
+68
+00:02:29,889 --> 00:02:31,649
+Ayrı gösterilen montaj,
+
+69
+00:02:31,649 --> 00:02:32,609
+2.000 avro:
+
+70
+00:02:32,609 --> 00:02:33,436
+ekleme.
+
+71
+00:02:33,436 --> 00:02:36,010
+Kıymet, avro olarak 70.000.
+
+72
+00:02:36,760 --> 00:02:37,880
+Üçüncü adım:
+
+73
+00:02:37,880 --> 00:02:39,400
+Türk lirasına çevirme.
+
+74
+00:02:39,400 --> 00:02:41,920
+Gümrük Kanunu'na göre, yükümlülüğün başladığı
+
+75
+00:02:41,920 --> 00:02:45,400
+tarihteki Merkez Bankası döviz satış kuru kullanılır.
+
+76
+00:02:45,400 --> 00:02:47,640
+70.000 avro × 40 lira:
+
+77
+00:02:47,640 --> 00:02:49,679
+2.800.000 lira.
+
+78
+00:02:50,429 --> 00:02:51,589
+Ve sonuç:
+
+79
+00:02:51,589 --> 00:02:55,709
+60.000 avro fatura, + 3.000 avro navlun ve sigorta,
+
+80
+00:02:55,709 --> 00:02:58,109
++ 3.000 avro satış komisyonu,
+
+81
+00:02:58,109 --> 00:02:59,989
++ 4.000 avro tasarım.
+
+82
+00:02:59,989 --> 00:03:01,629
+Toplam 70.000 avro;
+
+83
+00:03:01,629 --> 00:03:04,469
+40 liradan, 2.800.000 lira.
+
+84
+00:03:04,469 --> 00:03:05,469
+Doğru cevap:
+
+85
+00:03:05,469 --> 00:03:06,483
+A şıkkı!
+
+86
+00:03:07,393 --> 00:03:09,553
+Şimdi tuzaklara bakalım;
+
+87
+00:03:09,553 --> 00:03:12,323
+her yanlış şık, bir hatanın sonucu.
+
+88
+00:03:12,353 --> 00:03:14,353
+Satın alma komisyonunu da ekleyen,
+
+89
+00:03:14,353 --> 00:03:17,793
+B şıkkına, 2.860.000'e çıkar.
+
+90
+00:03:17,793 --> 00:03:19,793
+Ayrı gösterilen montajı ekleyen,
+
+91
+00:03:19,793 --> 00:03:23,153
+C şıkkına, 2.880.000'e gider.
+
+92
+00:03:23,153 --> 00:03:25,233
+Türkiye'deki çoğaltma hakkını ekleyen,
+
+93
+00:03:25,233 --> 00:03:28,033
+D şıkkına, 3.040.000'e ulaşır.
+
+94
+00:03:28,033 --> 00:03:30,753
+Ödenen her şeyi ekleyen ise E şıkkına,
+
+95
+00:03:30,753 --> 00:03:32,952
+3.180.000'e düşer.
+
+96
+00:03:33,862 --> 00:03:35,062
+Bir uyarı daha:
+
+97
+00:03:35,062 --> 00:03:38,582
+Satın alma komisyonuyla satış komisyonunu karıştırmayın.
+
+98
+00:03:38,582 --> 00:03:41,622
+Satın alma komisyonu, alıcının kendi temsilcisine,
+
+99
+00:03:41,622 --> 00:03:44,235
+eşyayı bulup alması için ödediği ücrettir;
+
+100
+00:03:44,235 --> 00:03:45,542
+kıymete girmez.
+
+101
+00:03:45,542 --> 00:03:48,262
+Satıcı tarafında çalışan acenteye ödenen komisyon
+
+102
+00:03:48,262 --> 00:03:49,835
+ise kıymete eklenir.
+
+103
+00:03:49,835 --> 00:03:50,502
+Bir de:
+
+104
+00:03:50,502 --> 00:03:52,182
+montaj ve kurulum giderleri,
+
+105
+00:03:52,182 --> 00:03:54,982
+ancak fiyattan ayrı gösterilirse kıymet dışında
+
+106
+00:03:54,982 --> 00:03:55,660
+kalır.
+
+107
+00:03:56,543 --> 00:03:57,570
+Koçun notu:
+
+108
+00:03:57,570 --> 00:04:00,570
+Kıymet sorularında her ödemeye 3 soru sorun.
+
+109
+00:04:00,570 --> 00:04:01,970
+Eşyayla ilgili mi?
+
+110
+00:04:01,970 --> 00:04:03,530
+Türkiye'ye girişten önce mi?
+
+111
+00:04:03,530 --> 00:04:06,090
+Satış koşulu ya da alıcının yükü mü?
+
+112
+00:04:06,090 --> 00:04:08,810
+Kanunda açıkça hariç tutulanlar ise her zaman
+
+113
+00:04:08,810 --> 00:04:10,050
+dışarıda kalır.
+
+114
+00:04:10,050 --> 00:04:11,583
+Formülü aklınızda tutun:
+
+115
+00:04:11,583 --> 00:04:13,690
+Fiyatı al, nakliyeyi ekle,
+
+116
+00:04:13,690 --> 00:04:16,290
+eklenecekleri ekle, hariçleri çıkar,
+
+117
+00:04:16,290 --> 00:04:17,427
+kura çevir.
+
+118
+00:04:18,177 --> 00:04:18,987
+Özetle:
+
+119
+00:04:19,137 --> 00:04:21,457
+Fiyat ve nakliye 63.000 avro;
+
+120
+00:04:21,457 --> 00:04:24,497
+satış komisyonu ve tasarımla 70.000 avro.
+
+121
+00:04:24,497 --> 00:04:27,777
+Satın alma komisyonu, çoğaltma hakkı ve ayrı gösterilen
+
+122
+00:04:27,777 --> 00:04:29,457
+montaj kıymete girmez.
+
+123
+00:04:29,457 --> 00:04:31,067
+Toplam, A şıkkı:
+
+124
+00:04:31,137 --> 00:04:33,267
+2.800.000 lira.
+
+125
+00:04:33,297 --> 00:04:36,377
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+126
+00:04:36,377 --> 00:04:37,084
+unutmayın.
+
+127
+00:04:37,084 --> 00:04:39,457
+Bir sonraki hesaplama dersinde görüşmek üzere,
+
+128
+00:04:39,457 --> 00:04:40,474
+hoşça kalın!

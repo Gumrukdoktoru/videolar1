@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin beşincisine hoş geldiniz. Bugünün konusu gümrük kıymeti: Faturadaki fiyata hangi ödemeler eklenir, hangileri eklenmez? Komisyon, tasarım, çoğaltma hakkı ve montaj ücreti aynı soruda. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. T firması, Almanya'dan elli adet endüstriyel dikiş makinesi ithal ediyor. Makinenin tanesi FOB bin iki yüz avro. Türkiye'ye kadar navlun iki bin beş yüz, sigorta beş yüz avro. Firma ayrıca satıcının acentesine üç bin avro satış komisyonu, kendi satın alma temsilcisine bin beş yüz avro komisyon ödüyor. İtalya'da hazırlanıp üreticiye bedelsiz verilen tasarım için dört bin avro harcamış. Makinelerin Türkiye'de çoğaltılması hakkı için altı bin avro, ithalattan sonra yapılacak montaj için faturada ayrıca gösterilen iki bin avro ödeyecek. Bir avro kırk lira. Soru şu: Eşyanın gümrük kıymeti kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, iki milyon sekiz yüz bin lira. B şıkkı, iki milyon sekiz yüz altmış bin lira. C şıkkı, iki milyon sekiz yüz seksen bin lira. D şıkkı, üç milyon kırk bin lira. E şıkkı, üç milyon yüz seksen bin lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Komisyon ve tellaliye kıymete eklenir; ama satın alma komisyonu hariç. İki: Türkiye dışında yapılan ve alıcının üreticiye bedelsiz verdiği tasarım çalışması da kıymete eklenir. Üç: Türkiye'de çoğaltma hakkı ödemeleri ile ithalattan sonraki montaj giderleri, fiyattan ayrı gösterilmişse kıymete girmez."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: fiyat ve nakliye. Elli makine çarpı bin iki yüz avro: altmış bin avro. Teslim şekli FOB olduğu için, Türkiye'ye kadarki navlun ve sigortayı ekliyoruz: iki bin beş yüz artı beş yüz. Ara toplam, altmış üç bin avro."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: ekle ya da ekleme. Satıcının acentesine ödenen satış komisyonu, üç bin avro: ekle. Kendi temsilcimize ödenen satın alma komisyonu, bin beş yüz avro: ekleme. İtalya'da hazırlanıp bedelsiz verilen tasarım, dört bin avro: ekle. Türkiye'de çoğaltma hakkı, altı bin avro: ekleme. Ayrı gösterilen montaj, iki bin avro: ekleme. Kıymet, avro olarak yetmiş bin."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: Türk lirasına çevirme. Gümrük Kanunu'na göre, yükümlülüğün başladığı tarihteki Merkez Bankası döviz satış kuru kullanılır. Yetmiş bin avro çarpı kırk lira: iki milyon sekiz yüz bin lira."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: altmış bin avro fatura, artı üç bin avro navlun ve sigorta, artı üç bin avro satış komisyonu, artı dört bin avro tasarım. Toplam yetmiş bin avro; kırk liradan, iki milyon sekiz yüz bin lira. Doğru cevap: A şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. Satın alma komisyonunu da ekleyen, B şıkkına, iki milyon sekiz yüz altmış bine çıkar. Ayrı gösterilen montajı ekleyen, C şıkkına, iki milyon sekiz yüz seksen bine gider. Türkiye'deki çoğaltma hakkını ekleyen, D şıkkına, üç milyon kırk bine ulaşır. Ödenen her şeyi ekleyen ise E şıkkına, üç milyon yüz seksen bine düşer."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: Satın alma komisyonuyla satış komisyonunu karıştırmayın. Satın alma komisyonu, alıcının kendi temsilcisine, eşyayı bulup alması için ödediği ücrettir; kıymete girmez. Satıcı tarafında çalışan acenteye ödenen komisyon ise kıymete eklenir. Bir de: montaj ve kurulum giderleri, ancak fiyattan ayrı gösterilirse kıymet dışında kalır."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Kıymet sorularında her ödemeye üç soru sorun. Eşyayla ilgili mi? Türkiye'ye girişten önce mi? Satış koşulu ya da alıcının yükü mü? Kanunda açıkça hariç tutulanlar ise her zaman dışarıda kalır. Formülü aklınızda tutun: Fiyatı al, nakliyeyi ekle, eklenecekleri ekle, hariçleri çıkar, kura çevir."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Fiyat ve nakliye altmış üç bin avro; satış komisyonu ve tasarımla yetmiş bin avro. Satın alma komisyonu, çoğaltma hakkı ve ayrı gösterilen montaj kıymete girmez. Toplam, A şıkkı: iki milyon sekiz yüz bin lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

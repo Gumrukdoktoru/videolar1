@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s04 { position: absolute; inset: 0; overflow: hidden; }
+        #s04 .stage { position: absolute; inset: 0; }
+
+#s04 .top { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:24px; }
+#s04 .top .kicker { font-size:26px; }
+#s04 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s04 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; transform:translateX(-50%); }
+#s04 .bub { position:absolute; padding:14px 18px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 23px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s04 .bub:after { content:""; position:absolute; left:var(--tail, 120px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s04 .bub em { font-style:normal; color:#B4231B; }
+#s04 .bub i { font-style:normal; color:#0B8A47; }
+#s04 .hayir { position:absolute; padding:8px 20px; border:6px solid var(--uyari); border-radius:14px; color:var(--uyari);
+  font-family:'Archivo Black'; font-size:44px; line-height:1; background:rgba(7,26,69,.92); transform:rotate(-8deg); white-space:nowrap; }
+
+#s04 .kc { position:absolute; left:600px; width:1220px; height:166px; display:flex; align-items:center; gap:26px; padding:0 30px 0 22px; }
+#s04 .k0 { top:262px; } #s04 .k1 { top:446px; } #s04 .k2 { top:630px; }
+#s04 .kc .num { width:92px; height:92px; border-radius:24px; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:52px;
+  color:#071A45; flex:none; }
+#s04 .kc .ib { width:72px; height:72px; border-radius:50%; display:flex; align-items:center; justify-content:center; background:rgba(143,178,255,.14); color:var(--accent2); flex:none; }
+#s04 .kc .tx { flex:1; }
+#s04 .kc .tx b.t { display:block; font:900 32px Montserrat; color:var(--fg); }
+#s04 .kc .tx p { font:600 24px/1.3 Montserrat; color:#C9D3F2; margin-top:6px; }
+#s04 .kc .tx p b { color:var(--fg); font-weight:900; }
+#s04 .kc .ref { flex:none; font:700 19px 'JetBrains Mono'; color:#071A45; background:var(--accent2); padding:6px 12px; border-radius:9px; white-space:nowrap; }
+#s04 .order { position:absolute; left:600px; top:822px; display:flex; align-items:center; gap:14px; font:800 22px Montserrat; color:var(--muted); white-space:nowrap; }
+#s04 .order span { padding:6px 12px; border-radius:10px; background:rgba(255,255,255,.07); border:2px solid rgba(255,255,255,.2); color:var(--fg); }
+
+      </style>
+      <div id="s04" data-composition-id="s04" data-width="1920" data-height="1080" data-duration="25.607">
+        <div class="stage">
+
+<div class="top"><div class="badge b-onemli badge-big"><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></svg></span><span class="bt">ÖNEMLİ</span></div><div class="kicker">SORUNUN 3 ANAHTARI</div></div>
+<div class="kc card k0" style="border-color:var(--teal)"><span class="num" style="background:var(--teal)">1</span><span class="ib"><svg class="ico " viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><path d="M2.5 14.5h19l-3 5.5h-13z" fill="currentColor"/><path d="M6 14.5V9h12v5.5M9.5 9V5h5v4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></span><div class="tx"><b class="t">Varıştan önce: kıymete ekle</b><p>Giriş yerine kadar nakliye, sigorta ve <b>yükleme limanı demurajı</b></p></div><span class="ref">GK md. 27/1-e</span></div><div class="kc card k1" style="border-color:var(--gold)"><span class="num" style="background:var(--gold)">2</span><span class="ib"><svg class="ico " viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span><div class="tx"><b class="t">Varıştan sonra: kıymete girmez</b><p>Türkiye'deki demuraj ve <b>tahmil–tahliye</b> gümrük kıymeti dışında</p></div><span class="ref">GK md. 28</span></div><div class="kc card k2" style="border-color:var(--ok)"><span class="num" style="background:var(--ok)">3</span><span class="ib"><svg class="ico " viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><path d="M19 5L5 19" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="7" cy="7" r="2.8" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="17" cy="17" r="2.8" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></span><div class="tx"><b class="t">Ama KDV matrahına ekle</b><p>Yurt içi giderler <b>KDV matrahına</b> mutlaka girer</p></div><span class="ref">KDV K. md. 21</span></div>
+<div class="order">SIRA: <span>kıymet</span> <svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg> <span>GV</span> <svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg> <span>KDV matrahı (+ yurt içi)</span> <svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg> <span>KDV</span></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s04";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 25.607;
+const K = {"head": 3.17, "card": [4.29, 15.01, 20.37], "ref": [13.97, 19.49, 24.37], "order": null};
+
+
+tl.fromTo(q(".top .badge"), { scale: 2.4, opacity: 0, rotation: -8 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, K.head);
+rise(".top .kicker", K.head + 0.4, 0, 20);
+K.card.forEach((t, i) => { slideX(".k" + i, t - 0.2, -100); pulse(".k" + i + " .ref", K.ref[i] + 0.3, 1.12); });
+rise(".order", K.order != null ? K.order : K.ref[2] + 1.0, 0, 20);
+
+exitAll(25.19);
+window.__timelines["s04"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

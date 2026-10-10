@@ -1,0 +1,451 @@
+1
+00:00:01,680 --> 00:00:04,680
+Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama
+
+2
+00:00:04,680 --> 00:00:07,040
+derslerinin dördüncüsüne hoş geldiniz.
+
+3
+00:00:07,040 --> 00:00:09,600
+Bugünün konusu ilave gümrük vergisi.
+
+4
+00:00:09,600 --> 00:00:11,320
+Oran yüzde olarak verilmiş;
+
+5
+00:00:11,320 --> 00:00:14,360
+ama bir de kilogram başına en az ve en çok tutar
+
+6
+00:00:14,360 --> 00:00:14,800
+var.
+
+7
+00:00:14,800 --> 00:00:16,240
+Hangisini uygulayacağız?
+
+8
+00:00:16,240 --> 00:00:18,516
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:19,266 --> 00:00:20,866
+Önce soruyu okuyalım.
+
+10
+00:00:20,866 --> 00:00:24,146
+K firması, Çin menşeli 4.000 kilogram plastik
+
+11
+00:00:24,146 --> 00:00:25,946
+mutfak eşyası ithal ediyor.
+
+12
+00:00:25,946 --> 00:00:28,946
+Eşyanın CIF kıymeti 16.000 dolar.
+
+13
+00:00:28,946 --> 00:00:31,066
+Gümrük vergisi oranı %10.
+
+14
+00:00:31,066 --> 00:00:33,226
+İlave gümrük vergisi %30;
+
+15
+00:00:33,226 --> 00:00:36,346
+ancak kilogram başına en az 1,5 dolar,
+
+16
+00:00:36,346 --> 00:00:38,226
+en çok 2,5 dolar.
+
+17
+00:00:38,226 --> 00:00:40,346
+KDV oranı %20.
+
+18
+00:00:40,346 --> 00:00:41,116
+Soru şu:
+
+19
+00:00:41,186 --> 00:00:42,866
+Ödenecek gümrük vergisi,
+
+20
+00:00:42,866 --> 00:00:46,683
+ilave gümrük vergisi ve KDV toplamı kaç dolardır?
+
+21
+00:00:47,433 --> 00:00:48,953
+Şıklarımız şöyle.
+
+22
+00:00:48,953 --> 00:00:52,153
+A şıkkı, 10.880 dolar.
+
+23
+00:00:52,153 --> 00:00:55,113
+B şıkkı, 11.120 dolar.
+
+24
+00:00:55,113 --> 00:00:58,153
+C şıkkı, 12.320 dolar.
+
+25
+00:00:58,153 --> 00:01:01,113
+D şıkkı, 17.120 dolar.
+
+26
+00:01:01,113 --> 00:01:03,870
+E şıkkı, 18.080 dolar.
+
+27
+00:01:04,793 --> 00:01:07,641
+Videoyu durdurun ve önce kendiniz çözün.
+
+28
+00:01:13,671 --> 00:01:15,641
+Hazırsanız başlayalım.
+
+29
+00:01:15,671 --> 00:01:17,591
+Bu sorunun üç anahtarı var.
+
+30
+00:01:17,591 --> 00:01:18,271
+Bir:
+
+31
+00:01:18,271 --> 00:01:21,511
+Gümrük vergisinin ve ilave gümrük vergisinin matrahı,
+
+32
+00:01:21,511 --> 00:01:22,871
+gümrük kıymetidir.
+
+33
+00:01:22,871 --> 00:01:23,551
+İki:
+
+34
+00:01:23,551 --> 00:01:25,431
+Önce nispi vergi hesaplanır,
+
+35
+00:01:25,431 --> 00:01:28,711
+sonra en az ve en çok tutarlarla karşılaştırılır;
+
+36
+00:01:28,711 --> 00:01:31,591
+aralığın dışında kalırsa sınır tutar uygulanır.
+
+37
+00:01:31,591 --> 00:01:32,311
+Üç:
+
+38
+00:01:32,311 --> 00:01:35,431
+KDV matrahına, gümrük kıymetiyle birlikte gümrük
+
+39
+00:01:35,431 --> 00:01:38,292
+vergisi ve ilave gümrük vergisi de girer.
+
+40
+00:01:39,042 --> 00:01:40,162
+Birinci adım:
+
+41
+00:01:40,162 --> 00:01:43,522
+gümrük vergisi ve nispi ilave gümrük vergisi.
+
+42
+00:01:43,522 --> 00:01:45,522
+Matrah, 16.000 dolar.
+
+43
+00:01:45,522 --> 00:01:47,402
+Gümrük vergisi %10:
+
+44
+00:01:47,402 --> 00:01:48,722
+1.600 dolar.
+
+45
+00:01:48,722 --> 00:01:51,082
+İlave gümrük vergisi %30:
+
+46
+00:01:51,082 --> 00:01:52,711
+4.800 dolar.
+
+47
+00:01:52,711 --> 00:01:53,602
+Ama dur!
+
+48
+00:01:53,602 --> 00:01:54,882
+Bu nispi tutar;
+
+49
+00:01:54,882 --> 00:01:56,454
+henüz son karar değil.
+
+50
+00:01:57,204 --> 00:01:58,324
+İkinci adım:
+
+51
+00:01:58,324 --> 00:02:00,334
+en az ve en çok tutarlar.
+
+52
+00:02:00,564 --> 00:02:03,284
+4.000 kilogram × 1,5:
+
+53
+00:02:03,284 --> 00:02:05,324
+en az tutar 6.000 dolar.
+
+54
+00:02:05,324 --> 00:02:07,924
+4.000 kilogram × 2,5:
+
+55
+00:02:07,924 --> 00:02:10,004
+en çok tutar 10.000 dolar.
+
+56
+00:02:10,004 --> 00:02:12,164
+Nispi tutar 4.800;
+
+57
+00:02:12,164 --> 00:02:13,604
+en azın altında kaldı.
+
+58
+00:02:13,604 --> 00:02:15,764
+O halde ilave gümrük vergisi,
+
+59
+00:02:15,764 --> 00:02:18,094
+en az tutar olan 6.000 dolardır.
+
+60
+00:02:18,893 --> 00:02:20,133
+Üçüncü adım:
+
+61
+00:02:20,133 --> 00:02:21,423
+KDV.
+
+62
+00:02:21,453 --> 00:02:22,903
+KDV matrahı;
+
+63
+00:02:22,973 --> 00:02:26,626
+16.000, + 1.600, + 6.000:
+
+64
+00:02:26,626 --> 00:02:28,466
+23.600 dolar.
+
+65
+00:02:28,466 --> 00:02:31,812
+Bunun %20'si, 4.720 dolar.
+
+66
+00:02:32,562 --> 00:02:33,682
+Ve sonuç:
+
+67
+00:02:33,682 --> 00:02:35,842
+1.600 dolar gümrük vergisi,
+
+68
+00:02:35,842 --> 00:02:38,802
++ 6.000 dolar ilave gümrük vergisi,
+
+69
+00:02:38,802 --> 00:02:41,802
++ 4.720 dolar KDV.
+
+70
+00:02:41,802 --> 00:02:44,922
+Ödenecek toplam, 12.320 dolar.
+
+71
+00:02:44,922 --> 00:02:45,922
+Doğru cevap:
+
+72
+00:02:45,922 --> 00:02:46,918
+C şıkkı!
+
+73
+00:02:47,908 --> 00:02:50,068
+Şimdi tuzaklara bakalım;
+
+74
+00:02:50,068 --> 00:02:52,788
+her yanlış şık, bir hatanın sonucu.
+
+75
+00:02:52,788 --> 00:02:55,828
+En az tutarla karşılaştırmayı unutup nispi vergiyi
+
+76
+00:02:55,828 --> 00:02:59,668
+yazan, A şıkkına, 10.880'e düşer.
+
+77
+00:02:59,668 --> 00:03:03,268
+İlave gümrük vergisini KDV matrahına eklemeyen,
+
+78
+00:03:03,268 --> 00:03:06,308
+B şıkkına, 11.120'ye ulaşır.
+
+79
+00:03:06,308 --> 00:03:07,908
+En çok tutarı uygulayan,
+
+80
+00:03:07,908 --> 00:03:10,868
+D şıkkına, 17.120'ye gider.
+
+81
+00:03:10,868 --> 00:03:14,228
+Nispi ile en az tutarı toplayan ise E şıkkına,
+
+82
+00:03:14,228 --> 00:03:16,209
+18.080'e düşer.
+
+83
+00:03:17,119 --> 00:03:18,369
+Bir uyarı daha:
+
+84
+00:03:18,399 --> 00:03:20,239
+En az ve en çok tutarlar,
+
+85
+00:03:20,239 --> 00:03:22,079
+nispi vergiyle toplanmaz;
+
+86
+00:03:22,079 --> 00:03:23,999
+yalnızca karşılaştırılır.
+
+87
+00:03:23,999 --> 00:03:26,479
+Nispi tutar aralığın içindeyse nispi,
+
+88
+00:03:26,479 --> 00:03:30,319
+altındaysa en az, üstündeyse en çok tutar uygulanır.
+
+89
+00:03:30,319 --> 00:03:30,959
+Bir de:
+
+90
+00:03:30,959 --> 00:03:32,639
+kilogram başına tutarlarda,
+
+91
+00:03:32,639 --> 00:03:35,359
+soruda brüt mü yoksa net ağırlık mı verildiğine
+
+92
+00:03:35,359 --> 00:03:36,278
+dikkat edin.
+
+93
+00:03:37,108 --> 00:03:38,228
+Koçun notu:
+
+94
+00:03:38,228 --> 00:03:40,148
+Min max sorularını ezberlemeyin,
+
+95
+00:03:40,148 --> 00:03:41,668
+bir koridor gibi düşünün.
+
+96
+00:03:41,668 --> 00:03:44,508
+En az ile en çok, koridorun iki duvarıdır.
+
+97
+00:03:44,508 --> 00:03:47,641
+Nispi tutar koridorun içindeyse kendisi uygulanır;
+
+98
+00:03:47,641 --> 00:03:49,628
+dışındaysa en yakın duvar.
+
+99
+00:03:49,628 --> 00:03:51,148
+Formülü aklınızda tutun:
+
+100
+00:03:51,148 --> 00:03:53,388
+Matrahı bul, nispiyi hesapla,
+
+101
+00:03:53,388 --> 00:03:54,908
+sınırlarla karşılaştır,
+
+102
+00:03:54,908 --> 00:03:57,889
+KDV matrahına ekle, toplamı yaz.
+
+103
+00:03:58,639 --> 00:03:59,599
+Özetle:
+
+104
+00:03:59,599 --> 00:04:02,079
+İlave gümrük vergisinin nispi tutarı,
+
+105
+00:04:02,079 --> 00:04:04,159
+en az tutarın altında kaldığı için,
+
+106
+00:04:04,159 --> 00:04:06,759
+en az tutar olan 6.000 dolar uygulandı.
+
+107
+00:04:06,759 --> 00:04:11,199
+Gümrük vergisi 1.600, KDV 4.720 dolar.
+
+108
+00:04:11,199 --> 00:04:12,889
+Toplam, C şıkkı:
+
+109
+00:04:12,959 --> 00:04:15,129
+12.320 dolar.
+
+110
+00:04:15,199 --> 00:04:18,159
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+111
+00:04:18,159 --> 00:04:18,906
+unutmayın.
+
+112
+00:04:18,906 --> 00:04:21,239
+Bir sonraki hesaplama dersinde görüşmek üzere,
+
+113
+00:04:21,239 --> 00:04:22,216
+hoşça kalın!

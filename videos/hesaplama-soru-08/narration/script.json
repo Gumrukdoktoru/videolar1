@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin sekizincisine hoş geldiniz. Bugünün konusu vergi zinciri: gümrük vergisi, TRT bandrol ücreti, özel tüketim vergisi ve KDV. Her vergi bir sonrakinin matrahına girer. Sırayı karıştırırsanız sonuç değişir. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. M firması, Çin'den yüz adet cep telefonu ithal ediyor. CIF kıymet yirmi bin dolar, kur kırk lira. Gümrük vergisi yüzde beş, TRT bandrol ücreti yüzde on, özel tüketim vergisi yüzde yirmi, KDV yüzde yirmi. Soru şu: Ödenecek gümrük vergisi, bandrol ücreti, ÖTV ve KDV toplamı kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, dört yüz altmış yedi bin iki yüz lira. B şıkkı, dört yüz doksan üç bin altı yüz lira. C şıkkı, beş yüz on bin dört yüz lira. D şıkkı, beş yüz yirmi dört bin sekiz yüz lira. E şıkkı, beş yüz otuz bin beş yüz altmış lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Sıra her zaman aynıdır; gümrük vergisi, bandrol, ÖTV ve en son KDV. İki: Bandrol matrahı, ÖTV hariç KDV matrahıdır; yani kıymet artı gümrük vergisi. Üç: Her vergi bir sonrakinin matrahına eklenir; ÖTV matrahına bandrol, KDV matrahına ÖTV girer."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: kıymet ve gümrük vergisi. Yirmi bin dolar çarpı kırk: sekiz yüz bin lira. Gümrük vergisi yüzde beş: kırk bin lira."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: bandrol ve ÖTV. Bandrol matrahı, sekiz yüz bin artı kırk bin: sekiz yüz kırk bin lira. Yüzde onu, seksen dört bin lira. ÖTV matrahına bandrol de girer: sekiz yüz kırk bin artı seksen dört bin, dokuz yüz yirmi dört bin lira. Yüzde yirmisi, yüz seksen dört bin sekiz yüz lira."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: KDV. KDV matrahına ÖTV de girer: dokuz yüz yirmi dört bin artı yüz seksen dört bin sekiz yüz, bir milyon yüz sekiz bin sekiz yüz lira. Yüzde yirmisi, iki yüz yirmi bir bin yedi yüz altmış lira."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: kırk bin gümrük vergisi, artı seksen dört bin bandrol, artı yüz seksen dört bin sekiz yüz ÖTV, artı iki yüz yirmi bir bin yedi yüz altmış KDV. Ödenecek toplam, beş yüz otuz bin beş yüz altmış lira. Doğru cevap: E şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. Gümrük vergisini hesaplamayı unutan, A şıkkına, dört yüz altmış yedi bin iki yüze düşer. ÖTV'yi KDV matrahına eklemeyen, B şıkkına, dört yüz doksan üç bin altı yüze iner. Bandrolü ÖTV matrahına katmayan, C şıkkına, beş yüz on bin dört yüze gider. Bandrol matrahına gümrük vergisini eklemeyen ise D şıkkına, beş yüz yirmi dört bin sekiz yüze ulaşır."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: TRT bandrol ücretinin matrahında ÖTV yoktur; çünkü bandrol, ÖTV'den önce hesaplanır. ÖTV matrahında ise KDV yoktur. Kural basit: Her vergi, kendinden önce hesaplananları matrahına alır; kendinden sonrakileri almaz. Bir de: KDV hiçbir vergi matrahına girmez; çünkü en son o hesaplanır."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Vergi zincirini bir merdiven gibi düşünün. Her basamak, altındaki basamakların toplamı üzerine kurulur. Kıymet en altta, KDV en üstte. Formülü aklınızda tutun: Kıymeti bul, gümrük vergisini ekle, bandrolü hesapla, ÖTV'yi hesapla, KDV'yi en son hesapla."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Gümrük vergisi kırk bin, bandrol seksen dört bin, ÖTV yüz seksen dört bin sekiz yüz, KDV iki yüz yirmi bir bin yedi yüz altmış lira. Toplam, E şıkkı: beş yüz otuz bin beş yüz altmış lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

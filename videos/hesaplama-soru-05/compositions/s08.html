@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s08 { position: absolute; inset: 0; overflow: hidden; }
+        #s08 .stage { position: absolute; inset: 0; }
+
+#s08 .steps { position:absolute; left:600px; top:128px; width:1220px; display:flex; align-items:center; gap:0; }
+#s08 .steps .stp { display:flex; align-items:center; gap:12px; font:900 22px Montserrat; letter-spacing:.06em; color:#7E8DBA; white-space:nowrap; }
+#s08 .steps .stp .dot { width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:3px solid #3A5296; font:700 22px 'JetBrains Mono'; color:#7E8DBA; }
+#s08 .steps .stp.done { color:#AEBBE3; } #s08 .steps .stp.done .dot { background:var(--teal); border-color:var(--teal); color:#03221a; }
+#s08 .steps .stp.on { color:var(--fg); } #s08 .steps .stp.on .dot { background:var(--gold); border-color:var(--gold); color:#2a1d00; box-shadow:0 0 0 8px rgba(255,197,61,.18); }
+#s08 .steps .bar { flex:1; height:4px; margin:0 16px; background:#2B4C9E; border-radius:2px; }
+
+#s08 .rcp { position:absolute; left:600px; top:236px; width:620px; height:620px; background:#FBF8EE; color:#1B2A57; padding:26px 38px;
+  box-shadow:0 30px 70px rgba(0,0,0,.45); clip-path:polygon(0 0,100% 0,100% 96%,95% 100%,90% 96%,85% 100%,80% 96%,75% 100%,70% 96%,65% 100%,60% 96%,55% 100%,50% 96%,45% 100%,40% 96%,35% 100%,30% 96%,25% 100%,20% 96%,15% 100%,10% 96%,5% 100%,0 96%); }
+#s08 .rcp .rh { text-align:center; font-family:'Archivo Black'; font-size:36px; letter-spacing:.04em; }
+#s08 .rcp .rs { text-align:center; font:700 18px 'JetBrains Mono'; color:#5A6AA0; letter-spacing:.14em; margin-top:4px; padding-bottom:12px; border-bottom:3px dashed #9BA8CC; }
+#s08 .rcp .ln { display:flex; justify-content:space-between; align-items:baseline; margin-top:16px; font:800 27px Montserrat; }
+#s08 .rcp .ln b { font:700 34px 'JetBrains Mono'; white-space:nowrap; }
+#s08 .rcp .ln small { display:block; font:600 18px 'JetBrains Mono'; color:#5A6AA0; }
+#s08 .rcp .eq { border-top:4px solid #1B2A57; margin-top:20px; padding-top:14px; }
+#s08 .rcp .tot { display:flex; justify-content:space-between; align-items:center; font:900 26px Montserrat; color:#B4231B; }
+#s08 .rcp .tot b { font:700 54px 'JetBrains Mono'; }
+#s08 .rcp .usd { text-align:right; font:800 22px Montserrat; color:#B4231B; }
+#s08 .ans { position:absolute; left:1270px; top:250px; width:550px; }
+#s08 .ao { display:flex; align-items:center; gap:22px; height:88px; margin-bottom:14px; padding:0 24px 0 14px; position:relative; }
+#s08 .ao .L { width:62px; height:62px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Archivo Black'; font-size:32px;
+  color:#071A45; background:var(--accent2); flex:none; }
+#s08 .ao .v { font:700 42px 'JetBrains Mono'; color:var(--fg); white-space:nowrap; }
+#s08 .ao .ck { margin-left:auto; width:56px; height:56px; border-radius:50%; background:var(--ok); color:#03221a; display:flex; align-items:center; justify-content:center; opacity:0; }
+#s08 .stamp { position:absolute; left:1340px; top:762px; padding:14px 26px; border:7px solid var(--ok); color:var(--ok); border-radius:16px;
+  font-family:'Archivo Black'; font-size:52px; line-height:1; background:rgba(7,26,69,.9); transform:rotate(-7deg); }
+#s08 .burst { position:absolute; left:1300px; top:452px; width:1px; height:1px; }
+#s08 .burst i { position:absolute; left:0; top:0; width:14px; height:14px; border-radius:3px; opacity:0; }
+
+      </style>
+      <div id="s08" data-composition-id="s08" data-width="1920" data-height="1080" data-duration="16.804">
+        <div class="stage">
+
+<div class="steps"><div class="stp done"><span class="dot"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>FİYAT + NAKLİYE</div><i class="bar"></i><div class="stp done"><span class="dot"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>EKLE / EKLEME</div><i class="bar"></i><div class="stp done"><span class="dot"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>TL'YE ÇEVİR</div><i class="bar"></i><div class="stp on"><span class="dot"><b>4</b></span>SONUÇ</div></div>
+<div class="rcp"><div class="rh">ÖDEME HESABI</div><div class="rs">SORU · GÜMRÜK KIYMETİ</div>
+  <div class="ln l0"><span>Fatura (FOB)<small>50 × 1.200</small></span><b>60.000 €</b></div><div class="ln l1"><span>Navlun + sigorta<small>TR'ye kadar</small></span><b>3.000 €</b></div><div class="ln l2"><span>Satış komisyonu<small>GK 27/1-a</small></span><b>3.000 €</b></div><div class="ln l3"><span>Tasarım<small>TR dışı · bedelsiz</small></span><b>4.000 €</b></div>
+  <div class="eq"><div class="tot"><span>KIYMET</span><b class="cnt">0</b></div><div class="usd">Türk lirası · 70.000 € × 40</div></div>
+</div>
+<div class="ans"><div class="ao card aA"><span class="L">A</span><span class="v">2.800.000</span><span class="ck"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="ao card aB"><span class="L">B</span><span class="v">2.860.000</span><span class="ck"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="ao card aC"><span class="L">C</span><span class="v">2.880.000</span><span class="ck"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="ao card aD"><span class="L">D</span><span class="v">3.040.000</span><span class="ck"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="ao card aE"><span class="L">E</span><span class="v">3.180.000</span><span class="ck"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+<div class="stamp">CEVAP: A</div>
+<div class="burst"><i style="background:#FFC53D"></i><i style="background:#33D9B2"></i><i style="background:#8FB2FF"></i><i style="background:#FF4D5E"></i><i style="background:#2ED47A"></i><i style="background:#FFC53D"></i><i style="background:#33D9B2"></i><i style="background:#8FB2FF"></i><i style="background:#FF4D5E"></i><i style="background:#2ED47A"></i><i style="background:#FFC53D"></i><i style="background:#33D9B2"></i><i style="background:#8FB2FF"></i><i style="background:#FF4D5E"></i><i style="background:#2ED47A"></i><i style="background:#FFC53D"></i><i style="background:#33D9B2"></i><i style="background:#8FB2FF"></i><i style="background:#FF4D5E"></i><i style="background:#2ED47A"></i></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s08";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 16.804;
+const K = {"son": 0.69, "ln": [1.61, 3.17, 5.73, 8.13], "od": 10.01, "cnt": 12.77, "dogru": 14.49, "L": 15.49, "tv": 2800000, "td": 0};
+
+
+rise(".steps", 0.15, 0, -30);
+tl.fromTo(q(".rcp"), { y: -200, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: "expo.out" }, K.son);
+fadeTo(".rcp .ln, .rcp .eq", 0.01, 0, 0.01);
+K.ln.forEach((t, i) => rise(".rcp .l" + i, t, 0, 20));
+rise(".rcp .eq", K.od, 0, 20);
+count(".rcp .cnt", K.cnt - 0.1, 0, K.tv, 1.1, K.td);
+pulse(".rcp .tot b", K.cnt + 1.1, 1.12);
+slideX(".ans .ao", K.od + 0.3, 80, 0.08);
+fadeTo(".ans .ao:not(.aA)", K.dogru, 0.3, 0.4);
+tl.to(q(".ans .aA"), { borderColor: "#2ED47A", backgroundColor: "rgba(46,212,122,.18)", scale: 1.06, duration: 0.35, ease: "back.out(2)", transformOrigin: "0% 50%" }, K.dogru);
+tl.fromTo(q(".ans .aA .ck"), { opacity: 0, scale: 0.2 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(3)" }, K.L - 0.2);
+slam(".stamp", K.L);
+q(".burst i").forEach((p, i) => {
+  const a = (i / 20) * Math.PI * 2, r = 160 + (i % 5) * 34;
+  tl.fromTo(p, { x: 0, y: 44, opacity: 1, rotation: 0, scale: 1 }, { x: Math.cos(a) * r, y: 44 + Math.sin(a) * r, opacity: 0, rotation: 260 + i * 17, scale: 0.6, duration: 1.1, ease: "power2.out", immediateRender: false }, K.L + 0.05);
+});
+
+exitAll(16.38);
+window.__timelines["s08"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

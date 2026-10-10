@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s06 { position: absolute; inset: 0; overflow: hidden; }
+        #s06 .stage { position: absolute; inset: 0; }
+
+#s06 .steps { position:absolute; left:600px; top:128px; width:1220px; display:flex; align-items:center; gap:0; }
+#s06 .steps .stp { display:flex; align-items:center; gap:12px; font:900 22px Montserrat; letter-spacing:.06em; color:#7E8DBA; white-space:nowrap; }
+#s06 .steps .stp .dot { width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:3px solid #3A5296; font:700 22px 'JetBrains Mono'; color:#7E8DBA; }
+#s06 .steps .stp.done { color:#AEBBE3; } #s06 .steps .stp.done .dot { background:var(--teal); border-color:var(--teal); color:#03221a; }
+#s06 .steps .stp.on { color:var(--fg); } #s06 .steps .stp.on .dot { background:var(--gold); border-color:var(--gold); color:#2a1d00; box-shadow:0 0 0 8px rgba(255,197,61,.18); }
+#s06 .steps .bar { flex:1; height:4px; margin:0 16px; background:#2B4C9E; border-radius:2px; }
+
+#s06 .top { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:24px; }
+#s06 .top .kicker { font-size:26px; }
+#s06 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s06 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; transform:translateX(-50%); }
+#s06 .bub { position:absolute; padding:14px 18px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 23px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s06 .bub:after { content:""; position:absolute; left:var(--tail, 120px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s06 .bub em { font-style:normal; color:#B4231B; }
+#s06 .bub i { font-style:normal; color:#0B8A47; }
+#s06 .hayir { position:absolute; padding:8px 20px; border:6px solid var(--uyari); border-radius:14px; color:var(--uyari);
+  font-family:'Archivo Black'; font-size:44px; line-height:1; background:rgba(7,26,69,.92); transform:rotate(-8deg); white-space:nowrap; }
+
+#s06 .main { position:absolute; left:600px; top:226px; width:1220px; height:660px; padding:20px 28px; }
+#s06 .main .kicker { color:var(--teal); }
+#s06 .dk { position:absolute; left:1600px; top:172px; }
+#s06 .it { display:flex; align-items:center; gap:18px; height:72px; margin-top:12px; padding:0 18px; border-radius:16px; background:rgba(255,255,255,.05);
+  border:2px solid rgba(255,255,255,.12); }
+#s06 .it .nm { flex:1; font:800 25px Montserrat; color:var(--fg); white-space:nowrap; }
+#s06 .it .nm small { display:block; font:700 16px 'JetBrains Mono'; color:var(--muted); margin-top:2px; }
+#s06 .it .am { font:700 28px 'JetBrains Mono'; color:var(--usd); white-space:nowrap; }
+#s06 .it .vd { flex:none; width:300px; display:flex; align-items:center; justify-content:center; gap:8px; height:46px; border-radius:12px; font:900 18px Montserrat;
+  letter-spacing:.04em; color:#071A45; background:var(--c); white-space:nowrap; }
+#s06 .it.v-no .nm, #s06 .it.v-no .am { color:#8C97B8; text-decoration:line-through; text-decoration-color:var(--uyari); text-decoration-thickness:3px; }
+#s06 .it.v-gk { border-color:rgba(51,217,178,.55); } #s06 .it.v-kdv { border-color:rgba(255,197,61,.55); }
+#s06 .tot { display:flex; align-items:baseline; gap:16px; margin-top:18px; padding-top:12px; border-top:5px solid var(--fg); white-space:nowrap; }
+#s06 .tot small { font:900 22px Montserrat; letter-spacing:.04em; color:var(--teal); }
+#s06 .tot small b { color:var(--fg); }
+#s06 .tot b.cs { font-family:'Archivo Black'; font-size:54px; line-height:1; color:#DFFFF6; display:inline-block; margin-left:auto; }
+#s06 .tot em { font-style:normal; font:800 26px Montserrat; color:var(--teal); }
+
+      </style>
+      <div id="s06" data-composition-id="s06" data-width="1920" data-height="1080" data-duration="21.689">
+        <div class="stage">
+
+<div class="steps"><div class="stp done"><span class="dot"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>KIYMET</div><i class="bar"></i><div class="stp on"><span class="dot"><b>2</b></span>GİDER NEREYE?</div><i class="bar"></i><div class="stp "><span class="dot"><b>3</b></span>KDV</div><i class="bar"></i><div class="stp "><span class="dot"><b>4</b></span>SONUÇ</div></div>
+<div class="main card"><div class="kicker">ADIM 2 · HANGİ GİDER NEREYE?</div><div class="it i0 v-in"><span class="nm">CFR fiyat (navlun dahil)<small>100 t × 600 $</small></span><span class="am">60.000 $</span><span class="vd" style="--c:var(--accent2)"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>FİYATTA</span></div><div class="it i1 v-gk"><span class="nm">Sigorta<small>giriş yerine kadar</small></span><span class="am">400 $</span><span class="vd" style="--c:var(--teal)"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>GK'YA EKLE</span></div><div class="it i2 v-gk"><span class="nm">Yükleme limanı demurajı<small>varıştan önce</small></span><span class="am">1.600 $</span><span class="vd" style="--c:var(--teal)"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>GK'YA EKLE</span></div><div class="it i3 v-kdv"><span class="nm">Mersin demurajı<small>varıştan sonra</small></span><span class="am">2.000 $</span><span class="vd" style="--c:var(--gold)"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>YALNIZ KDV MATRAHI</span></div><div class="it i4 v-kdv"><span class="nm">Tahmil–tahliye<small>Mersin Limanı</small></span><span class="am">1.000 $</span><span class="vd" style="--c:var(--gold)"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>YALNIZ KDV MATRAHI</span></div>
+<div class="tot"><small>GV = <b>62.000 × %10</b></small><b class="cs">0</b><em>$</em></div></div>
+
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s06";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 21.689;
+const K = {"start": 0.45, "it": [3.25, 5.49, 6.13, 9.01, 10.25], "vd": [4.53, 8.13, 8.13, 13.81, 13.81], "tot": 16.45, "totc": 19.81, "tv": 6200, "dik": null};
+
+
+rise(".steps", 0.15, 0, -30);
+pulse(".steps .stp.on .dot", K.start, 1.25);
+tl.fromTo(q(".main"), { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.start);
+fadeTo(".it .vd", 0.01, 0, 0.01);
+K.it.forEach((t, i) => { slideX(".it.i" + i, t - 0.2, -70); pop(".it.i" + i + " .vd", K.vd[i], 0, "back.out(2.6)"); });
+if (K.tot != null) { const c = Math.min(K.totc - 0.3, D - 2.0); rise(".tot", Math.min(K.tot, c), 0, 20); count(".tot .cs", c, 0, K.tv, 0.9, 0); pulse(".tot b.cs", c + 1.0, 1.1); }
+if (K.dik != null) slam(".dk", K.dik);
+
+exitAll(21.27);
+window.__timelines["s06"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

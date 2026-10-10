@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s11 { position: absolute; inset: 0; overflow: hidden; }
+        #s11 .stage { position: absolute; inset: 0; }
+
+#s11 .top { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:24px; }
+#s11 .top .kicker { font-size:26px; }
+#s11 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s11 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; transform:translateX(-50%); }
+#s11 .bub { position:absolute; padding:14px 18px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 23px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s11 .bub:after { content:""; position:absolute; left:var(--tail, 120px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s11 .bub em { font-style:normal; color:#B4231B; }
+#s11 .bub i { font-style:normal; color:#0B8A47; }
+#s11 .hayir { position:absolute; padding:8px 20px; border:6px solid var(--uyari); border-radius:14px; color:var(--uyari);
+  font-family:'Archivo Black'; font-size:44px; line-height:1; background:rgba(7,26,69,.92); transform:rotate(-8deg); white-space:nowrap; }
+
+#s11 .top .kicker { color:#FFE27A; }
+#s11 .st { position:absolute; left:600px; top:250px; width:780px; height:330px; padding:20px 26px; }
+#s11 .st .lh { font:900 22px Montserrat; letter-spacing:.06em; color:var(--gold); display:flex; align-items:center; gap:12px; }
+#s11 .opt { display:flex; align-items:center; gap:16px; margin-top:14px; padding:12px 18px; border-radius:16px; }
+#s11 .opt .m { width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex:none; }
+#s11 .opt b { font:900 25px Montserrat; white-space:nowrap; }
+#s11 .opt small { margin-left:auto; font:700 17px 'JetBrains Mono'; letter-spacing:.06em; white-space:nowrap; }
+#s11 .opt.ok { background:rgba(46,212,122,.14); border:3px solid var(--ok); color:#DFFFEF; } #s11 .opt.ok .m { background:var(--ok); color:#03221a; } #s11 .opt.ok small { color:var(--ok); }
+#s11 .opt.no { background:rgba(255,77,94,.10); border:2px solid rgba(255,77,94,.5); color:#C9D3F2; } #s11 .opt.no .m { background:var(--uyari); color:#2a0a0e; } #s11 .opt.no small { color:#FF8A96; }
+#s11 .it { position:absolute; left:1400px; top:250px; width:420px; height:330px; padding:22px 24px; display:flex; flex-direction:column; }
+#s11 .it .lh { font:900 22px Montserrat; letter-spacing:.06em; color:var(--accent2); }
+#s11 .it .big { font-family:'Archivo Black'; font-size:40px; line-height:1.1; color:var(--fg); margin-top:14px; }
+#s11 .it .big em { font-style:normal; color:var(--teal); }
+#s11 .it p { font:700 20px/1.3 Montserrat; color:#C9D3F2; margin-top:10px; }
+#s11 .it .ref { margin-top:auto; font:700 17px 'JetBrains Mono'; color:var(--muted); }
+#s11 .fm { position:absolute; left:600px; top:604px; width:1220px; height:270px; padding:24px 30px; border-radius:24px;
+  background:linear-gradient(180deg, rgba(255,197,61,.14), rgba(255,197,61,.04)); border:4px solid var(--gold); }
+#s11 .fm .kicker { color:var(--gold); }
+#s11 .chain { display:flex; align-items:center; gap:10px; margin-top:26px; }
+#s11 .ch { flex:1; height:132px; border-radius:18px; background:rgba(255,255,255,.07); border:2px solid rgba(255,255,255,.25); display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:10px; text-align:center; padding:0 6px; min-width:0; }
+#s11 .ch .n { width:44px; height:44px; border-radius:50%; background:var(--gold); color:#2a1d00; display:flex; align-items:center; justify-content:center; }
+#s11 .ch b { font:900 21px/1.15 Montserrat; color:var(--fg); }
+#s11 .ar { color:var(--gold); flex:none; }
+
+      </style>
+      <div id="s11" data-composition-id="s11" data-width="1920" data-height="1080" data-duration="23.439">
+        <div class="stage">
+
+<div class="top"><div class="badge b-ipucu badge-big"><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-4 12.7V18h8v-2.8A7 7 0 0 0 12 2.5z" fill="currentColor"/><path d="M9 20.5h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></span><span class="bt">İPUCU</span></div><div class="kicker">KOÇUN NOTU</div></div>
+<div class="st card"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M2.5 14.5h19l-3 5.5h-13z" fill="currentColor"/><path d="M6 14.5V9h12v5.5M9.5 9V5h5v4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg> ÇİZGİ: GİRİŞ YERİ</div>
+  <div class="opt ok o0"><span class="m"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Öncesi → gümrük kıymeti</b><small>GV + KDV</small></div><div class="opt ok o1"><span class="m"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Sonrası → KDV matrahı</b><small>YALNIZ KDV</small></div><div class="opt no o2"><span class="m"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span><b>Sonrası → GV matrahı</b><small>YANLIŞ</small></div></div>
+<div class="it card"><div class="lh">GÜMRÜK VERGİSİ</div><div class="big">Yalnızca <em>kıymetten</em></div><p>Yurt içi giderler GV'yi büyütmez; yalnızca KDV matrahına girer.</p><div class="ref">GK md. 27–28 · KDV K. md. 21</div></div>
+<div class="fm"><div class="kicker">AKILDA TUT · 5 ADIMLI FORMÜL</div>
+  <div class="chain"><div class="ch c0"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><rect x="2" y="7.5" width="20" height="9" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M6 7.5v3.5M10 7.5v5M14 7.5v3.5M18 7.5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><b>Çizgiyi çiz</b></div><span class="ar"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="ch c1"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M2.5 14.5h19l-3 5.5h-13z" fill="currentColor"/><path d="M6 14.5V9h12v5.5M9.5 9V5h5v4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></span><b>Öncesini kıymete ekle</b></div><span class="ar"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="ch c2"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M19 5L5 19" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="7" cy="7" r="2.8" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="17" cy="17" r="2.8" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></span><b>GV'yi hesapla</b></div><span class="ar"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="ch c3"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>Sonrasını KDV'ye ekle</b></div><span class="ar"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="ch c4"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b>KDV'yi hesapla</b></div></div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s11";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 23.439;
+const K = {"koc": 0.58, "st": 1.61, "o": [5.97, 7.69, 11.17], "it": 10.29, "itp": 11.73, "form": 13.21, "c": [14.77, 15.97, 17.69, 19.05, 21.61]};
+
+
+tl.fromTo(q(".top .badge"), { scale: 0.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2.4)" }, K.koc);
+rise(".top .kicker", K.koc + 0.3, 0, 20);
+tl.fromTo(q(".st"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.st);
+fadeTo(".st .opt", 0.01, 0, 0.01);
+K.o.forEach((t, i) => pop(".st .o" + i, t - 0.2));
+tl.fromTo(q(".it"), { x: 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.it);
+pulse(".it .big em", K.itp + 0.3, 1.15);
+tl.fromTo(q(".fm"), { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.5)" }, K.form);
+fadeTo(".chain .ch, .chain .ar", 0.01, 0, 0.01);
+K.c.forEach((t, i) => { pop(".chain .c" + i, t - 0.1); if (i) fadeIn(".chain .ar:nth-of-type(" + i + ")", t - 0.2, 0.2); });
+
+exitAll(23.02);
+window.__timelines["s11"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

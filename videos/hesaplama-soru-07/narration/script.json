@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin yedincisine hoş geldiniz. Bugünün konusu kaynak kullanımını destekleme fonu, yani KKDF. Vadeli ithalatta karşımıza çıkar; matrahı farklı, kuru farklı. Peki KDV matrahına girer mi? Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. Z firması, Amerika'dan kabul kredili ödemeyle bir ambalaj makinesi ithal ediyor. Fatura bedeli FOB otuz bin dolar. Navlun bin beş yüz, sigorta beş yüz dolar. Gümrük vergisi yüzde beş, KKDF yüzde altı, KDV yüzde yirmi. Merkez Bankası döviz satış kuru kırk lira, döviz alış kuru otuz dokuz virgül elli lira. Soru şu: İthalatta ödenecek KDV kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, iki yüz altmış sekiz bin sekiz yüz lira. B şıkkı, iki yüz seksen üç bin yirmi lira. C şıkkı, iki yüz seksen üç bin iki yüz lira. D şıkkı, iki yüz seksen üç bin yedi yüz otuz bir lira. E şıkkı, iki yüz seksen üç bin dokuz yüz altmış sekiz lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Gümrük kıymeti, Merkez Bankası döviz satış kuruyla Türk lirasına çevrilir. İki: KKDF, fatura bedeli üzerinden hesaplanır ve döviz alış kuru kullanılır; gümrük vergisi matrahına girmez. Üç: KKDF, ithalatta ödenen bir fon olduğu için KDV matrahına eklenir."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: gümrük kıymeti ve gümrük vergisi. Otuz bin, artı bin beş yüz, artı beş yüz: otuz iki bin dolar. Satış kuruyla, çarpı kırk: bir milyon iki yüz seksen bin lira. Gümrük vergisi yüzde beş: altmış dört bin lira."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: KKDF. Matrah, fatura bedeli olan otuz bin dolar; navlun ve sigorta eklenmez. Yüzde altısı, bin sekiz yüz dolar. Türk lirasına çevirirken bu kez döviz alış kurunu kullanıyoruz: bin sekiz yüz çarpı otuz dokuz virgül elli, yetmiş bir bin yüz lira."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: KDV. KDV matrahı; bir milyon iki yüz seksen bin kıymet, artı altmış dört bin gümrük vergisi, artı yetmiş bir bin yüz KKDF: bir milyon dört yüz on beş bin yüz lira. Bunun yüzde yirmisi, iki yüz seksen üç bin yirmi lira."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: KDV matrahı bir milyon dört yüz on beş bin yüz lira; yüzde yirmisi, iki yüz seksen üç bin yirmi lira. Doğru cevap: B şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. KKDF'yi KDV matrahına hiç eklemeyen, A şıkkına, iki yüz altmış sekiz bin sekiz yüze düşer. KKDF'yi satış kuruyla çeviren, C şıkkına, iki yüz seksen üç bin iki yüze gider. KKDF'yi gümrük vergisi matrahına da katan, D şıkkına, iki yüz seksen üç bin yedi yüz otuz bire ulaşır. KKDF'yi CIF bedel üzerinden hesaplayan ise E şıkkına, iki yüz seksen üç bin dokuz yüz altmış sekize çıkar."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: KKDF her ithalatta alınmaz. Peşin ödemede değil; kabul kredili, vadeli akreditifli veya mal mukabili gibi vadeli ödeme şekillerinde gündeme gelir. Bir de: KKDF gümrük kıymetine ve gümrük vergisi matrahına girmez; yalnızca KDV matrahına eklenir."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Aynı soruda iki farklı kur görürseniz şaşırmayın. Gümrük kıymeti ve vergiler satış kuruyla, KKDF ise alış kuruyla hesaplanır. KKDF'nin matrahı da fatura bedelidir; teslim şekli CIF ise CIF, FOB ise FOB bedel. Formülü aklınızda tutun: Kıymeti satış kuruyla bul, gümrük vergisini hesapla, KKDF'yi alış kuruyla bul, hepsini KDV matrahına ekle, KDV'yi hesapla."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Kıymet bir milyon iki yüz seksen bin, gümrük vergisi altmış dört bin, KKDF yetmiş bir bin yüz lira. Hepsi KDV matrahına girdi; KDV, B şıkkı: iki yüz seksen üç bin yirmi lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

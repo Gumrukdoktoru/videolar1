@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s10 { position: absolute; inset: 0; overflow: hidden; }
+        #s10 .stage { position: absolute; inset: 0; }
+
+#s10 .top { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:24px; }
+#s10 .top .kicker { font-size:26px; }
+#s10 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s10 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; transform:translateX(-50%); }
+#s10 .bub { position:absolute; padding:14px 18px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 23px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s10 .bub:after { content:""; position:absolute; left:var(--tail, 120px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s10 .bub em { font-style:normal; color:#B4231B; }
+#s10 .bub i { font-style:normal; color:#0B8A47; }
+#s10 .hayir { position:absolute; padding:8px 20px; border:6px solid var(--uyari); border-radius:14px; color:var(--uyari);
+  font-family:'Archivo Black'; font-size:44px; line-height:1; background:rgba(7,26,69,.92); transform:rotate(-8deg); white-space:nowrap; }
+
+#s10 .top .kicker { color:#FF8A96; }
+#s10 .law { position:absolute; left:600px; top:254px; width:900px; height:330px; padding:20px 26px; }
+#s10 .law .lh { display:flex; align-items:center; gap:14px; font:900 22px Montserrat; letter-spacing:.06em; color:var(--accent2); white-space:nowrap; }
+#s10 .law .lh .no { font:700 19px 'JetBrains Mono'; color:#071A45; background:var(--accent2); padding:3px 10px; border-radius:8px; }
+#s10 .cond { display:flex; align-items:center; gap:16px; margin-top:14px; padding:12px 18px; border-radius:16px; background:rgba(46,212,122,.10); border:2px solid rgba(46,212,122,.55); }
+#s10 .cond .n { width:44px; height:44px; border-radius:50%; background:var(--ok); color:#03221a; display:flex; align-items:center; justify-content:center; flex:none; }
+#s10 .cond span { font:800 24px/1.2 Montserrat; color:var(--fg); }
+#s10 .cond span b { color:var(--gold); }
+#s10 .res { display:flex; align-items:center; gap:14px; margin-top:14px; font:900 24px Montserrat; color:var(--teal); }
+#s10 .res b { color:#03221a; background:var(--teal); padding:6px 14px; border-radius:10px; white-space:nowrap; }
+#s10 .ind { position:absolute; left:600px; top:604px; width:1220px; height:280px; padding:20px 26px; }
+#s10 .ind .lh { font:900 22px Montserrat; letter-spacing:.06em; color:var(--ok); display:flex; align-items:center; gap:12px; }
+#s10 .ind .two { display:flex; gap:20px; margin-top:16px; }
+#s10 .ind .pl { flex:1; display:flex; align-items:center; gap:16px; padding:18px 22px; border-radius:18px; min-width:0; }
+#s10 .ind .pl .k { font:900 23px/1.2 Montserrat; }
+#s10 .ind .pl .v { flex:none; font:700 27px 'JetBrains Mono'; margin-left:auto; white-space:nowrap; }
+#s10 .ind .pv { background:rgba(255,77,94,.12); border:3px solid var(--uyari); color:#FFE3E6; }
+#s10 .ind .pv .tg { flex:none; font:900 16px Montserrat; color:#2a0a0e; background:var(--uyari); padding:4px 10px; border-radius:8px; white-space:nowrap; }
+#s10 .ind .pc { background:rgba(46,212,122,.12); border:3px solid var(--ok); color:#DFFFEF; }
+#s10 .ind .pc .tg { flex:none; font:900 16px Montserrat; color:#03221a; background:var(--ok); padding:4px 10px; border-radius:8px; white-space:nowrap; }
+
+      </style>
+      <div id="s10" data-composition-id="s10" data-width="1920" data-height="1080" data-duration="19.756">
+        <div class="stage">
+
+<div class="top"><div class="badge b-uyari badge-big"><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><path d="M12 2.5L23 21.5H1z" fill="currentColor"/><path d="M12 9v6" stroke="#2a0a0e" stroke-width="2.6" stroke-linecap="round"/><circle cx="12" cy="18.2" r="1.5" fill="#2a0a0e"/></svg></span><span class="bt">UYARI</span></div><div class="kicker">KKDF HER İTHALATTA YOK</div></div>
+<div class="law card"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M5 2.5h9l5 5v14H5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 2.5v5h5M8 12h8M8 15.5h8M8 19h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> KKDF HANGİ ÖDEMEDE? <span class="no">VADELİ İTHALAT</span></div>
+  <div class="cond c0"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Kabul kredili</b> ödeme</span></div><div class="cond c1"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Vadeli akreditif</b></span></div><div class="cond c2"><span class="n"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span><b>Mal mukabili</b></span></div>
+  </div>
+<div class="ind card"><div class="lh"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg> KKDF NEREYE GİRER?</div>
+  <div class="two"><div class="pl pv p0"><span class="k">Kıymet / GV matrahı</span><span class="tg">GİRMEZ</span><span class="v">✗</span></div><div class="pl pc p1"><span class="k">KDV matrahı</span><span class="tg">EKLENİR</span><span class="v">✓</span></div></div></div>
+<img class="chr p1" src="assets/img/cano-cut.png" alt="CANO" style="height:320px; left:1623px; top:236px" /><span class="ctag p1t" style="left:1696px; top:562px">CANO</span><div class="bub p1b" style="left:1530px; top:120px; width:290px; --tail:150px">Peşin ödedik, <em>KKDF var mı?</em></div>
+<div class="hayir" style="left:1560px; top:430px">HAYIR!</div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s10";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 19.756;
+const K = {"uy": 0.77, "law": 1.89, "cond": [5.97, 7.09, 8.69], "res": null, "pan": 12.1, "pi": [16.13, 18.53], "who": 0.77, "bub": 4.61, "hayir": 5.41};
+
+
+function personIn(cls, at, bubAt) {
+  tl.fromTo(q(".chr." + cls), { x: 260, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7, ease: "back.out(1.4)" }, at);
+  rise("." + cls + "t", at + 0.45, 0, 16);
+  if (bubAt != null) tl.fromTo(q(".bub." + cls + "b"), { scale: 0.3, opacity: 0, transformOrigin: "40% 100%" }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(2.2)" }, bubAt);
+}
+
+tl.fromTo(q(".top .badge"), { scale: 2.4, opacity: 0, rotation: -8 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, K.uy);
+rise(".top .kicker", K.uy + 0.45, 0, 20);
+tl.fromTo(q(".law"), { x: -80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.law);
+K.cond.forEach((t, i) => slideX(".cond.c" + i, t - 0.3, -50));
+if (K.res != null) { fadeTo(".law .res", 0.01, 0, 0.01); pop(".law .res", K.res, 0, "back.out(2.4)"); }
+personIn("p1", K.who, K.bub);
+tl.fromTo(q(".ind"), { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.5)" }, K.pan);
+fadeTo(".ind .pl", 0.01, 0, 0.01);
+K.pi.forEach((t, i) => pop(".ind .p" + i, t - 0.2));
+if (K.hayir != null) slam(".hayir", K.hayir);
+
+exitAll(19.34);
+window.__timelines["s10"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>
