@@ -123,7 +123,7 @@ const K = {"start": 0.45, "row": [3.09, 8.01, 14.93], "cnt": [4.85, 9.01, 17.21]
 rise(".steps", 0.15, 0, -30);
 pulse(".steps .stp.on .dot", K.start, 1.25);
 tl.fromTo(q(".main"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.start);
-K.row.forEach((t, i) => { const c = Math.min(K.cnt[i] - 0.2, D - 1.9); rise(".r" + i, Math.min(t, c), 0, 20); count(".r" + i + " .c" + i, c, 0, K.vals[i], 0.7, K.decs[i]); pulse(".r" + i + " .v", c + 0.8, 1.12); });
+K.row.forEach((t, i) => { const c = Math.min(K.cnt[i] - 0.2, D - 1.9); rise(".rw.r" + i, Math.min(t, c), 0, 20); count(".rw.r" + i + " .c" + i, c, 0, K.vals[i], 0.7, K.decs[i]); pulse(".rw.r" + i + " .v", c + 0.8, 1.12); });
 if (K.sum != null) { const c = Math.min(K.sumc - 0.3, D - 1.9); rise(".sum", Math.min(K.sum, c), 0, 20); count(".sum .cs", c, 0, K.sv, 0.8, K.sd); pulse(".sum b", c + 0.9, 1.12); }
 if (K.dik != null) slam(".dk", K.dik);
 if (K.note != null) tl.fromTo(q(".mnote"), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.6)" }, K.note);

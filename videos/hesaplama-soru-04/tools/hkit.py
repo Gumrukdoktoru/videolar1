@@ -374,7 +374,7 @@ def calc(sid, active, kicker, rows, *, sum_row=None, side=None, dik=None, at_sta
         side_css = LEDGER_CSS
         side_js = r"""
 tl.fromTo(q(".ledger"), { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.start + 0.2);
-q(".ledger .ln").forEach((e, i) => { if (K.led[i] != null) write(".ledger .r" + i, K.led[i], 0.6); else tl.set(e, { clipPath: "inset(0 0% 0 0)" }, 0); });
+q(".ledger .ln").forEach((e, i) => { if (K.led[i] != null) write(".ledger .r" + i, Math.min(K.led[i], D - 1.8), 0.6); else tl.set(e, { clipPath: "inset(0 0% 0 0)" }, 0); });
 """
     elif side and side[0] == "minmax":
         d = side[1]
@@ -458,8 +458,8 @@ tl.fromTo(q(".lawc"), { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, 
 rise(".steps", 0.15, 0, -30);
 pulse(".steps .stp.on .dot", K.start, 1.25);
 tl.fromTo(q(".main"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.start);
-K.row.forEach((t, i) => { rise(".r" + i, t, 0, 20); count(".r" + i + " .c" + i, K.cnt[i] - 0.2, 0, K.vals[i], 0.7, K.decs[i]); pulse(".r" + i + " .v", K.cnt[i] + 0.6, 1.12); });
-if (K.sum != null) { rise(".sum", K.sum, 0, 20); count(".sum .cs", K.sumc - 0.3, 0, K.sv, 0.8, K.sd); pulse(".sum b", K.sumc + 0.6, 1.12); }
+K.row.forEach((t, i) => { const c = Math.min(K.cnt[i] - 0.2, D - 1.9); rise(".rw.r" + i, Math.min(t, c), 0, 20); count(".rw.r" + i + " .c" + i, c, 0, K.vals[i], 0.7, K.decs[i]); pulse(".rw.r" + i + " .v", c + 0.8, 1.12); });
+if (K.sum != null) { const c = Math.min(K.sumc - 0.3, D - 1.9); rise(".sum", Math.min(K.sum, c), 0, 20); count(".sum .cs", c, 0, K.sv, 0.8, K.sd); pulse(".sum b", c + 0.9, 1.12); }
 if (K.dik != null) slam(".dk", K.dik);
 if (K.note != null) tl.fromTo(q(".mnote"), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.6)" }, K.note);
 """ + side_js)
@@ -517,7 +517,7 @@ pulse(".steps .stp.on .dot", K.start, 1.25);
 tl.fromTo(q(".main"), { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.start);
 fadeTo(".it .vd", 0.01, 0, 0.01);
 K.it.forEach((t, i) => { slideX(".it.i" + i, t - 0.2, -70); pop(".it.i" + i + " .vd", K.vd[i], 0, "back.out(2.6)"); });
-if (K.tot != null) { rise(".tot", K.tot, 0, 20); count(".tot .cs", K.totc - 0.3, 0, K.tv, 0.9, 0); pulse(".tot b.cs", K.totc + 0.7, 1.1); }
+if (K.tot != null) { const c = Math.min(K.totc - 0.3, D - 2.0); rise(".tot", Math.min(K.tot, c), 0, 20); count(".tot .cs", c, 0, K.tv, 0.9, 0); pulse(".tot b.cs", c + 1.0, 1.1); }
 if (K.dik != null) slam(".dk", K.dik);
 """)
 
@@ -664,12 +664,12 @@ def warn(sid, kicker, law, panel, who, *, at_uy="uyarı", hayir=None):
 #S .ind .lh { font:900 22px Montserrat; letter-spacing:.06em; color:var(--ok); display:flex; align-items:center; gap:12px; }
 #S .ind .two { display:flex; gap:20px; margin-top:16px; }
 #S .ind .pl { flex:1; display:flex; align-items:center; gap:16px; padding:18px 22px; border-radius:18px; min-width:0; }
-#S .ind .pl .k { font:900 26px Montserrat; white-space:nowrap; }
-#S .ind .pl .v { font:700 30px 'JetBrains Mono'; margin-left:auto; white-space:nowrap; }
+#S .ind .pl .k { font:900 23px/1.2 Montserrat; }
+#S .ind .pl .v { flex:none; font:700 27px 'JetBrains Mono'; margin-left:auto; white-space:nowrap; }
 #S .ind .pv { background:rgba(255,77,94,.12); border:3px solid var(--uyari); color:#FFE3E6; }
-#S .ind .pv .tg { font:900 17px Montserrat; color:#2a0a0e; background:var(--uyari); padding:4px 10px; border-radius:8px; white-space:nowrap; }
+#S .ind .pv .tg { flex:none; font:900 16px Montserrat; color:#2a0a0e; background:var(--uyari); padding:4px 10px; border-radius:8px; white-space:nowrap; }
 #S .ind .pc { background:rgba(46,212,122,.12); border:3px solid var(--ok); color:#DFFFEF; }
-#S .ind .pc .tg { font:900 17px Montserrat; color:#03221a; background:var(--ok); padding:4px 10px; border-radius:8px; white-space:nowrap; }
+#S .ind .pc .tg { flex:none; font:900 16px Montserrat; color:#03221a; background:var(--ok); padding:4px 10px; border-radius:8px; white-space:nowrap; }
 """),
         body=f'''
 <div class="top">{badge("uyari", big=True)}<div class="kicker">{kicker}</div></div>

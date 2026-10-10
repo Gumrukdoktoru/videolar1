@@ -131,13 +131,13 @@ const K = {"start": 0.45, "row": [4.93, 1.57, 3.33], "cnt": [5.65, 8.81, 12.49],
 rise(".steps", 0.15, 0, -30);
 pulse(".steps .stp.on .dot", K.start, 1.25);
 tl.fromTo(q(".main"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.start);
-K.row.forEach((t, i) => { rise(".r" + i, t, 0, 20); count(".r" + i + " .c" + i, K.cnt[i] - 0.2, 0, K.vals[i], 0.7, K.decs[i]); pulse(".r" + i + " .v", K.cnt[i] + 0.6, 1.12); });
-if (K.sum != null) { rise(".sum", K.sum, 0, 20); count(".sum .cs", K.sumc - 0.3, 0, K.sv, 0.8, K.sd); pulse(".sum b", K.sumc + 0.6, 1.12); }
+K.row.forEach((t, i) => { const c = Math.min(K.cnt[i] - 0.2, D - 1.9); rise(".rw.r" + i, Math.min(t, c), 0, 20); count(".rw.r" + i + " .c" + i, c, 0, K.vals[i], 0.7, K.decs[i]); pulse(".rw.r" + i + " .v", c + 0.8, 1.12); });
+if (K.sum != null) { const c = Math.min(K.sumc - 0.3, D - 1.9); rise(".sum", Math.min(K.sum, c), 0, 20); count(".sum .cs", c, 0, K.sv, 0.8, K.sd); pulse(".sum b", c + 0.9, 1.12); }
 if (K.dik != null) slam(".dk", K.dik);
 if (K.note != null) tl.fromTo(q(".mnote"), { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.6)" }, K.note);
 
 tl.fromTo(q(".ledger"), { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "expo.out" }, K.start + 0.2);
-q(".ledger .ln").forEach((e, i) => { if (K.led[i] != null) write(".ledger .r" + i, K.led[i], 0.6); else tl.set(e, { clipPath: "inset(0 0% 0 0)" }, 0); });
+q(".ledger .ln").forEach((e, i) => { if (K.led[i] != null) write(".ledger .r" + i, Math.min(K.led[i], D - 1.8), 0.6); else tl.set(e, { clipPath: "inset(0 0% 0 0)" }, 0); });
 
 exitAll(17.74);
 window.__timelines["s05"] = tl;
