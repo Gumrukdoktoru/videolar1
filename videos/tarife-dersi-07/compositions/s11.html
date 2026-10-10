@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s11 { position: absolute; inset: 0; overflow: hidden; }
+        #s11 .stage { position: absolute; inset: 0; }
+
+#s11 .ans { position:absolute; left:600px; top:128px; width:1220px; height:96px; display:flex; align-items:center; gap:20px; padding:0 26px;
+  background:rgba(46,212,122,.12); border:3px solid var(--ok); border-radius:20px; }
+#s11 .ans .lab { font:900 24px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s11 .ans .L { flex:none; width:66px; height:66px; border-radius:50%; background:var(--ok); color:#03221a; font:900 38px Montserrat;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 8px rgba(46,212,122,.18); }
+#s11 .ans .tx { font:800 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s11 .ans .tx em { font-style:normal; color:var(--ok); }
+#s11 .ans .tx b { font:700 30px 'JetBrains Mono'; color:var(--gold); }
+#s11 .ans .ck { margin-left:auto; color:var(--ok); }
+#s11 .hdr { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:22px; }
+#s11 .hdr .h1 { font-size:46px; margin:0; white-space:nowrap; }
+#s11 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s11 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; }
+#s11 .bub { position:absolute; padding:14px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 24px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s11 .bub:after { content:""; position:absolute; left:var(--tail, 60px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s11 .bub em { font-style:normal; color:#B4231B; }
+#s11 .bub i { font-style:normal; color:#0B8A47; }
+#s11 .bub b { font-family:'JetBrains Mono'; }
+#s11 .stamp { position:absolute; display:flex; align-items:center; gap:8px; padding:6px 16px 6px 10px; border:6px solid var(--uyari); border-radius:12px;
+  color:#FF8A96; background:rgba(42,10,14,.88); font:900 30px Montserrat; letter-spacing:.06em; transform:rotate(-8deg); white-space:nowrap; }
+#s11 .stamp .ico { color:var(--uyari); }
+
+#s11 .hdr .h1 { font-size:50px; }
+#s11 .motto { position:absolute; left:1330px; top:140px; display:flex; align-items:center; gap:12px; font:900 26px Montserrat; color:var(--fg); white-space:nowrap; }
+#s11 .motto s { color:#FF8A96; text-decoration-color:var(--uyari); text-decoration-thickness:4px; }
+#s11 .motto em { font-style:normal; color:var(--teal); }
+#s11 svg.mm { position:absolute; left:0; top:0; width:1920px; height:1080px; overflow:visible; }
+#s11 .core { position:absolute; left:1080px; top:420px; width:260px; height:260px; border-radius:50%; display:flex; flex-direction:column; align-items:center;
+  justify-content:center; text-align:center; background:radial-gradient(circle at 40% 35%, #3F6BFF, #16307A); border:5px solid #8FB2FF;
+  box-shadow:0 0 0 14px rgba(63,107,255,.18), 0 26px 60px rgba(0,0,0,.45); }
+#s11 .core b { font-family:'Archivo Black'; font-weight:400; font-size:30px; line-height:1.1; color:#fff; }
+#s11 .core small { font:700 17px 'JetBrains Mono'; color:#CFE0FF; margin-top:8px; letter-spacing:.1em; }
+#s11 .nd { position:absolute; width:420px; padding:18px 22px; border-radius:20px; background:rgba(13,36,92,.95); border:3px solid var(--teal); }
+#s11 .nd .hd { display:flex; align-items:center; gap:12px; font:900 20px Montserrat; letter-spacing:.08em; color:var(--teal); white-space:nowrap; }
+#s11 .nd .hd .num { width:40px; height:40px; border-radius:50%; background:var(--teal); color:#03221a; display:flex; align-items:center; justify-content:center; font:900 22px Montserrat; }
+#s11 .nd ul { list-style:none; margin-top:10px; }
+#s11 .nd li { font:700 21px/1.3 Montserrat; color:var(--fg); margin-top:4px; }
+#s11 .nd li:before { content:"▸ "; color:var(--teal); }
+#s11 .nd.n0 { left:600px; top:250px; }
+#s11 .nd.n1 { left:1400px; top:250px; border-color:var(--gold); } #s11 .nd.n1 .hd { color:var(--gold); } #s11 .nd.n1 .hd .num { background:var(--gold); color:#2a1d00; } #s11 .nd.n1 li:before { color:var(--gold); }
+#s11 .nd.n2 { left:1000px; top:724px; border-color:var(--dikkat); } #s11 .nd.n2 .hd { color:var(--dikkat); } #s11 .nd.n2 .hd .num { background:var(--dikkat); color:#2b1300; } #s11 .nd.n2 li:before { color:var(--dikkat); }
+
+      </style>
+      <div id="s11" data-composition-id="s11" data-width="1920" data-height="1080" data-duration="21.428">
+        <div class="stage">
+
+<div class="hdr"><div class="badge b-ipucu "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-4 12.7V18h8v-2.8A7 7 0 0 0 12 2.5z" fill="currentColor"/><path d="M9 20.5h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></span><span class="bt">İPUCU</span></div><div class="h1">Koçun notu</div></div>
+<div class="motto"><s>ezber</s><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><em>mantık</em></div>
+<svg class="mm" aria-hidden="true"><g fill="none" stroke-width="5" stroke-linecap="round">
+  <path class="l0" d="M1100 500 C1040 470 1030 430 1020 410" stroke="#33D9B2"/>
+  <path class="l1" d="M1320 500 C1380 470 1390 430 1400 410" stroke="#FFC53D"/>
+  <path class="l2" d="M1210 680 C1210 700 1210 708 1210 722" stroke="#FF9F43"/></g></svg>
+<div class="core"><b>TARİFE<br/>MANTIĞI</b><small>3 KURAL</small></div>
+<div class="nd n0"><div class="hd"><span class="num">1</span><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M12 21.5V7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M12 7.5C9.6 7.1 8.2 5.4 8.2 3c2.4.4 3.8 2.1 3.8 4.5zM12 7.5c2.4-.4 3.8-2.1 3.8-4.5-2.4.4-3.8 2.1-3.8 4.5zM12 12.5c-2.4-.4-3.8-2.1-3.8-4.5 2.4.4 3.8 2.1 3.8 4.5zM12 12.5c2.4-.4 3.8-2.1 3.8-4.5-2.4.4-3.8 2.1-3.8 4.5zM12 17.5c-2.4-.4-3.8-2.1-3.8-4.5 2.4.4 3.8 2.1 3.8 4.5zM12 17.5c2.4-.4 3.8-2.1 3.8-4.5-2.4.4-3.8 2.1-3.8 4.5z" fill="currentColor"/></svg>HUBUBAT ≠ YEM</div><ul><li>hububat → Fasıl 10</li><li>fiğ, yonca → 12.14</li></ul></div><div class="nd n1"><div class="hd"><span class="num">2</span><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="5" y="8" width="10" height="8" rx="1" fill="currentColor" opacity=".4"/><path d="M18.5 8.5v.01M18.5 12v.01M18.5 15.5v.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>EV ALETLERİ</div><ul><li>mikrodalga → 85.16</li><li>çamaşır kurutma → 84.51</li></ul></div><div class="nd n2"><div class="hd"><span class="num">3</span><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8.5 2.5h7M10 2.5v14a2 2 0 0 0 4 0v-14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M10 11.5h4v5a2 2 0 0 1-4 0z" fill="currentColor"/><path d="M5 21.5h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>ERİTİLMİŞ KUVARS</div><ul><li>her yerde cam</li><li>lab. eşyası → 70.17</li></ul></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s11";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 21.428;
+const K = {"koc": 0.64, "motto": 2.37, "br": [3.21, 9.17, 17.09]};
+
+
+slam(".hdr .badge", K.koc - 0.1);
+rise(".hdr .h1", K.koc + 0.2, 0, 30);
+rise(".motto", K.motto - 0.2, 0, 16);
+pulse(".motto em", K.motto + 0.4, 1.2);
+pop(".core", K.koc + 0.6, 0, "back.out(1.8)");
+breathe(".core", K.koc + 1.2, D - 0.5, 0.03, 2.4);
+K.br.forEach((t, i) => {
+  draw(".mm .l" + i, t - 0.2, 0.5);
+  tl.fromTo(q(".nd.n" + i), { scale: 0.5, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.8)" }, t + 0.1);
+  rise(".nd.n" + i + " li", t + 0.5, 0.35, 12);
+});
+
+exitAll(21.01);
+window.__timelines["s11"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

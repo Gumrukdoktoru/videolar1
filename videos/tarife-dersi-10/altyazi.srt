@@ -1,0 +1,631 @@
+1
+00:00:01,680 --> 00:00:04,800
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,800 --> 00:00:06,480
+onuncusuna hoş geldiniz.
+
+3
+00:00:06,480 --> 00:00:07,973
+Bugün yine 3 soru var:
+
+4
+00:00:07,973 --> 00:00:09,360
+hava yastıklı taşıtlar,
+
+5
+00:00:09,360 --> 00:00:12,600
+kıymetli metalden eşya ve yolcu biniş köprüleri.
+
+6
+00:00:12,600 --> 00:00:13,600
+Ekip hazır:
+
+7
+00:00:13,600 --> 00:00:16,853
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+8
+00:00:16,853 --> 00:00:19,012
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:19,762 --> 00:00:20,962
+Birinci soru.
+
+10
+00:00:20,962 --> 00:00:23,442
+Hava yastığı üzerinde hareket eden taşıtların
+
+11
+00:00:23,442 --> 00:00:26,482
+sınıflandırılmasıyla ilgili aşağıdaki ifadelerden
+
+12
+00:00:26,482 --> 00:00:27,692
+hangisi doğrudur?
+
+13
+00:00:27,922 --> 00:00:28,882
+A şıkkı:
+
+14
+00:00:28,882 --> 00:00:30,962
+Hava yastıklı taşıtların tamamı,
+
+15
+00:00:30,962 --> 00:00:35,212
+hava taşıtlarıyla birlikte 88. fasılda sınıflandırılır.
+
+16
+00:00:35,282 --> 00:00:36,242
+B şıkkı:
+
+17
+00:00:36,242 --> 00:00:39,015
+Kılavuz bir hat üzerinde gitmek üzere tasarlanmış
+
+18
+00:00:39,015 --> 00:00:42,452
+hava trenleri 86. fasılda sınıflandırılır.
+
+19
+00:00:42,482 --> 00:00:43,522
+C şıkkı:
+
+20
+00:00:43,522 --> 00:00:46,802
+Hem karada hem suda gidebilen hava yastıklı taşıtlar
+
+21
+00:00:46,802 --> 00:00:49,412
+89. fasılda sınıflandırılır.
+
+22
+00:00:49,442 --> 00:00:50,482
+D şıkkı:
+
+23
+00:00:50,482 --> 00:00:52,162
+Yalnız su üzerinde giden,
+
+24
+00:00:52,162 --> 00:00:55,682
+kıyıya çıkabilen hava yastıklı taşıtlar 87. fasılda
+
+25
+00:00:55,682 --> 00:00:57,012
+sınıflandırılır.
+
+26
+00:00:57,042 --> 00:00:58,002
+E şıkkı:
+
+27
+00:00:58,002 --> 00:00:59,442
+Hava yastıklı taşıtlar,
+
+28
+00:00:59,442 --> 00:01:02,962
+benzedikleri taşıta bakılmaksızın 84. fasılda
+
+29
+00:01:02,962 --> 00:01:05,292
+makine olarak sınıflandırılır.
+
+30
+00:01:05,602 --> 00:01:07,503
+3 saniye, düşünün!
+
+31
+00:01:11,853 --> 00:01:12,653
+Cevap:
+
+32
+00:01:12,653 --> 00:01:13,543
+B şıkkı.
+
+33
+00:01:13,693 --> 00:01:16,733
+On yedinci bölümün beşinci notuna göre hava yastıklı
+
+34
+00:01:16,733 --> 00:01:19,533
+taşıtlar, en çok benzedikleri taşıtlarla birlikte
+
+35
+00:01:19,533 --> 00:01:20,653
+sınıflandırılır.
+
+36
+00:01:20,653 --> 00:01:22,453
+Kılavuz hat üzerinde gidenler,
+
+37
+00:01:22,453 --> 00:01:26,813
+yani hava trenleri, demiryolu taşıtları gibi 86. fasıldadır.
+
+38
+00:01:26,813 --> 00:01:31,143
+Karada ya da hem karada hem suda gidenler 87. fasılda,
+
+39
+00:01:31,213 --> 00:01:34,013
+su üzerinde gidenler ise kıyıya çıkabilseler de
+
+40
+00:01:34,013 --> 00:01:35,813
+89. fasıldadır.
+
+41
+00:01:35,813 --> 00:01:39,114
+Hiçbiri 84. fasılda makine sayılmaz.
+
+42
+00:01:39,944 --> 00:01:41,434
+Tuzak nerede?
+
+43
+00:01:41,464 --> 00:01:44,744
+Cano, kıyıya da çıkabiliyor diye su üstünde giden
+
+44
+00:01:44,744 --> 00:01:47,944
+hava yastıklı tekneyi kara taşıtı saydı ve D şıkkını
+
+45
+00:01:47,944 --> 00:01:48,824
+seçti.
+
+46
+00:01:48,824 --> 00:01:49,517
+Hayır!
+
+47
+00:01:49,517 --> 00:01:52,264
+Yalnız su üzerinde gitmek üzere tasarlanan taşıt,
+
+48
+00:01:52,264 --> 00:01:55,197
+kıyıya çıkabilse de 89. fasıldadır.
+
+49
+00:01:55,197 --> 00:01:58,144
+Seksen yedinci fasıl, karada ya da hem karada
+
+50
+00:01:58,144 --> 00:01:59,584
+hem suda gidenler içindir.
+
+51
+00:01:59,584 --> 00:02:00,584
+Bir de dikkat:
+
+52
+00:02:00,584 --> 00:02:03,144
+Hava treni hatlarının sabit malzemesi ve sinyal
+
+53
+00:02:03,144 --> 00:02:06,744
+cihazları, demiryolundaki karşılıkları gibi sınıflandırılır.
+
+54
+00:02:06,744 --> 00:02:07,624
+Kısa yol:
+
+55
+00:02:07,624 --> 00:02:09,841
+Taşıt en çok neye benziyor?
+
+56
+00:02:10,591 --> 00:02:11,791
+İkinci soru.
+
+57
+00:02:11,791 --> 00:02:14,751
+Gümüşten yapılmış, cepte taşınan türden sigara
+
+58
+00:02:14,751 --> 00:02:18,111
+tabakası hangi tarife pozisyonunda sınıflandırılır?
+
+59
+00:02:18,111 --> 00:02:18,991
+A şıkkı:
+
+60
+00:02:18,991 --> 00:02:20,591
+71.13.
+
+61
+00:02:20,591 --> 00:02:21,471
+B şıkkı:
+
+62
+00:02:21,471 --> 00:02:23,151
+71.14.
+
+63
+00:02:23,151 --> 00:02:24,031
+C şıkkı:
+
+64
+00:02:24,031 --> 00:02:25,711
+71.17.
+
+65
+00:02:25,711 --> 00:02:26,591
+D şıkkı:
+
+66
+00:02:26,591 --> 00:02:28,191
+42.02.
+
+67
+00:02:28,191 --> 00:02:28,991
+E şıkkı:
+
+68
+00:02:28,991 --> 00:02:30,521
+96.14.
+
+69
+00:02:31,351 --> 00:02:33,202
+3 saniye, düşünün!
+
+70
+00:02:37,552 --> 00:02:38,432
+Cevap:
+
+71
+00:02:38,432 --> 00:02:39,322
+A şıkkı.
+
+72
+00:02:39,472 --> 00:02:41,712
+Yetmiş birinci faslın dokuzuncu notu,
+
+73
+00:02:41,712 --> 00:02:43,872
+mücevherci eşyasını tanımlar:
+
+74
+00:02:43,872 --> 00:02:47,392
+Yüzük, kolye gibi küçük süs eşyası ile cepte,
+
+75
+00:02:47,392 --> 00:02:50,672
+el çantasında veya üstte taşınan kişisel eşya.
+
+76
+00:02:50,672 --> 00:02:53,712
+Sigara tabakası, pudralık ve tespih bu ikinci
+
+77
+00:02:53,712 --> 00:02:54,552
+gruptadır.
+
+78
+00:02:54,552 --> 00:02:57,872
+Gümüşten yapıldığı için de 71.13 pozisyonunda,
+
+79
+00:02:57,872 --> 00:03:00,432
+mücevherci eşyası olarak sınıflandırılır.
+
+80
+00:03:00,432 --> 00:03:03,592
+Masada duran gümüş sigara kutusu ise kuyumcu eşyası
+
+81
+00:03:03,592 --> 00:03:05,831
+olarak 71.14'e gider.
+
+82
+00:03:06,661 --> 00:03:08,071
+Tuzak nerede?
+
+83
+00:03:08,101 --> 00:03:11,301
+Stajyerimiz, sigara içenlere ait gereçler kuyumcu
+
+84
+00:03:11,301 --> 00:03:13,701
+eşyasıdır diye B şıkkını seçti.
+
+85
+00:03:13,701 --> 00:03:14,501
+Hayır!
+
+86
+00:03:14,501 --> 00:03:16,101
+Fasıl notlarındaki ayrım,
+
+87
+00:03:16,101 --> 00:03:18,101
+eşyanın nerede kullanıldığıdır:
+
+88
+00:03:18,101 --> 00:03:21,381
+Cepte taşınan sigara tabakası mücevherci eşyası,
+
+89
+00:03:21,381 --> 00:03:24,101
+masada duran sigara kutusu ve kül tablası ise
+
+90
+00:03:24,101 --> 00:03:25,488
+kuyumcu eşyasıdır.
+
+91
+00:03:25,488 --> 00:03:26,621
+Bir de dikkat:
+
+92
+00:03:26,621 --> 00:03:28,554
+Adi metalden sigara tabakası,
+
+93
+00:03:28,554 --> 00:03:30,874
+taklit mücevherci eşyası sayılmaz;
+
+94
+00:03:30,874 --> 00:03:34,381
+taklit mücevher yalnız küçük süs eşyasını kapsar.
+
+95
+00:03:34,381 --> 00:03:36,181
+Gümrükçü Baba'nın kısa yolu:
+
+96
+00:03:36,181 --> 00:03:37,838
+Cepte mi, masada mı?
+
+97
+00:03:38,588 --> 00:03:39,838
+Üçüncü soru.
+
+98
+00:03:39,868 --> 00:03:42,708
+Bir yolcu limanında, kruvaziyer gemilere biniş
+
+99
+00:03:42,708 --> 00:03:45,548
+için kullanılan, teleskopik hareketli bir tünelden
+
+100
+00:03:45,548 --> 00:03:48,828
+oluşan yolcu biniş köprüsü hangi tarife pozisyonunda
+
+101
+00:03:48,828 --> 00:03:50,158
+sınıflandırılır?
+
+102
+00:03:50,188 --> 00:03:51,068
+A şıkkı:
+
+103
+00:03:51,068 --> 00:03:52,798
+84.26.
+
+104
+00:03:52,828 --> 00:03:53,708
+B şıkkı:
+
+105
+00:03:53,708 --> 00:03:55,438
+73.08.
+
+106
+00:03:55,468 --> 00:03:56,348
+C şıkkı:
+
+107
+00:03:56,348 --> 00:03:58,268
+84.28.
+
+108
+00:03:58,268 --> 00:03:59,148
+D şıkkı:
+
+109
+00:03:59,148 --> 00:04:01,068
+84.79.
+
+110
+00:04:01,068 --> 00:04:01,868
+E şıkkı:
+
+111
+00:04:01,868 --> 00:04:03,398
+89.07.
+
+112
+00:04:04,268 --> 00:04:06,005
+3 saniye, düşünün!
+
+113
+00:04:10,355 --> 00:04:11,235
+Cevap:
+
+114
+00:04:11,235 --> 00:04:12,125
+D şıkkı.
+
+115
+00:04:12,275 --> 00:04:15,235
+Yolcu biniş köprüsü, yolcuyu bir tünel içinden
+
+116
+00:04:15,235 --> 00:04:16,995
+gemiye ya da uçağa ulaştıran,
+
+117
+00:04:16,995 --> 00:04:18,445
+hareketli bir makinedir.
+
+118
+00:04:18,595 --> 00:04:21,555
+Kendine özgü bir işlevi vardır ve başka bir pozisyonda
+
+119
+00:04:21,555 --> 00:04:22,715
+belirtilmemiştir;
+
+120
+00:04:22,715 --> 00:04:25,315
+bu yüzden 84.79'da yer alır.
+
+121
+00:04:25,315 --> 00:04:28,035
+Armonize Sistem bunlara ayrı alt pozisyonlar da
+
+122
+00:04:28,035 --> 00:04:28,755
+açar:
+
+123
+00:04:28,755 --> 00:04:32,445
+Havalimanında kullanılanlar 8479.71'de,
+
+124
+00:04:32,515 --> 00:04:37,511
+limanda kullanılanlar gibi diğerleri ise 8479.79'dadır.
+
+125
+00:04:38,341 --> 00:04:39,781
+Tuzak nerede?
+
+126
+00:04:39,781 --> 00:04:43,141
+Yardımcımız, adı köprü diye B şıkkını,
+
+127
+00:04:43,141 --> 00:04:45,061
+73.08'i seçti.
+
+128
+00:04:45,061 --> 00:04:45,941
+Hayır!
+
+129
+00:04:45,941 --> 00:04:49,541
+73.08, sabit çelik köprüler gibi inşaat aksamı
+
+130
+00:04:49,541 --> 00:04:50,341
+içindir;
+
+131
+00:04:50,341 --> 00:04:53,141
+hareketli, makine niteliğindeki biniş köprüsü
+
+132
+00:04:53,141 --> 00:04:55,061
+84.79'dadır.
+
+133
+00:04:55,061 --> 00:04:56,101
+Bir de dikkat:
+
+134
+00:04:56,101 --> 00:05:00,191
+Yürüyen merdivenler ve yürüyen yollar ise 84.28'dedir.
+
+135
+00:05:00,581 --> 00:05:02,341
+Gümrükçü Baba'nın kısa yolu:
+
+136
+00:05:02,341 --> 00:05:04,477
+Adına değil, işlevine bakın.
+
+137
+00:05:05,307 --> 00:05:06,277
+Koçun notu:
+
+138
+00:05:06,427 --> 00:05:07,987
+Bugünün 3 kuralı.
+
+139
+00:05:07,987 --> 00:05:08,720
+Bir:
+
+140
+00:05:08,720 --> 00:05:11,387
+Hava yastıklı taşıt, en çok benzediği taşıtla
+
+141
+00:05:11,387 --> 00:05:12,467
+sınıflandırılır;
+
+142
+00:05:12,467 --> 00:05:15,107
+hava treni 86. fasıldadır.
+
+143
+00:05:15,107 --> 00:05:15,814
+İki:
+
+144
+00:05:15,814 --> 00:05:19,427
+Kıymetli metalden kişisel eşya cepteyse mücevherci,
+
+145
+00:05:19,427 --> 00:05:21,587
+masadaysa kuyumcu eşyasıdır.
+
+146
+00:05:21,587 --> 00:05:22,347
+Üç:
+
+147
+00:05:22,347 --> 00:05:24,147
+Adına değil, işlevine bakın;
+
+148
+00:05:24,147 --> 00:05:26,558
+yolcu biniş köprüsü bir makinedir.
+
+149
+00:05:27,308 --> 00:05:29,068
+Bugünün cevap anahtarı:
+
+150
+00:05:29,068 --> 00:05:31,948
+Birinci soru B, ikinci soru A,
+
+151
+00:05:31,948 --> 00:05:33,308
+üçüncü soru D.
+
+152
+00:05:33,308 --> 00:05:34,748
+Kaç tanesini bildiniz?
+
+153
+00:05:34,748 --> 00:05:35,948
+Yorumlara yazın.
+
+154
+00:05:35,948 --> 00:05:39,188
+Böylece tarife derslerinin onuncusunu da tamamladık.
+
+155
+00:05:39,188 --> 00:05:42,268
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+156
+00:05:42,268 --> 00:05:42,988
+unutmayın.
+
+157
+00:05:42,988 --> 00:05:44,788
+Bir sonraki derste görüşmek üzere.
+
+158
+00:05:44,788 --> 00:05:45,765
+Hoşça kalın!

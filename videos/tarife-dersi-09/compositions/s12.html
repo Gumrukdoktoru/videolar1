@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s12 { position: absolute; inset: 0; overflow: hidden; }
+        #s12 .stage { position: absolute; inset: 0; }
+
+#s12 .ans { position:absolute; left:600px; top:128px; width:1220px; height:96px; display:flex; align-items:center; gap:20px; padding:0 26px;
+  background:rgba(46,212,122,.12); border:3px solid var(--ok); border-radius:20px; }
+#s12 .ans .lab { font:900 24px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s12 .ans .L { flex:none; width:66px; height:66px; border-radius:50%; background:var(--ok); color:#03221a; font:900 38px Montserrat;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 8px rgba(46,212,122,.18); }
+#s12 .ans .tx { font:800 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s12 .ans .tx em { font-style:normal; color:var(--ok); }
+#s12 .ans .tx b { font:700 30px 'JetBrains Mono'; color:var(--gold); }
+#s12 .ans .ck { margin-left:auto; color:var(--ok); }
+#s12 .hdr { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:22px; }
+#s12 .hdr .h1 { font-size:46px; margin:0; white-space:nowrap; }
+#s12 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s12 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; }
+#s12 .bub { position:absolute; padding:14px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 24px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s12 .bub:after { content:""; position:absolute; left:var(--tail, 60px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s12 .bub em { font-style:normal; color:#B4231B; }
+#s12 .bub i { font-style:normal; color:#0B8A47; }
+#s12 .bub b { font-family:'JetBrains Mono'; }
+#s12 .stamp { position:absolute; display:flex; align-items:center; gap:8px; padding:6px 16px 6px 10px; border:6px solid var(--uyari); border-radius:12px;
+  color:#FF8A96; background:rgba(42,10,14,.88); font:900 30px Montserrat; letter-spacing:.06em; transform:rotate(-8deg); white-space:nowrap; }
+#s12 .stamp .ico { color:var(--uyari); }
+
+#s12 .hdr .h1 { font-size:54px; }
+#s12 .keys { position:absolute; left:600px; top:236px; width:1220px; display:flex; gap:22px; }
+#s12 .kc { flex:1; height:280px; padding:22px 24px; border-radius:22px; background:rgba(13,36,92,.95); border:3px solid var(--ok); position:relative; }
+#s12 .kc .qn { font:700 20px 'JetBrains Mono'; letter-spacing:.14em; color:var(--accent2); }
+#s12 .kc .L { width:96px; height:96px; border-radius:50%; background:var(--ok); color:#03221a; display:flex; align-items:center; justify-content:center;
+  font-family:'Archivo Black'; font-size:56px; line-height:1; margin-top:14px; box-shadow:0 0 0 10px rgba(46,212,122,.18); }
+#s12 .kc b { display:block; font:900 26px Montserrat; color:var(--fg); margin-top:20px; white-space:nowrap; }
+#s12 .kc small { display:block; font:400 19px 'JetBrains Mono'; color:var(--muted); margin-top:6px; white-space:nowrap; }
+#s12 .score { position:absolute; left:600px; top:546px; width:560px; height:110px; display:flex; align-items:center; gap:18px; padding:0 24px; }
+#s12 .score .tx { font:900 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s12 .score .tx em { font-style:normal; color:var(--gold); }
+#s12 .score .bx { display:flex; gap:10px; margin-left:auto; }
+#s12 .score .bx i { width:34px; height:34px; border-radius:8px; border:3px solid var(--gold); }
+#s12 .cta { position:absolute; left:600px; top:684px; display:flex; gap:16px; }
+#s12 .cta .chip { font-size:22px; padding:8px 18px; gap:10px; }
+#s12 .nxt { position:absolute; left:600px; top:784px; font:800 26px Montserrat; color:var(--muted); white-space:nowrap; }
+#s12 .nxt b { color:var(--teal); }
+#s12 .crew { position:absolute; left:1470px; top:590px; width:350px; height:296px; }
+#s12 .crew .chr { bottom:0; }
+#s12 .crew .c0 { left:0; } #s12 .crew .c1 { left:72px; } #s12 .crew .c2 { left:152px; } #s12 .crew .c3 { left:228px; }
+
+      </style>
+      <div id="s12" data-composition-id="s12" data-width="1920" data-height="1080" data-duration="20.299">
+        <div class="stage">
+
+<div class="hdr"><div class="badge b-onemli "><span class="bi"><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></svg></span><span class="bt">ÖNEMLİ</span></div><div class="h1">Cevap anahtarı</div></div>
+<div class="keys"><div class="kc k0"><div class="qn">SORU 1</div><div class="L">A</div><b>Ambulans – İtfaiye</b><small>87.03 ≠ 87.05</small></div><div class="kc k1"><div class="qn">SORU 2</div><div class="L">D</div><b>Kurşunlu baston</b><small>Fasıl 93 · silah</small></div><div class="kc k2"><div class="qn">SORU 3</div><div class="L">C</div><b>Kauçuk motor contası</b><small>40.16</small></div></div>
+<div class="score card"><svg class="ico " viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg><div class="tx">Kaç tanesini <em>bildin?</em></div><div class="bx"><i></i><i></i><i></i></div></div>
+<div class="cta"><span class="chip c1"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="2.2"/></svg> Yorumlara yaz</span><span class="chip c2"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" fill="currentColor"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="2.2"/></svg> Abone ol</span><span class="chip c3"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><circle cx="18" cy="5" r="2.8" fill="currentColor"/><circle cx="6" cy="12" r="2.8" fill="currentColor"/><circle cx="18" cy="19" r="2.8" fill="currentColor"/><path d="M8.5 10.7l7-4.2M8.5 13.3l7 4.2" stroke="currentColor" stroke-width="2.2"/></svg> Paylaş</span></div>
+<div class="nxt">Sıradaki: <b>Tarife Dersi #10</b> · yeni 3 soru</div>
+<div class="crew"><img class="chr c0" src="assets/img/stajyer-cut.png" alt="STAJYER" style="height:262px" /><img class="chr c1" src="assets/img/yardimci-cut.png" alt="YARDIMCI" style="height:280px" /><img class="chr c2" src="assets/img/baba-crop.png" alt="GÜMRÜKÇÜ BABA" style="height:290px" /><img class="chr c3" src="assets/img/cano-cut.png" alt="CANO" style="height:272px" /></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s12";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 20.299;
+const K = {"bug": 0.45, "qs": [3.09, 4.45, 5.81], "kac": 6.53, "yor": 7.89, "abone": 10.45, "pay": 11.49, "sonraki": 13.09, "hosca": 16.53};
+
+
+slam(".hdr .badge", K.bug - 0.1);
+rise(".hdr .h1", K.bug + 0.2, 0, 30);
+tl.fromTo(q(".kc"), { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out", stagger: 0.12 }, K.bug + 0.3);
+K.qs.forEach((t, i) => {
+  tl.fromTo(q(".kc.k" + i + " .L"), { scale: 0, opacity: 0, rotation: -90 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.5, ease: "back.out(2.2)" }, t);
+});
+rise(".score", K.kac - 0.1, 0, 30);
+pop(".score .bx i", K.kac + 0.4, 0.15, "back.out(2.6)");
+pop(".cta .c1", K.yor, 0, "back.out(2.2)");
+pop(".cta .c2", K.abone, 0, "back.out(2.2)");
+pop(".cta .c3", K.pay, 0, "back.out(2.2)");
+rise(".nxt", K.sonraki - 0.2, 0, 16);
+tl.fromTo(q(".crew .chr"), { y: 160, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.5)", stagger: 0.12 }, K.kac);
+
+
+window.__timelines["s12"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

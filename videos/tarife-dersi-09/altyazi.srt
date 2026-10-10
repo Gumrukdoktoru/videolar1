@@ -1,0 +1,591 @@
+1
+00:00:01,680 --> 00:00:04,880
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,880 --> 00:00:06,720
+dokuzuncusuna hoş geldiniz.
+
+3
+00:00:06,720 --> 00:00:08,200
+Bugün yine 3 soru var:
+
+4
+00:00:08,200 --> 00:00:11,440
+özel amaçlı taşıtlar, silahlı bastonlar ve kauçuk
+
+5
+00:00:11,440 --> 00:00:12,280
+contalar.
+
+6
+00:00:12,280 --> 00:00:13,280
+Ekip hazır:
+
+7
+00:00:13,280 --> 00:00:16,600
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+8
+00:00:16,600 --> 00:00:18,777
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:19,527 --> 00:00:20,727
+Birinci soru.
+
+10
+00:00:20,727 --> 00:00:23,367
+Aşağıdaki taşıt çiftlerinden hangisinde,
+
+11
+00:00:23,367 --> 00:00:27,017
+iki taşıt farklı tarife pozisyonlarında sınıflandırılır?
+
+12
+00:00:27,047 --> 00:00:28,007
+A şıkkı:
+
+13
+00:00:28,007 --> 00:00:30,167
+Ambulans ve itfaiye aracı.
+
+14
+00:00:30,167 --> 00:00:31,057
+B şıkkı:
+
+15
+00:00:31,127 --> 00:00:33,057
+Cenaze arabası ve taksi.
+
+16
+00:00:33,287 --> 00:00:34,327
+C şıkkı:
+
+17
+00:00:34,327 --> 00:00:36,727
+Golf arabası ve motorlu karavan.
+
+18
+00:00:36,727 --> 00:00:37,687
+D şıkkı:
+
+19
+00:00:37,687 --> 00:00:40,727
+Beton mikser kamyonu ve vinçli kurtarıcı.
+
+20
+00:00:40,727 --> 00:00:41,617
+E şıkkı:
+
+21
+00:00:41,687 --> 00:00:44,284
+Hapishane minibüsü ve binek otomobili.
+
+22
+00:00:44,647 --> 00:00:46,526
+3 saniye, düşünün!
+
+23
+00:00:50,876 --> 00:00:51,676
+Cevap:
+
+24
+00:00:51,676 --> 00:00:52,566
+A şıkkı.
+
+25
+00:00:52,636 --> 00:00:54,516
+Ambulans hastaları taşır;
+
+26
+00:00:54,516 --> 00:00:58,196
+insan taşımaya mahsus taşıt olarak 87.03'tedir.
+
+27
+00:00:58,196 --> 00:01:01,116
+İtfaiye aracı ise insan ya da eşya taşımak için
+
+28
+00:01:01,116 --> 00:01:04,116
+değil, yangın söndürme hizmeti için donatılmıştır;
+
+29
+00:01:04,116 --> 00:01:07,596
+özel amaçlı taşıt olarak 87.05'e gider.
+
+30
+00:01:07,596 --> 00:01:10,756
+Diğer çiftlerde iki taşıt da aynı pozisyondadır:
+
+31
+00:01:10,756 --> 00:01:13,836
+Cenaze arabası, taksi, golf arabası,
+
+32
+00:01:13,836 --> 00:01:16,956
+motorlu karavan, hapishane minibüsü ve binek otomobili
+
+33
+00:01:16,956 --> 00:01:18,516
+87.03'te;
+
+34
+00:01:18,516 --> 00:01:22,006
+beton mikser ve kurtarıcı ise 87.05'te.
+
+35
+00:01:22,885 --> 00:01:24,375
+Tuzak nerede?
+
+36
+00:01:24,405 --> 00:01:27,925
+Cano, golf arabası spor malzemesidir diye C şıkkını
+
+37
+00:01:27,925 --> 00:01:28,645
+seçti.
+
+38
+00:01:28,645 --> 00:01:29,365
+Hayır!
+
+39
+00:01:29,365 --> 00:01:31,205
+Golf arabası insan taşır;
+
+40
+00:01:31,205 --> 00:01:34,285
+87.03'ün açıklama notunda adıyla sayılır,
+
+41
+00:01:34,285 --> 00:01:35,952
+tıpkı motorlu karavan gibi.
+
+42
+00:01:35,952 --> 00:01:37,005
+Bir de dikkat:
+
+43
+00:01:37,005 --> 00:01:39,765
+Ambulans ile cenaze arabasını özel amaçlı sanıp
+
+44
+00:01:39,765 --> 00:01:43,165
+87.05'e götürmek de sık yapılan bir hatadır.
+
+45
+00:01:43,165 --> 00:01:44,005
+Kısa yol:
+
+46
+00:01:44,005 --> 00:01:45,565
+Taşıt insan mı taşıyor,
+
+47
+00:01:45,565 --> 00:01:47,323
+yoksa hizmet mi veriyor?
+
+48
+00:01:48,073 --> 00:01:49,123
+İkinci soru.
+
+49
+00:01:49,273 --> 00:01:51,913
+İçine kurşun doldurularak ağırlaştırılmış,
+
+50
+00:01:51,913 --> 00:01:54,873
+savunma amacıyla da kullanılabilen yürüyüş bastonu,
+
+51
+00:01:54,873 --> 00:01:58,153
+tarife cetvelinin hangi faslında sınıflandırılır?
+
+52
+00:01:58,153 --> 00:01:59,043
+A şıkkı:
+
+53
+00:01:59,113 --> 00:02:00,713
+Altmış altıncı fasıl.
+
+54
+00:02:00,713 --> 00:02:01,593
+B şıkkı:
+
+55
+00:02:01,593 --> 00:02:03,273
+Doksan beşinci fasıl.
+
+56
+00:02:03,273 --> 00:02:04,073
+C şıkkı:
+
+57
+00:02:04,073 --> 00:02:05,593
+Doksanıncı fasıl.
+
+58
+00:02:05,593 --> 00:02:06,473
+D şıkkı:
+
+59
+00:02:06,473 --> 00:02:08,073
+Doksan üçüncü fasıl.
+
+60
+00:02:08,073 --> 00:02:08,953
+E şıkkı:
+
+61
+00:02:08,953 --> 00:02:10,403
+Kırk dördüncü fasıl.
+
+62
+00:02:11,262 --> 00:02:13,165
+3 saniye, düşünün!
+
+63
+00:02:17,515 --> 00:02:18,315
+Cevap:
+
+64
+00:02:18,315 --> 00:02:19,205
+D şıkkı.
+
+65
+00:02:19,355 --> 00:02:21,595
+Altmış altıncı faslın birinci notu,
+
+66
+00:02:21,595 --> 00:02:24,915
+tüfekli, kılıçlı ve kurşunlu bastonları açıkça
+
+67
+00:02:24,915 --> 00:02:28,235
+fasıl dışında bırakır ve 93. fasla gönderir.
+
+68
+00:02:28,235 --> 00:02:31,115
+Bu baston, içindeki kurşun ağırlık sayesinde bir
+
+69
+00:02:31,115 --> 00:02:32,555
+silah niteliği taşır.
+
+70
+00:02:32,555 --> 00:02:35,275
+Bu yüzden şemsiye ve baston faslında değil,
+
+71
+00:02:35,275 --> 00:02:37,035
+silahlar faslında yer alır.
+
+72
+00:02:37,035 --> 00:02:39,475
+Diğer şıklar başka eşyanın yeridir:
+
+73
+00:02:39,475 --> 00:02:42,235
+Ölçü gösteren bastonlar 90. fasılda,
+
+74
+00:02:42,235 --> 00:02:45,835
+spor sopaları 95'te, ahşap baston taslakları ise
+
+75
+00:02:45,835 --> 00:02:47,571
+44. fasıldadır.
+
+76
+00:02:48,401 --> 00:02:49,531
+Tuzak nerede?
+
+77
+00:02:49,761 --> 00:02:52,961
+Stajyerimiz, baston bastondur diye A şıkkını,
+
+78
+00:02:52,961 --> 00:02:54,721
+66. faslı seçti.
+
+79
+00:02:54,721 --> 00:02:55,601
+Hayır!
+
+80
+00:02:55,601 --> 00:02:58,481
+Fasıl notu, silah niteliği taşıyan bastonları
+
+81
+00:02:58,481 --> 00:03:00,028
+açıkça dışarıda bırakır.
+
+82
+00:03:00,028 --> 00:03:01,001
+Bir de dikkat:
+
+83
+00:03:01,001 --> 00:03:03,641
+Üzerinde ölçü işaretleri bulunan bastonlar da
+
+84
+00:03:03,641 --> 00:03:05,321
+66. fasla girmez;
+
+85
+00:03:05,321 --> 00:03:07,481
+90.17 pozisyonuna gider.
+
+86
+00:03:07,481 --> 00:03:09,201
+Gümrükçü Baba'nın kısa yolu:
+
+87
+00:03:09,201 --> 00:03:10,641
+Bastonun içinde ne var,
+
+88
+00:03:10,641 --> 00:03:11,480
+ona bakın.
+
+89
+00:03:12,230 --> 00:03:13,430
+Üçüncü soru.
+
+90
+00:03:13,430 --> 00:03:15,270
+Bir otomobil motoruna ait,
+
+91
+00:03:15,270 --> 00:03:18,070
+sertleştirilmemiş vulkanize kauçuktan yapılmış
+
+92
+00:03:18,070 --> 00:03:20,990
+subap kapağı contası hangi tarife pozisyonunda
+
+93
+00:03:20,990 --> 00:03:22,000
+sınıflandırılır?
+
+94
+00:03:22,230 --> 00:03:23,120
+A şıkkı:
+
+95
+00:03:23,190 --> 00:03:25,110
+84.09.
+
+96
+00:03:25,110 --> 00:03:25,990
+B şıkkı:
+
+97
+00:03:25,990 --> 00:03:27,910
+87.08.
+
+98
+00:03:27,910 --> 00:03:28,790
+C şıkkı:
+
+99
+00:03:28,790 --> 00:03:30,150
+40.16.
+
+100
+00:03:30,150 --> 00:03:31,030
+D şıkkı:
+
+101
+00:03:31,030 --> 00:03:32,790
+84.84.
+
+102
+00:03:32,790 --> 00:03:33,670
+E şıkkı:
+
+103
+00:03:33,670 --> 00:03:34,720
+40.17.
+
+104
+00:03:35,150 --> 00:03:37,087
+3 saniye, düşünün!
+
+105
+00:03:41,437 --> 00:03:42,237
+Cevap:
+
+106
+00:03:42,237 --> 00:03:43,277
+C şıkkı.
+
+107
+00:03:43,277 --> 00:03:45,397
+On altıncı bölümün birinci notu,
+
+108
+00:03:45,397 --> 00:03:48,477
+sertleştirilmemiş vulkanize kauçuktan teknik eşyayı
+
+109
+00:03:48,477 --> 00:03:51,477
+bölüm dışında bırakır ve 40.16'ya gönderir.
+
+110
+00:03:51,477 --> 00:03:55,517
+Bu yüzden conta, motora ait olsa da 84.09'a,
+
+111
+00:03:55,517 --> 00:03:57,557
+yani motor aksamına girmez.
+
+112
+00:03:57,557 --> 00:04:01,557
+Taşıt aksamı pozisyonu 87.08 de bu eşyayı almaz.
+
+113
+00:04:01,557 --> 00:04:04,317
+Sertleştirilmiş kauçuk olmadığı için 40.17'ye
+
+114
+00:04:04,317 --> 00:04:05,197
+de gitmez.
+
+115
+00:04:05,197 --> 00:04:08,237
+Doğru yer, kauçuk eşyanın artık pozisyonu olan
+
+116
+00:04:08,237 --> 00:04:09,481
+40.16'dır.
+
+117
+00:04:10,311 --> 00:04:11,801
+Tuzak nerede?
+
+118
+00:04:11,831 --> 00:04:14,951
+Yardımcımız, motordan söküldüğü için A şıkkını,
+
+119
+00:04:14,951 --> 00:04:16,591
+motor aksamını seçti.
+
+120
+00:04:16,591 --> 00:04:17,231
+Hayır!
+
+121
+00:04:17,231 --> 00:04:20,551
+Aksam pozisyonu, kendi pozisyonu olan eşyayı almaz;
+
+122
+00:04:20,551 --> 00:04:22,551
+kauçuk conta 40.16'dadır.
+
+123
+00:04:22,551 --> 00:04:23,591
+Bir de dikkat:
+
+124
+00:04:23,591 --> 00:04:26,191
+Farklı malzemelerden contalar bir poşette takım
+
+125
+00:04:26,191 --> 00:04:29,698
+hâlinde gelirse, 84.84 pozisyonuna gider.
+
+126
+00:04:29,698 --> 00:04:30,511
+Kısa yol:
+
+127
+00:04:30,511 --> 00:04:32,071
+Önce malzemenin notuna,
+
+128
+00:04:32,071 --> 00:04:33,469
+sonra makineye bakın.
+
+129
+00:04:34,299 --> 00:04:35,419
+Koçun notu:
+
+130
+00:04:35,419 --> 00:04:36,899
+Bugünün 3 kuralı.
+
+131
+00:04:36,899 --> 00:04:37,659
+Bir:
+
+132
+00:04:37,659 --> 00:04:40,379
+Taşıt insan taşıyorsa 87.03,
+
+133
+00:04:40,379 --> 00:04:43,179
+hizmet veriyorsa 87.05.
+
+134
+00:04:43,179 --> 00:04:43,939
+İki:
+
+135
+00:04:43,939 --> 00:04:46,059
+Silahlı ya da ölçü gösteren baston,
+
+136
+00:04:46,059 --> 00:04:47,819
+baston faslına girmez.
+
+137
+00:04:47,819 --> 00:04:48,339
+Üç:
+
+138
+00:04:48,339 --> 00:04:52,337
+Kauçuktan conta, motor parçası olsa da 40.16'dadır.
+
+139
+00:04:53,087 --> 00:04:54,927
+Bugünün cevap anahtarı:
+
+140
+00:04:54,927 --> 00:04:57,727
+Birinci soru A, ikinci soru D,
+
+141
+00:04:57,727 --> 00:04:59,017
+üçüncü soru C.
+
+142
+00:04:59,167 --> 00:05:00,527
+Kaç tanesini bildiniz?
+
+143
+00:05:00,527 --> 00:05:01,647
+Yorumlara yazın.
+
+144
+00:05:01,647 --> 00:05:04,767
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+145
+00:05:04,767 --> 00:05:05,567
+unutmayın.
+
+146
+00:05:05,567 --> 00:05:07,167
+Bir sonraki tarife dersinde,
+
+147
+00:05:07,167 --> 00:05:09,167
+yeni 3 soruyla görüşmek üzere.
+
+148
+00:05:09,167 --> 00:05:10,186
+Hoşça kalın!

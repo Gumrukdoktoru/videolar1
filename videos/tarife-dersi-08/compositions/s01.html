@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s01 { position: absolute; inset: 0; overflow: hidden; }
+        #s01 .stage { position: absolute; inset: 0; }
+
+#s01 .ans { position:absolute; left:600px; top:128px; width:1220px; height:96px; display:flex; align-items:center; gap:20px; padding:0 26px;
+  background:rgba(46,212,122,.12); border:3px solid var(--ok); border-radius:20px; }
+#s01 .ans .lab { font:900 24px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s01 .ans .L { flex:none; width:66px; height:66px; border-radius:50%; background:var(--ok); color:#03221a; font:900 38px Montserrat;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 8px rgba(46,212,122,.18); }
+#s01 .ans .tx { font:800 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s01 .ans .tx em { font-style:normal; color:var(--ok); }
+#s01 .ans .tx b { font:700 30px 'JetBrains Mono'; color:var(--gold); }
+#s01 .ans .ck { margin-left:auto; color:var(--ok); }
+#s01 .hdr { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:22px; }
+#s01 .hdr .h1 { font-size:46px; margin:0; white-space:nowrap; }
+#s01 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s01 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; }
+#s01 .bub { position:absolute; padding:14px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 24px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s01 .bub:after { content:""; position:absolute; left:var(--tail, 60px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s01 .bub em { font-style:normal; color:#B4231B; }
+#s01 .bub i { font-style:normal; color:#0B8A47; }
+#s01 .bub b { font-family:'JetBrains Mono'; }
+#s01 .stamp { position:absolute; display:flex; align-items:center; gap:8px; padding:6px 16px 6px 10px; border:6px solid var(--uyari); border-radius:12px;
+  color:#FF8A96; background:rgba(42,10,14,.88); font:900 30px Montserrat; letter-spacing:.06em; transform:rotate(-8deg); white-space:nowrap; }
+#s01 .stamp .ico { color:var(--uyari); }
+
+#s01 .sting { position:absolute; left:1000px; top:420px; width:640px; height:150px; display:flex; align-items:center; justify-content:center;
+  background:#F4F7FF; border-radius:26px; box-shadow:0 30px 80px rgba(0,0,0,.45); }
+#s01 .sting img { width:520px; }
+#s01 .ttl { position:absolute; left:640px; top:140px; width:1180px; }
+#s01 .ttl .t1 { display:flex; align-items:baseline; gap:24px; margin-top:12px; white-space:nowrap; }
+#s01 .ttl .t1 b { font-family:'Archivo Black'; font-size:84px; line-height:1; color:var(--fg); font-weight:400; }
+#s01 .ttl .t1 span { font-family:'Archivo Black'; font-size:84px; line-height:1; color:var(--gold); text-shadow:0 10px 40px rgba(255,197,61,.35); }
+#s01 .ttl .t2 { margin-top:12px; font:800 30px Montserrat; color:var(--muted); white-space:nowrap; }
+#s01 .ttl .t2 em { font-style:normal; color:var(--teal); }
+#s01 .topics { position:absolute; left:640px; top:352px; width:1180px; display:flex; gap:20px; }
+#s01 .tc { flex:1; height:112px; display:flex; align-items:center; gap:18px; padding:0 22px; }
+#s01 .tc .ico { color:var(--gold); }
+#s01 .tc b { display:block; font:900 24px Montserrat; color:var(--fg); white-space:nowrap; }
+#s01 .tc small { display:block; font:400 19px 'JetBrains Mono'; color:var(--accent2); margin-top:4px; white-space:nowrap; }
+#s01 .team { position:absolute; left:640px; top:498px; width:1180px; height:390px; display:flex; gap:20px; }
+#s01 .slot { position:relative; flex:1; height:390px; }
+#s01 .slot .ped { position:absolute; left:0; right:0; bottom:0; height:150px; border-radius:22px; background:linear-gradient(rgba(63,107,255,.22), rgba(13,36,92,.9));
+  border:2px solid rgba(143,178,255,.4); }
+#s01 .slot .chr { position:absolute; left:50%; bottom:46px; transform:translateX(-50%); }
+#s01 .slot .ctag { left:50%; bottom:10px; transform:translateX(-50%); }
+#s01 .ready { position:absolute; left:1480px; top:150px; }
+
+      </style>
+      <div id="s01" data-composition-id="s01" data-width="1920" data-height="1080" data-duration="19.469">
+        <div class="stage">
+
+<div class="sting"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
+<div class="ttl">
+  <div class="kicker">GÜMRÜK KOÇU · TARİFE DERSLERİ</div>
+  <div class="t1"><b>TARİFE DERSİ</b><span>#8</span></div>
+  <div class="t2">Tuz, cetvel notları, bağlayıcı kaynaklar · <em>3 soru</em> · adım adım çözüm</div>
+</div>
+<div class="topics"><div class="tc card c0"><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M8 8h8l1.5 13.5h-11z" fill="currentColor"/><path d="M8.5 8V5.5a3.5 3.5 0 0 1 7 0V8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 4.5h.01M13.5 4.5h.01M12 6.2h.01" stroke="#071A45" stroke-width="1.6" stroke-linecap="round"/></svg><div><b>Tuz, deniz suyu</b><small>25.01’in kapsamı</small></div></div><div class="tc card c1"><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M5 2.5h9l5 5v14H5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 2.5v5h5M8 12h8M8 15.5h8M8 19h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><div><b>Cetvel notları</b><small>hangisi AS’de yok?</small></div></div><div class="tc card c2"><svg class="ico " viewBox="0 0 24 24" width="46" height="46" aria-hidden="true"><path d="M14.2 2.4l7.4 7.4-3.2 3.2-7.4-7.4z" fill="currentColor"/><path d="M13.2 10.8L3.6 20.4" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M12.5 21.5h9" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>Bağlayıcılık</b><small>AB BTB bağlar mı?</small></div></div></div>
+<div class="team"><div class="slot s0"><div class="ped"></div><img class="chr" src="assets/img/stajyer-cut.png" alt="STAJYER" style="height:300px" /><span class="ctag">STAJYER</span></div><div class="slot s1"><div class="ped"></div><img class="chr" src="assets/img/yardimci-cut.png" alt="YARDIMCI" style="height:330px" /><span class="ctag">YARDIMCI</span></div><div class="slot s2"><div class="ped"></div><img class="chr" src="assets/img/baba-crop.png" alt="GÜMRÜKÇÜ BABA" style="height:330px" /><span class="ctag">GÜMRÜKÇÜ BABA</span></div><div class="slot s3"><div class="ped"></div><img class="chr" src="assets/img/cano-cut.png" alt="CANO" style="height:318px" /><span class="ctag">CANO</span></div></div>
+<div class="ready chip"><svg class="ico " viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M4 20l1.2-4.8L16 4.4a2 2 0 0 1 2.8 0l.8.8a2 2 0 0 1 0 2.8L8.8 18.8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 6.5l3.5 3.5" stroke="currentColor" stroke-width="2.2"/></svg> Kâğıt + kalem hazır</div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s01";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 19.469;
+const K = {"hello": 1.68, "ilk": 4.8, "bugun": 6.64, "tp": [8.2, 10.56, 11.28], "ekip": 12.68, "team": [13.68, 14.4, 15.28, 16.32], "kagit": 17.01};
+
+
+tl.fromTo(q(".sting"), { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.6, ease: "back.out(1.8)" }, 0.15);
+tl.to(q(".sting"), { scale: 0.85, opacity: 0, y: -40, duration: 0.45, ease: "power2.in" }, K.hello - 0.35);
+rise(".ttl .kicker", K.hello, 0, 20);
+tl.fromTo(q(".ttl .t1 b"), { y: 70, opacity: 0, skewY: 4 }, { y: 0, opacity: 1, skewY: 0, duration: 0.7, ease: "expo.out" }, K.hello + 0.2);
+tl.fromTo(q(".ttl .t1 span"), { scale: 2.4, opacity: 0, transformOrigin: "0% 60%" }, { scale: 1, opacity: 1, duration: 0.5, ease: "expo.in" }, K.ilk - 0.2);
+rise(".ttl .t2", K.bugun, 0, 20);
+K.tp.forEach((t, i) => {
+  tl.fromTo(q(".tc.c" + i), { y: 60, opacity: 0, rotation: i % 2 ? 2 : -2 }, { y: 0, opacity: 1, rotation: 0, duration: 0.55, ease: "back.out(1.8)" }, t);
+});
+rise(".slot .ped", K.ekip - 0.2, 0.08, 40);
+K.team.forEach((t, i) => {
+  tl.fromTo(q(".slot.s" + i + " .chr"), { y: 120, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.6)" }, t - 0.15);
+  pop(".slot.s" + i + " .ctag", t + 0.15, 0, "back.out(2.4)");
+});
+tl.fromTo(q(".ready"), { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.55, ease: "back.out(2)" }, K.kagit);
+pulse(".ttl .t1 span", K.kagit + 0.6, 1.12);
+
+exitAll(19.05);
+window.__timelines["s01"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

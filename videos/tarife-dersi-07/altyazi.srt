@@ -1,0 +1,567 @@
+1
+00:00:01,808 --> 00:00:04,800
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,800 --> 00:00:06,560
+yedincisine hoş geldiniz.
+
+3
+00:00:06,560 --> 00:00:08,080
+Bugün yine 3 soru var:
+
+4
+00:00:08,080 --> 00:00:11,520
+yem bitkileri, ev aletleri ve eritilmiş kuvars.
+
+5
+00:00:11,520 --> 00:00:12,480
+Ekip hazır:
+
+6
+00:00:12,480 --> 00:00:15,800
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+7
+00:00:15,800 --> 00:00:18,046
+Kâğıt kalem hazırsa, başlayalım.
+
+8
+00:00:18,796 --> 00:00:19,766
+Birinci soru.
+
+9
+00:00:19,996 --> 00:00:23,876
+Aşağıdakilerden hangisi tarife cetvelinin 12. faslında
+
+10
+00:00:23,876 --> 00:00:25,116
+sınıflandırılır?
+
+11
+00:00:25,116 --> 00:00:26,006
+A şıkkı:
+
+12
+00:00:26,076 --> 00:00:28,966
+Kuş yemi olarak kullanılan kanarya otu tohumu.
+
+13
+00:00:29,116 --> 00:00:29,996
+B şıkkı:
+
+14
+00:00:29,996 --> 00:00:31,116
+Karabuğday.
+
+15
+00:00:31,116 --> 00:00:31,996
+C şıkkı:
+
+16
+00:00:31,996 --> 00:00:32,876
+Yulaf.
+
+17
+00:00:32,876 --> 00:00:33,756
+D şıkkı:
+
+18
+00:00:33,756 --> 00:00:37,036
+Hayvan yemi olarak kullanılan kurutulmuş fiğ otu.
+
+19
+00:00:37,036 --> 00:00:37,916
+E şıkkı:
+
+20
+00:00:37,916 --> 00:00:38,993
+Tane sorgum.
+
+21
+00:00:39,676 --> 00:00:41,564
+3 saniye, düşünün!
+
+22
+00:00:45,914 --> 00:00:46,794
+Cevap:
+
+23
+00:00:46,794 --> 00:00:47,834
+D şıkkı.
+
+24
+00:00:47,834 --> 00:00:51,154
+Fiğ, hayvan yemi olarak yetiştirilen bir yem bitkisidir;
+
+25
+00:00:51,154 --> 00:00:52,714
+tane olarak yenmez.
+
+26
+00:00:52,714 --> 00:00:55,154
+12.14 pozisyonu, yonca,
+
+27
+00:00:55,154 --> 00:00:58,314
+korunga, fiğ ve benzeri kaba yem ürünlerini adıyla
+
+28
+00:00:58,314 --> 00:00:59,034
+sayar;
+
+29
+00:00:59,034 --> 00:01:01,434
+kurutulmuş olması da sonucu değiştirmez.
+
+30
+00:01:01,434 --> 00:01:04,834
+Diğer dört ürün hububattır ve 10. fasılda kalır:
+
+31
+00:01:04,834 --> 00:01:08,114
+Kanarya otu tohumu ve karabuğday 10.08,
+
+32
+00:01:08,114 --> 00:01:12,835
+yulaf 10.04, tane sorgum ise 10.07 pozisyonundadır.
+
+33
+00:01:13,665 --> 00:01:14,995
+Tuzak nerede?
+
+34
+00:01:15,025 --> 00:01:18,465
+Cano, kuş yemi de bir tohumdur diye A şıkkını,
+
+35
+00:01:18,465 --> 00:01:20,385
+kanarya otu tohumunu seçti.
+
+36
+00:01:20,385 --> 00:01:21,105
+Hayır!
+
+37
+00:01:21,105 --> 00:01:22,945
+Kanarya otu bir hububattır;
+
+38
+00:01:22,945 --> 00:01:25,825
+kuşlara yem olarak verilse de 10. fasılda,
+
+39
+00:01:25,825 --> 00:01:27,985
+10.08 pozisyonunda kalır.
+
+40
+00:01:27,985 --> 00:01:29,025
+Bir de dikkat:
+
+41
+00:01:29,025 --> 00:01:31,185
+Fiğin tohumu da 12. fasıldadır;
+
+42
+00:01:31,185 --> 00:01:34,985
+fasıl notu onu ekime mahsus tohum sayar ve 12.09'a
+
+43
+00:01:34,985 --> 00:01:35,825
+gönderir.
+
+44
+00:01:35,825 --> 00:01:36,625
+Kısa yol:
+
+45
+00:01:36,625 --> 00:01:37,905
+Önce bitkiyi tanıyın;
+
+46
+00:01:37,905 --> 00:01:40,036
+hububat mı, yem bitkisi mi?
+
+47
+00:01:40,786 --> 00:01:41,986
+İkinci soru.
+
+48
+00:01:41,986 --> 00:01:44,346
+Aşağıdaki ev aletlerinden hangisi,
+
+49
+00:01:44,346 --> 00:01:47,346
+diğerlerinden farklı bir fasılda sınıflandırılır?
+
+50
+00:01:47,346 --> 00:01:48,236
+A şıkkı:
+
+51
+00:01:48,306 --> 00:01:50,626
+Ev tipi bulaşık yıkama makinesi.
+
+52
+00:01:50,626 --> 00:01:51,586
+B şıkkı:
+
+53
+00:01:51,586 --> 00:01:53,506
+Ev tipi mikrodalga fırın.
+
+54
+00:01:53,506 --> 00:01:54,466
+C şıkkı:
+
+55
+00:01:54,466 --> 00:01:56,786
+Ev tipi çamaşır kurutma makinesi.
+
+56
+00:01:56,786 --> 00:01:57,746
+D şıkkı:
+
+57
+00:01:57,746 --> 00:01:59,586
+Duvar tipi split klima.
+
+58
+00:01:59,586 --> 00:02:00,466
+E şıkkı:
+
+59
+00:02:00,466 --> 00:02:01,863
+Ev tipi buzdolabı.
+
+60
+00:02:02,426 --> 00:02:04,236
+3 saniye, düşünün!
+
+61
+00:02:08,635 --> 00:02:09,515
+Cevap:
+
+62
+00:02:09,515 --> 00:02:10,555
+B şıkkı.
+
+63
+00:02:10,555 --> 00:02:14,155
+Mikrodalga fırın, yiyeceği elektrikle ısıtan elektrotermik
+
+64
+00:02:14,155 --> 00:02:15,475
+bir ev cihazıdır;
+
+65
+00:02:15,475 --> 00:02:19,395
+85. fasılda, 85.16 pozisyonunda yer alır.
+
+66
+00:02:19,395 --> 00:02:21,795
+Diğerleri 84. fasıldadır:
+
+67
+00:02:21,795 --> 00:02:25,808
+Klima 84.15, buzdolabı 84.18,
+
+68
+00:02:25,808 --> 00:02:28,195
+bulaşık makinesi 84.22,
+
+69
+00:02:28,195 --> 00:02:32,291
+çamaşır kurutma makinesi ise 84.51 pozisyonundadır.
+
+70
+00:02:33,121 --> 00:02:34,531
+Tuzak nerede?
+
+71
+00:02:34,561 --> 00:02:38,481
+Stajyerimiz, saç kurutma makinesi 85.16'da diye
+
+72
+00:02:38,481 --> 00:02:41,121
+çamaşır kurutma makinesini de oraya koydu ve C
+
+73
+00:02:41,121 --> 00:02:42,241
+şıkkını seçti.
+
+74
+00:02:42,241 --> 00:02:43,041
+Hayır!
+
+75
+00:02:43,041 --> 00:02:44,481
+Çamaşır kurutma makinesi,
+
+76
+00:02:44,481 --> 00:02:47,361
+dokumaya elverişli eşyayı kurutan bir makinedir;
+
+77
+00:02:47,361 --> 00:02:48,961
+84.51'dedir.
+
+78
+00:02:48,961 --> 00:02:50,001
+Bir de dikkat:
+
+79
+00:02:50,001 --> 00:02:52,321
+Demir ya da çelikten, gazla çalışan,
+
+80
+00:02:52,321 --> 00:02:56,691
+elektriksiz ev tipi fırın ve ocaklar ise 73.21'dedir.
+
+81
+00:02:56,721 --> 00:02:58,481
+Gümrükçü Baba'nın kısa yolu:
+
+82
+00:02:58,481 --> 00:02:59,841
+Ne kuruttuğuna bakın;
+
+83
+00:02:59,841 --> 00:03:01,582
+saç mı, çamaşır mı?
+
+84
+00:03:02,332 --> 00:03:03,582
+Üçüncü soru.
+
+85
+00:03:03,612 --> 00:03:05,612
+Laboratuvarda kullanılmak üzere,
+
+86
+00:03:05,612 --> 00:03:08,292
+eritilmiş kuvarstan yapılmış deney tüpü tarife
+
+87
+00:03:08,292 --> 00:03:11,222
+cetvelinin hangi faslında sınıflandırılır?
+
+88
+00:03:11,292 --> 00:03:12,252
+A şıkkı:
+
+89
+00:03:12,252 --> 00:03:13,772
+Yirmi beşinci fasıl.
+
+90
+00:03:13,772 --> 00:03:14,705
+B şıkkı:
+
+91
+00:03:14,705 --> 00:03:16,252
+Yirmi sekizinci fasıl.
+
+92
+00:03:16,252 --> 00:03:17,132
+C şıkkı:
+
+93
+00:03:17,132 --> 00:03:18,812
+Altmış dokuzuncu fasıl.
+
+94
+00:03:18,812 --> 00:03:19,692
+D şıkkı:
+
+95
+00:03:19,692 --> 00:03:21,292
+Yetmiş birinci fasıl.
+
+96
+00:03:21,292 --> 00:03:22,172
+E şıkkı:
+
+97
+00:03:22,172 --> 00:03:23,382
+Yetmişinci fasıl.
+
+98
+00:03:23,772 --> 00:03:25,570
+3 saniye, düşünün!
+
+99
+00:03:29,920 --> 00:03:30,800
+Cevap:
+
+100
+00:03:30,800 --> 00:03:31,840
+E şıkkı.
+
+101
+00:03:31,840 --> 00:03:34,800
+Yetmişinci faslın beşinci notuna göre eritilmiş
+
+102
+00:03:34,800 --> 00:03:37,000
+kuvars ve diğer eritilmiş silis,
+
+103
+00:03:37,000 --> 00:03:40,080
+tarifenin neresinde geçerse geçsin cam sayılır.
+
+104
+00:03:40,080 --> 00:03:42,280
+Eşya bir laboratuvar deney tüpüdür;
+
+105
+00:03:42,280 --> 00:03:44,840
+yani laboratuvarda kullanılan cam eşya.
+
+106
+00:03:44,840 --> 00:03:46,760
+Bu nedenle 70. fasılda,
+
+107
+00:03:46,760 --> 00:03:48,920
+70.17 pozisyonunda yer alır.
+
+108
+00:03:48,920 --> 00:03:51,120
+Diğer fasıllar bu eşyayı almaz:
+
+109
+00:03:51,120 --> 00:03:54,880
+Doğal kuvars 25'te, silisyum dioksit 28'de,
+
+110
+00:03:54,880 --> 00:03:59,401
+seramik eşya 69'da, yarı kıymetli taşlar ise 71'dedir.
+
+111
+00:04:00,231 --> 00:04:01,671
+Tuzak nerede?
+
+112
+00:04:01,671 --> 00:04:05,191
+Yardımcımız, kuvars bir mineraldir diye A şıkkını,
+
+113
+00:04:05,191 --> 00:04:07,031
+25. faslı seçti.
+
+114
+00:04:07,031 --> 00:04:07,631
+Hayır!
+
+115
+00:04:07,631 --> 00:04:10,791
+Kuvars eritildiği anda tarifenin gözünde camdır;
+
+116
+00:04:10,791 --> 00:04:13,471
+fasıl notu bunu tarifenin her yeri için söyler.
+
+117
+00:04:13,471 --> 00:04:14,364
+Bir de dikkat:
+
+118
+00:04:14,364 --> 00:04:16,951
+Eritilmiş kuvarstan, henüz işlenmemiş borular
+
+119
+00:04:16,951 --> 00:04:20,044
+da 70. fasıldadır, bu kez 70.02'de.
+
+120
+00:04:20,044 --> 00:04:20,764
+Kısa yol:
+
+121
+00:04:20,764 --> 00:04:23,389
+Kuvars eritildiyse, cam faslına bakın.
+
+122
+00:04:24,326 --> 00:04:25,339
+Koçun notu:
+
+123
+00:04:25,339 --> 00:04:26,899
+Bugünün 3 kuralı.
+
+124
+00:04:26,899 --> 00:04:27,659
+Bir:
+
+125
+00:04:27,659 --> 00:04:29,459
+Hububat 10. fasılda;
+
+126
+00:04:29,459 --> 00:04:32,859
+fiğ, yonca gibi yem bitkileri 12. fasılda.
+
+127
+00:04:32,859 --> 00:04:33,579
+İki:
+
+128
+00:04:33,579 --> 00:04:35,552
+Ev aletinde ne yaptığına bakın;
+
+129
+00:04:35,552 --> 00:04:37,779
+mikrodalga fırın 85.16,
+
+130
+00:04:37,779 --> 00:04:40,779
+çamaşır kurutma makinesi 84.51.
+
+131
+00:04:40,779 --> 00:04:41,419
+Üç:
+
+132
+00:04:41,419 --> 00:04:44,817
+Eritilmiş kuvars, tarifenin her yerinde camdır.
+
+133
+00:04:45,567 --> 00:04:47,247
+Bugünün cevap anahtarı:
+
+134
+00:04:47,247 --> 00:04:50,047
+Birinci soru D, ikinci soru B,
+
+135
+00:04:50,047 --> 00:04:51,487
+üçüncü soru E.
+
+136
+00:04:51,487 --> 00:04:52,847
+Kaç tanesini bildiniz?
+
+137
+00:04:52,847 --> 00:04:53,967
+Yorumlara yazın.
+
+138
+00:04:53,967 --> 00:04:57,007
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+139
+00:04:57,007 --> 00:04:57,807
+unutmayın.
+
+140
+00:04:57,807 --> 00:04:59,487
+Bir sonraki tarife dersinde,
+
+141
+00:04:59,487 --> 00:05:01,407
+yeni 3 soruyla görüşmek üzere.
+
+142
+00:05:01,407 --> 00:05:02,405
+Hoşça kalın!

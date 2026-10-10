@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #chrome { position:absolute; inset:0; pointer-events:none; }
+
+      </style>
+      <div id="chrome" data-composition-id="chrome" data-width="1920" data-height="1080" data-duration="300.66">
+
+<div id="sweep"></div>
+<div id="topbar"><div class="logo"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
+  <div class="meta">DERS · <b>TARİFE #8</b> · TUZ, NOTLAR, BAĞLAYICILIK</div></div>
+<div id="chap-01" class="chap clip" data-start="0.0" data-duration="19.469" data-track-index="1"><div class="cp"><b>01/6</b>GİRİŞ</div></div>
+<div id="chap-02" class="chap clip" data-start="19.469" data-duration="71.698" data-track-index="1"><div class="cp"><b>02/6</b>SORU 1 · 25.01 KAPSAMI</div></div>
+<div id="chap-03" class="chap clip" data-start="91.167" data-duration="78.567" data-track-index="1"><div class="cp"><b>03/6</b>SORU 2 · CETVEL NOTLARI</div></div>
+<div id="chap-04" class="chap clip" data-start="169.734" data-duration="88.73" data-track-index="1"><div class="cp"><b>04/6</b>SORU 3 · BAĞLAYICI KAYNAKLAR</div></div>
+<div id="chap-05" class="chap clip" data-start="258.464" data-duration="22.159" data-track-index="1"><div class="cp"><b>05/6</b>KOÇUN NOTU</div></div>
+<div id="chap-06" class="chap clip" data-start="280.623" data-duration="20.038" data-track-index="1"><div class="cp"><b>06/6</b>CEVAP ANAHTARI</div></div>
+<div id="progress"><div class="fill"></div><i class="tick" style="left:124.3px"></i><i class="tick" style="left:582.2px"></i><i class="tick" style="left:1083.9px"></i><i class="tick" style="left:1650.5px"></i><i class="tick" style="left:1792.0px"></i></div>
+
+      </div>
+      <script>
+(() => {
+  const tl = gsap.timeline({ paused: true });
+
+  const TOTAL = 300.66;
+  tl.fromTo("#topbar .logo", { y: -90 }, { y: 0, duration: 0.6, ease: "back.out(1.5)" }, 0.4);
+  tl.fromTo("#topbar .meta", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.7);
+  tl.fromTo("#progress .fill", { scaleX: 0 }, { scaleX: 1, duration: TOTAL, ease: "none" }, 0);
+  const CH = [0.0, 19.469, 91.167, 169.734, 258.464, 280.623];
+  document.querySelectorAll("#chrome .chap .cp").forEach((c, i) => {
+    tl.fromTo(c, { y: -70, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.7)" }, CH[i] + 0.15);
+  });
+  [19.469, 46.195, 68.276, 91.167, 119.094, 141.41, 169.734, 205.42, 230.871, 258.464, 280.623].forEach((t) => {
+    tl.fromTo("#sweep", { x: 420 }, { x: 1760, duration: 0.55, ease: "power2.inOut", immediateRender: false }, t - 0.3);
+    tl.fromTo("#sweep", { opacity: 0 }, { keyframes: [{ opacity: 1, duration: 0.22 }, { opacity: 0, duration: 0.33 }], immediateRender: false }, t - 0.3);
+  });
+
+  window.__timelines["chrome"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,587 @@
+1
+00:00:01,680 --> 00:00:04,800
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,800 --> 00:00:06,640
+sekizincisine hoş geldiniz.
+
+3
+00:00:06,640 --> 00:00:08,200
+Bugün yine 3 soru var:
+
+4
+00:00:08,200 --> 00:00:11,040
+tuz ve deniz suyu, tarife cetvelindeki notlar
+
+5
+00:00:11,040 --> 00:00:12,680
+ve bağlayıcı kaynaklar.
+
+6
+00:00:12,680 --> 00:00:13,680
+Ekip hazır:
+
+7
+00:00:13,680 --> 00:00:17,013
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+8
+00:00:17,013 --> 00:00:19,169
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:19,919 --> 00:00:21,119
+Birinci soru.
+
+10
+00:00:21,119 --> 00:00:26,079
+Aşağıdakilerden hangisi 25.01 pozisyonunda sınıflandırılmaz?
+
+11
+00:00:26,079 --> 00:00:26,969
+A şıkkı:
+
+12
+00:00:27,039 --> 00:00:29,039
+Gazlı doğal maden suyu.
+
+13
+00:00:29,039 --> 00:00:29,999
+B şıkkı:
+
+14
+00:00:29,999 --> 00:00:31,199
+Deniz suyu.
+
+15
+00:00:31,199 --> 00:00:32,159
+C şıkkı:
+
+16
+00:00:32,159 --> 00:00:33,839
+Saf sodyum klorür.
+
+17
+00:00:33,839 --> 00:00:34,719
+D şıkkı:
+
+18
+00:00:34,719 --> 00:00:35,849
+Denatüre tuz.
+
+19
+00:00:35,999 --> 00:00:36,879
+E şıkkı:
+
+20
+00:00:36,879 --> 00:00:39,975
+Topaklaşmayı önleyici madde katılmış sofra tuzu.
+
+21
+00:00:40,559 --> 00:00:42,295
+3 saniye, düşünün!
+
+22
+00:00:46,645 --> 00:00:47,455
+Cevap:
+
+23
+00:00:47,525 --> 00:00:48,485
+A şıkkı.
+
+24
+00:00:48,485 --> 00:00:50,445
+Maden suları ve gazlı sular,
+
+25
+00:00:50,445 --> 00:00:54,458
+22. fasılda, 22.01 pozisyonunda yer alır.
+
+26
+00:00:54,458 --> 00:00:57,165
+25.01 ise tuzun pozisyonudur:
+
+27
+00:00:57,165 --> 00:00:59,925
+Sofra tuzu ve denatüre tuz dahil tuz,
+
+28
+00:00:59,925 --> 00:01:02,965
+saf sodyum klorür ve deniz suyu burada sayılır.
+
+29
+00:01:02,965 --> 00:01:06,245
+Pozisyon metni, topaklaşmayı önleyici madde katılmasına
+
+30
+00:01:06,245 --> 00:01:07,976
+da açıkça izin verir.
+
+31
+00:01:08,806 --> 00:01:10,296
+Tuzak nerede?
+
+32
+00:01:10,326 --> 00:01:13,846
+Cano, deniz suyu da sonuçta sudur diye B şıkkını
+
+33
+00:01:13,846 --> 00:01:14,566
+seçti.
+
+34
+00:01:14,566 --> 00:01:15,446
+Hayır!
+
+35
+00:01:15,446 --> 00:01:18,859
+22. faslın notu deniz suyunu açıkça fasıl dışında
+
+36
+00:01:18,859 --> 00:01:19,606
+bırakır;
+
+37
+00:01:19,606 --> 00:01:21,926
+deniz suyu 25.01'dedir.
+
+38
+00:01:21,926 --> 00:01:22,966
+Bir de dikkat:
+
+39
+00:01:22,966 --> 00:01:25,406
+Damıtılmış su da 22. fasla girmez;
+
+40
+00:01:25,406 --> 00:01:27,553
+28.53 pozisyonuna gider.
+
+41
+00:01:27,553 --> 00:01:28,366
+Kısa yol:
+
+42
+00:01:28,366 --> 00:01:30,867
+Suyun adına değil, fasıl notuna bakın.
+
+43
+00:01:31,617 --> 00:01:32,667
+İkinci soru.
+
+44
+00:01:32,897 --> 00:01:35,657
+Türk Gümrük Tarife Cetvelinde yer alan aşağıdaki
+
+45
+00:01:35,657 --> 00:01:39,057
+unsurlardan hangisi, Armonize Sistem Nomanklatüründe
+
+46
+00:01:39,057 --> 00:01:40,227
+yer almaz?
+
+47
+00:01:40,257 --> 00:01:41,137
+A şıkkı:
+
+48
+00:01:41,137 --> 00:01:42,337
+Bölüm notları.
+
+49
+00:01:42,337 --> 00:01:43,217
+B şıkkı:
+
+50
+00:01:43,217 --> 00:01:44,497
+Fasıl notları.
+
+51
+00:01:44,497 --> 00:01:45,377
+C şıkkı:
+
+52
+00:01:45,377 --> 00:01:46,497
+Ek notlar.
+
+53
+00:01:46,497 --> 00:01:47,457
+D şıkkı:
+
+54
+00:01:47,457 --> 00:01:49,057
+Alt pozisyon notları.
+
+55
+00:01:49,057 --> 00:01:49,857
+E şıkkı:
+
+56
+00:01:49,857 --> 00:01:52,614
+Tarifenin yorumuna ilişkin genel kurallar.
+
+57
+00:01:53,297 --> 00:01:55,194
+3 saniye, düşünün!
+
+58
+00:01:59,544 --> 00:02:00,424
+Cevap:
+
+59
+00:02:00,424 --> 00:02:01,314
+C şıkkı.
+
+60
+00:02:01,544 --> 00:02:04,184
+Ek notlar Armonize Sistemin değil,
+
+61
+00:02:04,184 --> 00:02:06,984
+Avrupa Birliği Kombine Nomanklatürünün ve ulusal
+
+62
+00:02:06,984 --> 00:02:08,584
+tarifenin parçasıdır;
+
+63
+00:02:08,584 --> 00:02:11,224
+6 haneden sonraki ayrıntıyı yorumlar.
+
+64
+00:02:11,224 --> 00:02:13,384
+Bölüm notları, fasıl notları,
+
+65
+00:02:13,384 --> 00:02:16,224
+alt pozisyon notları ve genel yorum kuralları
+
+66
+00:02:16,224 --> 00:02:19,304
+ise doğrudan Armonize Sistemden gelir ve bütün
+
+67
+00:02:19,304 --> 00:02:21,110
+üye ülkelerde ortaktır.
+
+68
+00:02:21,940 --> 00:02:23,430
+Tuzak nerede?
+
+69
+00:02:23,460 --> 00:02:26,740
+Stajyerimiz, alt pozisyon deyince ulusal açılımı
+
+70
+00:02:26,740 --> 00:02:28,900
+düşündü ve D şıkkını seçti.
+
+71
+00:02:28,900 --> 00:02:29,780
+Hayır!
+
+72
+00:02:29,780 --> 00:02:32,980
+6 haneli alt pozisyonlar Armonize Sistemindir;
+
+73
+00:02:32,980 --> 00:02:34,740
+alt pozisyon notları da öyle.
+
+74
+00:02:34,740 --> 00:02:36,580
+Avrupa Birliği ve ulusal düzey,
+
+75
+00:02:36,580 --> 00:02:38,500
+7. haneden sonra başlar.
+
+76
+00:02:38,500 --> 00:02:39,460
+Bir de dikkat:
+
+77
+00:02:39,460 --> 00:02:42,900
+Ek notlar 8 ve daha fazla haneli ayrıntıyı yorumladığı
+
+78
+00:02:42,900 --> 00:02:45,230
+için ülkeden ülkeye değişebilir.
+
+79
+00:02:45,300 --> 00:02:47,060
+Gümrükçü Baba'nın kısa yolu:
+
+80
+00:02:47,060 --> 00:02:49,434
+Notun hangi haneyi yorumladığına bakın.
+
+81
+00:02:50,184 --> 00:02:51,384
+Üçüncü soru.
+
+82
+00:02:51,384 --> 00:02:54,824
+Türkiye'de tarife sınıflandırması yapılırken aşağıdakilerden
+
+83
+00:02:54,824 --> 00:02:57,544
+hangisi bağlayıcı bir kaynak değildir?
+
+84
+00:02:57,544 --> 00:02:58,504
+A şıkkı:
+
+85
+00:02:58,504 --> 00:03:00,504
+Türk Gümrük Tarife Cetveli.
+
+86
+00:03:00,504 --> 00:03:01,384
+B şıkkı:
+
+87
+00:03:01,384 --> 00:03:04,034
+Tarifenin yorumuna ilişkin genel kurallar.
+
+88
+00:03:04,184 --> 00:03:05,144
+C şıkkı:
+
+89
+00:03:05,144 --> 00:03:07,864
+Gümrük Genel Tebliği ile yayımlanan Gümrük Tarife
+
+90
+00:03:07,864 --> 00:03:09,544
+Cetveli İzahnamesi.
+
+91
+00:03:09,544 --> 00:03:10,434
+D şıkkı:
+
+92
+00:03:10,504 --> 00:03:13,544
+Gümrük Genel Tebliği ile yayımlanan tarife sınıflandırma
+
+93
+00:03:13,544 --> 00:03:14,584
+kararları.
+
+94
+00:03:14,584 --> 00:03:15,464
+E şıkkı:
+
+95
+00:03:15,464 --> 00:03:18,664
+Avrupa Birliği Bağlayıcı Tarife Bilgisi veri tabanındaki
+
+96
+00:03:18,664 --> 00:03:19,474
+kararlar.
+
+97
+00:03:19,704 --> 00:03:21,520
+3 saniye, düşünün!
+
+98
+00:03:25,870 --> 00:03:26,670
+Cevap:
+
+99
+00:03:26,670 --> 00:03:27,710
+E şıkkı.
+
+100
+00:03:27,710 --> 00:03:30,270
+Avrupa Birliği Bağlayıcı Tarife Bilgileri,
+
+101
+00:03:30,270 --> 00:03:33,590
+ülkemizde yalnızca yardımcı bir referans kaynaktır;
+
+102
+00:03:33,590 --> 00:03:35,577
+resmî bir bağlayıcılığı yoktur.
+
+103
+00:03:35,577 --> 00:03:38,590
+Gümrükler Genel Müdürlüğünün 2020 tarihli yazısı
+
+104
+00:03:38,590 --> 00:03:40,350
+da bunu açıkça belirtir.
+
+105
+00:03:40,350 --> 00:03:42,070
+Diğerleri bağlayıcıdır:
+
+106
+00:03:42,070 --> 00:03:44,830
+Tarife cetveli ve genel yorum kuralları cetvelin
+
+107
+00:03:44,830 --> 00:03:45,830
+kendisidir;
+
+108
+00:03:45,830 --> 00:03:48,590
+izahname ve sınıflandırma kararları ise Gümrük
+
+109
+00:03:48,590 --> 00:03:50,571
+Genel Tebliği olarak yayımlanır.
+
+110
+00:03:51,401 --> 00:03:52,891
+Tuzak nerede?
+
+111
+00:03:52,921 --> 00:03:55,721
+Yardımcımız, aynı eşya için Avrupa Birliği'nde
+
+112
+00:03:55,721 --> 00:03:57,721
+verilmiş bir BTB bulunca,
+
+113
+00:03:57,721 --> 00:04:00,121
+sınıflandırmayı doğrudan ona dayandırdı.
+
+114
+00:04:00,121 --> 00:04:00,841
+Hayır!
+
+115
+00:04:00,841 --> 00:04:03,881
+Avrupa Birliği veri tabanında aynı eşya için farklı
+
+116
+00:04:03,881 --> 00:04:06,601
+pozisyonlardan verilmiş kararlar bile olabilir;
+
+117
+00:04:06,601 --> 00:04:08,201
+tek başına dayanak olamaz.
+
+118
+00:04:08,201 --> 00:04:09,161
+Bir de dikkat:
+
+119
+00:04:09,161 --> 00:04:12,001
+Ülkemizde verilen BTB ise gümrük idaresini,
+
+120
+00:04:12,001 --> 00:04:13,721
+hak sahibine karşı bağlar.
+
+121
+00:04:13,721 --> 00:04:14,521
+Kısa yol:
+
+122
+00:04:14,521 --> 00:04:16,921
+Avrupa Birliği BTB'si yol gösterir,
+
+123
+00:04:16,921 --> 00:04:18,164
+karar vermez.
+
+124
+00:04:18,994 --> 00:04:19,964
+Koçun notu:
+
+125
+00:04:20,114 --> 00:04:21,484
+Bugünün 3 kuralı.
+
+126
+00:04:21,634 --> 00:04:22,327
+Bir:
+
+127
+00:04:22,327 --> 00:04:23,674
+25.01;
+
+128
+00:04:23,674 --> 00:04:26,474
+tuz, saf sodyum klorür ve deniz suyudur,
+
+129
+00:04:26,474 --> 00:04:27,834
+maden suyu değil.
+
+130
+00:04:27,834 --> 00:04:28,474
+İki:
+
+131
+00:04:28,474 --> 00:04:31,354
+Bölüm, fasıl ve alt pozisyon notları Armonize
+
+132
+00:04:31,354 --> 00:04:32,114
+Sistemin;
+
+133
+00:04:32,114 --> 00:04:34,954
+ek notlar ise Kombine Nomanklatürün ve ulusal
+
+134
+00:04:34,954 --> 00:04:35,954
+tarifenin.
+
+135
+00:04:35,954 --> 00:04:36,594
+Üç:
+
+136
+00:04:36,594 --> 00:04:39,154
+Avrupa Birliği BTB'leri yol gösterir,
+
+137
+00:04:39,154 --> 00:04:40,323
+ama bağlamaz.
+
+138
+00:04:41,073 --> 00:04:42,683
+Bugünün cevap anahtarı:
+
+139
+00:04:42,833 --> 00:04:45,633
+Birinci soru A, ikinci soru C,
+
+140
+00:04:45,633 --> 00:04:46,923
+üçüncü soru E.
+
+141
+00:04:47,073 --> 00:04:48,433
+Kaç tanesini bildiniz?
+
+142
+00:04:48,433 --> 00:04:49,553
+Yorumlara yazın.
+
+143
+00:04:49,553 --> 00:04:52,673
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+144
+00:04:52,673 --> 00:04:53,340
+unutmayın.
+
+145
+00:04:53,340 --> 00:04:54,953
+Bir sonraki tarife dersinde,
+
+146
+00:04:54,953 --> 00:04:56,953
+yeni 3 soruyla görüşmek üzere.
+
+147
+00:04:56,953 --> 00:04:57,911
+Hoşça kalın!

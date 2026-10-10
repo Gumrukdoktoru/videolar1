@@ -1,0 +1,7 @@
+tools/__pycache__/
+snapshots/
+.hyperframes/
+renders/work-*/
+renders/.*
+renders/tarife-dersi-09.mp4
+renders/tarife-dersi-09-onizleme.mp4
