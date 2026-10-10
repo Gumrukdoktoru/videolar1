@@ -1,0 +1,535 @@
+1
+00:00:01,680 --> 00:00:04,760
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,760 --> 00:00:06,560
+beşincisine hoş geldiniz.
+
+3
+00:00:06,560 --> 00:00:08,160
+Bugün yine 3 soru var:
+
+4
+00:00:08,160 --> 00:00:11,120
+mineral mumlar, telsiz kumanda cihazları ve deri
+
+5
+00:00:11,120 --> 00:00:11,920
+eşya.
+
+6
+00:00:11,920 --> 00:00:12,880
+Ekip hazır:
+
+7
+00:00:12,880 --> 00:00:16,040
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+8
+00:00:16,040 --> 00:00:18,281
+Kâğıt kalem hazırsa, başlayalım.
+
+9
+00:00:19,031 --> 00:00:20,081
+Birinci soru.
+
+10
+00:00:20,231 --> 00:00:23,431
+Petrolden elde edilen, mikrokristal bünyeli petrol
+
+11
+00:00:23,431 --> 00:00:26,551
+mumu hangi tarife pozisyonunda sınıflandırılır?
+
+12
+00:00:26,551 --> 00:00:27,431
+A şıkkı:
+
+13
+00:00:27,431 --> 00:00:29,191
+34.04.
+
+14
+00:00:29,191 --> 00:00:30,071
+B şıkkı:
+
+15
+00:00:30,071 --> 00:00:31,631
+27.12.
+
+16
+00:00:31,631 --> 00:00:32,471
+C şıkkı:
+
+17
+00:00:32,471 --> 00:00:33,991
+15.21.
+
+18
+00:00:33,991 --> 00:00:34,871
+D şıkkı:
+
+19
+00:00:34,871 --> 00:00:36,271
+27.10.
+
+20
+00:00:36,271 --> 00:00:37,111
+E şıkkı:
+
+21
+00:00:37,111 --> 00:00:38,871
+33.04.
+
+22
+00:00:38,871 --> 00:00:40,754
+3 saniye, düşünün!
+
+23
+00:00:45,104 --> 00:00:45,904
+Cevap:
+
+24
+00:00:45,904 --> 00:00:47,024
+B şıkkı.
+
+25
+00:00:47,024 --> 00:00:50,944
+27.12 pozisyonunun metni bu ürünleri adıyla sayar:
+
+26
+00:00:50,944 --> 00:00:54,064
+vazelin, parafin, mikrokristal bünyeli petrol
+
+27
+00:00:54,064 --> 00:00:58,144
+mumu, ozokerit, linyit mumu ve diğer mineral mumlar.
+
+28
+00:00:58,144 --> 00:01:00,304
+Bunlar mineral kökenli ürünlerdir;
+
+29
+00:01:00,304 --> 00:01:02,864
+renklendirilmiş olsalar bile burada kalırlar.
+
+30
+00:01:02,864 --> 00:01:05,304
+Yani mumun kaynağı belirleyicidir:
+
+31
+00:01:05,304 --> 00:01:08,028
+petrol ve mineraller 27. fasıl.
+
+32
+00:01:08,858 --> 00:01:10,298
+Tuzak nerede?
+
+33
+00:01:10,298 --> 00:01:13,738
+Stajyerimiz, mum dediği için 34.04'ü,
+
+34
+00:01:13,738 --> 00:01:15,178
+suni mumları seçti.
+
+35
+00:01:15,178 --> 00:01:16,058
+Hayır!
+
+36
+00:01:16,058 --> 00:01:18,698
+Mineral kökenli mumlar 27.12'de;
+
+37
+00:01:18,698 --> 00:01:22,378
+34.04 ise kimyasal yolla elde edilen suni mumlar
+
+38
+00:01:22,378 --> 00:01:24,165
+ve müstahzar mumlar içindir.
+
+39
+00:01:24,165 --> 00:01:25,138
+Bir de dikkat:
+
+40
+00:01:25,138 --> 00:01:28,258
+Vazelin cilt bakımı için perakende ambalajlanmışsa,
+
+41
+00:01:28,258 --> 00:01:31,898
+artık 27.12'de değil, 33.04'te kozmetik olarak
+
+42
+00:01:31,898 --> 00:01:33,139
+sınıflandırılır.
+
+43
+00:01:33,889 --> 00:01:35,139
+İkinci soru.
+
+44
+00:01:35,169 --> 00:01:38,089
+Radyo frekansıyla çalışan ve bir kule vincinin
+
+45
+00:01:38,089 --> 00:01:41,009
+hareketlerini uzaktan kontrol etmeye yarayan telsiz
+
+46
+00:01:41,009 --> 00:01:44,739
+kumanda cihazı hangi tarife pozisyonunda sınıflandırılır?
+
+47
+00:01:44,769 --> 00:01:45,649
+A şıkkı:
+
+48
+00:01:45,649 --> 00:01:47,409
+85.43.
+
+49
+00:01:47,409 --> 00:01:48,289
+B şıkkı:
+
+50
+00:01:48,289 --> 00:01:50,049
+84.31.
+
+51
+00:01:50,049 --> 00:01:50,929
+C şıkkı:
+
+52
+00:01:50,929 --> 00:01:52,689
+85.37.
+
+53
+00:01:52,689 --> 00:01:53,569
+D şıkkı:
+
+54
+00:01:53,569 --> 00:01:55,249
+85.17.
+
+55
+00:01:55,249 --> 00:01:56,129
+E şıkkı:
+
+56
+00:01:56,129 --> 00:01:57,659
+85.26.
+
+57
+00:01:58,689 --> 00:02:00,497
+3 saniye, düşünün!
+
+58
+00:02:04,847 --> 00:02:05,647
+Cevap:
+
+59
+00:02:05,647 --> 00:02:06,647
+E şıkkı.
+
+60
+00:02:06,647 --> 00:02:09,167
+85.26 pozisyonunun metni,
+
+61
+00:02:09,167 --> 00:02:12,527
+uzaktan kumanda etmeye mahsus telsiz kontrol cihazlarını
+
+62
+00:02:12,527 --> 00:02:13,577
+adıyla sayar.
+
+63
+00:02:13,647 --> 00:02:15,927
+Bu cihaz radyo dalgalarıyla çalışıyor;
+
+64
+00:02:15,927 --> 00:02:17,167
+yani telsiz.
+
+65
+00:02:17,167 --> 00:02:19,687
+Vince ait olması da sonucu değiştirmez:
+
+66
+00:02:19,687 --> 00:02:21,447
+16. bölümün notuna göre,
+
+67
+00:02:21,447 --> 00:02:24,007
+kendi pozisyonu olan aksam ve parçalar,
+
+68
+00:02:24,007 --> 00:02:27,047
+hangi makineye ait olursa olsun kendi pozisyonlarında
+
+69
+00:02:27,047 --> 00:02:28,268
+sınıflandırılır.
+
+70
+00:02:29,178 --> 00:02:32,458
+Yardımcımız, vinçle birlikte kullanılıyor diye
+
+71
+00:02:32,458 --> 00:02:35,338
+84.31'i, vinç aksamını seçti.
+
+72
+00:02:35,338 --> 00:02:36,218
+Hayır!
+
+73
+00:02:36,218 --> 00:02:39,298
+Aksam pozisyonları, kendi pozisyonu olmayan parçalar
+
+74
+00:02:39,298 --> 00:02:40,218
+içindir.
+
+75
+00:02:40,218 --> 00:02:42,458
+Gümrükçü Baba da bir ayrımı hatırlattı:
+
+76
+00:02:42,458 --> 00:02:45,098
+Televizyonların kızılötesi uzaktan kumandaları
+
+77
+00:02:45,098 --> 00:02:46,378
+telsiz değildir;
+
+78
+00:02:46,378 --> 00:02:49,879
+fasıl notuna göre 85.43'te sınıflandırılır.
+
+79
+00:02:50,629 --> 00:02:51,829
+Üçüncü soru.
+
+80
+00:02:51,829 --> 00:02:56,629
+Aşağıdakilerden hangisi 42.02 pozisyonunda sınıflandırılmaz?
+
+81
+00:02:56,629 --> 00:02:57,589
+A şıkkı:
+
+82
+00:02:57,589 --> 00:03:01,029
+Dış yüzü dokumaya elverişli maddeden sırt çantası.
+
+83
+00:03:01,029 --> 00:03:01,919
+B şıkkı:
+
+84
+00:03:01,989 --> 00:03:04,869
+Alüminyumdan yapılmış, tekerlekli valiz.
+
+85
+00:03:04,869 --> 00:03:05,759
+C şıkkı:
+
+86
+00:03:05,829 --> 00:03:07,829
+Tabii deriden bel kemeri.
+
+87
+00:03:07,829 --> 00:03:08,789
+D şıkkı:
+
+88
+00:03:08,789 --> 00:03:11,109
+Vulkanize liften evrak çantası.
+
+89
+00:03:11,109 --> 00:03:11,989
+E şıkkı:
+
+90
+00:03:11,989 --> 00:03:14,879
+Plastik madde yaprağından tuvalet çantası.
+
+91
+00:03:14,938 --> 00:03:16,639
+3 saniye, düşünün!
+
+92
+00:03:21,038 --> 00:03:21,838
+Cevap:
+
+93
+00:03:21,838 --> 00:03:22,878
+C şıkkı.
+
+94
+00:03:22,878 --> 00:03:25,918
+42.02 pozisyonu iki gruptan oluşur.
+
+95
+00:03:25,918 --> 00:03:27,678
+Birinci gruptaki bavul,
+
+96
+00:03:27,678 --> 00:03:29,878
+valiz, evrak ve okul çantası,
+
+97
+00:03:29,878 --> 00:03:31,358
+gözlük kılıfı gibi eşya,
+
+98
+00:03:31,358 --> 00:03:34,088
+hangi maddeden yapılırsa yapılsın buraya girer.
+
+99
+00:03:34,158 --> 00:03:36,078
+İkinci gruptaki seyahat,
+
+100
+00:03:36,078 --> 00:03:37,718
+sırt ve tuvalet çantaları,
+
+101
+00:03:37,718 --> 00:03:41,118
+cüzdanlar ve mücevher kutuları ise yalnızca deri,
+
+102
+00:03:41,118 --> 00:03:44,158
+plastik yaprak, dokumaya elverişli madde,
+
+103
+00:03:44,158 --> 00:03:46,958
+vulkanize lif veya kartondan olursa girer.
+
+104
+00:03:46,958 --> 00:03:49,518
+Deri bel kemeri ise giyim aksesuarıdır:
+
+105
+00:03:49,518 --> 00:03:50,937
+42.03.
+
+106
+00:03:51,847 --> 00:03:56,087
+Cano ise deriden olan her şey 42.02'ye gider sandı.
+
+107
+00:03:56,087 --> 00:03:56,887
+Hayır!
+
+108
+00:03:56,887 --> 00:04:00,007
+42.02 çantalar ve mahfazalar içindir;
+
+109
+00:04:00,007 --> 00:04:03,474
+deri giyim eşyası ve aksesuarı 42.03'tedir.
+
+110
+00:04:03,474 --> 00:04:05,127
+Bir de ikinci gruba dikkat:
+
+111
+00:04:05,127 --> 00:04:06,887
+Ahşaptan mücevher kutusu,
+
+112
+00:04:06,887 --> 00:04:10,207
+maddesi listede olmadığı için 42.02'ye girmez;
+
+113
+00:04:10,207 --> 00:04:12,208
+44.20'de sınıflandırılır.
+
+114
+00:04:13,038 --> 00:04:14,158
+Koçun notu:
+
+115
+00:04:14,158 --> 00:04:15,528
+Bugünün 3 kuralı.
+
+116
+00:04:15,678 --> 00:04:16,371
+Bir:
+
+117
+00:04:16,371 --> 00:04:17,838
+Mumun kaynağına bakın;
+
+118
+00:04:17,838 --> 00:04:22,398
+mineral mumlar 27.12, suni mumlar 34.04.
+
+119
+00:04:22,398 --> 00:04:23,078
+İki:
+
+120
+00:04:23,078 --> 00:04:24,878
+Kendi pozisyonu olan parça,
+
+121
+00:04:24,878 --> 00:04:27,598
+ait olduğu makinenin aksamı sayılmaz.
+
+122
+00:04:27,598 --> 00:04:28,198
+Üç:
+
+123
+00:04:28,198 --> 00:04:30,718
+42.02'nin iki grubunu ayırın;
+
+124
+00:04:30,718 --> 00:04:33,087
+ikinci grupta madde şartı vardır.
+
+125
+00:04:33,837 --> 00:04:35,597
+Bugünün cevap anahtarı:
+
+126
+00:04:35,597 --> 00:04:38,477
+Birinci soru B, ikinci soru E,
+
+127
+00:04:38,477 --> 00:04:39,847
+üçüncü soru C.
+
+128
+00:04:39,997 --> 00:04:41,357
+Kaç tanesini bildiniz?
+
+129
+00:04:41,357 --> 00:04:42,477
+Yorumlara yazın.
+
+130
+00:04:42,477 --> 00:04:45,517
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+131
+00:04:45,517 --> 00:04:46,317
+unutmayın.
+
+132
+00:04:46,317 --> 00:04:47,997
+Bir sonraki tarife dersinde,
+
+133
+00:04:47,997 --> 00:04:49,957
+yeni 3 soruyla görüşmek üzere.
+
+134
+00:04:49,957 --> 00:04:50,936
+Hoşça kalın!

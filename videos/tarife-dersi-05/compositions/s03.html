@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #s03 { position: absolute; inset: 0; overflow: hidden; }
+        #s03 .stage { position: absolute; inset: 0; }
+
+#s03 .ans { position:absolute; left:600px; top:128px; width:1220px; height:96px; display:flex; align-items:center; gap:20px; padding:0 26px;
+  background:rgba(46,212,122,.12); border:3px solid var(--ok); border-radius:20px; }
+#s03 .ans .lab { font:900 24px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s03 .ans .L { flex:none; width:66px; height:66px; border-radius:50%; background:var(--ok); color:#03221a; font:900 38px Montserrat;
+  display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 8px rgba(46,212,122,.18); }
+#s03 .ans .tx { font:800 30px Montserrat; color:var(--fg); white-space:nowrap; }
+#s03 .ans .tx em { font-style:normal; color:var(--ok); }
+#s03 .ans .tx b { font:700 30px 'JetBrains Mono'; color:var(--gold); }
+#s03 .ans .ck { margin-left:auto; color:var(--ok); }
+#s03 .hdr { position:absolute; left:600px; top:128px; display:flex; align-items:center; gap:22px; }
+#s03 .hdr .h1 { font-size:46px; margin:0; white-space:nowrap; }
+#s03 .chr { position:absolute; filter:drop-shadow(0 18px 30px rgba(0,0,0,.45)); }
+#s03 .ctag { position:absolute; font:900 19px Montserrat; letter-spacing:.08em; color:#071A45; background:var(--accent2);
+  padding:6px 14px; border-radius:10px; box-shadow:0 8px 20px rgba(0,0,0,.35); white-space:nowrap; }
+#s03 .bub { position:absolute; padding:14px 20px; background:#F4F7FF; color:#0B1A44; border-radius:20px; font:900 24px/1.25 Montserrat;
+  box-shadow:0 16px 36px rgba(0,0,0,.35); }
+#s03 .bub:after { content:""; position:absolute; left:var(--tail, 60px); bottom:-22px; border:12px solid transparent; border-top:14px solid #F4F7FF; }
+#s03 .bub em { font-style:normal; color:#B4231B; }
+#s03 .bub i { font-style:normal; color:#0B8A47; }
+#s03 .bub b { font-family:'JetBrains Mono'; }
+#s03 .stamp { position:absolute; display:flex; align-items:center; gap:8px; padding:6px 16px 6px 10px; border:6px solid var(--uyari); border-radius:12px;
+  color:#FF8A96; background:rgba(42,10,14,.88); font:900 30px Montserrat; letter-spacing:.06em; transform:rotate(-8deg); white-space:nowrap; }
+#s03 .stamp .ico { color:var(--uyari); }
+
+#s03 .prod { position:absolute; left:600px; top:250px; width:350px; height:370px; padding:22px; border-radius:22px; background:rgba(13,36,92,.95); border:3px solid var(--accent2); }
+#s03 .prod .ic { color:var(--gold); }
+#s03 .prod .nm { font:900 25px/1.25 Montserrat; color:var(--fg); margin-top:12px; }
+#s03 .prod .chips { display:flex; flex-direction:column; align-items:flex-start; gap:8px; margin-top:14px; }
+#s03 .prod .cp { font:800 19px Montserrat; color:#C9FFF0; background:rgba(51,217,178,.14); border:2px solid var(--teal); border-radius:10px; padding:4px 12px; white-space:nowrap; }
+#s03 .steps { position:absolute; left:1000px; top:250px; width:440px; display:flex; flex-direction:column; gap:12px; }
+#s03 .st { height:115px; display:flex; align-items:center; gap:14px; padding:0 18px; border-radius:18px; background:rgba(13,36,92,.95); border:2px solid #2B4C9E; }
+#s03 .st .nb { flex:none; width:38px; height:38px; border-radius:50%; background:var(--accent); color:#fff; display:flex; align-items:center; justify-content:center; font:900 20px Montserrat; }
+#s03 .st .ico { color:var(--accent2); }
+#s03 .st b { display:block; font:900 21px Montserrat; color:var(--fg); }
+#s03 .st small { display:block; font:700 18px/1.25 Montserrat; color:var(--muted); margin-top:4px; }
+#s03 .res { position:absolute; left:1480px; top:250px; width:340px; height:370px; padding:24px; border-radius:22px; background:rgba(46,212,122,.12); border:3px solid var(--ok);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+#s03 .res .lab { font:900 20px Montserrat; letter-spacing:.14em; color:var(--ok); }
+#s03 .res .cd0 { font-family:'Archivo Black'; font-size:84px; line-height:1; color:var(--fg); margin-top:12px; }
+#s03 .res .tt { font:800 20px/1.3 Montserrat; color:var(--muted); margin-top:14px; }
+#s03 .res .ico { color:var(--ok); margin-top:10px; }
+#s03 .ar { position:absolute; top:410px; color:var(--gold); }
+#s03 .ar.a0 { left:954px; } #s03 .ar.a1 { left:1442px; }
+#s03 .cands { position:absolute; left:600px; top:650px; width:1220px; display:flex; gap:14px; }
+#s03 .cd { position:relative; flex:1; height:150px; padding:16px; border-radius:18px; background:rgba(13,36,92,.9); border:2px solid #2B4C9E; }
+#s03 .cd b { display:block; font:700 34px 'JetBrains Mono'; color:var(--fg); }
+#s03 .cd small { display:block; font:700 18px/1.25 Montserrat; color:var(--muted); margin-top:8px; }
+#s03 .cd .mk { position:absolute; right:12px; top:12px; width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+#s03 .cd.no .mk { background:rgba(255,77,94,.2); color:var(--uyari); }
+#s03 .cd.ok { border:3px solid var(--ok); background:rgba(46,212,122,.12); }
+#s03 .cd.ok b { color:var(--ok); }
+#s03 .cd.ok .mk { background:var(--ok); color:#03221a; }
+
+      </style>
+      <div id="s03" data-composition-id="s03" data-width="1920" data-height="1080" data-duration="23.674">
+        <div class="stage">
+
+<div class="ans"><span class="lab">CEVAP</span><span class="L">B</span><span class="tx"><b>27.12</b> · vazelin, parafin, mineral mumlar</span><span class="ck"><svg class="ico " viewBox="0 0 24 24" width="54" height="54" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+<div class="prod"><span class="ic"><svg class="ico " viewBox="0 0 24 24" width="84" height="84" aria-hidden="true"><path d="M12 3l9.5 5-9.5 5-9.5-5z" fill="currentColor"/><path d="M2.5 12.5l9.5 5 9.5-5M2.5 16.5l9.5 5 9.5-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></span><div class="nm">Mikrokristal bünyeli petrol mumu</div><div class="chips"><span class="cp p0">petrol kökenli</span><span class="cp p1">ozokerit, linyit mumu ile aynı grup</span><span class="cp p2">mineral mum</span></div></div>
+<span class="ar a0"><svg class="ico " viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+<div class="steps"><div class="st s0"><span class="nb">1</span><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M5 2.5h9l5 5v14H5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 2.5v5h5M8 12h8M8 15.5h8M8 19h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><div><b>Pozisyon metni</b><small>vazelin, parafin, mikrokristal mum…</small></div></div><div class="st s1"><span class="nb">2</span><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z" fill="currentColor"/></svg><div><b>Kaynak: mineral</b><small>petrol ve mineral kökenli</small></div></div><div class="st s2"><span class="nb">3</span><svg class="ico " viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Renk önemsiz</b><small>renklendirilmiş olsun olmasın</small></div></div></div>
+<span class="ar a1"><svg class="ico " viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+<div class="res"><span class="lab">POZİSYON</span><div class="cd0">27.12</div><div class="tt">Vazelin, parafin, mineral mumlar</div><svg class="ico " viewBox="0 0 24 24" width="54" height="54" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+<div class="cands"><div class="cd no"><b>34.04</b><small>suni ve müstahzar mumlar</small><span class="mk"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span></div><div class="cd ok"><b>27.12</b><small>vazelin, mineral mumlar</small><span class="mk"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><div class="cd no"><b>15.21</b><small>bitkisel mum, balmumu</small><span class="mk"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span></div><div class="cd no"><b>27.10</b><small>petrol yağları</small><span class="mk"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span></div><div class="cd no"><b>33.04</b><small>kozmetik müstahzarlar</small><span class="mk"><svg class="ico " viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></span></div></div>
+
+        </div>
+      </div>
+      <script>
+(() => {
+
+const SID = "s03";
+const R = document.getElementById(SID);
+const q = (s) => R.querySelectorAll(s);
+const tl = gsap.timeline({ paused: true });
+function draw(sel, at, dur, ease) {
+  q(sel).forEach((p) => { p.setAttribute("pathLength", "1"); p.style.strokeDasharray = "1 1"; p.style.strokeDashoffset = "1"; });
+  tl.fromTo(q(sel), { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: dur || 0.8, ease: ease || "power2.inOut", stagger: 0.12 }, at);
+}
+function pop(sel, at, stagger, ease) {
+  tl.fromTo(q(sel), { scale: 0.2, opacity: 0, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, duration: 0.5, ease: ease || "back.out(2.2)", stagger: stagger || 0 }, at);
+}
+function rise(sel, at, stagger, dy) {
+  tl.fromTo(q(sel), { y: dy == null ? 46 : dy, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out", stagger: stagger || 0 }, at);
+}
+function slideX(sel, at, dx, stagger) {
+  tl.fromTo(q(sel), { x: dx, opacity: 0 }, { x: 0, opacity: 1, duration: 0.65, ease: "expo.out", stagger: stagger || 0 }, at);
+}
+function fadeIn(sel, at, dur) { tl.fromTo(q(sel), { opacity: 0 }, { opacity: 1, duration: dur || 0.4, ease: "power1.out" }, at); }
+function fadeTo(sel, at, v, dur) { tl.to(q(sel), { opacity: v, duration: dur || 0.4, ease: "power1.inOut" }, at); }
+function slam(sel, at) {
+  tl.fromTo(q(sel), { scale: 2.6, opacity: 0, rotation: -8, transformOrigin: "50% 50%" }, { scale: 1, opacity: 1, rotation: 0, duration: 0.42, ease: "expo.in" }, at);
+  tl.fromTo(q(sel), { x: -6 }, { x: 0, duration: 0.3, ease: "elastic.out(1.2,0.3)" }, at + 0.42);
+}
+function flow(sel, from, to, speed) {
+  q(sel).forEach((p, i) => {
+    const sp = Array.isArray(speed) ? speed[i % speed.length] : speed || 60;
+    tl.fromTo(p, { strokeDashoffset: 0 }, { strokeDashoffset: -sp * (to - from), duration: to - from, ease: "none" }, from);
+  });
+}
+function spinFans(from, to, rps) {
+  q(".fan").forEach((f, i) => {
+    const cx = f.dataset.cx, cy = f.dataset.cy, st = { d: i * 37 };
+    tl.fromTo(st, { d: i * 37 }, { d: i * 37 + 360 * (rps || 1.2) * (to - from), duration: to - from, ease: "none",
+      onUpdate: () => f.setAttribute("transform", `rotate(${st.d} ${cx} ${cy})`) }, from);
+  });
+}
+function breathe(sel, from, to, amp, period) {
+  const n = Math.max(0, Math.floor((to - from) / (period || 2.4)) - 1);
+  tl.fromTo(q(sel), { scale: 1, transformOrigin: "50% 50%" }, { scale: 1 + (amp || 0.04), duration: (period || 2.4) / 2, ease: "sine.inOut", yoyo: true, repeat: n * 2 + 1 }, from);
+}
+function strike(sel, at, dur) { tl.fromTo(q(sel), { scaleX: 0 }, { scaleX: 1, duration: dur || 0.45, ease: "power2.out" }, at); }
+function count(sel, at, from, to, dur, dec) {
+  const els = q(sel), st = { v: from };
+  const fmt = (v) => { const p = v.toFixed(dec || 0).split("."); return p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (p[1] ? "," + p[1] : ""); };
+  tl.fromTo(st, { v: from }, { v: to, duration: dur || 1, ease: "power2.out", onUpdate: () => els.forEach((e) => { e.textContent = fmt(st.v); }) }, at);
+}
+function pulse(sel, at, s) { tl.fromTo(q(sel), { scale: 1 }, { scale: s || 1.12, duration: 0.18, yoyo: true, repeat: 1, ease: "power2.out", transformOrigin: "50% 50%" }, at); }
+function write(sel, at, dur) { tl.fromTo(q(sel), { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: dur || 0.8, ease: "power1.inOut" }, at); }
+function exitAll(at) { tl.to(q(".stage"), { opacity: 0, y: -24, duration: 0.35, ease: "power2.in" }, at); }
+
+const D = 23.674;
+const K = {"cevap": 0.45, "L": 1.25, "prod": 0.45, "chips": [9.05, 10.05, 12.29], "st": [5.09, 14.29, 15.65], "res": 2.37, "cand": 19.05};
+
+
+tl.fromTo(q(".ans"), { y: -40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" }, K.cevap - 0.15);
+slam(".ans .L", K.L);
+pop(".ans .ck", K.L + 0.35, 0, "back.out(3)");
+
+tl.fromTo(q(".prod"), { x: -60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.55, ease: "expo.out" }, K.prod - 0.2);
+pop(".prod .ic", K.prod, 0, "back.out(2.2)");
+K.chips.forEach((t, i) => pop(".prod .cp.p" + i, t, 0, "back.out(2.6)"));
+pop(".ar.a0", K.st[0] - 0.4, 0, "back.out(2)");
+K.st.forEach((t, i) => tl.fromTo(q(".st.s" + i), { x: 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.5, ease: "expo.out" }, t - 0.2));
+pop(".ar.a1", K.res - 0.4, 0, "back.out(2)");
+tl.fromTo(q(".res"), { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.8)" }, K.res - 0.2);
+pulse(".res .cd0", K.res + 0.5, 1.1);
+tl.fromTo(q(".cd"), { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out", stagger: 0.1 }, K.cand);
+pop(".cd .mk", K.cand + 0.6, 0.1, "back.out(3)");
+
+exitAll(23.25);
+window.__timelines["s03"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>
