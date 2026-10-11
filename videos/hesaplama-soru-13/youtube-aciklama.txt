@@ -1,0 +1,28 @@
+BAŞLIK
+Dampinge Karşı Vergi Hesabı: Menşe mi, Yükleme Ülkesi mi? (Polyester Elyaf) | Vergi Hesaplama Dersi #13 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin on üçüncüsünde dampinge karşı vergiyi hesaplıyoruz: eşya Malezya'dan yüklenmiş ama menşei Çin. Önlem menşeye göre uygulanır, tutar net ağırlıkla çarpılır, damping KDV matrahına girer.
+
+Soru: D firması, Malezya'dan yüklenen ve menşe şahadetnamesine göre Çin menşeli polyester elyaf ithal ediyor; CIF kıymet 64.000 $, net 40.000 kg, brüt 41.500 kg. GV %4. Dampinge karşı vergi: Çin menşeli eşya için 0,30 $/kg, Malezya menşeli eşya için 0,45 $/kg. Tescilden sonra fabrikaya nakliye için 2.000 $ ödeniyor. KDV %20, 1 $ = 40 TL. Ödenecek GV + dampinge karşı vergi + KDV toplamı kaç TL?
+
+Şıklar: A) 1.210.880 TL · B) 1.226.880 TL · C) 1.232.480 TL · D) 1.233.920 TL · E) 1.498.880 TL
+
+BÖLÜMLER
+0:00 Giriş
+0:19 Soru ve şıklar
+1:33 Üç anahtar: menşe, net ağırlık, matrah
+2:00 Adım adım çözüm
+3:01 Tuzak şıklar
+3:36 Uyarı: önlem hangi ülkeye uygulanır?
+4:03 Koçun notu: menşe şahadetnamesine bak
+4:27 Özet
+
+Cevap: A — 1.210.880 TL. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+dampinge karşı vergi, anti damping, menşe şahadetnamesi, net ağırlık, KDV matrahı, polyester elyaf, gümrük vergisi hesaplama, gümrük müşavirliği sınavı, Gümrük Koçu
+
+#gümrük #damping #vergihesaplama #GümrükKoçu

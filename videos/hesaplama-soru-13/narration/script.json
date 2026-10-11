@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin on üçüncüsüne hoş geldiniz. Bugünün konusu dampinge karşı vergi. Eşya bir ülkeden yüklenmiş ama başka bir ülkenin malı. Hangi ülkenin önlemi uygulanır, hangi ağırlık esas alınır? Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. D firması, Malezya'dan yüklenen ve menşe şahadetnamesine göre Çin menşeli polyester elyaf ithal ediyor. CIF kıymet altmış dört bin dolar. Net ağırlık kırk bin, brüt ağırlık kırk bir bin beş yüz kilogram. Gümrük vergisi yüzde dört. Dampinge karşı vergi; Çin menşeli eşya için kilogram başına sıfır virgül otuz dolar, Malezya menşeli eşya için sıfır virgül kırk beş dolar. Tescilden sonra eşyanın fabrikaya nakli için iki bin dolar ödeniyor. KDV yüzde yirmi, kur kırk lira. Soru şu: Ödenecek gümrük vergisi, dampinge karşı vergi ve KDV toplamı kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, bir milyon iki yüz on bin sekiz yüz seksen lira. B şıkkı, bir milyon iki yüz yirmi altı bin sekiz yüz seksen lira. C şıkkı, bir milyon iki yüz otuz iki bin dört yüz seksen lira. D şıkkı, bir milyon iki yüz otuz üç bin dokuz yüz yirmi lira. E şıkkı, bir milyon dört yüz doksan sekiz bin sekiz yüz seksen lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Dampinge karşı vergi menşeye göre uygulanır; eşyanın yüklendiği ülkeye göre değil. İki: Kilogram başına verilen tutar, aksi belirtilmedikçe net ağırlık üzerinden hesaplanır. Üç: Dampinge karşı vergi gümrük vergisi matrahına girmez, ama KDV matrahına eklenir; tescilden sonraki giderler ise KDV matrahına girmez."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: gümrük vergisi. Altmış dört bin dolar çarpı yüzde dört: iki bin beş yüz altmış dolar. Dampinge karşı vergiyi bu matraha eklemiyoruz."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: dampinge karşı vergi. Eşya Malezya'dan gelse de menşei Çin; bu yüzden Çin oranı uygulanır: kilogram başına sıfır virgül otuz dolar. Net ağırlık kırk bin kilogram; çarpı sıfır virgül otuz, on iki bin dolar."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: KDV. KDV matrahı; altmış dört bin, artı iki bin beş yüz altmış, artı on iki bin: yetmiş sekiz bin beş yüz altmış dolar. Tescilden sonraki nakliye eklenmez. Yüzde yirmisi, on beş bin yedi yüz on iki dolar."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: iki bin beş yüz altmış gümrük vergisi, artı on iki bin dampinge karşı vergi, artı on beş bin yedi yüz on iki KDV; toplam otuz bin iki yüz yetmiş iki dolar. Kırk liradan, bir milyon iki yüz on bin sekiz yüz seksen lira. Doğru cevap: A şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. Tescilden sonraki nakliyeyi KDV matrahına ekleyen, B şıkkına, bir milyon iki yüz yirmi altı bin sekiz yüz seksene çıkar. Brüt ağırlığı kullanan, C şıkkına, bir milyon iki yüz otuz iki bin dört yüz seksene gider. Dampinge karşı vergiyi gümrük vergisi matrahına katan, D şıkkına, bir milyon iki yüz otuz üç bin dokuz yüz yirmiye ulaşır. Yükleme ülkesinin, yani Malezya'nın oranını uygulayan ise E şıkkına, bir milyon dört yüz doksan sekiz bin sekiz yüz seksene fırlar."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: Önlemin hangi ülkeye uygulandığını menşe şahadetnamesi gösterir. Eşya önlem olmayan bir ülkeden yüklenmiş olsa bile, menşei önlem konulan ülkeyse vergi alınır. Tersi de doğru: Önlem yalnızca yükleme ülkesine konulmuşsa ve eşyanın menşei başka bir ülkeyse, o önlem uygulanmaz. Bir de: Dampinge karşı vergi kıymetin yüzdesi olarak da, kilogram başına bir tutar olarak da konulabilir."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Dampinge karşı vergide önce menşe şahadetnamesine bakın, konşimentoya değil. Malın nereden geldiği değil, nerede üretildiği önemlidir. Kilogram başına tutar net ağırlıkla çarpılır. Formülü aklınızda tutun: Menşei belirle, gümrük vergisini hesapla, dampinge karşı vergiyi net ağırlıkla bul, KDV matrahına ekle, KDV'yi hesapla."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Gümrük vergisi iki bin beş yüz altmış, dampinge karşı vergi on iki bin, KDV on beş bin yedi yüz on iki dolar. Toplam, A şıkkı: bir milyon iki yüz on bin sekiz yüz seksen lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

@@ -1,0 +1,28 @@
+BAŞLIK
+Tarım Payı Hesabı: Bileşim Kodu, T1 / T2 ve 100 kg Net (Gofret) | Vergi Hesaplama Dersi #9 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin dokuzuncusunda tarım payını hesaplıyoruz: bileşim kodu, menşee göre T1 ya da T2 tutarı, 100 kg net ağırlık ve KDV matrahı. Küçük bir seçim sonucu değiştirir; brüt ağırlık ya da yanlış tutar seçen yanlış şıkka düşer.
+
+Soru: B firması, Malezya menşeli ve Malezya'dan gelen gofret ithal ediyor; CIF kıymet 24.000 €, net ağırlık 6.000 kg, brüt ağırlık 6.300 kg. Bileşim tablosuna göre tarım payı kodu 7225: T1 tutarı 100 kg başına 40 €, T2 tutarı 25 €. GV %8, KDV %10, 1 € = 45 TL. Ödenecek GV + tarım payı + KDV toplamı kaç TL?
+
+Şıklar: A) 277.290 TL · B) 311.040 TL · C) 321.840 TL · D) 327.780 TL · E) 331.344 TL
+
+BÖLÜMLER
+0:00 Giriş
+0:20 Soru ve şıklar
+1:22 Üç anahtar: menşe, net ağırlık, matrah
+1:47 Adım adım çözüm
+2:55 Tuzak şıklar
+3:25 Uyarı: bileşim kodu ve AB menşeli eşya
+3:48 Koçun notu: tarım payında 3 soru
+4:15 Özet
+
+Cevap: C — 321.840 TL. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+tarım payı, bileşim kodu, T1 T2 tutarı, net ağırlık, KDV matrahı, gofret ithalatı, gümrük vergisi hesaplama, gümrük müşavirliği sınavı, Gümrük Koçu
+
+#gümrük #tarımpayı #vergihesaplama #GümrükKoçu

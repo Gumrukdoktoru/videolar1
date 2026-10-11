@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin onuncusuna hoş geldiniz. Bugünün konusu alkollü içkilerde ÖTV: nispi vergi mi, asgari maktu vergi mi? Bira ile şarabın formülü aynı değil. Hangisi yüksekse o alınır. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. R firması aynı beyannameyle iki ürün ithal ediyor. Birincisi, otuz üç santilitrelik on iki bin kutu bira; alkol oranı yüzde beş. İkincisi, yetmiş beş santilitrelik dört bin şişe şarap; alkol oranı yüzde on üç. ÖTV'ye esas birim değer, kutu birada beş lira, şişe şarapta altmış lira. Nispi ÖTV oranı ikisinde de yüzde altmış üç. Asgari maktu vergi tutarı bira için iki virgül elli, şarap için yirmi beş lira. Soru şu: Ödenecek toplam ÖTV kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, yüz on iki bin sekiz yüz lira. B şıkkı, yüz yirmi dört bin beş yüz lira. C şıkkı, yüz seksen dokuz bin lira. D şıkkı, iki yüz bin yedi yüz lira. E şıkkı, üç yüz on üç bin beş yüz lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Nispi vergi ile asgari maktu vergi ayrı ayrı hesaplanır, hangisi yüksekse o alınır. İki: Birada asgari maktu vergi; litre çarpı alkol derecesi çarpı tutar. Şarapta ise yalnızca litre çarpı tutar; alkol derecesi çarpılmaz. Üç: Santilitreyi litreye çevirin; yüz santilitre, bir litredir."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: litreyi bulalım. Bira: sıfır virgül otuz üç litre çarpı on iki bin kutu, üç bin dokuz yüz altmış litre. Şarap: sıfır virgül yetmiş beş litre çarpı dört bin şişe, üç bin litre."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: bira. Nispi vergi; on iki bin kutu çarpı beş lira, altmış bin lira; yüzde altmış üçü, otuz yedi bin sekiz yüz lira. Asgari maktu vergi; üç bin dokuz yüz altmış litre, çarpı beş derece, çarpı iki virgül elli: kırk dokuz bin beş yüz lira. Asgari maktu daha yüksek; birada ödenecek ÖTV, kırk dokuz bin beş yüz lira."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: şarap. Nispi vergi; dört bin şişe çarpı altmış lira, iki yüz kırk bin lira; yüzde altmış üçü, yüz elli bir bin iki yüz lira. Asgari maktu vergi; üç bin litre çarpı yirmi beş lira: yetmiş beş bin lira. Şarapta alkol derecesi çarpılmaz. Bu kez nispi vergi daha yüksek; şarapta ödenecek ÖTV, yüz elli bir bin iki yüz lira."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: birada asgari maktu vergi, kırk dokuz bin beş yüz; şarapta nispi vergi, yüz elli bir bin iki yüz lira. Ödenecek toplam ÖTV, iki yüz bin yedi yüz lira. Doğru cevap: D şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. Her üründe düşük olanı alan, A şıkkına, yüz on iki bin sekiz yüze düşer. İki üründe de asgari maktu vergiyi alan, B şıkkına, yüz yirmi dört bin beş yüze iner. İki üründe de nispi vergiyi alan, C şıkkına, yüz seksen dokuz bine gider; birada alkol derecesini unutan da buraya düşer. Nispi ile asgari maktuyu toplayan ise E şıkkına, üç yüz on üç bin beş yüze çıkar."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: Asgari maktu formülü içkiye göre değişir. Birada litre çarpı derece çarpı tutar; şarapta litre çarpı tutar; viskide ise litre çarpı tutar çarpı alkol oranı, yani derece bölü yüz. Bir de: Sigarada nispi ile asgari maktudan yüksek olan alınır, üstüne ayrıca maktu vergi eklenir."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Alkollü içkide önce sorun: Bu hangi içki? Bira ise derece çarpılır, şarap ise çarpılmaz. Sonra iki vergiyi de hesaplayın ve yüksek olanı seçin; asla toplamayın. Formülü aklınızda tutun: Santilitreyi litreye çevir, nispi vergiyi bul, asgari maktuyu içkinin formülüyle bul, yüksek olanı seç, ürünleri topla."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Bira, asgari maktu ile kırk dokuz bin beş yüz; şarap, nispi ile yüz elli bir bin iki yüz lira. Toplam ÖTV, D şıkkı: iki yüz bin yedi yüz lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

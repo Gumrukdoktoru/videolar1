@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin dokuzuncusuna hoş geldiniz. Bugünün konusu tarım payı: bileşim kodu, te bir ya da te iki tutarı, net ağırlık ve KDV matrahı. Küçük bir seçim, sonucu değiştirir. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. B firması, Malezya menşeli ve Malezya'dan gelen gofret ithal ediyor. CIF kıymet yirmi dört bin avro. Net ağırlık altı bin kilogram, brüt ağırlık altı bin üç yüz kilogram. Bileşim tablosuna göre tarım payı kodu yedi bin iki yüz yirmi beş: te bir tutarı yüz kilogram başına kırk avro, te iki tutarı yirmi beş avro. Gümrük vergisi yüzde sekiz, KDV yüzde on, kur kırk beş lira. Soru şu: Ödenecek gümrük vergisi, tarım payı ve KDV toplamı kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, iki yüz yetmiş yedi bin iki yüz doksan lira. B şıkkı, üç yüz on bir bin kırk lira. C şıkkı, üç yüz yirmi bir bin sekiz yüz kırk lira. D şıkkı, üç yüz yirmi yedi bin yedi yüz seksen lira. E şıkkı, üç yüz otuz bir bin üç yüz kırk dört lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Tarım payı, bileşim tablosundaki koda göre bulunur; Avrupa Birliği menşeli eşyaya te iki, diğer ülkelere te bir tutarı uygulanır. İki: Tutar, her yüz kilogram net ağırlık için verilir; brüt ağırlık kullanılmaz. Üç: Tarım payı gümrük vergisi matrahına girmez, ama KDV matrahına eklenir."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: kıymet ve gümrük vergisi. Yirmi dört bin avro çarpı kırk beş: bir milyon seksen bin lira. Gümrük vergisi yüzde sekiz: seksen altı bin dört yüz lira. Tarım payını bu matraha katmıyoruz."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: tarım payı. Eşya Malezya menşeli, yani Avrupa Birliği dışından; te bir tutarı uygulanır: yüz kilogram başına kırk avro. Net ağırlık altı bin kilogram; yüze bölünce altmış birim. Altmış çarpı kırk: iki bin dört yüz avro. Kırk beşle çarpınca, yüz sekiz bin lira."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: KDV. KDV matrahı; bir milyon seksen bin kıymet, artı seksen altı bin dört yüz gümrük vergisi, artı yüz sekiz bin tarım payı: bir milyon iki yüz yetmiş dört bin dört yüz lira. Yüzde onu, yüz yirmi yedi bin dört yüz kırk lira."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: seksen altı bin dört yüz gümrük vergisi, artı yüz sekiz bin tarım payı, artı yüz yirmi yedi bin dört yüz kırk KDV. Ödenecek toplam, üç yüz yirmi bir bin sekiz yüz kırk lira. Doğru cevap: C şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. Avrupa Birliğine ait te iki tutarını kullanan, A şıkkına, iki yüz yetmiş yedi bin iki yüz doksana düşer. Tarım payını KDV matrahına eklemeyen, B şıkkına, üç yüz on bir bin kırka iner. Brüt ağırlığı kullanan, D şıkkına, üç yüz yirmi yedi bin yedi yüz seksene çıkar. Tarım payını gümrük vergisi matrahına da katan ise E şıkkına, üç yüz otuz bir bin üç yüz kırk dörde ulaşır."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: Bileşim kodunu bulmak için eşyanın süt yağı, süt proteini, nişasta ve şeker oranlarına bakılır; kod, bu oranlara göre tablodan seçilir. Bir de: Avrupa Birliği menşeli eşyada gümrük vergisi sıfır olsa bile, tarım payı te iki tutarıyla yine alınır. Tarım payı gümrük vergisi matrahına girmez; KDV matrahına eklenir."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Tarım payında üç soru sorun. Eşya nereli? Avrupa Birliği menşeliyse te iki, değilse te bir. Ağırlık net mi? Tutar her zaman yüz kilogram net içindir. Nereye girer? Gümrük vergisi matrahına değil, KDV matrahına. Formülü aklınızda tutun: Kıymeti bul, gümrük vergisini hesapla, bileşim kodunu bul, net ağırlığı yüze böl ve tutarla çarp, hepsini KDV matrahına ekle."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Gümrük vergisi seksen altı bin dört yüz, tarım payı yüz sekiz bin, KDV yüz yirmi yedi bin dört yüz kırk lira. Toplam, C şıkkı: üç yüz yirmi bir bin sekiz yüz kırk lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

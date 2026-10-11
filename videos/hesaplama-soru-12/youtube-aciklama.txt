@@ -1,0 +1,28 @@
+BAŞLIK
+Kısmi Muafiyetle Geçici İthalat: Aylık %3 ve Ay Kesri (Mobil Vinç) | Vergi Hesaplama Dersi #12 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin on ikincisinde kısmi muafiyetle geçici ithalatı hesaplıyoruz: önce serbest dolaşım vergileri, sonra her ay için vergilerin yüzde üçü; ay kesri tam ay sayılır.
+
+Soru: V firması, Çin'den kiraladığı bir mobil vinci kısmi muafiyet suretiyle geçici ithalat rejimine tabi tutuyor. Tescil tarihinde gümrük kıymeti 150.000 $, 1 $ = 40 TL; GV %5, İGV %10, KDV %20. Vinç rejimde 7 ay 12 gün kaldıktan sonra yeniden ihraç ediliyor. Rejim süresince ödenmesi gereken ithalat vergileri toplamı kaç TL?
+
+Şıklar: A) 216.000 TL · B) 478.800 TL · C) 504.000 TL · D) 506.160 TL · E) 547.200 TL
+
+BÖLÜMLER
+0:00 Giriş
+0:17 Soru ve şıklar
+1:14 Üç anahtar: serbest dolaşım vergileri, aylık %3, ay kesri
+1:36 Adım adım çözüm
+2:42 Tuzak şıklar
+3:12 Uyarı: sonradan serbest dolaşım ve tescil tarihi
+3:32 Koçun notu: üç şeyi karıştırma
+3:52 Özet
+
+Cevap: E — 547.200 TL. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+kısmi muafiyet, geçici ithalat, aylık yüzde üç, ay kesri, Gümrük Kanunu 130, mobil vinç, gümrük vergisi hesaplama, gümrük müşavirliği sınavı, Gümrük Koçu
+
+#gümrük #geçiciithalat #vergihesaplama #GümrükKoçu

@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin on birincisine hoş geldiniz. Bugünün konusu çevre katkı payı. Hurdada binde beş, yakıt ve atıkta yüzde bir. Matrah ise CIF bedel. Oranları karıştırırsanız sonuç değişir. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. Ç firması, Amerika'dan FOB teslim şekliyle, aynı beyannamede iki kalem eşya ithal ediyor. Birinci kalem, kontrole tabi demir çelik hurdası: FOB altı yüz bin dolar, navlun kırk beş bin, sigorta beş bin dolar; ayrıca Türkiye'deki boşaltma limanında yirmi bin dolar tahmil tahliye ödeniyor. İkinci kalem, kontrole tabi yakıt, petrol koku: FOB seksen bin, navlun on sekiz bin, sigorta iki bin dolar. Kur kırk lira. Soru şu: Ödenecek çevre katkı payı toplamı kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, yüz elli iki bin lira. B şıkkı, yüz yetmiş bin lira. C şıkkı, yüz yetmiş dört bin lira. D şıkkı, iki yüz seksen bin lira. E şıkkı, üç yüz bin lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Hurdalarda çevre katkı payı, CIF bedelin binde beşidir. İki: Kontrole tabi yakıt ve atıklarda oran, CIF bedelin yüzde biridir. Üç: Matrah CIF bedeldir; FOB teslimde navlun ve sigorta eklenir, Türkiye'deki liman giderleri eklenmez."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: CIF bedeller. Hurda: altı yüz bin, artı kırk beş bin, artı beş bin; altı yüz elli bin dolar. Türkiye'deki tahmil tahliye bu toplama girmez. Petrol koku: seksen bin, artı on sekiz bin, artı iki bin; yüz bin dolar."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: hurda. Altı yüz elli bin dolar çarpı binde beş: üç bin iki yüz elli dolar. Binde beş, yüzde sıfır virgül beş demektir; yüzde beşle karıştırmayın."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: petrol koku. Kontrole tabi yakıt olduğu için oran yüzde bir: yüz bin dolar çarpı yüzde bir, bin dolar. İki kalemin toplamı: üç bin iki yüz elli artı bin, dört bin iki yüz elli dolar. Kur kırkla çarpınca: yüz yetmiş bin lira."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: hurdada binde beşle üç bin iki yüz elli dolar, petrol kokunda yüzde birle bin dolar; toplam dört bin iki yüz elli dolar. Kırk liradan, ödenecek çevre katkı payı yüz yetmiş bin lira. Doğru cevap: B şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. Navlun ve sigortayı eklemeyip FOB üzerinden hesaplayan, A şıkkına, yüz elli iki bine düşer. Türkiye'deki tahmil tahliyeyi hurdanın matrahına katan, C şıkkına, yüz yetmiş dört bine çıkar. Oranları ters uygulayan, D şıkkına, iki yüz seksen bine gider. İkisine de yüzde bir uygulayan ise E şıkkına, üç yüz bine ulaşır."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: Çevre katkı payı her eşyada alınmaz. Yalnızca ithaline izin verilen, kontrole tabi hurda, atık ve yakıtta alınır; yetkili kurum Çevre ve Şehircilik Bakanlığıdır. Bir de: Oran binde beş ya da yüzde bir; ama matrah her zaman CIF bedeldir, FOB değil."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Çevre katkı payında iki soru sorun. Eşya hurda mı? Binde beş. Yakıt ya da atık mı? Yüzde bir. Sonra matrahı CIF'e tamamlayın: FOB ise navlun ve sigortayı ekleyin. Formülü aklınızda tutun: Kalemleri ayır, CIF bedeli bul, oranı seç, kalemleri topla, kurla çarp."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Hurda için binde beşle üç bin iki yüz elli dolar, petrol koku için yüzde birle bin dolar. Toplam çevre katkı payı, B şıkkı: yüz yetmiş bin lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="tr">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+        #chrome { position:absolute; inset:0; pointer-events:none; }
+
+      </style>
+      <div id="chrome" data-composition-id="chrome" data-width="1920" data-height="1080" data-duration="508.57">
+
+<div id="sweep"></div>
+<div id="topbar"><div class="logo"><img src="assets/img/logo-crop.png" alt="Ufuk Çetintaş Gümrük Eğitim Koçu" /></div>
+  <div class="meta">DERS · <b>TARİFE #11</b> · 5 SORU · BÖLÜM XII · XV · XVI</div></div>
+<div id="chap-01" class="chap clip" data-start="0.0" data-duration="23.309" data-track-index="1"><div class="cp"><b>01/8</b>GİRİŞ</div></div>
+<div id="chap-02" class="chap clip" data-start="23.309" data-duration="95.913" data-track-index="1"><div class="cp"><b>02/8</b>SORU 1 · POZİSYON SIRASI</div></div>
+<div id="chap-03" class="chap clip" data-start="119.222" data-duration="86.795" data-track-index="1"><div class="cp"><b>03/8</b>SORU 2 · BORU BAĞLANTISI</div></div>
+<div id="chap-04" class="chap clip" data-start="206.017" data-duration="79.194" data-track-index="1"><div class="cp"><b>04/8</b>SORU 3 · ADİ METALLER</div></div>
+<div id="chap-05" class="chap clip" data-start="285.211" data-duration="87.527" data-track-index="1"><div class="cp"><b>05/8</b>SORU 4 · FÜNİKÜLER</div></div>
+<div id="chap-06" class="chap clip" data-start="372.738" data-duration="86.587" data-track-index="1"><div class="cp"><b>06/8</b>SORU 5 · MANYETİK AYNA</div></div>
+<div id="chap-07" class="chap clip" data-start="459.325" data-duration="24.641" data-track-index="1"><div class="cp"><b>07/8</b>KOÇUN NOTU</div></div>
+<div id="chap-08" class="chap clip" data-start="483.966" data-duration="24.609" data-track-index="1"><div class="cp"><b>08/8</b>CEVAP ANAHTARI</div></div>
+<div id="progress"><div class="fill"></div><i class="tick" style="left:88.0px"></i><i class="tick" style="left:450.1px"></i><i class="tick" style="left:777.8px"></i><i class="tick" style="left:1076.8px"></i><i class="tick" style="left:1407.2px"></i><i class="tick" style="left:1734.1px"></i><i class="tick" style="left:1827.1px"></i></div>
+
+      </div>
+      <script>
+(() => {
+  const tl = gsap.timeline({ paused: true });
+
+  const TOTAL = 508.57;
+  tl.fromTo("#topbar .logo", { y: -90 }, { y: 0, duration: 0.6, ease: "back.out(1.5)" }, 0.4);
+  tl.fromTo("#topbar .meta", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.7);
+  tl.fromTo("#progress .fill", { scaleX: 0 }, { scaleX: 1, duration: TOTAL, ease: "none" }, 0);
+  const CH = [0.0, 23.309, 119.222, 206.017, 285.211, 372.738, 459.325, 483.966];
+  document.querySelectorAll("#chrome .chap .cp").forEach((c, i) => {
+    tl.fromTo(c, { y: -70, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "back.out(1.7)" }, CH[i] + 0.15);
+  });
+  [23.309, 68.582, 90.584, 119.222, 156.109, 180.175, 206.017, 234.179, 257.305, 285.211, 318.885, 344.414, 372.738, 405.707, 432.594, 459.325, 483.966].forEach((t) => {
+    tl.fromTo("#sweep", { x: 420 }, { x: 1760, duration: 0.55, ease: "power2.inOut", immediateRender: false }, t - 0.3);
+    tl.fromTo("#sweep", { opacity: 0 }, { keyframes: [{ opacity: 1, duration: 0.22 }, { opacity: 0, duration: 0.33 }], immediateRender: false }, t - 0.3);
+  });
+
+  window.__timelines["chrome"] = tl;
+})();
+      </script>
+    </template>
+  </body>
+</html>

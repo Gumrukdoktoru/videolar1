@@ -1,0 +1,97 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin on birincisine hoş geldiniz. Bugün bu kez beş soru var: pozisyon sırası, boru bağlantı parçaları, diğer adi metaller, teleferik ve füniküler, son olarak da manyetik aynalar. Ekip hazır: Stajyer, Yardımcı, Gümrükçü Baba ve Cano. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru 1",
+  "text": "Birinci soru. Aşağıdakilerden hangisinde eşyalar, tarife cetvelindeki pozisyon numaralarına göre küçükten büyüğe doğru sıralanmıştır? A şıkkı: Deri saplı kamçı, plastik baret, yağmur şemsiyesi, sentetik peruk. B şıkkı: Plastik baret, deri saplı kamçı, yağmur şemsiyesi, sentetik peruk. C şıkkı: Sentetik peruk, plastik baret, yağmur şemsiyesi, deri saplı kamçı. D şıkkı: Plastik baret, yağmur şemsiyesi, deri saplı kamçı, sentetik peruk. E şıkkı: Yağmur şemsiyesi, deri saplı kamçı, sentetik peruk, plastik baret. [short pause] Üç saniye, düşünün!",
+  "hold": 3.6
+ },
+ {
+  "id": "s03",
+  "title": "Çözüm 1",
+  "text": "Cevap: D şıkkı. Plastik baret bir koruyucu başlıktır: altmış beş sıfır altı. Yağmur şemsiyesi altmış altı sıfır bir. Kamçı, deri saplı olsa da bastonlarla birlikte altmış altı sıfır iki. Sentetik peruk ise altmış yedi sıfır dört. Diğer şıklarda kamçı, şemsiye, peruk ya da baret yanlış yerde."
+ },
+ {
+  "id": "s04",
+  "title": "Tuzak 1",
+  "text": "[cautiously] Tuzak nerede? Cano, kamçının sapı deri diye onu saraciye eşyası sandı ve A şıkkını seçti. Hayır! Kırk ikinci faslın notları kamçı ve kırbaçları fasıl dışında bırakır; kamçı, malzemesi ne olursa olsun altmış altı sıfır ikidedir. Bir de dikkat: Plastikten olsa da baret otuz dokuzuncu fasla girmez; Fasıl otuz dokuzun ikinci notu, on ikinci bölümün başlıklarını dışarıda bırakır. Kısa yol: Malzemeye değil, eşyaya bakın."
+ },
+ {
+  "id": "s05",
+  "title": "Soru 2",
+  "text": "İkinci soru. Demir veya çelikten yapılmış aşağıdaki eşyadan hangisi yetmiş üç sıfır yedi pozisyonunda, yani boru bağlantı parçaları arasında sınıflandırılmaz? A şıkkı: Uç uca kaynak yapılacak dirsek. B şıkkı: Esnek hortumu sıkarak sabitleyen hortum kelepçesi. C şıkkı: Boruyu bir cihaza bağlayan flanş. D şıkkı: İki farklı çaptaki boruyu birleştiren redüksiyon. E şıkkı: Borunun açık ucunu kapatan kör tapa. [short pause] Üç saniye, düşünün!",
+  "hold": 3.6
+ },
+ {
+  "id": "s06",
+  "title": "Çözüm 2",
+  "text": "Cevap: B şıkkı. Yetmiş üç sıfır yedinin açıklama notu, bu pozisyonu iki boruyu birleştiren, boruyu bir cihaza bağlayan ya da borunun ucunu kapatan parçalarla sınırlar. Hortum kelepçesi boru çapıyla birleşmez; esnek hortumu sıkıştırıp sabitler. Bu yüzden yetmiş üç yirmi altıda yer alır. Dirsek, flanş, redüksiyon ve kör tapa ise yetmiş üç sıfır yedidedir."
+ },
+ {
+  "id": "s07",
+  "title": "Tuzak 2",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, kör tapa iki boruyu birbirine bağlamıyor diye E şıkkını seçti. Hayır! Açıklama notu, borunun açık ucunu kapatan parçaları da yetmiş üç sıfır yediye dahil eder; kör tapa bir boru bağlantı parçasıdır. Bir de dikkat: Boruyu duvara tutturan kanca ve destekler de yetmiş üç sıfır yedide değildir. Gümrükçü Baba'nın kısa yolu: Parça boruyla bütünleşiyor mu?"
+ },
+ {
+  "id": "s08",
+  "title": "Soru 3",
+  "text": "Üçüncü soru. Aşağıdaki adi metallerden hangisi için Armonize Sistemde ayrı bir fasıl açılmamıştır; bu metal ve ondan eşya seksen birinci fasılda, diğer adi metaller arasında yer alır? A şıkkı: Nikel. B şıkkı: Kurşun. C şıkkı: Çinko. D şıkkı: Kalay. E şıkkı: Kobalt. [short pause] Üç saniye, düşünün!",
+  "hold": 3.6
+ },
+ {
+  "id": "s09",
+  "title": "Çözüm 3",
+  "text": "Cevap: E şıkkı. On beşinci bölümde kendi adını taşıyan fasıllar bakır, nikel, alüminyum, kurşun, çinko ve kalaydır. Diğer adi metallerin hepsi tek bir fasılda, seksen birinci fasılda toplanır: tungsten, molibden, magnezyum, kobalt, titanyum gibi. Kobalt ve kobalttan eşya, seksen bir sıfır beş pozisyonunda yer alır."
+ },
+ {
+  "id": "s10",
+  "title": "Tuzak 3",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, nikel ile kobalt cevherde ve matlarda hep birlikte anıldığı için kobaltın da ayrı bir faslı olduğunu düşündü ve A şıkkını seçti. Hayır! Nikelin yetmiş beşinci fasılda kendi faslı var; kobaltın yok, kobalt seksen birinci fasıldadır. Bir de dikkat: Yetmiş yedinci fasıl boştur; Armonize Sistemde ileride kullanılmak üzere ayrılmıştır. Kısa yol: Altı metalin kendi faslı var, gerisi seksen bir."
+ },
+ {
+  "id": "s11",
+  "title": "Soru 4",
+  "text": "Dördüncü soru. Aşağıdakilerden hangisi seksen dört yirmi sekiz pozisyonunda sınıflandırılmaz? A şıkkı: Füniküler hattında kullanılan, kendinden hareketli olmayan yolcu vagonu. B şıkkı: Kayak merkezinde kullanılan telesiyej. C şıkkı: Kayakçıları yamaç boyunca çeken teleski. D şıkkı: Füniküler hattının çekiş mekanizması ve bucurgatı. E şıkkı: Alışveriş merkezinde kullanılan yürüyen merdiven. [short pause] Üç saniye, düşünün!",
+  "hold": 3.6
+ },
+ {
+  "id": "s12",
+  "title": "Çözüm 4",
+  "text": "Cevap: A şıkkı. Seksen dört yirmi sekiz, kaldırma ve taşıma makinelerini kapsar. Teleferikler, telesiyejler, teleskiler ve fünikülerlerin çekiş mekanizmaları seksen dört yirmi sekiz altmışta; yürüyen merdivenler seksen dört yirmi sekiz kırktadır. Ama açıklama notuna göre fünikülerde yalnız çekme mekanizması ve bucurgat bu pozisyondadır; vagonlar seksen altı sıfır beşte sınıflandırılır."
+ },
+ {
+  "id": "s13",
+  "title": "Tuzak 4",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, kayak merkezi deyince spor eşyası diye düşündü; telesiyejin seksen dört yirmi sekizde olmadığını sanıp B şıkkını seçti. Hayır! Telesiyej ve teleski insanları taşıyan birer makinedir; spor malzemesi değildir, seksen dört yirmi sekizdedir. Bir de dikkat: Füniküler hattının rayları ve teçhizatı yetmiş üç sıfır iki ya da seksen altı sıfır sekizde yer alır. Kısa yol: Vagon taşıttır, çekiş makinedir."
+ },
+ {
+  "id": "s14",
+  "title": "Soru 5",
+  "text": "Beşinci soru. Bir torna tezgâhında iş parçasını mıknatıs gücüyle tutmaya yarayan elektromanyetik torna aynası, tezgâhtan ayrı olarak ithal ediliyor. Bu eşya hangi tarife pozisyonunda sınıflandırılır? A şıkkı: seksen dört elli sekiz. B şıkkı: seksen dört altmış altı. C şıkkı: seksen beş sıfır beş. D şıkkı: seksen beş otuz altı. E şıkkı: seksen beş kırk üç. [short pause] Üç saniye, düşünün!",
+  "hold": 3.6
+ },
+ {
+  "id": "s15",
+  "title": "Çözüm 5",
+  "text": "Cevap: C şıkkı. Seksen beş sıfır beşin pozisyon metni, elektromanyetik veya daimi mıknatıslı aynaları, kıskaçları ve benzeri tespit tertibatını adıyla sayar. Seksen dört altmış altı, tezgâhların iş tutucularını ve aynalarını kapsasa da açıklama notu, manyetik torna aynası gibi elektrikli aksamı bu pozisyon dışında bırakıp seksen beşinci fasla gönderir. Doğru pozisyon: seksen beş sıfır beş."
+ },
+ {
+  "id": "s16",
+  "title": "Tuzak 5",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, torna aynası tezgâhın aksesuarıdır diye B şıkkını, seksen dört altmış altıyı seçti. Hayır! Mekanik aynalar seksen dört altmış altıdadır; ama mıknatıs gücüyle çalışan elektromanyetik aynalar adıyla seksen beş sıfır beşte sayılır. Bir de dikkat: Elektromanyetik kavramalar, kaplinler ve frenler de seksen beş sıfır beştedir. Gümrükçü Baba'nın kısa yolu: Mıknatısla mı tutuyor?"
+ },
+ {
+  "id": "s17",
+  "title": "Koçun Notu",
+  "text": "[warmly] Koçun notu: Bugünün üç kuralı. Bir: Malzemeye değil, eşyaya bakın; baret altmış beş, kamçı altmış altı, peruk altmış yedi. İki: Fasıl notunu ve açıklama notunu okuyun; kobalt seksen bir sıfır beş, hortum kelepçesi yetmiş üç yirmi altı. Üç: Makinede işleve bakın; füniküler vagonu taşıttır, manyetik ayna seksen beş sıfır beştir."
+ },
+ {
+  "id": "s18",
+  "title": "Cevap Anahtarı",
+  "text": "Bugünün cevap anahtarı: Birinci soru D, ikinci soru B, üçüncü soru E, dördüncü soru A, beşinci soru C. Kaç tanesini bildiniz? Yorumlara yazın. Böylece tarife derslerinin on birincisini de tamamladık. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki derste görüşmek üzere. Hoşça kalın!"
+ }
+]

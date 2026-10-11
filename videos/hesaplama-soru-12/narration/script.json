@@ -1,0 +1,63 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla vergi hesaplama derslerinin on ikincisine hoş geldiniz. Bugünün konusu kısmi muafiyetle geçici ithalat. Her ay için yüzde üç; ama neyin yüzde üçü? Bir de ay kesirleri var. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru",
+  "text": "Önce soruyu okuyalım. V firması, Çin'den kiraladığı bir mobil vinci kısmi muafiyet suretiyle geçici ithalat rejimine tabi tutuyor. Beyannamenin tescil tarihinde gümrük kıymeti yüz elli bin dolar, kur kırk lira. Aynı tarihte gümrük vergisi yüzde beş, ilave gümrük vergisi yüzde on, KDV yüzde yirmi. Vinç, rejimde yedi ay on iki gün kaldıktan sonra yeniden ihraç ediliyor. Soru şu: Rejim süresince ödenmesi gereken ithalat vergileri toplamı kaç Türk lirasıdır?"
+ },
+ {
+  "id": "s03",
+  "title": "Şıklar",
+  "text": "Şıklarımız şöyle. A şıkkı, iki yüz on altı bin lira. B şıkkı, dört yüz yetmiş sekiz bin sekiz yüz lira. C şıkkı, beş yüz dört bin lira. D şıkkı, beş yüz altı bin yüz altmış lira. E şıkkı, beş yüz kırk yedi bin iki yüz lira. [short pause] Videoyu durdurun ve önce kendiniz çözün.",
+  "hold": 5.2
+ },
+ {
+  "id": "s04",
+  "title": "Anahtar kural",
+  "text": "[seriously] Hazırsanız başlayalım. Bu sorunun üç anahtarı var. Bir: Önce eşya serbest dolaşıma girseydi alınacak vergileri hesaplayın; tescil tarihindeki oranlar ve kurla. İki: Her ay için bu vergiler toplamının yüzde üçü alınır; kıymetin değil, vergilerin yüzde üçü. Üç: Bir aydan az süreler tam ay sayılır."
+ },
+ {
+  "id": "s05",
+  "title": "Adım 1",
+  "text": "Birinci adım: serbest dolaşıma girseydi alınacak vergiler. Kıymet; yüz elli bin çarpı kırk, altı milyon lira. Gümrük vergisi yüzde beş, üç yüz bin; ilave gümrük vergisi yüzde on, altı yüz bin lira. KDV matrahı; altı milyon artı üç yüz bin artı altı yüz bin, altı milyon dokuz yüz bin. Yüzde yirmisi, bir milyon üç yüz seksen bin lira. Toplam vergi: iki milyon iki yüz seksen bin lira."
+ },
+ {
+  "id": "s06",
+  "title": "Adım 2",
+  "text": "İkinci adım: aylık tutar. Her ay için, vergiler toplamının yüzde üçü alınır: iki milyon iki yüz seksen bin çarpı yüzde üç, altmış sekiz bin dört yüz lira."
+ },
+ {
+  "id": "s07",
+  "title": "Adım 3",
+  "text": "Üçüncü adım: süre. Vinç yedi ay on iki gün rejimde kaldı. Bir aydan az süreler tam ay sayıldığı için, on iki gün bir ay olur; toplam sekiz ay. Altmış sekiz bin dört yüz çarpı sekiz: beş yüz kırk yedi bin iki yüz lira."
+ },
+ {
+  "id": "s08",
+  "title": "Sonuç",
+  "text": "Ve sonuç: Aylık altmış sekiz bin dört yüz lira, sekiz ay boyunca. Rejim süresince ödenecek toplam, beş yüz kırk yedi bin iki yüz lira. Doğru cevap: E şıkkı!"
+ },
+ {
+  "id": "s09",
+  "title": "Tuzaklar",
+  "text": "[cautiously] Şimdi tuzaklara bakalım; her yanlış şık, bir hatanın sonucu. KDV'yi hesaba katmayan, A şıkkına, iki yüz on altı bine düşer. On iki günü atıp yedi ay sayan, B şıkkına, dört yüz yetmiş sekiz bin sekiz yüze iner. KDV matrahına gümrük vergisini ve ilave gümrük vergisini eklemeyen, C şıkkına, beş yüz dört bine gider. Gün kesrini oranlayıp yedi virgül dört ay sayan ise D şıkkına, beş yüz altı bin yüz altmışa ulaşır."
+ },
+ {
+  "id": "s10",
+  "title": "Uyarı",
+  "text": "[seriously] Bir uyarı daha: Eşya sonradan serbest dolaşıma sokulursa vergiler yeniden hesaplanır ve kısmi muafiyetle daha önce ödenen tutar bu vergilerden düşülür. Bir de: Aylık tutar, geçici ithalat beyannamesinin tescil tarihindeki oranlar ve kurla bulunur; sonradan oran değişse de bu tutar değişmez."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun notu",
+  "text": "[warmly] Koçun notu: Kısmi muafiyette üç şeyi karıştırmayın. Yüzde üç kıymetin değil, vergilerin. Oran her ay için. Ve ay kesri tam aydır. Formülü aklınızda tutun: Kıymeti bul, serbest dolaşım vergilerini hesapla, toplamın yüzde üçünü al, ay sayısını yukarı yuvarla, ikisini çarp."
+ },
+ {
+  "id": "s12",
+  "title": "Kapanış",
+  "text": "Özetle: Vergiler toplamı iki milyon iki yüz seksen bin, aylık tutar altmış sekiz bin dört yüz, süre sekiz ay. Toplam, E şıkkı: beş yüz kırk yedi bin iki yüz lira. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki hesaplama dersinde görüşmek üzere, hoşça kalın!"
+ }
+]

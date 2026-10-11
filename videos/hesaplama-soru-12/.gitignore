@@ -1,0 +1,8 @@
+tools/__pycache__/
+snapshots/
+.hyperframes/
+renders/work-*/
+renders/.*
+renders/hesaplama-soru-12.mp4
+renders/hesaplama-soru-12-onizleme.mp4
+narration/tx/*.log

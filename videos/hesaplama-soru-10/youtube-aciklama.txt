@@ -1,0 +1,28 @@
+BAŞLIK
+ÖTV Hesabı: Bira ve Şarapta Nispi Vergi mi, Asgari Maktu mu? | Vergi Hesaplama Dersi #10 | Gümrük Koçu
+
+AÇIKLAMA
+Vergi hesaplama derslerinin onuncusunda alkollü içkilerde ÖTV hesaplıyoruz: aynı beyannamede bira ve şarap. Nispi vergi ile asgari maktu vergi ayrı ayrı hesaplanır, yüksek olan alınır; ama formül içkiye göre değişir.
+
+Soru: R firması aynı beyannameyle iki ürün ithal ediyor: 33 cl'lik 12.000 kutu bira (alkol %5, ÖTV'ye esas birim değer kutu başına 5 TL) ve 75 cl'lik 4.000 şişe şarap (alkol %13, şişe başına 60 TL). Nispi ÖTV oranı ikisinde de %63; asgari maktu vergi tutarı bira için 2,50 TL, şarap için 25 TL. Ödenecek toplam ÖTV kaç TL?
+
+Şıklar: A) 112.800 TL · B) 124.500 TL · C) 189.000 TL · D) 200.700 TL · E) 313.500 TL
+
+BÖLÜMLER
+0:00 Giriş
+0:20 Soru ve şıklar
+1:21 Üç anahtar: yüksek olan, içkiye göre formül, cl → litre
+1:47 Adım adım çözüm
+3:05 Tuzak şıklar
+3:34 Uyarı: asgari maktu formülü içkiye göre değişir
+3:56 Koçun notu: bu hangi içki?
+4:18 Özet
+
+Cevap: D — 200.700 TL. Siz kaçta buldunuz? Yorumlara yazın!
+
+Videodaki soru eğitim amaçlı hazırlanmış özgün bir örnektir. Somut işlemlerde güncel mevzuat ve vergi oranları esas alınmalıdır.
+
+ETİKETLER
+ÖTV, özel tüketim vergisi, III sayılı liste, asgari maktu vergi, nispi vergi, bira ÖTV, şarap ÖTV, alkollü içki ithalatı, gümrük müşavirliği sınavı, Gümrük Koçu
+
+#gümrük #ÖTV #vergihesaplama #GümrükKoçu
