@@ -44,7 +44,7 @@ export const LedBug: React.FC = () => (
   <>
     <Img
       src={staticFile("logo/logo-canli-dark.svg")}
-      style={{ position: "absolute", left: 36, top: 28, width: 150 }}
+      style={{ position: "absolute", left: 38, top: 30, width: 190 }}
     />
     <div
       style={{

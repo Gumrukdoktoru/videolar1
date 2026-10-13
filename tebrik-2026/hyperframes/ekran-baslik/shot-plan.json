@@ -72,7 +72,7 @@
         "text": "2026 / GÜMRÜK SINAVLARI / HAZIRLIK MARATONU + track + TAMAMLANDI",
         "emphasis_words": ["2026", "TAMAMLANDI"],
         "emotion": "Build -> Punch (completion)",
-        "motion": "'2026' 168 px orange digits rise with 0.035 s stagger (expo.out); GÜMRÜK/SINAVLARI/HAZIRLIK/MARATONU 94 px white 800 rise on onsets; track groove draws in 4.2-4.5; orange fill scaleX 0->1 + glowing runner knob 4.5-6.0 (sine.inOut) with %0->%100 counter; finish flag pops at 6.0; stamp slams 5.90->6.04 (scale 2.2->1, rotation -16->-6, power3.in) + shake + shock ring + tick draw",
+        "motion": "'2026' 160 px orange digits rise with 0.035 s stagger (expo.out); GÜMRÜK/SINAVLARI/HAZIRLIK/MARATONU 94 px white 800 rise on onsets; track groove draws in 4.2-4.5; orange fill scaleX 0->1 + glowing runner knob 4.5-6.0 (sine.inOut) with %0->%100 counter; finish flag pops at 6.0; stamp slams 5.90->6.04 (scale 2.2->1, rotation -16->-6, power3.in) + shake + shock ring + tick draw",
         "beats": [2.8, 3.2, 4.04, 4.52, 4.96, 5.9, 6.0]
       },
       {
@@ -100,7 +100,7 @@
       "safe_margin_px": 60,
       "logo_bug": { "src": "assets/logo-canli-dark.svg", "x": 60, "y": 56, "w": 220 },
       "content_column": "left-anchored at x=60, vertically centred in y 170-690 (below the logo bug)",
-      "type_scale": { "s1_lines": "118px/900", "s1_punch": "156px/900 orange", "s2_year": "168px/900 orange", "s2_lines": "94px/800", "track_counter": "44px/800", "stamp": "52px/900 white on orange pill", "s3_small": "46px/600 white 70%", "s3_hero": "128px/900", "s3_icinde": "68px/800", "s3_final": "96px/900 orange" }
+      "type_scale": { "s1_lines": "118px/900", "s1_punch": "156px/900 orange", "s2_year": "160px/900 orange", "s2_lines": "94px/800", "track_counter": "44px/800", "stamp": "52px/900 white on orange pill", "s3_small": "46px/600 white 70%", "s3_hero": "128px/900", "s3_icinde": "68px/800", "s3_final": "96px/900 orange" }
     }
   },
   "brief": "Kinetic-type title on a studio LED wall. The screen powers on with a horizontal light line, then three spoken lines build word-by-word exactly on the voice onsets: a heavy white three-line headline punching into orange 'SON GÜNÜ!', an orange '2026' over the exam-marathon lines with a race track filling to 100% and a 'TAMAMLANDI' stamp slamming onto the finish, and a closing hero 'BİRLİK VE BERABERLİK' with an orange underline sweep resolving into orange 'GERİDE BIRAKIYORUZ'. Dominant motif: words rising out of masks on the beat; one pattern interrupt per scene (scale punch, stamp slam, underline sweep); transitions vary (orange wipe, scan refresh)."
