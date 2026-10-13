@@ -1,0 +1,701 @@
+<!doctype html>
+<!--
+  ekran-baslik — LED video-wall title (1280x750, 30 fps, 11.13 s)
+  Mounted by ../index.html. Kinetic-type: three spoken lines, word onsets from
+  remotion/public/altyazi.json. Reused catalog recipes: yt-screen-warp (LED
+  texture), directional-wipe (scene push), headline-slam (impact shake),
+  success-check (tick draw).
+-->
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ekran Başlık — LED duvar</title>
+  </head>
+  <body>
+    <template>
+      <style>
+      /* Montserrat static instances (latin + latin-ext: İ Ş Ğ Ü Ö Ç), shipped locally. */
+      @font-face {
+        font-family: "MontserratTR";
+        src: url("../assets/fonts/montserrat-600.woff2") format("woff2");
+        font-weight: 600;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "MontserratTR";
+        src: url("../assets/fonts/montserrat-800.woff2") format("woff2");
+        font-weight: 800;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "MontserratTR";
+        src: url("../assets/fonts/montserrat-900.woff2") format("woff2");
+        font-weight: 900;
+        font-style: normal;
+        font-display: block;
+      }
+
+      :root {
+        --orange: #f16d25;
+        --orange-hot: #ffd9c2;
+        --anthracite: #414141;
+        --white: #ffffff;
+        --white-70: rgba(255, 255, 255, 0.7);
+        --white-85: rgba(255, 255, 255, 0.85);
+        --navy-0: #070b1f;
+        --navy-mid: #0c1230;
+        --navy-1: #121a3d;
+        --orange-glow: rgba(241, 109, 37, 0.85);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #root {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: #000;
+        color: var(--white);
+        font-family: "MontserratTR", sans-serif;
+      }
+      .clip {
+        position: absolute;
+        inset: 0;
+      }
+
+      /* ---------- LED screen ---------- */
+      #screen {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: linear-gradient(160deg, var(--navy-0) 0%, var(--navy-mid) 48%, var(--navy-1) 100%);
+      }
+      .glow-wrap {
+        position: absolute;
+        pointer-events: none;
+      }
+      #glow-warm-wrap {
+        left: -230px;
+        top: 90px;
+        width: 1060px;
+        height: 1060px;
+      }
+      #glow-warm {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle at 50% 50%,
+          rgba(241, 109, 37, 0.3) 0%,
+          rgba(241, 109, 37, 0.13) 32%,
+          rgba(241, 109, 37, 0.04) 52%,
+          rgba(241, 109, 37, 0) 68%
+        );
+      }
+      #glow-cool {
+        position: absolute;
+        right: -260px;
+        top: -330px;
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(70, 98, 214, 0.2) 0%, rgba(70, 98, 214, 0) 64%);
+        pointer-events: none;
+      }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+      }
+      .scene-content {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 170px 60px 60px 60px;
+      }
+
+      /* word masks: padding + negative margin keeps layout while giving the
+         Turkish diacritics (Ü dots, İ dot, Ğ breve, Ç/Ş cedilla) room. */
+      .line {
+        display: block;
+        width: max-content;
+        max-width: 100%;
+        white-space: nowrap;
+        line-height: 1;
+      }
+      .w {
+        display: inline-block;
+        overflow: clip;
+        padding: 0.18em 0.05em 0.14em;
+        margin: -0.18em -0.05em -0.14em;
+        vertical-align: baseline;
+      }
+      .wi {
+        display: inline-block;
+      }
+
+      /* ---------- scene 1 ---------- */
+      .s1-line {
+        font-size: 118px;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        line-height: 1.04;
+      }
+      #s1-l3 {
+        margin-top: 10px;
+        font-size: 156px;
+        line-height: 1;
+        color: var(--orange);
+        transform-origin: 0% 60%;
+      }
+
+      /* ---------- scene 2 ---------- */
+      #s2-year {
+        font-size: 160px;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        line-height: 0.92;
+        color: var(--orange);
+        font-variant-numeric: tabular-nums;
+      }
+      .s2-line {
+        font-size: 94px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        line-height: 1.04;
+      }
+      #s2-l1 {
+        margin-top: 14px;
+      }
+      #race {
+        position: relative;
+        width: 1160px;
+        height: 132px;
+        margin-top: 18px;
+        flex: 0 0 auto;
+      }
+      #race-track {
+        position: absolute;
+        left: 0;
+        top: 58px;
+        width: 1092px;
+        height: 20px;
+      }
+      #race-groove {
+        position: absolute;
+        inset: 0;
+        border-radius: 10px;
+        background:
+          repeating-linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.22) 0 18px,
+            rgba(255, 255, 255, 0) 18px 34px
+          )
+          center / 100% 2px no-repeat,
+          var(--anthracite);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+        transform-origin: 0% 50%;
+      }
+      #race-fill {
+        position: absolute;
+        inset: 0;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #b9480f 0%, var(--orange) 62%, #ff9a5c 100%);
+        box-shadow: 0 0 22px rgba(241, 109, 37, 0.55);
+        transform-origin: 0% 50%;
+      }
+      #race-knob {
+        position: absolute;
+        left: -17px;
+        top: -7px;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--white);
+        border: 6px solid var(--orange);
+        box-shadow:
+          0 0 0 4px rgba(241, 109, 37, 0.25),
+          0 0 26px 6px rgba(241, 109, 37, 0.6);
+      }
+      #race-flag {
+        position: absolute;
+        left: 1100px;
+        top: 0;
+        width: 60px;
+        height: 80px;
+        transform-origin: 6px 80px;
+      }
+      #race-flag svg {
+        display: block;
+        width: 60px;
+        height: 80px;
+        overflow: visible;
+      }
+      #race-pct {
+        position: absolute;
+        right: 68px;
+        top: 90px;
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        color: var(--white-85);
+        font-variant-numeric: tabular-nums;
+        counter-reset: pct calc(var(--pct, 0) * 1);
+      }
+      #race-pct::after {
+        content: "%" counter(pct);
+      }
+
+      #stamp {
+        position: absolute;
+        right: 72px;
+        top: 186px;
+        transform-origin: 50% 50%;
+      }
+      #stamp-pill {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 16px 36px 16px 16px;
+        border-radius: 999px;
+        background: var(--orange);
+        box-shadow:
+          inset 0 0 0 4px rgba(255, 255, 255, 0.9),
+          inset 0 0 0 9px var(--orange),
+          inset 0 0 0 11px rgba(255, 255, 255, 0.45),
+          0 18px 48px rgba(0, 0, 0, 0.55),
+          0 0 60px rgba(241, 109, 37, 0.45);
+      }
+      #stamp-check {
+        display: grid;
+        place-items: center;
+        flex: 0 0 auto;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: var(--white);
+      }
+      #stamp-check svg {
+        width: 50px;
+        height: 50px;
+        fill: none;
+        stroke: var(--orange);
+        stroke-width: 7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      #stamp-tick {
+        stroke-dasharray: 40;
+        stroke-dashoffset: 0;
+      }
+      #stamp-text {
+        font-size: 52px;
+        font-weight: 900;
+        letter-spacing: 0.01em;
+        line-height: 1;
+        color: var(--white);
+        white-space: nowrap;
+      }
+      #stamp-ring {
+        position: absolute;
+        inset: -6px;
+        border-radius: 999px;
+        border: 4px solid var(--orange);
+        pointer-events: none;
+      }
+
+      /* ---------- scene 3 ---------- */
+      #s3-small {
+        font-size: 46px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        line-height: 1.1;
+        color: var(--white-70);
+      }
+      .s3-hero {
+        font-size: 128px;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        line-height: 1;
+      }
+      #s3-h1 {
+        margin-top: 18px;
+      }
+      .uword {
+        position: relative;
+        display: inline-block;
+      }
+      #s3-uline {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        height: 12px;
+        border-radius: 6px;
+        background: var(--orange);
+        box-shadow: 0 0 22px rgba(241, 109, 37, 0.6);
+        transform-origin: 0% 50%;
+      }
+      #s3-icinde {
+        font-size: 68px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+      }
+      #s3-final {
+        margin-top: 36px;
+        font-size: 96px;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        line-height: 1;
+        color: var(--orange);
+      }
+
+      /* ---------- chrome above the scenes ---------- */
+      #logo-bug {
+        position: absolute;
+        left: 60px;
+        top: 56px;
+        width: 220px;
+        height: 97px;
+      }
+      #wipe-bar {
+        position: absolute;
+        left: 0;
+        top: -20px;
+        width: 200px;
+        height: 790px;
+        background: linear-gradient(
+          90deg,
+          #ffffff 0px,
+          var(--orange-hot) 5px,
+          var(--orange) 11px,
+          var(--orange) 28px,
+          rgba(241, 109, 37, 0.38) 40px,
+          rgba(241, 109, 37, 0) 200px
+        );
+        box-shadow: -10px 0 40px rgba(241, 109, 37, 0.5);
+      }
+      #scan-band {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1280px;
+        height: 120px;
+        background: linear-gradient(
+          180deg,
+          rgba(241, 109, 37, 0) 0%,
+          rgba(241, 109, 37, 0.16) 70%,
+          rgba(241, 109, 37, 0.45) 88%,
+          #ffffff 91.5%,
+          rgba(255, 217, 194, 0.6) 94%,
+          rgba(241, 109, 37, 0) 100%
+        );
+      }
+
+      /* LED texture: yt-screen-warp .yt-screen-fx recipe (sheen + scanlines +
+         pixel grid + inset vignette), dialled down to "very faint". */
+      #led-fx {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background:
+          linear-gradient(115deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 32%),
+          repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.13) 0 1px, rgba(0, 0, 0, 0) 1px 4px),
+          repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.08) 0 1px, rgba(0, 0, 0, 0) 1px 4px);
+        box-shadow:
+          inset 0 0 150px rgba(0, 0, 0, 0.42),
+          inset 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      #flash {
+        position: absolute;
+        inset: 0;
+        background: #ffffff;
+        pointer-events: none;
+      }
+      #power-line {
+        position: absolute;
+        left: 0;
+        top: 373px;
+        width: 1280px;
+        height: 4px;
+        background: #ffffff;
+        box-shadow:
+          0 0 12px 3px rgba(255, 255, 255, 0.85),
+          0 0 44px 12px rgba(241, 109, 37, 0.55);
+      }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="ekran-baslik"
+        data-start="0"
+        data-duration="11.13"
+        data-fps="30"
+        data-width="1280"
+        data-height="750"
+      >
+        <div id="led-clip" class="clip" data-start="0" data-duration="11.13" data-track-index="0">
+          <div id="screen">
+            <div id="glow-warm-wrap" class="glow-wrap"><div id="glow-warm"></div></div>
+            <div id="glow-cool"></div>
+
+            <!-- Scene 1: BÜYÜK EMEĞİN / VE MÜCADELENİN / SON GÜNÜ! -->
+            <div id="s1" class="scene">
+              <div id="s1-content" class="scene-content">
+                <div id="s1-l1" class="line s1-line"><span class="w"><span id="w-buyuk" class="wi">BÜYÜK</span></span> <span class="w"><span id="w-emegin" class="wi">EMEĞİN</span></span></div>
+                <div id="s1-l2" class="line s1-line"><span class="w"><span id="w-ve1" class="wi">VE</span></span> <span class="w"><span id="w-mucadelenin" class="wi">MÜCADELENİN</span></span></div>
+                <div id="s1-l3" class="line s1-line"><span class="w"><span id="w-son" class="wi">SON</span></span> <span class="w"><span id="w-gunu" class="wi">GÜNÜ!</span></span></div>
+              </div>
+            </div>
+
+            <!-- Scene 2: 2026 / GÜMRÜK SINAVLARI / HAZIRLIK MARATONU + race + stamp -->
+            <div id="s2" class="scene">
+              <div id="s2-content" class="scene-content">
+                <div id="s2-year" class="line"><span class="w"><span id="d-1" class="wi">2</span></span><span class="w"><span id="d-2" class="wi">0</span></span><span class="w"><span id="d-3" class="wi">2</span></span><span class="w"><span id="d-4" class="wi">6</span></span></div>
+                <div id="s2-l1" class="line s2-line"><span class="w"><span id="w-gumruk" class="wi">GÜMRÜK</span></span> <span class="w"><span id="w-sinavlari" class="wi">SINAVLARI</span></span></div>
+                <div id="s2-l2" class="line s2-line"><span class="w"><span id="w-hazirlik" class="wi">HAZIRLIK</span></span> <span class="w"><span id="w-maratonu" class="wi">MARATONU</span></span></div>
+                <div id="race">
+                  <div id="race-track">
+                    <div id="race-groove"></div>
+                    <div id="race-fill"></div>
+                    <div id="race-knob"></div>
+                  </div>
+                  <div id="race-flag">
+                    <svg viewBox="0 0 60 80" aria-hidden="true">
+                      <rect x="3" y="2" width="6" height="78" rx="3" fill="#ffffff" />
+                      <g id="race-flag-cloth">
+                        <rect x="9" y="4" width="48" height="34" rx="3" fill="#ffffff" />
+                        <rect x="9" y="4" width="12" height="11.33" fill="#414141" />
+                        <rect x="33" y="4" width="12" height="11.33" fill="#414141" />
+                        <rect x="21" y="15.33" width="12" height="11.33" fill="#414141" />
+                        <rect x="45" y="15.33" width="12" height="11.33" fill="#414141" />
+                        <rect x="9" y="26.66" width="12" height="11.34" fill="#414141" />
+                        <rect x="33" y="26.66" width="12" height="11.34" fill="#414141" />
+                        <rect x="9" y="4" width="48" height="34" rx="3" fill="none" stroke="#ffffff" stroke-width="2" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div id="race-pct" aria-label="yüzde"></div>
+                </div>
+              </div>
+              <div id="stamp">
+                <div id="stamp-pill">
+                  <div id="stamp-check">
+                    <svg viewBox="0 0 64 64" aria-hidden="true"><path id="stamp-tick" d="M18 33.5l9 9L46 22" /></svg>
+                  </div>
+                  <div id="stamp-text">TAMAMLANDI</div>
+                  <div id="stamp-ring"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Scene 3: AYLAR SÜREN YORUCU BİR DÖNEM / BİRLİK VE / BERABERLİK İÇİNDE / GERİDE BIRAKIYORUZ -->
+            <div id="s3" class="scene">
+              <div id="s3-content" class="scene-content">
+                <div id="s3-small" class="line"><span class="w"><span id="w-aylar" class="wi">AYLAR</span></span> <span class="w"><span id="w-suren" class="wi">SÜREN</span></span> <span class="w"><span id="w-yorucu" class="wi">YORUCU</span></span> <span class="w"><span id="w-bir" class="wi">BİR</span></span> <span class="w"><span id="w-donem" class="wi">DÖNEM</span></span></div>
+                <div id="s3-h1" class="line s3-hero"><span class="w"><span id="w-birlik" class="wi">BİRLİK</span></span> <span class="w"><span id="w-ve2" class="wi">VE</span></span></div>
+                <div id="s3-h2" class="line s3-hero"><span class="uword"><span class="w"><span id="w-beraberlik" class="wi">BERABERLİK</span></span><span id="s3-uline"></span></span> <span id="s3-icinde" class="w"><span id="w-icinde" class="wi">İÇİNDE</span></span></div>
+                <div id="s3-final" class="line"><span class="w"><span id="w-geride" class="wi">GERİDE</span></span> <span class="w"><span id="w-birakiyoruz" class="wi">BIRAKIYORUZ</span></span></div>
+              </div>
+            </div>
+
+            <img id="logo-bug" src="../assets/logo-canli-dark.svg" alt="7/24 CAN'LI Eğitim Merkezi" />
+            <div id="wipe-bar"></div>
+            <div id="scan-band"></div>
+            <div id="led-fx"></div>
+            <div id="flash"></div>
+          </div>
+          <div id="power-line"></div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+      <script>
+        (function () {
+          "use strict";
+          var D = 11.13;
+          var FRAME = 1 / 30;
+          var tl = gsap.timeline({ paused: true });
+
+          // Per-word mask rise. Starts a hair before the spoken onset so the
+          // word is already reading when the syllable hits.
+          function rise(sel, t, dur, ease, from) {
+            tl.fromTo(
+              sel,
+              { yPercent: from || 135, autoAlpha: 0 },
+              { yPercent: 0, autoAlpha: 1, duration: dur, ease: ease },
+              t,
+            );
+          }
+          // headline-slam's deterministic three-frame landing shake.
+          function shake(sel, t, amp) {
+            tl.to(sel, { x: amp, y: -amp * 0.6, duration: FRAME, ease: "power2.out" }, t);
+            tl.to(sel, { x: -amp * 0.7, y: amp * 0.4, duration: FRAME, ease: "power2.out" }, t + FRAME);
+            tl.to(sel, { x: 0, y: 0, duration: FRAME, ease: "power2.out" }, t + FRAME * 2);
+          }
+
+          // ---------------- ambient background ----------------
+          tl.fromTo(
+            "#glow-warm",
+            { scale: 1, opacity: 0.82 },
+            { scale: 1.08, opacity: 1, duration: 2.2, ease: "sine.inOut", yoyo: true, repeat: 4 },
+            0,
+          );
+
+          // ---------------- 0.00-0.40 power-on ----------------
+          tl.fromTo("#power-line", { scaleX: 0, scaleY: 1, autoAlpha: 1 }, { scaleX: 1, duration: 0.12, ease: "expo.out" }, 0);
+          tl.to("#power-line", { scaleY: 0.2, autoAlpha: 0, duration: 0.24, ease: "power2.in" }, 0.14);
+          tl.set("#power-line", { autoAlpha: 0 }, 0.4);
+          tl.fromTo(
+            "#screen",
+            { clipPath: "inset(49.7% 0% 49.7% 0%)" },
+            { clipPath: "inset(0% 0% 0% 0%)", duration: 0.28, ease: "expo.out" },
+            0.08,
+          );
+          tl.fromTo("#flash", { opacity: 0.55 }, { opacity: 0, duration: 0.32, ease: "power2.out" }, 0.08);
+          tl.fromTo("#logo-bug", { autoAlpha: 0, x: -16 }, { autoAlpha: 1, x: 0, duration: 0.42, ease: "power3.out" }, 0.4);
+
+          // ---------------- scene 1 ----------------
+          rise("#w-buyuk", 0.04, 0.3, "power4.out");
+          rise("#w-emegin", 0.44, 0.3, "power4.out");
+          rise("#w-ve1", 0.8, 0.26, "power4.out");
+          rise("#w-mucadelenin", 0.92, 0.32, "power4.out");
+          rise("#w-son", 1.72, 0.28, "power4.out");
+          rise("#w-gunu", 1.96, 0.28, "back.out(1.6)");
+          // "SON GÜNÜ!" scale punch + glow + landing shake
+          tl.fromTo("#s1-l3", { scale: 1 }, { scale: 1.07, duration: 0.12, ease: "power2.out" }, 2.02);
+          tl.to("#s1-l3", { scale: 1, duration: 0.36, ease: "sine.inOut" }, 2.14);
+          tl.fromTo(
+            "#s1-l3",
+            { textShadow: "0 0 0px rgba(241,109,37,0)" },
+            { textShadow: "0 0 44px rgba(241,109,37,0.85)", duration: 0.14, ease: "power2.out", immediateRender: false },
+            2.02,
+          );
+          tl.to("#s1-l3", { textShadow: "0 0 18px rgba(241,109,37,0.35)", duration: 0.5, ease: "sine.out" }, 2.16);
+          shake("#s1", 2.06, 5);
+
+          // ---------------- 2.63-2.81 transition 1: orange wipe (directional-wipe) ----------------
+          var T1 = 2.63;
+          var T1D = 0.18;
+          tl.fromTo("#s2", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.001, ease: "none" }, T1);
+          tl.fromTo(
+            "#s2",
+            { clipPath: "inset(0% 0% 0% 100%)" },
+            { clipPath: "inset(0% 0% 0% 0%)", duration: T1D, ease: "power3.inOut", immediateRender: false },
+            T1,
+          );
+          tl.fromTo(
+            "#s1",
+            { clipPath: "inset(0% 0% 0% 0%)" },
+            { clipPath: "inset(0% 100% 0% 0%)", duration: T1D, ease: "power3.inOut" },
+            T1,
+          );
+          tl.fromTo("#wipe-bar", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.001, ease: "none" }, T1);
+          tl.fromTo("#wipe-bar", { x: 1266 }, { x: -14, duration: T1D, ease: "power3.inOut", immediateRender: false }, T1);
+          tl.set("#wipe-bar", { autoAlpha: 0 }, T1 + T1D + 0.01);
+          tl.to("#s1-content", { x: -140, duration: T1D, ease: "power3.inOut" }, T1);
+          tl.fromTo("#s2-content", { x: 140 }, { x: 0, duration: 0.34, ease: "expo.out" }, T1);
+          tl.set("#s1", { autoAlpha: 0 }, T1 + T1D + 0.01);
+          tl.to("#glow-warm-wrap", { x: 700, y: -170, duration: 0.9, ease: "sine.inOut" }, T1);
+
+          // ---------------- scene 2 ----------------
+          ["#d-1", "#d-2", "#d-3", "#d-4"].forEach(function (sel, i) {
+            rise(sel, 2.74 + i * 0.035, 0.32, "expo.out", 120);
+          });
+          rise("#w-gumruk", 3.16, 0.3, "expo.out");
+          rise("#w-sinavlari", 4.0, 0.3, "expo.out");
+          rise("#w-hazirlik", 4.48, 0.3, "expo.out");
+          rise("#w-maratonu", 4.92, 0.3, "expo.out");
+
+          // race track
+          tl.fromTo("#race-groove", { scaleX: 0, autoAlpha: 0 }, { scaleX: 1, autoAlpha: 1, duration: 0.32, ease: "power2.inOut" }, 4.18);
+          tl.fromTo(
+            "#race-flag",
+            { autoAlpha: 0, yPercent: 40, rotation: -12 },
+            { autoAlpha: 1, yPercent: 0, rotation: 0, duration: 0.36, ease: "back.out(2)" },
+            4.3,
+          );
+          tl.fromTo("#race-knob", { autoAlpha: 0, scale: 0 }, { autoAlpha: 1, scale: 1, duration: 0.22, ease: "back.out(2.4)" }, 4.36);
+          tl.fromTo("#race-pct", { autoAlpha: 0, y: 12 }, { autoAlpha: 1, y: 0, duration: 0.24, ease: "power2.out" }, 4.36);
+          tl.fromTo("#race-fill", { scaleX: 0 }, { scaleX: 1, duration: 1.5, ease: "sine.inOut" }, 4.5);
+          tl.fromTo("#race-knob", { x: 0 }, { x: 1092, duration: 1.5, ease: "sine.inOut", immediateRender: false }, 4.5);
+          tl.fromTo("#race-pct", { "--pct": 0 }, { "--pct": 100, duration: 1.5, ease: "sine.inOut", immediateRender: false }, 4.5);
+          // finish: flag waves, counter brightens
+          tl.to("#race-flag", { rotation: 8, scale: 1.18, duration: 0.12, ease: "power2.out" }, 6.0);
+          tl.to("#race-flag", { rotation: 0, scale: 1, duration: 0.4, ease: "elastic.out(1, 0.45)" }, 6.12);
+          tl.to("#race-pct", { color: "#ffffff", duration: 0.2, ease: "power1.out" }, 6.0);
+
+          // stamp slam 5.90 -> lands 6.04 ("geldik" @ 6.00)
+          tl.fromTo("#stamp", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.05, ease: "none" }, 5.9);
+          tl.fromTo(
+            "#stamp",
+            { scale: 2.3, rotation: -16 },
+            { scale: 1, rotation: -6, duration: 0.14, ease: "power3.in", immediateRender: false },
+            5.9,
+          );
+          tl.to("#stamp", { scale: 0.95, duration: 0.05, ease: "power2.out" }, 6.04);
+          tl.to("#stamp", { scale: 1, duration: 0.22, ease: "back.out(3)" }, 6.09);
+          shake("#s2", 6.04, 6);
+          tl.fromTo("#stamp-ring", { scale: 0.92, opacity: 0.95 }, { scale: 1.32, opacity: 0, duration: 0.5, ease: "power2.out" }, 6.04);
+          tl.fromTo("#stamp-tick", { strokeDashoffset: 40 }, { strokeDashoffset: 0, duration: 0.3, ease: "power2.out" }, 6.08);
+
+          // ---------------- 6.74-6.94 transition 2: scan refresh ----------------
+          var T2 = 6.74;
+          var T2D = 0.2;
+          tl.fromTo("#s3", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.001, ease: "none" }, T2);
+          tl.fromTo(
+            "#s3",
+            { clipPath: "inset(0% 0% 100% 0%)" },
+            { clipPath: "inset(0% 0% 0% 0%)", duration: T2D, ease: "power2.inOut", immediateRender: false },
+            T2,
+          );
+          tl.fromTo(
+            "#s2",
+            { clipPath: "inset(0% 0% 0% 0%)" },
+            { clipPath: "inset(100% 0% 0% 0%)", duration: T2D, ease: "power2.inOut", immediateRender: false },
+            T2,
+          );
+          tl.fromTo("#scan-band", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.001, ease: "none" }, T2);
+          tl.fromTo("#scan-band", { y: -110 }, { y: 640, duration: T2D, ease: "power2.inOut", immediateRender: false }, T2);
+          tl.set("#scan-band", { autoAlpha: 0 }, T2 + T2D + 0.01);
+          tl.set("#s2", { autoAlpha: 0 }, T2 + T2D + 0.01);
+          tl.to("#glow-warm-wrap", { x: 330, y: 40, duration: 1.1, ease: "sine.inOut" }, T2);
+
+          // ---------------- scene 3 ----------------
+          rise("#w-aylar", 6.8, 0.34, "power2.out", 120);
+          rise("#w-suren", 7.08, 0.34, "power2.out", 120);
+          rise("#w-yorucu", 7.56, 0.34, "power2.out", 120);
+          rise("#w-bir", 7.84, 0.3, "power2.out", 120);
+          rise("#w-donem", 7.9, 0.34, "power2.out", 120);
+          rise("#w-birlik", 8.6, 0.36, "circ.out");
+          rise("#w-ve2", 8.92, 0.3, "circ.out");
+          rise("#w-beraberlik", 9.08, 0.36, "circ.out");
+          tl.fromTo("#s3-uline", { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "expo.inOut" }, 9.28);
+          rise("#w-icinde", 9.64, 0.3, "power3.out");
+          rise("#w-geride", 10.04, 0.3, "expo.out");
+          rise("#w-birakiyoruz", 10.33, 0.3, "expo.out");
+          tl.fromTo(
+            "#s3-final",
+            { textShadow: "0 0 0px rgba(241,109,37,0)" },
+            { textShadow: "0 0 36px rgba(241,109,37,0.7)", duration: 0.2, ease: "power2.out" },
+            10.4,
+          );
+          tl.to("#s3-final", { textShadow: "0 0 16px rgba(241,109,37,0.3)", duration: 0.4, ease: "sine.out" }, 10.6);
+
+          tl.seek(0);
+          window.__timelines["ekran-baslik"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

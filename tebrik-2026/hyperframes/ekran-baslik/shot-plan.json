@@ -1,0 +1,107 @@
+{
+  "category": "kinetic-type",
+  "duration_s": 11.13,
+  "fps": 30,
+  "canvas": { "w": 1280, "h": 750, "aspect": "LED 1280x750" },
+  "style": "Broadcast LED-wall typography: deep navy screen (#070B1F -> #121A3D) with a drifting orange radial glow and a very faint pixel-grid/scanline texture; heavy Montserrat 900/800 (600 for small labels), left-anchored column under a small logo bug; snappy per-word mask-rise synced to the presenter's voice",
+  "palette": ["#F16D25", "#414141", "#FFFFFF", "#070B1F", "#121A3D"],
+  "font": "Montserrat (local @font-face, static 600/800/900 instances, latin + latin-ext)",
+  "beats": [0.08, 0.48, 0.84, 0.96, 1.76, 2.0, 2.8, 3.2, 4.04, 4.52, 4.96, 5.68, 6.0, 6.76, 7.12, 7.6, 7.92, 8.64, 8.96, 9.12, 9.68, 10.08, 10.373],
+  "export": "mp4",
+  "asset_needs": [],
+  "block": null,
+  "customize": {
+    "yt-screen-warp": "reuse the .yt-screen-fx overlay recipe (sheen + scanlines + pixel grid + inset vignette) as the always-on LED texture, alpha lowered to 'very faint'; no 3D warp (the master composites onto the wall)",
+    "directional-wipe": "reuse the clip-path inset reveal + light-sweep fx + outgoing push/blur for the scene 1 -> 2 transition, recolored to a brand-orange wipe bar, retimed to 0.18 s",
+    "headline-slam": "reuse the deterministic three-frame landing shake on the 'GÜNÜ!' punch and the 'TAMAMLANDI' stamp impact",
+    "success-check": "reuse the SVG ring + tick path draw (stroke-dashoffset) inside the stamp pill, tinted white/orange"
+  },
+  "catalog_search": {
+    "queries": [
+      "CRT screen power on horizontal line turn on",
+      "old tv turn on effect light line expands",
+      "LED pixel grid scanlines screen texture",
+      "mask reveal headline words rise kinetic slam",
+      "fast wipe push transition between scenes",
+      "progress bar fill race track finish flag",
+      "stamp slam badge completed check mark",
+      "underline sweep highlight word"
+    ],
+    "hand_authored_gaps": [
+      "screen power-on light line (no catalog item)",
+      "race track with finish flag (mk-progress-stat is a stat card, not a race track)",
+      "per-word mask rise keyed to explicit voice onsets inside one multi-scene root (per-word-rise is a single-line block)"
+    ]
+  },
+  "content": {
+    "scenes": [
+      {
+        "id": "power-on",
+        "start": 0.0,
+        "end": 0.4,
+        "text": "",
+        "emphasis_words": [],
+        "emotion": "anticipation",
+        "motion": "thin white/orange light line scaleX 0->1 at vertical centre (0.00-0.12, expo.out), screen clip-path opens from the centre line to full frame (0.08-0.36), white flash decays; logo bug fades/slides in 0.40-0.80",
+        "beats": [0.0, 0.12, 0.36]
+      },
+      {
+        "id": "s1-son-gunu",
+        "start": 0.0,
+        "end": 2.65,
+        "text": "BÜYÜK EMEĞİN / VE MÜCADELENİN / SON GÜNÜ!",
+        "emphasis_words": ["SON", "GÜNÜ!"],
+        "emotion": "Hook - pride, urgency",
+        "motion": "per-word mask-rise (yPercent 135->0 + autoAlpha, 0.30 s, power4.out) starting 0.04 s before each onset; 'SON GÜNÜ!' 156 px orange: line scale punch 1->1.07->1 on GÜNÜ! landing + three-frame stage shake + glow pulse",
+        "beats": [0.08, 0.48, 0.84, 0.96, 1.76, 2.0]
+      },
+      {
+        "id": "t1-wipe",
+        "start": 2.63,
+        "end": 2.81,
+        "text": "",
+        "emphasis_words": [],
+        "emotion": "push forward",
+        "motion": "orange wipe bar sweeps right->left (power3.inOut 0.18 s); scene 2 revealed behind it via clip-path, scene 1 clipped ahead of it while pushed left -120 px",
+        "beats": [2.63, 2.81]
+      },
+      {
+        "id": "s2-maraton",
+        "start": 2.63,
+        "end": 6.94,
+        "text": "2026 / GÜMRÜK SINAVLARI / HAZIRLIK MARATONU + track + TAMAMLANDI",
+        "emphasis_words": ["2026", "TAMAMLANDI"],
+        "emotion": "Build -> Punch (completion)",
+        "motion": "'2026' 168 px orange digits rise with 0.035 s stagger (expo.out); GÜMRÜK/SINAVLARI/HAZIRLIK/MARATONU 94 px white 800 rise on onsets; track groove draws in 4.2-4.5; orange fill scaleX 0->1 + glowing runner knob 4.5-6.0 (sine.inOut) with %0->%100 counter; finish flag pops at 6.0; stamp slams 5.90->6.04 (scale 2.2->1, rotation -16->-6, power3.in) + shake + shock ring + tick draw",
+        "beats": [2.8, 3.2, 4.04, 4.52, 4.96, 5.9, 6.0]
+      },
+      {
+        "id": "t2-scan",
+        "start": 6.74,
+        "end": 6.94,
+        "text": "",
+        "emphasis_words": [],
+        "emotion": "screen refresh",
+        "motion": "bright horizontal scan band sweeps top->bottom (0.20 s); scene 3 revealed above it, scene 2 clipped below it",
+        "beats": [6.74, 6.94]
+      },
+      {
+        "id": "s3-birlik",
+        "start": 6.74,
+        "end": 11.13,
+        "text": "AYLAR SÜREN YORUCU BİR DÖNEM / BİRLİK VE / BERABERLİK İÇİNDE / GERİDE BIRAKIYORUZ",
+        "emphasis_words": ["BİRLİK", "BERABERLİK", "GERİDE BIRAKIYORUZ"],
+        "emotion": "Resolve - unity, relief",
+        "motion": "small line 46 px 600 white@70% words rise (power2.out) on AYLAR 6.76 / SÜREN 7.12 / YORUCU 7.60 / BİR DÖNEM 7.92; hero 128 px white 900 BİRLİK 8.64 / VE 8.96 / BERABERLİK 9.12 rise (circ.out from slight scale), İÇİNDE 68 px at 9.68; orange underline sweeps under BERABERLİK 9.30-9.75; GERİDE 10.08 / BIRAKIYORUZ 10.373 orange 96 px; glow pulse then still hold 10.65-11.13 (no fade-out)",
+        "beats": [6.76, 7.12, 7.6, 7.92, 8.64, 8.96, 9.12, 9.68, 10.08, 10.373]
+      }
+    ],
+    "layout": {
+      "safe_margin_px": 60,
+      "logo_bug": { "src": "assets/logo-canli-dark.svg", "x": 60, "y": 56, "w": 220 },
+      "content_column": "left-anchored at x=60, vertically centred in y 170-690 (below the logo bug)",
+      "type_scale": { "s1_lines": "118px/900", "s1_punch": "156px/900 orange", "s2_year": "168px/900 orange", "s2_lines": "94px/800", "track_counter": "44px/800", "stamp": "52px/900 white on orange pill", "s3_small": "46px/600 white 70%", "s3_hero": "128px/900", "s3_icinde": "68px/800", "s3_final": "96px/900 orange" }
+    }
+  },
+  "brief": "Kinetic-type title on a studio LED wall. The screen powers on with a horizontal light line, then three spoken lines build word-by-word exactly on the voice onsets: a heavy white three-line headline punching into orange 'SON GÜNÜ!', an orange '2026' over the exam-marathon lines with a race track filling to 100% and a 'TAMAMLANDI' stamp slamming onto the finish, and a closing hero 'BİRLİK VE BERABERLİK' with an orange underline sweep resolving into orange 'GERİDE BIRAKIYORUZ'. Dominant motif: words rising out of masks on the beat; one pattern interrupt per scene (scale punch, stamp slam, underline sweep); transitions vary (orange wipe, scan refresh)."
+}

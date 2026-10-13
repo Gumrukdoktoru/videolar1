@@ -1,0 +1,17 @@
+{
+  "duration": 6,
+  "assertions": [
+    { "kind": "appearsBy", "selector": "#badge7", "bySec": 0.5 },
+    { "kind": "appearsBy", "selector": "#badge24", "bySec": 0.75 },
+    { "kind": "before", "a": "#badge7", "b": "#badge24" },
+    { "kind": "appearsBy", "selector": "#cap", "bySec": 1.6 },
+    { "kind": "before", "a": "#badge24", "b": "#cap" },
+    { "kind": "before", "a": "#cap", "b": "#line1a" },
+    { "kind": "appearsBy", "selector": "#line1a", "bySec": 2.9 },
+    { "kind": "before", "a": "#line1a", "b": "#line1b" },
+    { "kind": "appearsBy", "selector": "#line1b", "bySec": 3.0 },
+    { "kind": "staysInFrame", "selector": "#logo-lockup" },
+    { "kind": "staysInFrame", "selector": "#copy" },
+    { "kind": "keepsMoving" }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+
+# Remotion
+remotion/out/
+
+# HyperFrames: render outputs are copied into remotion/public/hf/
+hyperframes/*/renders/
+hyperframes/*/.hyperframes/
+hyperframes/*/.cache/

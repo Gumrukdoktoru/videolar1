@@ -1,0 +1,930 @@
+[
+ {
+  "text": "Büyük",
+  "startMs": 80,
+  "endMs": 400,
+  "timestampMs": 80,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " emeğin",
+  "startMs": 480,
+  "endMs": 800,
+  "timestampMs": 480,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ve",
+  "startMs": 840,
+  "endMs": 880,
+  "timestampMs": 840,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " mücadelenin",
+  "startMs": 960,
+  "endMs": 1600,
+  "timestampMs": 960,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " son",
+  "startMs": 1760,
+  "endMs": 1920,
+  "timestampMs": 1760,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " günü!",
+  "startMs": 2000,
+  "endMs": 2520,
+  "timestampMs": 2000,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " 2026",
+  "startMs": 2800,
+  "endMs": 3040,
+  "timestampMs": 2800,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Gümrük",
+  "startMs": 3200,
+  "endMs": 4000,
+  "timestampMs": 3200,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Sınavları",
+  "startMs": 4040,
+  "endMs": 4480,
+  "timestampMs": 4040,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hazırlık",
+  "startMs": 4520,
+  "endMs": 4880,
+  "timestampMs": 4520,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " maratonumuzun",
+  "startMs": 4960,
+  "endMs": 5600,
+  "timestampMs": 4960,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sonuna",
+  "startMs": 5680,
+  "endMs": 5920,
+  "timestampMs": 5680,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " geldik.",
+  "startMs": 6000,
+  "endMs": 6720,
+  "timestampMs": 6000,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Aylar",
+  "startMs": 6760,
+  "endMs": 7040,
+  "timestampMs": 6760,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " süren",
+  "startMs": 7120,
+  "endMs": 7440,
+  "timestampMs": 7120,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bu",
+  "startMs": 7480,
+  "endMs": 7520,
+  "timestampMs": 7480,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " yorucu",
+  "startMs": 7600,
+  "endMs": 7880,
+  "timestampMs": 7600,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " dönemi,",
+  "startMs": 7920,
+  "endMs": 8560,
+  "timestampMs": 7920,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " birlik",
+  "startMs": 8640,
+  "endMs": 8880,
+  "timestampMs": 8640,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ve",
+  "startMs": 8960,
+  "endMs": 9040,
+  "timestampMs": 8960,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " beraberlik",
+  "startMs": 9120,
+  "endMs": 9600,
+  "timestampMs": 9120,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " içinde",
+  "startMs": 9680,
+  "endMs": 10000,
+  "timestampMs": 9680,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " geride",
+  "startMs": 10080,
+  "endMs": 10320,
+  "timestampMs": 10080,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bırakıyoruz.",
+  "startMs": 10373,
+  "endMs": 11280,
+  "timestampMs": 10373,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " 1241",
+  "startMs": 11424,
+  "endMs": 11680,
+  "timestampMs": 11424,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " meslektaşımız",
+  "startMs": 11720,
+  "endMs": 13040,
+  "timestampMs": 11720,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ve",
+  "startMs": 13120,
+  "endMs": 13280,
+  "timestampMs": 13120,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " 200",
+  "startMs": 13360,
+  "endMs": 13520,
+  "timestampMs": 13360,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " koçluk",
+  "startMs": 13600,
+  "endMs": 14080,
+  "timestampMs": 13600,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " öğrencimiz",
+  "startMs": 14160,
+  "endMs": 14640,
+  "timestampMs": 14160,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " için,",
+  "startMs": 14680,
+  "endMs": 15200,
+  "timestampMs": 14680,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " özel",
+  "startMs": 15240,
+  "endMs": 15440,
+  "timestampMs": 15240,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hayatlarından",
+  "startMs": 15520,
+  "endMs": 16080,
+  "timestampMs": 15520,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " fedakârlık",
+  "startMs": 16160,
+  "endMs": 16720,
+  "timestampMs": 16160,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " eden",
+  "startMs": 16840,
+  "endMs": 16960,
+  "timestampMs": 16840,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " çok",
+  "startMs": 17120,
+  "endMs": 17280,
+  "timestampMs": 17120,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " kıymetli",
+  "startMs": 17360,
+  "endMs": 17760,
+  "timestampMs": 17360,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hocalarımız...",
+  "startMs": 17840,
+  "endMs": 18800,
+  "timestampMs": 17840,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Baset",
+  "startMs": 18907,
+  "endMs": 19120,
+  "timestampMs": 18907,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Temiz,",
+  "startMs": 19200,
+  "endMs": 19760,
+  "timestampMs": 19200,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Harun",
+  "startMs": 19880,
+  "endMs": 20080,
+  "timestampMs": 19880,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Altınsoy",
+  "startMs": 20160,
+  "endMs": 20640,
+  "timestampMs": 20160,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ve",
+  "startMs": 20720,
+  "endMs": 20800,
+  "timestampMs": 20720,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Erkan",
+  "startMs": 20880,
+  "endMs": 21280,
+  "timestampMs": 20880,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Yavuz'a;",
+  "startMs": 21320,
+  "endMs": 22080,
+  "timestampMs": 21320,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " günün",
+  "startMs": 22120,
+  "endMs": 22400,
+  "timestampMs": 22120,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " her",
+  "startMs": 22480,
+  "endMs": 22640,
+  "timestampMs": 22480,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " saatinde",
+  "startMs": 22720,
+  "endMs": 23280,
+  "timestampMs": 22720,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ekran",
+  "startMs": 23360,
+  "endMs": 23600,
+  "timestampMs": 23360,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " arkasındaki",
+  "startMs": 23680,
+  "endMs": 24240,
+  "timestampMs": 23680,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " gizli",
+  "startMs": 24320,
+  "endMs": 24560,
+  "timestampMs": 24320,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " kahramanımız,",
+  "startMs": 24640,
+  "endMs": 25600,
+  "timestampMs": 24640,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Gümrük",
+  "startMs": 25640,
+  "endMs": 25920,
+  "timestampMs": 25640,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Koçu",
+  "startMs": 26000,
+  "endMs": 26240,
+  "timestampMs": 26000,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ufuk",
+  "startMs": 26320,
+  "endMs": 26560,
+  "timestampMs": 26320,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Çetintaş'a...",
+  "startMs": 26600,
+  "endMs": 27600,
+  "timestampMs": 26600,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " yürekten",
+  "startMs": 27640,
+  "endMs": 28080,
+  "timestampMs": 27640,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " teşekkür",
+  "startMs": 28160,
+  "endMs": 28480,
+  "timestampMs": 28160,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ederiz!",
+  "startMs": 28560,
+  "endMs": 29160,
+  "timestampMs": 28560,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Ankara'da",
+  "startMs": 29560,
+  "endMs": 29920,
+  "timestampMs": 29560,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bizi",
+  "startMs": 29973,
+  "endMs": 30080,
+  "timestampMs": 29973,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " yalnız",
+  "startMs": 30160,
+  "endMs": 30400,
+  "timestampMs": 30160,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bırakmayacak",
+  "startMs": 30480,
+  "endMs": 31120,
+  "timestampMs": 30480,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Hakan",
+  "startMs": 31160,
+  "endMs": 31520,
+  "timestampMs": 31160,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Uçak",
+  "startMs": 31560,
+  "endMs": 31840,
+  "timestampMs": 31560,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ve",
+  "startMs": 31880,
+  "endMs": 31920,
+  "timestampMs": 31880,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ahmet",
+  "startMs": 32080,
+  "endMs": 32320,
+  "timestampMs": 32080,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Ercan",
+  "startMs": 32400,
+  "endMs": 32720,
+  "timestampMs": 32400,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " İlgüz",
+  "startMs": 32760,
+  "endMs": 33040,
+  "timestampMs": 32760,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " hocalarımıza",
+  "startMs": 33080,
+  "endMs": 33600,
+  "timestampMs": 33080,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " da",
+  "startMs": 33680,
+  "endMs": 33760,
+  "timestampMs": 33680,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " şimdiden",
+  "startMs": 33920,
+  "endMs": 34320,
+  "timestampMs": 33920,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " teşekkürler.",
+  "startMs": 34400,
+  "endMs": 35200,
+  "timestampMs": 34400,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Bu",
+  "startMs": 35440,
+  "endMs": 35480,
+  "timestampMs": 35440,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " süreci",
+  "startMs": 35520,
+  "endMs": 35920,
+  "timestampMs": 35520,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " büyük",
+  "startMs": 36000,
+  "endMs": 36240,
+  "timestampMs": 36000,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " bir",
+  "startMs": 36320,
+  "endMs": 36400,
+  "timestampMs": 36320,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " azim",
+  "startMs": 36480,
+  "endMs": 36800,
+  "timestampMs": 36480,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ve",
+  "startMs": 36840,
+  "endMs": 36880,
+  "timestampMs": 36840,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " kararlılıkla",
+  "startMs": 36960,
+  "endMs": 37600,
+  "timestampMs": 36960,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " tamamlayan",
+  "startMs": 37680,
+  "endMs": 38160,
+  "timestampMs": 37680,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " siz",
+  "startMs": 38320,
+  "endMs": 38480,
+  "timestampMs": 38320,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " değerli",
+  "startMs": 38560,
+  "endMs": 38840,
+  "timestampMs": 38560,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " meslektaşlarımıza",
+  "startMs": 38880,
+  "endMs": 39840,
+  "timestampMs": 38880,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " şükranlarımızı",
+  "startMs": 39920,
+  "endMs": 40600,
+  "timestampMs": 39920,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sunuyoruz.",
+  "startMs": 40640,
+  "endMs": 41520,
+  "timestampMs": 40640,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Emeklerinizin",
+  "startMs": 41560,
+  "endMs": 42160,
+  "timestampMs": 41560,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " karşılığını",
+  "startMs": 42240,
+  "endMs": 42880,
+  "timestampMs": 42240,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " en",
+  "startMs": 42960,
+  "endMs": 43040,
+  "timestampMs": 42960,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " güzel",
+  "startMs": 43120,
+  "endMs": 43360,
+  "timestampMs": 43120,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " şekilde",
+  "startMs": 43440,
+  "endMs": 43760,
+  "timestampMs": 43440,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " almanızı",
+  "startMs": 43840,
+  "endMs": 44200,
+  "timestampMs": 43840,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " diliyoruz.",
+  "startMs": 44240,
+  "endMs": 44880,
+  "timestampMs": 44240,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Sadece",
+  "startMs": 45120,
+  "endMs": 45440,
+  "timestampMs": 45120,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " ekran",
+  "startMs": 45520,
+  "endMs": 45760,
+  "timestampMs": 45520,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " başında",
+  "startMs": 45840,
+  "endMs": 46160,
+  "timestampMs": 45840,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " değil;",
+  "startMs": 46240,
+  "endMs": 46720,
+  "timestampMs": 46240,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Ankara'nın",
+  "startMs": 46800,
+  "endMs": 47280,
+  "timestampMs": 46800,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " soğuğunda,",
+  "startMs": 47360,
+  "endMs": 48160,
+  "timestampMs": 47360,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " o",
+  "startMs": 48200,
+  "endMs": 48240,
+  "timestampMs": 48200,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " sınav",
+  "startMs": 48320,
+  "endMs": 48640,
+  "timestampMs": 48320,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " kapısında",
+  "startMs": 48720,
+  "endMs": 49120,
+  "timestampMs": 48720,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " da",
+  "startMs": 49200,
+  "endMs": 49280,
+  "timestampMs": 49200,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " omuz",
+  "startMs": 49440,
+  "endMs": 49680,
+  "timestampMs": 49440,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " omuza",
+  "startMs": 49720,
+  "endMs": 49920,
+  "timestampMs": 49720,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " yanınızda",
+  "startMs": 50000,
+  "endMs": 50400,
+  "timestampMs": 50000,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " olacağız.",
+  "startMs": 50480,
+  "endMs": 50960,
+  "timestampMs": 50480,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Yolunuz",
+  "startMs": 51267,
+  "endMs": 51600,
+  "timestampMs": 51267,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " açık,",
+  "startMs": 51640,
+  "endMs": 52000,
+  "timestampMs": 51640,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " başarınız",
+  "startMs": 52160,
+  "endMs": 52640,
+  "timestampMs": 52160,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " daim",
+  "startMs": 52720,
+  "endMs": 53040,
+  "timestampMs": 52720,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " olsun!",
+  "startMs": 53120,
+  "endMs": 53760,
+  "timestampMs": 53120,
+  "confidence": 1,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " 7/24",
+  "startMs": 53840,
+  "endMs": 54640,
+  "timestampMs": 53840,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " CAN'LI",
+  "startMs": 54800,
+  "endMs": 55120,
+  "timestampMs": 54800,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Eğitim",
+  "startMs": 55200,
+  "endMs": 55440,
+  "timestampMs": 55200,
+  "confidence": 1,
+  "pageBreakAfter": false
+ },
+ {
+  "text": " Merkezi!",
+  "startMs": 55520,
+  "endMs": 56240,
+  "timestampMs": 55520,
+  "confidence": 1,
+  "pageBreakAfter": true
+ }
+]

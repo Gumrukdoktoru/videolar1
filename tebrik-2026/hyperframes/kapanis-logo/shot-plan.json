@@ -1,0 +1,63 @@
+{
+  "category": "logo-reveal",
+  "duration_s": 6,
+  "fps": 30,
+  "canvas": { "w": 1080, "h": 1920, "aspect": "9:16" },
+  "style": "Premium closing brand sting for a Turkish customs-exam school. Deep navy night with a warm orange ember glow, drifting light motes. Logo assembles part-by-part on the presenter's spoken brand name, then a warm wish line. Confident, celebratory, never cartoonish.",
+  "palette": ["#070B1F", "#121A3D", "#F16D25", "#FFB27A", "#FFFFFF"],
+  "font": "Montserrat (local @font-face, latin-ext subset: 600/700/800)",
+  "beats": [0.1, 0.35, 0.9, 1.05, 1.35, 1.45, 1.77, 2.4, 2.7, 3.1, 3.8, 5.65],
+  "export": "mp4",
+
+  "asset_needs": [
+    {
+      "role": "hero",
+      "kind": "logo",
+      "source": "assets/logo-canli-dark.svg",
+      "treatment": "none"
+    }
+  ],
+
+  "block": "none (hand-authored)",
+  "customize": {
+    "catalog_searched": [
+      "logo sting reveal brand lockup with glow and tagline -> logo-outro, logo-sting, logo-brand-close (16:9 generic piece-slide / slam; cannot carry per-part voice-synced beats)",
+      "diagonal light sweep shine across a logo -> shimmer-sweep, gloss-sweep, light-sweep-pass (rectangular overlays; adapted as an SVG alpha-masked gradient band so the sheen stays on the logo shapes)",
+      "floating light particles bokeh background -> no fitting item (search miss)",
+      "soft radial glow behind logo -> logo-outro glow idiom reused as an ambient-glow-bloom layer"
+    ],
+    "rules": [
+      "hyperframes-animation/rules/spring-pop-entrance (badges, playful variant with OVERSHOOT 1.6 per brief)",
+      "hyperframes-animation/rules/ambient-glow-bloom (hero bloom + bounded breathe; diagonal raked sweep variation)",
+      "hyperframes-animation/rules/svg-icon-enrichment (tassel swing via SVG transform attribute around the cord pivot)",
+      "motion-vocabulary: word_reveal/wave (letter rise), fade_blur (line 1), letter-spacing track-in (line 2), underline_sweep (flanking rules), hold_breath (logo 1.00->1.03), fade_out"
+    ]
+  },
+
+  "content": {
+    "logo": "assets/logo-canli-dark.svg (inlined; groups #wordmark #cap #badge7 #badge24 #tagline)",
+    "tagline": "Yolunuz açık, başarınız daim olsun!",
+    "url": null,
+    "subline": "2026 Gümrük Sınavları",
+    "layout": {
+      "logo_box": { "w": 900, "h": 396, "left": 90, "top": 622, "center_y": 820 },
+      "line1": { "size_px": 56, "weight": 700, "color": "#FFFFFF", "wrap": "2 deliberate lines: 'Yolunuz açık,' / 'başarınız daim olsun!'" },
+      "line2": { "size_px": 40, "weight": 600, "color": "#F16D25", "letter_spacing": "0.1em", "accent": "flanking orange hairlines" },
+      "safe": { "sides_px": 80, "top_bottom_px": 120 }
+    },
+    "wordmark_visual_order_note": "SVG path order inside #wordmark is C, N, ’, L, I, A (A is the last path); the stagger uses visual left-to-right order C, A, N, ’, L, I.",
+    "timeline": [
+      { "t": [0.0, 0.6], "what": "glow breathes up from 0.20 to 0.36 opacity; particles already drifting" },
+      { "t": [0.1, 0.55], "what": "#badge7 scale 0->1 back.out(1.6) + accent ring" },
+      { "t": [0.35, 0.8], "what": "#badge24 scale 0->1 back.out(1.6) + accent ring" },
+      { "t": [0.9, 1.48], "what": "#wordmark letters rise from baseline clip, expo.out, 0.06 s stagger (C A N ’ L I)" },
+      { "t": [1.35, 1.8], "what": "#cap falls (power2.in) onto A at 1.58, rebounds 28 units, settles 1.80; A micro-squash; tassel decaying swing 1.58->3.2" },
+      { "t": [1.45, 2.1], "what": "#tagline soft-edge mask wipe left->right (sine.inOut), edge reaches 'Merkezi' ~1.77" },
+      { "t": [2.4, 3.0], "what": "line 1 rise + blur-to-sharp, second row +0.12 s" },
+      { "t": [2.7, 3.2], "what": "line 2 letter-spacing track-in + flanking hairlines grow outward" },
+      { "t": [3.1, 3.8], "what": "one diagonal sheen band across the logo shapes (alpha-masked to the logo)" },
+      { "t": [3.8, 6.0], "what": "hold: logo wrapper scale 1.00->1.03, particles drift, glow breathes" },
+      { "t": [5.65, 5.95], "what": "full-frame fade to black (power1.in); last frame fully black" }
+    ]
+  }
+}
