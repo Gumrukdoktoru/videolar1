@@ -26,6 +26,7 @@ export const TebrikVideo: React.FC = () => {
     { at: 31.16, src: "sfx/switch.wav", volume: 0.22 },
     { at: 32.08, src: "sfx/switch.wav", volume: 0.22 },
     { at: OUTRO_START - 0.08, src: "sfx/whip.wav", volume: 0.5 },
+    { at: OUTRO_START + 3.12, src: "sfx/ding.wav", volume: 0.2 },
   ];
   const end = DURATION_IN_FRAMES;
   return (
@@ -61,7 +62,7 @@ export const TebrikVideo: React.FC = () => {
             interpolate(
               f + sec(MUSIC_START),
               [sec(MUSIC_START), sec(MUSIC_START) + 20, sec(56.2), sec(56.9), end - 20, end],
-              [0, 0.13, 0.13, 0.5, 0.5, 0],
+              [0, 0.13, 0.13, 0.85, 0.85, 0],
               clamp,
             )
           }
