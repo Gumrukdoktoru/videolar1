@@ -134,8 +134,8 @@
       .w {
         display: inline-block;
         overflow: clip;
-        padding: 0.18em 0.05em 0.14em;
-        margin: -0.18em -0.05em -0.14em;
+        padding: 0.18em 0 0.14em;
+        margin: -0.18em 0 -0.14em;
         vertical-align: baseline;
       }
       .wi {
@@ -352,7 +352,7 @@
         letter-spacing: -0.01em;
       }
       #s3-final {
-        margin-top: 36px;
+        margin-top: 46px;
         font-size: 96px;
         font-weight: 900;
         letter-spacing: -0.02em;
@@ -410,8 +410,8 @@
         pointer-events: none;
         background:
           linear-gradient(115deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 32%),
-          repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.13) 0 1px, rgba(0, 0, 0, 0) 1px 4px),
-          repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.08) 0 1px, rgba(0, 0, 0, 0) 1px 4px);
+          repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0 1px, rgba(0, 0, 0, 0) 1px 4px),
+          repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.06) 0 1px, rgba(0, 0, 0, 0) 1px 4px);
         box-shadow:
           inset 0 0 150px rgba(0, 0, 0, 0.42),
           inset 0 0 10px rgba(0, 0, 0, 0.5);
@@ -446,8 +446,8 @@
       >
         <div id="led-clip" class="clip" data-start="0" data-duration="11.13" data-track-index="0">
           <div id="screen">
-            <div id="glow-warm-wrap" class="glow-wrap"><div id="glow-warm"></div></div>
-            <div id="glow-cool"></div>
+            <div id="glow-warm-wrap" class="glow-wrap" data-layout-ignore><div id="glow-warm"></div></div>
+            <div id="glow-cool" data-layout-ignore></div>
 
             <!-- Scene 1: BÜYÜK EMEĞİN / VE MÜCADELENİN / SON GÜNÜ! -->
             <div id="s1" class="scene">
@@ -494,7 +494,7 @@
                     <svg viewBox="0 0 64 64" aria-hidden="true"><path id="stamp-tick" d="M18 33.5l9 9L46 22" /></svg>
                   </div>
                   <div id="stamp-text">TAMAMLANDI</div>
-                  <div id="stamp-ring"></div>
+                  <div id="stamp-ring" data-layout-ignore></div>
                 </div>
               </div>
             </div>
@@ -504,18 +504,18 @@
               <div id="s3-content" class="scene-content">
                 <div id="s3-small" class="line"><span class="w"><span id="w-aylar" class="wi">AYLAR</span></span> <span class="w"><span id="w-suren" class="wi">SÜREN</span></span> <span class="w"><span id="w-yorucu" class="wi">YORUCU</span></span> <span class="w"><span id="w-bir" class="wi">BİR</span></span> <span class="w"><span id="w-donem" class="wi">DÖNEM</span></span></div>
                 <div id="s3-h1" class="line s3-hero"><span class="w"><span id="w-birlik" class="wi">BİRLİK</span></span> <span class="w"><span id="w-ve2" class="wi">VE</span></span></div>
-                <div id="s3-h2" class="line s3-hero"><span class="uword"><span class="w"><span id="w-beraberlik" class="wi">BERABERLİK</span></span><span id="s3-uline"></span></span> <span id="s3-icinde" class="w"><span id="w-icinde" class="wi">İÇİNDE</span></span></div>
+                <div id="s3-h2" class="line s3-hero"><span class="uword"><span class="w"><span id="w-beraberlik" class="wi">BERABERLİK</span></span><span id="s3-uline" data-layout-ignore></span></span> <span id="s3-icinde" class="w"><span id="w-icinde" class="wi">İÇİNDE</span></span></div>
                 <div id="s3-final" class="line"><span class="w"><span id="w-geride" class="wi">GERİDE</span></span> <span class="w"><span id="w-birakiyoruz" class="wi">BIRAKIYORUZ</span></span></div>
               </div>
             </div>
 
             <img id="logo-bug" src="../assets/logo-canli-dark.svg" alt="7/24 CAN'LI Eğitim Merkezi" />
-            <div id="wipe-bar"></div>
-            <div id="scan-band"></div>
-            <div id="led-fx"></div>
-            <div id="flash"></div>
+            <div id="wipe-bar" data-layout-ignore></div>
+            <div id="scan-band" data-layout-ignore></div>
+            <div id="led-fx" data-layout-ignore></div>
+            <div id="flash" data-layout-ignore></div>
           </div>
-          <div id="power-line"></div>
+          <div id="power-line" data-layout-ignore></div>
         </div>
       </div>
 
@@ -562,7 +562,7 @@
             { clipPath: "inset(0% 0% 0% 0%)", duration: 0.28, ease: "expo.out" },
             0.08,
           );
-          tl.fromTo("#flash", { opacity: 0.55 }, { opacity: 0, duration: 0.32, ease: "power2.out" }, 0.08);
+          tl.fromTo("#flash", { opacity: 0.4 }, { opacity: 0, duration: 0.26, ease: "power2.out" }, 0.08);
           tl.fromTo("#logo-bug", { autoAlpha: 0, x: -16 }, { autoAlpha: 1, x: 0, duration: 0.42, ease: "power3.out" }, 0.4);
 
           // ---------------- scene 1 ----------------
@@ -646,7 +646,7 @@
           tl.to("#stamp", { scale: 0.95, duration: 0.05, ease: "power2.out" }, 6.04);
           tl.to("#stamp", { scale: 1, duration: 0.22, ease: "back.out(3)" }, 6.09);
           shake("#s2", 6.04, 6);
-          tl.fromTo("#stamp-ring", { scale: 0.92, opacity: 0.95 }, { scale: 1.32, opacity: 0, duration: 0.5, ease: "power2.out" }, 6.04);
+          tl.fromTo("#stamp-ring", { scaleX: 0.98, scaleY: 0.92, opacity: 0.95 }, { scaleX: 1.1, scaleY: 1.5, opacity: 0, duration: 0.36, ease: "power2.out" }, 6.04);
           tl.fromTo("#stamp-tick", { strokeDashoffset: 40 }, { strokeDashoffset: 0, duration: 0.3, ease: "power2.out" }, 6.08);
 
           // ---------------- 6.74-6.94 transition 2: scan refresh ----------------
