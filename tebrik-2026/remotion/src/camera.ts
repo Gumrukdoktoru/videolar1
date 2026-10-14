@@ -8,16 +8,15 @@ export type Cam = { s: number; cx: number; cy: number };
 export const WIDE: Cam = { s: 1, cx: 544, cy: 960 };
 export const WIDE_PUSH: Cam = { s: 1.08, cx: 544, cy: 900 };
 export const LED_FOCUS: Cam = { s: 1.09, cx: 545, cy: 880 };
-export const PUSH_CAN: Cam = { s: 1.3, cx: 544, cy: 980 };
-export const MED: Cam = { s: 1.42, cx: 544, cy: 1040 };
-export const MED_DRIFT: Cam = { s: 1.47, cx: 544, cy: 1035 };
-export const MED_TIGHT: Cam = { s: 1.6, cx: 544, cy: 1010 };
+export const PUSH_CAN: Cam = { s: 1.3, cx: 544, cy: 1100 };
+export const MED: Cam = { s: 1.5, cx: 544, cy: 1060 };
+export const MED_DRIFT: Cam = { s: 1.55, cx: 544, cy: 1052 };
+export const MED_TIGHT: Cam = { s: 1.72, cx: 544, cy: 1060 };
 
 type Move = { from: number; to: number; a: Cam; b: Cam; linear?: boolean };
 
 // Hard cuts happen where one move ends on a different framing than the next
-// begins. Every lip-sync clip boundary (11.13, 21.88, 29.16, 41.30) sits on a
-// cut or under the full-frame takeover, so the pose reset is never seen.
+// begins; they land on sentence breaks of the voiceover.
 const MOVES: Move[] = [
   { from: 0, to: 11.13, a: WIDE, b: WIDE_PUSH },
   { from: 11.13, to: 15.0, a: MED, b: MED_DRIFT, linear: true },

@@ -101,7 +101,7 @@ const StatCard: React.FC<{ t: number; at: number; value: number; prefix?: string
         {prefix}
         {n}
       </div>
-      <div style={{ fontSize: 38, fontWeight: 800, marginTop: 14, letterSpacing: 1 }}>{label}</div>
+      <div style={{ fontSize: 38, fontWeight: 800, marginTop: 14, letterSpacing: 1, textAlign: "center", lineHeight: 1.15 }}>{label}</div>
     </div>
   );
 };

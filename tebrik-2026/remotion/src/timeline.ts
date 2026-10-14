@@ -6,29 +6,25 @@ export const HEIGHT = 1920;
 
 export const sec = (s: number) => Math.round(s * FPS);
 
-// Presenter lip-sync clips (OmniHuman 1.5), cut from the voiceover at pauses.
-// start/end are positions on the master timeline in seconds.
-export const CHUNKS = [
-  { src: "media/sunucu-1.mp4", start: 0, end: 11.13 },
-  { src: "media/sunucu-2.mp4", start: 11.13, end: 21.88 },
-  { src: "media/sunucu-3.mp4", start: 21.88, end: 29.16 },
-  { src: "media/sunucu-4.mp4", start: 29.16, end: 41.3 },
-  { src: "media/sunucu-5.mp4", start: 41.3, end: 53.9 },
-] as const;
+// The presenter is the user's own video, used as-is: only its room background
+// was keyed out and the person placed (scaled, not altered) into the studio
+// plate. One continuous take on the master timeline.
+export const PRESENTER = "media/sunucu.mp4";
+// Soundtrack: the audio of the same video (voice, music and effects in one).
+export const SOUNDTRACK = "media/ses.m4a";
 
 export const OUTRO_START = 53.73;
 export const OUTRO_DURATION = 6;
 export const DURATION_IN_FRAMES = sec(OUTRO_START) + sec(OUTRO_DURATION);
 
-// The studio stage is the 1088x1920 lip-sync frame. The LED wall in it (bezel
-// included) was measured at x 50..1040, y 62..642 and is stable in every clip.
+// The studio stage is a 1088x1920 frame. The LED wall in it (bezel included)
+// sits at x 50..1040, y 62..642; the overlay bezel (9px) covers the plate bezel.
 export const STAGE = { w: 1088, h: 1920 };
 export const LED = { x: 50, y: 62, w: 990, h: 580 };
 // LED content is designed on a 1280x750 canvas (same aspect as the wall).
 export const LED_DESIGN = { w: 1280, h: 750 };
 
-// Full-frame "screen takeover" for the Ufuk Çetintaş reveal; it also covers the
-// lip-sync clip boundary at 21.88 s.
+// Full-frame "screen takeover" for the Ufuk Çetintaş reveal.
 export const TAKEOVER = { inStart: 21.45, inEnd: 21.85, outStart: 27.35, outEnd: 27.75 };
 
 export const BRAND = {

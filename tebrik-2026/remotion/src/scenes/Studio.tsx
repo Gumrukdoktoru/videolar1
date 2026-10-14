@@ -3,10 +3,10 @@ import { Video } from "@remotion/media";
 import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { cameraAt, ledRectInFrame, stageTranslate } from "../camera";
 import { LedContent } from "../led/LedContent";
-import { BRAND, CHUNKS, HEIGHT, LED, LED_DESIGN, STAGE, TAKEOVER, WIDTH, clamp, easeInOut, sec } from "../timeline";
+import { BRAND, HEIGHT, LED, LED_DESIGN, PRESENTER, STAGE, TAKEOVER, WIDTH, clamp, easeInOut, sec } from "../timeline";
 import { UfukPortrait } from "./UfukPortrait";
 
-// The studio: lip-sync clips on a virtual camera, with our own graphics on the
+// The studio: the presenter take on a virtual camera, with our own graphics on the
 // LED wall (so they stay sharp and on cue), plus the full-frame screen takeover.
 export const Studio: React.FC = () => {
   const frame = useCurrentFrame();
@@ -14,7 +14,7 @@ export const Studio: React.FC = () => {
   const t = frame / fps;
   const cam = cameraAt(t);
   // Shallow depth of field: the wall softens when the camera is tight on Can.
-  const ledBlur = interpolate(cam.s, [1.12, 1.42, 1.6], [0, 6, 9], clamp);
+  const ledBlur = interpolate(cam.s, [1.12, 1.5, 1.72], [0, 6, 9], clamp);
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#05070F", overflow: "hidden" }}>
@@ -30,11 +30,7 @@ export const Studio: React.FC = () => {
           scale: cam.s,
         }}
       >
-        {CHUNKS.map((c, i) => (
-          <Sequence key={c.src} name={`Sunucu ${i + 1}`} from={sec(c.start)} durationInFrames={sec(c.end) - sec(c.start)}>
-            <Video src={staticFile(c.src)} muted style={{ width: STAGE.w, height: STAGE.h }} />
-          </Sequence>
-        ))}
+        <Video name="Sunucu" src={staticFile(PRESENTER)} muted style={{ width: STAGE.w, height: STAGE.h }} />
         <div
           style={{
             position: "absolute",
@@ -44,7 +40,7 @@ export const Studio: React.FC = () => {
             height: LED.h,
             borderRadius: 6,
             overflow: "hidden",
-            boxShadow: "0 0 70px rgba(241,109,37,0.18), 0 0 0 6px #262C3D",
+            boxShadow: "0 0 70px rgba(241,109,37,0.18), 0 0 0 9px #262C3D",
             filter: ledBlur > 0.05 ? `blur(${ledBlur}px)` : undefined,
           }}
         >
