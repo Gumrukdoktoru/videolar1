@@ -1,0 +1,702 @@
+[
+{
+"text": "Herkese",
+"startMs": 620,
+"endMs": 1020,
+"timestampMs": 820,
+"confidence": null
+},
+{
+"text": " merhaba",
+"startMs": 1040,
+"endMs": 1320,
+"timestampMs": 1180,
+"confidence": null
+},
+{
+"text": " arkadaşlar.",
+"startMs": 1340,
+"endMs": 1900,
+"timestampMs": 1620,
+"confidence": null
+},
+{
+"text": " 8",
+"startMs": 2060,
+"endMs": 2360,
+"timestampMs": 2210,
+"confidence": null
+},
+{
+"text": " Kasım",
+"startMs": 2380,
+"endMs": 2580,
+"timestampMs": 2480,
+"confidence": null
+},
+{
+"text": " hazırlıklarımız",
+"startMs": 2600,
+"endMs": 3280,
+"timestampMs": 2940,
+"confidence": null
+},
+{
+"text": " şu",
+"startMs": 3340,
+"endMs": 3460,
+"timestampMs": 3400,
+"confidence": null
+},
+{
+"text": " an",
+"startMs": 3500,
+"endMs": 3660,
+"timestampMs": 3580,
+"confidence": null
+},
+{
+"text": " başlamış",
+"startMs": 3800,
+"endMs": 4300,
+"timestampMs": 4050,
+"confidence": null
+},
+{
+"text": " bulunmakta.",
+"startMs": 4320,
+"endMs": 4800,
+"timestampMs": 4560,
+"confidence": null
+},
+{
+"text": " New",
+"startMs": 4860,
+"endMs": 5020,
+"timestampMs": 4940,
+"confidence": null
+},
+{
+"text": " Park",
+"startMs": 5060,
+"endMs": 5220,
+"timestampMs": 5140,
+"confidence": null
+},
+{
+"text": " Otel'deyiz.",
+"startMs": 5280,
+"endMs": 5960,
+"timestampMs": 5620,
+"confidence": null
+},
+{
+"text": " New",
+"startMs": 6580,
+"endMs": 6740,
+"timestampMs": 6660,
+"confidence": null
+},
+{
+"text": " Park",
+"startMs": 6840,
+"endMs": 7080,
+"timestampMs": 6960,
+"confidence": null
+},
+{
+"text": " Otel'de",
+"startMs": 7200,
+"endMs": 7740,
+"timestampMs": 7470,
+"confidence": null
+},
+{
+"text": " Harun",
+"startMs": 8320,
+"endMs": 8620,
+"timestampMs": 8470,
+"confidence": null
+},
+{
+"text": " Altınsoy,",
+"startMs": 8680,
+"endMs": 9200,
+"timestampMs": 8940,
+"confidence": null
+},
+{
+"text": " Baset",
+"startMs": 9340,
+"endMs": 9680,
+"timestampMs": 9510,
+"confidence": null
+},
+{
+"text": " Temiz",
+"startMs": 9720,
+"endMs": 10140,
+"timestampMs": 9930,
+"confidence": null
+},
+{
+"text": " ve",
+"startMs": 10180,
+"endMs": 10340,
+"timestampMs": 10260,
+"confidence": null
+},
+{
+"text": " diğer",
+"startMs": 10660,
+"endMs": 11020,
+"timestampMs": 10840,
+"confidence": null
+},
+{
+"text": " hocalarımızın",
+"startMs": 11280,
+"endMs": 11900,
+"timestampMs": 11590,
+"confidence": null
+},
+{
+"text": " sahne",
+"startMs": 12020,
+"endMs": 12280,
+"timestampMs": 12150,
+"confidence": null
+},
+{
+"text": " alacağı",
+"startMs": 12320,
+"endMs": 12640,
+"timestampMs": 12480,
+"confidence": null
+},
+{
+"text": " ekran,",
+"startMs": 12780,
+"endMs": 13180,
+"timestampMs": 12980,
+"confidence": null
+},
+{
+"text": " kürsü",
+"startMs": 13900,
+"endMs": 14220,
+"timestampMs": 14060,
+"confidence": null
+},
+{
+"text": " burada",
+"startMs": 14260,
+"endMs": 14440,
+"timestampMs": 14350,
+"confidence": null
+},
+{
+"text": " olacak.",
+"startMs": 14480,
+"endMs": 14900,
+"timestampMs": 14690,
+"confidence": null
+},
+{
+"text": " Salonlarımız",
+"startMs": 16160,
+"endMs": 16760,
+"timestampMs": 16460,
+"confidence": null
+},
+{
+"text": " sekizinci",
+"startMs": 16820,
+"endMs": 17220,
+"timestampMs": 17020,
+"confidence": null
+},
+{
+"text": " katta",
+"startMs": 17260,
+"endMs": 17580,
+"timestampMs": 17420,
+"confidence": null
+},
+{
+"text": " ferah.",
+"startMs": 17640,
+"endMs": 18000,
+"timestampMs": 17820,
+"confidence": null
+},
+{
+"text": " Klasik",
+"startMs": 19220,
+"endMs": 19660,
+"timestampMs": 19440,
+"confidence": null
+},
+{
+"text": " Ankara",
+"startMs": 19740,
+"endMs": 20060,
+"timestampMs": 19900,
+"confidence": null
+},
+{
+"text": " otellerinin",
+"startMs": 20100,
+"endMs": 20660,
+"timestampMs": 20380,
+"confidence": null
+},
+{
+"text": " bodrum",
+"startMs": 20760,
+"endMs": 21100,
+"timestampMs": 20930,
+"confidence": null
+},
+{
+"text": " katındaki",
+"startMs": 21180,
+"endMs": 21760,
+"timestampMs": 21470,
+"confidence": null
+},
+{
+"text": " o",
+"startMs": 22320,
+"endMs": 22420,
+"timestampMs": 22370,
+"confidence": null
+},
+{
+"text": " rutubet",
+"startMs": 22620,
+"endMs": 23120,
+"timestampMs": 22870,
+"confidence": null
+},
+{
+"text": " ve",
+"startMs": 23160,
+"endMs": 23340,
+"timestampMs": 23250,
+"confidence": null
+},
+{
+"text": " nem",
+"startMs": 24120,
+"endMs": 24260,
+"timestampMs": 24190,
+"confidence": null
+},
+{
+"text": " kokusunun",
+"startMs": 24360,
+"endMs": 24820,
+"timestampMs": 24590,
+"confidence": null
+},
+{
+"text": " olduğu",
+"startMs": 24880,
+"endMs": 25300,
+"timestampMs": 25090,
+"confidence": null
+},
+{
+"text": " alanlardan",
+"startMs": 25360,
+"endMs": 26000,
+"timestampMs": 25680,
+"confidence": null
+},
+{
+"text": " değil,",
+"startMs": 26120,
+"endMs": 26400,
+"timestampMs": 26260,
+"confidence": null
+},
+{
+"text": " ferah",
+"startMs": 26920,
+"endMs": 27300,
+"timestampMs": 27110,
+"confidence": null
+},
+{
+"text": " atmosferiyle",
+"startMs": 27940,
+"endMs": 28700,
+"timestampMs": 28320,
+"confidence": null
+},
+{
+"text": " ders",
+"startMs": 29140,
+"endMs": 29380,
+"timestampMs": 29260,
+"confidence": null
+},
+{
+"text": " dinlemenize",
+"startMs": 29420,
+"endMs": 30080,
+"timestampMs": 29750,
+"confidence": null
+},
+{
+"text": " elverişli",
+"startMs": 30740,
+"endMs": 31220,
+"timestampMs": 30980,
+"confidence": null
+},
+{
+"text": " bir",
+"startMs": 31240,
+"endMs": 31340,
+"timestampMs": 31290,
+"confidence": null
+},
+{
+"text": " ortam.",
+"startMs": 31400,
+"endMs": 31760,
+"timestampMs": 31580,
+"confidence": null
+},
+{
+"text": " Zaten",
+"startMs": 32700,
+"endMs": 32960,
+"timestampMs": 32830,
+"confidence": null
+},
+{
+"text": " hocalarımızı",
+"startMs": 32980,
+"endMs": 33440,
+"timestampMs": 33210,
+"confidence": null
+},
+{
+"text": " biliyorsunuz,",
+"startMs": 33480,
+"endMs": 33880,
+"timestampMs": 33680,
+"confidence": null
+},
+{
+"text": " ekran",
+"startMs": 34000,
+"endMs": 34260,
+"timestampMs": 34130,
+"confidence": null
+},
+{
+"text": " okuyan",
+"startMs": 34320,
+"endMs": 34560,
+"timestampMs": 34440,
+"confidence": null
+},
+{
+"text": " hocalarımız",
+"startMs": 34580,
+"endMs": 35080,
+"timestampMs": 34830,
+"confidence": null
+},
+{
+"text": " değil,",
+"startMs": 35140,
+"endMs": 35440,
+"timestampMs": 35290,
+"confidence": null
+},
+{
+"text": " gümbür",
+"startMs": 36020,
+"endMs": 36360,
+"timestampMs": 36190,
+"confidence": null
+},
+{
+"text": " gümbür",
+"startMs": 36440,
+"endMs": 36820,
+"timestampMs": 36630,
+"confidence": null
+},
+{
+"text": " örnekli",
+"startMs": 36980,
+"endMs": 37420,
+"timestampMs": 37200,
+"confidence": null
+},
+{
+"text": " bir",
+"startMs": 37440,
+"endMs": 37540,
+"timestampMs": 37490,
+"confidence": null
+},
+{
+"text": " şekilde",
+"startMs": 37620,
+"endMs": 37940,
+"timestampMs": 37780,
+"confidence": null
+},
+{
+"text": " sınav",
+"startMs": 38080,
+"endMs": 38280,
+"timestampMs": 38180,
+"confidence": null
+},
+{
+"text": " odaklı",
+"startMs": 38320,
+"endMs": 38680,
+"timestampMs": 38500,
+"confidence": null
+},
+{
+"text": " ders",
+"startMs": 38740,
+"endMs": 38940,
+"timestampMs": 38840,
+"confidence": null
+},
+{
+"text": " anlatan",
+"startMs": 39000,
+"endMs": 39380,
+"timestampMs": 39190,
+"confidence": null
+},
+{
+"text": " eğitmenlerimiz.",
+"startMs": 39580,
+"endMs": 40480,
+"timestampMs": 40030,
+"confidence": null
+},
+{
+"text": " Gümrük",
+"startMs": 41560,
+"endMs": 41860,
+"timestampMs": 41710,
+"confidence": null
+},
+{
+"text": " müşaviri",
+"startMs": 41880,
+"endMs": 42380,
+"timestampMs": 42130,
+"confidence": null
+},
+{
+"text": " ve",
+"startMs": 42420,
+"endMs": 42520,
+"timestampMs": 42470,
+"confidence": null
+},
+{
+"text": " yardımcılığı",
+"startMs": 42560,
+"endMs": 43040,
+"timestampMs": 42800,
+"confidence": null
+},
+{
+"text": " sınıflarımız",
+"startMs": 43100,
+"endMs": 43560,
+"timestampMs": 43330,
+"confidence": null
+},
+{
+"text": " ayrı",
+"startMs": 43620,
+"endMs": 43760,
+"timestampMs": 43690,
+"confidence": null
+},
+{
+"text": " ayrı",
+"startMs": 43820,
+"endMs": 43940,
+"timestampMs": 43880,
+"confidence": null
+},
+{
+"text": " olacak.",
+"startMs": 43980,
+"endMs": 44340,
+"timestampMs": 44160,
+"confidence": null
+},
+{
+"text": " Yardımcılık",
+"startMs": 44620,
+"endMs": 45280,
+"timestampMs": 44950,
+"confidence": null
+},
+{
+"text": " sınıfı",
+"startMs": 45340,
+"endMs": 45740,
+"timestampMs": 45540,
+"confidence": null
+},
+{
+"text": " Begonya,",
+"startMs": 46120,
+"endMs": 46660,
+"timestampMs": 46390,
+"confidence": null
+},
+{
+"text": " gümrük",
+"startMs": 47520,
+"endMs": 47820,
+"timestampMs": 47670,
+"confidence": null
+},
+{
+"text": " müşavirliği",
+"startMs": 47840,
+"endMs": 48260,
+"timestampMs": 48050,
+"confidence": null
+},
+{
+"text": " sınıfımız",
+"startMs": 48300,
+"endMs": 48760,
+"timestampMs": 48530,
+"confidence": null
+},
+{
+"text": " burası,",
+"startMs": 48800,
+"endMs": 49180,
+"timestampMs": 48990,
+"confidence": null
+},
+{
+"text": " Lilyum",
+"startMs": 49300,
+"endMs": 49640,
+"timestampMs": 49470,
+"confidence": null
+},
+{
+"text": " sınıfı",
+"startMs": 49720,
+"endMs": 49940,
+"timestampMs": 49830,
+"confidence": null
+},
+{
+"text": " olacak.",
+"startMs": 49980,
+"endMs": 50360,
+"timestampMs": 50170,
+"confidence": null
+},
+{
+"text": " Tüm",
+"startMs": 51480,
+"endMs": 51600,
+"timestampMs": 51540,
+"confidence": null
+},
+{
+"text": " arkadaşlara",
+"startMs": 51660,
+"endMs": 52220,
+"timestampMs": 51940,
+"confidence": null
+},
+{
+"text": " başarılar",
+"startMs": 52240,
+"endMs": 52620,
+"timestampMs": 52430,
+"confidence": null
+},
+{
+"text": " diliyorum.",
+"startMs": 52660,
+"endMs": 53040,
+"timestampMs": 52850,
+"confidence": null
+},
+{
+"text": " Ankara",
+"startMs": 53500,
+"endMs": 53900,
+"timestampMs": 53700,
+"confidence": null
+},
+{
+"text": " kamp",
+"startMs": 54000,
+"endMs": 54280,
+"timestampMs": 54140,
+"confidence": null
+},
+{
+"text": " kayıtlarımız",
+"startMs": 54460,
+"endMs": 55280,
+"timestampMs": 54870,
+"confidence": null
+},
+{
+"text": " an",
+"startMs": 55520,
+"endMs": 55640,
+"timestampMs": 55580,
+"confidence": null
+},
+{
+"text": " itibariyle",
+"startMs": 55740,
+"endMs": 56540,
+"timestampMs": 56140,
+"confidence": null
+},
+{
+"text": " dolmuştur.",
+"startMs": 56880,
+"endMs": 57540,
+"timestampMs": 57210,
+"confidence": null
+},
+{
+"text": " Herkesin",
+"startMs": 58000,
+"endMs": 58500,
+"timestampMs": 58250,
+"confidence": null
+},
+{
+"text": " bilgilerine.",
+"startMs": 58640,
+"endMs": 59160,
+"timestampMs": 58900,
+"confidence": null
+}
+]

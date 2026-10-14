@@ -1,0 +1,22 @@
+{
+  "duration": 6,
+  "assertions": [
+    { "kind": "appearsBy", "selector": "#badge7", "bySec": 0.45 },
+    { "kind": "appearsBy", "selector": "#badge24", "bySec": 0.6 },
+    { "kind": "before", "a": "#badge7", "b": "#badge24" },
+    { "kind": "appearsBy", "selector": "#cap", "bySec": 0.95 },
+    { "kind": "before", "a": "#badge24", "b": "#cap" },
+    { "kind": "before", "a": "#cap", "b": "#label-rule" },
+    { "kind": "appearsBy", "selector": "#date-main", "bySec": 2.1 },
+    { "kind": "before", "a": "#label-rule", "b": "#date-main" },
+    { "kind": "before", "a": "#date-main", "b": "#info-text" },
+    { "kind": "appearsBy", "selector": "#info-text", "bySec": 2.95 },
+    { "kind": "before", "a": "#info-text", "b": "#stamp" },
+    { "kind": "appearsBy", "selector": "#stamp", "bySec": 3.3 },
+    { "kind": "staysInFrame", "selector": "#logo-lockup" },
+    { "kind": "staysInFrame", "selector": "#date" },
+    { "kind": "staysInFrame", "selector": "#info" },
+    { "kind": "staysInFrame", "selector": "#stamp-slot" },
+    { "kind": "keepsMoving" }
+  ]
+}

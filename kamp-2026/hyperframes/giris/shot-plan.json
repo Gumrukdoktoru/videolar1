@@ -1,0 +1,64 @@
+{
+  "category": "logo-reveal",
+  "secondary_category": "kinetic-type",
+  "duration_s": 4.9,
+  "fps": 30,
+  "canvas": { "w": 1080, "h": 1920, "aspect": "9:16" },
+  "style": "Premium TV-broadcast opener. Deep navy LED wall (fine pixel grid + scanlines + a slow scan band), warm orange radial glow that breathes, drifting light motes. Logo assembles at the top, then heavy Montserrat Black kinetic type hits on the narrator's words. Confident and punchy, never cartoonish.",
+  "palette": ["#070B1F", "#121A3D", "#F16D25", "#FFB27A", "#414141", "#FFFFFF"],
+  "font": "Montserrat variable 100-900 (local woff2, latin + latin-ext split by unicode-range)",
+  "beats": [0.05, 0.17, 0.3, 0.8, 1.0, 1.2, 2.06, 2.38, 2.6, 3.8, 4.2, 4.45],
+  "export": "mp4",
+
+  "asset_needs": [
+    { "role": "hero", "kind": "logo", "source": "assets/logo-canli-dark.svg", "treatment": "none" }
+  ],
+
+  "block": "none (hand-authored; logo choreography reused from tebrik-2026/hyperframes/kapanis-logo)",
+  "customize": {
+    "catalog_searched": [
+      "LED pixel grid scanline background texture -> yt-lcd-background (paper board, wrong material), dynamic-grid (SaaS grid); hand-authored CSS LED grid instead",
+      "date hero slam with glow flash -> caption-kinetic-slam (full-screen single word), editorial-flash-overlay (cut flash); idiom reused, hand-authored for voice sync",
+      "stamp text impact underline -> hw-underline, lt-accent-underline (draw-on rules); stamp frame + ring hand-authored",
+      "logo assembly sting -> logo-sting, logo-outro (generic); the client's own kapanis-logo choreography reused per brief"
+    ],
+    "rules": [
+      "spring-pop-entrance (badges)",
+      "svg-icon-enrichment (tassel swing)",
+      "ambient-glow-bloom (breathing glow, inhale before the date hit, flash on impact)",
+      "kinetic-beat-slam (08 slam, BAŞLADI stamp)",
+      "motion-blur-streak (blur during the slam travel)",
+      "motion-vocabulary: letter rise (wordmark, KASIM), tracking-in (ANKARA KAMPI), underline_sweep, fade_blur (HAZIRLIKLAR), slide_out + blur (exit)"
+    ]
+  },
+
+  "content": {
+    "logo": "assets/logo-canli-dark.svg (inlined; groups #wordmark #cap #badge7 #badge24 #tagline)",
+    "label": "ANKARA KAMPI",
+    "date": { "day": "08", "month": "KASIM" },
+    "line": ["HAZIRLIKLAR", "BAŞLADI"],
+    "layout": {
+      "logo_box": { "w": 680, "h": 299, "top": 120 },
+      "label": { "size_px": 52, "weight": 800, "tracking": "0.22em", "underline": "6px orange" },
+      "day": { "size_px": 330, "weight": 900, "color": "#F16D25" },
+      "month": { "size_px": 126, "weight": 900, "color": "#FFFFFF", "tracking": "0.1em" },
+      "hazir": { "size_px": 68, "weight": 800, "color": "#FFFFFF" },
+      "stamp": { "size_px": 104, "weight": 900, "color": "#F16D25", "frame": "7px orange, rotated -3deg" },
+      "safe": { "sides_px": 90, "caption_band_free_y": [1380, 1720], "content_bottom_max_y": 1320 }
+    },
+    "timeline": [
+      { "t": [0.0, 0.3], "what": "background already live: glow breathes, scan band, motes; badges 7 (0.05) and 24 (0.17) pop" },
+      { "t": [0.3, 0.86], "what": "CAN'LI letters rise from baseline windows, 0.05 s stagger" },
+      { "t": [0.6, 0.98], "what": "cap drops onto A (land 0.80), bounce, tassel swing" },
+      { "t": [0.7, 1.2], "what": "tagline 'Eğitim Merkezi' soft-edge wipe; logo complete at 1.20" },
+      { "t": [1.0, 1.6], "what": "ANKARA KAMPI tracking-in (1.00-1.45) + underline draw from centre (1.22-1.58)" },
+      { "t": [1.42, 1.92], "what": "diagonal sheen across logo; glow inhales 1.86-2.06" },
+      { "t": [1.88, 2.3], "what": "08 slams from scale 2.6 + blur; impact 2.06 (scale 0.94 + flash + shake), overshoot settle by 2.30" },
+      { "t": [2.27, 2.6], "what": "KASIM letters rise, centred on the spoken 'Kasım' 2.38" },
+      { "t": [2.58, 3.22], "what": "HAZIRLIKLAR letters rise from blur over 'hazırlıklarımız'" },
+      { "t": [3.64, 4.0], "what": "BAŞLADI stamp slams, impact 3.80 (ring + small shake + glow pulse)" },
+      { "t": [4.2, 4.44], "what": "all rows exit up + blur + fade, 0.02 s stagger top to bottom" },
+      { "t": [4.45, 4.9], "what": "clean background only (glow, grid, scan band, motes)" }
+    ]
+  }
+}
