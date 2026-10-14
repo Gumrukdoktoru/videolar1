@@ -8,10 +8,10 @@ export type Cam = { s: number; cx: number; cy: number };
 export const WIDE: Cam = { s: 1, cx: 544, cy: 960 };
 export const WIDE_PUSH: Cam = { s: 1.08, cx: 544, cy: 900 };
 export const LED_FOCUS: Cam = { s: 1.09, cx: 545, cy: 880 };
-export const PUSH_CAN: Cam = { s: 1.3, cx: 544, cy: 1010 };
-export const MED: Cam = { s: 1.42, cx: 544, cy: 1090 };
-export const MED_DRIFT: Cam = { s: 1.47, cx: 544, cy: 1085 };
-export const MED_TIGHT: Cam = { s: 1.6, cx: 544, cy: 1060 };
+export const PUSH_CAN: Cam = { s: 1.3, cx: 544, cy: 980 };
+export const MED: Cam = { s: 1.42, cx: 544, cy: 1040 };
+export const MED_DRIFT: Cam = { s: 1.47, cx: 544, cy: 1035 };
+export const MED_TIGHT: Cam = { s: 1.6, cx: 544, cy: 1010 };
 
 type Move = { from: number; to: number; a: Cam; b: Cam; linear?: boolean };
 

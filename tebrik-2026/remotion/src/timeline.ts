@@ -27,8 +27,8 @@ export const LED = { x: 50, y: 62, w: 990, h: 580 };
 // LED content is designed on a 1280x750 canvas (same aspect as the wall).
 export const LED_DESIGN = { w: 1280, h: 750 };
 
-// Full-frame "screen takeover" for the Ufuk Çetintaş reveal. It also hides an
-// object the lip-sync model hallucinated in clip 3 (visible 23.48–26.98 s).
+// Full-frame "screen takeover" for the Ufuk Çetintaş reveal; it also covers the
+// lip-sync clip boundary at 21.88 s.
 export const TAKEOVER = { inStart: 21.45, inEnd: 21.85, outStart: 27.35, outEnd: 27.75 };
 
 export const BRAND = {

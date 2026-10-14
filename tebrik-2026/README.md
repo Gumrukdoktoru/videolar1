@@ -34,7 +34,7 @@ Video boyunca (açılış başlığı hariç) kelime kelime vurgulanan altyazı 
 ## Üretim hattı
 
 1. **Ses** — ElevenLabs TTS (eleven_v4, "CAn Yılmaz2"), 4 denemeden en dinamik olanı; −16 LUFS'e normalize edildi. Kelime zamanlamaları → `remotion/public/altyazi.json`.
-2. **Stüdyo** — Can Yılmaz karakter sayfası referansıyla Nano Banana Pro (9:16, 2K) stüdyo görseli (`remotion/public/media/studyo.jpg`).
+2. **Stüdyo** — Önce boş stüdyo zemini üretildi; ardından Can Yılmaz, kendi videolarından alınan yüz/gözlük/beden referanslarıyla (yalnızca karakter; videoların içeriği ve yazıları kullanılmadı) takım elbiseli olarak Nano Banana Pro ile (9:16, 2K) bu stüdyoya yerleştirildi (`remotion/public/media/studyo.jpg`).
 3. **Konuşan sunucu** — OmniHuman 1.5 (1080p) ile 5 parça dudak senkronu (`media/sunucu-1..5.mp4`). Parçalar sesteki duraklamalardan bölündü; her parça sınırı bir kamera kesmesine veya tam ekran sahneye denk getirildi.
 4. **Müzik** — ElevenLabs Music v2.5, enstrümantal, duygusal-motive edici (`media/muzik.mp3`).
 5. **Hocalar** — ÖN pozlar kırpıldı, arka planlar `rembg` (isnet) ile temizlendi (`remotion/public/hocalar/`).
@@ -55,4 +55,4 @@ HyperFrames birimlerini yeniden üretmek için ilgili klasörde `npx hyperframes
 
 ## Not
 
-OmniHuman 3. parçada (≈23,5–27 sn) sunucunun eline hayali bir bina maketi koydu. Bu aralık tam ekran Ufuk Çetintaş sahnesiyle tamamen örtüldü; videoda görünmez.
+Konuşan sunucu, gerçek Can Yılmaz'a benzemesi için kullanıcının onayladığı yeni stüdyo görseliyle yeniden üretildi (5 parça, OmniHuman 1.5, 1080p). Her parça nesne/hata açısından kare kare kontrol edildi.
