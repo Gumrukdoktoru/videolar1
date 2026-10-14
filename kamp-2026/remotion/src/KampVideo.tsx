@@ -124,9 +124,10 @@ const Outro: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const p = interpolate(t, [0, 0.35], [0, 1], { ...clamp, easing: easeOut });
+  // The sting carries its own flash tail on its first frames; keep the cut quick.
+  const p = interpolate(t, [0, 0.4], [0, 1], { ...clamp, easing: easeOut });
   return (
-    <AbsoluteFill style={{ opacity: p, scale: 1.08 - 0.08 * p }}>
+    <AbsoluteFill style={{ opacity: Math.min(1, p * 4), scale: 1.06 - 0.06 * p }}>
       <Video src={staticFile("hf/kapanis.mp4")} muted />
     </AbsoluteFill>
   );
@@ -187,7 +188,7 @@ export const KampVideo: React.FC = () => {
         <Outro />
       </Sequence>
       <Flash at={STAMP_AT} peak={0.35} />
-      <Flash at={OUTRO_START} />
+      <Flash at={OUTRO_START} peak={0.45} />
 
       <Audio name="Anlatım (müşteri videosu)" src={staticFile("media/anlatim.m4a")} />
       {/* ElevenLabs Music v2.5 take whose first hit (1.99 s) is nudged onto "8 Kasım" (2.06 s). */}

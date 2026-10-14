@@ -672,7 +672,7 @@ export const KayitlarDoldu: React.FC = () => (
           >
             KAYITLARIMIZ
           </div>
-          <div style={{ ...center, top: 440 }}>
+          <div style={{ ...center, top: 500 }}>
             <div
               style={{
                 padding: "10px 60px",
@@ -694,7 +694,7 @@ export const KayitlarDoldu: React.FC = () => (
               DOLDU
             </div>
           </div>
-          <div style={{ ...center, top: 760, opacity: info, translate: `0px ${(1 - info) * 30}px` }}>
+          <div style={{ ...center, top: 820, opacity: info, translate: `0px ${(1 - info) * 30}px` }}>
             <div
               style={{
                 display: "flex",
