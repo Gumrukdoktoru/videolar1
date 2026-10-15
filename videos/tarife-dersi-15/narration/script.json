@@ -1,0 +1,65 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin on beşincisine hoş geldiniz. Bugün üç soru var: nevresim takımı, okey takımı ve bölüm yapısı. Ekip hazır: Stajyer, Yardımcı, Gümrükçü Baba ve Cano. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru 1",
+  "hold": 3.6,
+  "text": "Birinci soru. Pamuklu dokuma kumaştan bir nevresim, bir çarşaf ve iki yastık kılıfından oluşan, perakende satış ambalajındaki nevresim takımı hangi tarife pozisyonunda sınıflandırılır? A şıkkı: altmış üç sıfır bir. B şıkkı: altmış üç sıfır iki. C şıkkı: altmış üç sıfır dört. D şıkkı: altmış üç sıfır sekiz. E şıkkı: doksan dört sıfır dört. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s03",
+  "title": "Çözüm 1",
+  "text": "Cevap: B şıkkı. Nevresim, yani yorgan kılıfı, çarşaf ve yastık kılıfları, altmış üç sıfır ikinin açıklama notunda yatak çarşafları olarak adıyla sayılır. Takımdaki tüm parçalar aynı pozisyona girdiği için ayrıca takım kuralına gerek yoktur; birinci kural ile eşya doğrudan altmış üç sıfır ikide sınıflandırılır. Doğru pozisyon: altmış üç sıfır iki. Yorganın kendisi ise doksan dört sıfır dörttedir."
+ },
+ {
+  "id": "s04",
+  "title": "Tuzak 1",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, takım kelimesini görünce D şıkkını, altmış üç sıfır sekizi seçti. Hayır! Altmış üç sıfır sekiz, halı, kilim ya da işlemeli masa örtüsü yapımında kullanılan, mensucat ve iplikten oluşan takımlar içindir. Hazır nevresim takımı ise yatak çarşafıdır. Bir de dikkat: İçi doldurulmuş yorgan ve yastıklar doksan dört sıfır dörttedir. Kısa yol: Kelimeye değil, eşyaya bakın."
+ },
+ {
+  "id": "s05",
+  "title": "Soru 2",
+  "hold": 3.6,
+  "text": "İkinci soru. Plastik taşlar ve ıstakalardan oluşan, perakende satılan okey takımı hangi tarife pozisyonunda sınıflandırılır? A şıkkı: otuz dokuz yirmi altı. B şıkkı: doksan beş sıfır üç. C şıkkı: doksan beş sıfır dört. D şıkkı: doksan beş sıfır beş. E şıkkı: doksan beş sıfır altı. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s06",
+  "title": "Çözüm 2",
+  "text": "Cevap: C şıkkı. Okey, masa başında oynanan bir salon oyunudur. Doksan beş sıfır dört, video oyun konsollarından bilardoya kadar salon ve masa oyunlarını kapsar; tavla, satranç ve oyun kâğıtları da buradadır. Taşların plastikten olması sonucu değiştirmez; otuz dokuzuncu faslın notu, doksan beşinci fasıldaki eşyayı fasıl dışında bırakır. Doğru pozisyon: doksan beş sıfır dört. Oyuncaklar ise doksan beş sıfır üçtedir."
+ },
+ {
+  "id": "s07",
+  "title": "Tuzak 2",
+  "text": "[cautiously] Tuzak nerede? Cano, oyun oynanıyorsa oyuncaktır diye B şıkkını, doksan beş sıfır üçü seçti. Hayır! Doksan beş sıfır üç, oyuncaklar ve modeller içindir; okey, tavla ve satranç gibi masa oyunları kendi pozisyonları olan doksan beş sıfır dörttedir. Bir de dikkat: Plastikten yapılmış olsalar da doksan beşinci fasıldaki eşya otuz dokuzuncu fasla girmez. Kısa yol: Oyuncak mı, masa oyunu mu?"
+ },
+ {
+  "id": "s08",
+  "title": "Soru 3",
+  "hold": 3.6,
+  "text": "Üçüncü soru. Aşağıdaki seçeneklerin hangisinde sayılan eşyaların tümü tarife cetvelinin aynı bölümünde yer alır? A şıkkı: Pusula, akort düdüğü, duvar saati. B şıkkı: Kontakt lens, optik olarak işlenmemiş gözlük camı, dürbün. C şıkkı: Kol saati, deri saat kayışı, ahşap mücevher kutusu. D şıkkı: Piyano, piyano taburesi, basılı nota. E şıkkı: Metronom, gitar teli, gitar kılıfı. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s09",
+  "title": "Çözüm 3",
+  "text": "Cevap: A şıkkı. Pusula doksan on dörtte, akort düdüğü doksan iki sıfır dokuzda, duvar saati doksan bir sıfır beşte; üçü de doksan ile doksan iki arasındaki fasıllardan oluşan on sekizinci bölümdedir. Diğer şıklarda en az bir yabancı var: Optik olarak işlenmemiş gözlük camı yetmiş on beşte, on üçüncü bölümde. Ahşap mücevher kutusu kırk dört yirmide, dokuzuncu bölümde. Ayrı gelen gitar kılıfı ise kırk iki sıfır ikide, sekizinci bölümde. Piyano taburesi doksan dört sıfır birde, basılı nota kırk dokuz sıfır dörtte."
+ },
+ {
+  "id": "s10",
+  "title": "Tuzak 3",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, gitar kılıfı da gitarın aksesuarıdır, metronom ve gitar teli gibi doksan iki sıfır dokuza girer diye E şıkkını seçti. Hayır! Müzik aleti mahfazaları kırk iki sıfır ikinin metninde adıyla sayılır; ayrı gelen gitar kılıfı sekizinci bölümdedir. Bir de dikkat: Gitarla birlikte getirilen, ona uygun yapılmış kılıf ise beşinci kural gereği gitarla birlikte sınıflandırılır. Gümrükçü Baba'nın kısa yolu: Ayrı geldiyse kılıf, kendi yerine."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun Notu",
+  "text": "[warmly] Koçun notu: Bugünün üç kuralı. Bir: Takım kelimesine değil eşyaya bakın; nevresim takımı altmış üç sıfır ikidir. İki: Doksan beşinci fasılda işlev belirler; okey bir masa oyunudur, doksan beş sıfır dört. Üç: Bölüm sorusunda her eşyanın faslını bulun; on sekizinci bölüm, doksan ile doksan iki arasındaki fasıllardır."
+ },
+ {
+  "id": "s12",
+  "title": "Cevap Anahtarı",
+  "text": "Bugünün cevap anahtarı: Birinci soru B, ikinci soru C, üçüncü soru A. Kaç tanesini bildiniz? Yorumlara yazın. Böylece tarife derslerinin on beşincisini de tamamladık. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki derste görüşmek üzere. Hoşça kalın!"
+ }
+]

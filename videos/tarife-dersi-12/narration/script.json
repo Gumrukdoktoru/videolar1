@@ -1,0 +1,65 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin on ikincisine hoş geldiniz. Bugün yine üç soru var: pul biber, güneş paneli ve iki tekerlekli taşıtlar. Ekip hazır: Stajyer, Yardımcı, Gümrükçü Baba ve Cano. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru 1",
+  "hold": 3.6,
+  "text": "Birinci soru. Kurutulup pul hâlinde ezilmiş, başka hiçbir madde katılmamış kırmızı biber, yani pul biber, hangi tarife pozisyonunda sınıflandırılır? A şıkkı: sıfır yedi sıfır dokuz. B şıkkı: sıfır yedi on iki. C şıkkı: sıfır dokuz sıfır dört. D şıkkı: yirmi sıfır beş. E şıkkı: yirmi bir sıfır üç. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s03",
+  "title": "Çözüm 1",
+  "text": "Cevap: C şıkkı. Pul biber, Kapsikum cinsi kırmızı biberin kurutulup ezilmiş hâlidir. Yedinci faslın açıklama notu, Kapsikum ve Pimenta cinsi biberlerin kurutulmuş, ezilmiş veya öğütülmüş meyvelerini bu fasıl dışında bırakır. Sıfır dokuz sıfır dört de bunları adıyla sayar. Doğru pozisyon: sıfır dokuz sıfır dört. Taze biber ise sıfır yedi sıfır dokuzdadır."
+ },
+ {
+  "id": "s04",
+  "title": "Tuzak 1",
+  "text": "[cautiously] Tuzak nerede? Cano, biber bir sebzedir, kurutulmuş sebze de sıfır yedi on ikidedir diye B şıkkını seçti. Hayır! Sıfır yedi on iki, Kapsikum ve Pimenta cinsi kurutulmuş biberleri açıkça hariç tutar; bunlar baharat olarak dokuzuncu fasıldadır. Bir de dikkat: Biber salçası ya da biber turşusu gibi hazırlanmış ürünler yirminci fasla gider. Kısa yol: Biber kuruysa baharat, tazeyse sebze."
+ },
+ {
+  "id": "s05",
+  "title": "Soru 2",
+  "hold": 3.6,
+  "text": "İkinci soru. Yalnızca birbirine bağlanmış güneş pillerinden oluşan; invertör, akü veya bir motoru doğrudan besleyen başka bir eleman içermeyen fotovoltaik güneş paneli hangi tarife pozisyonunda sınıflandırılır? A şıkkı: seksen beş sıfır bir. B şıkkı: seksen beş sıfır dört. C şıkkı: seksen beş sıfır yedi. D şıkkı: seksen beş kırk bir. E şıkkı: doksan dört sıfır beş. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s06",
+  "title": "Çözüm 2",
+  "text": "Cevap: D şıkkı. Güneş ışığını doğrudan elektriğe çeviren fotovoltaik hücreler, modül ya da panel hâlinde birleştirilmiş olsalar da yarı iletken cihaz sayılır ve seksen beş kırk birde yer alır. Seksen beş sıfır birin açıklama notu ise yalnızca akü, invertör gibi cihazlarla birleştirilmiş ya da gücü doğrudan bir motora veren elemanlarla donatılmış panelleri fotovoltaik jeneratör olarak alır. Bizim panelimizde bunlar yok. Doğru pozisyon: seksen beş kırk bir. Konvertörler, akümülatörler ve aydınlatma cihazları ise başka pozisyonlardadır."
+ },
+ {
+  "id": "s07",
+  "title": "Tuzak 2",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, panel elektrik üretiyor, o hâlde jeneratördür diye A şıkkını, seksen beş sıfır biri seçti. Hayır! Seksen beş sıfır bir, ancak akü, invertör gibi cihazlarla birleştirilmiş fotovoltaik jeneratörleri kapsar. Tek başına panel seksen beş kırk birdedir. Bir de dikkat: Fotovoltaik, LED ışık kaynaklı aydınlatma cihazları doksan dört sıfır beştedir. Gümrükçü Baba'nın kısa yolu: Panelin yanında başka ne var?"
+ },
+ {
+  "id": "s08",
+  "title": "Soru 3",
+  "hold": 3.6,
+  "text": "Üçüncü soru. Aşağıdakilerden hangisi seksen yedi on bir pozisyonunda sınıflandırılmaz? A şıkkı: Pedal çevrildiğinde devreye giren, yardımcı elektrik motorlu bisiklet. B şıkkı: Ayakla itilerek ilerleyen, yetişkinlerin de kullanabildiği motorsuz skuter. C şıkkı: Kendi kendini dengeleyen, tek kişilik, iki tekerlekli elektrikli nakil aracı. D şıkkı: Hem motoru hem pedalı bulunan mopet. E şıkkı: Motosiklete takılan yan sepet. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s09",
+  "title": "Çözüm 3",
+  "text": "Cevap: B şıkkı. Seksen yedi on bir, motosikletleri ve yardımcı motorlu bisikletleri kapsar. Açıklama notuna göre mopetler, kaldırımda kullanılan, kendi kendini dengeleyen iki tekerlekli elektrikli araçlar ve motosiklet sepetleri de bu pozisyondadır. Motorsuz, ayakla itilen skuterler ise yetişkinler için tasarlanmış olsa bile doksan beş sıfır üçte, tekerlekli oyuncaklar arasında sayılır."
+ },
+ {
+  "id": "s10",
+  "title": "Tuzak 3",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, bisiklet bisiklettir, seksen yedi on ikidedir diye A şıkkını seçti. Hayır! Seksen yedi on iki motorsuz bisikletler içindir; yardımcı motoru olan bisiklet, motoru elektrikli olsa da seksen yedi on birdedir. Bir de dikkat: Çocuklar için üç tekerlekli bisikletler doksan beş sıfır üçtedir. Gümrükçü Baba'nın kısa yolu: Motor var mı?"
+ },
+ {
+  "id": "s11",
+  "title": "Koçun Notu",
+  "text": "[warmly] Koçun notu: Bugünün üç kuralı. Bir: Biber kuruysa baharattır, sıfır dokuz sıfır dört; tazeyse sebzedir. İki: Güneş paneli tek başına seksen beş kırk birdir; akü ya da invertörle birleşince jeneratör olur. Üç: İki tekerlekte motora bakın; motorlu bisiklet seksen yedi on bir, motorsuz skuter doksan beş sıfır üç."
+ },
+ {
+  "id": "s12",
+  "title": "Cevap Anahtarı",
+  "text": "Bugünün cevap anahtarı: Birinci soru C, ikinci soru D, üçüncü soru B. Kaç tanesini bildiniz? Yorumlara yazın. Böylece tarife derslerinin on ikincisini de tamamladık. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki derste görüşmek üzere. Hoşça kalın!"
+ }
+]

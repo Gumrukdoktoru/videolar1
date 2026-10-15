@@ -1,0 +1,611 @@
+1
+00:00:01,680 --> 00:00:04,800
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,800 --> 00:00:06,640
+12'ncisine hoş geldiniz.
+
+3
+00:00:06,640 --> 00:00:08,200
+Bugün yine 3 soru var:
+
+4
+00:00:08,200 --> 00:00:11,840
+pul biber, güneş paneli ve iki tekerlekli taşıtlar.
+
+5
+00:00:11,840 --> 00:00:12,880
+Ekip hazır:
+
+6
+00:00:12,880 --> 00:00:16,107
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+7
+00:00:16,107 --> 00:00:18,359
+Kâğıt kalem hazırsa, başlayalım.
+
+8
+00:00:19,109 --> 00:00:20,309
+Birinci soru.
+
+9
+00:00:20,309 --> 00:00:22,549
+Kurutulup pul hâlinde ezilmiş,
+
+10
+00:00:22,549 --> 00:00:25,349
+başka hiçbir madde katılmamış kırmızı biber,
+
+11
+00:00:25,349 --> 00:00:29,349
+yani pul biber, hangi tarife pozisyonunda sınıflandırılır?
+
+12
+00:00:29,349 --> 00:00:30,389
+A şıkkı:
+
+13
+00:00:30,389 --> 00:00:32,309
+07.09.
+
+14
+00:00:32,309 --> 00:00:33,269
+B şıkkı:
+
+15
+00:00:33,269 --> 00:00:34,829
+07.12.
+
+16
+00:00:34,829 --> 00:00:35,829
+C şıkkı:
+
+17
+00:00:35,829 --> 00:00:37,629
+09.04.
+
+18
+00:00:37,629 --> 00:00:38,549
+D şıkkı:
+
+19
+00:00:38,549 --> 00:00:40,069
+20.05.
+
+20
+00:00:40,069 --> 00:00:40,949
+E şıkkı:
+
+21
+00:00:40,949 --> 00:00:42,709
+21.03.
+
+22
+00:00:42,709 --> 00:00:44,593
+3 saniye, düşünün!
+
+23
+00:00:48,943 --> 00:00:49,743
+Cevap:
+
+24
+00:00:49,743 --> 00:00:50,783
+C şıkkı.
+
+25
+00:00:50,783 --> 00:00:53,903
+Pul biber, Capsicum cinsi kırmızı biberin kurutulup
+
+26
+00:00:53,903 --> 00:00:55,433
+ezilmiş hâlidir.
+
+27
+00:00:55,503 --> 00:00:57,423
+7. faslın açıklama notu,
+
+28
+00:00:57,423 --> 00:01:00,463
+Capsicum ve Pimenta cinsi biberlerin kurutulmuş,
+
+29
+00:01:00,463 --> 00:01:03,543
+ezilmiş veya öğütülmüş meyvelerini bu fasıl dışında
+
+30
+00:01:03,543 --> 00:01:04,303
+bırakır.
+
+31
+00:01:04,303 --> 00:01:07,263
+09.04 de bunları adıyla sayar.
+
+32
+00:01:07,263 --> 00:01:08,383
+Doğru pozisyon:
+
+33
+00:01:08,383 --> 00:01:09,943
+09.04.
+
+34
+00:01:09,943 --> 00:01:12,912
+Taze biber ise 07.09'dadır.
+
+35
+00:01:13,742 --> 00:01:15,232
+Tuzak nerede?
+
+36
+00:01:15,262 --> 00:01:17,422
+Cano, biber bir sebzedir,
+
+37
+00:01:17,422 --> 00:01:20,782
+kurutulmuş sebze de 07.12'dedir diye B şıkkını
+
+38
+00:01:20,782 --> 00:01:21,502
+seçti.
+
+39
+00:01:21,502 --> 00:01:22,302
+Hayır!
+
+40
+00:01:22,302 --> 00:01:26,142
+07.12, Capsicum ve Pimenta cinsi kurutulmuş biberleri
+
+41
+00:01:26,142 --> 00:01:27,542
+açıkça hariç tutar;
+
+42
+00:01:27,542 --> 00:01:30,089
+bunlar baharat olarak 9. fasıldadır.
+
+43
+00:01:30,089 --> 00:01:30,982
+Bir de dikkat:
+
+44
+00:01:30,982 --> 00:01:33,742
+Biber salçası ya da biber turşusu gibi hazırlanmış
+
+45
+00:01:33,742 --> 00:01:35,715
+ürünler 20. fasla gider.
+
+46
+00:01:35,715 --> 00:01:36,569
+Kısa yol:
+
+47
+00:01:36,569 --> 00:01:39,538
+Biber kuruysa baharat, tazeyse sebze.
+
+48
+00:01:40,288 --> 00:01:41,338
+İkinci soru.
+
+49
+00:01:41,568 --> 00:01:44,208
+Yalnızca birbirine bağlanmış güneş pillerinden
+
+50
+00:01:44,208 --> 00:01:44,928
+oluşan;
+
+51
+00:01:44,928 --> 00:01:48,368
+invertör, akü veya bir motoru doğrudan besleyen
+
+52
+00:01:48,368 --> 00:01:51,488
+başka bir eleman içermeyen fotovoltaik güneş paneli
+
+53
+00:01:51,488 --> 00:01:54,178
+hangi tarife pozisyonunda sınıflandırılır?
+
+54
+00:01:54,208 --> 00:01:55,088
+A şıkkı:
+
+55
+00:01:55,088 --> 00:01:56,658
+85.01.
+
+56
+00:01:56,688 --> 00:01:57,568
+B şıkkı:
+
+57
+00:01:57,568 --> 00:01:59,328
+85.04.
+
+58
+00:01:59,328 --> 00:02:00,208
+C şıkkı:
+
+59
+00:02:00,208 --> 00:02:01,888
+85.07.
+
+60
+00:02:01,888 --> 00:02:02,768
+D şıkkı:
+
+61
+00:02:02,768 --> 00:02:04,368
+85.41.
+
+62
+00:02:04,368 --> 00:02:05,248
+E şıkkı:
+
+63
+00:02:05,248 --> 00:02:06,778
+94.05.
+
+64
+00:02:07,568 --> 00:02:09,299
+3 saniye, düşünün!
+
+65
+00:02:13,649 --> 00:02:14,449
+Cevap:
+
+66
+00:02:14,449 --> 00:02:15,489
+D şıkkı.
+
+67
+00:02:15,489 --> 00:02:18,396
+Güneş ışığını doğrudan elektriğe çeviren fotovoltaik
+
+68
+00:02:18,396 --> 00:02:21,409
+hücreler, modül ya da panel hâlinde birleştirilmiş
+
+69
+00:02:21,409 --> 00:02:25,169
+olsalar da yarı iletken cihaz sayılır ve 85.41'de
+
+70
+00:02:25,169 --> 00:02:26,169
+yer alır.
+
+71
+00:02:26,169 --> 00:02:29,929
+85.01'in açıklama notu ise yalnızca akü,
+
+72
+00:02:29,929 --> 00:02:32,529
+invertör gibi cihazlarla birleştirilmiş ya da
+
+73
+00:02:32,529 --> 00:02:35,409
+gücü doğrudan bir motora veren elemanlarla donatılmış
+
+74
+00:02:35,409 --> 00:02:38,209
+panelleri fotovoltaik jeneratör olarak alır.
+
+75
+00:02:38,209 --> 00:02:39,899
+Bizim panelimizde bunlar yok.
+
+76
+00:02:40,049 --> 00:02:41,089
+Doğru pozisyon:
+
+77
+00:02:41,089 --> 00:02:42,569
+85.41.
+
+78
+00:02:42,569 --> 00:02:45,809
+Konvertörler, akümülatörler ve aydınlatma cihazları
+
+79
+00:02:45,809 --> 00:02:47,780
+ise başka pozisyonlardadır.
+
+80
+00:02:48,610 --> 00:02:50,050
+Tuzak nerede?
+
+81
+00:02:50,050 --> 00:02:52,690
+Yardımcımız, panel elektrik üretiyor,
+
+82
+00:02:52,690 --> 00:02:55,210
+o hâlde jeneratördür diye A şıkkını,
+
+83
+00:02:55,210 --> 00:02:57,010
+85.01'i seçti.
+
+84
+00:02:57,010 --> 00:02:57,890
+Hayır!
+
+85
+00:02:57,890 --> 00:03:02,410
+85.01, ancak akü, invertör gibi cihazlarla birleştirilmiş
+
+86
+00:03:02,410 --> 00:03:04,610
+fotovoltaik jeneratörleri kapsar.
+
+87
+00:03:04,610 --> 00:03:07,197
+Tek başına panel 85.41'dedir.
+
+88
+00:03:07,197 --> 00:03:08,210
+Bir de dikkat:
+
+89
+00:03:08,210 --> 00:03:11,410
+Fotovoltaik, LED ışık kaynaklı aydınlatma cihazları
+
+90
+00:03:11,410 --> 00:03:13,300
+94.05'tedir.
+
+91
+00:03:13,330 --> 00:03:15,170
+Gümrükçü Baba'nın kısa yolu:
+
+92
+00:03:15,170 --> 00:03:17,306
+Panelin yanında başka ne var?
+
+93
+00:03:18,056 --> 00:03:19,256
+Üçüncü soru.
+
+94
+00:03:19,256 --> 00:03:24,136
+Aşağıdakilerden hangisi 87.11 pozisyonunda sınıflandırılmaz?
+
+95
+00:03:24,136 --> 00:03:25,096
+A şıkkı:
+
+96
+00:03:25,096 --> 00:03:27,096
+Pedal çevrildiğinde devreye giren,
+
+97
+00:03:27,096 --> 00:03:29,576
+yardımcı elektrik motorlu bisiklet.
+
+98
+00:03:29,576 --> 00:03:30,536
+B şıkkı:
+
+99
+00:03:30,536 --> 00:03:32,136
+Ayakla itilerek ilerleyen,
+
+100
+00:03:32,136 --> 00:03:35,336
+yetişkinlerin de kullanabildiği motorsuz skuter.
+
+101
+00:03:35,336 --> 00:03:36,296
+C şıkkı:
+
+102
+00:03:36,296 --> 00:03:37,816
+Kendi kendini dengeleyen,
+
+103
+00:03:37,816 --> 00:03:41,176
+tek kişilik, iki tekerlekli elektrikli nakil aracı.
+
+104
+00:03:41,176 --> 00:03:41,986
+D şıkkı:
+
+105
+00:03:42,056 --> 00:03:44,776
+Hem motoru hem pedalı bulunan mopet.
+
+106
+00:03:44,776 --> 00:03:45,656
+E şıkkı:
+
+107
+00:03:45,656 --> 00:03:48,066
+Motosiklete takılan yan sepet.
+
+108
+00:03:48,216 --> 00:03:50,019
+3 saniye, düşünün!
+
+109
+00:03:54,369 --> 00:03:55,169
+Cevap:
+
+110
+00:03:55,169 --> 00:03:56,289
+B şıkkı.
+
+111
+00:03:56,289 --> 00:04:00,289
+87.11, motosikletleri ve yardımcı motorlu bisikletleri
+
+112
+00:04:00,289 --> 00:04:01,019
+kapsar.
+
+113
+00:04:01,169 --> 00:04:03,089
+Açıklama notuna göre mopetler,
+
+114
+00:04:03,089 --> 00:04:05,649
+kaldırımda kullanılan, kendi kendini dengeleyen
+
+115
+00:04:05,649 --> 00:04:08,529
+iki tekerlekli elektrikli araçlar ve motosiklet
+
+116
+00:04:08,529 --> 00:04:10,299
+sepetleri de bu pozisyondadır.
+
+117
+00:04:10,369 --> 00:04:13,449
+Motorsuz, ayakla itilen skuterler ise yetişkinler
+
+118
+00:04:13,449 --> 00:04:16,529
+için tasarlanmış olsa bile 95.03'te,
+
+119
+00:04:16,529 --> 00:04:18,965
+tekerlekli oyuncaklar arasında sayılır.
+
+120
+00:04:19,795 --> 00:04:21,155
+Tuzak nerede?
+
+121
+00:04:21,155 --> 00:04:23,635
+Stajyerimiz, bisiklet bisiklettir,
+
+122
+00:04:23,635 --> 00:04:26,595
+87.12'dedir diye A şıkkını seçti.
+
+123
+00:04:26,595 --> 00:04:27,395
+Hayır!
+
+124
+00:04:27,395 --> 00:04:30,355
+87.12 motorsuz bisikletler içindir;
+
+125
+00:04:30,355 --> 00:04:32,035
+yardımcı motoru olan bisiklet,
+
+126
+00:04:32,035 --> 00:04:35,315
+motoru elektrikli olsa da 87.11'dedir.
+
+127
+00:04:35,315 --> 00:04:36,275
+Bir de dikkat:
+
+128
+00:04:36,275 --> 00:04:40,405
+Çocuklar için üç tekerlekli bisikletler 95.03'tedir.
+
+129
+00:04:40,435 --> 00:04:42,355
+Gümrükçü Baba'nın kısa yolu:
+
+130
+00:04:42,355 --> 00:04:43,527
+Motor var mı?
+
+131
+00:04:44,357 --> 00:04:45,477
+Koçun notu:
+
+132
+00:04:45,477 --> 00:04:46,957
+Bugünün 3 kuralı.
+
+133
+00:04:46,957 --> 00:04:47,744
+Bir:
+
+134
+00:04:47,744 --> 00:04:49,477
+Biber kuruysa baharattır,
+
+135
+00:04:49,477 --> 00:04:50,957
+09.04;
+
+136
+00:04:50,957 --> 00:04:52,837
+tazeyse sebzedir.
+
+137
+00:04:52,837 --> 00:04:53,504
+İki:
+
+138
+00:04:53,504 --> 00:04:56,397
+Güneş paneli tek başına 85.41'dir;
+
+139
+00:04:56,397 --> 00:04:59,637
+akü ya da invertörle birleşince jeneratör olur.
+
+140
+00:04:59,637 --> 00:05:00,317
+Üç:
+
+141
+00:05:00,317 --> 00:05:02,037
+İki tekerlekte motora bakın;
+
+142
+00:05:02,037 --> 00:05:04,277
+motorlu bisiklet 87.11,
+
+143
+00:05:04,277 --> 00:05:06,966
+motorsuz skuter 95.03.
+
+144
+00:05:07,716 --> 00:05:09,396
+Bugünün cevap anahtarı:
+
+145
+00:05:09,396 --> 00:05:12,196
+Birinci soru C, ikinci soru D,
+
+146
+00:05:12,196 --> 00:05:13,556
+üçüncü soru B.
+
+147
+00:05:13,556 --> 00:05:14,916
+Kaç tanesini bildiniz?
+
+148
+00:05:14,916 --> 00:05:16,036
+Yorumlara yazın.
+
+149
+00:05:16,036 --> 00:05:19,236
+Böylece tarife derslerinin 12'ncisini de tamamladık.
+
+150
+00:05:19,236 --> 00:05:22,276
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+151
+00:05:22,276 --> 00:05:22,996
+unutmayın.
+
+152
+00:05:22,996 --> 00:05:24,836
+Bir sonraki derste görüşmek üzere.
+
+153
+00:05:24,836 --> 00:05:25,834
+Hoşça kalın!

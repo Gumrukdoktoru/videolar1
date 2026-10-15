@@ -1,0 +1,65 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin on üçüncüsüne hoş geldiniz. Bugün üç soru var: periskop, tansiyon aleti ve Türk müziği çalgıları. Ekip hazır: Stajyer, Yardımcı, Gümrükçü Baba ve Cano. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru 1",
+  "hold": 3.6,
+  "text": "Birinci soru. Bir denizaltında kullanılmak üzere, denizaltıdan ayrı olarak ithal edilen periskop hangi tarife pozisyonunda sınıflandırılır? A şıkkı: seksen dokuz sıfır altı. B şıkkı: doksan sıfır beş. C şıkkı: doksan on üç. D şıkkı: doksan on beş. E şıkkı: doksan üç sıfır beş. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s03",
+  "title": "Çözüm 1",
+  "text": "Cevap: C şıkkı. Periskop bir optik alettir; ilk akla gelen yer, dürbün ve teleskopların bulunduğu doksan sıfır beştir. Ama doksanıncı faslın dördüncü notu, denizaltı ve tanklar için periskopik teleskopları doksan sıfır beşin dışında bırakır. Doksan on üç de silahlar için teleskopik dürbünleri ve periskopları adıyla sayar. Doğru pozisyon: doksan on üç. Denizaltının kendisi ise seksen dokuz sıfır altıdadır."
+ },
+ {
+  "id": "s04",
+  "title": "Tuzak 1",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, periskop da bir teleskoptur diye B şıkkını, doksan sıfır beşi seçti. Hayır! Fasıl notu açık: Denizaltı ve tanklar için periskopik teleskoplar doksan sıfır beşe girmez, doksan on üçtedir. Bir de dikkat: Doksanıncı fasıldaki ya da on altıncı bölümdeki makinelere ait teleskoplar da doksan on üçe gider. Kısa yol: Önce fasıl notunu okuyun."
+ },
+ {
+  "id": "s05",
+  "title": "Soru 2",
+  "hold": 3.6,
+  "text": "İkinci soru. Kola sarılan bir manşonla kan basıncını ölçen dijital tansiyon aleti hangi tarife pozisyonunda sınıflandırılır? A şıkkı: seksen beş kırk üç. B şıkkı: doksan on sekiz. C şıkkı: doksan yirmi beş. D şıkkı: doksan yirmi altı. E şıkkı: doksan otuz bir. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s06",
+  "title": "Çözüm 2",
+  "text": "Cevap: B şıkkı. Tansiyon aleti bir basınç ölçer gibi görünse de tıpta teşhis için kullanılır. Doksan on sekizin açıklama notu, kan basıncını ölçmeye mahsus sfigmomanometreleri ve tansiyometreleri, stetoskoplarla birlikte adıyla sayar. Doksan yirmi altı ise sıvı ve gazların basıncını ölçen manometreler içindir; doksan yirmi beş termometrelerin yeridir. Doğru pozisyon: doksan on sekiz. Elektronik olması da onu seksen beş kırk üçe götürmez."
+ },
+ {
+  "id": "s07",
+  "title": "Tuzak 2",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, basınç ölçüyor diye D şıkkını, doksan yirmi altıyı seçti. Hayır! Doksan yirmi altı, sıvı ve gazların akışını, seviyesini ve basıncını ölçen cihazlar içindir. Kan basıncını ölçen tansiyon aleti tıbbi bir alettir; açıklama notunda adıyla sayıldığı için doksan on sekizdedir. Bir de dikkat: Ateş ölçen klinik termometreler ise doksan yirmi beştedir. Gümrükçü Baba'nın kısa yolu: Kimin basıncını ölçüyor?"
+ },
+ {
+  "id": "s08",
+  "title": "Soru 3",
+  "hold": 3.6,
+  "text": "Üçüncü soru. Aşağıdaki çalgılardan hangisi tarife cetvelinde diğerlerinden farklı bir pozisyonda sınıflandırılır? A şıkkı: Bağlama. B şıkkı: Ud. C şıkkı: Kanun. D şıkkı: Kemençe. E şıkkı: Darbuka. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s09",
+  "title": "Çözüm 3",
+  "text": "Cevap: E şıkkı. Bağlama, ud, kanun ve kemençe telli çalgılardır; telleri mızrapla, parmakla ya da yayla çalınsa da doksan iki sıfır ikide, gitar, keman ve arp gibi telli diğer müzik aletleri arasında yer alırlar. Darbuka ise gerdirilmiş deriye elle vurularak çalınır. Doksan iki sıfır altının açıklama notu, darbukaları ve tefleri adıyla sayar; darbuka vurmalı bir çalgıdır."
+ },
+ {
+  "id": "s10",
+  "title": "Tuzak 3",
+  "text": "[cautiously] Tuzak nerede? Cano, kemençe yayla çalınıyor, telli sayılmaz diye D şıkkını seçti. Hayır! Doksan iki sıfır iki, keman gibi yaylı çalgıları da kapsar; kemençe de bir telli çalgıdır. Bir de dikkat: Ses kutusu olmayan, sesi elektrikle yükseltilen elektro gitar gibi çalgılar ise doksan iki sıfır yedidedir. Kısa yol: Tel mi titriyor, deri mi?"
+ },
+ {
+  "id": "s11",
+  "title": "Koçun Notu",
+  "text": "[warmly] Koçun notu: Bugünün üç kuralı. Bir: Optik alette fasıl notunu okuyun; periskop doksan on üçtedir. İki: Ölçme aletinde neyi ölçtüğüne bakın; kan basıncını ölçen alet tıbbidir, doksan on sekiz. Üç: Çalgıda sesin kaynağına bakın; tel titriyorsa doksan iki sıfır iki, deriye vuruluyorsa doksan iki sıfır altı."
+ },
+ {
+  "id": "s12",
+  "title": "Cevap Anahtarı",
+  "text": "Bugünün cevap anahtarı: Birinci soru C, ikinci soru B, üçüncü soru E. Kaç tanesini bildiniz? Yorumlara yazın. Böylece tarife derslerinin on üçüncüsünü de tamamladık. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki derste görüşmek üzere. Hoşça kalın!"
+ }
+]

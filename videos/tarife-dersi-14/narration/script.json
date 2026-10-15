@@ -1,0 +1,65 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin on dördüncüsüne hoş geldiniz. Bugün üç soru var: lokanta semaveri, kalem fener ve pozisyon sırası. Ekip hazır: Stajyer, Yardımcı, Gümrükçü Baba ve Cano. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru 1",
+  "hold": 3.6,
+  "text": "Birinci soru. Bir lokantanın mutfağında kullanılmak üzere ithal edilen, tezgâh tipi, elektrikle ısıtılan büyük çay semaveri hangi tarife pozisyonunda sınıflandırılır? A şıkkı: seksen dört on dokuz. B şıkkı: seksen beş on dört. C şıkkı: seksen beş on altı. D şıkkı: seksen beş kırk üç. E şıkkı: doksan dört sıfır üç. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s03",
+  "title": "Çözüm 1",
+  "text": "Cevap: A şıkkı. Elektrikle ısıtılan bir semaver, ilk bakışta ev tipi elektrikli cihazların yeri olan seksen beş on altıyı düşündürür. Ama seksen beş on altının açıklama notu, lokantalarda kullanılan tezgâh tipi kahve perkolatörlerini, çay ve süt semaverlerini ve normalde evlerde kullanılmayan diğer elektrotermik cihazları bu pozisyonun dışında bırakır. Bunlar seksen dört on dokuzda, ısıtma ve pişirme cihazları arasında yer alır. Doğru pozisyon: seksen dört on dokuz. Evde kullanılan küçük semaver ise seksen beş on altıda kalır."
+ },
+ {
+  "id": "s04",
+  "title": "Tuzak 1",
+  "text": "[cautiously] Tuzak nerede? Cano, elektrikli ısıtıcı ev aletidir diye C şıkkını, seksen beş on altıyı seçti. Hayır! Seksen beş on altı, normalde evlerde kullanılan türden cihazlar içindir; lokanta tipi semaver seksen dört on dokuzdadır. Bir de dikkat: Restoranlarda kullanılmak için tasarlanmış mikrodalga fırınlar da seksen beş on altıya değil, seksen beş on dörde gider. Kısa yol: Evde mi, lokantada mı?"
+ },
+ {
+  "id": "s05",
+  "title": "Soru 2",
+  "hold": 3.6,
+  "text": "İkinci soru. Bir ucunda tükenmez kalem, diğer ucunda pille çalışan küçük bir LED el feneri bulunan kalem fener, perakende satışa sunuluyor. Eşyanın esas niteliğinin belirlenemediği kabul edilirse, hangi kurala göre hangi pozisyonda sınıflandırılır? A şıkkı: seksen beş on üç, kural bir. B şıkkı: seksen beş on üç, kural üç be. C şıkkı: doksan altı sıfır sekiz, kural üç a. D şıkkı: doksan altı sıfır sekiz, kural üç ce. E şıkkı: Ayrı ayrı, kural bir. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s06",
+  "title": "Çözüm 2",
+  "text": "Cevap: D şıkkı. Kalem fener, iki ayrı pozisyonda tanımlanan iki eşyanın birleşimidir: tükenmez kalem doksan altı sıfır sekizde, kendi pili olan portatif el feneri seksen beş on üçte. Kural üç a'ya göre iki pozisyon da eşyanın yalnız bir kısmını tanımladığı için eşit derecede özel sayılır. Kural üç be ile esas nitelik aranır; ama esas nitelik belirlenemiyor. O hâlde kural üç ce uygulanır; numara sırasına göre en son pozisyon, yani doksan altı sıfır sekiz seçilir. Ayrı ayrı sınıflandırma ise yanlıştır; eşya tek parçadır."
+ },
+ {
+  "id": "s07",
+  "title": "Tuzak 2",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, ışık veren kısım daha önemli diye B şıkkını, seksen beş on üçü seçti. Hayır! Esas niteliği gerekçesiz seçemezsiniz; soru, esas niteliğin belirlenemediğini söylüyor. Bu durumda kural üç ce devreye girer ve numara sırasına göre en son pozisyon seçilir. Bir de dikkat: Üç ce'ye ancak üç a ve üç be sonuç vermezse geçilir; sıra atlanmaz. Gümrükçü Baba'nın kısa yolu: Önce üç a, sonra üç be, en son üç ce."
+ },
+ {
+  "id": "s08",
+  "title": "Soru 3",
+  "hold": 3.6,
+  "text": "Üçüncü soru. Aşağıdakilerden hangisinde eşyalar, tarife cetvelindeki pozisyon numaralarına göre küçükten büyüğe doğru sıralanmıştır? A şıkkı: Kolonya, yumurtalı erişte, plastik su şişesi, kâğıt alışveriş torbası. B şıkkı: Yumurtalı erişte, kolonya, kâğıt alışveriş torbası, plastik su şişesi. C şıkkı: Plastik su şişesi, kolonya, yumurtalı erişte, kâğıt alışveriş torbası. D şıkkı: Yumurtalı erişte, plastik su şişesi, kolonya, kâğıt alışveriş torbası. E şıkkı: Yumurtalı erişte, kolonya, plastik su şişesi, kâğıt alışveriş torbası. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s09",
+  "title": "Çözüm 3",
+  "text": "Cevap: E şıkkı. Yumurtalı erişte bir makarnadır: on dokuz sıfır iki. Kolonya bir tuvalet suyudur: otuz üç sıfır üç. Plastik su şişesi, eşya taşıma ve ambalajlamaya mahsus plastik eşyadır: otuz dokuz yirmi üç. Kâğıt alışveriş torbası ise kâğıttan torbaların yeri olan kırk sekiz on dokuzdadır. Diğer şıklarda en az bir eşya yanlış yerde."
+ },
+ {
+  "id": "s10",
+  "title": "Tuzak 3",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, ambalajlar en sona kalır diye torbayı şişeden önceye koydu ve B şıkkını seçti. Hayır! Plastik şişe otuz dokuzuncu fasılda, kâğıt torba kırk sekizinci fasılda; plastik, kâğıttan önce gelir. Bir de dikkat: Kolonya alkol içerdiği hâlde yirmi ikinci fasla değil, otuz üç sıfır üçe, parfümler ve tuvalet suları arasına girer. Gümrükçü Baba'nın kısa yolu: Önce faslı bul, sonra sırala."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun Notu",
+  "text": "[warmly] Koçun notu: Bugünün üç kuralı. Bir: Ev tipi mi, lokanta tipi mi diye sorun; lokanta semaveri seksen dört on dokuzdur. İki: Kural üçte sıra bozulmaz; esas nitelik yoksa numara sırasına göre en son pozisyon seçilir. Üç: Sıralamada önce her eşyanın faslını bulun, sonra küçükten büyüğe dizin."
+ },
+ {
+  "id": "s12",
+  "title": "Cevap Anahtarı",
+  "text": "Bugünün cevap anahtarı: Birinci soru A, ikinci soru D, üçüncü soru E. Kaç tanesini bildiniz? Yorumlara yazın. Böylece tarife derslerinin on dördüncüsünü de tamamladık. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki derste görüşmek üzere. Hoşça kalın!"
+ }
+]

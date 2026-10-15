@@ -1,0 +1,651 @@
+1
+00:00:01,680 --> 00:00:04,800
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,800 --> 00:00:06,720
+14'üncüsüne hoş geldiniz.
+
+3
+00:00:06,720 --> 00:00:08,120
+Bugün 3 soru var:
+
+4
+00:00:08,120 --> 00:00:11,720
+lokanta semaveri, kalem fener ve pozisyon sırası.
+
+5
+00:00:11,720 --> 00:00:12,720
+Ekip hazır:
+
+6
+00:00:12,720 --> 00:00:16,027
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+7
+00:00:16,027 --> 00:00:18,203
+Kâğıt kalem hazırsa, başlayalım.
+
+8
+00:00:18,953 --> 00:00:20,203
+Birinci soru.
+
+9
+00:00:20,233 --> 00:00:22,873
+Bir lokantanın mutfağında kullanılmak üzere ithal
+
+10
+00:00:22,873 --> 00:00:25,993
+edilen, tezgâh tipi, elektrikle ısıtılan büyük
+
+11
+00:00:25,993 --> 00:00:29,443
+çay semaveri hangi tarife pozisyonunda sınıflandırılır?
+
+12
+00:00:29,673 --> 00:00:30,563
+A şıkkı:
+
+13
+00:00:30,633 --> 00:00:32,473
+84.19.
+
+14
+00:00:32,473 --> 00:00:33,393
+B şıkkı:
+
+15
+00:00:33,393 --> 00:00:35,153
+85.14.
+
+16
+00:00:35,153 --> 00:00:36,033
+C şıkkı:
+
+17
+00:00:36,033 --> 00:00:37,753
+85.16.
+
+18
+00:00:37,753 --> 00:00:38,633
+D şıkkı:
+
+19
+00:00:38,633 --> 00:00:40,313
+85.43.
+
+20
+00:00:40,313 --> 00:00:41,153
+E şıkkı:
+
+21
+00:00:41,153 --> 00:00:43,183
+94.03.
+
+22
+00:00:43,183 --> 00:00:45,090
+3 saniye, düşünün!
+
+23
+00:00:49,440 --> 00:00:50,240
+Cevap:
+
+24
+00:00:50,240 --> 00:00:51,130
+A şıkkı.
+
+25
+00:00:51,280 --> 00:00:53,360
+Elektrikle ısıtılan bir semaver,
+
+26
+00:00:53,360 --> 00:00:56,120
+ilk bakışta ev tipi elektrikli cihazların yeri
+
+27
+00:00:56,120 --> 00:00:58,320
+olan 85.16'yı düşündürür.
+
+28
+00:00:58,320 --> 00:01:00,800
+Ama 85.16'nın açıklama notu,
+
+29
+00:01:00,800 --> 00:01:04,560
+lokantalarda kullanılan tezgâh tipi kahve perkolatörlerini,
+
+30
+00:01:04,560 --> 00:01:08,400
+çay ve süt semaverlerini ve normalde evlerde kullanılmayan
+
+31
+00:01:08,400 --> 00:01:11,200
+diğer elektrotermik cihazları bu pozisyonun dışında
+
+32
+00:01:11,200 --> 00:01:11,973
+bırakır.
+
+33
+00:01:11,973 --> 00:01:16,000
+Bunlar 84.19'da, ısıtma ve pişirme cihazları arasında
+
+34
+00:01:16,000 --> 00:01:16,800
+yer alır.
+
+35
+00:01:16,800 --> 00:01:17,880
+Doğru pozisyon:
+
+36
+00:01:17,880 --> 00:01:19,360
+84.19.
+
+37
+00:01:19,360 --> 00:01:23,257
+Evde kullanılan küçük semaver ise 85.16'da kalır.
+
+38
+00:01:24,087 --> 00:01:25,577
+Tuzak nerede?
+
+39
+00:01:25,607 --> 00:01:29,527
+Cano, elektrikli ısıtıcı ev aletidir diye C şıkkını,
+
+40
+00:01:29,527 --> 00:01:31,207
+85.16'yı seçti.
+
+41
+00:01:31,207 --> 00:01:32,007
+Hayır!
+
+42
+00:01:32,007 --> 00:01:35,567
+85.16, normalde evlerde kullanılan türden cihazlar
+
+43
+00:01:35,567 --> 00:01:36,327
+içindir;
+
+44
+00:01:36,327 --> 00:01:39,367
+lokanta tipi semaver 84.19'dadır.
+
+45
+00:01:39,367 --> 00:01:40,407
+Bir de dikkat:
+
+46
+00:01:40,407 --> 00:01:43,207
+Restoranlarda kullanılmak için tasarlanmış mikrodalga
+
+47
+00:01:43,207 --> 00:01:45,527
+fırınlar da 85.16'ya değil,
+
+48
+00:01:45,527 --> 00:01:47,207
+85.14'e gider.
+
+49
+00:01:47,207 --> 00:01:48,007
+Kısa yol:
+
+50
+00:01:48,007 --> 00:01:49,883
+Evde mi, lokantada mı?
+
+51
+00:01:50,633 --> 00:01:51,963
+İkinci soru.
+
+52
+00:01:51,993 --> 00:01:53,753
+Bir ucunda tükenmez kalem,
+
+53
+00:01:53,753 --> 00:01:56,873
+diğer ucunda pille çalışan küçük bir LED el feneri
+
+54
+00:01:56,873 --> 00:01:59,913
+bulunan kalem fener, perakende satışa sunuluyor.
+
+55
+00:01:59,913 --> 00:02:02,553
+Eşyanın esas niteliğinin belirlenemediği kabul
+
+56
+00:02:02,553 --> 00:02:06,643
+edilirse, hangi kurala göre hangi pozisyonda sınıflandırılır?
+
+57
+00:02:06,713 --> 00:02:07,523
+A şıkkı:
+
+58
+00:02:07,673 --> 00:02:09,993
+85.13, GYK 1.
+
+59
+00:02:09,993 --> 00:02:10,953
+B şıkkı:
+
+60
+00:02:10,953 --> 00:02:13,433
+85.13, GYK 3(b).
+
+61
+00:02:13,433 --> 00:02:14,393
+C şıkkı:
+
+62
+00:02:14,393 --> 00:02:17,273
+96.08, GYK 3(a).
+
+63
+00:02:17,273 --> 00:02:18,233
+D şıkkı:
+
+64
+00:02:18,233 --> 00:02:21,193
+96.08, GYK 3(c).
+
+65
+00:02:21,193 --> 00:02:22,153
+E şıkkı:
+
+66
+00:02:22,153 --> 00:02:23,870
+Ayrı ayrı, GYK 1.
+
+67
+00:02:24,873 --> 00:02:26,671
+3 saniye, düşünün!
+
+68
+00:02:31,021 --> 00:02:31,821
+Cevap:
+
+69
+00:02:31,821 --> 00:02:32,711
+D şıkkı.
+
+70
+00:02:32,861 --> 00:02:35,821
+Kalem fener, iki ayrı pozisyonda tanımlanan iki
+
+71
+00:02:35,821 --> 00:02:37,421
+eşyanın birleşimidir:
+
+72
+00:02:37,421 --> 00:02:39,981
+tükenmez kalem 96.08'de,
+
+73
+00:02:39,981 --> 00:02:43,581
+kendi pili olan portatif el feneri 85.13'te.
+
+74
+00:02:43,581 --> 00:02:47,061
+GYK 3(a)'ya göre iki pozisyon da eşyanın yalnız
+
+75
+00:02:47,061 --> 00:02:49,661
+bir kısmını tanımladığı için eşit derecede özel
+
+76
+00:02:49,661 --> 00:02:50,381
+sayılır.
+
+77
+00:02:50,381 --> 00:02:53,021
+GYK 3(b) ile esas nitelik aranır;
+
+78
+00:02:53,021 --> 00:02:55,101
+ama esas nitelik belirlenemiyor.
+
+79
+00:02:55,101 --> 00:02:57,501
+O hâlde GYK 3(c) uygulanır;
+
+80
+00:02:57,501 --> 00:02:59,781
+numara sırasına göre en son pozisyon,
+
+81
+00:02:59,781 --> 00:03:02,181
+yani 96.08 seçilir.
+
+82
+00:03:02,181 --> 00:03:04,621
+Ayrı ayrı sınıflandırma ise yanlıştır;
+
+83
+00:03:04,621 --> 00:03:06,197
+eşya tek parçadır.
+
+84
+00:03:07,027 --> 00:03:08,467
+Tuzak nerede?
+
+85
+00:03:08,467 --> 00:03:11,427
+Yardımcımız, ışık veren kısım daha önemli diye
+
+86
+00:03:11,427 --> 00:03:13,987
+B şıkkını, 85.13'ü seçti.
+
+87
+00:03:13,987 --> 00:03:14,787
+Hayır!
+
+88
+00:03:14,787 --> 00:03:17,347
+Esas niteliği gerekçesiz seçemezsiniz;
+
+89
+00:03:17,347 --> 00:03:20,187
+soru, esas niteliğin belirlenemediğini söylüyor.
+
+90
+00:03:20,187 --> 00:03:23,387
+Bu durumda GYK 3(c) devreye girer ve numara sırasına
+
+91
+00:03:23,387 --> 00:03:25,427
+göre en son pozisyon seçilir.
+
+92
+00:03:25,427 --> 00:03:26,467
+Bir de dikkat:
+
+93
+00:03:26,467 --> 00:03:30,467
+3(c)'ye ancak 3(a) ve 3(b) sonuç vermezse geçilir;
+
+94
+00:03:30,467 --> 00:03:31,827
+sıra atlanmaz.
+
+95
+00:03:31,827 --> 00:03:33,627
+Gümrükçü Baba'nın kısa yolu:
+
+96
+00:03:33,627 --> 00:03:37,395
+Önce 3(a), sonra 3(b), en son 3(c).
+
+97
+00:03:38,145 --> 00:03:39,195
+Üçüncü soru.
+
+98
+00:03:39,345 --> 00:03:42,025
+Aşağıdakilerden hangisinde eşyalar,
+
+99
+00:03:42,025 --> 00:03:44,705
+tarife cetvelindeki pozisyon numaralarına göre
+
+100
+00:03:44,705 --> 00:03:47,355
+küçükten büyüğe doğru sıralanmıştır?
+
+101
+00:03:47,425 --> 00:03:48,315
+A şıkkı:
+
+102
+00:03:48,465 --> 00:03:50,545
+Kolonya, yumurtalı erişte,
+
+103
+00:03:50,545 --> 00:03:53,755
+plastik su şişesi, kâğıt alışveriş torbası.
+
+104
+00:03:53,985 --> 00:03:54,875
+B şıkkı:
+
+105
+00:03:55,025 --> 00:03:57,105
+Yumurtalı erişte, kolonya,
+
+106
+00:03:57,105 --> 00:03:58,705
+kâğıt alışveriş torbası,
+
+107
+00:03:58,705 --> 00:04:00,465
+plastik su şişesi.
+
+108
+00:04:00,465 --> 00:04:01,425
+C şıkkı:
+
+109
+00:04:01,425 --> 00:04:03,665
+Plastik su şişesi, kolonya,
+
+110
+00:04:03,665 --> 00:04:06,475
+yumurtalı erişte, kâğıt alışveriş torbası.
+
+111
+00:04:06,785 --> 00:04:07,825
+D şıkkı:
+
+112
+00:04:07,825 --> 00:04:10,465
+Yumurtalı erişte, plastik su şişesi,
+
+113
+00:04:10,465 --> 00:04:13,185
+kolonya, kâğıt alışveriş torbası.
+
+114
+00:04:13,185 --> 00:04:14,225
+E şıkkı:
+
+115
+00:04:14,225 --> 00:04:16,145
+Yumurtalı erişte, kolonya,
+
+116
+00:04:16,145 --> 00:04:19,222
+plastik su şişesi, kâğıt alışveriş torbası.
+
+117
+00:04:19,665 --> 00:04:21,471
+3 saniye, düşünün!
+
+118
+00:04:25,821 --> 00:04:26,621
+Cevap:
+
+119
+00:04:26,621 --> 00:04:27,511
+E şıkkı.
+
+120
+00:04:27,581 --> 00:04:29,901
+Yumurtalı erişte bir makarnadır:
+
+121
+00:04:29,901 --> 00:04:31,301
+19.02.
+
+122
+00:04:31,301 --> 00:04:33,261
+Kolonya bir tuvalet suyudur:
+
+123
+00:04:33,261 --> 00:04:34,621
+33.03.
+
+124
+00:04:34,621 --> 00:04:37,941
+Plastik su şişesi, eşya taşıma ve ambalajlamaya
+
+125
+00:04:37,941 --> 00:04:39,661
+mahsus plastik eşyadır:
+
+126
+00:04:39,661 --> 00:04:41,141
+39.23.
+
+127
+00:04:41,141 --> 00:04:43,981
+Kâğıt alışveriş torbası ise kâğıttan torbaların
+
+128
+00:04:43,981 --> 00:04:46,181
+yeri olan 48.19'dadır.
+
+129
+00:04:46,181 --> 00:04:49,271
+Diğer şıklarda en az bir eşya yanlış yerde.
+
+130
+00:04:50,150 --> 00:04:51,590
+Tuzak nerede?
+
+131
+00:04:51,590 --> 00:04:54,790
+Stajyerimiz, ambalajlar en sona kalır diye torbayı
+
+132
+00:04:54,790 --> 00:04:57,750
+şişeden önceye koydu ve B şıkkını seçti.
+
+133
+00:04:57,750 --> 00:04:58,550
+Hayır!
+
+134
+00:04:58,550 --> 00:05:00,870
+Plastik şişe 39. fasılda,
+
+135
+00:05:00,870 --> 00:05:03,030
+kâğıt torba 48. fasılda;
+
+136
+00:05:03,030 --> 00:05:05,030
+plastik, kâğıttan önce gelir.
+
+137
+00:05:05,030 --> 00:05:05,990
+Bir de dikkat:
+
+138
+00:05:05,990 --> 00:05:09,270
+Kolonya alkol içerdiği hâlde 22. fasla değil,
+
+139
+00:05:09,270 --> 00:05:13,190
+33.03'e, parfümler ve tuvalet suları arasına girer.
+
+140
+00:05:13,190 --> 00:05:14,880
+Gümrükçü Baba'nın kısa yolu:
+
+141
+00:05:14,950 --> 00:05:17,331
+Önce faslı bul, sonra sırala.
+
+142
+00:05:18,161 --> 00:05:19,281
+Koçun notu:
+
+143
+00:05:19,281 --> 00:05:20,761
+Bugünün 3 kuralı.
+
+144
+00:05:20,761 --> 00:05:21,521
+Bir:
+
+145
+00:05:21,521 --> 00:05:23,921
+Ev tipi mi, lokanta tipi mi diye sorun;
+
+146
+00:05:23,921 --> 00:05:26,881
+lokanta semaveri 84.19'dur.
+
+147
+00:05:26,881 --> 00:05:27,561
+İki:
+
+148
+00:05:27,561 --> 00:05:29,481
+GYK 3'te sıra bozulmaz;
+
+149
+00:05:29,481 --> 00:05:32,241
+esas nitelik yoksa numara sırasına göre en son
+
+150
+00:05:32,241 --> 00:05:33,681
+pozisyon seçilir.
+
+151
+00:05:33,681 --> 00:05:34,361
+Üç:
+
+152
+00:05:34,361 --> 00:05:37,041
+Sıralamada önce her eşyanın faslını bulun,
+
+153
+00:05:37,041 --> 00:05:38,971
+sonra küçükten büyüğe dizin.
+
+154
+00:05:39,770 --> 00:05:41,450
+Bugünün cevap anahtarı:
+
+155
+00:05:41,450 --> 00:05:44,170
+Birinci soru A, ikinci soru D,
+
+156
+00:05:44,170 --> 00:05:45,460
+üçüncü soru E.
+
+157
+00:05:45,530 --> 00:05:46,970
+Kaç tanesini bildiniz?
+
+158
+00:05:46,970 --> 00:05:48,090
+Yorumlara yazın.
+
+159
+00:05:48,090 --> 00:05:51,450
+Böylece tarife derslerinin 14'üncüsünü de tamamladık.
+
+160
+00:05:51,450 --> 00:05:54,410
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+161
+00:05:54,410 --> 00:05:55,157
+unutmayın.
+
+162
+00:05:55,157 --> 00:05:56,970
+Bir sonraki derste görüşmek üzere.
+
+163
+00:05:56,970 --> 00:05:57,966
+Hoşça kalın!
