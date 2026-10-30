@@ -1,0 +1,65 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin on yedincisine hoş geldiniz. Bugün üç soru var: hint yağı, porselen bebek ve pozisyon sırası. Ekip hazır: Stajyer, Yardımcı, Gümrükçü Baba ve Cano. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru 1",
+  "hold": 3.6,
+  "text": "Birinci soru. Sülfürik asitle muamele edilerek sülfonlanmış hint yağı, yani Türk kırmızısı yağı, hangi tarife pozisyonunda sınıflandırılır? A şıkkı: on beş on beş. B şıkkı: on beş on altı. C şıkkı: on beş on sekiz. D şıkkı: otuz dört sıfır iki. E şıkkı: otuz sekiz yirmi üç. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s03",
+  "title": "Çözüm 1",
+  "text": "Cevap: D şıkkı. Hint yağının kendisi bitkisel bir sabit yağdır ve on beş on beşte yer alır. Ama sülfürik asitle muamele edilip sülfonlanınca yüzey aktif bir maddeye dönüşür. On beşinci faslın birinci notu sülfonatlı yağları bu fasıl dışında bırakır; on beş on sekizin açıklama notu da sülfonlanmış yağları adıyla otuz dört sıfır ikiye gönderir. Doğru pozisyon: otuz dört sıfır iki. Sülfonlama yağı kimyasal olarak değiştirdiği için artık sıradan bir yağ değil, yüzey aktif maddedir."
+ },
+ {
+  "id": "s04",
+  "title": "Tuzak 1",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, on beş on sekizin metninde kükürtlenmiş yağlar yazıyor diye C şıkkını seçti. Hayır! Kükürtlenmiş yağ ile sülfonlanmış yağ aynı şey değildir. Sülfonlanmış yağlar on beş on sekizin açıklama notunda açıkça hariç tutulur ve otuz dört sıfır ikiye gönderilir. Bir de dikkat: Hint yağı hiçbir işlem görmeden gelirse on beş on beşte kalır. Kısa yol: Sülfonlandıysa artık yağ değil."
+ },
+ {
+  "id": "s05",
+  "title": "Soru 2",
+  "hold": 3.6,
+  "text": "İkinci soru. Çocukların oynaması için değil, süs amacıyla yapılmış, giydirilmiş porselen salon bebeği hangi tarife pozisyonunda sınıflandırılır? A şıkkı: altmış dokuz on bir. B şıkkı: altmış dokuz on üç. C şıkkı: doksan beş sıfır üç. D şıkkı: doksan altı on sekiz. E şıkkı: doksan yedi sıfır üç. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s06",
+  "title": "Çözüm 2",
+  "text": "Cevap: C şıkkı. Porselenden yapılmış bir süs eşyası ilk bakışta altmış dokuz on üçü düşündürür. Ama doksan beş sıfır üçün açıklama notu, yalnızca çocukların eğlenmesine mahsus bebekleri değil, salon bebekleri ve maskot bebekler gibi dekoratif amaçlı yapma bebekleri de bu pozisyona alır; bebeklerin seramikten yapılabileceğini de söyler. Altmış dokuzuncu faslın ikinci notu da doksan beşinci fasıldaki eşyayı bu fasıl dışında bırakır. Doğru pozisyon: doksan beş sıfır üç. Vitrin mankenleri ise doksan altı on sekizdedir."
+ },
+ {
+  "id": "s07",
+  "title": "Tuzak 2",
+  "text": "[cautiously] Tuzak nerede? Cano, çocuk oynamıyor, o hâlde oyuncak değil, porselen bir süs eşyasıdır diye B şıkkını, altmış dokuz on üçü seçti. Hayır! Doksan beş sıfır üç, dekoratif amaçlı salon bebeklerini de kapsar; bebek seramikten de olsa bu pozisyondadır. Bir de dikkat: Bebek değil de seramikten bir hayvan biblosu olsaydı, o zaman altmış dokuz on üçe giderdi. Kısa yol: Bebekse doksan beş, biblosa altmış dokuz."
+ },
+ {
+  "id": "s08",
+  "title": "Soru 3",
+  "hold": 3.6,
+  "text": "Üçüncü soru. Aşağıdakilerden hangisinde eşyalar, tarife cetvelindeki pozisyon numaralarına göre küçükten büyüğe doğru sıralanmıştır? A şıkkı: Bambu yemek çubuğu, şekerli kondanse süt, ayakla çalışan bisiklet pompası, para sayma makinesi. B şıkkı: Şekerli kondanse süt, bambu yemek çubuğu, ayakla çalışan bisiklet pompası, para sayma makinesi. C şıkkı: Şekerli kondanse süt, bambu yemek çubuğu, para sayma makinesi, ayakla çalışan bisiklet pompası. D şıkkı: Şekerli kondanse süt, ayakla çalışan bisiklet pompası, bambu yemek çubuğu, para sayma makinesi. E şıkkı: Para sayma makinesi, şekerli kondanse süt, bambu yemek çubuğu, ayakla çalışan bisiklet pompası. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s09",
+  "title": "Çözüm 3",
+  "text": "Cevap: B şıkkı. Şekerli kondanse süt, konsantre edilmiş ve şeker katılmış süt olarak sıfır dört sıfır ikidedir. Bambudan yemek çubukları, kırk dört on dokuzda Çin usulü yemek çubukları adıyla geçer. Ayakla çalışan bisiklet pompası bir hava pompasıdır: seksen dört on dört. Para sayma makinesi ise büro makinesi olarak seksen dört yetmiş ikidedir. Diğer şıklarda en az bir eşya yanlış yerde."
+ },
+ {
+  "id": "s10",
+  "title": "Tuzak 3",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, bisiklet pompası bisiklet aksesuarıdır, seksen yedi on dörttedir diye pompayı en sona koydu ve C şıkkını seçti. Hayır! On yedinci bölümün ikinci notu, seksen dört sıfır bir ile seksen dört yetmiş dokuz arasındaki makineleri taşıt parçası saymaz; el veya ayakla çalışan hava pompaları seksen dört on dörttedir. Bir de dikkat: Para sayma makinesi hesap makinesi değildir; seksen dört yetmiş değil, seksen dört yetmiş ikide adıyla geçer. Gümrükçü Baba'nın kısa yolu: Makineyse önce seksen dördüncü fasla bak."
+ },
+ {
+  "id": "s11",
+  "title": "Koçun Notu",
+  "text": "[warmly] Koçun notu: Bugünün üç kuralı. Bir: Kimyasal işlem yağı değiştirir; sülfonlanmış hint yağı otuz dört sıfır ikidir. İki: Bebek, süs için de olsa, porselenden de olsa doksan beş sıfır üçtedir. Üç: Sıralamada taşıtla kullanılan makineyi taşıt parçası sanmayın; bisiklet pompası seksen dört on dört."
+ },
+ {
+  "id": "s12",
+  "title": "Cevap Anahtarı",
+  "text": "Bugünün cevap anahtarı: Birinci soru D, ikinci soru C, üçüncü soru B. Kaç tanesini bildiniz? Yorumlara yazın. Böylece tarife derslerinin on yedincisini de tamamladık. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki derste görüşmek üzere. Hoşça kalın!"
+ }
+]

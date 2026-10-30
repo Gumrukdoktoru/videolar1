@@ -1,0 +1,643 @@
+1
+00:00:01,680 --> 00:00:04,880
+Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin
+
+2
+00:00:04,880 --> 00:00:06,800
+17'ncisine hoş geldiniz.
+
+3
+00:00:06,800 --> 00:00:08,200
+Bugün 3 soru var:
+
+4
+00:00:08,200 --> 00:00:11,320
+hint yağı, porselen bebek ve pozisyon sırası.
+
+5
+00:00:11,320 --> 00:00:12,320
+Ekip hazır:
+
+6
+00:00:12,320 --> 00:00:15,560
+Stajyer, Yardımcı, Gümrükçü Baba ve Cano.
+
+7
+00:00:15,560 --> 00:00:17,811
+Kâğıt kalem hazırsa, başlayalım.
+
+8
+00:00:18,561 --> 00:00:19,811
+Birinci soru.
+
+9
+00:00:19,841 --> 00:00:22,721
+Sülfürik asitle muamele edilerek sülfonlanmış
+
+10
+00:00:22,721 --> 00:00:25,211
+hint yağı, yani Türk kırmızısı yağı,
+
+11
+00:00:25,281 --> 00:00:28,051
+hangi tarife pozisyonunda sınıflandırılır?
+
+12
+00:00:28,081 --> 00:00:28,891
+A şıkkı:
+
+13
+00:00:28,961 --> 00:00:30,401
+15.15.
+
+14
+00:00:30,401 --> 00:00:31,281
+B şıkkı:
+
+15
+00:00:31,281 --> 00:00:32,841
+15.16.
+
+16
+00:00:32,841 --> 00:00:33,691
+C şıkkı:
+
+17
+00:00:33,761 --> 00:00:35,361
+15.18.
+
+18
+00:00:35,361 --> 00:00:36,241
+D şıkkı:
+
+19
+00:00:36,241 --> 00:00:37,841
+34.02.
+
+20
+00:00:37,841 --> 00:00:38,721
+E şıkkı:
+
+21
+00:00:38,721 --> 00:00:40,881
+38.23.
+
+22
+00:00:40,881 --> 00:00:42,765
+3 saniye, düşünün!
+
+23
+00:00:47,115 --> 00:00:47,845
+Cevap:
+
+24
+00:00:47,915 --> 00:00:48,805
+D şıkkı.
+
+25
+00:00:48,955 --> 00:00:51,755
+Hint yağının kendisi bitkisel bir sabit yağdır
+
+26
+00:00:51,755 --> 00:00:53,595
+ve 15.15'te yer alır.
+
+27
+00:00:53,595 --> 00:00:56,715
+Ama sülfürik asitle muamele edilip sülfonlanınca
+
+28
+00:00:56,715 --> 00:00:58,875
+yüzey aktif bir maddeye dönüşür.
+
+29
+00:00:58,875 --> 00:01:02,115
+15. faslın birinci notu sülfonatlı yağları bu
+
+30
+00:01:02,115 --> 00:01:03,515
+fasıl dışında bırakır;
+
+31
+00:01:03,515 --> 00:01:06,715
+15.18'in açıklama notu da sülfonlanmış yağları
+
+32
+00:01:06,715 --> 00:01:09,355
+adıyla 34.02'ye gönderir.
+
+33
+00:01:09,355 --> 00:01:10,475
+Doğru pozisyon:
+
+34
+00:01:10,475 --> 00:01:11,955
+34.02.
+
+35
+00:01:11,955 --> 00:01:14,875
+Sülfonlama yağı kimyasal olarak değiştirdiği için
+
+36
+00:01:14,875 --> 00:01:16,635
+artık sıradan bir yağ değil,
+
+37
+00:01:16,635 --> 00:01:18,372
+yüzey aktif maddedir.
+
+38
+00:01:19,202 --> 00:01:20,692
+Tuzak nerede?
+
+39
+00:01:20,722 --> 00:01:24,602
+Yardımcımız, 15.18'in metninde kükürtlenmiş yağlar
+
+40
+00:01:24,602 --> 00:01:26,882
+yazıyor diye C şıkkını seçti.
+
+41
+00:01:26,882 --> 00:01:27,682
+Hayır!
+
+42
+00:01:27,682 --> 00:01:30,562
+Kükürtlenmiş yağ ile sülfonlanmış yağ aynı şey
+
+43
+00:01:30,562 --> 00:01:31,442
+değildir.
+
+44
+00:01:31,442 --> 00:01:34,642
+Sülfonlanmış yağlar 15.18'in açıklama notunda
+
+45
+00:01:34,642 --> 00:01:38,322
+açıkça hariç tutulur ve 34.02'ye gönderilir.
+
+46
+00:01:38,322 --> 00:01:39,292
+Bir de dikkat:
+
+47
+00:01:39,362 --> 00:01:42,802
+Hint yağı hiçbir işlem görmeden gelirse 15.15'te
+
+48
+00:01:42,802 --> 00:01:43,372
+kalır.
+
+49
+00:01:43,442 --> 00:01:44,242
+Kısa yol:
+
+50
+00:01:44,242 --> 00:01:46,696
+Sülfonlandıysa artık yağ değil.
+
+51
+00:01:47,446 --> 00:01:48,246
+İkinci soru.
+
+52
+00:01:48,246 --> 00:01:50,646
+Çocukların oynaması için değil,
+
+53
+00:01:50,646 --> 00:01:53,606
+süs amacıyla yapılmış, giydirilmiş porselen salon
+
+54
+00:01:53,606 --> 00:01:56,806
+bebeği hangi tarife pozisyonunda sınıflandırılır?
+
+55
+00:01:56,806 --> 00:01:57,686
+A şıkkı:
+
+56
+00:01:57,686 --> 00:01:59,446
+69.11.
+
+57
+00:01:59,446 --> 00:02:00,326
+B şıkkı:
+
+58
+00:02:00,326 --> 00:02:02,086
+69.13.
+
+59
+00:02:02,086 --> 00:02:03,046
+C şıkkı:
+
+60
+00:02:03,046 --> 00:02:04,806
+95.03.
+
+61
+00:02:04,806 --> 00:02:05,766
+D şıkkı:
+
+62
+00:02:05,766 --> 00:02:07,606
+96.18.
+
+63
+00:02:07,606 --> 00:02:08,486
+E şıkkı:
+
+64
+00:02:08,486 --> 00:02:10,566
+97.03.
+
+65
+00:02:10,566 --> 00:02:12,460
+3 saniye, düşünün!
+
+66
+00:02:16,810 --> 00:02:17,690
+Cevap:
+
+67
+00:02:17,690 --> 00:02:18,730
+C şıkkı.
+
+68
+00:02:18,730 --> 00:02:21,850
+Porselenden yapılmış bir süs eşyası ilk bakışta
+
+69
+00:02:21,850 --> 00:02:23,850
+69.13'ü düşündürür.
+
+70
+00:02:23,850 --> 00:02:26,420
+Ama 95.03'ün açıklama notu,
+
+71
+00:02:26,490 --> 00:02:29,210
+yalnızca çocukların eğlenmesine mahsus bebekleri
+
+72
+00:02:29,210 --> 00:02:32,170
+değil, salon bebekleri ve maskot bebekler gibi
+
+73
+00:02:32,170 --> 00:02:34,770
+dekoratif amaçlı yapma bebekleri de bu pozisyona
+
+74
+00:02:34,770 --> 00:02:35,370
+alır;
+
+75
+00:02:35,370 --> 00:02:38,100
+bebeklerin seramikten yapılabileceğini de söyler.
+
+76
+00:02:38,250 --> 00:02:42,330
+69. faslın ikinci notu da 95. fasıldaki eşyayı
+
+77
+00:02:42,330 --> 00:02:43,930
+bu fasıl dışında bırakır.
+
+78
+00:02:43,930 --> 00:02:45,010
+Doğru pozisyon:
+
+79
+00:02:45,010 --> 00:02:46,490
+95.03.
+
+80
+00:02:46,490 --> 00:02:49,582
+Vitrin mankenleri ise 96.18'dedir.
+
+81
+00:02:50,412 --> 00:02:51,902
+Tuzak nerede?
+
+82
+00:02:51,932 --> 00:02:55,172
+Cano, çocuk oynamıyor, o hâlde oyuncak değil,
+
+83
+00:02:55,172 --> 00:02:58,052
+porselen bir süs eşyasıdır diye B şıkkını,
+
+84
+00:02:58,052 --> 00:02:59,812
+69.13'ü seçti.
+
+85
+00:02:59,812 --> 00:03:00,452
+Hayır!
+
+86
+00:03:00,452 --> 00:03:04,372
+95.03, dekoratif amaçlı salon bebeklerini de kapsar;
+
+87
+00:03:04,372 --> 00:03:06,999
+bebek seramikten de olsa bu pozisyondadır.
+
+88
+00:03:06,999 --> 00:03:07,985
+Bir de dikkat:
+
+89
+00:03:07,985 --> 00:03:11,172
+Bebek değil de seramikten bir hayvan biblosu olsaydı,
+
+90
+00:03:11,172 --> 00:03:13,172
+o zaman 69.13'e giderdi.
+
+91
+00:03:13,172 --> 00:03:13,972
+Kısa yol:
+
+92
+00:03:13,972 --> 00:03:16,940
+Bebekse 95, biblosa 69.
+
+93
+00:03:17,690 --> 00:03:18,810
+Üçüncü soru.
+
+94
+00:03:18,810 --> 00:03:21,410
+Aşağıdakilerden hangisinde eşyalar,
+
+95
+00:03:21,410 --> 00:03:24,010
+tarife cetvelindeki pozisyon numaralarına göre
+
+96
+00:03:24,010 --> 00:03:26,580
+küçükten büyüğe doğru sıralanmıştır?
+
+97
+00:03:26,650 --> 00:03:27,460
+A şıkkı:
+
+98
+00:03:27,610 --> 00:03:30,570
+Bambu yemek çubuğu, şekerli kondanse süt,
+
+99
+00:03:30,570 --> 00:03:32,650
+ayakla çalışan bisiklet pompası,
+
+100
+00:03:32,650 --> 00:03:34,300
+para sayma makinesi.
+
+101
+00:03:34,330 --> 00:03:35,290
+B şıkkı:
+
+102
+00:03:35,290 --> 00:03:38,170
+Şekerli kondanse süt, bambu yemek çubuğu,
+
+103
+00:03:38,170 --> 00:03:40,170
+ayakla çalışan bisiklet pompası,
+
+104
+00:03:40,170 --> 00:03:41,820
+para sayma makinesi.
+
+105
+00:03:41,850 --> 00:03:42,810
+C şıkkı:
+
+106
+00:03:42,810 --> 00:03:45,530
+Şekerli kondanse süt, bambu yemek çubuğu,
+
+107
+00:03:45,530 --> 00:03:49,210
+para sayma makinesi, ayakla çalışan bisiklet pompası.
+
+108
+00:03:49,210 --> 00:03:50,170
+D şıkkı:
+
+109
+00:03:50,170 --> 00:03:52,970
+Şekerli kondanse süt, ayakla çalışan bisiklet
+
+110
+00:03:52,970 --> 00:03:55,090
+pompası, bambu yemek çubuğu,
+
+111
+00:03:55,090 --> 00:03:56,650
+para sayma makinesi.
+
+112
+00:03:56,650 --> 00:03:57,530
+E şıkkı:
+
+113
+00:03:57,530 --> 00:04:00,370
+Para sayma makinesi, şekerli kondanse süt,
+
+114
+00:04:00,370 --> 00:04:03,647
+bambu yemek çubuğu, ayakla çalışan bisiklet pompası.
+
+115
+00:04:04,170 --> 00:04:05,979
+3 saniye, düşünün!
+
+116
+00:04:10,329 --> 00:04:11,129
+Cevap:
+
+117
+00:04:11,129 --> 00:04:12,129
+B şıkkı.
+
+118
+00:04:12,129 --> 00:04:15,289
+Şekerli kondanse süt, konsantre edilmiş ve şeker
+
+119
+00:04:15,289 --> 00:04:18,329
+katılmış süt olarak 04.02'dedir.
+
+120
+00:04:18,329 --> 00:04:19,929
+Bambudan yemek çubukları,
+
+121
+00:04:19,929 --> 00:04:23,689
+44.19'da Çin usulü yemek çubukları adıyla geçer.
+
+122
+00:04:23,689 --> 00:04:26,969
+Ayakla çalışan bisiklet pompası bir hava pompasıdır:
+
+123
+00:04:26,969 --> 00:04:28,369
+84.14.
+
+124
+00:04:28,369 --> 00:04:32,889
+Para sayma makinesi ise büro makinesi olarak 84.72'dedir.
+
+125
+00:04:32,889 --> 00:04:35,970
+Diğer şıklarda en az bir eşya yanlış yerde.
+
+126
+00:04:36,800 --> 00:04:38,290
+Tuzak nerede?
+
+127
+00:04:38,320 --> 00:04:41,760
+Stajyerimiz, bisiklet pompası bisiklet aksesuarıdır,
+
+128
+00:04:41,760 --> 00:04:45,760
+87.14'tedir diye pompayı en sona koydu ve C şıkkını
+
+129
+00:04:45,760 --> 00:04:46,600
+seçti.
+
+130
+00:04:46,600 --> 00:04:47,440
+Hayır!
+
+131
+00:04:47,440 --> 00:04:49,440
+17. bölümün ikinci notu,
+
+132
+00:04:49,440 --> 00:04:54,160
+84.01 ile 84.79 arasındaki makineleri taşıt parçası
+
+133
+00:04:54,160 --> 00:04:55,080
+saymaz;
+
+134
+00:04:55,080 --> 00:04:58,880
+el veya ayakla çalışan hava pompaları 84.14'tedir.
+
+135
+00:04:58,880 --> 00:05:00,040
+Bir de dikkat:
+
+136
+00:05:00,040 --> 00:05:02,720
+Para sayma makinesi hesap makinesi değildir;
+
+137
+00:05:02,720 --> 00:05:06,760
+84.70 değil, 84.72'de adıyla geçer.
+
+138
+00:05:06,760 --> 00:05:08,520
+Gümrükçü Baba'nın kısa yolu:
+
+139
+00:05:08,520 --> 00:05:11,556
+Makineyse önce 84. fasla bak.
+
+140
+00:05:12,386 --> 00:05:13,356
+Koçun notu:
+
+141
+00:05:13,506 --> 00:05:15,026
+Bugünün 3 kuralı.
+
+142
+00:05:15,026 --> 00:05:15,596
+Bir:
+
+143
+00:05:15,746 --> 00:05:17,826
+Kimyasal işlem yağı değiştirir;
+
+144
+00:05:17,826 --> 00:05:20,946
+sülfonlanmış hint yağı 34.02'dir.
+
+145
+00:05:20,946 --> 00:05:21,666
+İki:
+
+146
+00:05:21,666 --> 00:05:23,426
+Bebek, süs için de olsa,
+
+147
+00:05:23,426 --> 00:05:26,546
+porselenden de olsa 95.03'tedir.
+
+148
+00:05:26,546 --> 00:05:27,346
+Üç:
+
+149
+00:05:27,346 --> 00:05:30,426
+Sıralamada taşıtla kullanılan makineyi taşıt parçası
+
+150
+00:05:30,426 --> 00:05:31,106
+sanmayın;
+
+151
+00:05:31,106 --> 00:05:33,715
+bisiklet pompası 84.14.
+
+152
+00:05:34,465 --> 00:05:36,225
+Bugünün cevap anahtarı:
+
+153
+00:05:36,225 --> 00:05:39,025
+Birinci soru D, ikinci soru C,
+
+154
+00:05:39,025 --> 00:05:40,315
+üçüncü soru B.
+
+155
+00:05:40,385 --> 00:05:41,825
+Kaç tanesini bildiniz?
+
+156
+00:05:41,825 --> 00:05:42,875
+Yorumlara yazın.
+
+157
+00:05:42,945 --> 00:05:46,385
+Böylece tarife derslerinin 17'ncisini de tamamladık.
+
+158
+00:05:46,385 --> 00:05:49,505
+Bu ders işinize yaradıysa abone olmayı ve paylaşmayı
+
+159
+00:05:49,505 --> 00:05:50,252
+unutmayın.
+
+160
+00:05:50,252 --> 00:05:52,025
+Bir sonraki derste görüşmek üzere.
+
+161
+00:05:52,025 --> 00:05:53,001
+Hoşça kalın!

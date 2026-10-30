@@ -1,0 +1,65 @@
+[
+ {
+  "id": "s01",
+  "title": "Giriş",
+  "text": "[warmly] Merhaba arkadaşlar, Gümrük Koçu'yla tarife derslerinin on altıncısına hoş geldiniz. Bugün üç soru var: satış otomatları, araba krikosu ve aspirin. Ekip hazır: Stajyer, Yardımcı, Gümrükçü Baba ve Cano. Kâğıt kalem hazırsa, başlayalım."
+ },
+ {
+  "id": "s02",
+  "title": "Soru 1",
+  "hold": 3.6,
+  "text": "Birinci soru. Aşağıdakilerden hangisi seksen dört yetmiş altı pozisyonunda sınıflandırılmaz? A şıkkı: Bozuk para veya kartla çalışan, soğutma tertibatlı kutu içecek satış otomatı. B şıkkı: Para bozma makinesi. C şıkkı: Jetonla çalışan tren bileti satış makinesi. D şıkkı: Jetonla çalışan, kahve ve süt karıştırıcısı olan sıcak içecek otomatı. E şıkkı: Ödeme tertibatı olmayan, ofislerde kullanılan sıcak içecek verme makinesi. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s03",
+  "title": "Çözüm 1",
+  "text": "Cevap: E şıkkı. Seksen dört yetmiş altı, otomatik satış makinelerinin pozisyonudur; posta pulu, tren bileti, yiyecek ve içecek satan otomatlar burada yer alır. Açıklama notuna göre para bozma makineleri de bu pozisyona dahildir. Isıtma, soğutma ya da kahve ve süt karıştırma tertibatı olması sonucu değiştirmez; esas işlev satıştır. Ama ödemeyi kabul edecek tertibatı olmayan sıcak veya soğuk içecek verme makineleri, açıklama notunda bu pozisyon dışında bırakılır; ofisteki makine seksen dört on dokuza gider."
+ },
+ {
+  "id": "s04",
+  "title": "Tuzak 1",
+  "text": "[cautiously] Tuzak nerede? Stajyerimiz, soğutucusu var, o hâlde soğutma cihazıdır diye A şıkkındaki otomatı seksen dört on sekize gönderdi ve A şıkkını seçti. Hayır! Soğutma tertibatı olan otomatın da esas işlevi satıştır; seksen dört yetmiş altıdadır. Bir de dikkat: Para almayan sıcak içecek makinesi satış yapmaz; seksen dört on dokuza gider. Gümrükçü Baba'nın kısa yolu: Para alıyor mu?"
+ },
+ {
+  "id": "s05",
+  "title": "Soru 2",
+  "hold": 3.6,
+  "text": "İkinci soru. Otomobilin lastiğini değiştirmek için kullanılan, elle çalıştırılan portatif hidrolik kriko hangi tarife pozisyonunda sınıflandırılır? A şıkkı: seksen iki sıfır beş. B şıkkı: seksen dört yirmi beş. C şıkkı: seksen dört yirmi sekiz. D şıkkı: seksen dört yetmiş dokuz. E şıkkı: seksen yedi sıfır sekiz. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s06",
+  "title": "Çözüm 2",
+  "text": "Cevap: B şıkkı. Kriko bir ağır yük kaldırıcısıdır. Seksen dört yirmi beşin metni krikoları adıyla sayar; açıklama notu da otomobiller için portatif krikoları bu pozisyona koyar. Arabayla birlikte kullanılması onu taşıt parçası yapmaz: On yedinci bölümün ikinci notu, seksen dört sıfır bir ile seksen dört yetmiş dokuz arasındaki makineleri taşıt aksam ve parçası saymaz. Doğru pozisyon: seksen dört yirmi beş. Elle çalışması da onu seksen iki sıfır beşe götürmez; o pozisyon, tarifenin başka yerinde yer almayan el aletleri içindir."
+ },
+ {
+  "id": "s07",
+  "title": "Tuzak 2",
+  "text": "[cautiously] Tuzak nerede? Cano, kriko arabayla birlikte kullanılıyor, araba parçasıdır diye E şıkkını, seksen yedi sıfır sekizi seçti. Hayır! Seksen dört sıfır bir ile seksen dört yetmiş dokuz arasındaki makineler taşıt parçası sayılmaz; kriko seksen dört yirmi beşte adıyla geçer. Bir de dikkat: Aynı kural, taşıtlarda kullanılan pompalar ve kompresörler için de geçerlidir. Kısa yol: Makine mi, parça mı?"
+ },
+ {
+  "id": "s08",
+  "title": "Soru 3",
+  "hold": 3.6,
+  "text": "Üçüncü soru. Aşağıdakilerden hangisi tarife cetvelinde diğerlerinden farklı bir fasılda sınıflandırılır? A şıkkı: Hiçbir maddeyle karıştırılmamış, dökme hâldeki saf o asetilsalisilik asit. B şıkkı: Bir dolgu maddesiyle karıştırılmış, dozlandırılmamış, dökme aspirin. C şıkkı: Dozlandırılmış, perakende satışa hazır aspirin tabletleri. D şıkkı: Tabii maden sularının buharlaştırılmasıyla elde edilen tıbbi tuzlar. E şıkkı: Dökme hâlde, tıbbi amaçla karıştırılmış şifalı bitkiler. [short pause] Üç saniye, düşünün!"
+ },
+ {
+  "id": "s09",
+  "title": "Çözüm 3",
+  "text": "Cevap: A şıkkı. Saf o asetilsalisilik asit, kimyaca belirli yapıda, izole edilmiş bir organik bileşiktir. Yirmi dokuzuncu faslın birinci notu bu tür bileşikleri, safsızlık içerseler bile bu fasla koyar; aspirin etken maddesi yirmi dokuz on sekizde adıyla geçer. Diğer dört eşya ise otuzuncu fasıldadır: Dolgu maddesiyle karıştırılmış dökme aspirin otuz sıfır üçte; tıbbi bitki karışımları ve maden sularından elde edilen tıbbi tuzlar da açıklama notunda adıyla, otuz sıfır üçte; dozlandırılmış aspirin tabletleri ise otuz sıfır dörttedir."
+ },
+ {
+  "id": "s10",
+  "title": "Tuzak 3",
+  "text": "[cautiously] Tuzak nerede? Yardımcımız, bitkiler ilaç değildir diye E şıkkını seçti. Hayır! Tedavi amacıyla karıştırılmış bitkiler, otuz sıfır üçün açıklama notunda adıyla sayılır. Farklı olan, hiçbir maddeyle karıştırılmamış saf etken maddedir; o kimyasaldır, yirmi dokuzuncu fasla girer. Bir de dikkat: Aynı saf madde dozlandırılıp tablet yapılınca artık ilaçtır, otuz sıfır dört. Gümrükçü Baba'nın kısa yolu: Saf mı, karışım mı, doz mu?"
+ },
+ {
+  "id": "s11",
+  "title": "Koçun Notu",
+  "text": "[warmly] Koçun notu: Bugünün üç kuralı. Bir: Otomatta para sorusunu sorun; ödeme alıyorsa seksen dört yetmiş altı, ödeme almayan sıcak içecek makinesi seksen dört on dokuz. İki: Taşıtla kullanılan makine taşıt parçası değildir; kriko seksen dört yirmi beş. Üç: Kimyada saflığa bakın; saf bileşik yirmi dokuzuncu fasıl, karışım ya da doz otuzuncu fasıl."
+ },
+ {
+  "id": "s12",
+  "title": "Cevap Anahtarı",
+  "text": "Bugünün cevap anahtarı: Birinci soru E, ikinci soru B, üçüncü soru A. Kaç tanesini bildiniz? Yorumlara yazın. Böylece tarife derslerinin on altıncısını de tamamladık. Bu ders işinize yaradıysa abone olmayı ve paylaşmayı unutmayın. Bir sonraki derste görüşmek üzere. Hoşça kalın!"
+ }
+]
